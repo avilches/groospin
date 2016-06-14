@@ -1,4 +1,6 @@
-package org.hs5tb.groospin.base
+package org.hs5tb.groospin.checker
+
+import org.hs5tb.groospin.common.IOTools
 
 /**
  * Created by Alberto on 12-Jun-16.
@@ -26,18 +28,11 @@ class CheckResult {
     }
 
     String getShortInfo(String delimiter) {
-        ["\"${systemName}${game ? ":${game}" : ""}\"", totalSize, "\"${humanReadableByteCount(totalSize)}\"", games, roms, wheels, videos].join(delimiter)
+        ["\"${systemName}${game ? ":${game}" : ""}\"", totalSize, "\"${IOTools.humanReadableByteCount(totalSize)}\"", games, roms, wheels, videos].join(delimiter)
     }
 
     String getLongInfo(String delimiter) {
         getShortInfo(delimiter) + delimiter + [themes, artwork1, artwork2, artwork3, artwork4].join(delimiter)
     }
 
-    String humanReadableByteCount(long bytes, boolean si = true) {
-        int unit = si ? 1000 : 1024;
-        if (bytes < unit) return bytes + " B";
-        int exp = (int) (Math.log(bytes) / Math.log(unit));
-        String pre = ((si ? "kMGTPE" : "KMGTPE").charAt(exp - 1) as String) + (si ? "" : "i");
-        return String.format("%.1f %sB", bytes / Math.pow(unit, exp), pre);
-    }
 }

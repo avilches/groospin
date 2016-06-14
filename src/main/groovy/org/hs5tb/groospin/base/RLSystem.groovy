@@ -1,11 +1,42 @@
 package org.hs5tb.groospin.base
 
+import org.hs5tb.groospin.common.IOTools
+
 /**
  * Created by Alberto on 12-Jun-16.
  */
-class System {
+class RLSystem {
     HyperSpin hyperSpin
     String systemName
+    RLEmulator defaultEmulator
+
+    String iniRomPath
+    String iniDefaultEmulator
+    List romPathsList
+
+    Map romMapping
+
+    long calculateRomPathSize() {
+        long totalSize = 0
+        romPathsList?.each { File romFolder -> totalSize += IOTools.folderSize(romFolder) }
+        return totalSize
+    }
+
+    String getRomFilePath(String game) {
+        for (File romPath in romPathsList) {
+            File rom = IOTools.matchesAnyExtension(romPath.absolutePath + "/" + game, defaultEmulator.romExtensions)
+            rom = rom?:IOTools.matchesAnyExtension(romPath.absolutePath + "/" + game + "/" + game, defaultEmulator.romExtensions)
+            if (rom) return rom
+        }
+        return null
+    }
+
+    void loadMapping() {
+
+    }
+
+
+/*
     Set romNames = new TreeSet()
     long totalSize = 0
     EmuConfig emuConfig
@@ -60,20 +91,6 @@ class System {
     }
 
 
-    void calculateRomPathSizeAndloadRomNames() {
-        emuConfig?.romPaths?.each { File romPath ->
-            if (romPath.directory) {
-                romPath.eachFile(FileType.FILES) { File file ->
-                    String name = file.name.contains(".") ? file.name.substring(0, file.name.lastIndexOf(".")) : file.name
-                    romNames << name.toLowerCase()
-                    // println "Adding candidate rom ${file} as ${name.toLowerCase()}"
-                }
-                romPath.eachFileRecurse(FileType.FILES) { File file ->
-                    totalSize += file.size()
-                }
-            }
-        }
-    }
 
     boolean existsInAnyRomPath(String fileToCheck, List<String> extensions) {
         File romFound = emuConfig.romPaths.find { File romPath ->
@@ -111,4 +128,5 @@ class System {
         }
         return false
     }
+*/
 }

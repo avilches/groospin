@@ -1,4 +1,4 @@
-package org.hs5tb.groospin.base
+package org.hs5tb.groospin.common
 
 /**
  * Created by Alberto on 12-Jun-16.
@@ -15,7 +15,7 @@ class IniTools {
             } else {
                 if (line.contains("=")) {
                     int equalsPos = line.indexOf("=")
-                    map[currentSection][line.substring(0, equalsPos).trim()] = line.substring( equalsPos+ 1).trim()
+                    map[currentSection][line.substring(0, equalsPos).trim().toLowerCase()] = line.substring( equalsPos+ 1).trim()
                 }
             }
         }
@@ -34,7 +34,7 @@ class IniTools {
             } else {
                 if ((section == null || section == currentSection) && line.contains("=")) {
                     int equalsPos = line.indexOf("=")
-                    map[line.substring(0, equalsPos).trim()] = line.substring( equalsPos+ 1).trim()
+                    map[line.substring(0, equalsPos).trim().toLowerCase()] = line.substring( equalsPos+ 1).trim()
                 }
             }
         }
@@ -53,7 +53,8 @@ class IniTools {
             } else {
                 if ((section == null || section == currentSection) && line.contains("=")) {
                     values.keySet().find { String key ->
-                        if (line.toLowerCase().startsWith(key.toLowerCase())) {
+                        key = key.toLowerCase().trim()
+                        if (line.toLowerCase().startsWith(key)) {
                             values[key] = line.substring(line.indexOf("=") + 1).trim()
                             return true
                         } else return false

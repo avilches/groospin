@@ -1,6 +1,6 @@
 package org.hs5tb.groospin
 
-import org.hs5tb.groospin.base.IniTools
+import org.hs5tb.groospin.common.IniTools
 import spock.lang.Specification
 import spock.lang.Unroll
 

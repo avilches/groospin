@@ -1,28 +1,25 @@
 package org.hs5tb.groospin.base
 
+import org.hs5tb.groospin.common.IOTools
+import org.hs5tb.groospin.common.IniTools
+
 /**
  * Created by Alberto on 12-Jun-16.
  */
-class HyperSpin extends Report {
+class HyperSpin {
     File hsRoot
     File rlRoot
-
-    String delimiter = ";"
 
     HyperSpin(String hsRoot, String rlRoot) {
         this.hsRoot = new File(hsRoot).canonicalFile
         this.rlRoot = new File(rlRoot).canonicalFile
-        info("HyperSpin root: "+hsRoot)
-        info("RocketLauncher root: "+rlRoot)
+        println("HyperSpin root: "+hsRoot)
+        println("RocketLauncher root: "+rlRoot)
     }
 
-    HyperSpin(String hsRoot, String rlRoot, String reportRoot) {
-        super(new File(reportRoot).canonicalFile)
-        this.hsRoot = new File(hsRoot).canonicalFile
-        this.rlRoot = new File(rlRoot).canonicalFile
-        info("HyperSpin root: "+hsRoot)
-        info("RocketLauncher root: "+rlRoot)
-    }
+/*
+
+    String delimiter = ";"
 
     void listAllSystems() {
         listSystems(getSystems())
@@ -54,29 +51,46 @@ class HyperSpin extends Report {
         log checkResult.getLongInfo(delimiter)
         endHave()
     }
-
-    EmuConfig getEmuConfig(String systemName) {
+*/
+    RLSystem getSystem(String systemName) {
         File systemEmulatorConfig = new File(rlRoot, "Settings/${systemName}/Emulators.ini")
         if (!systemEmulatorConfig.file) {
-            error "${systemEmulatorConfig} not found! no emulator detected for systemName ${systemName}"
             return null
         }
-        def map = ['Rom_Path':null, 'Default_Emulator':null]
+        def map = ['rom_path':null, 'default_emulator':null]
         IniTools.fillMap(systemEmulatorConfig, "ROMS", map)
-        String romPaths = map['Rom_Path']
-        String emulator = map['Default_Emulator']
+        String rom_Path = map['rom_path']
+        String default_Emulator = map['default_emulator']
 
-        EmuConfig emuConfig = new EmuConfig(emulator: emulator)
+        List romPathList = rom_Path?.split("\\|")?.collect { String romPathString -> IOTools.tryRelativeFrom(rlRoot, romPathString) }?:[]
 
-        List romPathList = romPaths.split("\\|").collect { String romPathString ->
-            romPathString = romPathString.replaceAll("\\\\", "/")
-            romPathString.startsWith(".") ? new File(rlRoot, romPathString).canonicalFile : new File(romPathString)
-        }
-        emuConfig.romPaths = romPathList
-        return emuConfig
+        RLSystem system = new RLSystem(hyperSpin: this, systemName: systemName, iniRomPath : rom_Path,
+        iniDefaultEmulator : default_Emulator, defaultEmulator : getEmulator(default_Emulator), romPathsList : romPathList)
+//        rs.loadExes()
+//        debug "$systemName romPathFiles " + rs.emuConfig.rom_Path
+        return system
     }
 
+    Map getGlobalEmulatorsConfig() {
+        File globalEmulatorConfig = new File(rlRoot, "Settings/Global Emulators.ini")
+        IniTools.parseIni(globalEmulatorConfig)
+    }
 
+    RLEmulator getEmulator(String name) {
+        name = name.toLowerCase().trim()
+        Map emulatorConfig = getGlobalEmulatorsConfig()[name]
+
+        String iniEmuPath = emulatorConfig['emu_path']
+        String iniRomExtension = emulatorConfig['rom_extension']
+        String module = emulatorConfig['module']
+        File emuPath = IOTools.tryRelativeFrom(rlRoot, iniEmuPath)
+
+        List romExtensions = iniRomExtension?.split("\\|")?.collect { String ext -> ext.trim().toLowerCase() }?:[]
+
+        RLEmulator emulator = new RLEmulator(name: name, iniEmuPath: iniEmuPath,
+                iniRomExtension: iniRomExtension, emuPath: emuPath, romExtensions: romExtensions, module: module)
+        return emulator
+    }
 
     List getGamesFromSystem(String systemName) {
         File db = new File(hsRoot, "Databases/${systemName}/${systemName}.xml")
@@ -86,24 +100,16 @@ class HyperSpin extends Report {
         }
         def xml = new XmlParser().parseText(db.text)
         return xml.game.collect {
-            if (it.@exe=="true") return null
+            if (it.@exe == "true") return null
             return it.@name
         }.findAll()
     }
 
-    List getSystems() {
+    List getSystemNames() {
         getGamesFromSystem("Main menu")
     }
 
-    System getSystem(String systemName) {
-        System rs = new System(hyperSpin: this, systemName: systemName)
-        rs.emuConfig = getEmuConfig(systemName)
-        rs.calculateRomPathSizeAndloadRomNames()
-        rs.loadExes()
-        debug "$systemName romPathFiles " + rs.emuConfig.romPaths
-        return rs
-    }
-
+                  /*
     CheckResult checkGame(String systemName, String gameName) {
         CheckResult checkResult = check(systemName, [gameName])
         checkResult.game = gameName
@@ -115,46 +121,7 @@ class HyperSpin extends Report {
         check(systemName, getGamesFromSystem(systemName))
     }
 
-    private CheckResult check(String systemName, List games) {
-        System system = getSystem(systemName)
-        // println romFilenames
-        CheckResult checkResult = new CheckResult(systemName: systemName, games: games.size(), totalSize: system.totalSize)
-        games.sort().each { String game ->
-
-            boolean romFound = system.containsRom(game)
-            if (system.mustHaveExe()) {
-                romFound = romFound && system.haveExe(game)
-            }
-
-            haveRom(game)
-
-            checkResult.roms += romFound ? 1 : 0
-            checkResult.wheels += existsInMedia("${systemName}/Images/Wheel/${game}", ["jpg", "png"]) ? 1 : 0
-            checkResult.videos += existsInMedia("${systemName}/Video/${game}", ["mp4", "flv"]) ? 1 : 0
-            checkResult.themes += existsInMedia("${systemName}/Themes/${game}", ["zip"]) ? 1 : 0
-            checkResult.artwork1 += existsInMedia("${systemName}/Images/Artwork1/${game}", ["jpg", "png"]) ? 1 : 0
-            checkResult.artwork2 += existsInMedia("${systemName}/Images/Artwork2/${game}", ["jpg", "png"]) ? 1 : 0
-            checkResult.artwork3 += existsInMedia("${systemName}/Images/Artwork3/${game}", ["jpg", "png"]) ? 1 : 0
-            checkResult.artwork4 += existsInMedia("${systemName}/Images/Artwork4/${game}", ["jpg", "png"]) ? 1 : 0
-
-            if (!romFound) {
-                warn "$systemName Missing rom: ${game}"
-            }
-        }
-        return checkResult
-    }
-
-    boolean existsInMedia(String path, List extensions) {
-        return exists(new File(hsRoot, "Media/${path}"), extensions)
-    }
-
-    boolean exists(File f, List extensions) {
-        return extensions.any { String extension ->
-            File file = new File(f.absolutePath + "." + extension)
-            //        println "Checking for ${file}"
-            file.exists()
-        }
-    }
+    */
 
 }
 

@@ -1,4 +1,4 @@
-package org.hs5tb.groospin.base
+package org.hs5tb.groospin.checker
 
 /**
  * Created by Alberto on 12-Jun-16.
@@ -12,10 +12,11 @@ class Report {
     private File debug
 
     Report() {
+
     }
 
     Report(File reportRoot) {
-        info("Report root: "+reportRoot)
+        println("Report root: " + reportRoot)
         csv = new File(reportRoot, "hs.csv")
         haveList = new File(reportRoot, "have-list.html")
         file = new File(reportRoot, "errors.log")
@@ -24,36 +25,40 @@ class Report {
     }
 
     void haveSystem(String system) {
-        if (haveList) haveList << "${first?"":"</ol>\n"}<h2>${system}</h2><ol>\n"
+        if (haveList) haveList << "${first ? "" : "</ol>\n"}<h2>${system}</h2><ol>\n"
         first = false
     }
+
     void haveRom(String title) {
         if (haveList) haveList << "<li>${title}</li>\n"
     }
+
     void endHave() {
         if (haveList) haveList << "</ol>\n"
         first = true
     }
+
     void info(String it) {
         println it
     }
+
     void log(String it) {
         println("$it")
-        if (csv) csv << it.toString()+"\n"
+        if (csv) csv << it.toString() + "\n"
     }
 
     void error(String it) {
         println("Error: $it")
-        if (file) file << it.toString()+"\n"
+        if (file) file << it.toString() + "\n"
     }
 
     void warn(String it) {
         println("Warning: $it")
-        if (warning) warning << it.toString()+"\n"
+        if (warning) warning << it.toString() + "\n"
     }
 
     void debug(String it) {
-        if (debug) debug << it.toString()+"\n"
+        if (debug) debug << it.toString() + "\n"
     }
 
     void startReport() {
