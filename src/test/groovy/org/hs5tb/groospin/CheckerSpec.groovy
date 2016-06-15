@@ -3,6 +3,7 @@ package org.hs5tb.groospin
 import org.hs5tb.groospin.base.HyperSpin
 import org.hs5tb.groospin.checker.CheckResult
 import org.hs5tb.groospin.checker.Checker
+import spock.lang.Unroll
 
 /*
  * hs5tb
@@ -14,7 +15,7 @@ import org.hs5tb.groospin.checker.Checker
 
 class CheckerSpec extends HSSpecification {
 
-    void "basicCheck"() {
+    void "basic rom and media check"() {
         setup:
         HyperSpin hs = createDefaultHS()
         Checker checker = new Checker(hs)
@@ -34,10 +35,80 @@ class CheckerSpec extends HSSpecification {
         checkResult.wheels == 1
         checkResult.videos == 1
         checkResult.themes == 1
-        checkResult.game == null // Solo tiene valor cuando se le pasa un juego solo
+
+        and: "Solo tiene valor cuando se le pasa un juego solo"
+        checkResult.game == null
+
+        and:
         checkResult.roms == 2
 
-        // No existen las carpetas de roms = 0 bytes
+        and: "No existen las carpetas de roms = 0 bytes"
+        checkResult.totalSize == 0
+    }
+
+    @Unroll
+    void "basic single rom and media check"() {
+        setup:
+        HyperSpin hs = createDefaultHS()
+        Checker checker = new Checker(hs)
+
+        when:
+        CheckResult checkResult = checker.check("aae", ROM)
+
+        then:
+        checkResult.systemName == "aae"
+
+        // El sistema AAE tiene 3 juegos, uno de ellos tiene todos los medias y los otros ninguno
+        checkResult.games == 1
+        checkResult.artwork1 == 0
+        checkResult.artwork2 == 0
+        checkResult.artwork3 == 0
+        checkResult.artwork4 == 0
+        checkResult.wheels == 0
+        checkResult.videos == 0
+        checkResult.themes == 0
+
+        and: "Solo tiene valor cuando se le pasa un juego solo"
+        checkResult.game == ROM
+
+        and:
+        checkResult.roms == 0
+
+        and: "No existen las carpetas de roms = 0 bytes"
+        checkResult.totalSize == 0
+
+        where:
+        ROM << ["x", "alphaona"]
+    }
+
+    void "mugen"() {
+        setup:
+        HyperSpin hs = createDefaultHS()
+        Checker checker = new Checker(hs)
+
+        when:
+        CheckResult checkResult = checker.check("mugen")
+
+        then:
+        checkResult.systemName == "aae"
+
+        // El sistema AAE tiene 3 juegos, uno de ellos tiene todos los medias y los otros ninguno
+        checkResult.games == 3
+        checkResult.artwork1 == 1
+        checkResult.artwork2 == 1
+        checkResult.artwork3 == 1
+        checkResult.artwork4 == 1
+        checkResult.wheels == 1
+        checkResult.videos == 1
+        checkResult.themes == 1
+
+        and: "Solo tiene valor cuando se le pasa un juego solo"
+        checkResult.game == null
+
+        and:
+        checkResult.roms == 2
+
+        and: "No existen las carpetas de roms = 0 bytes"
         checkResult.totalSize == 0
     }
 

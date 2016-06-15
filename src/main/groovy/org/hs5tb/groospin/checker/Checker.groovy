@@ -27,19 +27,29 @@ public class Checker {
         report = new Report(reportRoot)
     }
 
-    CheckResult check(String systemName, List games = null) {
+    CheckResult check(String systemName, String rom) {
+        check(systemName, [rom])
+    }
+    CheckResult check(String systemName, List roms = null) {
         RLSystem system = hyperSpin.getSystem(systemName)
         // println romFilenames
         int totalSize = system.calculateRomPathSize()
-        if (!games) games = hyperSpin.getGamesFromSystem(systemName)
-        CheckResult checkResult = new CheckResult(systemName: system.systemName, games: games.size(), totalSize: totalSize)
-        games.sort().each { String game ->
+        if (!roms) roms = hyperSpin.listRomNames(systemName)
+        CheckResult checkResult = new CheckResult(systemName: system.systemName, games: roms.size(), totalSize: totalSize, game: roms.size() == 1 ? roms.first() : null)
+        roms.sort().each { String game ->
             report.haveRom(game)
-            boolean romFound = system.getRomFilePath(game)
-//            if (system.mustHaveExe()) {
-//                romFound = romFound && system.haveExe(game)
-//            }
-            checkResult.roms += romFound ? 1 : 0
+            File romFound = system.findValidRom(game)
+            if (romFound) {
+                if (system.needsExecutable()) {
+                    File exe = system.findExecutable(game, romFound)
+                    if (exe) {
+                        checkResult.roms ++
+                    }
+                } else {
+                    checkResult.roms ++
+                }
+            }
+
             checkResult.wheels += existsInMedia("${systemName}/Images/Wheel/${game}", ["jpg", "png"]) ? 1 : 0
             checkResult.videos += existsInMedia("${systemName}/Video/${game}", ["mp4", "flv"]) ? 1 : 0
             checkResult.themes += existsInMedia("${systemName}/Themes/${game}", ["zip"]) ? 1 : 0
@@ -55,7 +65,7 @@ public class Checker {
     }
 
     boolean existsInMedia(String path, List extensions) {
-        return IOTools.matchesAnyExtension(new File(hyperSpin.hsRoot, "Media/${path}"), extensions)
+        return IOTools.findFileWithExtensions(new File(hyperSpin.hsRoot, "Media/${path}"), extensions)
     }
 
 

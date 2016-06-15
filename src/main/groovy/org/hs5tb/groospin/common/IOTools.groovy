@@ -30,13 +30,39 @@ class IOTools {
         return String.format("%.1f %sB", bytes / Math.pow(unit, exp), pre);
     }
 
-    static File matchesAnyExtension(File fileBaseWithoutExtension, List extensions) {
-        return matchesAnyExtension(fileBaseWithoutExtension.absolutePath, extensions)
+    static File findFilesInFolder(File path, List<String> filesToFind) {
+        for (String fileToFind in filesToFind) {
+            File file = new File(path, fileToFind).canonicalFile
+            println "Checking for ${file} exists? ${file.exists()}"
+            if (file.exists()) return file
+        }
+        return null
     }
 
-    static File matchesAnyExtension(String fileBaseWithoutExtension, List extensions) {
+    static File findFilesInFolders(List<File> paths, List<String> filesToFind) {
+        for (String fileToFind in filesToFind) {
+            File file = findFileInFolders(paths, fileToFind)
+            if (file) return file
+        }
+        return null
+    }
+
+    static File findFileInFolders(List<File> paths, String fileToFind) {
+        for (File path in paths) {
+            File file = new File(path, fileToFind).canonicalFile
+            println "Checking for ${file} exists? ${file.exists()}"
+            if (file.exists()) return file
+        }
+        return null
+    }
+
+    static File findFileWithExtensions(File fileBaseWithoutExtension, List extensions) {
+        return findFileWithExtensions(fileBaseWithoutExtension.absolutePath, extensions)
+    }
+
+    static File findFileWithExtensions(String fileBaseWithoutExtension, List extensions) {
         for (String extension in extensions) {
-            File file = new File(fileBaseWithoutExtension + "." + extension)
+            File file = new File(fileBaseWithoutExtension + "." + extension).canonicalFile
             println "Checking for ${file} exists? ${file.exists()}"
             if (file.exists()) return file
         }

@@ -3,7 +3,6 @@ package org.hs5tb.groospin
 import org.hs5tb.groospin.base.RLEmulator
 import org.hs5tb.groospin.base.HyperSpin
 import org.hs5tb.groospin.base.RLSystem
-import spock.lang.Specification
 import spock.lang.Unroll
 
 
@@ -13,7 +12,7 @@ import spock.lang.Unroll
 class HyperSpinSpec extends HSSpecification {
 
     @Unroll
-    void "emulator"() {
+    void "get emulator"() {
         setup:
         HyperSpin hs = createDefaultHS()
 
@@ -27,7 +26,7 @@ class HyperSpinSpec extends HSSpecification {
     }
 
     @Unroll
-    void "system"() {
+    void "get system"() {
         setup:
         HyperSpin hs = createDefaultHS()
 
@@ -42,13 +41,16 @@ class HyperSpinSpec extends HSSpecification {
     }
 
     @Unroll
-    void mainMenu() {
+    void "list system names and rom names"() {
         setup:
         HyperSpin hs = createDefaultHS()
 
         expect:
-        hs.getSystemNames() == ["AAE"]
-        hs.getGamesFromSystem("AAE") == ["alienst", "alphaona"]
+        hs.listSystemNames() == ["AAE", "mame"]
+
+        and:
+        hs.listRomNames("aae") == ["alienst", "alphaona", "deep"]
+
     }
 
 

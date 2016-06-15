@@ -65,8 +65,8 @@ class HyperSpin {
         List romPathList = rom_Path?.split("\\|")?.collect { String romPathString -> IOTools.tryRelativeFrom(rlRoot, romPathString) }?:[]
 
         RLSystem system = new RLSystem(hyperSpin: this, systemName: systemName, iniRomPath : rom_Path,
-        iniDefaultEmulator : default_Emulator, defaultEmulator : getEmulator(default_Emulator), romPathsList : romPathList)
-//        rs.loadExes()
+            iniDefaultEmulator : default_Emulator, defaultEmulator : getEmulator(default_Emulator), romPathsList : romPathList)
+        system.loadMapping()
 //        debug "$systemName romPathFiles " + rs.emuConfig.rom_Path
         return system
     }
@@ -92,7 +92,7 @@ class HyperSpin {
         return emulator
     }
 
-    List getGamesFromSystem(String systemName) {
+    List listRomNames(String systemName) {
         File db = new File(hsRoot, "Databases/${systemName}/${systemName}.xml")
         if (!db.exists()) {
             error "${systemName} menu not found in ${db.absolutePath}"
@@ -105,8 +105,8 @@ class HyperSpin {
         }.findAll()
     }
 
-    List getSystemNames() {
-        getGamesFromSystem("Main menu")
+    List listSystemNames() {
+        listRomNames("Main menu")
     }
 
                   /*

@@ -1,6 +1,7 @@
 package org.hs5tb.groospin.base
 
 import org.hs5tb.groospin.common.IOTools
+import org.hs5tb.groospin.common.IniTools
 
 /**
  * Created by Alberto on 12-Jun-16.
@@ -12,7 +13,7 @@ class RLSystem {
 
     String iniRomPath
     String iniDefaultEmulator
-    List romPathsList
+    List<File> romPathsList
 
     Map romMapping
 
@@ -22,19 +23,70 @@ class RLSystem {
         return totalSize
     }
 
-    String getRomFilePath(String game) {
-        for (File romPath in romPathsList) {
-            File rom = IOTools.matchesAnyExtension(romPath.absolutePath + "/" + game, defaultEmulator.romExtensions)
-            rom = rom?:IOTools.matchesAnyExtension(romPath.absolutePath + "/" + game + "/" + game, defaultEmulator.romExtensions)
+    File findValidRom(String game) {
+        for (String ext in defaultEmulator.romExtensions) {
+            File rom = IOTools.findFileInFolders(romPathsList, game+ "." + ext)
+            rom = rom ?: IOTools.findFileInFolders(romPathsList, game + "/" + game + "." + ext)
             if (rom) return rom
         }
         return null
     }
 
-    void loadMapping() {
-
+    boolean needsExecutable() {
+        return defaultEmulator.name == "PCLauncher" ||
+                systemName in ["MUGEN", "OpenBOR", "PopCap", "Big Fish Games"]
     }
 
+    File findExecutable(String romName, File romFile) {
+        File romPath = romFile.directory ? romFile : romFile.parentFile
+        romPath.isAbsolute()
+        if (defaultEmulator.name == "PCLauncher") {
+            Map gameMapping = romMapping[romName]
+            if (!gameMapping) {
+                return null
+            }
+            String application = romMapping[romName]["application"]
+            return new File(hyperSpin.rlRoot, application)
+        } else if (systemName == "MUGEN") {
+            String iniGamePath = romMapping[romName]?.get("gamepath")
+            List<String> candidates = iniGamePath ? ["/" + iniGamePath] : []
+            candidates << ["/" + romName + "/MUGEN.exe"]
+            return IOTools.findFilesInFolder(romPath, candidates)
+        } else if (systemName == "OpenBOR") {
+            String iniGamePath = romMapping[romName]?.get("gamepath")
+            List<String> candidates = iniGamePath ? ["/" + iniGamePath] : []
+            candidates << ["/" + romName + "/OpenBOR.exe", "/OpenBOR.exe"]
+            return IOTools.findFilesInFolder(romPath, candidates)
+        } else if (systemName in ["PopCap", "Big Fish Games"]) {
+            String iniGamePath = romMapping[romName]?.get("gamepath")
+            if (new File(iniGamePath).exists()) return new File(iniGamePath).absoluteFile
+            List<String> candidates = iniGamePath ? ["/" + iniGamePath] : []
+            candidates << ["/" + romName +".exe", "/" + romName + "/" + romName +".exe"]
+            return IOTools.findFilesInFolder(romPath, candidates)
+        }
+        return null
+    }
+
+
+    void loadMapping() {
+        romMapping = [:]
+        if (!defaultEmulator) return
+        if (defaultEmulator.name == "PCLauncher") {
+            addConfig(new File(hyperSpin.rlRoot, "Modules/PCLauncher/PCLauncher.ini"))
+            addConfig(new File(hyperSpin.rlRoot, "Modules/PCLauncher/${systemName}.ini"))
+        } else if (systemName in ["PopCap", "Big Fish Games"]) {
+            addConfig(new File(hyperSpin.rlRoot, "Modules/Casual Games/Casual Games.ini"))
+        } else if (systemName == "OpenBOR") {
+            addConfig(new File(hyperSpin.rlRoot, "Modules/OpenBOR/OpenBOR.ini"))
+        } else if (systemName == "MUGEN") {
+            addConfig(new File(hyperSpin.rlRoot, "Modules/MUGEN/MUGEN.ini"))
+        }
+    }
+
+    void addConfig(File file) {
+        romMapping = IniTools.parseIni(file, romMapping)
+
+    }
 
 /*
     Set romNames = new TreeSet()
@@ -46,22 +98,6 @@ class RLSystem {
         boolean contains = romNames.contains(rom.toLowerCase())
         debug "${systemName} [${contains ? "ok" : "--"}] Rom '${rom}'"
         return contains
-    }
-
-    void loadExes() {
-        exes = [:]
-        if (!emuConfig) return
-        if (emuConfig.emulator == "PCLauncher") {
-            loadExesFromIni(new File(hyperSpin.rlRoot, "Modules/PCLauncher/PCLauncher.ini"), "Application")
-            loadExesFromIni(new File(hyperSpin.rlRoot, "Modules/PCLauncher/${systemName}.ini"), "Application")
-        } else if (emuConfig.emulator == "Casual Games") {
-            loadExesFromIni(new File(hyperSpin.rlRoot, "Modules/Casual Games/Casual Games.ini"), "gamepath")
-        } else if (emuConfig.emulator == "MUGEN") {
-            loadExesFromIni(new File(hyperSpin.rlRoot, "Modules/MUGEN/MUGEN.ini"), "gamepath")
-        } else if (emuConfig.emulator == "MUGEN") {
-            loadExesFromIni(new File(hyperSpin.rlRoot, "Modules/MUGEN/MUGEN.ini"), "gamepath")
-        }
-
     }
 
     private void loadExesFromIni(File settings, String key) {
