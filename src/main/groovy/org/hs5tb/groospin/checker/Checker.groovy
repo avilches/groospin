@@ -35,18 +35,20 @@ public class Checker {
         // println romFilenames
         int totalSize = system.calculateRomPathSize()
         if (!roms) roms = hyperSpin.listRomNames(systemName)
-        CheckResult checkResult = new CheckResult(systemName: system.systemName, games: roms.size(), totalSize: totalSize, game: roms.size() == 1 ? roms.first() : null)
+        CheckResult checkResult = new CheckResult(systemName: system.name, games: roms.size(), totalSize: totalSize, game: roms.size() == 1 ? roms.first() : null)
         roms.sort().each { String game ->
             report.haveRom(game)
             File romFound = system.findValidRom(game)
             if (romFound) {
+                checkResult.roms ++
                 if (system.needsExecutable()) {
                     File exe = system.findExecutable(game, romFound)
                     if (exe) {
-                        checkResult.roms ++
+                        checkResult.exes ++
+                        checkResult.works ++
                     }
                 } else {
-                    checkResult.roms ++
+                    checkResult.works ++
                 }
             }
 

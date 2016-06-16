@@ -11,6 +11,8 @@ class CheckResult {
     long totalSize
     int games = 0
     int roms = 0
+    int works = 0
+    int exes = 0
     int wheels = 0
     int videos = 0
     int themes = 0

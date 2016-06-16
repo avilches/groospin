@@ -17,12 +17,16 @@ class HyperSpinSpec extends HSSpecification {
         HyperSpin hs = createDefaultHS()
 
         when:
-        RLEmulator emulator = hs.getEmulator("MAME")
+        RLEmulator emulator = hs.getEmulator(emu)
 
         then:
         emulator.emuPath == createResource("/Emulators/MAME/MameUIFX_0.171_64bits_nonag-dinput/mameuifx64.exe")
+        emulator.module == "MAME.ahk"
         emulator.romExtensions == ["zip","7z"]
-        emulator.name == "mame"
+        emulator.name == emu
+
+        where:
+        emu << ["mame", "Mame", "MAME"]
     }
 
     @Unroll
@@ -31,13 +35,18 @@ class HyperSpinSpec extends HSSpecification {
         HyperSpin hs = createDefaultHS()
 
         when:
-        RLSystem system = hs.getSystem("AAE")
+        RLSystem system = hs.getSystem(systemName)
 
         then:
-        system.defaultEmulator.name == "aae"
+        system.name == systemName
+        system.defaultEmulator.name == "AAE"
         system.hyperSpin == hs
 
         system.romPathsList == [createResource("/Roms/AAE")]
+
+        where:
+        systemName << ["aae", "Aae", "AAE"]
+
     }
 
     @Unroll

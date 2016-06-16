@@ -3,6 +3,7 @@ package org.hs5tb.groospin
 import org.hs5tb.groospin.base.HyperSpin
 import org.hs5tb.groospin.checker.CheckResult
 import org.hs5tb.groospin.checker.Checker
+import spock.lang.IgnoreRest
 import spock.lang.Unroll
 
 /*
@@ -15,6 +16,7 @@ import spock.lang.Unroll
 
 class CheckerSpec extends HSSpecification {
 
+    @Unroll
     void "basic rom and media check"() {
         setup:
         HyperSpin hs = createDefaultHS()
@@ -41,6 +43,8 @@ class CheckerSpec extends HSSpecification {
 
         and:
         checkResult.roms == 2
+        checkResult.works == 2
+        checkResult.exes == 0
 
         and: "No existen las carpetas de roms = 0 bytes"
         checkResult.totalSize == 0
@@ -73,6 +77,8 @@ class CheckerSpec extends HSSpecification {
 
         and:
         checkResult.roms == 0
+        checkResult.works == 0
+        checkResult.exes == 0
 
         and: "No existen las carpetas de roms = 0 bytes"
         checkResult.totalSize == 0
@@ -81,35 +87,30 @@ class CheckerSpec extends HSSpecification {
         ROM << ["x", "alphaona"]
     }
 
-    void "mugen"() {
+    @Unroll
+
+    @IgnoreRest
+    void "mugen exes"() {
         setup:
         HyperSpin hs = createDefaultHS()
         Checker checker = new Checker(hs)
 
         when:
-        CheckResult checkResult = checker.check("mugen")
+        CheckResult checkResult = checker.check("mugen", ROM)
 
         then:
-        checkResult.systemName == "aae"
+        checkResult.game == ROM
+        checkResult.roms == ROMS
+        checkResult.exes == EXES
+        checkResult.works == WORKS
 
-        // El sistema AAE tiene 3 juegos, uno de ellos tiene todos los medias y los otros ninguno
-        checkResult.games == 3
-        checkResult.artwork1 == 1
-        checkResult.artwork2 == 1
-        checkResult.artwork3 == 1
-        checkResult.artwork4 == 1
-        checkResult.wheels == 1
-        checkResult.videos == 1
-        checkResult.themes == 1
+        where:
+        ROM                      | ROMS | WORKS | EXES
+//        "nothing"                | 0    | 0     | 0
+//        "rom only"               | 1    | 0     | 0
+//        "rom only and mugenexe"  | 1    | 1     | 1
+        "rom and gamepath"       | 1    | 1     | 1
 
-        and: "Solo tiene valor cuando se le pasa un juego solo"
-        checkResult.game == null
-
-        and:
-        checkResult.roms == 2
-
-        and: "No existen las carpetas de roms = 0 bytes"
-        checkResult.totalSize == 0
     }
 
 }

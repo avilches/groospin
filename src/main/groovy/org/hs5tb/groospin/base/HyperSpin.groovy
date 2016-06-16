@@ -57,14 +57,14 @@ class HyperSpin {
         if (!systemEmulatorConfig.file) {
             return null
         }
-        def map = ['rom_path':null, 'default_emulator':null]
+        def map = ['rom_path', 'default_emulator']
         IniTools.fillMap(systemEmulatorConfig, "ROMS", map)
         String rom_Path = map['rom_path']
         String default_Emulator = map['default_emulator']
 
         List romPathList = rom_Path?.split("\\|")?.collect { String romPathString -> IOTools.tryRelativeFrom(rlRoot, romPathString) }?:[]
 
-        RLSystem system = new RLSystem(hyperSpin: this, systemName: systemName, iniRomPath : rom_Path,
+        RLSystem system = new RLSystem(hyperSpin: this, name: systemName, iniRomPath : rom_Path,
             iniDefaultEmulator : default_Emulator, defaultEmulator : getEmulator(default_Emulator), romPathsList : romPathList)
         system.loadMapping()
 //        debug "$systemName romPathFiles " + rs.emuConfig.rom_Path
@@ -77,13 +77,13 @@ class HyperSpin {
     }
 
     RLEmulator getEmulator(String name) {
-        name = name.toLowerCase().trim()
-        Map emulatorConfig = getGlobalEmulatorsConfig()[name]
+        String emulatorName = name.toLowerCase().trim()
+        Map emulatorConfig = getGlobalEmulatorsConfig()[emulatorName]
 
         String iniEmuPath = emulatorConfig['emu_path']
         String iniRomExtension = emulatorConfig['rom_extension']
         String module = emulatorConfig['module']
-        File emuPath = IOTools.tryRelativeFrom(rlRoot, iniEmuPath)
+        File emuPath = iniEmuPath ? IOTools.tryRelativeFrom(rlRoot, iniEmuPath) : null
 
         List romExtensions = iniRomExtension?.split("\\|")?.collect { String ext -> ext.trim().toLowerCase() }?:[]
 
