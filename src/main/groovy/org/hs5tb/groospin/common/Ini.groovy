@@ -32,26 +32,43 @@ class Ini {
     Ini parse(File iniFile, String section = null, Collection<String> keys = null) {
         return parse(iniFile.newReader(), section, keys)
     }
-
-    Ini parse(Reader iniFile, String section = null, Collection<String> keys = null) {
+    /*
+    RocketLauncher INI policy is:
+    Ignore duplicated sections (only the first section is used)
+    Ignore duplicated keys in the same section (only the first key is used)
+     */
+    static boolean ignoreDuplicatedSections = true
+    static boolean ignoreDuplicatedKeys = true
+    Ini parse(Reader iniFile, String section = null, Collection<String> includeOnlyKeys = null) {
+        Set<String> sectionsParsed = new HashSet<>()
+        Set<String> keysParsed  = new HashSet<>()
+        boolean ignoreDuplicatedSection = false
         String currentSection = Ini.defaultSection
         section = section?.trim()?.toLowerCase()
         Ini ini = new Ini()
-        keys = keys ? keys.collect { String k -> k.trim().toLowerCase() } : null
+        includeOnlyKeys = includeOnlyKeys ? includeOnlyKeys.collect { String k -> k.trim().toLowerCase() } : null
         iniFile.eachLine { String line ->
             line = line.trim()
-            if (!line || line.startsWith("#")) {
+            if (!line || line.startsWith("#") || line.startsWith(";")) {
                 return // Ignore comments
             } else if (line.startsWith("[")) {
                 int pos = line.indexOf("]")
                 if (pos > 1) {
                     currentSection = line.substring(1, pos).trim().toLowerCase()
+                    keysParsed.clear()
+                    if (currentSection in sectionsParsed) {
+                        ignoreDuplicatedSection = true
+                    } else {
+                        if (ignoreDuplicatedSections) sectionsParsed << currentSection
+                        ignoreDuplicatedSection = false
+                    }
                 }
             } else {
-                if ((section == null || section == currentSection) && line.contains("=")) {
+                if (line.contains("=") && !ignoreDuplicatedSection && (section == null || section == currentSection)) {
                     int equalsPos = line.indexOf("=")
                     String key = line.substring(0, equalsPos).trim().toLowerCase()
-                    if (!keys || key in keys) {
+                    if (!keysParsed.contains(key) && (!includeOnlyKeys || key in includeOnlyKeys)) {
+                        if (ignoreDuplicatedKeys) keysParsed << key
                         String value = line.substring(equalsPos + 1).trim()
                         ini.put(currentSection, key, value)
                     }

@@ -32,7 +32,7 @@ class IniSpec extends Specification {
     }
 
     @Unroll
-    void "parse ini by section"() {
+    void "parse ini by section and duplicateds"() {
         setup:
         File iniFile = new File("src/test/resources/inis/basic.ini")
 
@@ -49,7 +49,8 @@ class IniSpec extends Specification {
         section       | result
         "a"           | [:]
         "badsection1" | [:]
-        "section1"    | [val1: "b", val2: "g", val3: "zz"]
+        "section1"    | [val1: "a", val2: "g", val3: "z"]
+        "ignored"     | [:]
         "section2"    | [val1: "c", val2: "h", val4: "y", val6: "zz"]
     }
 
@@ -71,7 +72,7 @@ class IniSpec extends Specification {
         section            | result
         Ini.defaultSection | [no: "no"]
         "badsection1"      | [:]
-        "section1"         | [val1: "b", val2: "g", val3: "zz"]
+        "section1"         | [val1: "a", val2: "g", val3: "z"]
         "section2"         | [val1: "c", val2: "h", val4: "y"]
     }
 
@@ -95,7 +96,7 @@ class IniSpec extends Specification {
         where:
         section            | result
         Ini.defaultSection | [no: "si"]
-        "section1"         | [val1: "b", val2: "g", val3: "changed"]
+        "section1"         | [val1: "a", val2: "g", val3: "changed"]
         "section2"         | [val1: "c", val2: "h", val4: "y", val6: "zz"]
         "new"              | [f: "n"]
     }
