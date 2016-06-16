@@ -1,7 +1,7 @@
 package org.hs5tb.groospin.base
 
 import org.hs5tb.groospin.common.IOTools
-import org.hs5tb.groospin.common.IniTools
+import org.hs5tb.groospin.common.Ini
 
 /**
  * Created by Alberto on 12-Jun-16.
@@ -52,41 +52,40 @@ class HyperSpin {
         endHave()
     }
 */
+    Ini _cachedGlobalEmulatorIni
+
+    Ini getGlobalEmulatorsIni() {
+        if (_cachedGlobalEmulatorIni) return _cachedGlobalEmulatorIni
+        File globalEmulatorConfig = new File(rlRoot, "Settings/Global Emulators.ini")
+        _cachedGlobalEmulatorIni = new Ini().parse(globalEmulatorConfig)
+        return _cachedGlobalEmulatorIni
+    }
+
     RLSystem getSystem(String systemName) {
         File systemEmulatorConfig = new File(rlRoot, "Settings/${systemName}/Emulators.ini")
         if (!systemEmulatorConfig.file) {
             return null
         }
-        def map = ['rom_path', 'default_emulator']
-        IniTools.fillMap(systemEmulatorConfig, "ROMS", map)
-        String rom_Path = map['rom_path']
-        String default_Emulator = map['default_emulator']
+        Ini systemIni = new Ini().parse(systemEmulatorConfig)
+        systemIni.parent = globalEmulatorsIni
+        String rom_Path = systemIni.get("roms", "rom_path")
+        String default_Emulator = systemIni.get("roms", "default_emulator")
 
         List romPathList = rom_Path?.split("\\|")?.collect { String romPathString -> IOTools.tryRelativeFrom(rlRoot, romPathString) }?:[]
 
         RLSystem system = new RLSystem(hyperSpin: this, name: systemName, iniRomPath : rom_Path,
-            iniDefaultEmulator : default_Emulator, defaultEmulator : getEmulator(default_Emulator), romPathsList : romPathList)
+            iniDefaultEmulator : default_Emulator, defaultEmulator : createEmulator(default_Emulator, systemIni.getSection(default_Emulator)), romPathsList : romPathList)
         system.loadMapping()
 //        debug "$systemName romPathFiles " + rs.emuConfig.rom_Path
         return system
     }
 
-    Map getGlobalEmulatorsConfig() {
-        File globalEmulatorConfig = new File(rlRoot, "Settings/Global Emulators.ini")
-        IniTools.parseIni(globalEmulatorConfig)
-    }
-
-    RLEmulator getEmulator(String name) {
-        String emulatorName = name.toLowerCase().trim()
-        Map emulatorConfig = getGlobalEmulatorsConfig()[emulatorName]
-
+    private RLEmulator createEmulator(String name, Map emulatorConfig) {
         String iniEmuPath = emulatorConfig['emu_path']
         String iniRomExtension = emulatorConfig['rom_extension']
         String module = emulatorConfig['module']
         File emuPath = iniEmuPath ? IOTools.tryRelativeFrom(rlRoot, iniEmuPath) : null
-
         List romExtensions = iniRomExtension?.split("\\|")?.collect { String ext -> ext.trim().toLowerCase() }?:[]
-
         RLEmulator emulator = new RLEmulator(name: name, iniEmuPath: iniEmuPath,
                 iniRomExtension: iniRomExtension, emuPath: emuPath, romExtensions: romExtensions, module: module)
         return emulator
