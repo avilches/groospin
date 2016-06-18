@@ -12,6 +12,17 @@ import spock.lang.Unroll
 class HyperSpinSpec extends HSSpecification {
 
     @Unroll
+    void "list system names and rom names"() {
+        setup:
+        HyperSpin hs = createDefaultHS()
+
+        expect:
+        hs.listSystemNames() == ["AAE", "mame"]
+        hs.listRomNames("aae") == ["alienst", "alphaona", "deep"]
+
+    }
+
+    @Unroll
     void "get emulator"() {
         setup:
         HyperSpin hs = createDefaultHS()
@@ -46,18 +57,6 @@ class HyperSpinSpec extends HSSpecification {
 
         where:
         systemName << ["aae", "Aae", "AAE"]
-
-    }
-
-    void "list system names and rom names"() {
-        setup:
-        HyperSpin hs = createDefaultHS()
-
-        expect:
-        hs.listSystemNames() == ["AAE", "mame"]
-
-        and:
-        hs.listRomNames("aae") == ["alienst", "alphaona", "deep"]
 
     }
 

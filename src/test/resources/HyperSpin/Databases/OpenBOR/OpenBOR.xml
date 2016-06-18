@@ -1,5 +1,45 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<game name="nothing" index="true" image="b">
+   <description>Aliens versus Predator</description>
+   <cloneof></cloneof>
+   <crc></crc>
+   <manufacturer>Wolf productions</manufacturer>
+   <year>2013</year>
+   <genre>Movie</genre>
+   <rating>ESRB - T (Teen)</rating>
+   <enabled>Yes</enabled>
+ </game>
+  <game name="rom only" index="true" image="b">
+   <description>Art of Fury</description>
+   <cloneof></cloneof>
+   <crc></crc>
+   <manufacturer>Elecbyte</manufacturer>
+   <year>2010</year>
+   <genre>SNK - Fatal Fury</genre>
+   <rating>ESRB - T (Teen)</rating>
+   <enabled>Yes</enabled>
+ </game>
+ <game name="rom only and exe" index="true" image="b">
+   <description>Avenger Vs X-Men</description>
+   <cloneof></cloneof>
+   <crc></crc>
+   <manufacturer>Project X</manufacturer>
+   <year>2013</year>
+   <genre>Comics - Marvel - X-Men</genre>
+   <rating>ESRB - T (Teen)</rating>
+   <enabled>Yes</enabled>
+ </game>
+ <game name="rom and gamepath" index="true" image="b">
+   <description>Bastard</description>
+   <cloneof></cloneof>
+   <crc></crc>
+   <manufacturer>Tony World</manufacturer>
+   <year>2004</year>
+   <genre>Anime</genre>
+   <rating>ESRB - T (Teen)</rating>
+   <enabled>Yes</enabled>
+ </game>
 	<game name="A Tale of Vengeance" index="true" image="a">
 		<description>A Tale of Vengeance</description>
 		<cloneof>.</cloneof>

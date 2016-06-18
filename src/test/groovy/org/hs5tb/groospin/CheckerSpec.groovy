@@ -62,7 +62,7 @@ class CheckerSpec extends HSSpecification {
         then:
         checkResult.systemName == "aae"
 
-        // El sistema AAE tiene 3 juegos, uno de ellos tiene todos los medias y los otros ninguno
+        // El sistema AAE tiene 3 juegos, uno de ellos tiene todos los medias y losotros ninguno
         checkResult.games == 1
         checkResult.artwork1 == 0
         checkResult.artwork2 == 0
@@ -88,8 +88,6 @@ class CheckerSpec extends HSSpecification {
     }
 
     @Unroll
-
-    @IgnoreRest
     void "mugen exes"() {
         setup:
         HyperSpin hs = createDefaultHS()
@@ -105,12 +103,35 @@ class CheckerSpec extends HSSpecification {
         checkResult.works == WORKS
 
         where:
-        ROM                      | ROMS | WORKS | EXES
-//        "nothing"                | 0    | 0     | 0
-//        "rom only"               | 1    | 0     | 0
-//        "rom only and mugenexe"  | 1    | 1     | 1
-        "rom and gamepath"       | 1    | 1     | 1
+        ROM                      | ROMS | EXES | WORKS
+        "nothing"                | 0    | 0    | 0
+        "rom only"               | 1    | 0    | 0
+        "rom only and mugenexe"  | 1    | 1    | 1
+        "rom and gamepath"       | 1    | 1    | 1
 
+    }
+
+    @Unroll
+    void "openbor exes"() {
+        setup:
+        HyperSpin hs = createDefaultHS()
+        Checker checker = new Checker(hs)
+
+        when:
+        CheckResult checkResult = checker.check("OpenBOR", ROM)
+
+        then:
+        checkResult.game == ROM
+        checkResult.roms == ROMS
+        checkResult.exes == EXES
+        checkResult.works == WORKS
+
+        where:
+        ROM                      | ROMS | EXES | WORKS
+        "nothing"                | 0    | 0    | 0
+        "rom only"               | 1    | 0    | 0
+        "rom only and exe"       | 1    | 1    | 1
+        "rom and gamepath"       | 1    | 1    | 1
     }
 
 }

@@ -1,6 +1,7 @@
 package org.hs5tb.groospin.base
 
 import org.hs5tb.groospin.common.IOTools
+import org.hs5tb.groospin.common.Ini
 
 /**
  * Created by Alberto on 12-Jun-16.
@@ -14,7 +15,7 @@ class RLSystem {
     String iniDefaultEmulator
     List<File> romPathsList
 
-    Map romMapping
+    Ini romMapping
 
     long calculateRomPathSize() {
         long totalSize = 0
@@ -38,24 +39,20 @@ class RLSystem {
     File findExecutable(String romName, File romFile) {
         File romPath = romFile.directory ? romFile : romFile.parentFile
         if (defaultEmulator.module == "PCLauncher.ahk") {
-            Map gameMapping = romMapping[romName]
-            if (!gameMapping) {
-                return null
-            }
-            String application = romMapping[romName]["application"]
-            return new File(hyperSpin.rlRoot, application)
+            String application = romMapping.get(romName, "application")
+            return application ? new File(hyperSpin.rlRoot, application) : null
         } else if (defaultEmulator.module == "MUGEN.ahk") {
-            String iniGamePath = romMapping[romName]?.get("gamepath")
+            String iniGamePath = romMapping.get(romName, "gamepath")
             List<String> candidates = iniGamePath ? ["/" + iniGamePath] : []
             candidates.addAll(["/" + romName + "/MUGEN.exe"])
             return IOTools.findFilesInFolder(romPath, candidates)
         } else if (defaultEmulator.module == "OpenBOR.ahk") {
-            String iniGamePath = romMapping[romName]?.get("gamepath")
+            String iniGamePath = romMapping.get(romName, "gamepath")
             List<String> candidates = iniGamePath ? ["/" + iniGamePath] : []
             candidates.addAll(["/" + romName + "/OpenBOR.exe", "/OpenBOR.exe"])
             return IOTools.findFilesInFolder(romPath, candidates)
         } else if (defaultEmulator.module == "Casual Games.ahk") {
-            String iniGamePath = romMapping[romName]?.get("gamepath")
+            String iniGamePath = romMapping.get(romName, "gamepath")
             if (new File(iniGamePath).exists()) return new File(iniGamePath).absoluteFile
             List<String> candidates = iniGamePath ? ["/" + iniGamePath] : []
             candidates.addAll(["/" + romName +".exe", "/" + romName + "/" + romName +".exe"])
@@ -66,24 +63,21 @@ class RLSystem {
 
 
     void loadMapping() {
-        romMapping = [:]
         if (!defaultEmulator) return
         if (defaultEmulator.module == "PCLauncher.ahk") {
-            addConfig(new File(hyperSpin.rlRoot, "Modules/PCLauncher/PCLauncher.ini"))
-            addConfig(new File(hyperSpin.rlRoot, "Modules/PCLauncher/${name}.ini"))
+            romMapping = new Ini().parse(
+                    new File(hyperSpin.rlRoot, "Modules/PCLauncher/${name}.ini"))
+            romMapping.parent = new Ini().parse(
+                    new File(hyperSpin.rlRoot, "Modules/PCLauncher/PCLauncher.ini"))
         } else if (defaultEmulator.module == "Casual Games.ahk") {
-            addConfig(new File(hyperSpin.rlRoot, "Modules/Casual Games/Casual Games.ini"))
+            romMapping = new Ini().parse(new File(hyperSpin.rlRoot, "Modules/Casual Games/Casual Games.ini"))
         } else if (defaultEmulator.module == "OpenBOR.ahk") {
-            addConfig(new File(hyperSpin.rlRoot, "Modules/OpenBOR/OpenBOR.ini"))
+            romMapping = new Ini().parse(new File(hyperSpin.rlRoot, "Modules/OpenBOR/OpenBOR.ini"))
         } else if (defaultEmulator.module == "MUGEN.ahk") {
-            addConfig(new File(hyperSpin.rlRoot, "Modules/MUGEN/MUGEN.ini"))
+            romMapping = new Ini().parse(new File(hyperSpin.rlRoot, "Modules/MUGEN/MUGEN.ini"))
         }
     }
 
-    void addConfig(File file) {
-        romMapping = IniTools.parseIni(file, romMapping)
-
-    }
 
 /*
     Set romNames = new TreeSet()
