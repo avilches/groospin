@@ -30,7 +30,7 @@ class CheckResult {
     }
 
     String getShortInfo(String delimiter) {
-        ["\"${systemName}${game ? ":${game}" : ""}\"", totalSize, "\"${IOTools.humanReadableByteCount(totalSize)}\"", games, roms, wheels, videos].join(delimiter)
+        ["\"${systemName}${game ? ":${game}" : ""}\"", totalSize, "\"${IOTools.humanReadableByteCount(totalSize)}\"", games, roms, exes, works, wheels, videos].join(delimiter)
     }
 
     String getLongInfo(String delimiter) {

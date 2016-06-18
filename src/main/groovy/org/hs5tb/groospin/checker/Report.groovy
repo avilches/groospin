@@ -12,11 +12,13 @@ class Report {
     private File debug
 
     Report() {
-
     }
 
     Report(File reportRoot) {
         println("Report root: " + reportRoot)
+        if (!reportRoot.exists()) {
+            reportRoot.mkdirs()
+        }
         csv = new File(reportRoot, "hs.csv")
         haveList = new File(reportRoot, "have-list.html")
         file = new File(reportRoot, "errors.log")

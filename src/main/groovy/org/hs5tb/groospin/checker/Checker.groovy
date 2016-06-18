@@ -17,19 +17,26 @@ public class Checker {
     Report report
 
     Checker(HyperSpin hyperSpin) {
-        this.hyperSpin = hyperSpin
-        report = new Report()
+        this(hyperSpin, new Report())
+    }
 
+    Checker(HyperSpin hyperSpin, String reportRoot) {
+        this(hyperSpin, new File(reportRoot))
     }
 
     Checker(HyperSpin hyperSpin, File reportRoot) {
+        this(hyperSpin, new Report(reportRoot))
+    }
+
+    Checker(HyperSpin hyperSpin, Report report) {
         this.hyperSpin = hyperSpin
-        report = new Report(reportRoot)
+        this.report = report
     }
 
     CheckResult check(String systemName, String rom) {
         check(systemName, [rom])
     }
+
     CheckResult check(String systemName, List roms = null) {
         RLSystem system = hyperSpin.getSystem(systemName)
         // println romFilenames
@@ -46,10 +53,14 @@ public class Checker {
                     if (exe) {
                         checkResult.exes ++
                         checkResult.works ++
+                    } else {
+                        report.warn "$systemName Missing executable: ${game}"
                     }
                 } else {
                     checkResult.works ++
                 }
+            } else {
+                report.warn "$systemName Missing rom: ${game}"
             }
 
             checkResult.wheels += existsInMedia("${systemName}/Images/Wheel/${game}", ["jpg", "png"]) ? 1 : 0
@@ -59,9 +70,6 @@ public class Checker {
             checkResult.artwork2 += existsInMedia("${systemName}/Images/Artwork2/${game}", ["jpg", "png"]) ? 1 : 0
             checkResult.artwork3 += existsInMedia("${systemName}/Images/Artwork3/${game}", ["jpg", "png"]) ? 1 : 0
             checkResult.artwork4 += existsInMedia("${systemName}/Images/Artwork4/${game}", ["jpg", "png"]) ? 1 : 0
-//            if (!romFound) {
-//                warn "$systemName Missing rom: ${game}"
-//            }
         }
         return checkResult
     }

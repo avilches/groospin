@@ -11,8 +11,12 @@ class HyperSpin {
     File rlRoot
 
     HyperSpin(String hsRoot, String rlRoot) {
-        this.hsRoot = new File(hsRoot).canonicalFile
-        this.rlRoot = new File(rlRoot).canonicalFile
+        this(new File(hsRoot), new File(rlRoot))
+    }
+
+    HyperSpin(File hsRoot, File rlRoot) {
+        this.hsRoot = hsRoot.canonicalFile
+        this.rlRoot = rlRoot.canonicalFile
         println("HyperSpin root: "+hsRoot)
         println("RocketLauncher root: "+rlRoot)
     }
