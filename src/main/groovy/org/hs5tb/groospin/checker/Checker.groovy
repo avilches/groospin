@@ -78,6 +78,18 @@ public class Checker {
         return IOTools.findFileWithExtensions(new File(hyperSpin.hsRoot, "Media/${path}"), extensions)
     }
 
+/*
+    void listSystems(List systems) {
+        log(["systemName","bytes","human size","db xml games","rom files","media:wheels","media:videos","media:themes","media:artwork1","media:artwork2","media:artwork3","media:artwork4"].join(delimiter))
 
+        systems.each { String systemName ->
+            haveSystem(systemName)
+            CheckResult checkResult = checkAllGames(systemName)
+            log(checkResult.getLongInfo(delimiter))
+            endHave()
+        }
+    }
+
+ */
 
 }

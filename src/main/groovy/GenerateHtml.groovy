@@ -5,15 +5,8 @@ import org.hs5tb.groospin.checker.Checker
 HyperSpin hs = new HyperSpin(
         "D:/Games/HyperSpin-fe",
         "D:/Games/RocketLauncher")
-        //)
 
-Checker checker = new Checker(hs, "D:/Games/Soft/GrooSpin/report")
-
-//hs.listAllSystems()
-//hs.listSystems(["Daphne", "Funtech Super Acan"])
-//hs.listSystems(["PopCap", "Nintendo Game and Watch", "Cave", "Doujin Soft"])
-// println checker.check("PC Games").getLongInfo(";")
-
+File emus = new File("D:/Games/systems.html")
 
 StringBuffer txt = new StringBuffer()
 txt << """<html><head>
@@ -59,5 +52,4 @@ if (!isIE) { document.getElementById("data").innerHTML = "<center><h1 style='col
 </script>
 </body></html>"""
 
-File emus = new File("D:/Games/systems.html")
 emus.text = txt

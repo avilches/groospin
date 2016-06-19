@@ -40,14 +40,6 @@ class HyperSpin {
         }
     }
 
-    void listSystem(String systemName) {
-        listSystem(systemName, getGamesFromSystem(systemName))
-    }
-
-    void listSystem(String systemName, String game) {
-        listSystem(systemName, [game])
-    }
-
     void listSystem(String systemName, List games) {
         log(["systemName","bytes","human size","db xml games","rom files","media:wheels","media:videos","media:themes","media:artwork1","media:artwork2","media:artwork3","media:artwork4"].join(delimiter))
         haveSystem(systemName)
@@ -60,13 +52,21 @@ class HyperSpin {
 
     Ini getGlobalEmulatorsIni() {
         if (_cachedGlobalEmulatorIni) return _cachedGlobalEmulatorIni
-        File globalEmulatorConfig = new File(rlRoot, "Settings/Global Emulators.ini")
+        File globalEmulatorConfig = findRocketLauncherFile("Settings/Global Emulators.ini")
         _cachedGlobalEmulatorIni = new Ini().parse(globalEmulatorConfig)
         return _cachedGlobalEmulatorIni
     }
 
+    File findRocketLauncherFile(String name) {
+        return IOTools.tryRelativeFrom(rlRoot, name)
+    }
+
+    File findHyperSpinFile(String name) {
+        return IOTools.tryRelativeFrom(hsRoot, name)
+    }
+
     RLSystem getSystem(String systemName) {
-        File systemEmulatorConfig = new File(rlRoot, "Settings/${systemName}/Emulators.ini")
+        File systemEmulatorConfig = findRocketLauncherFile("Settings/${systemName}/Emulators.ini")
         if (!systemEmulatorConfig.file) {
             return null
         }
@@ -96,7 +96,7 @@ class HyperSpin {
     }
 
     List listRomNames(String systemName) {
-        File db = new File(hsRoot, "Databases/${systemName}/${systemName}.xml")
+        File db = findHyperSpinFile("Databases/${systemName}/${systemName}.xml")
         if (!db.exists()) {
             error "${systemName} menu not found in ${db.absolutePath}"
             return []
@@ -109,22 +109,28 @@ class HyperSpin {
     }
 
     List listSystemNames() {
-        listRomNames("Main menu")
+        return listRomNames("Main menu")
     }
 
-                  /*
-    CheckResult checkGame(String systemName, String gameName) {
-        CheckResult checkResult = check(systemName, [gameName])
-        checkResult.game = gameName
-        return checkResult
+    Collection<RLSystem> listSystem() {
+        return listSystemNames().collect { String system ->
+            getSystem(system)
+        }
     }
 
+    /*
+CheckResult checkGame(String systemName, String gameName) {
+CheckResult checkResult = check(systemName, [gameName])
+checkResult.game = gameName
+return checkResult
+}
 
-    CheckResult checkAllGames(String systemName) {
-        check(systemName, getGamesFromSystem(systemName))
-    }
 
-    */
+CheckResult checkAllGames(String systemName) {
+check(systemName, getGamesFromSystem(systemName))
+}
+
+*/
 
 }
 

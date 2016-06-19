@@ -30,7 +30,7 @@ class Ini {
     }
 
     Ini parse(File iniFile, String section = null, Collection<String> keys = null) {
-        return parse(iniFile.newReader(), section, keys)
+        return iniFile.exists() ? parse(iniFile.newReader(), section, keys) : this
     }
     /*
     RocketLauncher INI policy is:

@@ -11,8 +11,9 @@ import groovy.io.FileType
 
 class IOTools {
     static File tryRelativeFrom(File root, String path) {
-        path = path.replaceAll("\\\\", "/")
-        (path.startsWith(".") ? new File(root, path) : new File(path)).canonicalFile
+        File candidate = new File(path).canonicalFile
+        if (candidate.exists()) return candidate
+        return new File(root, path).canonicalFile
     }
 
     static long folderSize(File folder) {
