@@ -14,11 +14,11 @@ class Ini {
     Ini parent
     Map sections = [:]
 
-    Ini load(Map map) {
-        return load(defaultSection, map)
+    Ini putAll(Map map) {
+        return putAll(defaultSection, map)
     }
 
-    Ini load(String section, Map map) {
+    Ini putAll(String section, Map map) {
         map.each { key, val ->
             put(section, key, val)
         }
@@ -44,9 +44,9 @@ class Ini {
         Set<String> keysParsed  = new HashSet<>()
         boolean ignoreDuplicatedSection = false
         String currentSection = Ini.defaultSection
-        section = section?.trim()?.toLowerCase()
+        section = section?.trim() ? canonical(section) : null
         Ini ini = new Ini()
-        includeOnlyKeys = includeOnlyKeys ? includeOnlyKeys.collect { String k -> k.trim().toLowerCase() } : null
+        includeOnlyKeys = includeOnlyKeys ? includeOnlyKeys.collect { String k -> canonical(k) } : null
         iniFile.eachLine { String line ->
             line = line.trim()
             if (!line || line.startsWith("#") || line.startsWith(";")) {
@@ -54,7 +54,7 @@ class Ini {
             } else if (line.startsWith("[")) {
                 int pos = line.indexOf("]")
                 if (pos > 1) {
-                    currentSection = line.substring(1, pos).trim().toLowerCase()
+                    currentSection = canonical(line.substring(1, pos))
                     keysParsed.clear()
                     if (currentSection in sectionsParsed) {
                         ignoreDuplicatedSection = true
@@ -66,7 +66,7 @@ class Ini {
             } else {
                 if (line.contains("=") && !ignoreDuplicatedSection && (section == null || section == currentSection)) {
                     int equalsPos = line.indexOf("=")
-                    String key = line.substring(0, equalsPos).trim().toLowerCase()
+                    String key = canonical(line.substring(0, equalsPos))
                     if (!keysParsed.contains(key) && (!includeOnlyKeys || key in includeOnlyKeys)) {
                         if (ignoreDuplicatedKeys) keysParsed << key
                         String value = line.substring(equalsPos + 1).trim()
@@ -91,11 +91,12 @@ class Ini {
     }
 
     String put(String section, String key, String value) {
-        Map values = sections[section.trim().toLowerCase()]
+        String canonicalSection = canonical(section)
+        Map values = sections[canonicalSection]
         if (!values) {
-            values = sections[section.trim().toLowerCase()] = [:]
+            values = sections[canonicalSection] = [:]
         }
-        return values.put(key.trim().toLowerCase(), value)
+        return values.put(canonical(key), value)
     }
 
     Object get(String key) {
@@ -107,7 +108,7 @@ class Ini {
     }
 
     Map getSection(String section) {
-        Map map = this.sections[section.trim().toLowerCase()] ?: [:]
+        Map map = this.sections[canonical(section)] ?: [:]
         if (parent) {
             parent.getSection(section).each { String key, String value ->
                 if (!map.containsKey(key)) {
@@ -119,9 +120,9 @@ class Ini {
     }
 
     String get(String section, String key) {
-        Map values = this.sections[section.trim().toLowerCase()]
+        Map values = this.sections[canonical(section)]
         if (values) {
-            String value = values[key.trim().toLowerCase()]
+            String value = values[canonical(key)]
             if (value) return value
         }
         // No section or no value in section
@@ -129,6 +130,10 @@ class Ini {
             return parent.get(section, key)
         }
         return null
+    }
+
+    private String canonical(String s) {
+        s?.trim()?.toLowerCase()
     }
 
 }

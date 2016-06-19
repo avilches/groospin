@@ -30,11 +30,25 @@ class IniSpec extends Specification {
         ini["b"] == "b"
 
         when:
-        ini.parent = new Ini().load(["a": "no", "c": "c"])
+        ini.parent = new Ini().putAll(["a": "no", "c": "c"])
 
         then:
         ini["a"] == "a"
         ini["c"] == "c"
+
+        and:
+        ini.defaultSection == ["a": "a", "c": "c", "b": "b"]
+
+        when:
+        ini.putAll("section ", ["v":"1"])
+        ini.parent.putAll(" section", ["v": "11", " W ": "2"])
+
+        then:
+        ini.get("section", " V ") == "1"
+        ini.get(" section ", "w") == "2"
+
+        and:
+        ini.getSection(" section ") == ["v": "1", "w": "2"]
     }
 
     @Unroll
