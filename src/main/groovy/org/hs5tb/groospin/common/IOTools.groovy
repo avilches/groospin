@@ -34,7 +34,7 @@ class IOTools {
     static File findFilesInFolder(File path, List<String> filesToFind) {
         for (String fileToFind in filesToFind) {
             File file = new File(path, fileToFind).canonicalFile
-            println "Checking for ${file} exists? ${file.exists()}"
+            // println "Checking for ${file} exists? ${file.exists()}"
             if (file.exists()) return file
         }
         return null
@@ -51,7 +51,7 @@ class IOTools {
     static File findFileInFolders(List<File> paths, String fileToFind) {
         for (File path in paths) {
             File file = new File(path, fileToFind).canonicalFile
-            println "Checking for ${file} exists? ${file.exists()}"
+            // println "Checking for ${file} exists? ${file.exists()}"
             if (file.exists()) return file
         }
         return null
@@ -64,7 +64,7 @@ class IOTools {
     static File findFileWithExtensions(String fileBaseWithoutExtension, List extensions) {
         for (String extension in extensions) {
             File file = new File(fileBaseWithoutExtension + "." + extension).canonicalFile
-            println "Checking for ${file} exists? ${file.exists()}"
+            // println "Checking for ${file} exists? ${file.exists()}"
             if (file.exists()) return file
         }
         return null

@@ -14,6 +14,12 @@ class IniSpec extends Specification {
         Ini ini = new Ini()
 
         when:
+        ini.parse(new File("impossible"))
+
+        then:
+        noExceptionThrown()
+
+        when:
         ini["a"] = "a"
         ini["B"] = "b"
 

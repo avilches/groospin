@@ -3,6 +3,7 @@ package org.hs5tb.groospin
 import org.hs5tb.groospin.base.RLEmulator
 import org.hs5tb.groospin.base.HyperSpin
 import org.hs5tb.groospin.base.RLSystem
+import org.hs5tb.groospin.base.Rom
 import spock.lang.Unroll
 
 
@@ -19,6 +20,14 @@ class HyperSpinSpec extends HSSpecification {
         expect:
         hs.listSystemNames() == ["AAE", "mame"]
         hs.listRomNames("aae") == ["alienst", "alphaona", "deep"]
+        hs.listRoms("AAE")[0].name == "alienst"
+
+        when:
+        Rom rom = hs.listRoms("AAE")[1]
+
+        then:
+        rom.name == "alphaona"
+        rom.description == "Alpha One (5 lives)"
 
     }
 

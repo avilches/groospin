@@ -157,7 +157,11 @@ class RLSystem {
     }
 */
 
-    Collection<String> listRomNames() {
+    List<Rom> listRoms() {
+        return hyperSpin.listRoms(name)
+    }
+
+    List<String> listRomNames() {
         return hyperSpin.listRomNames(name)
     }
 }

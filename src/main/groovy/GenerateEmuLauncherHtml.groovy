@@ -6,7 +6,7 @@ HyperSpin hs = new HyperSpin(
         "D:/Games/HyperSpin-fe",
         "D:/Games/RocketLauncher")
 
-File emus = new File("D:/Games/systems.html")
+File emus = new File("D:/Games/Sistemas y emuladores.html")
 
 StringBuffer txt = new StringBuffer()
 txt << """<html><head>
@@ -19,6 +19,7 @@ h3 { margin:15pt 0 3pt; }
 
 hs.listSystem().each { RLSystem system ->
     txt << "<h3>${system.name}</h3>"
+    println system.name
     if (system.needsExecutable()) {
         txt << "${system.defaultEmulator.name} (Modulo: ${system.defaultEmulator.module})<br/><ul>"
         system.listRomNames().each { String game ->

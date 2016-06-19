@@ -95,21 +95,33 @@ class HyperSpin {
         return emulator
     }
 
-    List listRomNames(String systemName) {
+    List<Rom> listRoms(String systemName) {
+        databaseCollect(systemName) {
+            return new Rom(name: it.@name, description: it.description.text())
+        }
+    }
+
+    List<String> listSystemNames() {
+        databaseCollect("Main menu") {
+            if (it.@exe == "true") return null
+            return it.@name
+        }
+    }
+
+    List<String> listRomNames(String systemName) {
+        databaseCollect(systemName) {
+            return it.@name
+        }
+    }
+
+    List databaseCollect(String systemName, Closure closure) {
         File db = findHyperSpinFile("Databases/${systemName}/${systemName}.xml")
         if (!db.exists()) {
             error "${systemName} menu not found in ${db.absolutePath}"
             return []
         }
         def xml = new XmlParser().parseText(db.text)
-        return xml.game.collect {
-            if (it.@exe == "true") return null
-            return it.@name
-        }.findAll()
-    }
-
-    List listSystemNames() {
-        return listRomNames("Main menu")
+        return xml.game.collect(closure).findAll()
     }
 
     Collection<RLSystem> listSystem() {
@@ -132,6 +144,9 @@ check(systemName, getGamesFromSystem(systemName))
 
 */
 
+    File getRocketLauncherExe() {
+        findRocketLauncherFile("RocketLauncher.exe")
+    }
 }
 
 
