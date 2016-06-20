@@ -11,6 +11,9 @@ import groovy.io.FileType
 
 class IOTools {
     static File tryRelativeFrom(File root, String path) {
+        if (File.separator == "/") { // We are running tests in a MacOS/linux environment
+            path = path.replaceAll("\\\\", "/")
+        }
         File candidate = new File(path).canonicalFile
         if (candidate.exists()) return candidate
         return new File(root, path).canonicalFile

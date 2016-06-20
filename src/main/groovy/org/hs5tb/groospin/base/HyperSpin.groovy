@@ -68,7 +68,7 @@ class HyperSpin {
     RLSystem getSystem(String systemName) {
         File systemEmulatorConfig = findRocketLauncherFile("Settings/${systemName}/Emulators.ini")
         if (!systemEmulatorConfig.file) {
-            return null
+            throw new FileNotFoundException("RocketLauncher settings for ${systemName} not found: ${systemEmulatorConfig}")
         }
         Ini systemIni = new Ini().parse(systemEmulatorConfig)
         systemIni.parent = globalEmulatorsIni

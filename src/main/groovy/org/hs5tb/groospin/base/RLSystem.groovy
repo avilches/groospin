@@ -24,6 +24,17 @@ class RLSystem {
     }
 
     File findValidRom(String game) {
+        if (defaultEmulator.module == "ScummVM.ahk") {
+            String path = romMapping.get(game, "path")
+            if (path) {
+                File scummRomFolder = hyperSpin.findRocketLauncherFile(path)
+                if (scummRomFolder.exists() && scummRomFolder.directory) {
+                    return scummRomFolder
+                }
+            }
+            return null
+        }
+
         for (String ext in defaultEmulator.romExtensions) {
             File rom = IOTools.findFileInFolders(romPathsList, game+ "." + ext)
             rom = rom ?: IOTools.findFileInFolders(romPathsList, game + "/" + game + "." + ext)
@@ -69,6 +80,13 @@ class RLSystem {
                     hyperSpin.findRocketLauncherFile("Modules/PCLauncher/${name}.ini"))
             romMapping.parent = new Ini().parse(
                     hyperSpin.findRocketLauncherFile("Modules/PCLauncher/PCLauncher.ini"))
+        } else if (defaultEmulator.module == "ScummVM.ahk") {
+            Ini moduleIni = new Ini().parse(hyperSpin.findRocketLauncherFile("Modules/ScummVM/ScummVM.ini"), "Settings", ["CustomConfig"])
+            String customConfig = moduleIni.get("Settings", "CustomConfig")
+            romMapping = new Ini()
+            if (customConfig) {
+                romMapping = romMapping.parse(hyperSpin.findRocketLauncherFile(customConfig))
+            }
         } else if (defaultEmulator.module == "Casual Games.ahk") {
             romMapping = new Ini().parse(hyperSpin.findRocketLauncherFile("Modules/Casual Games/Casual Games.ini"))
         } else if (defaultEmulator.module == "OpenBOR.ahk") {

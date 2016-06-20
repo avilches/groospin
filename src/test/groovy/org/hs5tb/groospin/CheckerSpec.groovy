@@ -134,4 +134,27 @@ class CheckerSpec extends HSSpecification {
         "rom and gamepath"       | 1    | 1    | 1
     }
 
+    @Unroll
+    void "scumm vm"() {
+        setup:
+        HyperSpin hs = createDefaultHS()
+        Checker checker = new Checker(hs)
+
+        when:
+        CheckResult checkResult = checker.check("ScummVM", ROM)
+
+        then:
+        checkResult.game == ROM
+        checkResult.roms == ROMS
+        checkResult.exes == EXES
+        checkResult.works == WORKS
+
+        where:
+        ROM                      | ROMS | EXES | WORKS
+        "zak"                    | 1    | 0    | 1     // esta en el xml, esta en el scummvm y en la carpeta
+        "wrong"                  | 0    | 0    | 0     // esta en el xml, en el scummvm pero no existe la carpeta
+        "missing"                | 0    | 0    | 0     // esta en el xml, no esta en el scummvm
+        "nothing"                | 0    | 0    | 0     // no esta ni en el xml del database
+    }
+
 }
