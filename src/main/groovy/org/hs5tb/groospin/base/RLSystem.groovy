@@ -17,12 +17,6 @@ class RLSystem {
 
     Ini romMapping
 
-    long calculateRomPathSize() {
-        long totalSize = 0
-        romPathsList?.each { File romFolder -> totalSize += IOTools.folderSize(romFolder) }
-        return totalSize
-    }
-
     File findValidRom(String game) {
         if (defaultEmulator.module == "ScummVM.ahk") {
             String path = romMapping.get(game, "path")

@@ -14,6 +14,10 @@ class Report {
     private File warning
     private File debug
 
+    Report(String reportRoot) {
+        this(new File(reportRoot))
+    }
+
     Report(File reportRoot) {
         println("Report root: " + reportRoot)
         if (!reportRoot.exists()) {

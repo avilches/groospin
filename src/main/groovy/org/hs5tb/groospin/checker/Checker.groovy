@@ -64,6 +64,12 @@ public class Checker {
         report?.endReport(total)
     }
 
+    long calculateRomPathSize(RLSystem system) {
+        long totalSize = 0
+        system.romPathsList?.each { File romFolder -> totalSize += IOTools.folderSize(romFolder) }
+        return totalSize
+    }
+
     CheckResult checkSystemRoms(String systemName, List<String> romsNames = null) {
         CheckResult checkResultSystem = new CheckResult(systemName: systemName)
         try {
@@ -72,7 +78,8 @@ public class Checker {
             if (!romsNames) romsNames = system.listRomNames()
             checkResultSystem.systemName = system.name
             checkResultSystem.system = system
-            checkResultSystem.totalSize = calculateSize ? system.calculateRomPathSize() : 0
+            print "Checking ${systemName}"
+            checkResultSystem.totalSize = calculateSize ? calculateRomPathSize(system) : 0
             checkResultSystem.totalRoms = romsNames.size()
             checkResultSystem.romName =  romsNames.size() == 1 ? romsNames.first() : null
 
@@ -88,6 +95,7 @@ public class Checker {
         } catch (e) {
             report?.endSystemWithError(e)
         }
+        println ""
         return checkResultSystem
     }
 

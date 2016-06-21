@@ -18,9 +18,6 @@ h3 { margin:15pt 0 3pt; }
 
 hs.listSystems().each { RLSystem system ->
     txt << "<h3>${system.name}</h3>"
-    txt << """
-
-"""
     system.listRomNames().each { String game ->
         File romFound = system.findValidRom(game)
         if (romFound) {
