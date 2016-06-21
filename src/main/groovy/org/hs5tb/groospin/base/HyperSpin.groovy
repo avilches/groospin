@@ -80,7 +80,6 @@ class HyperSpin {
         RLSystem system = new RLSystem(hyperSpin: this, name: systemName, iniRomPath : rom_Path,
             iniDefaultEmulator : default_Emulator, defaultEmulator : createEmulator(default_Emulator, systemIni.getSection(default_Emulator)), romPathsList : romPathList)
         system.loadMapping()
-//        debug "$systemName romPathFiles " + rs.emuConfig.rom_Path
         return system
     }
 
@@ -96,35 +95,42 @@ class HyperSpin {
     }
 
     List<Rom> listRoms(String systemName) {
-        databaseCollect(systemName) {
-            return new Rom(name: it.@name, description: it.description.text())
+        databaseCollect(systemName) { Node node ->
+            return createRomFromXmlDatabaseGame(node)
         }
     }
 
     List<String> listSystemNames() {
-        databaseCollect("Main menu") {
-            if (it.@exe == "true") return null
-            return it.@name
+        databaseCollect("Main menu") { Node node ->
+            if (node.@exe == "true") return null
+            return node.@name
         }
     }
 
     List<String> listRomNames(String systemName) {
-        databaseCollect(systemName) {
-            return it.@name
+        databaseCollect(systemName) { Node node ->
+            return node.@name
         }
+    }
+
+    Rom getRom(String systemName, String rom) {
+        rom = rom.trim().toLowerCase()
+        List<Rom> roms = databaseCollect(systemName) { Node node ->
+            return node.@name?.trim().toLowerCase() == rom ? createRomFromXmlDatabaseGame(node) : null
+        }
+        roms ? roms.first() : null
     }
 
     List databaseCollect(String systemName, Closure closure) {
         File db = findHyperSpinFile("Databases/${systemName}/${systemName}.xml")
         if (!db.exists()) {
-            error "${systemName} menu not found in ${db.absolutePath}"
-            return []
+            throw new FileNotFoundException("${systemName} menu not found in ${db.absolutePath}")
         }
         def xml = new XmlParser().parseText(db.text)
         return xml.game.collect(closure).findAll()
     }
 
-    Collection<RLSystem> listSystem() {
+    Collection<RLSystem> listSystems() {
         return listSystemNames().collect { String system ->
             getSystem(system)
         }
@@ -147,6 +153,11 @@ check(systemName, getGamesFromSystem(systemName))
     File getRocketLauncherExe() {
         findRocketLauncherFile("RocketLauncher.exe")
     }
+
+    private Rom createRomFromXmlDatabaseGame(Node node) {
+        new Rom(name: node.@name, description: node.description?.text())
+    }
+
 }
 
 

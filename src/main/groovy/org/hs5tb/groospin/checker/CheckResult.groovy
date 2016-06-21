@@ -1,5 +1,6 @@
 package org.hs5tb.groospin.checker
 
+import org.hs5tb.groospin.base.RLSystem
 import org.hs5tb.groospin.common.IOTools
 
 /**
@@ -7,11 +8,13 @@ import org.hs5tb.groospin.common.IOTools
  */
 class CheckResult {
     String systemName
-    String game
+    RLSystem system
+
+    String romName
     long totalSize
-    int games = 0
+    int totalRoms = 0
+
     int roms = 0
-    int works = 0
     int exes = 0
     int wheels = 0
     int videos = 0
@@ -26,15 +29,29 @@ class CheckResult {
     }
 
     String getQuickInfo(String delimiter) {
-        ["\"${systemName}${game ? ":${game}" : ""}\"", games, roms, wheels, videos].join(delimiter)
+        ["\"${systemName}${romName ? ":${romName}" : ""}\"", totalRoms, roms, wheels, videos].join(delimiter)
     }
 
     String getShortInfo(String delimiter) {
-        ["\"${systemName}${game ? ":${game}" : ""}\"", totalSize, "\"${IOTools.humanReadableByteCount(totalSize)}\"", games, roms, exes, works, wheels, videos].join(delimiter)
+        ["\"${systemName}${romName ? ":${romName}" : ""}\"", totalSize, "\"${IOTools.humanReadableByteCount(totalSize)}\"", totalRoms, roms, exes, works, wheels, videos].join(delimiter)
     }
 
     String getLongInfo(String delimiter) {
         getShortInfo(delimiter) + delimiter + [themes, artwork1, artwork2, artwork3, artwork4].join(delimiter)
     }
 
+    void sum(CheckResult checkResult) {
+        roms += checkResult.roms
+        exes += checkResult.exes
+        wheels += checkResult.wheels
+        videos += checkResult.videos
+        themes += checkResult.themes
+        artwork1 += checkResult.artwork1
+        artwork2 += checkResult.artwork2
+        artwork3 += checkResult.artwork3
+        artwork4 += checkResult.artwork4
+
+
+
+    }
 }

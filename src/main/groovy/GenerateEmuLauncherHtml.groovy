@@ -1,6 +1,5 @@
 import org.hs5tb.groospin.base.HyperSpin
 import org.hs5tb.groospin.base.RLSystem
-import org.hs5tb.groospin.checker.Checker
 
 HyperSpin hs = new HyperSpin(
         "D:/Games/HyperSpin-fe",
@@ -17,7 +16,7 @@ h3 { margin:15pt 0 3pt; }
 </head><body><div id="data">
 """
 
-hs.listSystem().each { RLSystem system ->
+hs.listSystems().each { RLSystem system ->
     txt << "<h3>${system.name}</h3>"
     println system.name
     if (system.needsExecutable()) {

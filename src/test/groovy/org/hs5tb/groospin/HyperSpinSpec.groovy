@@ -19,8 +19,16 @@ class HyperSpinSpec extends HSSpecification {
 
         expect:
         hs.listSystemNames() == ["AAE", "mame"]
+        hs.listSystemNames() == hs.listSystems()*.name
         hs.listRomNames("aae") == ["alienst", "alphaona", "deep"]
-        hs.listRoms("AAE")[0].name == "alienst"
+        hs.listRomNames("aae") == hs.getSystem("aae").listRomNames()
+        hs.listRomNames("aae") == hs.listRoms("AAE")*.name
+    }
+
+    @Unroll
+    void "get roms"() {
+        setup:
+        HyperSpin hs = createDefaultHS()
 
         when:
         Rom rom = hs.listRoms("AAE")[1]
@@ -29,6 +37,22 @@ class HyperSpinSpec extends HSSpecification {
         rom.name == "alphaona"
         rom.description == "Alpha One (5 lives)"
 
+        and:
+        rom.name == hs.getRom("AAE", "alphaona").name
+        rom.description == hs.getRom("AAE", "alphaona").description
+    }
+
+    @Unroll
+    void "list system"() {
+        setup:
+        HyperSpin hs = createDefaultHS()
+
+        when:
+        RLSystem system = hs.listSystems()[0]
+
+        then:
+        system.name == hs.getSystem("AAE").name
+        system.iniRomPath == hs.getSystem("AAE").iniRomPath
     }
 
     @Unroll
@@ -53,6 +77,12 @@ class HyperSpinSpec extends HSSpecification {
     void "get system"() {
         setup:
         HyperSpin hs = createDefaultHS()
+
+        when:
+        hs.getSystem("zxxxxxxx")
+
+        then:
+        thrown(FileNotFoundException)
 
         when:
         RLSystem system = hs.getSystem(systemName)

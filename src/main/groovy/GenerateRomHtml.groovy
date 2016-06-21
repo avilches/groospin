@@ -10,7 +10,7 @@ File emus = new File("D:/Games/roms.html")
 
 StringBuffer txt = new StringBuffer()
 int all = 0
-hs.listSystem().each { RLSystem system ->
+hs.listSystems().each { RLSystem system ->
     println system.name
     StringBuffer romSet = new StringBuffer()
     int roms = 0

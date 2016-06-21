@@ -16,7 +16,7 @@ h3 { margin:15pt 0 3pt; }
 </head><body><div id="data">
 """
 
-hs.listSystem().each { RLSystem system ->
+hs.listSystems().each { RLSystem system ->
     txt << "<h3>${system.name}</h3>"
     txt << """
 

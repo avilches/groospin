@@ -3,7 +3,6 @@ package org.hs5tb.groospin
 import org.hs5tb.groospin.base.HyperSpin
 import org.hs5tb.groospin.checker.CheckResult
 import org.hs5tb.groospin.checker.Checker
-import spock.lang.IgnoreRest
 import spock.lang.Unroll
 
 /*
@@ -23,13 +22,13 @@ class CheckerSpec extends HSSpecification {
         Checker checker = new Checker(hs)
 
         when:
-        CheckResult checkResult = checker.check("aae")
+        CheckResult checkResult = checker.checkSystemRoms("aae")
 
         then:
         checkResult.systemName == "aae"
 
         // El sistema AAE tiene 3 juegos, uno de ellos tiene todos los medias y los otros ninguno
-        checkResult.games == 3
+        checkResult.totalRoms == 3
         checkResult.artwork1 == 1
         checkResult.artwork2 == 1
         checkResult.artwork3 == 1
@@ -39,12 +38,11 @@ class CheckerSpec extends HSSpecification {
         checkResult.themes == 1
 
         and: "Solo tiene valor cuando se le pasa un juego solo"
-        checkResult.game == null
+        checkResult.romName == null
 
         and:
         checkResult.roms == 2
-        checkResult.works == 2
-        checkResult.exes == 0
+        checkResult.exes == 2
 
         and: "No existen las carpetas de roms = 0 bytes"
         checkResult.totalSize == 0
@@ -57,13 +55,13 @@ class CheckerSpec extends HSSpecification {
         Checker checker = new Checker(hs)
 
         when:
-        CheckResult checkResult = checker.check("aae", ROM)
+        CheckResult checkResult = checker.checkSystemRoms("aae", [ROM])
 
         then:
         checkResult.systemName == "aae"
 
         // El sistema AAE tiene 3 juegos, uno de ellos tiene todos los medias y losotros ninguno
-        checkResult.games == 1
+        checkResult.totalRoms == 1
         checkResult.artwork1 == 0
         checkResult.artwork2 == 0
         checkResult.artwork3 == 0
@@ -73,11 +71,10 @@ class CheckerSpec extends HSSpecification {
         checkResult.themes == 0
 
         and: "Solo tiene valor cuando se le pasa un juego solo"
-        checkResult.game == ROM
+        checkResult.romName == ROM
 
         and:
         checkResult.roms == 0
-        checkResult.works == 0
         checkResult.exes == 0
 
         and: "No existen las carpetas de roms = 0 bytes"
@@ -94,20 +91,19 @@ class CheckerSpec extends HSSpecification {
         Checker checker = new Checker(hs)
 
         when:
-        CheckResult checkResult = checker.check("mugen", ROM)
+        CheckResult checkResult = checker.checkSystemRoms("mugen", [ROM])
 
         then:
-        checkResult.game == ROM
+        checkResult.romName == ROM
         checkResult.roms == ROMS
         checkResult.exes == EXES
-        checkResult.works == WORKS
 
         where:
-        ROM                      | ROMS | EXES | WORKS
-        "nothing"                | 0    | 0    | 0
-        "rom only"               | 1    | 0    | 0
-        "rom only and mugenexe"  | 1    | 1    | 1
-        "rom and gamepath"       | 1    | 1    | 1
+        ROM                      | ROMS | EXES
+        "nothing"                | 0    | 0
+        "rom only"               | 1    | 0
+        "rom only and mugenexe"  | 1    | 1
+        "rom and gamepath"       | 1    | 1
 
     }
 
@@ -118,20 +114,19 @@ class CheckerSpec extends HSSpecification {
         Checker checker = new Checker(hs)
 
         when:
-        CheckResult checkResult = checker.check("OpenBOR", ROM)
+        CheckResult checkResult = checker.checkSystemRoms("OpenBOR", [ROM])
 
         then:
-        checkResult.game == ROM
+        checkResult.romName == ROM
         checkResult.roms == ROMS
         checkResult.exes == EXES
-        checkResult.works == WORKS
 
         where:
-        ROM                      | ROMS | EXES | WORKS
-        "nothing"                | 0    | 0    | 0
-        "rom only"               | 1    | 0    | 0
-        "rom only and exe"       | 1    | 1    | 1
-        "rom and gamepath"       | 1    | 1    | 1
+        ROM                      | ROMS | EXES
+        "nothing"                | 0    | 0
+        "rom only"               | 1    | 0
+        "rom only and exe"       | 1    | 1
+        "rom and gamepath"       | 1    | 1
     }
 
     @Unroll
@@ -141,20 +136,19 @@ class CheckerSpec extends HSSpecification {
         Checker checker = new Checker(hs)
 
         when:
-        CheckResult checkResult = checker.check("ScummVM", ROM)
+        CheckResult checkResult = checker.checkSystemRoms("ScummVM", [ROM])
 
         then:
-        checkResult.game == ROM
+        checkResult.romName == ROM
         checkResult.roms == ROMS
         checkResult.exes == EXES
-        checkResult.works == WORKS
 
         where:
-        ROM                      | ROMS | EXES | WORKS
-        "zak"                    | 1    | 0    | 1     // esta en el xml, esta en el scummvm y en la carpeta
-        "wrong"                  | 0    | 0    | 0     // esta en el xml, en el scummvm pero no existe la carpeta
-        "missing"                | 0    | 0    | 0     // esta en el xml, no esta en el scummvm
-        "nothing"                | 0    | 0    | 0     // no esta ni en el xml del database
+        ROM                      | ROMS | EXES
+        "zak"                    | 1    | 1     // esta en el xml, esta en el scummvm y en la carpeta
+        "wrong"                  | 0    | 0     // esta en el xml, en el scummvm pero no existe la carpeta
+        "missing"                | 0    | 0     // esta en el xml, no esta en el scummvm
+        "nothing"                | 0    | 0     // no esta ni en el xml del database
     }
 
 }
