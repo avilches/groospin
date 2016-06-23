@@ -90,8 +90,8 @@ class RLSystem {
         }
     }
 
-    List<Rom> listRoms() {
-        return hyperSpin.listRoms(name)
+    List<Rom> listRoms(Collection<String> names = null) {
+        return hyperSpin.listRoms(name, names)
     }
 
     List<String> listRomNames() {

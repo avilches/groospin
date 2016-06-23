@@ -94,9 +94,10 @@ class HyperSpin {
         return emulator
     }
 
-    List<Rom> listRoms(String systemName) {
+    List<Rom> listRoms(String systemName, Collection<String> names = null) {
+        Set canonicalNames = names? names.collect { it.trim().toLowerCase() } as Set : null
         databaseCollect(systemName) { Node node ->
-            return createRomFromXmlDatabaseGame(node)
+            return (canonicalNames == null || node.@name?.trim()?.toLowerCase() in canonicalNames) ? createRomFromXmlDatabaseGame(node) : null
         }
     }
 
@@ -114,10 +115,7 @@ class HyperSpin {
     }
 
     Rom getRom(String systemName, String rom) {
-        rom = rom.trim().toLowerCase()
-        List<Rom> roms = databaseCollect(systemName) { Node node ->
-            return node.@name?.trim().toLowerCase() == rom ? createRomFromXmlDatabaseGame(node) : null
-        }
+        List<Rom> roms = listRoms(systemName, [rom])
         roms ? roms.first() : null
     }
 

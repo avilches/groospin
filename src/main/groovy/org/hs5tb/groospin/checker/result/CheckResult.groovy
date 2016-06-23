@@ -1,18 +1,8 @@
-package org.hs5tb.groospin.checker
-
-import org.hs5tb.groospin.base.RLSystem
-import org.hs5tb.groospin.common.IOTools
-
+package org.hs5tb.groospin.checker.result
 /**
  * Created by Alberto on 12-Jun-16.
  */
 class CheckResult {
-    String systemName
-    RLSystem system
-
-    String romName
-    long totalSize
-    int totalRoms = 0
 
     int roms = 0
     int exes = 0
@@ -24,6 +14,7 @@ class CheckResult {
     int artwork3 = 0
     int artwork4 = 0
 
+/*
     String toString() {
         getLongInfo(", ")
     }
@@ -40,7 +31,8 @@ class CheckResult {
         getShortInfo(delimiter) + delimiter + [themes, artwork1, artwork2, artwork3, artwork4].join(delimiter)
     }
 
-    void sum(CheckResult checkResult) {
+*/
+    void add(CheckResult checkResult) {
         roms += checkResult.roms
         exes += checkResult.exes
         wheels += checkResult.wheels
@@ -50,8 +42,5 @@ class CheckResult {
         artwork2 += checkResult.artwork2
         artwork3 += checkResult.artwork3
         artwork4 += checkResult.artwork4
-
-
-
     }
 }

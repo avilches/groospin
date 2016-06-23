@@ -1,7 +1,6 @@
 import org.hs5tb.groospin.base.HyperSpin
-import org.hs5tb.groospin.base.RLSystem
 import org.hs5tb.groospin.checker.Checker
-import org.hs5tb.groospin.checker.Report
+import org.hs5tb.groospin.checker.handler.Report
 
 HyperSpin hs = new HyperSpin(
         "D:/Games/HyperSpin-fe",

@@ -1,8 +1,11 @@
 package org.hs5tb.groospin
 
 import org.hs5tb.groospin.base.HyperSpin
-import org.hs5tb.groospin.checker.CheckResult
+import org.hs5tb.groospin.checker.result.CheckResult
+import org.hs5tb.groospin.checker.result.CheckRomResult
+import org.hs5tb.groospin.checker.result.CheckTotalResult
 import org.hs5tb.groospin.checker.Checker
+import org.hs5tb.groospin.checker.handler.DummyCheckHandler
 import spock.lang.Unroll
 
 /*
@@ -19,10 +22,10 @@ class CheckerSpec extends HSSpecification {
     void "basic rom and media check"() {
         setup:
         HyperSpin hs = createDefaultHS()
-        Checker checker = new Checker(hs)
+        Checker checker = new Checker(hs, new DummyCheckHandler())
 
         when:
-        CheckResult checkResult = checker.checkSystemRoms("aae")
+        CheckTotalResult checkResult = checker.checkSystemRoms("aae")
 
         then:
         checkResult.systemName == "aae"
@@ -37,9 +40,6 @@ class CheckerSpec extends HSSpecification {
         checkResult.videos == 1
         checkResult.themes == 1
 
-        and: "Solo tiene valor cuando se le pasa un juego solo"
-        checkResult.romName == null
-
         and:
         checkResult.roms == 2
         checkResult.exes == 2
@@ -52,10 +52,10 @@ class CheckerSpec extends HSSpecification {
     void "basic single rom and media check"() {
         setup:
         HyperSpin hs = createDefaultHS()
-        Checker checker = new Checker(hs)
+        Checker checker = new Checker(hs, new DummyCheckHandler())
 
         when:
-        CheckResult checkResult = checker.checkSystemRoms("aae", [ROM])
+        CheckTotalResult checkResult = checker.checkSystemRoms("aae", [ROM])
 
         then:
         checkResult.systemName == "aae"
@@ -70,9 +70,6 @@ class CheckerSpec extends HSSpecification {
         checkResult.videos == 0
         checkResult.themes == 0
 
-        and: "Solo tiene valor cuando se le pasa un juego solo"
-        checkResult.romName == ROM
-
         and:
         checkResult.roms == 0
         checkResult.exes == 0
@@ -81,22 +78,30 @@ class CheckerSpec extends HSSpecification {
         checkResult.totalSize == 0
 
         where:
-        ROM << ["x", "alphaona"]
+        ROM << ["alphaona"]
     }
 
     @Unroll
     void "mugen exes"() {
         setup:
         HyperSpin hs = createDefaultHS()
-        Checker checker = new Checker(hs)
+        Checker checker = new Checker(hs, new DummyCheckHandler())
 
         when:
-        CheckResult checkResult = checker.checkSystemRoms("mugen", [ROM])
+        CheckTotalResult checkResult = checker.checkSystemRoms("mugen", [ROM])
 
         then:
-        checkResult.romName == ROM
+        checkResult.totalRoms == 1
         checkResult.roms == ROMS
         checkResult.exes == EXES
+
+        when:
+        CheckRomResult checkRomResult = checker.checkRom(hs.getSystem("mugen"), ROM)
+
+        then:
+        checkRomResult.romName == ROM
+        checkRomResult.roms == ROMS
+        checkRomResult.exes == EXES
 
         where:
         ROM                      | ROMS | EXES
@@ -111,13 +116,12 @@ class CheckerSpec extends HSSpecification {
     void "openbor exes"() {
         setup:
         HyperSpin hs = createDefaultHS()
-        Checker checker = new Checker(hs)
+        Checker checker = new Checker(hs, new DummyCheckHandler())
 
         when:
         CheckResult checkResult = checker.checkSystemRoms("OpenBOR", [ROM])
 
         then:
-        checkResult.romName == ROM
         checkResult.roms == ROMS
         checkResult.exes == EXES
 
@@ -133,13 +137,12 @@ class CheckerSpec extends HSSpecification {
     void "scumm vm"() {
         setup:
         HyperSpin hs = createDefaultHS()
-        Checker checker = new Checker(hs)
+        Checker checker = new Checker(hs, new DummyCheckHandler())
 
         when:
         CheckResult checkResult = checker.checkSystemRoms("ScummVM", [ROM])
 
         then:
-        checkResult.romName == ROM
         checkResult.roms == ROMS
         checkResult.exes == EXES
 
