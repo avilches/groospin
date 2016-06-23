@@ -9,14 +9,16 @@ class CheckTotalResult extends CheckResult {
     String systemName
     RLSystem system
 
-    long totalSize
+    long totalRomSize = 0
+    long totalMediaSize = 0
     int totalRoms = 0
 
     @Override
     void add(CheckResult checkResult) {
         if (checkResult instanceof CheckTotalResult) {
             totalRoms += checkResult.totalRoms
-            totalSize += checkResult.totalSize
+            totalRomSize += checkResult.totalRomSize
+            totalMediaSize += checkResult.totalMediaSize
         }
         super.add(checkResult)
     }

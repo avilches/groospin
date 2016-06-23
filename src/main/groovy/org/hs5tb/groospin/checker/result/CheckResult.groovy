@@ -24,7 +24,7 @@ class CheckResult {
     }
 
     String getShortInfo(String delimiter) {
-        ["\"${systemName}${romName ? ":${romName}" : ""}\"", totalSize, "\"${IOTools.humanReadableByteCount(totalSize)}\"", totalRoms, roms, exes, works, wheels, videos].join(delimiter)
+        ["\"${systemName}${romName ? ":${romName}" : ""}\"", totalRomSize, "\"${IOTools.humanReadableByteCount(totalRomSize)}\"", totalRoms, roms, exes, works, wheels, videos].join(delimiter)
     }
 
     String getLongInfo(String delimiter) {

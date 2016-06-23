@@ -26,7 +26,19 @@ class IOTools {
         return totalSize
     }
 
-    static String humanReadableByteCount(long bytes, boolean si = true) {
+    static String escapeCsv(String string, String delimiter) {
+        if (string.contains('"') || string.contains(delimiter)) {
+            string = string.replaceAll(/"/, /""/)
+            StringBuffer row = new StringBuffer()
+            row.append("\"")
+            row.append(string)
+            row.append("\"")
+            string = row.toString()
+        }
+        return string
+    }
+
+    static String humanReadableByteSize(long bytes, boolean si = true) {
         int unit = si ? 1000 : 1024;
         if (bytes < unit) return bytes + " B";
         int exp = (int) (Math.log(bytes) / Math.log(unit));

@@ -11,7 +11,6 @@ import groovy.transform.CompileStatic
 import org.hs5tb.groospin.base.HyperSpin
 import org.hs5tb.groospin.base.RLSystem
 import org.hs5tb.groospin.base.Rom
-import org.hs5tb.groospin.checker.handler.CheckHandler
 import org.hs5tb.groospin.checker.result.CheckResult
 import org.hs5tb.groospin.checker.result.CheckRomResult
 import org.hs5tb.groospin.checker.result.CheckTotalResult
@@ -22,7 +21,8 @@ class Checker {
 
     HyperSpin hyperSpin
     Collection<CheckHandler> handlers = []
-    boolean calculateSize = true
+    Boolean calculateRomSize = null
+    Boolean calculateMediaSize = null
     RomChecker romChecker = new RomChecker()
 
     Checker(HyperSpin hyperSpin) {
@@ -34,8 +34,15 @@ class Checker {
         addHandler(handler)
     }
 
-    void addHandler(CheckHandler handler) {
+    Checker addHandler(CheckHandler handler) {
         handlers << handler
+        resetCachedFlags()
+        return this
+    }
+
+    void resetCachedFlags() {
+        calculateRomSize = null
+        calculateMediaSize = null
     }
 
     void checkSystems(List<String> systems = null) {
@@ -61,15 +68,32 @@ class Checker {
     }
 
     void wrap(Closure<CheckTotalResult> closure) {
+        resetCachedFlags()
         handlers*.startCheck()
         CheckTotalResult total = closure.call()
         handlers*.endCheck(total)
     }
 
+    long calculateMediaPathSize(RLSystem system) {
+        if (calculateMediaSize == null) {
+            calculateMediaSize = handlers ? handlers.any { it.needsMediaFolderSize() } : false
+        }
+        if (calculateMediaSize) {
+            return IOTools.folderSize(hyperSpin.findHyperSpinFile("Media/${system.name}"))
+        }
+        return 0
+    }
+
     long calculateRomPathSize(RLSystem system) {
+        if (calculateRomSize == null) {
+            calculateRomSize = handlers ? handlers.any { it.needsRomFolderSize() } : false
+        }
         long totalSize = 0
-        system.romPathsList?.each { File romFolder -> totalSize += IOTools.folderSize(romFolder) }
+        if (calculateRomSize) {
+            system.romPathsList?.each { File romFolder -> totalSize += IOTools.folderSize(romFolder) }
+        }
         return totalSize
+
     }
 
     CheckTotalResult checkSystemRoms(String systemName, Collection<String> romNames = null) {
@@ -80,13 +104,13 @@ class Checker {
             List<Rom> roms = system.listRoms(romNames)
             checkTotalResult.systemName = system.name
             checkTotalResult.system = system
-            println "Checking ${systemName}..."
             checkTotalResult.totalRoms = roms.size()
-            checkTotalResult.totalSize = calculateSize ? calculateRomPathSize(system) : 0
+            checkTotalResult.totalRomSize = calculateRomPathSize(system)
+            checkTotalResult.totalMediaSize = calculateMediaPathSize(system)
 
             roms.sort{ it.name }.each { Rom rom ->
                 CheckResult checkResultRom = romChecker.check(system, rom.name)
-                checkResultRom.romName = rom.name
+                checkResultRom.rom = rom
                 checkTotalResult.add(checkResultRom)
                 handlers*.romChecked(checkResultRom)
             }

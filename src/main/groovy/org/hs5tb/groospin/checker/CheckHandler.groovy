@@ -1,4 +1,4 @@
-package org.hs5tb.groospin.checker.handler
+package org.hs5tb.groospin.checker
 
 import org.hs5tb.groospin.base.RLSystem
 import org.hs5tb.groospin.checker.result.CheckRomResult
@@ -14,4 +14,7 @@ interface CheckHandler {
     void endSystem(CheckTotalResult checkResult)
     void endSystemWithError(String systemName, Exception e)
     void endCheck(CheckTotalResult checkResult)
+
+    boolean needsRomFolderSize()
+    boolean needsMediaFolderSize()
 }
