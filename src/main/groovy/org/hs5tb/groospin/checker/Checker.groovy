@@ -21,7 +21,7 @@ import org.hs5tb.groospin.common.IOTools;
 class Checker {
 
     HyperSpin hyperSpin
-    CheckHandler handler
+    Collection<CheckHandler> handlers = []
     boolean calculateSize = true
     RomChecker romChecker = new RomChecker()
 
@@ -31,7 +31,11 @@ class Checker {
 
     Checker(HyperSpin hyperSpin, CheckHandler handler) {
         this.hyperSpin = hyperSpin
-        this.handler = handler
+        addHandler(handler)
+    }
+
+    void addHandler(CheckHandler handler) {
+        handlers << handler
     }
 
     void checkSystems(List<String> systems = null) {
@@ -57,9 +61,9 @@ class Checker {
     }
 
     void wrap(Closure<CheckTotalResult> closure) {
-        handler?.startCheck()
+        handlers*.startCheck()
         CheckTotalResult total = closure.call()
-        handler?.endCheck(total)
+        handlers*.endCheck(total)
     }
 
     long calculateRomPathSize(RLSystem system) {
@@ -72,7 +76,7 @@ class Checker {
         CheckTotalResult checkTotalResult = new CheckTotalResult(systemName: systemName)
         try {
             RLSystem system = hyperSpin.getSystem(systemName)
-            handler?.startSystem(system)
+            handlers*.startSystem(system)
             List<Rom> roms = system.listRoms(romNames)
             checkTotalResult.systemName = system.name
             checkTotalResult.system = system
@@ -84,11 +88,11 @@ class Checker {
                 CheckResult checkResultRom = romChecker.check(system, rom.name)
                 checkResultRom.romName = rom.name
                 checkTotalResult.add(checkResultRom)
-                handler?.romChecked(checkResultRom)
+                handlers*.romChecked(checkResultRom)
             }
-            handler?.endSystem(checkTotalResult)
+            handlers*.endSystem(checkTotalResult)
         } catch (e) {
-            handler?.endSystemWithError(systemName, e)
+            handlers*.endSystemWithError(systemName, e)
         }
         return checkTotalResult
     }
