@@ -44,24 +44,26 @@ class HaveHtmlList extends BaseCheckHandler {
     @Override
     void romChecked(CheckRomResult checkResult) {
         if (includeMissing || (checkResult.exes && checkResult.roms)) {
-            haveListHtml << "<li>${checkResult.romName}</li>"
+            haveListHtml << "<li>${checkResult.rom.description}</li>"
         }
     }
 
     @Override
     void endSystem(CheckTotalResult checkResult) {
         haveListHtml << "</ol>\n"
-        if (checkResult) haveListHtml << "<ul><li>Total ${checkResult.system.name} roms: ${humanReadableByteSize(checkResult.totalRomSize)} - Total media: ${humanReadableByteSize(checkResult.totalMediaSize)}</li></ul>"
+        if (checkResult) {
+            haveListHtml << "<ul><li>Total ${checkResult.system.name} roms: ${humanReadableByteSize(checkResult.totalRomSize)}</li><li>Total media (videos, etc): ${humanReadableByteSize(checkResult.totalMediaSize)}</ul></li>"
+        }
     }
 
     @Override
     void endGroup(CheckTotalResult checkResult) {
-        if (checkResult) haveListHtml << "<p>${checkResult.group} roms: ${humanReadableByteSize(checkResult.totalRomSize)} - Total media: ${humanReadableByteSize(checkResult.totalMediaSize)}</p>"
+        if (checkResult) haveListHtml << "<p>${checkResult.group} roms: ${humanReadableByteSize(checkResult.totalRomSize)}</li><li>Total media (videos, etc): ${humanReadableByteSize(checkResult.totalMediaSize)}</p>"
     }
 
     @Override
     void endCheck(CheckTotalResult checkResult) {
-        if (checkResult) haveListHtml << "<h3>Total all systems roms: ${humanReadableByteSize(checkResult.totalRomSize)} - Total media: ${humanReadableByteSize(checkResult.totalMediaSize)}</h3>"
+        if (checkResult) haveListHtml << "<h3>Total all systems roms: ${humanReadableByteSize(checkResult.totalRomSize)}</li><li>Total media (videos, etc): ${humanReadableByteSize(checkResult.totalMediaSize)}</h3>"
         haveListHtml << "</body></html>"
         haveListHtml.flush()
     }
