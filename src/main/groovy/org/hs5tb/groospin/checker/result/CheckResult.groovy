@@ -1,8 +1,14 @@
 package org.hs5tb.groospin.checker.result
+
+import org.hs5tb.groospin.base.RLSystem
+
 /**
  * Created by Alberto on 12-Jun-16.
  */
 class CheckResult {
+    String systemName
+    RLSystem system
+    String group
 
     int roms = 0
     int exes = 0
@@ -14,24 +20,6 @@ class CheckResult {
     int artwork3 = 0
     int artwork4 = 0
 
-/*
-    String toString() {
-        getLongInfo(", ")
-    }
-
-    String getQuickInfo(String delimiter) {
-        ["\"${systemName}${romName ? ":${romName}" : ""}\"", totalRoms, roms, wheels, videos].join(delimiter)
-    }
-
-    String getShortInfo(String delimiter) {
-        ["\"${systemName}${romName ? ":${romName}" : ""}\"", totalRomSize, "\"${IOTools.humanReadableByteCount(totalRomSize)}\"", totalRoms, roms, exes, works, wheels, videos].join(delimiter)
-    }
-
-    String getLongInfo(String delimiter) {
-        getShortInfo(delimiter) + delimiter + [themes, artwork1, artwork2, artwork3, artwork4].join(delimiter)
-    }
-
-*/
     void add(CheckResult checkResult) {
         roms += checkResult.roms
         exes += checkResult.exes

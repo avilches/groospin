@@ -30,7 +30,8 @@ class AllRomsCsvList extends BaseCheckHandler {
 
     @Override
     void startCheck() {
-        csvList << ["system",
+        csvList << ["group",
+                    "system",
                     "name",
                     "description",
                     "roms",
@@ -47,7 +48,8 @@ class AllRomsCsvList extends BaseCheckHandler {
 
     @Override
     void romChecked(CheckRomResult checkResult) {
-        csvList << [escapeCsv(checkResult.system.name, separator),
+        csvList << [escapeCsv(checkResult.group, separator),
+                    escapeCsv(checkResult.system.name, separator),
                     escapeCsv(checkResult.rom.name, separator),
                     escapeCsv(checkResult.rom.description, separator),
                     checkResult.roms,

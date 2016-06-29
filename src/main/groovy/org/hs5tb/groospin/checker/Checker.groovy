@@ -7,6 +7,7 @@
  */
 package org.hs5tb.groospin.checker
 
+import com.sun.javaws.exceptions.InvalidArgumentException
 import groovy.transform.CompileStatic
 import org.hs5tb.groospin.base.HyperSpin
 import org.hs5tb.groospin.base.RLSystem
@@ -45,12 +46,28 @@ class Checker {
         calculateMediaSize = null
     }
 
+    void checkSystemGroup(Map<String, Collection<String>> systemGrouped) {
+        wrap {
+            CheckTotalResult checkResultTotal = new CheckTotalResult()
+            systemGrouped.each { String groupName, Collection<String> systems ->
+                handlers*.startGroup(groupName)
+                CheckTotalResult checkGroupTotal = new CheckTotalResult(group: groupName)
+                systems.each { String systemName ->
+                    CheckTotalResult checkResultSystem = checkSystemRoms(groupName, systemName)
+                    checkGroupTotal.add(checkResultSystem)
+                }
+                handlers*.endGroup(checkGroupTotal)
+                checkResultTotal.add(checkGroupTotal)
+            }
+            return checkResultTotal
+        }
+    }
     void checkSystems(List<String> systems = null) {
         if (!systems) systems = hyperSpin.listSystemNames()
         wrap {
             CheckTotalResult checkResultTotal = new CheckTotalResult()
             systems.each { String systemName ->
-                CheckTotalResult checkResultSystem = checkSystemRoms(systemName)
+                CheckTotalResult checkResultSystem = checkSystemRoms(null, systemName)
                 checkResultTotal.add(checkResultSystem)
             }
             return checkResultTotal
@@ -63,7 +80,7 @@ class Checker {
 
     void checkSystem(String systemName, List<String> romNames = null) {
         wrap {
-            return checkSystemRoms(systemName, romNames)
+            return checkSystemRoms(null, systemName, romNames)
         }
     }
 
@@ -96,8 +113,8 @@ class Checker {
 
     }
 
-    CheckTotalResult checkSystemRoms(String systemName, Collection<String> romNames = null) {
-        CheckTotalResult checkTotalResult = new CheckTotalResult(systemName: systemName)
+    CheckTotalResult checkSystemRoms(String group, String systemName, Collection<String> romNames = null) {
+        CheckTotalResult checkTotalResult = new CheckTotalResult(group: group, systemName: systemName)
         try {
             RLSystem system = hyperSpin.getSystem(systemName)
             handlers*.startSystem(system)
@@ -109,8 +126,9 @@ class Checker {
             checkTotalResult.totalMediaSize = calculateMediaPathSize(system)
 
             roms.sort{ it.name }.each { Rom rom ->
-                CheckResult checkResultRom = romChecker.check(system, rom.name)
+                CheckRomResult checkResultRom = romChecker.check(system, rom.name)
                 checkResultRom.rom = rom
+                checkResultRom.group = group
                 checkTotalResult.add(checkResultRom)
                 handlers*.romChecked(checkResultRom)
             }
@@ -123,5 +141,20 @@ class Checker {
 
     CheckRomResult checkRom(RLSystem system, String rom) {
         romChecker.check(system, rom)
+    }
+
+    Checker validateSystemGroup(Map<String, Collection<String>> groupConfig) {
+        Collection<String> configSystems = (Collection<String>)groupConfig.values().flatten()
+        Collection<String> hsSystems = hyperSpin.listSystemNames(true)
+        Collection<String> faltan = (hsSystems-configSystems)
+        Collection<String> sobran = (configSystems-hsSystems)
+
+        if (faltan) {
+            throw new IllegalArgumentException("Faltan por configurar ${faltan}")
+        }
+        if (sobran) {
+            throw new IllegalArgumentException("Sobran de configurar ${sobran}")
+        }
+        return this
     }
 }

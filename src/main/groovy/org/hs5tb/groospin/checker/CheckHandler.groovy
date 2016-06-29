@@ -9,11 +9,13 @@ import org.hs5tb.groospin.checker.result.CheckTotalResult
  */
 interface CheckHandler {
     void startCheck()
+    void startGroup(String groupName)
     void startSystem(RLSystem system)
     void romChecked(CheckRomResult checkResult)
     void endSystem(CheckTotalResult checkResult)
     void endSystemWithError(String systemName, Exception e)
     void endCheck(CheckTotalResult checkResult)
+    void endGroup(CheckTotalResult checkResult)
 
     boolean needsRomFolderSize()
     boolean needsMediaFolderSize()

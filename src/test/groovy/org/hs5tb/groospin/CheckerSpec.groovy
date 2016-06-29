@@ -25,7 +25,7 @@ class CheckerSpec extends HSSpecification {
         Checker checker = new Checker(hs, new BaseCheckHandler())
 
         when:
-        CheckTotalResult checkResult = checker.checkSystemRoms("aae")
+        CheckTotalResult checkResult = checker.checkSystemRoms(null, "aae")
 
         then:
         checkResult.systemName == "aae"
@@ -44,6 +44,9 @@ class CheckerSpec extends HSSpecification {
         checkResult.roms == 2
         checkResult.exes == 2
 
+        and:
+        checkResult.group == null
+
         and: "No existen las carpetas de roms = 0 bytes"
         checkResult.totalRomSize == 0
     }
@@ -55,10 +58,13 @@ class CheckerSpec extends HSSpecification {
         Checker checker = new Checker(hs, new BaseCheckHandler())
 
         when:
-        CheckTotalResult checkResult = checker.checkSystemRoms("aae", [ROM])
+        CheckTotalResult checkResult = checker.checkSystemRoms("Arcade", "aae", [ROM])
 
         then:
         checkResult.systemName == "aae"
+
+        and:
+        checkResult.group == "Arcade"
 
         // El sistema AAE tiene 3 juegos, uno de ellos tiene todos los medias y losotros ninguno
         checkResult.totalRoms == 1
@@ -88,7 +94,7 @@ class CheckerSpec extends HSSpecification {
         Checker checker = new Checker(hs, new BaseCheckHandler())
 
         when:
-        CheckTotalResult checkResult = checker.checkSystemRoms("mugen", [ROM])
+        CheckTotalResult checkResult = checker.checkSystemRoms(null, "mugen", [ROM])
 
         then:
         checkResult.totalRoms == 1
@@ -102,6 +108,9 @@ class CheckerSpec extends HSSpecification {
         checkRomResult.romName == ROM
         checkRomResult.roms == ROMS
         checkRomResult.exes == EXES
+
+        and:
+        checkRomResult.group == null  // no hay grupo cuando se chequea una rom directamente
 
         where:
         ROM                      | ROMS | EXES
@@ -119,7 +128,7 @@ class CheckerSpec extends HSSpecification {
         Checker checker = new Checker(hs, new BaseCheckHandler())
 
         when:
-        CheckResult checkResult = checker.checkSystemRoms("OpenBOR", [ROM])
+        CheckResult checkResult = checker.checkSystemRoms(null, "OpenBOR", [ROM])
 
         then:
         checkResult.roms == ROMS
@@ -140,7 +149,7 @@ class CheckerSpec extends HSSpecification {
         Checker checker = new Checker(hs, new BaseCheckHandler())
 
         when:
-        CheckResult checkResult = checker.checkSystemRoms("ScummVM", [ROM])
+        CheckResult checkResult = checker.checkSystemRoms(null, "ScummVM", [ROM])
 
         then:
         checkResult.roms == ROMS

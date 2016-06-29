@@ -101,9 +101,9 @@ class HyperSpin {
         }
     }
 
-    List<String> listSystemNames() {
+    List<String> listSystemNames(boolean includeExecutables = false) {
         databaseCollect("Main menu") { Node node ->
-            if (node.@exe == "true") return null
+            if (!includeExecutables && node.@exe == "true") return null
             return node.@name
         }
     }

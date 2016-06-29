@@ -27,6 +27,7 @@ class IOTools {
     }
 
     static String escapeCsv(String string, String delimiter) {
+        if (!string) return '""'
         if (string.contains('"') || string.contains(delimiter)) {
             string = string.replaceAll(/"/, /""/)
             StringBuffer row = new StringBuffer()

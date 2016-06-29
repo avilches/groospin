@@ -40,7 +40,8 @@ class SystemCsvList extends BaseCheckHandler {
 
     @Override
     void startCheck() {
-        csvList << ["systemName",
+        csvList << ["group",
+                    "system",
                     "totalRomSize",
                     "totalMediaSize",
                     "totalRoms",
@@ -52,7 +53,8 @@ class SystemCsvList extends BaseCheckHandler {
 
     @Override
     void endSystem(CheckTotalResult checkResult) {
-        csvList << [escapeCsv(checkResult.systemName, separator),
+        csvList << [escapeCsv(checkResult.group, separator),
+                    escapeCsv(checkResult.systemName, separator),
                     humanReadableByteSize(checkResult.totalRomSize),
                     humanReadableByteSize(checkResult.totalMediaSize),
                     checkResult.totalRoms,

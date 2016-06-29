@@ -13,6 +13,10 @@ class BaseCheckHandler implements CheckHandler {
     }
 
     @Override
+    void startGroup(String groupName) {
+    }
+
+    @Override
     void startSystem(RLSystem system) {
     }
 
@@ -31,6 +35,10 @@ class BaseCheckHandler implements CheckHandler {
 
     @Override
     void endCheck(CheckTotalResult checkResult) {
+    }
+
+    @Override
+    void endGroup(CheckTotalResult checkResult) {
     }
 
     @Override

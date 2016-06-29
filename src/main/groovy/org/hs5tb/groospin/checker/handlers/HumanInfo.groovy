@@ -9,6 +9,11 @@ import static org.hs5tb.groospin.common.IOTools.humanReadableByteSize
  */
 class HumanInfo extends BaseCheckHandler {
 
+    @Override
+    void startGroup(String groupName) {
+        println "${groupName.center(138, " ")}"
+    }
+
     long start
     @Override
     void startCheck() {
@@ -18,6 +23,14 @@ class HumanInfo extends BaseCheckHandler {
     @Override
     void endSystem(CheckTotalResult checkResult) {
         drawLine(checkResult.systemName, checkResult)
+    }
+
+    @Override
+    void endGroup(CheckTotalResult checkResult) {
+        println "-"*138
+        drawLine("Total ${checkResult.group}", checkResult)
+        println "-"*138
+        println ""
     }
 
     @Override
@@ -35,12 +48,12 @@ class HumanInfo extends BaseCheckHandler {
 
     @Override
     boolean needsRomFolderSize() {
-        true
+        false
     }
 
     @Override
     boolean needsMediaFolderSize() {
-        true
+        false
     }
 
     void drawLine(String title, CheckTotalResult checkResult) {
