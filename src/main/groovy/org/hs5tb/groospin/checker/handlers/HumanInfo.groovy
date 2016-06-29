@@ -1,11 +1,7 @@
 package org.hs5tb.groospin.checker.handlers
 
-import org.hs5tb.groospin.base.RLSystem
 import org.hs5tb.groospin.checker.BaseCheckHandler
 import org.hs5tb.groospin.checker.result.CheckTotalResult
-import org.hs5tb.groospin.common.FileBuffer
-
-import static org.hs5tb.groospin.common.IOTools.escapeCsv
 import static org.hs5tb.groospin.common.IOTools.humanReadableByteSize
 
 /**
@@ -26,9 +22,15 @@ class HumanInfo extends BaseCheckHandler {
 
     @Override
     void endCheck(CheckTotalResult checkResult) {
-        long elapsed = System.currentTimeMillis() - start
+        int totalSecs = (System.currentTimeMillis() - start) / 1000
+        int hours = totalSecs / 3600
+        int minutes = (totalSecs % 3600) / 60
+        int seconds = totalSecs % 60
+
+        String timeString = String.format("%02d:%02d:%02d", hours, minutes, seconds);
+
         drawLine("TOTAL", checkResult)
-        println "Time: ${(elapsed/1000) as int}s"
+        println "Time: ${timeString}"
     }
 
     @Override
