@@ -20,7 +20,7 @@ class RomChecker {
 
         CheckRomResult checkResultRom = new CheckRomResult(romName: romName, system: system)
         if (romFound) {
-            if (system.needsExecutable()) {
+            if (system.romsAreExecutables()) {
                 File exe = system.findExecutable(romName, romFound)
                 if (exe) {
                     checkResultRom.roms = checkResultRom.exes = 1

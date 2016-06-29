@@ -7,12 +7,10 @@
  */
 package org.hs5tb.groospin.checker
 
-import com.sun.javaws.exceptions.InvalidArgumentException
 import groovy.transform.CompileStatic
 import org.hs5tb.groospin.base.HyperSpin
 import org.hs5tb.groospin.base.RLSystem
 import org.hs5tb.groospin.base.Rom
-import org.hs5tb.groospin.checker.result.CheckResult
 import org.hs5tb.groospin.checker.result.CheckRomResult
 import org.hs5tb.groospin.checker.result.CheckTotalResult
 import org.hs5tb.groospin.common.IOTools;
@@ -118,19 +116,21 @@ class Checker {
         try {
             RLSystem system = hyperSpin.getSystem(systemName)
             handlers*.startSystem(system)
-            List<Rom> roms = system.listRoms(romNames)
             checkTotalResult.systemName = system.name
             checkTotalResult.system = system
-            checkTotalResult.totalRoms = roms.size()
             checkTotalResult.totalRomSize = calculateRomPathSize(system)
             checkTotalResult.totalMediaSize = calculateMediaPathSize(system)
+            if (!system.executable) {
+                List<Rom> roms = system.listRoms(romNames)
+                checkTotalResult.totalRoms = roms.size()
 
-            roms.sort{ it.name }.each { Rom rom ->
-                CheckRomResult checkResultRom = romChecker.check(system, rom.name)
-                checkResultRom.rom = rom
-                checkResultRom.group = group
-                checkTotalResult.add(checkResultRom)
-                handlers*.romChecked(checkResultRom)
+                roms.sort { it.name }.each { Rom rom ->
+                    CheckRomResult checkResultRom = romChecker.check(system, rom.name)
+                    checkResultRom.rom = rom
+                    checkResultRom.group = group
+                    checkTotalResult.add(checkResultRom)
+                    handlers*.romChecked(checkResultRom)
+                }
             }
             handlers*.endSystem(checkTotalResult)
         } catch (e) {

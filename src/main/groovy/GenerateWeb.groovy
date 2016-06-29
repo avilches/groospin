@@ -13,36 +13,13 @@ def myConfig = ["Arcade":["AAE","American Laser Games","Atari Classics","Capcom 
                 "PC":["Doujin Soft", "Microsoft MS-DOS", "MUGEN","OpenBOR","PC Games","PopCap","Rockola","ScummVM","Touhou Project"],
                 "Portable": ["Atari Lynx","Bandai WonderSwan","Bandai WonderSwan Color","Creatronic Mega Duck","Entex Adventure Vision","Epoch Game Pocket Computer","Nintendo DS","Nintendo Game Boy","Nintendo Game Boy Advance","Nintendo Game Boy Color","Nintendo Pokemon Mini","Sega Game Gear","Sega Pico","SNK Neo Geo Pocket","SNK Neo Geo Pocket Color","Sony PSP","Tiger Game.com","Watara Supervision"]]
 
-/*
-
-Collection<String> configSystems = myConfig.values().flatten()
-Collection<String> hsSystems = hs.listSystemNames(true)
-Collection<String> faltan = (hsSystems-configSystems)
-Collection<String> sobran = (configSystems-hsSystems)
-
-if (faltan) {
-    println "Faltan por configurar ${faltan}"
-    System.exit(1)
-}
-if (sobran) {
-    println "Sobran de configurar ${sobran}"
-    System.exit(1)
-}
-*/
-
-def myConfig2 = ["Arcade":["AAE","American Laser Games"],
+def shortConfigJustForTest = ["Arcade":["AAE","American Laser Games", "Rockola"],
                 "Computer":["Acorn BBC Micro","Apple II"]]
-
-
 
 new Checker(hs).
         validateSystemGroup(myConfig).
         addHandler(new HumanInfo()).
-        addHandler(new HaveHtmlList("D:/Games/Soft/GrooSpin/report/all.html", true)).
-        addHandler(new HaveHtmlList("D:/Games/Soft/GrooSpin/report/have-list.html", false)).
-        addHandler(new MissingTxtList("D:/Games/Soft/GrooSpin/report/missing.csv", ";")).
-        addHandler(new AllRomsCsvList("D:/Games/Soft/GrooSpin/report/roms.csv", ";")).
-        addHandler(new SystemCsvList("D:/Games/Soft/GrooSpin/report/systems.csv", ";")).
-        checkSystemGroup(myConfig2)
+        addHandler(new MainWebSite("D:/Games/Soft/GrooSpin/report", true)).
+        checkSystemGroup(myConfig)
 
 

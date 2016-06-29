@@ -33,35 +33,35 @@ class HaveHtmlList extends BaseCheckHandler {
 
     @Override
     void startGroup(String groupName) {
-        haveListHtml << "<h1>${groupName}</h1>\n"
+        haveListHtml << "<h1>${groupName}</h1>"
     }
 
     @Override
     void startSystem(RLSystem system) {
-        haveListHtml << "<h2>${system.name}</h2>\n<ol>\n"
+        haveListHtml << "<h2>${system.name}</h2>\n<ol>"
     }
 
     @Override
     void romChecked(CheckRomResult checkResult) {
         if (includeMissing || (checkResult.exes && checkResult.roms)) {
-            haveListHtml << "<li>${checkResult.romName}</li>\n"
+            haveListHtml << "<li>${checkResult.romName}</li>"
         }
     }
 
     @Override
     void endSystem(CheckTotalResult checkResult) {
         haveListHtml << "</ol>\n"
-        haveListHtml << "<ul><li>Total ${checkResult.system.name} roms: ${humanReadableByteSize(checkResult.totalRomSize)} - Total media: ${humanReadableByteSize(checkResult.totalMediaSize)}</li></ul>\n"
+        if (checkResult) haveListHtml << "<ul><li>Total ${checkResult.system.name} roms: ${humanReadableByteSize(checkResult.totalRomSize)} - Total media: ${humanReadableByteSize(checkResult.totalMediaSize)}</li></ul>"
     }
 
     @Override
     void endGroup(CheckTotalResult checkResult) {
-        haveListHtml << "<p>${checkResult.group} roms: ${humanReadableByteSize(checkResult.totalRomSize)} - Total media: ${humanReadableByteSize(checkResult.totalMediaSize)}</p>\n"
+        if (checkResult) haveListHtml << "<p>${checkResult.group} roms: ${humanReadableByteSize(checkResult.totalRomSize)} - Total media: ${humanReadableByteSize(checkResult.totalMediaSize)}</p>"
     }
 
     @Override
     void endCheck(CheckTotalResult checkResult) {
-        haveListHtml << "<h3>Total all systems roms: ${humanReadableByteSize(checkResult.totalRomSize)} - Total media: ${humanReadableByteSize(checkResult.totalMediaSize)}</h3>\n"
+        if (checkResult) haveListHtml << "<h3>Total all systems roms: ${humanReadableByteSize(checkResult.totalRomSize)} - Total media: ${humanReadableByteSize(checkResult.totalMediaSize)}</h3>"
         haveListHtml << "</body></html>"
         haveListHtml.flush()
     }

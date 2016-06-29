@@ -10,6 +10,7 @@ class RLSystem {
     HyperSpin hyperSpin
     String name
     RLEmulator defaultEmulator
+    boolean executable = false
 
     String iniRomPath
     String iniDefaultEmulator
@@ -37,7 +38,7 @@ class RLSystem {
         return null
     }
 
-    boolean needsExecutable() {
+    boolean romsAreExecutables() {
         return defaultEmulator.module in ["MUGEN.ahk", "OpenBOR.ahk", "Casual Games.ahk", "PCLauncher.ahk"]
     }
 

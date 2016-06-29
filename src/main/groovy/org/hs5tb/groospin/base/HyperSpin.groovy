@@ -65,7 +65,13 @@ class HyperSpin {
         return IOTools.tryRelativeFrom(hsRoot, name)
     }
 
+    Collection sytemNames
+    Collection allSytemNames
+    Collection executableSytemNames
+
     RLSystem getSystem(String systemName) {
+        listSystemNames()
+        boolean isExecutable = systemName.toLowerCase() in executableSytemNames.collect { it.toLowerCase()}
         File systemEmulatorConfig = findRocketLauncherFile("Settings/${systemName}/Emulators.ini")
         if (!systemEmulatorConfig.file) {
             throw new FileNotFoundException("RocketLauncher settings for ${systemName} not found: ${systemEmulatorConfig}")
@@ -77,7 +83,7 @@ class HyperSpin {
 
         List romPathList = rom_Path?.split("\\|")?.collect { String romPathString -> IOTools.tryRelativeFrom(rlRoot, romPathString) }?:[]
 
-        RLSystem system = new RLSystem(hyperSpin: this, name: systemName, iniRomPath : rom_Path,
+        RLSystem system = new RLSystem(hyperSpin: this, name: systemName, iniRomPath : rom_Path, executable: isExecutable,
             iniDefaultEmulator : default_Emulator, defaultEmulator : createEmulator(default_Emulator, systemIni.getSection(default_Emulator)), romPathsList : romPathList)
         system.loadMapping()
         return system
@@ -102,6 +108,15 @@ class HyperSpin {
     }
 
     List<String> listSystemNames(boolean includeExecutables = false) {
+        if (sytemNames == null) {
+            sytemNames = _listSystemNames(false)
+            allSytemNames = _listSystemNames(true)
+            executableSytemNames = allSytemNames - sytemNames
+        }
+        return includeExecutables ? allSytemNames : sytemNames
+    }
+
+    private List<String> _listSystemNames(boolean includeExecutables) {
         databaseCollect("Main menu") { Node node ->
             if (!includeExecutables && node.@exe == "true") return null
             return node.@name
