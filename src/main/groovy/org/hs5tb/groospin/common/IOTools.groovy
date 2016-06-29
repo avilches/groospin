@@ -26,6 +26,11 @@ class IOTools {
         return totalSize
     }
 
+    static String sanitize(String s) {
+        return s.toLowerCase().replaceAll(" ", "-")
+    }
+
+
     static String escapeCsv(String string, String delimiter) {
         if (!string) return '""'
         if (string.contains('"') || string.contains(delimiter)) {
