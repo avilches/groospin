@@ -42,6 +42,10 @@ class RLSystem {
         return defaultEmulator.module in ["MUGEN.ahk", "OpenBOR.ahk", "Casual Games.ahk", "PCLauncher.ahk"]
     }
 
+    File findSystemDatabaseFile() {
+        hyperSpin.findSystemDatabaseFile(name)
+    }
+
     File findExecutable(String romName, File romFile) {
         File romPath = romFile.directory ? romFile : romFile.parentFile
         if (defaultEmulator.module == "PCLauncher.ahk") {

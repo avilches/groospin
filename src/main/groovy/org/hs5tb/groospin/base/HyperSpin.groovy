@@ -17,37 +17,10 @@ class HyperSpin {
     HyperSpin(File hsRoot, File rlRoot) {
         this.hsRoot = hsRoot.canonicalFile
         this.rlRoot = rlRoot.canonicalFile
-        println("HyperSpin root: "+hsRoot)
-        println("RocketLauncher root: "+rlRoot)
+        println("HyperSpin root: " + hsRoot)
+        println("RocketLauncher root: " + rlRoot)
     }
 
-/*
-
-    String delimiter = ";"
-
-    void listAllSystems() {
-        listSystems(getSystems())
-    }
-
-    void listSystems(List systems) {
-        log(["systemName","bytes","human size","db xml games","rom files","media:wheels","media:videos","media:themes","media:artwork1","media:artwork2","media:artwork3","media:artwork4"].join(delimiter))
-
-        systems.each { String systemName ->
-            haveSystem(systemName)
-            CheckResult checkResult = checkAllGames(systemName)
-            log(checkResult.getLongInfo(delimiter))
-            endHave()
-        }
-    }
-
-    void listSystem(String systemName, List games) {
-        log(["systemName","bytes","human size","db xml games","rom files","media:wheels","media:videos","media:themes","media:artwork1","media:artwork2","media:artwork3","media:artwork4"].join(delimiter))
-        haveSystem(systemName)
-        CheckResult checkResult = check(systemName, games)
-        log checkResult.getLongInfo(delimiter)
-        endHave()
-    }
-*/
     Ini _cachedGlobalEmulatorIni
 
     Ini getGlobalEmulatorsIni() {
@@ -65,13 +38,13 @@ class HyperSpin {
         return IOTools.tryRelativeFrom(hsRoot, name)
     }
 
-    Collection sytemNames
-    Collection allSytemNames
-    Collection executableSytemNames
+    Collection systemNames
+    Collection allSystemNames
+    Collection executableSystemNames
 
     RLSystem getSystem(String systemName) {
         listSystemNames()
-        boolean isExecutable = systemName.toLowerCase() in executableSytemNames.collect { it.toLowerCase()}
+        boolean isExecutable = systemName.toLowerCase() in executableSystemNames.collect { it.toLowerCase() }
         File systemEmulatorConfig = findRocketLauncherFile("Settings/${systemName}/Emulators.ini")
         if (!systemEmulatorConfig.file) {
             throw new FileNotFoundException("RocketLauncher settings for ${systemName} not found: ${systemEmulatorConfig}")
@@ -81,10 +54,10 @@ class HyperSpin {
         String rom_Path = systemIni.get("roms", "rom_path")
         String default_Emulator = systemIni.get("roms", "default_emulator")
 
-        List romPathList = rom_Path?.split("\\|")?.collect { String romPathString -> IOTools.tryRelativeFrom(rlRoot, romPathString) }?:[]
+        List romPathList = rom_Path?.split("\\|")?.collect { String romPathString -> IOTools.tryRelativeFrom(rlRoot, romPathString) } ?: []
 
-        RLSystem system = new RLSystem(hyperSpin: this, name: systemName, iniRomPath : rom_Path, executable: isExecutable,
-            iniDefaultEmulator : default_Emulator, defaultEmulator : createEmulator(default_Emulator, systemIni.getSection(default_Emulator)), romPathsList : romPathList)
+        RLSystem system = new RLSystem(hyperSpin: this, name: systemName, iniRomPath: rom_Path, executable: isExecutable,
+                iniDefaultEmulator: default_Emulator, defaultEmulator: createEmulator(default_Emulator, systemIni.getSection(default_Emulator)), romPathsList: romPathList)
         system.loadMapping()
         return system
     }
@@ -94,26 +67,26 @@ class HyperSpin {
         String iniRomExtension = emulatorConfig['rom_extension']
         String module = emulatorConfig['module']
         File emuPath = iniEmuPath ? IOTools.tryRelativeFrom(rlRoot, iniEmuPath) : null
-        List romExtensions = iniRomExtension?.split("\\|")?.collect { String ext -> ext.trim().toLowerCase() }?:[]
+        List romExtensions = iniRomExtension?.split("\\|")?.collect { String ext -> ext.trim().toLowerCase() } ?: []
         RLEmulator emulator = new RLEmulator(name: name, iniEmuPath: iniEmuPath,
                 iniRomExtension: iniRomExtension, emuPath: emuPath, romExtensions: romExtensions, module: module)
         return emulator
     }
 
     List<Rom> listRoms(String systemName, Collection<String> names = null) {
-        Set canonicalNames = names? names.collect { it.trim().toLowerCase() } as Set : null
+        Set canonicalNames = names ? names.collect { it.trim().toLowerCase() } as Set : null
         databaseCollect(systemName) { Node node ->
-            return (canonicalNames == null || node.@name?.trim()?.toLowerCase() in canonicalNames) ? createRomFromXmlDatabaseGame(node) : null
+            return (canonicalNames == null || node.@name?.trim()?.toLowerCase() in canonicalNames) ? new Rom(node) : null
         }
     }
 
     List<String> listSystemNames(boolean includeExecutables = false) {
-        if (sytemNames == null) {
-            sytemNames = _listSystemNames(false)
-            allSytemNames = _listSystemNames(true)
-            executableSytemNames = allSytemNames - sytemNames
+        if (systemNames == null) {
+            systemNames = _listSystemNames(false)
+            allSystemNames = _listSystemNames(true)
+            executableSystemNames = allSystemNames - systemNames
         }
-        return includeExecutables ? allSytemNames : sytemNames
+        return includeExecutables ? allSystemNames : systemNames
     }
 
     private List<String> _listSystemNames(boolean includeExecutables) {
@@ -135,12 +108,16 @@ class HyperSpin {
     }
 
     List databaseCollect(String systemName, Closure closure) {
-        File db = findHyperSpinFile("Databases/${systemName}/${systemName}.xml")
+        File db = findSystemDatabaseFile(systemName)
         if (!db.exists()) {
             throw new FileNotFoundException("${systemName} menu not found in ${db.absolutePath}")
         }
-        def xml = new XmlParser().parseText(db.text)
+        Node xml = new XmlParser().parseText(db.text)
         return xml.game.collect(closure).findAll()
+    }
+
+    File findSystemDatabaseFile(String systemName) {
+        return findHyperSpinFile("Databases/${systemName}/${systemName}.xml")
     }
 
     Collection<RLSystem> listSystems() {
@@ -167,9 +144,6 @@ check(systemName, getGamesFromSystem(systemName))
         findRocketLauncherFile("RocketLauncher.exe")
     }
 
-    private Rom createRomFromXmlDatabaseGame(Node node) {
-        new Rom(name: node.@name, description: node.description?.text())
-    }
 
 }
 
