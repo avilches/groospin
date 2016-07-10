@@ -17,17 +17,6 @@ def myConfig = ["Arcades":["AAE","American Laser Games","Atari Classics","Capcom
 def shortConfigJustForTest = ["Arcade":["AAE","American Laser Games", "Rockola"],
                 "Computer":["Acorn BBC Micro","Apple II"]]
 
-/*
-WP wp = new WP("http://hyperspin5tb.com/xmlrpc", "avilches", "1vf61aq0");
-int PARENT_ID = 123 // Sistemas
-wp.printChildren(PARENT_ID)
-wp.deleteChildren(PARENT_ID)
-
-myConfig.values().flatten().each { String s ->
-    wp.createPage(s, "[includeme file=\"/srv/www/hyperspin5tb.com/public_html/static/website/system-${s}.html\"]", PARENT_ID)
-}
-*/
-
 new Checker(hs).
         validateSystemGroup(myConfig).
         addHandler(new HumanInfo()).
