@@ -49,6 +49,7 @@ table#systems {
     border-spacing: 0;
     border-collapse: collapse;
     border:2px solid #ccc ;
+    table-layout: auto;
 }
 table#systems thead td {
     padding: 3px;
