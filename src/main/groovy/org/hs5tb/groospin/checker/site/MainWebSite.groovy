@@ -70,6 +70,9 @@ table#systems tbody td .emu {
 td.system, td.roms, td.romSize{
     font: bold 11pt Arial;
 }
+td.group {
+    font: bold 14pt/30pt Arial;
+}
 table tfoot td {
     border-top:2px solid #ccc ;
 }
