@@ -75,7 +75,7 @@ table tfoot td {
 </style>
 """
 
-        websiteSystems << "<table id='systems'><thead>\n<tr>\n    <td>#</td><td>Tipo</td><td>Sistema</td><td></td><td>Roms</td><td>Tamaño</td><td>Wheels</td><td>Video</td><td>Temas</td><td>Tamaño medias</td>\n</tr>\n</thead>\n<tbody>"
+        websiteSystems << "<table id='systems'><thead>\n<tr>\n    <td>#</td><td colspan='2'>Sistema</td><td>Roms</td><td>Tamaño</td><td>Wheels</td><td>Video</td><td>Temas</td><td>Tamaño medias</td>\n</tr>\n</thead>\n<tbody>"
     }
 
     SystemWebSite haveHtmlList
@@ -90,18 +90,21 @@ table tfoot td {
         haveHtmlList.romChecked(checkResult)
     }
 
-
+    @Override
+    void startGroup(String groupName) {
+        websiteSystems << "<tr>\n    <td></td><td class='group' colspan='8'>${groupName}</td>\n</tr>\n</thead>\n<tbody>"
+    }
 
     @Override
     void endSystem(CheckTotalResult checkResult) {
         haveHtmlList.endSystem(checkResult)
-        websiteSystems << "<tr>\n    <td class='n'>${++n}</td><td class='group'>${checkResult.group}</td><td><img src='static/icons/${checkResult.system.name}.png'/></td><td class='system'><a href='/sistema/${sanitize(checkResult.system.name)}/'>${checkResult.system.name}</a><div class='emu'>${checkResult.system.defaultEmulator.name?:""}</div></td><td class='roms'>${checkResult.totalRoms}</td><td class='romSize'>${humanReadableByteSize(checkResult.totalRomSize)}</td>" +
+        websiteSystems << "<tr>\n    <td class='n'>${++n}</td><td><img src='static/icons/${checkResult.system.name}.png' onerror=\"this.style.display='none'\"/></td><td class='system'><a href='/sistema/${sanitize(checkResult.system.name)}/'>${checkResult.system.name}</a><div class='emu'>${checkResult.system.defaultEmulator.name?:""}</div></td><td class='roms'>${checkResult.totalRoms}</td><td class='romSize'>${humanReadableByteSize(checkResult.totalRomSize)}</td>" +
                 "<td class='wheels'>${checkResult.wheels}</td><td class='videos'>${checkResult.videos}</td><td class='themes'>${checkResult.themes}</td><td class='mediaSize'>${humanReadableByteSize(checkResult.totalMediaSize)}</td></tr>"
     }
 
     @Override
     void endCheck(CheckTotalResult checkResult) {
-        websiteSystems << "</tbody>\n<tfoot>\n<tr>\n    <td></td><td colspan='3' class='total'>Total ${n} sistemas</td><td class='roms'>${checkResult.totalRoms}</td><td class='romSize'>${humanReadableByteSize(checkResult.totalRomSize)}</td>" +
+        websiteSystems << "</tbody>\n<tfoot>\n<tr>\n    <td></td><td colspan='2' class='total'>Total ${n} sistemas</td><td class='roms'>${checkResult.totalRoms}</td><td class='romSize'>${humanReadableByteSize(checkResult.totalRomSize)}</td>" +
                 "<td class='wheels'>${checkResult.wheels}</td><td class='videos'>${checkResult.videos}</td><td class='themes'>${checkResult.themes}</td><td class='mediaSize'>${humanReadableByteSize(checkResult.totalMediaSize)}</td></tr>"
         websiteSystems << "</tfoot>\n</table>"
         websiteSystems.flush()
