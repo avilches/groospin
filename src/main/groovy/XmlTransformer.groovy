@@ -22,7 +22,11 @@ new Checker(hs).
             @Override
             void endSystem(CheckTotalResult checkResult) {
                 if (dirty) {
-                    backupOriginalDatabaseAndSave("${checkResult.systemName}-with-missing.xml")
+                    try {
+                        backupOriginalDatabaseAndSave("${checkResult.systemName}-with-missing.xml")
+                    } catch (e) {
+                        e.printStackTrace()
+                    }
                 }
             }
 
