@@ -28,7 +28,7 @@ class MissingTxtList extends BaseCheckHandler {
 
     @Override
     void romChecked(CheckRomResult checkResult) {
-        if (!checkResult.exes || !checkResult.roms) {
+        if (!checkResult.exes) {
             missingListTxt << "${checkResult.system.name}${separator}${checkResult.romName}"
         }
     }

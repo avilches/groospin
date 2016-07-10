@@ -11,7 +11,7 @@ class HumanInfo extends BaseCheckHandler {
 
     @Override
     void startGroup(String groupName) {
-        println "${groupName.center(138, " ")}"
+        println "${groupName.center(143, " ")}"
     }
 
     long start
@@ -27,9 +27,9 @@ class HumanInfo extends BaseCheckHandler {
 
     @Override
     void endGroup(CheckTotalResult checkResult) {
-        println "-"*138
+        println "-"*143
         drawLine("Total ${checkResult.group}", checkResult)
-        println "-"*138
+        println "-"*143
         println ""
     }
 
@@ -47,7 +47,7 @@ class HumanInfo extends BaseCheckHandler {
     }
 
     void drawLine(String title, CheckTotalResult checkResult) {
-        println "${title.padLeft(40, " ")} roms: ${checkResult.totalRoms.toString().padRight(4," ")} w/v/t: ${"${checkResult.wheels}/${checkResult.videos}/${checkResult.themes}".padRight(14," ")} artwork: ${"${checkResult.artwork1}/${checkResult.artwork2}/${checkResult.artwork3}/${checkResult.artwork4}".padRight(19," ")} - roms ${humanReadableByteSize(checkResult.totalRomSize).padLeft(8, " ")} - size ${humanReadableByteSize(checkResult.totalMediaSize).padLeft(8, " ")}"
+        println "${title.padLeft(40, " ")} roms: ${checkResult.exes.toString().padRight(4," ")}/${checkResult.totalRoms.toString().padRight(4," ")} w/v/t: ${"${checkResult.wheels}/${checkResult.videos}/${checkResult.themes}".padRight(14," ")} artwork: ${"${checkResult.artwork1}/${checkResult.artwork2}/${checkResult.artwork3}/${checkResult.artwork4}".padRight(19," ")} - roms ${humanReadableByteSize(checkResult.totalRomSize).padLeft(8, " ")} - size ${humanReadableByteSize(checkResult.totalMediaSize).padLeft(8, " ")}"
     }
 
 }

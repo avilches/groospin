@@ -43,7 +43,7 @@ class HaveHtmlList extends BaseCheckHandler {
 
     @Override
     void romChecked(CheckRomResult checkResult) {
-        if (includeMissing || (checkResult.exes && checkResult.roms)) {
+        if (includeMissing || checkResult.exes) {
             haveListHtml << "<li>${checkResult.rom.description}</li>"
         }
     }
