@@ -143,18 +143,4 @@ class Checker {
         romChecker.check(system, rom)
     }
 
-    Checker validateSystemGroup(Map<String, Collection<String>> groupConfig) {
-        Collection<String> configSystems = (Collection<String>)groupConfig.values().flatten()
-        Collection<String> hsSystems = hyperSpin.listSystemNames(true)
-        Collection<String> faltan = (hsSystems-configSystems)
-        Collection<String> sobran = (configSystems-hsSystems)
-
-        if (faltan) {
-            throw new IllegalArgumentException("Faltan por configurar ${faltan}")
-        }
-        if (sobran) {
-            throw new IllegalArgumentException("Sobran de configurar ${sobran}")
-        }
-        return this
-    }
 }
