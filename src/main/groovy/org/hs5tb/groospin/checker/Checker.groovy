@@ -13,9 +13,9 @@ import org.hs5tb.groospin.base.RLSystem
 import org.hs5tb.groospin.base.Rom
 import org.hs5tb.groospin.checker.result.CheckRomResult
 import org.hs5tb.groospin.checker.result.CheckTotalResult
+import org.hs5tb.groospin.checker.site.RLSystemConfig
 import org.hs5tb.groospin.common.IOTools;
 
-@CompileStatic
 class Checker {
 
     HyperSpin hyperSpin
@@ -44,14 +44,16 @@ class Checker {
         calculateMediaSize = null
     }
 
-    void checkSystemGroup(Map<String, Collection<String>> systemGrouped) {
+    void checkSystemGroup(Map<String, Collection<RLSystemConfig>> systemGrouped) {
         wrap {
             CheckTotalResult checkResultTotal = new CheckTotalResult()
-            systemGrouped.each { String groupName, Collection<String> systems ->
+            systemGrouped.each { String groupName, Collection<RLSystemConfig> systems ->
                 handlers*.startGroup(groupName)
                 CheckTotalResult checkGroupTotal = new CheckTotalResult(group: groupName)
-                systems.each { String systemName ->
-                    CheckTotalResult checkResultSystem = checkSystemRoms(groupName, systemName)
+                systems.each { RLSystemConfig systemConfig ->
+                    if (systemConfig.hidden) return
+                    handlers*.systemConfig = systemConfig
+                    CheckTotalResult checkResultSystem = checkSystemRoms(groupName, systemConfig.name)
                     checkGroupTotal.add(checkResultSystem)
                 }
                 handlers*.endGroup(checkGroupTotal)

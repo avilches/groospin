@@ -76,10 +76,24 @@ td.group {
 table tfoot td {
     border-top:2px solid #ccc ;
 }
+td.instable {
+    font: normal 9pt arial;
+    color: #F00;
+    background: #ffd966;
+    text-align:center;
+}
+td.ok {
+    font: normal 9pt arial;
+    text-align:center;
+}
+td.perfect {
+    /*background: #93c47d;*/
+    text-align:center;
+}
 </style>
 """
 
-        websiteSystems << "<table id='systems'><thead>\n<tr>\n    <td>#</td><td colspan='2'>Sistema</td><td>Roms</td><td>Tamaño</td><td>Wheels</td><td>Video</td><td>Temas</td><td>Tamaño medias</td>\n</tr>\n</thead>\n<tbody>"
+        websiteSystems << "<table id='systems'><thead>\n<tr>\n    <td>#</td><td colspan='2'>Sistema</td><td>Estado</td><td>Roms</td><td>Tamaño</td><td>Wheels</td><td>Video</td><td>Temas</td><td>Tamaño medias</td>\n</tr>\n</thead>\n<tbody>"
     }
 
     SystemWebSite haveHtmlList
@@ -96,19 +110,20 @@ table tfoot td {
 
     @Override
     void startGroup(String groupName) {
-        websiteSystems << "<tr>\n    <td></td><td class='group' colspan='8'>${groupName}</td>\n</tr>\n</thead>\n<tbody>"
+        websiteSystems << "<tr>\n    <td></td><td class='group' colspan='9'>${groupName}</td>\n</tr>\n</thead>\n<tbody>"
     }
 
     @Override
     void endSystem(CheckTotalResult checkResult) {
         haveHtmlList.endSystem(checkResult)
-        websiteSystems << "<tr>\n    <td class='n'>${++n}</td><td><img src='/static/icons/${checkResult.system.name}.png' onerror=\"this.style.display='none'\"/></td><td class='system'><a href='/sistema/${sanitize(checkResult.system.name)}/'>${checkResult.system.name}</a><div class='emu'>${checkResult.system.defaultEmulator.name?:""}</div></td><td class='roms'>${checkResult.totalRoms}</td><td class='romSize'>${humanReadableByteSize(checkResult.totalRomSize)}</td>" +
+        websiteSystems << "<tr>\n    <td class='n'>${++n}</td><td><img src='/static/icons/${checkResult.system.name}.png' onerror=\"this.style.display='none'\"/></td><td class='system'><a href='/sistema/${sanitize(checkResult.system.name)}/'>${checkResult.system.name}</a><div class='emu'>${checkResult.system.defaultEmulator.name ?: ""}</div></td>"
+        websiteSystems << "<td class='system ${systemConfig.perfect ? "perfect" : !systemConfig.stable ? "instable" : ""}'>${systemConfig.perfect ? "<img src='icon-certified.png' width='30'/>" : !systemConfig.stable ? "instable" : "ok"}</td><td class='roms'>${checkResult.totalRoms}</td><td class='romSize'>${humanReadableByteSize(checkResult.totalRomSize)}</td>" +
                 "<td class='wheels'>${checkResult.wheels}</td><td class='videos'>${checkResult.videos}</td><td class='themes'>${checkResult.themes}</td><td class='mediaSize'>${humanReadableByteSize(checkResult.totalMediaSize)}</td></tr>"
     }
 
     @Override
     void endCheck(CheckTotalResult checkResult) {
-        websiteSystems << "</tbody>\n<tfoot>\n<tr>\n    <td></td><td colspan='2' class='total'>Total ${n} sistemas</td><td class='roms'>${checkResult.totalRoms}</td><td class='romSize'>${humanReadableByteSize(checkResult.totalRomSize)}</td>" +
+        websiteSystems << "</tbody>\n<tfoot>\n<tr>\n    <td></td><td colspan='3' class='total'>Total ${n} sistemas</td><td class='roms'>${checkResult.totalRoms}</td><td class='romSize'>${humanReadableByteSize(checkResult.totalRomSize)}</td>" +
                 "<td class='wheels'>${checkResult.wheels}</td><td class='videos'>${checkResult.videos}</td><td class='themes'>${checkResult.themes}</td><td class='mediaSize'>${humanReadableByteSize(checkResult.totalMediaSize)}</td></tr>"
         websiteSystems << "</tfoot>\n</table>"
         websiteSystems.flush()

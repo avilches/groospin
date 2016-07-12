@@ -20,6 +20,8 @@ class RLSystemConfig {
     boolean stable
     boolean perfect
 
+    RLSystemConfig() {
+    }
     RLSystemConfig(PropertyMapper map) {
         name = map[7].trim()
         hidden = map[2].trim() == "OCULTO"

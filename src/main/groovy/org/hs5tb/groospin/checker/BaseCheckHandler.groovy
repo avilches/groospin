@@ -3,6 +3,7 @@ package org.hs5tb.groospin.checker
 import org.hs5tb.groospin.base.RLSystem
 import org.hs5tb.groospin.checker.result.CheckRomResult
 import org.hs5tb.groospin.checker.result.CheckTotalResult
+import org.hs5tb.groospin.checker.site.RLSystemConfig
 
 /**
  * Created by Alberto on 12-Jun-16.
@@ -50,4 +51,6 @@ class BaseCheckHandler implements CheckHandler {
     boolean needsMediaFolderSize() {
         return false
     }
+
+    RLSystemConfig systemConfig
 }
