@@ -4,35 +4,42 @@ import org.hs5tb.groospin.checker.handlers.*
 import org.hs5tb.groospin.checker.site.MainWebSite
 
 
-@Grab('com.xlson.groovycsv:groovycsv:1.0')
 import com.xlson.groovycsv.CsvParser
 import org.hs5tb.groospin.checker.site.RLSystemConfig
+import org.hs5tb.groospin.common.ZipUtils
 
+String reportRoot = "D:/Games/Soft/GrooSpin/report"
 
 HyperSpin hs = new HyperSpin(
-        "/Users/avilches/Games/Hyperspin-fe",
-        "/Users/avilches/Games/RocketLauncher")
-
-
+        "D:/Games/Hyperspin-fe",
+        "D:/Games/RocketLauncher")
 
 Map systemIndex = loadConfigFromGoogleDoc()
 Map systemIndexGroup = systemIndex.values().groupBy { RLSystemConfig config -> config.type }
 
+def shortConfigJustForTest = ["Arcade":[
+        new RLSystemConfig(name:"Atari 8-bit", hidden: true, stable: true, perfect: true),
+        new RLSystemConfig(name:"Apple II", hidden: false, stable: false, perfect: false),
+        new RLSystemConfig(name:"Sega Saturn", hidden: false, stable: true, perfect: false),
+        new RLSystemConfig(name:"American Laser Games", hidden: false, stable: true, perfect: true),
+]]
 
-def shortConfigJustForTest = ["Arcade":["AAE","American Laser Games", "Rockola"],
-                "Computer":["Acorn BBC Micro","Apple II"]]
+
 
 
 validateSystems(systemIndex.values().findAll { !it.hidden } *.name, hs)
+
 new Checker(hs).
         addHandler(new HumanInfo()).
-        addHandler(new HaveHtmlList("D:/Games/Soft/GrooSpin/report/all.html", true)).
-        addHandler(new HaveHtmlList("D:/Games/Soft/GrooSpin/report/have-list.html", false)).
-        addHandler(new MissingTxtList("D:/Games/Soft/GrooSpin/report/missing.csv", ";")).
-        addHandler(new AllRomsCsvList("D:/Games/Soft/GrooSpin/report/roms.csv", ";")).
-        addHandler(new SystemCsvList("D:/Games/Soft/GrooSpin/report/systems.csv", ";")).
-        addHandler(new MainWebSite("D:/Games/Soft/GrooSpin/report/website", true)).
+        /*addHandler(new HaveHtmlList("${reportRoot}/all.html", true)).
+        addHandler(new HaveHtmlList("${reportRoot}/have-list.html", false)).
+        addHandler(new MissingTxtList("${reportRoot}/missing.csv", ";")).
+        addHandler(new AllRomsCsvList("${reportRoot}/roms.csv", ";")).
+        addHandler(new SystemCsvList("${reportRoot}/systems.csv", ";")).*/
+        addHandler(new MainWebSite("${reportRoot}/website", true)).
         checkSystemGroup(systemIndexGroup)
+
+ZipUtils.zip(["${reportRoot}/all.html", "${reportRoot}/roms.csv", "${reportRoot}/systems.csv"].collect { new File(it) }, new File(reportRoot, "listado.zip"))
 
 
 
@@ -62,7 +69,6 @@ Checker validateSystems(ArrayList configSystems, HyperSpin hyperSpin) {
     if (sobran) {
         throw new IllegalArgumentException("Sobran de configurar (no estan en el xml) ${sobran}")
     }
-    return this
 }
 
 
