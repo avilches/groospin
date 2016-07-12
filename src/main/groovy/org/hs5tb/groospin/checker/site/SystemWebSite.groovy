@@ -25,7 +25,7 @@ class SystemWebSite {
     }
 
     void startSystem(RLSystem system) {
-        haveListHtml << "<p>Estas son todas las roms que incluye el sistema ${system.name}. Para ver el listado completo de todos los sistemas mira <a href='/'>nuestra colección</a>. Si lo prefieres puedes descargar el listado completo y con juegos en un solo zip <a rel='nofollow' href='http://bit.ly/hyperspin5tb-listado'>aquí</a>.</p>\n<ol>"
+        haveListHtml << "<p>Estas son todas las roms que incluye el sistema ${system.name}. Para ver el listado completo de todos los sistemas mira <a href='/'>nuestra colección</a>. Si lo prefieres puedes descargar el listado completo y con juegos en un solo zip <a rel='nofollow' href='http://bit.ly/hyperspin5tb-romlist'>aquí</a>.</p>\n<ol>"
     }
 
     void romChecked(CheckRomResult checkResult) {
@@ -38,7 +38,7 @@ class SystemWebSite {
         haveListHtml << "</ol>\n"
         if (checkResult) {
             haveListHtml << "<h4>Total roms: <b>${humanReadableByteSize(checkResult.totalRomSize)}</b><br/>Total media (videos, etc): <b>${humanReadableByteSize(checkResult.totalMediaSize)}</b></h4>"
-            haveListHtml << "Para ver el listado completo de todos los sistemas mira <a href='/'>nuestra colección</a>. Si lo prefieres puedes descargar el listado completo y con juegos en un solo zip <a rel='nofollow' href='http://bit.ly/hyperspin5tb-listado'>aquí</a>.</p>"
+            haveListHtml << "Para ver el listado completo de todos los sistemas mira <a href='/'>nuestra colección</a>. Si lo prefieres puedes descargar el listado completo y con juegos en un solo zip <a rel='nofollow' href='http://bit.ly/hyperspin5tb-romlist'>aquí</a>.</p>"
         }
         haveListHtml.flush()
     }
