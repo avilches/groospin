@@ -29,6 +29,9 @@ class HaveHtmlList extends BaseCheckHandler {
     @Override
     void startCheck() {
         haveListHtml << "<html><body>"
+        haveListHtml << "<h1>Listado de sistemas disco 5Tb</h1>"
+        haveListHtml << "<p>Generado: 20/06/2012</p>"
+        haveListHtml << "<p>Más información en: <a href=\"http://hyperspin5tb.com\">http://hyperspin5tb.com</a></p>"
     }
 
     @Override
