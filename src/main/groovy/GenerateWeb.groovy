@@ -23,7 +23,7 @@ def shortConfigJustForTest = ["Arcade":["AAE","American Laser Games", "Rockola"]
                 "Computer":["Acorn BBC Micro","Apple II"]]
 
 
-validateSystems(systemIndex.values()*.name, hs)
+validateSystems(systemIndex.values().findAll { !it.hidden } *.name, hs)
 new Checker(hs).
         addHandler(new HumanInfo()).
         addHandler(new HaveHtmlList("D:/Games/Soft/GrooSpin/report/all.html", true)).
