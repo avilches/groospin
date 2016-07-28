@@ -9,13 +9,12 @@ import org.hs5tb.groospin.checker.site.RLSystemConfig
 import org.hs5tb.groospin.common.ZipUtils
 
 String reportRoot = "D:/Games/Soft/GrooSpin/report"
-String csvText = new File("D:/Games/Soft/GrooSpin/src/main/groovy/Hyperspin 1.4 + RL fe - HS 1.4.csv").text
-
+String csvFile = "D:/Games/Soft/GrooSpin/src/main/groovy/Hyperspin 1.4 + RL fe - HS 1.4.csv"
 HyperSpin hs = new HyperSpin(
         "D:/Games/Hyperspin-fe",
         "D:/Games/RocketLauncher")
 
-Map systemIndex = loadConfigFromGoogleDoc()
+Map systemIndex = loadConfigFromGoogleDoc(csvFile)
 Map systemIndexGroup = systemIndex.values().groupBy { RLSystemConfig config -> config.type }
 systemIndexGroup.collectEntries { String k, List<RLSystemConfig> configs ->
     configs.sort { it.name }
@@ -47,7 +46,8 @@ ZipUtils.zip(["${reportRoot}/all.html", "${reportRoot}/roms.csv", "${reportRoot}
 
 
 
-private Map loadConfigFromGoogleDoc() {
+private Map loadConfigFromGoogleDoc(csvFile) {
+    String csvText = new File(csvFile).text
     def csv = CsvParser.parseCsv(csvText)
     Map systemIndex = [:]
     csv.each {
