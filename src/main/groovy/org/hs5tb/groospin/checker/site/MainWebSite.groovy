@@ -58,7 +58,7 @@ table#systems thead td {
     font: bold 11pt Arial;
 }
 table#systems tbody td, table#systems tfoot td {
-    border: 1px solid #e5e5e5 ;
+    border-bottom: 1px solid #e5e5e5 ;
     padding: 3px;
 }
 tfoot td, td.n {
@@ -76,24 +76,56 @@ td.group {
 table tfoot td {
     border-top:2px solid #ccc ;
 }
-td.instable {
+table#systems tbody td.instable {
     font: normal 9pt arial;
     color: #F00;
-    background: #ffd966;
+    xxbackground: #ffd966;
     text-align:center;
 }
-td.ok {
+table#systems tbody td.ok {
     font: normal 9pt arial;
     text-align:center;
 }
-td.perfect {
-    /*background: #93c47d;*/
+table#systems tbody td.perfect {
+    xxxbackground: #93c47d;
     text-align:center;
+}
+table#systems tbody td.state {
+}
+.toolttip {
+    position: relative;
+    display: inline-block;
+}
+
+.toolttip .toolttiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: #666;
+    color: #fff;
+
+    border:0;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px;
+
+    /* Position the toolttip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.toolttip:hover .toolttiptext {
+    visibility: visible;
+    opacity: 1;
 }
 </style>
 """
 
-        websiteSystems << "<table id='systems'><thead>\n<tr>\n    <td>#</td><td colspan='2'>Sistema</td><td>Estado</td><td>Roms</td><td>Tamaño</td><td>Wheels</td><td>Video</td><td>Temas</td><td>Tamaño medias</td>\n</tr>\n</thead>\n<tbody>"
+        websiteSystems << "<table id='systems'><thead>\n<tr>\n    <td>#</td><td colspan='3'>Sistema</td><td>Estado</td><td>Roms</td><td>Tamaño</td><td>Wheels</td><td>Video</td><td>Temas</td><td>Tamaño medias</td>\n</tr>\n</thead>\n<tbody>"
     }
 
     SystemWebSite haveHtmlList
@@ -110,20 +142,25 @@ td.perfect {
 
     @Override
     void startGroup(String groupName) {
-        websiteSystems << "<tr>\n    <td></td><td class='group' colspan='9'>${groupName}</td>\n</tr>\n</thead>\n<tbody>"
+        websiteSystems << "<tr>\n    <td></td><td class='group' colspan='10'>${groupName}</td>\n</tr>\n</thead>\n<tbody>"
     }
 
+    String baseImg = "../static/icons/"
+
+    String arcadeIcon    = "<span class='toolttip'><img src='${baseImg}arcade-flat-icon.png' width='14'/><span class=\"toolttiptext\">Ideal para recreativa</span></span>"
+    String excellentIcon = "<span class='toolttip'><img src='${baseImg}icon-certified.png' width='20'/><span class=\"toolttiptext\">¡Emulación excelente!</span></span>"
+    String dangerIcon    = "<span class='toolttip'><img src='${baseImg}danger-icon.png' width='22'/><span class=\"toolttiptext\">El sistema es inestable, no está bien emulado o presenta dificultades para jugar</span></span>"
     @Override
     void endSystem(CheckTotalResult checkResult) {
         haveHtmlList.endSystem(checkResult)
-        websiteSystems << "<tr>\n    <td class='n'>${++n}</td><td><img src='/static/icons/${checkResult.system.name}.png' onerror=\"this.style.display='none'\"/></td><td class='system'><a href='/sistema/${sanitize(checkResult.system.name)}/'>${checkResult.system.name}</a><div class='emu'>${checkResult.system.defaultEmulator.name ?: ""}</div></td>"
-        websiteSystems << "<td class='system ${systemConfig.perfect ? "perfect" : !systemConfig.stable ? "instable" : ""}'>${systemConfig.perfect ? "<img src='icon-certified.png' width='30'/>" : !systemConfig.stable ? "instable" : "ok"}</td><td class='roms'>${checkResult.totalRoms}</td><td class='romSize'>${humanReadableByteSize(checkResult.totalRomSize)}</td>" +
+        websiteSystems << "<tr>\n    <td class='n'>${++n}</td><td class='${systemConfig.arcade?'arcadeYes':'arcadeNo'}'>${systemConfig.arcade?arcadeIcon:""}</td><td><img src='${baseImg}${checkResult.system.name}.png' onerror=\"this.style.display='none'\"/></td><td class='system'><a href='/sistema/${sanitize(checkResult.system.name)}/'>${checkResult.system.name}</a><div class='emu'>${checkResult.system.defaultEmulator.name ?: ""}</div></td>"
+        websiteSystems << "<td class='state ${systemConfig.perfect ? "perfect" : !systemConfig.stable ? "instable" : ""}'>${systemConfig.perfect ? excellentIcon : !systemConfig.stable ? dangerIcon : ""}</td><td class='roms'>${checkResult.totalRoms}</td><td class='romSize'>${humanReadableByteSize(checkResult.totalRomSize)}</td>" +
                 "<td class='wheels'>${checkResult.wheels}</td><td class='videos'>${checkResult.videos}</td><td class='themes'>${checkResult.themes}</td><td class='mediaSize'>${humanReadableByteSize(checkResult.totalMediaSize)}</td></tr>"
     }
 
     @Override
     void endCheck(CheckTotalResult checkResult) {
-        websiteSystems << "</tbody>\n<tfoot>\n<tr>\n    <td></td><td colspan='3' class='total'>Total ${n} sistemas</td><td class='roms'>${checkResult.totalRoms}</td><td class='romSize'>${humanReadableByteSize(checkResult.totalRomSize)}</td>" +
+        websiteSystems << "</tbody>\n<tfoot>\n<tr>\n    <td></td><td colspan='4' class='total'>Total ${n} sistemas</td><td class='roms'>${checkResult.totalRoms}</td><td class='romSize'>${humanReadableByteSize(checkResult.totalRomSize)}</td>" +
                 "<td class='wheels'>${checkResult.wheels}</td><td class='videos'>${checkResult.videos}</td><td class='themes'>${checkResult.themes}</td><td class='mediaSize'>${humanReadableByteSize(checkResult.totalMediaSize)}</td></tr>"
         websiteSystems << "</tfoot>\n</table>"
         websiteSystems.flush()

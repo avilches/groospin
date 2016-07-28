@@ -3,10 +3,10 @@ import org.hs5tb.groospin.checker.*
 import org.hs5tb.groospin.checker.handlers.*
 
 HyperSpin hs = new HyperSpin(
-        "D:/Games/Games/Hyperspin-fe",
-        "D:/Games/Games/RocketLauncher")
+        "D:/Games/Hyperspin-fe",
+        "D:/Games/RocketLauncher")
 
 new Checker(hs).addHandler(new HumanInfo()).checkSystem("Amstrad CPC")
-
+new Checker(hs).addHandler(new HumanInfo()).checkSystems()
 
 

@@ -9,6 +9,7 @@ import org.hs5tb.groospin.checker.site.RLSystemConfig
 import org.hs5tb.groospin.common.ZipUtils
 
 String reportRoot = "D:/Games/Soft/GrooSpin/report"
+String csvText = new File("D:/Games/Soft/GrooSpin/src/main/groovy/Hyperspin 1.4 + RL fe - HS 1.4.csv").text
 
 HyperSpin hs = new HyperSpin(
         "D:/Games/Hyperspin-fe",
@@ -16,6 +17,9 @@ HyperSpin hs = new HyperSpin(
 
 Map systemIndex = loadConfigFromGoogleDoc()
 Map systemIndexGroup = systemIndex.values().groupBy { RLSystemConfig config -> config.type }
+systemIndexGroup.collectEntries { String k, List<RLSystemConfig> configs ->
+    configs.sort { it.name }
+}
 
 def shortConfigJustForTest = ["Arcade":[
         new RLSystemConfig(name:"Atari 8-bit", hidden: true, stable: true, perfect: true),
@@ -31,11 +35,11 @@ validateSystems(systemIndex.values().findAll { !it.hidden } *.name, hs)
 
 new Checker(hs).
         addHandler(new HumanInfo()).
-        /*addHandler(new HaveHtmlList("${reportRoot}/all.html", true)).
+        addHandler(new HaveHtmlList("${reportRoot}/all.html", true)).
         addHandler(new HaveHtmlList("${reportRoot}/have-list.html", false)).
         addHandler(new MissingTxtList("${reportRoot}/missing.csv", ";")).
         addHandler(new AllRomsCsvList("${reportRoot}/roms.csv", ";")).
-        addHandler(new SystemCsvList("${reportRoot}/systems.csv", ";")).*/
+        addHandler(new SystemCsvList("${reportRoot}/systems.csv", ";")).
         addHandler(new MainWebSite("${reportRoot}/website", true)).
         checkSystemGroup(systemIndexGroup)
 
@@ -44,15 +48,16 @@ ZipUtils.zip(["${reportRoot}/all.html", "${reportRoot}/roms.csv", "${reportRoot}
 
 
 private Map loadConfigFromGoogleDoc() {
-    String csvText = new URL("https://docs.google.com/spreadsheets/d/1VFqny4apTMERBKwD20Wc9oug4OFiU2pWdu9L4osYOM8/pub?gid=0&single=true&output=csv").text
     def csv = CsvParser.parseCsv(csvText)
     Map systemIndex = [:]
     csv.each {
         RLSystemConfig csvRow = new RLSystemConfig(it)
         if (csvRow.name) {
+            // println csvRow
             systemIndex[csvRow.name] = csvRow
         }
     }
+
     println "Cargando ${systemIndex.size()} sistemas"
 
     return systemIndex
