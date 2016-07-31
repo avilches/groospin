@@ -9,6 +9,14 @@ import static org.hs5tb.groospin.common.IOTools.humanReadableByteSize
  */
 class HumanInfo extends BaseCheckHandler {
 
+    Boolean folderSize
+
+    HumanInfo() {}
+
+    HumanInfo(boolean folderSize) {
+        this.folderSize = folderSize
+    }
+
     @Override
     void startGroup(String groupName) {
         println "${groupName.center(143, " ")}"
@@ -47,7 +55,16 @@ class HumanInfo extends BaseCheckHandler {
     }
 
     void drawLine(String title, CheckTotalResult checkResult) {
-        println "${title.padLeft(40, " ")} roms: ${checkResult.exes.toString().padRight(4," ")}/${checkResult.totalRoms.toString().padRight(4," ")} w/v/t: ${"${checkResult.wheels}/${checkResult.videos}/${checkResult.themes}".padRight(14," ")} artwork: ${"${checkResult.artwork1}/${checkResult.artwork2}/${checkResult.artwork3}/${checkResult.artwork4}".padRight(19," ")} - roms ${humanReadableByteSize(checkResult.totalRomSize).padLeft(8, " ")} - size ${humanReadableByteSize(checkResult.totalMediaSize).padLeft(8, " ")}"
+        println "${title.padRight(40, " ")} roms: ${checkResult.exes.toString().padRight(4," ")}/${checkResult.totalRoms.toString().padRight(4," ")} w/v/t: ${"${checkResult.wheels}/${checkResult.videos}/${checkResult.themes}".padRight(14," ")} artwork: ${"${checkResult.artwork1}/${checkResult.artwork2}/${checkResult.artwork3}/${checkResult.artwork4}".padRight(19," ")} - roms ${humanReadableByteSize(checkResult.totalRomSize).padLeft(8, " ")} - size ${humanReadableByteSize(checkResult.totalMediaSize).padLeft(8, " ")}"
     }
 
+    @Override
+    boolean needsRomFolderSize() {
+        folderSize != null?folderSize:super.needsRomFolderSize()
+    }
+
+    @Override
+    boolean needsMediaFolderSize() {
+        folderSize != null?folderSize:super.needsMediaFolderSize()
+    }
 }
