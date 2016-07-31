@@ -2,6 +2,7 @@ package org.hs5tb.groospin.base
 
 import org.hs5tb.groospin.common.IOTools
 import org.hs5tb.groospin.common.Ini
+import org.xml.sax.SAXException
 
 /**
  * Created by Alberto on 12-Jun-16.
@@ -110,7 +111,7 @@ class HyperSpin {
     List databaseCollect(String systemName, Closure closure) {
         File db = findSystemDatabaseFile(systemName)
         if (!db.exists()) {
-            throw new FileNotFoundException("${systemName} menu not found in ${db.absolutePath}")
+            return [] // throw new FileNotFoundException("${systemName} menu not found in ${db.absolutePath}")
         }
         Node xml = new XmlParser().parseText(db.text)
         return xml.game.collect(closure).findAll()
