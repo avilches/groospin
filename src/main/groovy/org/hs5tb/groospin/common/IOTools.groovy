@@ -14,6 +14,7 @@ class IOTools {
         if (File.separator == "/") { // We are running tests in a MacOS/linux environment
             path = path.replaceAll("\\\\", "/")
         }
+        if (path.size() > 2 && path.substring(1, 2) == ":") return new File(path)
         File candidate = new File(path).canonicalFile
         if (candidate.exists()) return candidate
         return new File(root, path).canonicalFile
