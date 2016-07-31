@@ -31,7 +31,7 @@ class BaseCheckHandler implements CheckHandler {
 
     @Override
     void endSystemWithError(String systemName, Exception e) {
-        throw e
+        println "$systemName: ${e.message}"
     }
 
     @Override
