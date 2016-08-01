@@ -132,7 +132,7 @@ class Ini {
         return null
     }
 
-    private String canonical(String s) {
+    static String canonical(String s) {
         s?.trim()?.toLowerCase()
     }
 

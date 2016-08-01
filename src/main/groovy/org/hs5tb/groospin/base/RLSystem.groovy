@@ -17,10 +17,13 @@ class RLSystem {
     List<File> romPathsList
 
     Ini romMapping
+    Map<String, RLEmulator> alternativeEmulators
 
-    File findValidRom(String game) {
-        if (defaultEmulator.module == "ScummVM.ahk") {
-            String path = romMapping.get(game, "path")
+    File findValidRom(String romName) {
+        RLEmulator emulator = getRomEmulator(romName)
+
+        if (emulator.module == "ScummVM.ahk") {
+            String path = romMapping.get(romName, "path")
             if (path) {
                 File scummRomFolder = hyperSpin.findRocketLauncherFile(path)
                 if (scummRomFolder.exists() && scummRomFolder.directory) {
@@ -30,16 +33,17 @@ class RLSystem {
             return null
         }
 
-        for (String ext in defaultEmulator.romExtensions) {
-            File rom = IOTools.findFileInFolders(romPathsList, game+ "." + ext)
-            rom = rom ?: IOTools.findFileInFolders(romPathsList, game + "/" + game + "." + ext)
+        for (String ext in emulator.romExtensions) {
+            File rom = IOTools.findFileInFolders(romPathsList, romName+ "." + ext)
+            rom = rom ?: IOTools.findFileInFolders(romPathsList, romName + "/" + romName + "." + ext)
             if (rom) return rom
         }
         return null
     }
 
-    boolean romsAreExecutables() {
-        return defaultEmulator.module in ["MUGEN.ahk", "OpenBOR.ahk", "Casual Games.ahk", "PCLauncher.ahk"]
+    boolean romsIsExecutable(String romName) {
+        RLEmulator emulator = getRomEmulator(romName)
+        return emulator.module in ["MUGEN.ahk", "OpenBOR.ahk", "Casual Games.ahk", "PCLauncher.ahk"]
     }
 
     File findSystemDatabaseFile() {
@@ -47,21 +51,22 @@ class RLSystem {
     }
 
     File findExecutable(String romName, File romFile) {
+        RLEmulator emulator = getRomEmulator(romName)
         File romPath = romFile.directory ? romFile : romFile.parentFile
-        if (defaultEmulator.module == "PCLauncher.ahk") {
+        if (emulator.module == "PCLauncher.ahk") {
             String application = romMapping.get(romName, "application")
             return application ? hyperSpin.findRocketLauncherFile(application) : null
-        } else if (defaultEmulator.module == "MUGEN.ahk") {
+        } else if (emulator.module == "MUGEN.ahk") {
             String iniGamePath = romMapping.get(romName, "gamepath")
             List<String> candidates = iniGamePath ? ["/" + iniGamePath] : []
             candidates.addAll(["/" + romName + "/MUGEN.exe"])
             return IOTools.findFilesInFolder(romPath, candidates)
-        } else if (defaultEmulator.module == "OpenBOR.ahk") {
+        } else if (emulator.module == "OpenBOR.ahk") {
             String iniGamePath = romMapping.get(romName, "gamepath")
             List<String> candidates = iniGamePath ? ["/" + iniGamePath] : []
             candidates.addAll(["/" + romName + "/OpenBOR.exe", "/OpenBOR.exe"])
             return IOTools.findFilesInFolder(romPath, candidates)
-        } else if (defaultEmulator.module == "Casual Games.ahk") {
+        } else if (emulator.module == "Casual Games.ahk") {
             String iniGamePath = romMapping.get(romName, "gamepath")
             if (iniGamePath && new File(iniGamePath).exists()) return new File(iniGamePath).canonicalFile
             List<String> candidates = iniGamePath ? ["/" + iniGamePath] : []
@@ -102,4 +107,10 @@ class RLSystem {
     List<String> listRomNames() {
         return hyperSpin.listRomNames(name)
     }
+
+    private RLEmulator getRomEmulator(String romName) {
+        RLEmulator emulator = alternativeEmulators?.get(Ini.canonical(romName)) ?: defaultEmulator
+        return emulator
+    }
+
 }

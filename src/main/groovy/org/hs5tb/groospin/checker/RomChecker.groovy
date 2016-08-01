@@ -9,18 +9,24 @@ package org.hs5tb.groospin.checker
 
 import groovy.transform.CompileStatic
 import org.hs5tb.groospin.base.RLSystem
+import org.hs5tb.groospin.base.Rom
 import org.hs5tb.groospin.checker.result.CheckRomResult
 import org.hs5tb.groospin.common.IOTools;
 
 @CompileStatic
 class RomChecker {
 
-    CheckRomResult check(RLSystem system, String romName) {
-        File romFound = system.findValidRom(romName)
-
+    CheckRomResult check(RLSystem originalSystem, Rom rom) {
+        RLSystem system = originalSystem
+        if (rom.exe) {
+            system = originalSystem.hyperSpin.getSystem(rom.exe)
+        }
+        String romName = rom.name
         CheckRomResult checkResultRom = new CheckRomResult(romName: romName, system: system)
+
+        File romFound = system.findValidRom(romName)
         if (romFound) {
-            if (system.romsAreExecutables()) {
+            if (system.romsIsExecutable(romName)) {
                 File exe = system.findExecutable(romName, romFound)
                 if (exe) {
                     checkResultRom.roms = checkResultRom.exes = 1

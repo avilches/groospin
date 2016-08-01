@@ -21,7 +21,7 @@ hs.listSystems().each { RLSystem system ->
     system.listRomNames().each { String game ->
         File romFound = system.findValidRom(game)
         if (romFound) {
-            if (system.romsAreExecutables()) {
+            if (system.romsIsExecutable()) {
                 File exe = system.findExecutable(game, romFound)
                 if (exe) {
                     txt << "<li><strong>${game}</strong><br/>${exe.parent} <a href='file:///${exe.parent}'>abrir carpeta</a></li>\n"

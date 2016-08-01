@@ -127,7 +127,7 @@ class Checker {
                 checkTotalResult.totalRoms = roms.size()
 
                 roms.sort { it.name }.each { Rom rom ->
-                    CheckRomResult checkResultRom = romChecker.check(system, rom.name)
+                    CheckRomResult checkResultRom = romChecker.check(system, rom)
                     checkResultRom.rom = rom
                     checkResultRom.group = group
                     checkTotalResult.add(checkResultRom)
@@ -139,10 +139,6 @@ class Checker {
             handlers*.endSystemWithError(systemName, e)
         }
         return checkTotalResult
-    }
-
-    CheckRomResult checkRom(RLSystem system, String rom) {
-        romChecker.check(system, rom)
     }
 
 }

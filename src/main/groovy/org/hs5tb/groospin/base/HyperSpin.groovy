@@ -53,17 +53,33 @@ class HyperSpin {
         Ini systemIni = new Ini().parse(systemEmulatorConfig)
         systemIni.parent = globalEmulatorsIni
         String rom_Path = systemIni.get("roms", "rom_path")
-        String default_Emulator = systemIni.get("roms", "default_emulator")
+        String default_emulator = systemIni.get("roms", "default_emulator")
 
         List romPathList = rom_Path?.split("\\|")?.collect { String romPathString -> IOTools.tryRelativeFrom(rlRoot, romPathString) } ?: []
 
-        RLSystem system = new RLSystem(hyperSpin: this, name: systemName, iniRomPath: rom_Path, executable: isExecutable,
-                iniDefaultEmulator: default_Emulator, defaultEmulator: createEmulator(default_Emulator, systemIni.getSection(default_Emulator)), romPathsList: romPathList)
+        File alternativeEmulatorConfig = findRocketLauncherFile("Settings/${systemName}/Games.ini")
+        Map alternativeEmulators = [:]
+        if (alternativeEmulatorConfig.file) {
+            Ini alternativeEmulatorsIni = new Ini().parse(alternativeEmulatorConfig)
+            alternativeEmulatorsIni.getSections().each { String gameName, Map alternativeEmulatorForGameConfig ->
+                String emulatorName = alternativeEmulatorForGameConfig.get(Ini.canonical("Emulator"))
+                if (emulatorName) {
+                    alternativeEmulators[gameName] = findOrCreateEmulator(emulatorName, systemIni.getSection(emulatorName))
+                }
+            }
+        }
+
+        RLSystem system = new RLSystem(alternativeEmulators: alternativeEmulators, hyperSpin: this, name: systemName, iniRomPath: rom_Path, executable: isExecutable,
+                iniDefaultEmulator: default_emulator, defaultEmulator: findOrCreateEmulator(default_emulator, systemIni.getSection(default_emulator)), romPathsList: romPathList)
         system.loadMapping()
         return system
     }
 
-    private RLEmulator createEmulator(String name, Map emulatorConfig) {
+    Map emulators = [:]
+    private RLEmulator findOrCreateEmulator(String name, Map emulatorConfig) {
+        if (emulators[name]) {
+            return emulators[name]
+        }
         String iniEmuPath = emulatorConfig['emu_path']
         String iniRomExtension = emulatorConfig['rom_extension']
         String module = emulatorConfig['module']
@@ -71,6 +87,7 @@ class HyperSpin {
         List romExtensions = iniRomExtension?.split("\\|")?.collect { String ext -> ext.trim().toLowerCase() } ?: []
         RLEmulator emulator = new RLEmulator(name: name, iniEmuPath: iniEmuPath,
                 iniRomExtension: iniRomExtension, emuPath: emuPath, romExtensions: romExtensions, module: module)
+        emulators[name] = emulator
         return emulator
     }
 

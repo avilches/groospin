@@ -14,6 +14,7 @@ class Rom {
     String genre
     String rating
     String enabled
+    String exe
 
     Rom() {}
 
@@ -30,6 +31,7 @@ class Rom {
         genre = node.genre.text()
         rating = node.rating.text()
         enabled = node.enabled.text()
+        exe = node.exe.text()
         this
     }
 
