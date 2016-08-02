@@ -41,18 +41,22 @@ class RomChecker {
             checkResultRom.roms = checkResultRom.exes = 0
         }
 
-        checkResultRom.wheels = existsInMedia(system, "Images/Wheel/${romName}", ["jpg", "png"]) ? 1 : 0
-        checkResultRom.videos = existsInMedia(system, "Video/${romName}", ["mp4", "flv"]) ? 1 : 0
-        checkResultRom.themes = existsInMedia(system, "Themes/${romName}", ["zip"]) ? 1 : 0
-        checkResultRom.artwork1 = existsInMedia(system, "Images/Artwork1/${romName}", ["jpg", "png"]) ? 1 : 0
-        checkResultRom.artwork2 = existsInMedia(system, "Images/Artwork2/${romName}", ["jpg", "png"]) ? 1 : 0
-        checkResultRom.artwork3 = existsInMedia(system, "Images/Artwork3/${romName}", ["jpg", "png"]) ? 1 : 0
-        checkResultRom.artwork4 = existsInMedia(system, "Images/Artwork4/${romName}", ["jpg", "png"]) ? 1 : 0
+        checkResultRom.wheels = existsInMedia(originalSystem, "Images/Wheel/${romName}", ["jpg", "png"]) ? 1 : 0
+        checkResultRom.videos = existsInMedia(originalSystem, "Video/${romName}", ["mp4", "flv"]) ? 1 : 0
+        checkResultRom.themes = existsInMedia(originalSystem, "Themes/${romName}", ["zip"]) ? 1 : 0
+        checkResultRom.artwork1 = existsInMedia(originalSystem, "Images/Artwork1/${romName}", ["jpg", "png"]) ? 1 : 0
+        checkResultRom.artwork2 = existsInMedia(originalSystem, "Images/Artwork2/${romName}", ["jpg", "png"]) ? 1 : 0
+        checkResultRom.artwork3 = existsInMedia(originalSystem, "Images/Artwork3/${romName}", ["jpg", "png"]) ? 1 : 0
+        checkResultRom.artwork4 = existsInMedia(originalSystem, "Images/Artwork4/${romName}", ["jpg", "png"]) ? 1 : 0
         return checkResultRom
     }
 
     boolean existsInMedia(RLSystem system, String path, List extensions) {
-        return IOTools.findFileWithExtensions(system.hyperSpin.findHyperSpinFile("Media/${system.name}/${path}"), extensions)
+        boolean exists = IOTools.findFileWithExtensions(system.hyperSpin.findHyperSpinFile("Media/${system.name}/${path}"), extensions)
+        if (!exists) {
+            // println "Missing ${system.name}:$path.[${extensions.join("|")}]"
+        }
+        return exists
     }
 
 }
