@@ -30,7 +30,15 @@ class SystemWebSite {
 
     void romChecked(CheckRomResult checkResult) {
         if (includeMissing || checkResult.exes) {
-            haveListHtml << "<li>${checkResult.rom.description}</li>"
+            haveListHtml << "<li>"
+            if (checkResult.rom.exe) {
+                haveListHtml << "${checkResult.rom.exe}: "
+            }
+            haveListHtml << checkResult.rom.description
+            if (checkResult.rom.description != checkResult.rom.name) {
+                haveListHtml << "(${checkResult.rom.name})"
+            }
+            haveListHtml << "</li>"
         }
     }
 
