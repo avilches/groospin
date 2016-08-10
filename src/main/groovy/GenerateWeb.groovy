@@ -33,7 +33,7 @@ def shortConfigJustForTest = ["Arcade":[
 validateSystems(systemIndex.values().findAll { !it.hidden } *.name, hs)
 
 new Checker(hs).
-        addHandler(new HumanInfo()).
+        addHandler(new HumanInfo("${reportRoot}/human-report.txt", true)).
         addHandler(new HaveHtmlList("${reportRoot}/all.html", true)).
         addHandler(new HaveHtmlList("${reportRoot}/have-list.html", false)).
         addHandler(new MissingTxtList("${reportRoot}/missing.csv", ";")).
