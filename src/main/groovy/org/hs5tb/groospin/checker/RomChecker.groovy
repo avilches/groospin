@@ -41,20 +41,20 @@ class RomChecker {
             checkResultRom.roms = checkResultRom.exes = 0
         }
 
-        checkResultRom.wheels = existsInMedia(originalSystem, "Images/Wheel/${romName}", ["jpg", "png"]) ? 1 : 0
-        checkResultRom.videos = existsInMedia(originalSystem, "Video/${romName}", ["mp4", "flv"]) ? 1 : 0
-        checkResultRom.themes = existsInMedia(originalSystem, "Themes/${romName}", ["zip"]) ? 1 : 0
-        checkResultRom.artwork1 = existsInMedia(originalSystem, "Images/Artwork1/${romName}", ["jpg", "png"]) ? 1 : 0
-        checkResultRom.artwork2 = existsInMedia(originalSystem, "Images/Artwork2/${romName}", ["jpg", "png"]) ? 1 : 0
-        checkResultRom.artwork3 = existsInMedia(originalSystem, "Images/Artwork3/${romName}", ["jpg", "png"]) ? 1 : 0
-        checkResultRom.artwork4 = existsInMedia(originalSystem, "Images/Artwork4/${romName}", ["jpg", "png"]) ? 1 : 0
+        checkResultRom.wheels = existsInMedia(true, originalSystem, "Images/Wheel/${romName}", ["jpg", "png"]) ? 1 : 0
+        checkResultRom.videos = existsInMedia(true, originalSystem, "Video/${romName}", ["mp4", "flv"]) ? 1 : 0
+        checkResultRom.themes = existsInMedia(true, originalSystem, "Themes/${romName}", ["zip"]) ? 1 : 0
+        checkResultRom.artwork1 = existsInMedia(false, originalSystem, "Images/Artwork1/${romName}", ["jpg", "png"]) ? 1 : 0
+        checkResultRom.artwork2 = existsInMedia(false, originalSystem, "Images/Artwork2/${romName}", ["jpg", "png"]) ? 1 : 0
+        checkResultRom.artwork3 = existsInMedia(false, originalSystem, "Images/Artwork3/${romName}", ["jpg", "png"]) ? 1 : 0
+        checkResultRom.artwork4 = existsInMedia(false, originalSystem, "Images/Artwork4/${romName}", ["jpg", "png"]) ? 1 : 0
         return checkResultRom
     }
 
-    boolean existsInMedia(RLSystem system, String path, List extensions) {
+    boolean existsInMedia(boolean log, RLSystem system, String path, List extensions) {
         boolean exists = IOTools.findFileWithExtensions(system.hyperSpin.findHyperSpinFile("Media/${system.name}/${path}"), extensions)
-        if (!exists) {
-            // println "Missing ${system.name}:$path.[${extensions.join("|")}]"
+        if (!exists && log) {
+            //println "Missing ${system.name}:$path.[${extensions.join("|")}]"
         }
         return exists
     }
