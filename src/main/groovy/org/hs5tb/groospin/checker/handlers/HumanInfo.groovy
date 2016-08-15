@@ -1,5 +1,6 @@
 package org.hs5tb.groospin.checker.handlers
 
+import org.hs5tb.groospin.base.RLSystem
 import org.hs5tb.groospin.checker.BaseCheckHandler
 import org.hs5tb.groospin.checker.result.CheckTotalResult
 import org.hs5tb.groospin.common.FileBuffer
@@ -13,6 +14,7 @@ class HumanInfo extends BaseCheckHandler {
 
     private FileBuffer humanReportFile = new FileBuffer()
     Boolean folderSize
+    Integer systems = 0
 
     HumanInfo() {}
 
@@ -45,8 +47,13 @@ class HumanInfo extends BaseCheckHandler {
     }
 
     @Override
+    void startSystem(RLSystem system) {
+        systems ++
+    }
+
+    @Override
     void endSystem(CheckTotalResult checkResult) {
-        drawLine(checkResult.systemName, checkResult)
+        drawLine("${systems.toString().padLeft(3, " ")}-${checkResult.systemName}", checkResult)
     }
 
     @Override
@@ -66,7 +73,7 @@ class HumanInfo extends BaseCheckHandler {
 
         String timeString = String.format("%02d:%02d:%02d", hours, minutes, seconds);
 
-        drawLine("TOTAL", checkResult)
+        drawLine("TOTAL $systems systems", checkResult)
         humanReportFile << prt("Time: ${timeString}")
         humanReportFile.flush()
     }
