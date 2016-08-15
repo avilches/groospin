@@ -15,9 +15,9 @@ class IOTools {
             path = path.replaceAll("\\\\", "/")
         }
         if (path.size() > 2 && path.substring(1, 2) == ":") return new File(path)
-        File candidate = new File(path).canonicalFile
+        File candidate = new File(path)
         if (candidate.exists()) return candidate
-        return new File(root, path).canonicalFile
+        return new File(root, path)
     }
 
     static long folderSize(File folder) {
@@ -55,7 +55,7 @@ class IOTools {
 
     static File findFilesInFolder(File path, List<String> filesToFind) {
         for (String fileToFind in filesToFind) {
-            File file = new File(path, fileToFind).canonicalFile
+            File file = new File(path, fileToFind)
             // println "Checking for ${file} exists? ${file.exists()}"
             if (file.exists()) return file
         }
@@ -72,7 +72,7 @@ class IOTools {
 
     static File findFileInFolders(List<File> paths, String fileToFind) {
         for (File path in paths) {
-            File file = new File(path, fileToFind).canonicalFile
+            File file = new File(path, fileToFind)
             // println "Checking for ${file} exists? ${file.exists()}"
             if (file.exists()) return file
         }
@@ -85,7 +85,7 @@ class IOTools {
 
     static File findFileWithExtensions(String fileBaseWithoutExtension, List extensions) {
         for (String extension in extensions) {
-            File file = new File(fileBaseWithoutExtension + "." + extension).canonicalFile
+            File file = new File(fileBaseWithoutExtension + "." + extension)
             // println "Checking for ${file} exists? ${file.exists()}"
             if (file.exists()) return file
         }
