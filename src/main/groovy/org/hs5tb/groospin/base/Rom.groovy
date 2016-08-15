@@ -16,6 +16,9 @@ class Rom {
     String enabled
     String exe
 
+    File romFileFound
+    File exeFileFound
+
     Rom() {}
 
     Rom(Node node) {

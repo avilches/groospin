@@ -26,15 +26,18 @@ class RomChecker {
 
         File romFound = system.findValidRom(romName)
         if (romFound) {
+            rom.romFileFound = romFound
             if (system.romsIsExecutable(romName)) {
                 File exe = system.findExecutable(romName, romFound)
                 if (exe) {
+                    rom.exeFileFound = romFound
                     checkResultRom.roms = checkResultRom.exes = 1
                 } else {
                     checkResultRom.roms = 1
                     checkResultRom.exes = 0
                 }
             } else {
+                rom.exeFileFound = romFound
                 checkResultRom.roms = checkResultRom.exes = 1
             }
         } else {
@@ -55,6 +58,7 @@ class RomChecker {
         boolean exists = IOTools.findFileWithExtensions(system.hyperSpin.findHyperSpinFile("Media/${system.name}/${path}"), extensions)
         if (!exists && log) {
             //println "Missing ${system.name}:$path.[${extensions.join("|")}]"
+            // new File("d:\\Games\\Roms\\MEGADRIVE NO video\\${new File(path).name}.txt").text = ""
         }
         return exists
     }
