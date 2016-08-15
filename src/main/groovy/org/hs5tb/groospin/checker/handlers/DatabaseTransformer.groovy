@@ -16,16 +16,9 @@ abstract class DatabaseTransformer extends BaseCheckHandler {
     File originalDatabaseFile
     Node currentDatabase
     Map<String, RomNode> gameIndex
-    File folder
     boolean dirty = false
 
-    DatabaseTransformer(String folder) {
-        this(new File(folder))
-    }
-
-    DatabaseTransformer(File folder) {
-        this.folder = folder
-    }
+    DatabaseTransformer() {}
 
     @Override
     void startSystem(RLSystem system) {
@@ -62,6 +55,17 @@ abstract class DatabaseTransformer extends BaseCheckHandler {
     @Override
     void endSystemWithError(String systemName, Exception e) {
         e.printStackTrace()
+    }
+
+    abstract void endDatabaseUpdate(CheckTotalResult checkResult)
+    final void endSystem(CheckTotalResult checkResult) {
+        if (dirty) {
+            try {
+                endDatabaseUpdate(checkResult)
+            } catch (e) {
+                e.printStackTrace()
+            }
+        }
     }
 
     void saveDatabaseTo(String newFileName) {
