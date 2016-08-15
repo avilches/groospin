@@ -1,0 +1,220 @@
+package operation
+
+// Mover solo los juegos que tengo en un xml de una carpeta a otra para limpiarla de roms que no estan en el xml
+
+String dbName = "d:\\Games\\HyperSpin-fe\\Databases\\Sony PlayStation\\Sony PlayStation.xml"
+List romFolders = ["i:\\Pleasuredome\\PSX HAVE"
+]
+String dstFolder = "i:\\Pleasuredome\\PSX ALL"
+List extensions = ["7z", "zip"]
+
+romFolders = romFolders.collect { File f = new File(it); if (!f.isDirectory() || !f.exists()) throw new RuntimeException("$it folder not found") ; return f }
+def xmlText = new File(dbName).text
+def db = new XmlParser().parseText(xmlText)
+db.game.each {
+    String romName = it.@name
+    extensions.find { String extension ->
+        File romFile = romFolders.collect { File folder -> new File(folder, "${romName}.${extension}"); }.find { it.exists()?it:null }
+        if (romFile) {
+            File dst = new File(dstFolder, romFile.name)
+            //romFile.renameTo(dst)
+            println "Moving "+romFile+" -> "+dst
+        }
+        return romFile
+    }
+}
+null
+
+
+// Crear missing.xml y have.xml de un database
+
+
+import groovy.xml.*
+
+String dbName = "d:\\Games\\HyperSpin-fe\\Databases\\Sega CD\\Sega CD.xml"
+List romFolders = [
+        "d:\\Games\\HyperSpin-fe\\Databases\\Sega CD\\Sega CD.xml"]
+List extensions = ["zip", "7z"]
+
+romFolders = romFolders.collect { File f = new File(it); if (!f.isDirectory() || !f.exists()) throw new RuntimeException("$it folder not found") ; return f }
+def xmlText = new File(dbName).text
+def dbMissing = new XmlParser().parseText(xmlText)
+println "Processing ${dbMissing.game.size()} games"
+([]+dbMissing.game).each {
+    String romName = it.@name
+    boolean present = extensions.find { String extension ->
+        return romFolders.any { File f -> new File(f, "${romName}.${extension}").exists()}
+    }
+    if (present) {
+        //println "sile $romName"
+        dbMissing.children().remove(it)
+    }
+}
+
+def dbHave = new XmlParser().parseText(xmlText)
+([]+dbHave.game).each {
+    String romName = it.@name
+    boolean present = extensions.find { String extension ->
+        return romFolders.any { File f -> new File(f, "${romName}.${extension}").exists()}
+    }
+    if (!present) {
+        //println "nole $romName"
+        dbHave.children().remove(it)
+    }
+}
+println "Writing xml missing db with ${dbMissing.game.size()} games"
+println "Writing xml have db with ${dbHave.game.size()} games"
+new File(dbName+".missing.xml").text = XmlUtil.serialize(dbMissing)
+new File(dbName+".have.xml").text = XmlUtil.serialize(dbHave)
+null
+
+
+
+//
+
+
+// Quitar de un database (haciendo un backup antes) los juegos que faltan. OJO NO EJECUTAR DOS VECES SEGUIDAS O PERDEREMOS EL BACKUP!
+
+
+import groovy.xml.*
+
+String dbName = "d:\\Games\\HyperSpin-fe\\Databases\\Sega CD\\Sega CD.xml"
+List romFolders = [
+        "d:/games/ISOS/Sega CD"]
+List extensions = ["zip", "7z","dsk"]
+
+romFolders = romFolders.collect { File f = new File(it); if (!f.isDirectory() || !f.exists()) throw new RuntimeException("$it folder not found") ; return f }
+def xmlText = new File(dbName).text
+
+def dbHave = new XmlParser().parseText(xmlText)
+([]+dbHave.game).each {
+    String romName = it.@name
+    boolean present = extensions.find { String extension ->
+        return romFolders.any { File f -> new File(f, "${romName}.${extension}").exists()}
+    }
+    if (!present) {
+        //println "nole $romName"
+        dbHave.children().remove(it)
+    }
+}
+println "Backup current db ${dbName}"
+println ((dbName-".xml")+"-with-missings-backup.xml")
+new File((dbName-".xml")+"-with-missings-backup.xml").text = xmlText
+println "Writing xml have db with ${dbHave.game.size()} games"
+new File(dbName).text = XmlUtil.serialize(dbHave)
+null
+
+
+
+
+
+
+
+
+
+
+
+// Borra todos los 7z incorrectos (los que no tengan dentro un .cue con el mismo nombre del fichero)
+
+File folder = new File("i:\\Pleasuredome\\PSX ALL")
+File dst = new File("i:\\Pleasuredome\\PSX ALL renamed")
+
+folder.eachFile {
+    process(new File(folder, it.name), dst)
+}
+
+void process(File f, File dst) {
+    String name = f.name
+    if (!name.endsWith(".7z")) return
+    if (!f.exists()) return
+    name = name.substring(0, name.lastIndexOf("."))
+    //println name
+    def o = new StringBuilder()
+    def e = new StringBuilder()
+    def cmd = "\"C:\\Program Files\\7-Zip\\7z.exe\" l \"${f}\""
+    // println cmd
+    cmd.execute().waitForProcessOutput(e, o)
+    // println e
+    if (!e.contains(name+".cue")) {
+        println "                                            ERROR in ${f.name}"
+        println        e.toString().split("\n").findAll { it.contains(".cue") || it.contains(".bin") }.join("\n")
+        println "------------------------------------------------------------------------------------------------------"
+        f.renameTo(new File(dst, f.name))
+    }
+}
+
+
+// Crear un fichero *.no-clones.xml sin los clones de tu database
+import groovy.xml.*
+boolean rename = true
+["Namco Classics", "Atari Classics"].each { String system ->
+    String dbName = "d:\\Games\\HyperSpin-fe\\Databases\\${system}\\${system}.xml"
+
+    def dbNoClones = new XmlParser().parseText(new File(dbName).text)
+    int count = dbNoClones.game.size()
+    println "Processing ${system} (${count} games) "
+    ([]+dbNoClones.game).each {
+        String romName = it.@name
+        String cloneOf = it.cloneof.text()
+        if (cloneOf) {
+            println "Removing $romName (clone of ${cloneOf}"
+            dbNoClones.children().remove(it)
+        }
+    }
+
+    if (dbNoClones.game.size() < count) {
+        println "Writing xml no clones db with ${} games"
+        if (rename) {
+            new File(dbName+".original-with-clones.xml").text = new File(dbName).text
+            new File(dbName).text = XmlUtil.serialize(dbNoClones)
+        } else {
+            new File(dbName+".no-clones.xml").text = XmlUtil.serialize(dbNoClones)
+        }
+    } else {
+        println "No clones!"
+    }
+}
+
+
+// Comprime todos los cue/bin de una carpeta en 7z
+new File("d:\\Games\\Isos\\NEC PC-FX").eachFile{ File cue ->
+    if (cue.name.endsWith(".cue")) {
+        String base = cue.absolutePath-".cue"
+        if (new File(base+".bin").exists()) {
+            def cmd = "\"C:\\Program Files\\7-Zip\\7z.exe\" a \"${base}.7z\" \"${base}.bin\" \"${base}.cue\""
+            println cmd
+            cmd.execute().waitForProcessOutput()
+        }
+    }
+}
+
+// Crea un zip vacio por cada carpeta que tenga dentro un exe con su nombre
+
+new File("d:\\Games\\PC\\Touhou").eachFile {
+    if (it.directory) {
+        File exe = new File(it, it.name+".exe")
+        File bat = new File(it, it.name+".bat")
+        if (exe.exists() || bat.exists()) {
+            new File(it.toString()+".zip").text = ""
+        } else {
+            println "falta! $exe y $bat"
+        }
+    }
+}
+
+new File("d:\\Games\\ROMS\\Nintendo Game and Watch").eachFile {
+    if (it.directory) {
+        new File(it.toString()+".txt").text = ""
+    }
+}
+
+
+// Comprime todos los isos de una carpeta en 7z
+new File("d:\\Games\\Isos\\Nintendo Wii").eachFile{ File iso ->
+    if (iso.name.endsWith(".iso")) {
+        String base = iso.absolutePath-".iso"
+        def cmd = "\"C:\\Program Files\\7-Zip\\7z.exe\" a \"${base}.7z\" \"${base}.iso\""
+        println cmd
+        // cmd.execute().waitForProcessOutput()
+    }
+}
