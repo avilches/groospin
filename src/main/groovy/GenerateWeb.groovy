@@ -9,7 +9,7 @@ import org.hs5tb.groospin.checker.site.RLSystemConfig
 import org.hs5tb.groospin.common.ZipUtils
 
 String reportRoot = "D:/Games/Soft/GrooSpin/report"
-String csvFile = "D:/Games/Soft/GrooSpin/src/main/groovy/Hyperspin 1.4 + RL fe - HS 1.4.csv"
+String csvFile = "c:/Users/Alberto/Downloads/Hyperspin 1.4 + RL fe - HS 1.4.csv"
 HyperSpin hs = new HyperSpin(
         "D:/Games/Hyperspin-fe",
         "D:/Games/RocketLauncher")
