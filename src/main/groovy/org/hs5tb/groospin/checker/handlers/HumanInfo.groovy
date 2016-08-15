@@ -11,7 +11,7 @@ import static org.hs5tb.groospin.common.IOTools.humanReadableByteSize
  */
 class HumanInfo extends BaseCheckHandler {
 
-    private FileBuffer humanReportFile
+    private FileBuffer humanReportFile = new FileBuffer()
     Boolean folderSize
 
     HumanInfo() {}
