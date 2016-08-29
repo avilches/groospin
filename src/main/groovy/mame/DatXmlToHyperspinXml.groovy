@@ -3,11 +3,12 @@ package mame
 import groovy.xml.MarkupBuilder
 import org.hs5tb.groospin.common.IOTools
 
-new Transform().run("HBMAME",
+new Transform().run(
+        "HBMAME",
         true,
         "d:\\Games\\Roms\\HBMAME\\0175\\dat.xml",
         "d:\\Games\\HyperSpin-fe\\Databases\\HBMAME\\HBMAME.xml",
-        "d:\\Games\\Roms\\HBMAME\\0175\\roms\\")
+        "d:\\Games\\Roms\\HBMAME\\0175\\roms")
 
 /**
  * Created by Alberto on 16-Aug-16.
@@ -19,8 +20,11 @@ class Transform {
     void run(String slistname, boolean removeClones, String from, String to, List romfolder = null) {
 
         Set roms = romfolder?.collect {
-            new File(it).listFiles().collect { IOTools.getFilenameWithoutExtension(it.name) }
+            def files = new File(it).listFiles().collect { IOTools.getFilenameWithoutExtension(it.name) }
+            println "[+] Loading ${files.size()} roms from $it"
+            return files
         }?.flatten()
+
 
         XmlParser parser = new XmlParser()
         parser.setFeature("http://apache.org/xml/features/disallow-doctype-decl", false)
@@ -40,28 +44,23 @@ class Transform {
             mame.machine.each { machine ->
                 total ++
                 if (removeClones && machine.@cloneof) {
+                    println "[-] Ignoring ${machine.@name} (clone of ${machine.@cloneof})"
                     ignored ++
+                    roms?.remove(machine.@name)
                     return
-                }
-                if (roms != null && !roms.contains(machine.@name)) {
+                } else if (roms != null && !roms.contains(machine.@name)) {
+                    println "[ ] Missing ${machine.@name}"
                     missing ++
                     return
                 }
                 processed ++
-                char letter = machine.@name.toUpperCase().charAt(0)
-                String image = letter
-                if (letter < (char)'0') {
-                    image = '0'
-                } else if (letter > ((char)'9') && letter < ((char)'A')) {
-                    image = '9'
-                } else if (letter > ((char)'Z')) {
-                    image = 'Z'
-                }
+                String image = indexImage(machine.@name.toUpperCase().charAt(0))
                 if (letters.contains(image)) {
-                    image = ""
+                    image = null // Si ya estaba la letra, no la usamos
                 } else {
-                    letters.append(image)
+                    letters.append(image) // la marcamos como añadida para la proxima
                 }
+                println "[+] Adding ${machine.@name}"
 
                 game(name:machine.@name, index:image?"true":"", image:image?.toLowerCase()) {
                     description(machine.description.text())
@@ -74,7 +73,19 @@ class Transform {
                 roms?.remove(machine.@name)
             }
         }
-        println "Total: ${total} | Processed: ${processed} | Ignored: ${ignored} | Missing: ${missing} | Not used: ${roms?.size()?:0} ${roms?roms.join(", "):""}"
+        println "Dat: ${total} | Xml: ${processed} | Ignored: ${ignored} | Missing: ${missing} | Not used: ${roms?.size()?:0} ${roms?roms.join(", "):""}"
+    }
+
+    private String indexImage(char letter) {
+        String image = letter
+        if (letter < (char) '0') {
+            image = '0'
+        } else if (letter > ((char) '9') && letter < ((char) 'A')) {
+            image = '9'
+        } else if (letter > ((char) 'Z')) {
+            image = 'Z'
+        }
+        return image
     }
 
 }
