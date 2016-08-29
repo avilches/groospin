@@ -91,4 +91,8 @@ class IOTools {
         }
         return null
     }
+
+    static String getFilenameWithoutExtension(String filename) {
+        return filename.lastIndexOf('.').with {it != -1 ? filename[0..<it] : filename}
+    }
 }
