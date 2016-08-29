@@ -1,8 +1,8 @@
 package mame
 
 ["Namco Classics",
-"Atari Classics", "Capcom Classics", "Cave", "Data East Classics",
-"Kaneko", "Irem Classics", "Williams Classics", "Midway Classics",
+"Atari Classics", "Capcom Classics", "Cave", "Data East Classics", "MAME",
+"Kaneko", "Banpresto", "Irem Classics", "Williams Classics", "Midway Classics",
 "Sega Classics", "Konami Classics", "Taito Classics", "SNK Classics"].sort().each {
     new Comparer().run(it,
             "d:\\Games\\HyperSpin-fe\\Databases",

@@ -28,6 +28,6 @@ new Checker(hs).
 
         }).
         checkSystems(["Namco Classics",
-                      "Atari Classics", "Capcom Classics", "Cave", "Data East Classics",
-                      "Kaneko", "Irem Classics", "Williams Classics", "Midway Classics",
+                      "Atari Classics", "Capcom Classics", "Cave", "Data East Classics", "MAME",
+                      "Banpresto", "Kaneko", "Irem Classics", "Williams Classics", "Midway Classics",
                       "Sega Classics", "Konami Classics", "Taito Classics", "SNK Classics"])
