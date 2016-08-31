@@ -12,11 +12,11 @@ String reportTxt = "D:/Games/Soft/Groospin/report/human-report.txt"
 new Checker(hs).
         addHandler(new HumanInfo(reportTxt, false)).
         addHandler(new MissingTxtList(missingCsv, ";")).
-        checkSystems(["HBMAME", "MAME", "MAME 4 Players",
+        checkSystems(["Sonic Mega Collection"])/*["HBMAME", "MAME", "MAME 4 Players",
                       "Namco Classics",
                       "Atari Classics", "Capcom Classics", "Cave", "Data East Classics",
                       "Banpresto", "Kaneko", "Irem Classics", "Williams Classics", "Midway Classics",
-                      "Sega Classics", "Konami Classics", "Taito Classics", "SNK Classics"].sort())
+                      "Sega Classics", "Konami Classics", "Taito Classics", "SNK Classics"].sort())*/
 
-//println new File(missingCsv).text
+println new File(missingCsv).text
 

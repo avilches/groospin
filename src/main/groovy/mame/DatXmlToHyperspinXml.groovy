@@ -3,77 +3,97 @@ package mame
 import groovy.xml.MarkupBuilder
 import org.hs5tb.groospin.common.IOTools
 
-new Transform().run(
-        "HBMAME",
-        true,
-        "d:\\Games\\Roms\\HBMAME\\0175\\dat.xml",
-        "d:\\Games\\HyperSpin-fe\\Databases\\HBMAME\\HBMAME.xml",
-        "d:\\Games\\Roms\\HBMAME\\0175\\roms")
-
 /**
  * Created by Alberto on 16-Aug-16.
+
+ i've made an automatic script that use catver.ini (http://www.progettosnaps.net/catver/) to keep all the genre exept thoses that contains :
+ Paddle,Electromechanical,Utilities,Game Console,Print Club,Multi-cart Board,Machine,Business Computer,Pocket Computer Games,Terminal Games,Notebook,PDA Games,ComputerPhone Games,Workstation,DVD Reader,SCSI Controller,Barcode Printer,Astrological Computer,Drum Machine,Gambling Board,Audio Sequencer,Portable Media Player,Mobile Phone,Development Computer,Electronic Game,Home Computer,Kit Computer,Matrix Printer,Microcomputer,Punched Card Computer,Single Board Computer,Synthesiser,Training Board,Cash Counter,Clock,Document Processors,Electronic Typewriter,EPROM Programmer,Graphics Display Controller,Network Processor,Printer Handbook,Satellite Receiver,Speech Synthesiser,Word-processing Machine,Handheld Child Computers,Dot-Matrix Display,Test ROM,3D Printer,Graphic Tablet,In Circuit Emulator,DVD Player,Robot Control,Thermal Printer,VTR Control.
+
+ my actual script (mame0.175 full lists) use the command : mame -listxml >mamexml.txt
+ then i ' ve made filters for machines from this list and check for each filtered machines the genre from catver.ini (that not contains the system list) then write the xml
+ I will try to set different order :
+ check for all machine from catver.ini (that not contains the system list) the machine tag from mamexml.txt then write the xml
+ i think that on this order there will be more results because of less filters.
+ ( but the chd will still not appears because they are not listed on catver.ini )
+ I will made a test with the mame 0.175 and check the results.If all is ok i will use this method to next release (mame 0.176)
+ My script also use nplayer.ini (http://nplayers.arcadebelgium.be/) so i need to wait for both files to create all lists.
+
+ r0man0
  */
-class Transform {
-    void run(String slistname, boolean removeClones, String from, String to, String romfolder) {
+
+class DatXmlToHyperspinXml {
+
+    static run(String slistname, boolean removeClones, String from, String to, String romfolder) {
         run(slistname, removeClones, from, to, [romfolder])
     }
-    void run(String slistname, boolean removeClones, String from, String to, List romfolder = null) {
 
-        Set roms = romfolder?.collect {
-            def files = new File(it).listFiles().collect { IOTools.getFilenameWithoutExtension(it.name) }
-            println "[+] Loading ${files.size()} roms from $it"
+    static run(String slistname, boolean removeClones, String from, String to, List romfolders) {
+        def x = new DatXmlToHyperspinXml()
+        def roms = x.parseRoms(from)
+        if (removeClones) {
+            roms = roms.findAll { !it.cloneof }
+        }
+        Set files = romfolders?.collect { String romFolder ->
+            def files = new File(romFolder).listFiles().collect { IOTools.getFilenameWithoutExtension(it.name) }
+            println "[+] Loading ${files.size()} roms from $romFolder"
             return files
         }?.flatten()
+        roms = roms.findAll { it.name in files }
+        x.export(slistname, roms, to)
+    }
 
-
+    List<Rom> parseRoms(String from, boolean imperfect = true, Closure filter = null) {
         XmlParser parser = new XmlParser()
         parser.setFeature("http://apache.org/xml/features/disallow-doctype-decl", false)
         parser.setFeature("http://apache.org/xml/features/nonvalidating/load-external-dtd", false)
         Node mame = parser.parse(new File(from))
-        int total = 0
-        int processed = 0
-        int ignored = 0
-        int missing = 0
+
+        List<Rom> result = []
+        mame.machine.each { machine ->
+            if (machine.@isbios == "yes" || machine.@isdevice == "yes" || machine.@runnable == "no") {
+                println "Skipping non-game ${machine.@isbios == "yes" ? "B" : "."}${machine.@isdevice ? "D" : "."}${machine.@runnable == "no" ? "N" : "."} ${machine.@name}: ${machine.description.text()}"
+                return
+            }
+            result << new Rom(
+                    name: machine.@name,
+                    cloneof: machine.@cloneof,
+                    description: machine.description.text(),
+                    manufacturer: machine.manufacturer.text(),
+                    year: machine.year.text(),
+                    players: machine.input[0].@players as int,
+                    ok: machine.driver[0].@status == "good" || (imperfect && machine.driver[0].@status == "imperfect"),
+                    controls: machine.input[0].control.@type
+            ).load()
+        }
+        return result
+    }
+    void export(String slistname, List<Rom>roms, String to) {
         StringBuilder letters = new StringBuilder()
         new MarkupBuilder(new FileWriter(new File(to))).menu {
             setOmitEmptyAttributes(true)
             header {
                 listname(slistname)
-                listversion(mame.@build)
+                // listversion(mame.@build)
             }
-            mame.machine.each { machine ->
-                total ++
-                if (removeClones && machine.@cloneof) {
-                    println "[-] Ignoring ${machine.@name} (clone of ${machine.@cloneof})"
-                    ignored ++
-                    roms?.remove(machine.@name)
-                    return
-                } else if (roms != null && !roms.contains(machine.@name)) {
-                    println "[ ] Missing ${machine.@name}"
-                    missing ++
-                    return
-                }
-                processed ++
-                String image = indexImage(machine.@name.toUpperCase().charAt(0))
+            roms.each { machine ->
+                String image = indexImage(machine.name.toUpperCase().charAt(0))
                 if (letters.contains(image)) {
                     image = null // Si ya estaba la letra, no la usamos
                 } else {
                     letters.append(image) // la marcamos como añadida para la proxima
                 }
-                println "[+] Adding ${machine.@name}"
+                println "[+] Adding ${machine.name}"
 
-                game(name:machine.@name, index:image?"true":"", image:image?.toLowerCase()) {
-                    description(machine.description.text())
-                    manufacturer(machine.manufacturer.text())
-                    year(machine.year.text())
-                    if (machine.@cloneof) {
-                        cloneof(machine.@cloneof)
+                game(name: machine.name, index: image ? "true" : "", image: image?.toLowerCase()) {
+                    description(machine.description)
+                    manufacturer(machine.manufacturer)
+                    year(machine.year)
+                    if (machine.cloneof) {
+                        cloneof(machine.cloneof)
                     }
                 }
-                roms?.remove(machine.@name)
             }
         }
-        println "Dat: ${total} | Xml: ${processed} | Ignored: ${ignored} | Missing: ${missing} | Not used: ${roms?.size()?:0} ${roms?roms.join(", "):""}"
     }
 
     private String indexImage(char letter) {
@@ -87,5 +107,62 @@ class Transform {
         }
         return image
     }
+}
 
+class Rom {
+    String name
+    String cloneof
+    String description
+    String manufacturer
+    String year
+    int players
+    boolean ok = true
+
+    boolean joystick
+    boolean doublejoy
+    boolean lightgun
+
+    boolean paddle
+    boolean dial
+    boolean pedal
+
+    boolean trackball
+    boolean mouse
+
+
+    boolean keypad
+    boolean keyboard
+
+    boolean gambling
+    boolean mahjong
+    boolean hanafuda
+
+    List controls
+
+    Rom load() {
+        joystick = controls.contains("joy") || controls.contains("stick") || controls.contains("doublejoy")
+        doublejoy = controls.contains("doublejoy")
+
+        lightgun = controls.contains("lightgun")
+
+        paddle = controls.contains("paddle")
+        dial = controls.contains("dial")
+        pedal = controls.contains("pedal")
+
+        trackball = controls.contains("trackball")
+        mouse = controls.contains("mouse")
+
+        keypad = controls.contains("keypad")
+        keyboard = controls.contains("keyboard")
+
+        gambling = controls.contains("gambling")
+        mahjong = controls.contains("mahjong")
+        hanafuda = controls.contains("hanafuda")
+        return this
+    }
+
+    @Override
+    String toString() {
+        "${name}:\"${description}\" ${manufacturer} (${year})"
+    }
 }
