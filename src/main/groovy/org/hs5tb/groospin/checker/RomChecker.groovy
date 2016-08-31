@@ -29,7 +29,7 @@ class RomChecker {
             rom.romFileFound = romFound
             if (system.romsIsExecutable(romName)) {
                 File exe = system.findExecutable(romName, romFound)
-                if (exe) {
+                if (exe && exe.exists()) {
                     rom.exeFileFound = romFound
                     checkResultRom.roms = checkResultRom.exes = 1
                 } else {
