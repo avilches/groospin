@@ -17,7 +17,7 @@ return
 
 String dat = "d:/Games/Emulators/MAME/MameUIFX_0.171_64bits_nonag-dinput/dat.xml"
 def roms = MameMachine.parseRoms(new File(dat), true) { MameMachine rom ->
-    !rom.cloneof && rom.ok && !rom.mechanical && rom.manufacturer.contains("Sega")
+    !rom.cloneof && rom.working && !rom.mechanical && rom.manufacturer.contains("Sega")
 }
 HyperSpinDatabase.write(roms,
         new File("d:/Games/HyperSpin-fe/Databases/Sega Classics/Sega Classics MIO.xml"),

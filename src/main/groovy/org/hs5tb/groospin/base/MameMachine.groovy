@@ -7,7 +7,9 @@ class MameMachine extends Rom {
 
     String status
     int players
-    boolean ok = true
+    int buttons = 0
+
+    boolean working = true
 
     boolean joystick
     boolean doublejoy
@@ -32,9 +34,11 @@ class MameMachine extends Rom {
 
     boolean playable
 
+    boolean vertical = false
+
     List controls
 
-    MameMachine loadFromMameDat(Node machine, boolean imperfect = true) {
+    MameMachine loadFromMameDat(Node machine) {
 
         name = machine.@name
         mechanical = machine.@ismechanical == "yes"
@@ -43,8 +47,15 @@ class MameMachine extends Rom {
         manufacturer = machine.manufacturer.text()
         year = machine.year.text()
         players = machine.input[0].@players as int
+        buttons = machine.input[0].@buttons as int
         status = machine.driver[0].@status
-        ok = status == "good" || (imperfect && machine.driver[0].@status == "imperfect")
+
+        // Same rules as offical MAME.xml from HyperSpin
+        working = status != "preliminary" &&
+                machine.driver[0].@emulation == "good" &&
+                machine.driver[0].@color == "good" &&
+                machine.driver[0].@sound
+
         controls = machine.input[0].control.@type
 
         joystick = controls.contains("joy") || controls.contains("stick") || controls.contains("doublejoy")
@@ -66,7 +77,10 @@ class MameMachine extends Rom {
         mahjong = controls.contains("mahjong")
         hanafuda = controls.contains("hanafuda")
 
-        playable = ok && !mechanical && controls && players  // more than 1 control and 1 player at least
+        int rotate = mame.display[0].@rotate as int
+        vertical = rotate == 90 || rotate == 270
+
+        playable = working && !mechanical && controls && players  // more than 1 control and 1 player at least
         return this
     }
 

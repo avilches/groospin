@@ -1,9 +1,7 @@
 package mame
 
-import groovy.xml.MarkupBuilder
 import org.hs5tb.groospin.base.HyperSpinDatabase
 import org.hs5tb.groospin.base.MameMachine
-import org.hs5tb.groospin.base.Rom
 import org.hs5tb.groospin.common.IOTools
 
 /**
@@ -33,7 +31,7 @@ class DatXmlToHyperspinXml {
     static run(String slistname, boolean removeClones, String from, String to, List romfolders) {
         def x = new DatXmlToHyperspinXml()
         def roms = MameMachine.parseRoms(new File(from), true) { MameMachine rom ->
-            return rom.ok && !rom.mechanical && (!removeClones || !rom.cloneof)
+            return rom.working && !rom.mechanical && (!removeClones || !rom.cloneof)
         }
         Set files = romfolders?.collect { String romFolder ->
             def files = new File(romFolder).listFiles().collect { IOTools.getFilenameWithoutExtension(it.name) }
