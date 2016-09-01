@@ -1,3 +1,5 @@
+package examples
+
 import org.hs5tb.groospin.base.*
 import org.hs5tb.groospin.checker.*
 import org.hs5tb.groospin.checker.handlers.*
@@ -8,7 +10,8 @@ import com.xlson.groovycsv.CsvParser
 import org.hs5tb.groospin.checker.site.RLSystemConfig
 import org.hs5tb.groospin.common.ZipUtils
 
-String reportRoot = "D:/Games/Soft/GrooSpin/report"
+String reportRoot = "D:/Games/Soft/Groospin/generated/websites/${new Date().format("yyyy-MM-dd HH-mm")}"
+
 String csvFile = "c:/Users/Alberto/Downloads/Hyperspin 1.4 + RL fe - HS 1.4.csv"
 HyperSpin hs = new HyperSpin(
         "D:/Games/Hyperspin-fe",

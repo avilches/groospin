@@ -1,5 +1,7 @@
-package mame
+package examples
 
+import mame.DatXmlToHyperspinXml
+import operation.Comparer
 import org.hs5tb.groospin.base.HyperSpinDatabase
 import org.hs5tb.groospin.base.MameMachine
 

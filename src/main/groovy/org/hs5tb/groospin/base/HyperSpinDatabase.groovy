@@ -26,6 +26,10 @@ class HyperSpinDatabase {
         write(roms, file, properties)
     }
 
+    static List<String> listRomNames(File db) {
+        new XmlParser().parse(db).game.collect { it.@name }
+    }
+
     static List<Rom> loadRoms(File db, Closure filter = null) {
         Node menu = new XmlParser().parseText(db.text)
         return loadRoms(menu)

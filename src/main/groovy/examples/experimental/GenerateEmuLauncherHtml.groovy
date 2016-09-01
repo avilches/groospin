@@ -1,10 +1,13 @@
+package examples.experimental
+
 import org.hs5tb.groospin.base.HyperSpin
 import org.hs5tb.groospin.base.RLSystem
 
 HyperSpin hs = new HyperSpin(
         "D:/Games/HyperSpin-fe",
         "D:/Games/RocketLauncher")
-        //)
+
+File emus = new File("D:/Games/Sistemas y emuladores.html")
 
 StringBuffer txt = new StringBuffer()
 txt << """<html><head>
@@ -17,6 +20,7 @@ h3 { margin:15pt 0 3pt; }
 
 hs.listSystems().each { RLSystem system ->
     txt << "<h3>${system.name}</h3>"
+    println system.name
     if (system.romsIsExecutable()) {
         txt << "${system.defaultEmulator.name} (Modulo: ${system.defaultEmulator.module})<br/><ul>"
         system.listRomNames().each { String game ->
@@ -50,5 +54,4 @@ if (!isIE) { document.getElementById("data").innerHTML = "<center><h1 style='col
 </script>
 </body></html>"""
 
-File emus = new File("D:/Games/systems.html")
 emus.text = txt
