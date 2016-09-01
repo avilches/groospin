@@ -3,10 +3,7 @@ package operation
 import org.hs5tb.groospin.base.HyperSpin
 import org.hs5tb.groospin.checker.BaseCheckHandler
 import org.hs5tb.groospin.checker.Checker
-import org.hs5tb.groospin.checker.handlers.DatabaseTransformer
-import org.hs5tb.groospin.checker.handlers.RomNode
 import org.hs5tb.groospin.checker.result.CheckRomResult
-import org.hs5tb.groospin.checker.result.CheckTotalResult
 
 HyperSpin hs = new HyperSpin(
         "D:/Games/HyperSpin-fe",

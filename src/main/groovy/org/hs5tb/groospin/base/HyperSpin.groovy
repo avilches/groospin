@@ -91,10 +91,18 @@ class HyperSpin {
         return emulator
     }
 
+    HyperSpinDatabase loadHyperSpinDatabase(String systemName, Closure filter = null) {
+        File db = findSystemDatabaseFile(systemName)
+        if (!db.exists()) {
+            return new HyperSpinDatabase().load(db, filter)
+        }
+        return null
+    }
+
     List<Rom> listRoms(String systemName, Collection<String> names = null) {
         Set canonicalNames = names ? names.collect { it.trim().toLowerCase() } as Set : null
         databaseCollect(systemName) { Node node ->
-            return (canonicalNames == null || node.@name?.trim()?.toLowerCase() in canonicalNames) ? new Rom(node) : null
+            return (canonicalNames == null || node.@name?.trim()?.toLowerCase() in canonicalNames) ? new Rom().loadFromHyperspinDatabase(node) : null
         }
     }
 
@@ -125,13 +133,13 @@ class HyperSpin {
         roms ? roms.first() : null
     }
 
-    List databaseCollect(String systemName, Closure closure) {
+    List databaseCollect(String systemName, Closure filter) {
         File db = findSystemDatabaseFile(systemName)
         if (!db.exists()) {
             return [] // throw new FileNotFoundException("${systemName} menu not found in ${db.absolutePath}")
         }
-        Node xml = new XmlParser().parseText(db.text)
-        return xml.game.collect(closure).findAll()
+        Node menu = new XmlParser().parseText(db.text)
+        return menu.game.collect(filter).findAll()
     }
 
     File findSystemDatabaseFile(String systemName) {

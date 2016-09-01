@@ -26,8 +26,10 @@ class Comparer {
         Set onGames = on.game.collect { it.@name }.sort() as LinkedHashSet
         Set otGames = ot.game.collect { it.@name }.sort() as LinkedHashSet
 
-        println "${one} 1+ ${onGames-otGames}"
-        println "${other} 2+ ${otGames-onGames}"
+        def oneMas = onGames-otGames
+        def otMas = otGames-onGames
+        println "${one} +${oneMas.size()}: ${oneMas}"
+        println "${other} +${otMas.size()}: ${otMas}"
     }
 
 }

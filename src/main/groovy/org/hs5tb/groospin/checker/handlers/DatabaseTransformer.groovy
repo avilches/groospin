@@ -4,7 +4,6 @@ import groovy.xml.XmlUtil
 import org.hs5tb.groospin.base.RLSystem
 import org.hs5tb.groospin.base.Rom
 import org.hs5tb.groospin.checker.BaseCheckHandler
-import org.hs5tb.groospin.checker.CheckHandler
 import org.hs5tb.groospin.checker.result.CheckRomResult
 import org.hs5tb.groospin.checker.result.CheckTotalResult
 
@@ -15,7 +14,7 @@ abstract class DatabaseTransformer extends BaseCheckHandler {
 
     File originalDatabaseFile
     Node currentDatabase
-    Map<String, RomNode> gameIndex
+    Map<String, RomDatabase> gameIndex
     boolean dirty = false
 
     DatabaseTransformer() {}
@@ -27,7 +26,7 @@ abstract class DatabaseTransformer extends BaseCheckHandler {
         Map gameIndex = this.gameIndex = [:]
         DatabaseTransformer databaseTransformer = this
         currentDatabase.game.each { Node node ->
-            RomNode romNode = new RomNode(databaseTransformer, node)
+            RomDatabase romNode = new RomDatabase(databaseTransformer, node)
             gameIndex[romNode.name] = romNode
         }
         dirty = false
@@ -35,12 +34,12 @@ abstract class DatabaseTransformer extends BaseCheckHandler {
 
     @Override
     void romChecked(CheckRomResult checkResult) {
-        RomNode node = findRomNode(checkResult.romName)
+        RomDatabase node = findRomNode(checkResult.romName)
         romNodeChecked(checkResult, node)
         dirty = node.update() || dirty
     }
 
-    abstract void romNodeChecked(CheckRomResult checkRomResult, RomNode romNode)
+    abstract void romNodeChecked(CheckRomResult checkRomResult, RomDatabase romNode)
 
     void backupOriginalDatabaseTo(String newFileName) {
         File newFile = new File(originalDatabaseFile.parent, newFileName)
@@ -73,16 +72,16 @@ abstract class DatabaseTransformer extends BaseCheckHandler {
         newFile.text = XmlUtil.serialize(currentDatabase)
     }
 
-    RomNode findRomNode(String name) {
+    RomDatabase findRomNode(String name) {
         return gameIndex[name]
     }
 }
 
-class RomNode extends Rom {
+class RomDatabase extends Rom {
     Node node
     DatabaseTransformer databaseTransformer
 
-    RomNode(DatabaseTransformer databaseTransformer, Node node) {
+    RomDatabase(DatabaseTransformer databaseTransformer, Node node) {
         super(node)
         this.node = node
         this.databaseTransformer = databaseTransformer

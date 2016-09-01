@@ -3,7 +3,7 @@ package operation
 import org.hs5tb.groospin.base.HyperSpin
 import org.hs5tb.groospin.checker.Checker
 import org.hs5tb.groospin.checker.handlers.DatabaseTransformer
-import org.hs5tb.groospin.checker.handlers.RomNode
+import org.hs5tb.groospin.checker.handlers.RomDatabase
 import org.hs5tb.groospin.checker.result.CheckRomResult
 import org.hs5tb.groospin.checker.result.CheckTotalResult
 
@@ -20,7 +20,7 @@ void split(HyperSpin hs, Closure condition, String suffixYes, String suffixNo, L
     new Checker(hs).
             addHandler(new DatabaseTransformer() {
                 @Override
-                void romNodeChecked(CheckRomResult checkRomResult, RomNode romNode) {
+                void romNodeChecked(CheckRomResult checkRomResult, RomDatabase romNode) {
                     if (!condition.call(checkRomResult)) {
                         romNode.remove()
                     }
@@ -34,7 +34,7 @@ void split(HyperSpin hs, Closure condition, String suffixYes, String suffixNo, L
             }).
             addHandler(new DatabaseTransformer() {
                 @Override
-                void romNodeChecked(CheckRomResult checkRomResult, RomNode romNode) {
+                void romNodeChecked(CheckRomResult checkRomResult, RomDatabase romNode) {
                     if (condition.call(checkRomResult)) {
                         romNode.remove()
                     }
