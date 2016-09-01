@@ -1,5 +1,6 @@
-package operation
+package examples
 
+import operation.Operations
 import org.hs5tb.groospin.base.HyperSpin
 
 String dst = "d:/Games/Roms/Sega Mega Drive/out"

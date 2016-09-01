@@ -1,6 +1,7 @@
 package org.hs5tb.groospin.checker.handlers
 
 import groovy.xml.XmlUtil
+import operation.Comparer
 import org.hs5tb.groospin.base.RLSystem
 import org.hs5tb.groospin.base.Rom
 import org.hs5tb.groospin.checker.BaseCheckHandler
@@ -46,11 +47,25 @@ abstract class DatabaseTransformer extends BaseCheckHandler {
         newFile.text = originalDatabaseFile.text
     }
 
-    void backupOriginalDatabaseAndSave(String newFileName) {
-        backupOriginalDatabaseTo(newFileName)
+    void backupOriginalDatabaseAndSave(String backupFileName, boolean printDifferences = true) {
+        backupOriginalDatabaseTo(backupFileName)
         originalDatabaseFile.text = XmlUtil.serialize(currentDatabase)
+
+        if (printDifferences) {
+            File backupFile = new File(originalDatabaseFile.parent, backupFileName)
+            Comparer.printDifferences(originalDatabaseFile.toString(), backupFile.toString())
+        }
     }
 
+    void saveDatabaseTo(String newFileName, boolean printDifferences = true) {
+        File newFile = new File(originalDatabaseFile.parent, newFileName)
+        newFile.text = XmlUtil.serialize(currentDatabase)
+
+        if (printDifferences) {
+            Comparer.printDifferences(originalDatabaseFile.toString(), newFile.toString())
+        }
+
+    }
     @Override
     void endSystemWithError(String systemName, Exception e) {
         e.printStackTrace()
@@ -65,11 +80,6 @@ abstract class DatabaseTransformer extends BaseCheckHandler {
                 e.printStackTrace()
             }
         }
-    }
-
-    void saveDatabaseTo(String newFileName) {
-        File newFile = new File(originalDatabaseFile.parent, newFileName)
-        newFile.text = XmlUtil.serialize(currentDatabase)
     }
 
     RomDatabase findRomNode(String name) {

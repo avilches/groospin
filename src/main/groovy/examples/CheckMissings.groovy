@@ -8,7 +8,7 @@ HyperSpin hs = new HyperSpin(
         "D:/Games/Hyperspin-fe",
         "D:/Games/RocketLauncher")
 
-def systems = ["Sonic Mega Collection"]
+def systems = ["MAME", "HBMAME"]
 /*
 def systems = ["HBMAME", "MAME", "MAME 4 Players",
                       "Namco Classics",
@@ -17,12 +17,9 @@ def systems = ["HBMAME", "MAME", "MAME 4 Players",
                       "Sega Classics", "Konami Classics", "Taito Classics", "SNK Classics"].sort()
 */
 
-File missingCsv = File.createTempFile("ajsjs","b${System.currentTimeMillis()}")
 new Checker(hs).
         addHandler(new HumanInfo(false)).
-        addHandler(new MissingTxtList(missingCsv, ";")).
+        addHandler(new PrintMissing()).
         checkSystems(systems)
 
-println missingCsv.text
-missingCsv.delete()
 
