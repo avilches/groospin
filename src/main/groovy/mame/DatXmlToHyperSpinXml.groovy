@@ -22,24 +22,16 @@ import org.hs5tb.groospin.common.IOTools
  r0man0
  */
 
-class DatXmlToHyperspinXml {
+class DatXmlToHyperSpinXml {
 
-    static run(String slistname, boolean removeClones, String from, String to, String romfolder) {
-        run(slistname, removeClones, from, to, [romfolder])
+    static transform(String from, String to, Map header, Closure filter = null) {
+        println "Parsing MAME dat ${from}..."
+        transform(MameMachine.parseDat(from), to, header, filter)
     }
 
-    static run(String slistname, boolean removeClones, String from, String to, List romfolders) {
-        def x = new DatXmlToHyperspinXml()
-        def roms = MameMachine.parseRoms(new File(from), true) { MameMachine rom ->
-            return rom.working && !rom.mechanical && (!removeClones || !rom.cloneof)
-        }
-        Set files = romfolders?.collect { String romFolder ->
-            def files = new File(romFolder).listFiles().collect { IOTools.getFilenameWithoutExtension(it.name) }
-            println "[+] Loading ${files.size()} roms from $romFolder"
-            return files
-        }?.flatten()
-        roms = roms.findAll { it.name in files }
-        HyperSpinDatabase.write(roms, new File(to))
+    static transform(Node dat, String to, Map header, Closure filter = null) {
+        List<MameMachine> roms = MameMachine.loadRoms(dat, filter)
+        HyperSpinDatabase.write(roms, new File(to), header)
     }
 
 

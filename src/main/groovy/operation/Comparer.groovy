@@ -19,6 +19,7 @@ class Comparer {
         Set otherMore = otherGames - oneGames
         println "${one} +${oneMore.size()}: ${oneMore}"
         println "${other} +${otherMore.size()}: ${otherMore}"
+        println "-------------------"
     }
 
 }
