@@ -2,7 +2,6 @@ package org.hs5tb.groospin.base
 
 import org.hs5tb.groospin.common.IOTools
 import org.hs5tb.groospin.common.Ini
-import org.xml.sax.SAXException
 
 /**
  * Created by Alberto on 12-Jun-16.
@@ -102,7 +101,7 @@ class HyperSpin {
     List<Rom> listRoms(String systemName, Collection<String> names = null) {
         Set canonicalNames = names ? names.collect { it.trim().toLowerCase() } as Set : null
         databaseCollect(systemName) { Node node ->
-            return (canonicalNames == null || node.@name?.trim()?.toLowerCase() in canonicalNames) ? new Rom().loadFromHyperspinDatabase(node) : null
+            return (canonicalNames == null || node.@name?.trim()?.toLowerCase() in canonicalNames) ? new Rom().loadFromHyperSpinDatabase(node) : null
         }
     }
 

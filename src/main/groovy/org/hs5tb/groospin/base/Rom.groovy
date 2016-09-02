@@ -22,10 +22,10 @@ class Rom {
     Rom() {}
 
     Rom(Node node) {
-        loadFromHyperspinDatabase(node)
+        loadFromHyperSpinDatabase(node)
     }
 
-    Rom loadFromHyperspinDatabase(Node node) {
+    Rom loadFromHyperSpinDatabase(Node node) {
         name = node.@name
         description = node.description.text()
         cloneof = node.cloneof.text()

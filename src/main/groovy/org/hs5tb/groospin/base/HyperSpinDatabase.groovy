@@ -38,7 +38,7 @@ class HyperSpinDatabase {
     static List<Rom> loadRoms(Node menu, Closure filter = null) {
         List<Rom> roms = []
         menu.game.each { Node node ->
-            Rom rom = new Rom().loadFromHyperspinDatabase(node)
+            Rom rom = new Rom().loadFromHyperSpinDatabase(node)
             if (!filter || filter(rom)) {
                 roms << rom
             }
@@ -46,6 +46,9 @@ class HyperSpinDatabase {
         return roms
     }
 
+    static void write(List<Rom> roms, String file, Map header = [:]) {
+        write(roms, new File(file).newWriter(), header)
+    }
     static void write(List<Rom> roms, File file, Map header = [:]) {
         write(roms, file.newWriter(), header)
     }
@@ -67,8 +70,6 @@ class HyperSpinDatabase {
                 } else {
                     lettersAlreadyUsed.append(image) // la marcamos como añadida para la proxima
                 }
-                println "[+] Adding ${rom.name}"
-
                 game(name: rom.name, index: image ? "true" : "", image: image?.toLowerCase()) {
                     description(rom.description)
                     if (rom.cloneof) cloneof(rom.cloneof)
