@@ -10,6 +10,7 @@ class Rom {
     String description
     String cloneof
     String manufacturer
+    String crc
     String year
     String genre
     String rating
@@ -31,6 +32,7 @@ class Rom {
         cloneof = node.cloneof.text()
         manufacturer = node.manufacturer.text()
         year = node.year.text()
+        crc = crc.year.text()
         genre = node.genre.text()
         rating = node.rating.text()
         enabled = node.enabled.text()

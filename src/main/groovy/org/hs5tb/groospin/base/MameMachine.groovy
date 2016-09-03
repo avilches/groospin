@@ -1,5 +1,7 @@
 package org.hs5tb.groospin.base
 
+import org.hs5tb.groospin.common.Ini
+
 /**
  * Created by Alberto on 01-Sep-16.
  */
@@ -11,6 +13,10 @@ class MameMachine extends Rom {
     String soundStatus
     String graphicStatus
     String sourcefile
+
+    String catVerCat
+    String catVerVersion
+    boolean catVerMature
 
     String romof
 
@@ -89,6 +95,11 @@ class MameMachine extends Rom {
         playable = working && !mechanical && controls && players  // more than 1 control and 1 player at least
 
         working = machineIsWorkingCondition.call(this)
+
+        if (!manufacturer || manufacturer.startsWith("?") || manufacturer.startsWith("<")) {
+            manufacturer = "Unknown"
+        }
+
         return this
     }
 
