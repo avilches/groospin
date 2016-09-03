@@ -33,11 +33,16 @@ import org.hs5tb.groospin.common.Ini
 
 class DatXmlToHyperSpinXml {
 
-    static transform(String datFileName, String catVerFileName, String extraInfo, String to, Map header = [:], Closure filter = null) {
+    static Closure ONLY_PLAYABLE_GAMES = { MameMachine rom ->
+        !rom.mechanical &&
+        !rom.catVerCat?.contains("Electromechanical") &&
+        !rom.catVerCat?.contains("Util") && !rom.genre?.contains("Util")
+    }
+    static transform(String datFileName, String catVerFileName, String extraInfo, String to, Map header = [:], Closure filter = ONLY_PLAYABLE_GAMES) {
         store(load(datFileName, catVerFileName, extraInfo, filter), to, header)
     }
 
-    static List<MameMachine> load(String datFileName, String catVerFileName, String extraInfo, Closure filter = null) {
+    static List<MameMachine> load(String datFileName, String catVerFileName, String extraInfo, Closure filter = ONLY_PLAYABLE_GAMES) {
         Node dat = MameMachine.parseDat(datFileName)
         List<MameMachine> roms = MameMachine.loadRoms(dat)
         if (catVerFileName) {
@@ -52,16 +57,24 @@ class DatXmlToHyperSpinXml {
         return roms
     }
 
-    static void store(List<Rom> roms, String to, Map header = [:], Closure filter = null) {
+    static void store(List<MameMachine> roms, String hyperSpinDatabaseFileName, Map header = [:], Closure filter = null) {
         if (filter) {
             roms = roms.findAll(filter)
         }
-        File romsFile = new File(to)
-        HyperSpinDatabase.write(roms, romsFile, header)
-        HyperSpinDatabase.writeGenres(roms, romsFile.parentFile)
+        Map<String, List<MameMachine>> romsByGenre = extractGenres(roms)
+
+        File databaseFile = new File(hyperSpinDatabaseFileName)
+        HyperSpinDatabase.write(roms, databaseFile, header)
+        HyperSpinDatabase.writeGenres(romsByGenre, databaseFile.parentFile)
     }
 
-    static void store(Map<String, List<Rom>> romsByGenre, String to, Map header = [:]) {
+    private static Map<String, List<MameMachine>> extractGenres(List<MameMachine> roms) {
+        Map<String, List<MameMachine>> mameRomsByGenre = roms.findAll { !it.rating?.contains("(Sex") && !it.catVerMature}.groupBy { it.genre }
+        mameRomsByGenre["Mature"] = roms.findAll { it.rating?.contains("(Sex") || it.catVerMature }
+        return mameRomsByGenre
+    }
+
+    static void store(Map<String, List<MameMachine>> romsByGenre, String to, Map header = [:]) {
         File romsFile = new File(to)
         HyperSpinDatabase.write(romsByGenre.values().flatten(), romsFile, header)
         HyperSpinDatabase.writeGenres(romsByGenre, romsFile.parentFile)

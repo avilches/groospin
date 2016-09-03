@@ -12,12 +12,7 @@ def header = [listversion    : "0.171",
               exporterversion: "GrooSpin by HS5Tb"]
 def databaseRoot = "d:/Games/HyperSpin-fe/Databases"
 
-def roms = DatXmlToHyperSpinXml.load(mame171dat, catver, extraInfo) {
-    return !it.mechanical &&
-            !it.catVerCat?.contains("Electromechanical") &&
-            !it.catVerCat?.contains("Util") && !it.genre?.contains("Util")
-}
-
+def roms = DatXmlToHyperSpinXml.load(mame171dat, catver, extraInfo)
 /*
 debugRoms.removeAll { it.mahjong || it.hanafuda }
 debugRoms.removeAll { it.catVerCat?.contains("Casino") || it.genre?.contains("Casino") }
@@ -25,10 +20,7 @@ debugRoms.removeAll { it.catVerCat?.contains("Tabletop") || it.genre?.contains("
 */
 
 // MAME
-def mameRomsByGenre = roms.findAll { it.working && !it.rating?.contains("(Sex") && !it.catVerMature}.groupBy { it.genre }
-mameRomsByGenre["Mature"] = roms.findAll { it.working && (it.rating?.contains("(Sex") || it.catVerMature) }
-
-DatXmlToHyperSpinXml.store(mameRomsByGenre, "${databaseRoot}/MAME/MAME.xml",
+DatXmlToHyperSpinXml.store(roms, "${databaseRoot}/MAME/MAME.xml",
         header + [listname: "MAME only working"])
 Comparer.printDifferences(
         "${databaseRoot}/MAME/MAME.xml",
