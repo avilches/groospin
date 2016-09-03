@@ -2,10 +2,16 @@ package mame
 
 import org.hs5tb.groospin.base.HyperSpinDatabase
 import org.hs5tb.groospin.base.MameMachine
+import org.hs5tb.groospin.base.MameMachineUpdater
+import org.hs5tb.groospin.base.Rom
 import org.hs5tb.groospin.common.IOTools
+import org.hs5tb.groospin.common.Ini
 
 /**
  * Created by Alberto on 16-Aug-16.
+
+
+ http://www.hyperspin-fe.com/files/file/11008-mame-xml-full-lists
 
  i've made an automatic script that use catver.ini (http://www.progettosnaps.net/catver/) to keep all the genre exept thoses that contains :
  Paddle,Electromechanical,Utilities,Game Console,Print Club,Multi-cart Board,Machine,Business Computer,Pocket Computer Games,Terminal Games,Notebook,PDA Games,ComputerPhone Games,Workstation,DVD Reader,SCSI Controller,Barcode Printer,Astrological Computer,Drum Machine,Gambling Board,Audio Sequencer,Portable Media Player,Mobile Phone,Development Computer,Electronic Game,Home Computer,Kit Computer,Matrix Printer,Microcomputer,Punched Card Computer,Single Board Computer,Synthesiser,Training Board,Cash Counter,Clock,Document Processors,Electronic Typewriter,EPROM Programmer,Graphics Display Controller,Network Processor,Printer Handbook,Satellite Receiver,Speech Synthesiser,Word-processing Machine,Handheld Child Computers,Dot-Matrix Display,Test ROM,3D Printer,Graphic Tablet,In Circuit Emulator,DVD Player,Robot Control,Thermal Printer,VTR Control.
@@ -20,19 +26,45 @@ import org.hs5tb.groospin.common.IOTools
  My script also use nplayer.ini (http://nplayers.arcadebelgium.be/) so i need to wait for both files to create all lists.
 
  r0man0
+
+
+ http://www.hyperspin-fe.com/topic/25014-official-mame-xml-database-thread/
  */
 
 class DatXmlToHyperSpinXml {
 
-    static transform(String from, String to, Map header, Closure filter = null) {
-        println "Parsing MAME dat ${from}..."
-        transform(MameMachine.parseDat(from), to, header, filter)
+    static transform(String datFileName, String catVerFileName, String extraInfo, String to, Map header = [:], Closure filter = null) {
+        store(load(datFileName, catVerFileName, extraInfo, filter), to, header)
     }
 
-    static transform(Node dat, String to, Map header, Closure filter = null) {
-        List<MameMachine> roms = MameMachine.loadRoms(dat, filter)
-        HyperSpinDatabase.write(roms, new File(to), header)
+    static List<MameMachine> load(String datFileName, String catVerFileName, String extraInfo, Closure filter = null) {
+        Node dat = MameMachine.parseDat(datFileName)
+        List<MameMachine> roms = MameMachine.loadRoms(dat)
+        if (catVerFileName) {
+            MameMachineUpdater.loadCatVer(roms, new File(catVerFileName))
+        }
+        if (extraInfo) {
+            MameMachineUpdater.loadExtraInfo(roms, new File(extraInfo))
+        }
+        if (filter) {
+            roms = roms.findAll(filter)
+        }
+        return roms
     }
 
+    static void store(List<Rom> roms, String to, Map header = [:], Closure filter = null) {
+        if (filter) {
+            roms = roms.findAll(filter)
+        }
+        File romsFile = new File(to)
+        HyperSpinDatabase.write(roms, romsFile, header)
+        HyperSpinDatabase.writeGenres(roms, romsFile.parentFile)
+    }
+
+    static void store(Map<String, List<Rom>> romsByGenre, String to, Map header = [:]) {
+        File romsFile = new File(to)
+        HyperSpinDatabase.write(romsByGenre.values().flatten(), romsFile, header)
+        HyperSpinDatabase.writeGenres(romsByGenre, romsFile.parentFile)
+    }
 
 }

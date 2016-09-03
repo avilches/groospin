@@ -17,8 +17,8 @@ class Comparer {
         Set otherGames = HyperSpinDatabase.listRomNames(new File(other)) as LinkedHashSet
         Set oneMore = oneGames - otherGames
         Set otherMore = otherGames - oneGames
-        println "${one} +${oneMore.size()}: ${oneMore}"
-        println "${other} +${otherMore.size()}: ${otherMore}"
+        println "${one} = ${oneGames.size()} (+${oneMore.size()}): ${oneMore}"
+        println "${other} = ${otherGames.size()} ( +${otherMore.size()}): ${otherMore}"
         println "-------------------"
     }
 
