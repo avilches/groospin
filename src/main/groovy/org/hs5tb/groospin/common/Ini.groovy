@@ -25,12 +25,15 @@ class Ini {
         return this
     }
 
-    Ini parse(String iniRaw, String section = null, Collection<String> keys = null) {
-        return parse(new StringReader(iniRaw), section, keys)
+    Ini parseText(String iniRaw, String sectionToParse = null, Collection<String> keysToParse = null) {
+        return parse(new StringReader(iniRaw), sectionToParse, keysToParse)
     }
 
-    Ini parse(File iniFile, String section = null, Collection<String> keys = null) {
-        return iniFile.exists() ? parse(iniFile.newReader(), section, keys) : this
+    Ini parse(String iniFile, String sectionToParse = null, Collection<String> keys = null) {
+        parse(new File(iniFile), sectionToParse, keys)
+    }
+    Ini parse(File iniFile, String sectionToParse = null, Collection<String> keysToParse = null) {
+        return iniFile.exists() ? parse(iniFile.newReader(), sectionToParse, keysToParse) : this
     }
     /*
     RocketLauncher INI policy is:
@@ -39,14 +42,14 @@ class Ini {
      */
     static boolean ignoreDuplicatedSections = true
     static boolean ignoreDuplicatedKeys = true
-    Ini parse(Reader iniFile, String section = null, Collection<String> includeOnlyKeys = null) {
+    Ini parse(Reader iniFile, String sectionToParse = null, Collection<String> keysToParse = null) {
         Set<String> sectionsParsed = new HashSet<>()
         Set<String> keysParsed  = new HashSet<>()
         boolean ignoreDuplicatedSection = false
         String currentSection = Ini.defaultSection
-        section = section?.trim() ? canonical(section) : null
+        sectionToParse = sectionToParse?.trim() ? canonical(sectionToParse) : null
         Ini ini = new Ini()
-        includeOnlyKeys = includeOnlyKeys ? includeOnlyKeys.collect { String k -> canonical(k) } : null
+        keysToParse = keysToParse ? keysToParse.collect { String k -> canonical(k) } : null
         iniFile.eachLine { String line ->
             line = line.trim()
             if (!line || line.startsWith("#") || line.startsWith(";")) {
@@ -64,12 +67,19 @@ class Ini {
                     }
                 }
             } else {
-                if (line.contains("=") && !ignoreDuplicatedSection && (section == null || section == currentSection)) {
-                    int equalsPos = line.indexOf("=")
-                    String key = canonical(line.substring(0, equalsPos))
-                    if (!keysParsed.contains(key) && (!includeOnlyKeys || key in includeOnlyKeys)) {
+                if (!ignoreDuplicatedSection && (sectionToParse == null || sectionToParse == currentSection)) {
+                    String key
+                    String value
+                    if (line.contains("=")) {
+                        int equalsPos = line.indexOf("=")
+                        key = canonical(line.substring(0, equalsPos))
+                        value = line.substring(equalsPos + 1).trim()
+                    } else {
+                        key = canonical(line)
+                        value = null
+                    }
+                    if (!keysParsed.contains(key) && (!keysToParse || key in keysToParse)) {
                         if (ignoreDuplicatedKeys) keysParsed << key
-                        String value = line.substring(equalsPos + 1).trim()
                         ini.put(currentSection, key, value)
                     }
                 }
