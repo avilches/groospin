@@ -13,6 +13,7 @@ class Ini {
 
     Ini parent
     Map sections = [:]
+    boolean dirty = false
 
     Ini putAll(Map map) {
         return putAll(defaultSection, map)
@@ -29,9 +30,13 @@ class Ini {
         return parse(new StringReader(iniRaw), section, keys)
     }
 
-    Ini parse(File iniFile, String section = null, Collection<String> keys = null) {
-        return iniFile.exists() ? parse(iniFile.newReader(), section, keys) : this
+    List<Ini.Data> lines
+    static class Data {
+        String data
+        Type type
+        enum Type { property, raw, section }
     }
+
     /*
     RocketLauncher INI policy is:
     Ignore duplicated sections (only the first section is used)
@@ -44,17 +49,20 @@ class Ini {
         Set<String> keysParsed  = new HashSet<>()
         boolean ignoreDuplicatedSection = false
         String currentSection = Ini.defaultSection
-        section = section?.trim() ? canonical(section) : null
-        Ini ini = new Ini()
-        includeOnlyKeys = includeOnlyKeys ? includeOnlyKeys.collect { String k -> canonical(k) } : null
-        iniFile.eachLine { String line ->
-            line = line.trim()
+        section = section?.trim()?: null
+        lines = []
+        sections = [:]
+        includeOnlyKeys = includeOnlyKeys ? includeOnlyKeys.collect { String k -> k?.trim() } : null
+        iniFile.eachLine { String originalLine ->
+            String line = originalLine.trim()
             if (!line || line.startsWith("#") || line.startsWith(";")) {
+                lines << new Ini.Data(data:originalLine, type: Ini.Data.Type.raw)
                 return // Ignore comments
             } else if (line.startsWith("[")) {
                 int pos = line.indexOf("]")
                 if (pos > 1) {
-                    currentSection = canonical(line.substring(1, pos))
+                    currentSection = line.substring(1, pos).trim()
+                    lines << new Ini.Data(data:currentSection, type: Ini.Data.Type.section)
                     keysParsed.clear()
                     if (currentSection in sectionsParsed) {
                         ignoreDuplicatedSection = true
@@ -62,24 +70,75 @@ class Ini {
                         if (ignoreDuplicatedSections) sectionsParsed << currentSection
                         ignoreDuplicatedSection = false
                     }
+                } else {
+                    lines << new Ini.Data(data:originalLine, type: Ini.Data.Type.raw)
                 }
             } else {
                 if (line.contains("=") && !ignoreDuplicatedSection && (section == null || section == currentSection)) {
                     int equalsPos = line.indexOf("=")
-                    String key = canonical(line.substring(0, equalsPos))
+                    String key = line.substring(0, equalsPos).trim()
                     if (!keysParsed.contains(key) && (!includeOnlyKeys || key in includeOnlyKeys)) {
                         if (ignoreDuplicatedKeys) keysParsed << key
                         String value = line.substring(equalsPos + 1).trim()
-                        ini.put(currentSection, key, value)
+                        lines << new Ini.Data(data:key, type: Ini.Data.Type.property)
+                        put(currentSection, key, value)
+                    } else {
+                        lines << new Ini.Data(data:originalLine, type: Data.Type.raw)
                     }
+                } else {
+                    lines << new Data(data:originalLine, type: Data.Type.raw)
                 }
             }
         }
-        return ini
+        return this
+    }
+
+    void store(Writer writer) {
+        PrintWriter printer = writer.newPrintWriter()
+        Map sectionsToStore = sections.clone()
+        Map currentSection = sectionsToStore.remove(Ini.defaultSection)?.clone()
+        lines.each { Ini.Data data ->
+            if (data.type == Ini.Data.Type.raw) {
+                writer.println(data.data)
+            } else if (data.type == Ini.Data.Type.section) {
+                if (currentSection != null) storeSection(printer, currentSection) // Flush pending session (new values..)
+                currentSection = sectionsToStore.remove(data.data)?.clone()
+                writer.println("[${data.data}]")
+            } else if (data.type == Ini.Data.Type.property) {
+                if (currentSection != null && currentSection.containsKey(data.data)) {
+                    writer.println("${data.data}=${currentSection.remove(data.data)?:""}")
+                }
+            }
+        }
+        if (currentSection != null) storeSection(printer, currentSection)
+        sectionsToStore.each { String section, Map newSection ->
+            writer.println()
+            writer.println("[${section}]")
+            storeSection(printer, newSection)
+        }
+        writer.flush()
+        writer.close()
+    }
+
+    protected void storeSection(PrintWriter printer, Map session) {
+        session.each { String key, String value -> printer.println("$key=$value") }
     }
 
     Object getAt(String property) {
         return get(property)
+    }
+
+    String remove(String key) {
+        return remove(defaultSection, key)
+    }
+
+    String remove(String section, String key) {
+        Map sectionValues = sections[section.trim()]
+        if (sectionValues?.containsKey(key.trim())) {
+            dirty = true
+            return sectionValues.remove(key.trim())
+        }
+        return null
     }
 
     void putAt(String property, Object newValue) {
@@ -87,20 +146,29 @@ class Ini {
     }
 
     Object put(String key, String value) {
-        return put(defaultSection, key as String, value as String)
+        return put(defaultSection, key, value as String)
     }
 
     String put(String section, String key, String value) {
-        String canonicalSection = canonical(section)
-        Map values = sections[canonicalSection]
-        if (!values) {
-            values = sections[canonicalSection] = [:]
+        section = section.trim()
+        key = key.trim()
+        value = value?.trim()?: ""
+        Map sectionValues = sections[section]
+        if (!sectionValues) {
+            dirty = true
+            sections[section] = [(key): value]
+            return ""
         }
-        return values.put(canonical(key), value)
+        if (sectionValues.containsKey(key)) {
+            String previousValue = sectionValues.get(key)
+            if (value == previousValue) return value
+        }
+        dirty = true
+        return sectionValues.put(key, value)
     }
 
     Object get(String key) {
-        return get(defaultSection, key as String)
+        return get(defaultSection, key)
     }
 
     Map getDefaultSection() {
@@ -108,7 +176,8 @@ class Ini {
     }
 
     Map getSection(String section) {
-        Map map = this.sections[canonical(section)] ?: [:]
+        section = section.trim()
+        Map map = sections[section]?.clone() ?: [:]
         if (parent) {
             parent.getSection(section).each { String key, String value ->
                 if (!map.containsKey(key)) {
@@ -120,20 +189,18 @@ class Ini {
     }
 
     String get(String section, String key) {
-        Map values = this.sections[canonical(section)]
-        if (values) {
-            String value = values[canonical(key)]
+        section = section.trim()
+        key = key.trim()
+        Map sectionValues = sections[section]
+        if (sectionValues) {
+            String value = sectionValues[key.trim()]
             if (value) return value
         }
         // No section or no value in section
         if (parent) {
             return parent.get(section, key)
         }
-        return null
-    }
-
-    static String canonical(String s) {
-        s?.trim()?.toLowerCase()
+        return ""
     }
 
 }
