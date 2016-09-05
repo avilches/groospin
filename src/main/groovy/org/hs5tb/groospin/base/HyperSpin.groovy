@@ -2,6 +2,7 @@ package org.hs5tb.groospin.base
 
 import org.hs5tb.groospin.common.IOTools
 import org.hs5tb.groospin.common.Ini
+import org.hs5tb.groospin.common.IniFile
 
 /**
  * Created by Alberto on 12-Jun-16.
@@ -167,6 +168,53 @@ check(systemName, getGamesFromSystem(systemName))
 
     File getRocketLauncherExe() {
         findRocketLauncherFile("RocketLauncher.exe")
+    }
+
+    IniFile loadHyperSpinSettings(String filename) {
+        File file = findHyperSpinFile("Settings/${filename}.ini")
+        if (file.exists()) {
+            return new IniFile().parse(file)
+        }
+        return null
+    }
+
+    void changeHyperSpinAllSystemSettings(String section, String key, String newValue) {
+        changeHyperSpinSettings(listSystemNames(true), section, key, newValue)
+    }
+
+    void changeHyperSpinSettings(String filename, String section, String key, String newValue) {
+        changeHyperSpinSettings([filename], section, key, newValue)
+    }
+
+    void changeHyperSpinSettings(List filenames, String section, String key, String newValue) {
+        withHyperSpinSettings(filenames) { IniFile ini ->
+            ini.put(section, key, newValue)
+            if (ini.dirty) {
+                ini.store()
+            }
+        }
+    }
+
+    void withHyperSpinAllSystemSettings(Closure action) {
+        withHyperSpinSettings(listSystemNames(true), action)
+    }
+
+    void withHyperSpinSettings(String filename, Closure action) {
+        withHyperSpinSettings([filename], action)
+    }
+
+    void withHyperSpinSettings(List filenames, Closure action) {
+        filenames.each { String filename ->
+            IniFile ini = loadHyperSpinSettings(filename)
+            if (ini) {
+                if (action.maximumNumberOfParameters == 1) {
+                    action.call(ini)
+                } else {
+                    action.call(filename, ini)
+                }
+
+            }
+        }
     }
 
 
