@@ -26,7 +26,7 @@ class FileBuffer {
     }
 
     void leftShift(String more) {
-        if (!buffer) return
+        if (buffer == null) return
         buffer << more
         nextLine()
         if (buffer.size() > maxBuffer) {
@@ -35,7 +35,7 @@ class FileBuffer {
     }
 
     void flush() {
-        if (!buffer) return
+        if (buffer == null) return
         if (first) {
             first = false
             if (!file.parentFile.exists()) {
@@ -49,7 +49,7 @@ class FileBuffer {
     }
 
     void nextLine() {
-        if (!buffer) return
+        if (buffer == null) return
         buffer << "\n"
     }
 }

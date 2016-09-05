@@ -10,6 +10,7 @@ class Rom {
     String description
     String cloneof
     String manufacturer
+    String crc
     String year
     String genre
     String rating
@@ -22,15 +23,16 @@ class Rom {
     Rom() {}
 
     Rom(Node node) {
-        load(node)
+        loadFromHyperSpinDatabase(node)
     }
 
-    Rom load(Node node) {
+    Rom loadFromHyperSpinDatabase(Node node) {
         name = node.@name
         description = node.description.text()
         cloneof = node.cloneof.text()
         manufacturer = node.manufacturer.text()
         year = node.year.text()
+        crc = crc.year.text()
         genre = node.genre.text()
         rating = node.rating.text()
         enabled = node.enabled.text()

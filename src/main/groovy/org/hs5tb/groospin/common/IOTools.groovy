@@ -9,15 +9,19 @@ package org.hs5tb.groospin.common
 
 import groovy.io.FileType
 
+import java.nio.file.Files
+import java.nio.file.Path
+import java.nio.file.Paths
+
 class IOTools {
     static File tryRelativeFrom(File root, String path) {
         if (File.separator == "/") { // We are running tests in a MacOS/linux environment
             path = path.replaceAll("\\\\", "/")
         }
         if (path.size() > 2 && path.substring(1, 2) == ":") return new File(path)
-        File candidate = new File(path).canonicalFile
+        File candidate = new File(path)
         if (candidate.exists()) return candidate
-        return new File(root, path).canonicalFile
+        return new File(root, path)
     }
 
     static long folderSize(File folder) {
@@ -55,7 +59,7 @@ class IOTools {
 
     static File findFilesInFolder(File path, List<String> filesToFind) {
         for (String fileToFind in filesToFind) {
-            File file = new File(path, fileToFind).canonicalFile
+            File file = new File(path, fileToFind)
             // println "Checking for ${file} exists? ${file.exists()}"
             if (file.exists()) return file
         }
@@ -72,7 +76,7 @@ class IOTools {
 
     static File findFileInFolders(List<File> paths, String fileToFind) {
         for (File path in paths) {
-            File file = new File(path, fileToFind).canonicalFile
+            File file = new File(path, fileToFind)
             // println "Checking for ${file} exists? ${file.exists()}"
             if (file.exists()) return file
         }
@@ -85,10 +89,35 @@ class IOTools {
 
     static File findFileWithExtensions(String fileBaseWithoutExtension, List extensions) {
         for (String extension in extensions) {
-            File file = new File(fileBaseWithoutExtension + "." + extension).canonicalFile
+            File file = new File(fileBaseWithoutExtension + "." + extension)
             // println "Checking for ${file} exists? ${file.exists()}"
             if (file.exists()) return file
         }
         return null
+    }
+
+    static String getFilenameWithoutExtension(String filename) {
+        return filename.lastIndexOf('.').with {it != -1 ? filename[0..<it] : filename}
+    }
+
+    static void move(File origin, File dst) {
+        Files.move(Paths.get(origin.toString()), Paths.get(dst.toString()))
+        /*
+        if (!origin.exists()) return
+        if (dst.exists()) {
+            if (dst.directory) {
+                dst = new File(dst, origin.name)
+            }
+        } else {
+            dst.parentFile.mkdirs()
+        }
+        if (!origin.renameTo(dst)) {
+            origin
+            copy(origin, dst)
+            if (dst.exists()) {
+                origin.delete()
+            }
+        }
+        */
     }
 }

@@ -22,14 +22,14 @@ class RomChecker {
             system = originalSystem.hyperSpin.getSystem(rom.exe)
         }
         String romName = rom.name
-        CheckRomResult checkResultRom = new CheckRomResult(romName: romName, system: system)
+        CheckRomResult checkResultRom = new CheckRomResult(romName: romName, system: system, systemName: system.name)
 
         File romFound = system.findValidRom(romName)
         if (romFound) {
             rom.romFileFound = romFound
             if (system.romsIsExecutable(romName)) {
                 File exe = system.findExecutable(romName, romFound)
-                if (exe) {
+                if (exe && exe.exists()) {
                     rom.exeFileFound = romFound
                     checkResultRom.roms = checkResultRom.exes = 1
                 } else {

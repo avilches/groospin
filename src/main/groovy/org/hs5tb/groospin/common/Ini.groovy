@@ -21,7 +21,7 @@ class Ini {
 
     Ini putAll(String section, Map map) {
         map.each { key, val ->
-            put(section, key, val)
+            put(section, key as String, val as String)
         }
         return this
     }
