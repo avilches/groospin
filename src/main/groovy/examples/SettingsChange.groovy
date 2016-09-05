@@ -5,11 +5,9 @@
 * @date 4/9/16
 * Copyright. All Rights Reserved.
 */
-package operation
+package examples
 
 import org.hs5tb.groospin.base.HyperSpin
-import org.hs5tb.groospin.common.Ini
-import org.hs5tb.groospin.common.IniFile
 
 
 HyperSpin hs = new HyperSpin(
