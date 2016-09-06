@@ -40,11 +40,11 @@ class HyperSpinDatabase {
         return this
     }
 
-    static void writeGenres(Map<String, List<Rom>> romsByGenre, String folder) {
-        writeGenres(romsByGenre, new File(folder))
+    static void writeGenres(Map<String, List<Rom>> romsByGenre, String folder, Map headers = [:]) {
+        writeGenres(romsByGenre, new File(folder), headers)
     }
 
-    static void writeGenres(Map<String, List<Rom>> romsByGenre, File folder) {
+    static void writeGenres(Map<String, List<Rom>> romsByGenre, File folder, Map headers = [:]) {
         Map<String, List<Rom>> romsByGenreClean = new LinkedHashMap<>()
 
         romsByGenre.each { Map.Entry<String, List<Rom>> entry ->
@@ -64,7 +64,7 @@ class HyperSpinDatabase {
         new File(folder, "genre.xml").text = "<menu>\n${genreContent}</menu>"
 
         romsByGenre.each { String genre, List<Rom> genreRoms ->
-            write(genreRoms, new File(folder, "${StringHelper.unescapeHTML(genre)}.xml"))
+            write(genreRoms, new File(folder, "${StringHelper.unescapeHTML(genre)}.xml"), headers)
         }
     }
 

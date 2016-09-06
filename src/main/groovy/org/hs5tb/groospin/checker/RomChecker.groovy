@@ -55,7 +55,7 @@ class RomChecker {
     }
 
     boolean existsInMedia(boolean log, RLSystem system, String path, List extensions) {
-        boolean exists = IOTools.findFileWithExtensions(system.hyperSpin.findHyperSpinFile("Media/${system.name}/${path}"), extensions)
+        boolean exists = IOTools.findFileWithExtensions(system.findHyperSpinMediaPath(path), extensions)
         if (!exists && log) {
             //println "Missing ${system.name}:$path.[${extensions.join("|")}]"
             // new File("d:\\Games\\Roms\\MEGADRIVE NO video\\${new File(path).name}.txt").text = ""

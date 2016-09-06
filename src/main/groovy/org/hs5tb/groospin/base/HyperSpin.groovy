@@ -147,8 +147,8 @@ class HyperSpin {
         return findHyperSpinFile("Databases/${systemName}/${systemName}.xml")
     }
 
-    Collection<RLSystem> listSystems() {
-        return listSystemNames().collect { String system ->
+    Collection<RLSystem> listSystems(boolean includeExecutables = false) {
+        return listSystemNames(includeExecutables).collect { String system ->
             getSystem(system)
         }
     }
@@ -218,7 +218,22 @@ check(systemName, getGamesFromSystem(systemName))
         }
     }
 
+    File findHyperSpinMediaFolderFor(String name) {
+        return findHyperSpinFile("Media/${name}")
+    }
 
+    List<String> listGenres(String systemName) {
+        File genres = findHyperSpinFile("Databases/${systemName}/genre.xml")
+        if (!genres?.exists()) return null
+        try {
+            Node menu = new XmlParser().parseText(genres.text)
+            return menu.game.collect { Node node ->
+                return node.@name
+            }
+        } catch (e) {
+            e.printStackTrace()
+        }
+    }
 }
 
 

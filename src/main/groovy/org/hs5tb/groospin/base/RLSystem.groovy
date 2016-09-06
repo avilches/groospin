@@ -21,7 +21,7 @@ class RLSystem {
     Map<String, RLEmulator> alternativeEmulators
 
     File findValidRom(String romName) {
-        RLEmulator emulator = getRomEmulator(romName)
+        RLEmulator emulator = findRomEmulator(romName)
 
         if (emulator.module == "ScummVM.ahk") {
             String path = romMapping.get(romName, "path")
@@ -43,7 +43,7 @@ class RLSystem {
     }
 
     boolean romsIsExecutable(String romName) {
-        RLEmulator emulator = getRomEmulator(romName)
+        RLEmulator emulator = findRomEmulator(romName)
         return emulator.module in ["MUGEN.ahk", "OpenBOR.ahk", "Casual Games.ahk", "PCLauncher.ahk"]
     }
 
@@ -52,7 +52,7 @@ class RLSystem {
     }
 
     File findExecutable(String romName, File romFile) {
-        RLEmulator emulator = getRomEmulator(romName)
+        RLEmulator emulator = findRomEmulator(romName)
         File romPath = romFile.directory ? romFile : romFile.parentFile
         if (emulator.module == "PCLauncher.ahk") {
             String application = romMapping.get(romName, "application")
@@ -86,7 +86,7 @@ class RLSystem {
             romMapping.parent = new IniFile().parse(
                     hyperSpin.findRocketLauncherFile("Modules/PCLauncher/PCLauncher.ini"))
         } else if (defaultEmulator.module == "ScummVM.ahk") {
-            IniFile moduleIni = new IniFile().parse(hyperSpin.findRocketLauncherFile("Modules/ScummVM/ScummVM.ini"), "Settings", ["CustomConfig"])
+            IniFile moduleIni = new IniFile().parse(hyperSpin.findRocketLauncherFile("Modules/ScummVM/ScummVM.ini").text, "Settings", ["CustomConfig"])
             String customConfig = moduleIni.get("Settings", "CustomConfig")
             romMapping = new IniFile()
             if (customConfig) {
@@ -109,9 +109,33 @@ class RLSystem {
         return hyperSpin.listRomNames(name)
     }
 
-    private RLEmulator getRomEmulator(String romName) {
+    List<String> listGenres() {
+        return hyperSpin.listGenres(name)
+    }
+
+    RLEmulator findRomEmulator(String romName) {
         RLEmulator emulator = alternativeEmulators?.get(romName) ?: defaultEmulator
         return emulator
     }
 
+    HyperSpinDatabase loadHyperSpinDatabase(Closure closure = null) {
+        return hyperSpin.loadHyperSpinDatabase(name, closure)
+    }
+
+    IniFile loadHyperSpinSettings() {
+        return hyperSpin.loadHyperSpinSettings(name)
+    }
+
+    void changeHyperSpinSettings(String section, String key, String newValue) {
+        hyperSpin.changeHyperSpinSettings(name, section, key, newValue)
+    }
+
+    File getMediaFolder() {
+        return hyperSpin.findHyperSpinMediaFolderFor(name)
+    }
+
+    File findHyperSpinMediaPath(String path) {
+        return new File(mediaFolder, path)
+    }
 }
+
