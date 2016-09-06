@@ -57,15 +57,15 @@ class DatXmlToHyperSpinXml {
         return roms
     }
 
-    static void store(List<MameMachine> roms, String hyperSpinDatabaseFileName, Map header = [:], Closure filter = null) {
+    static void store(List<MameMachine> roms, String hyperSpinDatabaseFileName, Map headers = [:], Closure filter = null) {
         if (filter) {
             roms = roms.findAll(filter)
         }
         Map<String, List<MameMachine>> romsByGenre = extractGenres(roms)
 
         File databaseFile = new File(hyperSpinDatabaseFileName)
-        HyperSpinDatabase.write(roms, databaseFile, header)
-        HyperSpinDatabase.writeGenres(romsByGenre, databaseFile.parentFile)
+        HyperSpinDatabase.write(roms, databaseFile, headers)
+        HyperSpinDatabase.writeGenres(romsByGenre, databaseFile.parentFile, headers)
     }
 
     private static Map<String, List<MameMachine>> extractGenres(List<MameMachine> roms) {
@@ -74,10 +74,10 @@ class DatXmlToHyperSpinXml {
         return mameRomsByGenre
     }
 
-    static void store(Map<String, List<MameMachine>> romsByGenre, String to, Map header = [:]) {
+    static void store(Map<String, List<MameMachine>> romsByGenre, String to, Map headers = [:]) {
         File romsFile = new File(to)
-        HyperSpinDatabase.write(romsByGenre.values().flatten(), romsFile, header)
-        HyperSpinDatabase.writeGenres(romsByGenre, romsFile.parentFile)
+        HyperSpinDatabase.write(romsByGenre.values().flatten(), romsFile, headers)
+        HyperSpinDatabase.writeGenres(romsByGenre, romsFile.parentFile, headers)
     }
 
 }
