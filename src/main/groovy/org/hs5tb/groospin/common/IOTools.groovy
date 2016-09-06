@@ -100,6 +100,12 @@ class IOTools {
         return filename.lastIndexOf('.').with {it != -1 ? filename[0..<it] : filename}
     }
 
+    static void copy(File origin, File dst, boolean overwrite = true) {
+        if (!overwrite)
+            Files.copy(Paths.get(origin.toString()), Paths.get(dst.toString()), java.nio.file.StandardCopyOption.COPY_ATTRIBUTES)
+        else
+            Files.copy(Paths.get(origin.toString()), Paths.get(dst.toString()), java.nio.file.StandardCopyOption.REPLACE_EXISTING, java.nio.file.StandardCopyOption.COPY_ATTRIBUTES)
+    }
     static void move(File origin, File dst) {
         Files.move(Paths.get(origin.toString()), Paths.get(dst.toString()))
         /*
