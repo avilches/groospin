@@ -2,6 +2,7 @@ package examples
 
 import mame.DatXmlToHyperSpinXml
 import operation.Comparer
+import org.hs5tb.groospin.base.HyperSpin
 import org.hs5tb.groospin.base.MameMachine
 
 
@@ -13,7 +14,7 @@ DatXmlToHyperSpinXml.transform(
         dat,
         catver, extraInfo,
         "d:/Games/HyperSpin-fe/Databases/HBMAME/HBMAME.xml",
-        [listname: "HBMAME only working with clones",
+        [listname: "HBMAME",
          listversion: "0.175",
          lastlistupdate: new Date().format("dd/MM/yyyy HH:mm"),
          exporterversion: "GrooSpin by HS5Tb"])
