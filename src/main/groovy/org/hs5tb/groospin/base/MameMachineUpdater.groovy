@@ -1,6 +1,7 @@
 package org.hs5tb.groospin.base
 
 import org.hs5tb.groospin.common.Ini
+import org.hs5tb.groospin.common.IniFile
 
 /**
  * Created by Alberto on 02-Sep-16.
@@ -48,7 +49,7 @@ class MameMachineUpdater {
     }
 
     static loadCatVer(List<MameMachine> roms, File catVerFile) {
-        Ini catVer = new Ini().parse(catVerFile)
+        Ini catVer = new IniFile().parse(catVerFile)
         loadCatVer(roms, catVer)
     }
 

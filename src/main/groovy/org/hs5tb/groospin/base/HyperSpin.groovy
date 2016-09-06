@@ -3,6 +3,7 @@ package org.hs5tb.groospin.base
 import org.hs5tb.groospin.common.IOTools
 import org.hs5tb.groospin.common.Ini
 import org.hs5tb.groospin.common.IniFile
+import org.hs5tb.groospin.common.IniFile
 
 /**
  * Created by Alberto on 12-Jun-16.
@@ -27,7 +28,7 @@ class HyperSpin {
     Ini getGlobalEmulatorsIni() {
         if (_cachedGlobalEmulatorIni) return _cachedGlobalEmulatorIni
         File globalEmulatorConfig = findRocketLauncherFile("Settings/Global Emulators.ini")
-        _cachedGlobalEmulatorIni = new Ini().parse(globalEmulatorConfig)
+        _cachedGlobalEmulatorIni = new IniFile().parse(globalEmulatorConfig)
         return _cachedGlobalEmulatorIni
     }
 
@@ -50,7 +51,7 @@ class HyperSpin {
         if (!systemEmulatorConfig.file) {
             throw new FileNotFoundException("RocketLauncher settings for ${systemName} not found: ${systemEmulatorConfig}")
         }
-        Ini systemIni = new Ini().parse(systemEmulatorConfig)
+        Ini systemIni = new IniFile().parse(systemEmulatorConfig)
         systemIni.parent = globalEmulatorsIni
         String rom_Path = systemIni.get("roms", "rom_path")
         String default_emulator = systemIni.get("roms", "default_emulator")
@@ -60,9 +61,9 @@ class HyperSpin {
         File alternativeEmulatorConfig = findRocketLauncherFile("Settings/${systemName}/Games.ini")
         Map alternativeEmulators = [:]
         if (alternativeEmulatorConfig.file) {
-            Ini alternativeEmulatorsIni = new Ini().parse(alternativeEmulatorConfig)
+            Ini alternativeEmulatorsIni = new IniFile().parse(alternativeEmulatorConfig)
             alternativeEmulatorsIni.getSections().each { String gameName, Map alternativeEmulatorForGameConfig ->
-                String emulatorName = alternativeEmulatorForGameConfig.get(Ini.canonical("Emulator"))
+                String emulatorName = alternativeEmulatorForGameConfig.get("Emulator")
                 if (emulatorName) {
                     alternativeEmulators[gameName] = findOrCreateEmulator(emulatorName, systemIni.getSection(emulatorName))
                 }

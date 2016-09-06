@@ -2,6 +2,7 @@ package org.hs5tb.groospin.base
 
 import org.hs5tb.groospin.common.IOTools
 import org.hs5tb.groospin.common.Ini
+import org.hs5tb.groospin.common.IniFile
 
 /**
  * Created by Alberto on 12-Jun-16.
@@ -80,23 +81,23 @@ class RLSystem {
     void loadMapping() {
         if (!defaultEmulator) return
         if (defaultEmulator.module == "PCLauncher.ahk") {
-            romMapping = new Ini().parse(
+            romMapping = new IniFile().parse(
                     hyperSpin.findRocketLauncherFile("Modules/PCLauncher/${name}.ini"))
-            romMapping.parent = new Ini().parse(
+            romMapping.parent = new IniFile().parse(
                     hyperSpin.findRocketLauncherFile("Modules/PCLauncher/PCLauncher.ini"))
         } else if (defaultEmulator.module == "ScummVM.ahk") {
-            Ini moduleIni = new Ini().parse(hyperSpin.findRocketLauncherFile("Modules/ScummVM/ScummVM.ini"), "Settings", ["CustomConfig"])
+            IniFile moduleIni = new IniFile().parse(hyperSpin.findRocketLauncherFile("Modules/ScummVM/ScummVM.ini"), "Settings", ["CustomConfig"])
             String customConfig = moduleIni.get("Settings", "CustomConfig")
-            romMapping = new Ini()
+            romMapping = new IniFile()
             if (customConfig) {
                 romMapping = romMapping.parse(hyperSpin.findRocketLauncherFile(customConfig))
             }
         } else if (defaultEmulator.module == "Casual Games.ahk") {
-            romMapping = new Ini().parse(hyperSpin.findRocketLauncherFile("Modules/Casual Games/Casual Games.ini"))
+            romMapping = new IniFile().parse(hyperSpin.findRocketLauncherFile("Modules/Casual Games/Casual Games.ini"))
         } else if (defaultEmulator.module == "OpenBOR.ahk") {
-            romMapping = new Ini().parse(hyperSpin.findRocketLauncherFile("Modules/OpenBOR/OpenBOR.ini"))
+            romMapping = new IniFile().parse(hyperSpin.findRocketLauncherFile("Modules/OpenBOR/OpenBOR.ini"))
         } else if (defaultEmulator.module == "MUGEN.ahk") {
-            romMapping = new Ini().parse(hyperSpin.findRocketLauncherFile("Modules/MUGEN/MUGEN.ini"))
+            romMapping = new IniFile().parse(hyperSpin.findRocketLauncherFile("Modules/MUGEN/MUGEN.ini"))
         }
     }
 
@@ -109,7 +110,7 @@ class RLSystem {
     }
 
     private RLEmulator getRomEmulator(String romName) {
-        RLEmulator emulator = alternativeEmulators?.get(Ini.canonical(romName)) ?: defaultEmulator
+        RLEmulator emulator = alternativeEmulators?.get(romName) ?: defaultEmulator
         return emulator
     }
 

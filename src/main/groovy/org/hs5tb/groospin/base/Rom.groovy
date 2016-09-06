@@ -32,7 +32,7 @@ class Rom {
         cloneof = node.cloneof.text()
         manufacturer = node.manufacturer.text()
         year = node.year.text()
-        crc = crc.year.text()
+        crc = node.crc.text()
         genre = node.genre.text()
         rating = node.rating.text()
         enabled = node.enabled.text()
