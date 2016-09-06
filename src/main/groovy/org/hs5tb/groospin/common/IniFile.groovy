@@ -1,7 +1,5 @@
 /*
- * bq.com
- *
- * @author Alberto Vilches (alberto.vilches@bq.com)
+ * @author Alberto Vilches (alberto.vilches@)
  * @date 4/9/16
  * Copyright. All Rights Reserved.
  */
