@@ -53,8 +53,8 @@ class HyperSpin {
         }
         Ini systemIni = new IniFile().parse(systemEmulatorConfig)
         systemIni.parent = globalEmulatorsIni
-        String rom_Path = systemIni.get("roms", "rom_path")
-        String default_emulator = systemIni.get("roms", "default_emulator")
+        String rom_Path = systemIni.get("ROMS", "Rom_Path")
+        String default_emulator = systemIni.get("ROMS", "Default_Emulator")
 
         List romPathList = rom_Path?.split("\\|")?.collect { String romPathString -> IOTools.tryRelativeFrom(rlRoot, romPathString) } ?: []
 
@@ -81,9 +81,9 @@ class HyperSpin {
         if (emulators[name]) {
             return emulators[name]
         }
-        String iniEmuPath = emulatorConfig['emu_path']
-        String iniRomExtension = emulatorConfig['rom_extension']
-        String module = emulatorConfig['module']
+        String iniEmuPath = emulatorConfig['Emu_Path']
+        String iniRomExtension = emulatorConfig['Rom_Extension']
+        String module = emulatorConfig['Module']
         File emuPath = iniEmuPath ? IOTools.tryRelativeFrom(rlRoot, iniEmuPath) : null
         List romExtensions = iniRomExtension?.split("\\|")?.collect { String ext -> ext.trim().toLowerCase() } ?: []
         RLEmulator emulator = new RLEmulator(name: name, iniEmuPath: iniEmuPath,
