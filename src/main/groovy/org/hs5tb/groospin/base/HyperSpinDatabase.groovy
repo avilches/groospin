@@ -46,13 +46,24 @@ class HyperSpinDatabase {
         writeGenres(romsByGenre, new File(folder), headers)
     }
 
+    static Closure<String> cleanGenre = { String genre ->
+        genre = genre?.trim()?:"" // No nulls or empty strings
+        if (genre.size() <= 1) { // No one letter genres
+            genre = "Unknown"
+        }
+        genre = genre.replaceAll("[/\\\\]", "-"). // remove slashes to avoid problems saving file
+                split("\\b"). // split in words
+                collect { it.toLowerCase().capitalize() }.join("") // capitalize
+
+        return genre
+    }
     static void writeGenres(Map<String, List<Rom>> romsByGenre, File folder, Map headers = [:]) {
         Map<String, List<Rom>> romsByGenreClean = new LinkedHashMap<>()
 
         romsByGenre.each { Map.Entry<String, List<Rom>> entry ->
             if (entry.value) {
                 // Clean the empty genres, if any
-                romsByGenreClean[entry.key?.trim()?:"Unknown"] = entry.value
+                romsByGenreClean[cleanGenre.call(entry.key)] = entry.value
             }
         }
         if (!romsByGenreClean || romsByGenreClean.size() == 1) {
@@ -116,7 +127,7 @@ class HyperSpinDatabase {
     static void write(List<Rom> roms, Writer writer, Map headers = [:]) {
         StringBuilder lettersAlreadyUsed = new StringBuilder()
         MarkupBuilder mb = new MarkupBuilder(writer)
-        mb.mkp.xmlDeclaration(version: "1.0", encoding: "utf-8")
+        mb.mkp.xmlDeclaration(version: "1.0")
         mb.menu {
             setOmitNullAttributes(true)
             setDoubleQuotes(true)
