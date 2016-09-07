@@ -118,8 +118,8 @@ class RLSystem {
         return emulator
     }
 
-    HyperSpinDatabase loadHyperSpinDatabase(Closure closure = null) {
-        return hyperSpin.loadHyperSpinDatabase(name, closure)
+    HyperSpinDatabase loadHyperSpinDatabase(Closure romFilter = null) {
+        return hyperSpin.loadHyperSpinDatabase(name, romFilter)
     }
 
     IniFile loadHyperSpinSettings() {

@@ -46,7 +46,7 @@ class Ini {
         Set<String> sectionsParsed = new HashSet<>()
         Set<String> keysParsed  = new HashSet<>()
         boolean ignoreDuplicatedSection = false
-        String currentSection = Ini.defaultSection
+        String currentSection = defaultSection
         section = section?.trim()?: null
         lines = []
         sections = [:]
