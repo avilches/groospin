@@ -19,6 +19,11 @@ package org.hs5tb.groospin.common;
  */
 
 
+import groovy.lang.Closure;
+import groovy.xml.MarkupBuilder;
+import groovy.xml.QName;
+import org.codehaus.groovy.runtime.StringGroovyMethods;
+
 import java.util.HashMap;
 import java.util.regex.Pattern;
 
@@ -312,7 +317,7 @@ public class StringHelper {
                         value = Integer.parseInt(escape.substring(1), 10);
                     } else {
                         if (htmlEntities.containsKey(escape)){
-                            value = ((Integer)(htmlEntities.get(escape))).intValue();
+                            value = htmlEntities.get(escape);
                         }
                     }
                 } catch (NumberFormatException x){
@@ -330,4 +335,63 @@ public class StringHelper {
         result.append(s.substring(lastEnd));
         return result.toString();
     }
+
+    public static String escapeXmlValue(String value, boolean isAttrValue, boolean useDoubleQuotes) {
+        if(value == null) {
+            throw new IllegalArgumentException();
+        } else {
+            return StringGroovyMethods.collectReplacements(value, new StringHelper.ReplacingClosure(isAttrValue, useDoubleQuotes));
+        }
+    }
+
+
+    private static class ReplacingClosure extends Closure<String> {
+        private final boolean isAttrValue;
+        private final boolean useDoubleQuotes;
+
+        public ReplacingClosure(boolean isAttrValue, boolean useDoubleQuotes) {
+            super((Object)null);
+            this.isAttrValue = isAttrValue;
+            this.useDoubleQuotes = useDoubleQuotes;
+        }
+
+        public String doCall(Character ch) {
+            switch(ch.charValue()) {
+                case '\t':
+                    if(this.isAttrValue) {
+                        return "&#09;";
+                    }
+                    break;
+                case '\n':
+                    if(this.isAttrValue) {
+                        return "&#10;";
+                    }
+                    break;
+                case '\r':
+                    if(this.isAttrValue) {
+                        return "&#13;";
+                    }
+                    break;
+                case '\"':
+                    if(this.isAttrValue && this.useDoubleQuotes) {
+                        return "&quot;";
+                    }
+                    break;
+                case '&':
+                    return "&amp;";
+                case '\'':
+                    if(this.isAttrValue && !this.useDoubleQuotes) {
+                        return "&apos;";
+                    }
+                    break;
+                case '<':
+                    return "&lt;";
+                case '>':
+                    return "&gt;";
+            }
+
+            return null;
+        }
+    }
+
 }
