@@ -13,6 +13,7 @@ class HyperSpinDatabase {
     String listversion
     String exporterversion
     List<Rom> roms
+    Map<String, List<Rom>> romsByGenre
     File db
 
     HyperSpinDatabase load(File db, Closure filter = null) {
@@ -24,6 +25,13 @@ class HyperSpinDatabase {
         exporterversion = menu.exporterversion.text()
 
         roms = loadRoms(menu, filter)
+        return this
+    }
+
+    HyperSpinDatabase loadGenres() {
+        if (db) {
+            romsByGenre = loadGenres(db.parentFile)
+        }
         return this
     }
 
@@ -57,13 +65,45 @@ class HyperSpinDatabase {
 
         return genre
     }
+
+    void validateGenres() {
+        if (romsByGenre == null) {
+            println "Validating: ${db.parent}/Genre.xml not found."
+            return
+        } else {
+            println "Validating: ${db.parent}/Genre.xml..."
+        }
+        Set<String> allRoms = roms.name as Set
+        romsByGenre.each { String genre, List<Rom> roms ->
+            if (roms == null) {
+                println "Error: genre ${genre}.xml is not found"
+                return
+            }
+            Set<String> genreRoms = roms.name as Set
+            Set<String> unknownGenreRoms = (genreRoms - allRoms)
+            if (unknownGenreRoms) {
+                println "Error: genre ${genre} use these unknown roms: ${unknownGenreRoms}"
+            }
+        }
+        Set<String> allGenreRoms = romsByGenre.values().name.flatten() as Set
+        Set<String> romsWithoutGenre = allRoms - allGenreRoms
+        if (romsWithoutGenre) {
+            println "Warning: these roms are not in any genre: ${romsWithoutGenre}"
+        }
+    }
+
     static void writeGenres(Map<String, List<Rom>> romsByGenre, File folder, Map headers = [:]) {
         Map<String, List<Rom>> romsByGenreClean = new LinkedHashMap<>()
 
         romsByGenre.each { Map.Entry<String, List<Rom>> entry ->
             if (entry.value) {
                 // Clean the empty genres, if any
-                romsByGenreClean[cleanGenre.call(entry.key)] = entry.value
+                String genreGood = cleanGenre.call(entry.key)
+                if (romsByGenreClean[genreGood]) {
+                    romsByGenreClean[genreGood].addAll(entry.value)
+                } else {
+                    romsByGenreClean[genreGood] = entry.value
+                }
             }
         }
         if (!romsByGenreClean || romsByGenreClean.size() == 1) {
@@ -71,24 +111,25 @@ class HyperSpinDatabase {
             return
         }
         StringBuffer genreContent = new StringBuffer()
-        romsByGenreClean.keySet().sort().each {
-            genreContent << "  <game name=\"${it}\"/>\n"
+        romsByGenreClean.keySet().sort().each { String genre ->
+            genreContent << "  <game name=\"${StringHelper.escapeXmlValue(genre, true, true)}\"/>\n"
         }
         if (!folder.exists()) folder.mkdirs()
-        new File(folder, "genre.xml").text = "<menu>\n${genreContent}</menu>"
+        new File(folder, "Genre.xml").text = "<menu>\n${genreContent}</menu>"
 
         romsByGenreClean.each { String genre, List<Rom> genreRoms ->
             write(genreRoms, new File(folder, "${StringHelper.unescapeHTML(genre)}.xml"), headers)
         }
     }
 
-    static void fixDatabase(File db, File dst = null, Closure genreCondition = null) {
+    static HyperSpinDatabase rewriteDatabase(File db, File dst = null, Closure genreCondition = null) {
         HyperSpinDatabase hyperSpinDatabase = new HyperSpinDatabase()
         hyperSpinDatabase.load(db)
-        fixDatabase(hyperSpinDatabase, dst, genreCondition)
+        rewriteDatabase(hyperSpinDatabase, dst, genreCondition)
+        return hyperSpinDatabase
     }
 
-    static void fixDatabase(HyperSpinDatabase hyperSpinDatabase, File dst = null, Closure genreCondition = null) {
+    static void rewriteDatabase(HyperSpinDatabase hyperSpinDatabase, File dst = null, Closure genreCondition = null) {
         if (!dst) dst = hyperSpinDatabase.db.parentFile
         hyperSpinDatabase.export(new File(dst, hyperSpinDatabase.db.name))
         if (genreCondition) {
@@ -101,8 +142,8 @@ class HyperSpinDatabase {
     }
 
     static List<Rom> loadRoms(File db, Closure filter = null) {
-        Node menu = new XmlParser().parseText(db.text)
-        return loadRoms(menu)
+        Node menu = new XmlParser().parse(db)
+        return loadRoms(menu, filter)
     }
 
     static List<Rom> loadRoms(Node menu, Closure filter = null) {
@@ -119,9 +160,21 @@ class HyperSpinDatabase {
     static void write(List<Rom> roms, String file, Map header = [:]) {
         write(roms, new File(file).newWriter(), header)
     }
+
     static void write(List<Rom> roms, File file, Map header = [:]) {
         file.parentFile.mkdirs()
         write(roms, file.newWriter(), header)
+    }
+
+    static Map<String, List<Rom>> loadGenres(File folder) {
+        File mainGenreFile = new File(folder, "Genre.xml")
+        if (!mainGenreFile.exists()) return null
+        Map<String, List<Rom>> romsByGenre = new LinkedHashMap<>()
+        listRomNames(mainGenreFile).each { String genre ->
+            File genreFile = new File(folder, "${genre}.xml")
+            romsByGenre[genre] = genreFile.exists() ? loadRoms(genreFile) : null
+        }
+        return romsByGenre
     }
 
     static void write(List<Rom> roms, Writer writer, Map headers = [:]) {
@@ -131,6 +184,7 @@ class HyperSpinDatabase {
         mb.menu {
             setOmitNullAttributes(true)
             setDoubleQuotes(true)
+            setEscapeAttributes(true)
             header {
                 if (headers.listname) listname(headers.listname)
                 if (headers.listversion) listversion(headers.listversion)

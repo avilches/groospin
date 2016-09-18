@@ -139,7 +139,7 @@ class HyperSpin {
         if (!db.exists()) {
             return [] // throw new FileNotFoundException("${systemName} menu not found in ${db.absolutePath}")
         }
-        Node menu = new XmlParser().parseText(db.text)
+        Node menu = new XmlParser().parse(db.newReader())
         return menu.game.collect(filter).findAll()
     }
 
@@ -224,15 +224,7 @@ check(systemName, getGamesFromSystem(systemName))
 
     List<String> listGenres(String systemName) {
         File genres = findHyperSpinFile("Databases/${systemName}/genre.xml")
-        if (!genres?.exists()) return null
-        try {
-            Node menu = new XmlParser().parseText(genres.text)
-            return menu.game.collect { Node node ->
-                return node.@name
-            }
-        } catch (e) {
-            e.printStackTrace()
-        }
+        HyperSpinDatabase.listRomNames(genres)
     }
 }
 
