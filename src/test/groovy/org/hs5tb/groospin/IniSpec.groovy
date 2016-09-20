@@ -1,6 +1,7 @@
 package org.hs5tb.groospin
 
 import org.hs5tb.groospin.common.Ini
+import org.hs5tb.groospin.common.IniFile
 import spock.lang.Specification
 import spock.lang.Unroll
 
@@ -60,7 +61,7 @@ class IniSpec extends Specification {
         iniFile.exists()
 
         when:
-        Ini ini = new Ini().parse(iniFile, section)
+        Ini ini = new IniFile().parse(iniFile)
 
         then:
         ini.getSection(section) == result
@@ -107,8 +108,8 @@ class IniSpec extends Specification {
         childFile.exists()
 
         when:
-        Ini ini = new Ini().parse(childFile)
-        ini.parent = new Ini().parse(iniFile)
+        Ini ini = new IniFile().parse(childFile)
+        ini.parent = new IniFile().parse(iniFile)
 
         then:
         ini.getSection(section) == result

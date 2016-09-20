@@ -19,7 +19,8 @@ abstract class HSSpecification extends Specification {
      }
 
     File createResource(String path) {
-        new File(rootTestResources+path).canonicalFile
+        if (path.startsWith("/")) return new File(path)
+        else new File(rootTestResources, path).canonicalFile
     }
 
 }

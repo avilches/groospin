@@ -101,6 +101,10 @@ class RLSystem {
         }
     }
 
+    Rom findRom(String name) {
+        listRomNames([name])
+    }
+
     List<Rom> listRoms(Collection<String> names = null) {
         return hyperSpin.listRoms(name, names)
     }

@@ -1,6 +1,7 @@
 package org.hs5tb.groospin
 
 import org.hs5tb.groospin.base.HyperSpin
+import org.hs5tb.groospin.base.Rom
 import org.hs5tb.groospin.checker.result.CheckResult
 import org.hs5tb.groospin.checker.result.CheckRomResult
 import org.hs5tb.groospin.checker.result.CheckTotalResult
@@ -102,7 +103,8 @@ class CheckerSpec extends HSSpecification {
         checkResult.exes == EXES
 
         when:
-        CheckRomResult checkRomResult = checker.checkRom(hs.getSystem("mugen"), ROM)
+        Rom rom = hs.getSystem("mugen").listRoms([ROM])[0]
+        CheckRomResult checkRomResult = checker.romChecker.check(hs.getSystem("mugen"), rom)
 
         then:
         checkRomResult.romName == ROM
