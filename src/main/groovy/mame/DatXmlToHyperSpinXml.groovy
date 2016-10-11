@@ -43,8 +43,7 @@ class DatXmlToHyperSpinXml {
     }
 
     static List<MameMachine> load(String datFileName, String catVerFileName, String extraInfo, Closure filter = ONLY_PLAYABLE_GAMES) {
-        Node dat = MameMachine.parseDat(datFileName)
-        List<MameMachine> roms = MameMachine.loadRoms(dat)
+        List<MameMachine> roms = MameMachine.loadRoms(new File(datFileName))
         if (catVerFileName) {
             MameMachineUpdater.loadCatVer(roms, new File(catVerFileName))
         }
