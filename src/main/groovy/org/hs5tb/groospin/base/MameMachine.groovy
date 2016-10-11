@@ -20,6 +20,9 @@ class MameMachine extends Rom {
 
     String romof
 
+    Set roms = new HashSet()
+    Set disks = new HashSet()
+
     int players
 
     boolean working = true
@@ -98,6 +101,13 @@ class MameMachine extends Rom {
 
         if (!manufacturer || manufacturer.startsWith("?") || manufacturer.startsWith("<")) {
             manufacturer = "Unknown"
+        }
+
+        if (machine.rom.size() > 0) {
+            roms.addAll(machine.rom.@name)
+        }
+        if (machine.disk.size() > 0) {
+            disks.addAll(machine.disk.@name)
         }
 
         return this
