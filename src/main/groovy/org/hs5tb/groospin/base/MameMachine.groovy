@@ -113,6 +113,11 @@ class MameMachine extends Rom {
         return this
     }
 
+    boolean isArcadeCabinetControls() {
+        joystick && // josytick enabled
+                !lightgun && !gambling && !hanafuda && !mahjong && !paddle && !dial && !pedal && !keyboard && !keypad && !mouse && !trackball
+    }
+
     static Closure machineIsWorkingCondition = { MameMachine rom ->
         // Rules as offical MAME.xml from HyperSpin
         /*
