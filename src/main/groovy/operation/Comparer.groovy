@@ -13,8 +13,13 @@ class Comparer {
     }
 
     static void printDifferences(String one, String other) {
-        Set oneGames = HyperSpinDatabase.listRomNames(new File(one)) as LinkedHashSet
-        Set otherGames = HyperSpinDatabase.listRomNames(new File(other)) as LinkedHashSet
+        def fileOne = new File(one)
+        def fileOther = new File(other)
+        if (!fileOne.exists()) println "* File not found: ${fileOne}"
+        if (!fileOther.exists()) println "* File not found: ${fileOther}"
+        if (!fileOne.exists() || !fileOther.exists()) return
+        Set oneGames = HyperSpinDatabase.listRomNames(fileOne) as LinkedHashSet
+        Set otherGames = HyperSpinDatabase.listRomNames(fileOther) as LinkedHashSet
         Set oneMore = oneGames - otherGames
         Set otherMore = otherGames - oneGames
         println "${one} = ${oneGames.size()} (+${oneMore.size()}): ${oneMore}"
