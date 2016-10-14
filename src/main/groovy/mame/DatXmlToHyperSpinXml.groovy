@@ -34,7 +34,7 @@ import org.hs5tb.groospin.common.Ini
 class DatXmlToHyperSpinXml {
 
     static Closure ONLY_PLAYABLE_GAMES = { MameMachine rom ->
-        !rom.mechanical &&
+        rom.playable &&
         !rom.catVerCat?.contains("Electromechanical") &&
         !rom.catVerCat?.contains("Util") && !rom.genre?.contains("Util")
     }
