@@ -55,20 +55,20 @@ class MameMachineUpdater {
 
     static loadCatVer(List<MameMachine> roms, Ini catVer, boolean fixCategories = true) {
         roms.each { MameMachine rom ->
-            String category = catVer.get("category", rom.name)
+            String category = catVer.get("Category", rom.name)
             if (category?.contains("* Mature *")) {
                 category = (category - "* Mature *").trim()
                 rom.catVerMature = true
             }
             rom.catVerCat = category
-            String version = catVer.get("veradded", rom.name)
+            String version = catVer.get("VerAdded", rom.name)
             rom.catVerVersion = version
         }
         if (fixCategories) {
             roms.each { MameMachine rom ->
                 if (!rom.catVerCat) {
                     if (rom.cloneof) {
-                        String cloneOfCategory = catVer.get("category", rom.cloneof)
+                        String cloneOfCategory = catVer.get("Category", rom.cloneof)
                         if (cloneOfCategory?.contains("* Mature *")) {
                             cloneOfCategory = (cloneOfCategory - "* Mature *").trim()
                         }
