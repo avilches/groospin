@@ -1,7 +1,4 @@
 package org.hs5tb.groospin.base
-
-import org.hs5tb.groospin.common.Ini
-
 /**
  * Created by Alberto on 01-Sep-16.
  */
@@ -24,11 +21,14 @@ class MameMachine extends Rom {
     Set disks = new HashSet()
 
     int players
+    int buttons
 
     boolean working = true
 
-    boolean joystick
+    boolean joy
+    boolean stick
     boolean doublejoy
+
     boolean lightgun
 
     boolean paddle
@@ -37,7 +37,6 @@ class MameMachine extends Rom {
 
     boolean trackball
     boolean mouse
-
 
     boolean keypad
     boolean keyboard
@@ -65,6 +64,7 @@ class MameMachine extends Rom {
         manufacturer = machine.manufacturer.text()
         year = machine.year.text()
         players = (machine.input[0].@players?:0) as int
+        buttons = (machine.input[0].@buttons?:0) as int
         driverStatus = machine.driver[0].@status
         emulationStatus = machine.driver[0].@emulation
         colorStatus = machine.driver[0].@color
@@ -73,7 +73,8 @@ class MameMachine extends Rom {
 
         controls = machine.input[0].control.@type
 
-        joystick = controls.contains("joy") || controls.contains("stick") || controls.contains("doublejoy")
+        joy = controls.contains("joy")
+        stick = controls.contains("stick")
         doublejoy = controls.contains("doublejoy")
 
         lightgun = controls.contains("lightgun")
@@ -95,7 +96,7 @@ class MameMachine extends Rom {
         int rotate = (machine.display[0]?.@rotate?:0) as int
         vertical = rotate == 90 || rotate == 270
 
-        playable = working && !mechanical && controls && players  // more than 1 control and 1 player at least
+        playable = !mechanical && players && (controls || buttons)
 
         working = machineIsWorkingCondition.call(this)
 
@@ -113,9 +114,16 @@ class MameMachine extends Rom {
         return this
     }
 
-    boolean isArcadeCabinetControls() {
-        joystick && // josytick enabled
-                !lightgun && !gambling && !hanafuda && !mahjong && !paddle && !dial && !pedal && !keyboard && !keypad && !mouse && !trackball
+    boolean hasJoystick() {
+        (joy || stick || doublejoy || dial)
+    }
+
+    boolean hasBall() {
+        mouse || trackball
+    }
+
+    boolean hasKeyboard() {
+        keyboard || keypad
     }
 
     static Closure machineIsWorkingCondition = { MameMachine rom ->
