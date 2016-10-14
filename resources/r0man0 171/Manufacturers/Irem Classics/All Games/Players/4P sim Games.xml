@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Irem / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="atompunk" index="" image="">
+	<description>Atomic Punk (US)</description>
+	<cloneof>dynablst</cloneof>
+	<crc/>
+	<manufacturer>Irem America (licensed from Hudson Soft)</manufacturer>
+	<year>1991</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bbmanw" index="" image="">
+	<description>Bomber Man World / New Dyna Blaster - Global Quest</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1992</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bbmanwj" index="" image="">
+	<description>Bomber Man World (Japan)</description>
+	<cloneof>bbmanw</cloneof>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1992</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bbmanwja" index="" image="">
+	<description>Bomber Man World (Japan, revised sound hardware)</description>
+	<cloneof>bbmanw</cloneof>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1992</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dsoccr94" index="" image="">
+	<description>Dream Soccer &apos;94 (World, M107 hardware)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem (Data East Corporation license)</manufacturer>
+	<year>1994</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dynablst" index="" image="">
+	<description>Dynablaster / Bomber Man</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem (licensed from Hudson Soft)</manufacturer>
+	<year>1991</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hook" index="" image="">
+	<description>Hook (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hookj" index="" image="">
+	<description>Hook (Japan)</description>
+	<cloneof>hook</cloneof>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hooku" index="" image="">
+	<description>Hook (US)</description>
+	<cloneof>hook</cloneof>
+	<crc/>
+	<manufacturer>Irem America</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="leaguemn" index="" image="">
+	<description>Yakyuu Kakutou League-Man (Japan)</description>
+	<cloneof>nbbatman</cloneof>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nbbatman" index="" image="">
+	<description>Ninja Baseball Bat Man (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nbbatmanu" index="" image="">
+	<description>Ninja Baseball Bat Man (US)</description>
+	<cloneof>nbbatman</cloneof>
+	<crc/>
+	<manufacturer>Irem America</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="newapunk" index="" image="">
+	<description>New Atomic Punk - Global Quest (US)</description>
+	<cloneof>bbmanw</cloneof>
+	<crc/>
+	<manufacturer>Irem America</manufacturer>
+	<year>1992</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Driving / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="crzrallya" index="" image="">
+	<description>Crazy Rally (set 2)</description>
+	<cloneof>crzrally</cloneof>
+	<crc/>
+	<manufacturer>Tecfri</manufacturer>
+	<year>1985</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gekisou" index="" image="">
+	<description>Gekisou (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Eastern Corp.</manufacturer>
+	<year>1985</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

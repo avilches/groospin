@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2000-2009 / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="1944" index="" image="">
+	<description>1944: The Loop Master (USA 000620)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Eighting / Raizing (Capcom license)</manufacturer>
+	<year>2000</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="1944j" index="" image="">
+	<description>1944: The Loop Master (Japan 000620)</description>
+	<cloneof>1944</cloneof>
+	<crc/>
+	<manufacturer>Eighting / Raizing (Capcom license)</manufacturer>
+	<year>2000</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

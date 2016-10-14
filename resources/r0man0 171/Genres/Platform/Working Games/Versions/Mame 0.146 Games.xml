@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Platform / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="chamburger" index="" image="">
+	<description>Hamburger (DECO Cassette, Japan)</description>
+	<cloneof>cbtime</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="exprraidi" index="" image="">
+	<description>Express Raider (Italy)</description>
+	<cloneof>exprraid</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jujub" index="" image="">
+	<description>JuJu Densetsu (Playmark bootleg)</description>
+	<cloneof>toki</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Playmark)</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jumppope" index="" image="">
+	<description>Jumping Pop (set 2)</description>
+	<cloneof>jumppop</cloneof>
+	<crc/>
+	<manufacturer>Emag Soft</manufacturer>
+	<year>2001</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trojana" index="" image="">
+	<description>Trojan (US set 2)</description>
+	<cloneof>trojan</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

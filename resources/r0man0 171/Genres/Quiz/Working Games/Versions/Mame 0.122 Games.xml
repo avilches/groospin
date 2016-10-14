@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Quiz / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="promutrvc" index="" image="">
+	<description>Progressive Music Trivia (Question set 4)</description>
+	<cloneof>promutrv</cloneof>
+	<crc/>
+	<manufacturer>Enerdyne Technologies Inc.</manufacturer>
+	<year>1985</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qos" index="" image="">
+	<description>A Question of Sport (set 1, 39-960-107)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>1992</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trivia12" index="" image="">
+	<description>Trivial Pursuit (Think Tank - Genus Edition) (12/14/84)</description>
+	<cloneof>triviag1</cloneof>
+	<crc/>
+	<manufacturer>Bally/Sente</manufacturer>
+	<year>1984</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Capcom / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="1943kai" index="" image="">
+	<description>1943 Kai: Midway Kaisen (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blkdrgon" index="" image="">
+	<description>Black Dragon (Japan)</description>
+	<cloneof>blktiger</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gunsmokej" index="" image="">
+	<description>Gun.Smoke (Japan, 851115)</description>
+	<cloneof>gunsmoke</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gunsmokeu" index="" image="">
+	<description>Gun.Smoke (US, 860408)</description>
+	<cloneof>gunsmoke</cloneof>
+	<crc/>
+	<manufacturer>Capcom (Romstar license)</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gunsmokeub" index="" image="">
+	<description>Gun.Smoke (US, 851115, set 2)</description>
+	<cloneof>gunsmoke</cloneof>
+	<crc/>
+	<manufacturer>Capcom (Romstar license)</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lwingsj" index="" image="">
+	<description>Ares no Tsubasa (Japan)</description>
+	<cloneof>lwings</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

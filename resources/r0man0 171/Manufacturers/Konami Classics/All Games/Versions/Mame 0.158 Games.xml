@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Konami / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="overdriv" index="" image="">
+	<description>Over Drive (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="overdrivb" index="" image="">
+	<description>Over Drive (set 3)</description>
+	<cloneof>overdriv</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="popn3" index="" image="">
+	<description>Pop&apos;n Music 3 (ver JA-A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

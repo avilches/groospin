@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Mini-Games / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="konam80j" index="" image="">
+	<description>Konami 80&apos;s Gallery (GC826 VER. JAA)</description>
+	<cloneof>konam80s</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="konam80s" index="" image="">
+	<description>Konami 80&apos;s AC Special (GC826 VER. EAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

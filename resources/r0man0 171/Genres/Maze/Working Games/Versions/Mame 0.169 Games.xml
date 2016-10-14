@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Maze / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="anteatergg" index="" image="">
+	<description>Ameisenbaer (German, Galaxian hardware)</description>
+	<cloneof>anteater</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="knockoutb" index="" image="">
+	<description>Knock Out!! (bootleg, set 2)</description>
+	<cloneof>triplep</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="schaserm" index="" image="">
+	<description>Space Chaser (Model Racing bootleg)</description>
+	<cloneof>schaser</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Model Racing)</manufacturer>
+	<year>1979</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

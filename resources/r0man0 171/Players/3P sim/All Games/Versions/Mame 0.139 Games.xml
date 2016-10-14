@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>3P sim / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="knightsja" index="" image="">
+	<description>Knights of the Round (Japan 911127, B-Board 89625B-1)</description>
+	<cloneof>knights</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kodja" index="" image="">
+	<description>The King of Dragons (Japan 910805, B-Board 89625B-1)</description>
+	<cloneof>kod</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

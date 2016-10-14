@@ -1,0 +1,309 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Driving / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="280zzzap" index="" image="">
+	<description>280-ZZZAP</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dave Nutting Associates / Midway</manufacturer>
+	<year>1976</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arctthnd" index="" image="">
+	<description>Arctic Thunder (v1.002)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway Games</manufacturer>
+	<year>2001</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cartfury" index="" image="">
+	<description>Cart Fury</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway Games</manufacturer>
+	<year>2000</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crusnexo" index="" image="">
+	<description>Cruis&apos;n Exotica (version 2.4)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1999</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crusnexoa" index="" image="">
+	<description>Cruis&apos;n Exotica (version 2.0)</description>
+	<cloneof>crusnexo</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1999</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crusnexob" index="" image="">
+	<description>Cruis&apos;n Exotica (version 1.6)</description>
+	<cloneof>crusnexo</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1999</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crusnexoc" index="" image="">
+	<description>Cruis&apos;n Exotica (version 1.3)</description>
+	<cloneof>crusnexo</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1999</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crusnexod" index="" image="">
+	<description>Cruis&apos;n Exotica (version 1.0)</description>
+	<cloneof>crusnexo</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1999</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crusnusa" index="" image="">
+	<description>Cruis&apos;n USA (rev L4.1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crusnusa21" index="" image="">
+	<description>Cruis&apos;n USA (rev L2.1)</description>
+	<cloneof>crusnusa</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crusnusa40" index="" image="">
+	<description>Cruis&apos;n USA (rev L4.0)</description>
+	<cloneof>crusnusa</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crusnwld" index="" image="">
+	<description>Cruis&apos;n World (rev L2.5)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crusnwld13" index="" image="">
+	<description>Cruis&apos;n World (rev L1.3)</description>
+	<cloneof>crusnwld</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crusnwld17" index="" image="">
+	<description>Cruis&apos;n World (rev L1.7)</description>
+	<cloneof>crusnwld</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crusnwld19" index="" image="">
+	<description>Cruis&apos;n World (rev L1.9)</description>
+	<cloneof>crusnwld</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crusnwld20" index="" image="">
+	<description>Cruis&apos;n World (rev L2.0)</description>
+	<cloneof>crusnwld</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crusnwld23" index="" image="">
+	<description>Cruis&apos;n World (rev L2.3)</description>
+	<cloneof>crusnwld</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crusnwld24" index="" image="">
+	<description>Cruis&apos;n World (rev L2.4)</description>
+	<cloneof>crusnwld</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hydrthnd" index="" image="">
+	<description>Hydro Thunder</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway Games</manufacturer>
+	<year>1999</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hyprdriv" index="" image="">
+	<description>Hyperdrive</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway Games</manufacturer>
+	<year>1998</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lagunar" index="" image="">
+	<description>Laguna Racer</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1977</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="offroadc" index="" image="">
+	<description>Off Road Challenge (v1.63)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1997</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="offroadc1" index="" image="">
+	<description>Off Road Challenge (v1.10)</description>
+	<cloneof>offroadc</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1997</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="offroadc3" index="" image="">
+	<description>Off Road Challenge (v1.30)</description>
+	<cloneof>offroadc</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1997</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="offroadc4" index="" image="">
+	<description>Off Road Challenge (v1.40)</description>
+	<cloneof>offroadc</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1997</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="offroadc5" index="" image="">
+	<description>Off Road Challenge (v1.50)</description>
+	<cloneof>offroadc</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1997</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="offrthnd" index="" image="">
+	<description>Offroad Thunder</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway Games</manufacturer>
+	<year>2000</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sspeedr" index="" image="">
+	<description>Super Speed Race</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1979</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ultarctc" index="" image="">
+	<description>Ultimate Arctic Thunder</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway Games</manufacturer>
+	<year>2001</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ultarctcup" index="" image="">
+	<description>Ultimate Arctic Thunder Update CD ver 1.950 (5/3/04)</description>
+	<cloneof>ultarctc</cloneof>
+	<crc/>
+	<manufacturer>Midway Games</manufacturer>
+	<year>2004</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

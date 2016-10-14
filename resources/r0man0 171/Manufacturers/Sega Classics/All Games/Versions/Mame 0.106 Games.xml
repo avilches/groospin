@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Sega / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="mt_mlh" index="" image="">
+	<description>Mario Lemieux Hockey (Mega-Tech)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Hockey</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spacfuryb" index="" image="">
+	<description>Space Fury (revision B)</description>
+	<cloneof>spacfury</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

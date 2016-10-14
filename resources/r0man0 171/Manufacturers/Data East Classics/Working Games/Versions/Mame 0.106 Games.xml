@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Data East / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="hvysmsha" index="" image="">
+	<description>Heavy Smash (Asia version -4)</description>
+	<cloneof>hvysmsh</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Handball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="madalienb" index="" image="">
+	<description>Mad Alien (set 2, alt gfx)</description>
+	<cloneof>madalien</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

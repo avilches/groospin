@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2P sim / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="column2j" index="" image="">
+	<description>Columns II: The Voyage Through Time (Japan)</description>
+	<cloneof>columns2</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="robowres" index="" image="">
+	<description>Robo Wres 2001</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sanritsu / Sega</manufacturer>
+	<year>1986</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="robowresb" index="" image="">
+	<description>Robo Wres 2001 (bootleg)</description>
+	<cloneof>robowres</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1986</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tcobra2" index="" image="">
+	<description>Twin Cobra II (Ver 2.1O 1995/11/30)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1995</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tcobra2u" index="" image="">
+	<description>Twin Cobra II (Ver 2.1A 1995/11/30)</description>
+	<cloneof>tcobra2</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1995</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vsnetscrj" index="" image="">
+	<description>Versus Net Soccer (ver JAB)</description>
+	<cloneof>vsnetscr</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

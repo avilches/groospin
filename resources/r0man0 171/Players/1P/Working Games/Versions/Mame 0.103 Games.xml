@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1P / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="armchmp2o" index="" image="">
+	<description>Arm Champs II v1.7</description>
+	<cloneof>armchmp2</cloneof>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1992</year>
+	<genre>Sports</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cardline" index="" image="">
+	<description>Card Line</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Veltmeijer</manufacturer>
+	<year>199?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="critcrsh" index="" image="">
+	<description>Critter Crusher (EA 951204 V1.000)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1995</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dyndukej" index="" image="">
+	<description>Dynamite Duke (Japan)</description>
+	<cloneof>dynduke</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="garogun" index="" image="">
+	<description>Garogun Seroyang (Korea)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Yun Sung</manufacturer>
+	<year>2000</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gldncrwn" index="" image="">
+	<description>Golden Crown (Dutch, Game Card 95-752-011)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM/ELAM</manufacturer>
+	<year>1997</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="go2000" index="" image="">
+	<description>Go 2000</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SunA?</manufacturer>
+	<year>2000</year>
+	<genre>Board Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="klondkp" index="" image="">
+	<description>KlonDike+</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Eolith</manufacturer>
+	<year>1999</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjdchuka" index="" image="">
+	<description>Mahjong The Dai Chuuka Ken (China, D111)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dynax</manufacturer>
+	<year>1995</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjmyster" index="" image="">
+	<description>Mahjong The Mysterious World (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dynax</manufacturer>
+	<year>1994</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pyramid" index="" image="">
+	<description>Pyramid (Dutch, Game Card 95-750-898)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM/ELAM</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qntoond" index="" image="">
+	<description>Quintoon (Dutch, Game Card 95-750-243)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM/ELAM</manufacturer>
+	<year>1993</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qntoondo" index="" image="">
+	<description>Quintoon (Dutch, Game Card 95-750-136)</description>
+	<cloneof>qntoond</cloneof>
+	<crc/>
+	<manufacturer>BFM/ELAM</manufacturer>
+	<year>1993</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quintono" index="" image="">
+	<description>Quintoon (UK, Game Card 95-750-203)</description>
+	<cloneof>quintoon</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>1993</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rockn2" index="" image="">
+	<description>Rock&apos;n Tread 2 (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1999</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rockn3" index="" image="">
+	<description>Rock&apos;n 3 (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1999</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rockn4" index="" image="">
+	<description>Rock&apos;n 4 (Japan, prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco / PCCWJ</manufacturer>
+	<year>2000</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rockna" index="" image="">
+	<description>Rock&apos;n Tread (Japan, alternate)</description>
+	<cloneof>rockn</cloneof>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1999</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sltblgp1" index="" image="">
+	<description>Slots (Belgian Cash, Game Card 95-752-008)</description>
+	<cloneof>sltblgpo</cloneof>
+	<crc/>
+	<manufacturer>BFM/ELAM</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sltblgpo" index="" image="">
+	<description>Slots (Belgian Cash, Game Card 95-750-938)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM/ELAM</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sltblgtk" index="" image="">
+	<description>Slots (Belgian Token, Game Card 95-750-943)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM/ELAM</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

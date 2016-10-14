@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>4P sim / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="carpolo" index="" image="">
+	<description>Car Polo</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Exidy</manufacturer>
+	<year>1977</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dassault4" index="" image="">
+	<description>Desert Assault (US 4 Players)</description>
+	<cloneof>thndzone</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dungeonm" index="" image="">
+	<description>Dungeon Magic (Ver 2.1O 1994/02/18)</description>
+	<cloneof>lightbr</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1993</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dungeonmu" index="" image="">
+	<description>Dungeon Magic (Ver 2.1A 1994/02/18)</description>
+	<cloneof>lightbr</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov" index="" image="">
+	<description>Knights of Valour / Sangoku Senki (ver. 117)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov115" index="" image="">
+	<description>Knights of Valour / Sangoku Senki (ver. 115)</description>
+	<cloneof>kov</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kovplus" index="" image="">
+	<description>Knights of Valour Plus / Sangoku Senki Plus (ver. 119, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="orlegend" index="" image="">
+	<description>Oriental Legend / Xi You Shi E Zhuan (ver. 126)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="orlegendc" index="" image="">
+	<description>Oriental Legend / Xi You Shi E Zhuan (ver. 112, Chinese Board)</description>
+	<cloneof>orlegend</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thndzonea" index="" image="">
+	<description>Thunder Zone (World)</description>
+	<cloneof>thndzone</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

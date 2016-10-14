@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Seibu Kaihatsu / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="batlball" index="" image="">
+	<description>Battle Balls (Germany)</description>
+	<cloneof>senkyu</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Tuning license)</manufacturer>
+	<year>1995</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="batlballa" index="" image="">
+	<description>Battle Balls (Hong Kong)</description>
+	<cloneof>senkyu</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Metrotainment license)</manufacturer>
+	<year>1995</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ejanhs" index="" image="">
+	<description>E-Jan High School (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>1996</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nzeroteam" index="" image="">
+	<description>New Zero Team (V33 SYSTEM TYPE_B hardware)</description>
+	<cloneof>zeroteam</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Haoyunlai Trading Company license)</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="r2dx_v33" index="" image="">
+	<description>Raiden II New / Raiden DX (newer V33 PCB) (Raiden DX EEPROM)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>1996</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="raiden2e" index="" image="">
+	<description>Raiden II (easy version, Korea?)</description>
+	<cloneof>raiden2</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>1993</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="raiden2hk" index="" image="">
+	<description>Raiden II (Hong Kong)</description>
+	<cloneof>raiden2</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Metrotainment license)</manufacturer>
+	<year>1993</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="raiden2j" index="" image="">
+	<description>Raiden II (Japan)</description>
+	<cloneof>raiden2</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>1993</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="raidendxa1" index="" image="">
+	<description>Raiden DX (Hong Kong, set 1)</description>
+	<cloneof>raidendx</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Metrotainment license)</manufacturer>
+	<year>1994</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="raidendxg" index="" image="">
+	<description>Raiden DX (Germany)</description>
+	<cloneof>raidendx</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Tuning license)</manufacturer>
+	<year>1994</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="raidendxk" index="" image="">
+	<description>Raiden DX (Korea)</description>
+	<cloneof>raidendx</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>1994</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rdft22kc" index="" image="">
+	<description>Raiden Fighters 2 - Operation Hell Dive 2000 (China, SYS386I)</description>
+	<cloneof>rdft2</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>2000</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rdft2a" index="" image="">
+	<description>Raiden Fighters 2 - Operation Hell Dive (Hong Kong)</description>
+	<cloneof>rdft2</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Metrotainment license)</manufacturer>
+	<year>1997</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rdft2us" index="" image="">
+	<description>Raiden Fighters 2 - Operation Hell Dive (US, single board)</description>
+	<cloneof>rdft2</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Fabtek license)</manufacturer>
+	<year>1997</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rdftj" index="" image="">
+	<description>Raiden Fighters (Japan set 1)</description>
+	<cloneof>rdft</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>1996</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="senkyu" index="" image="">
+	<description>Senkyu (Japan set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>1995</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="viprp1j" index="" image="">
+	<description>Viper Phase 1 (New Version, Japan)</description>
+	<cloneof>viprp1</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>1995</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="viprp1oj" index="" image="">
+	<description>Viper Phase 1 (Japan)</description>
+	<cloneof>viprp1</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>1995</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

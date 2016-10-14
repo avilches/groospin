@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Shoot- / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="bombsa" index="" image="">
+	<description>Bombs Away (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="daikaiju" index="" image="">
+	<description>Daikaiju no Gyakushu</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hrdtimes" index="" image="">
+	<description>Hard Times (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Playmark</manufacturer>
+	<year>1994</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="madalienb" index="" image="">
+	<description>Mad Alien (set 2, alt gfx)</description>
+	<cloneof>madalien</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spacfuryb" index="" image="">
+	<description>Space Fury (revision B)</description>
+	<cloneof>spacfury</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="turtship" index="" image="">
+	<description>Turtle Ship (North America)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Philko (Sharp Image license)</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="turtshipj" index="" image="">
+	<description>Turtle Ship (Japan)</description>
+	<cloneof>turtship</cloneof>
+	<crc/>
+	<manufacturer>Philko (Pacific Games license)</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

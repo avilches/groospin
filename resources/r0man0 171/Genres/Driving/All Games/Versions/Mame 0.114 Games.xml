@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Driving / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="code1d" index="" image="">
+	<description>Code One Dispatch (ver D)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="code1db" index="" image="">
+	<description>Code One Dispatch (ver B)</description>
+	<cloneof>code1d</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gticlub2" index="" image="">
+	<description>GTI Club 2 (ver JAB)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2001</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racinfrc" index="" image="">
+	<description>Racin&apos; Force (ver EAC)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thrild2" index="" image="">
+	<description>Thrill Drive 2 (ver EBB)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2001</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thrild2a" index="" image="">
+	<description>Thrill Drive 2 (ver AAA)</description>
+	<cloneof>thrild2</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2001</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xtrial" index="" image="">
+	<description>Xtrial Racing (ver JAB)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2002</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

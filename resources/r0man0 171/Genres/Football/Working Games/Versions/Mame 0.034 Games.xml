@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Football / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="fbfrenzy" index="" image="">
+	<description>Football Frenzy (NGM-034)(NGH-034)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1992</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gridiron" index="" image="">
+	<description>Gridiron Fight</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Tehkan</manufacturer>
+	<year>1985</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hiimpact3" index="" image="">
+	<description>High Impact Football (rev LA3 12/27/90)</description>
+	<cloneof>hiimpact</cloneof>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1990</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shimpact" index="" image="">
+	<description>Super High Impact (rev LA1 09/30/91)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1991</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

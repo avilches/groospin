@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Midway / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="crusnwld24" index="" image="">
+	<description>Cruis&apos;n World (rev L2.4)</description>
+	<cloneof>crusnwld</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wwfmaniab" index="" image="">
+	<description>WWF: Wrestlemania (rev 1.20 08/02/95)</description>
+	<cloneof>wwfmania</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1995</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

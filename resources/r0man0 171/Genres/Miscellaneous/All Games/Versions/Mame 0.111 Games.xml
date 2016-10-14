@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Miscellaneous / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="2mindril" index="" image="">
+	<description>Two Minute Drill</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1993</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="backgamn" index="" image="">
+	<description>Backgammon</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>ADP</manufacturer>
+	<year>1990</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dharmak" index="" image="">
+	<description>Dharma Doujou (Korea)</description>
+	<cloneof>dharma</cloneof>
+	<crc/>
+	<manufacturer>Metro</manufacturer>
+	<year>1994</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pangofun" index="" image="">
+	<description>Pango Fun (Italy)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>InfoCube</manufacturer>
+	<year>1995</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

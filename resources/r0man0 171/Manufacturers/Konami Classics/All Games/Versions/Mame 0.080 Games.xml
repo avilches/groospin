@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Konami / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="hyperath" index="" image="">
+	<description>Hyper Athlete (GV021 Japan 1.00)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lethalen" index="" image="">
+	<description>Lethal Enforcers (ver UAE, 11/19/92 15:04)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lethalenj" index="" image="">
+	<description>Lethal Enforcers (ver JAD, 12/04/92 17:16)</description>
+	<cloneof>lethalen</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="powyak96" index="" image="">
+	<description>Jikkyou Powerful Pro Yakyuu &apos;96 (GV017 Japan 1.03)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scotrsht" index="" image="">
+	<description>Scooter Shooter</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="simpbowl" index="" image="">
+	<description>Simpsons Bowling (GQ829 UAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="susume" index="" image="">
+	<description>Susume! Taisen Puzzle-Dama (GV027 Japan 1.20)</description>
+	<cloneof>lacrazyc</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="weddingr" index="" image="">
+	<description>Wedding Rhapsody (GX624 JAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1997</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

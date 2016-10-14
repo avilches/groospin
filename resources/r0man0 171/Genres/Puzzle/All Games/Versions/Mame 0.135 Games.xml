@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Puzzle / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="sgtetris" index="" image="">
+	<description>Sega Tetris</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1999</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spf2th" index="" image="">
+	<description>Super Puzzle Fighter II Turbo (Hispanic 960531)</description>
+	<cloneof>spf2t</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

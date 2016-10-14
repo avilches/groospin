@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1P / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="apache3" index="" image="">
+	<description>Apache 3</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Tatsumi</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="daytona" index="" image="">
+	<description>Daytona USA (Japan, Revision A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="daytonam" index="" image="">
+	<description>Daytona USA (Japan, To The MAXX)</description>
+	<cloneof>daytona</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="daytonat" index="" image="">
+	<description>Daytona USA (Japan, Turbo hack, set 1)</description>
+	<cloneof>daytona</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="manxttc" index="" image="">
+	<description>Manx TT Superbike - Twin (Revision C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1995</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="roundup5" index="" image="">
+	<description>Round Up 5 - Super Delta Force</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Tatsumi</manufacturer>
+	<year>1989</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="srallyc" index="" image="">
+	<description>Sega Rally Championship - TWIN (Revision C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1995</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stcca" index="" image="">
+	<description>Sega Touring Car Championship (Revision A)</description>
+	<cloneof>stcc</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="topracern" index="" image="">
+	<description>Top Racer (no MB8841 + MB8842)</description>
+	<cloneof>polepos</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1982</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trucocl" index="" image="">
+	<description>Truco Clemente</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Miky SRL</manufacturer>
+	<year>1991</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vonj" index="" image="">
+	<description>Cyber Troopers Virtual-On (Japan, Revision B)</description>
+	<cloneof>von</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1996</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

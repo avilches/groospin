@@ -1,0 +1,239 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Puzzle / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="atetris" index="" image="">
+	<description>Tetris (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1988</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="atetrisa" index="" image="">
+	<description>Tetris (set 2)</description>
+	<cloneof>atetris</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1988</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="atetrisc" index="" image="">
+	<description>Tetris (cocktail set 1)</description>
+	<cloneof>atetris</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1989</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="atetrisc2" index="" image="">
+	<description>Tetris (cocktail set 2)</description>
+	<cloneof>atetris</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1989</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="freezeat" index="" image="">
+	<description>Freeze (Atari) (prototype, English voice, 96/10/25)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="freezeat2" index="" image="">
+	<description>Freeze (Atari) (prototype, 96/10/18)</description>
+	<cloneof>freezeat</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="freezeat3" index="" image="">
+	<description>Freeze (Atari) (prototype, 96/10/07)</description>
+	<cloneof>freezeat</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="freezeat4" index="" image="">
+	<description>Freeze (Atari) (prototype, 96/10/03)</description>
+	<cloneof>freezeat</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="freezeat5" index="" image="">
+	<description>Freeze (Atari) (prototype, 96/09/20, AMOA-96)</description>
+	<cloneof>freezeat</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="freezeat6" index="" image="">
+	<description>Freeze (Atari) (prototype, 96/09/07, Jamma-96)</description>
+	<cloneof>freezeat</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="freezeatjp" index="" image="">
+	<description>Freeze (Atari) (prototype, Japanese voice, 96/10/25)</description>
+	<cloneof>freezeat</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="klax" index="" image="">
+	<description>Klax (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1989</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="klax2" index="" image="">
+	<description>Klax (set 2)</description>
+	<cloneof>klax</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1989</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="klax3" index="" image="">
+	<description>Klax (set 3)</description>
+	<cloneof>klax</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1989</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="klaxd" index="" image="">
+	<description>Klax (Germany)</description>
+	<cloneof>klax</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1989</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="klaxj" index="" image="">
+	<description>Klax (Japan)</description>
+	<cloneof>klax</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1989</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="klaxp1" index="" image="">
+	<description>Klax (prototype set 1)</description>
+	<cloneof>klax</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1989</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="klaxp2" index="" image="">
+	<description>Klax (prototype set 2)</description>
+	<cloneof>klax</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1989</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quantum" index="" image="">
+	<description>Quantum (rev 2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>General Computer Corporation (Atari license)</manufacturer>
+	<year>1982</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quantum1" index="" image="">
+	<description>Quantum (rev 1)</description>
+	<cloneof>quantum</cloneof>
+	<crc/>
+	<manufacturer>General Computer Corporation (Atari license)</manufacturer>
+	<year>1982</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quantump" index="" image="">
+	<description>Quantum (prototype)</description>
+	<cloneof>quantum</cloneof>
+	<crc/>
+	<manufacturer>General Computer Corporation (Atari license)</manufacturer>
+	<year>1982</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qwak" index="" image="">
+	<description>Qwak (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1982</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sparkz" index="" image="">
+	<description>Sparkz (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1992</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

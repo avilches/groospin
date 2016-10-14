@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Midway / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="invasnab" index="" image="">
+	<description>Invasion - The Abductors (version 5.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1999</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="roadrunm" index="" image="">
+	<description>Road Runner (Midway)</description>
+	<cloneof>desertgu</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1977</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,469 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Mame / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="40love" index="" image="">
+	<description>Forty-Love</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cencourt" index="" image="">
+	<description>Center Court (World, 4 Players, prototype) (MC-8123B)</description>
+	<cloneof>passsht</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cptennis" index="" image="">
+	<description>Pro Tennis (DECO Cassette)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="csdtenis" index="" image="">
+	<description>Super Doubles Tennis (DECO Cassette, Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="csmash" index="" image="">
+	<description>Cosmic Smash (JPN, USA, EXP, KOR, AUS) (Rev A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2000</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="csmasho" index="" image="">
+	<description>Cosmic Smash (JPN, USA, EXP, KOR, AUS)</description>
+	<cloneof>csmash</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2000</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hstennis" index="" image="">
+	<description>Hot Shots Tennis (V1.1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Strata/Incredible Technologies</manufacturer>
+	<year>1990</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hstennis10" index="" image="">
+	<description>Hot Shots Tennis (V1.0)</description>
+	<cloneof>hstennis</cloneof>
+	<crc/>
+	<manufacturer>Strata/Incredible Technologies</manufacturer>
+	<year>1990</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mp_gslam" index="" image="">
+	<description>Grand Slam (Mega Play)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nss_aten" index="" image="">
+	<description>David Crane&apos;s Amazing Tennis (Nintendo Super System)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Absolute Entertainment Inc.</manufacturer>
+	<year>1992</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nss_sten" index="" image="">
+	<description>Super Tennis (Nintendo Super System)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1991</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="otwalls" index="" image="">
+	<description>Off the Wall (Sente)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally/Sente</manufacturer>
+	<year>1984</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="passht4b" index="" image="">
+	<description>Passing Shot (4 Players) (bootleg)</description>
+	<cloneof>passsht</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1988</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="passsht" index="" image="">
+	<description>Passing Shot (World, 2 Players) (FD1094 317-0080)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="passsht16a" index="" image="">
+	<description>Passing Shot (Japan, 4 Players, System 16A) (FD1094 317-0071)</description>
+	<cloneof>passsht</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="passshta" index="" image="">
+	<description>Passing Shot (World, 4 Players) (FD1094 317-0074)</description>
+	<cloneof>passsht</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="passshtad" index="" image="">
+	<description>Passing Shot (World, 4 Players) (bootleg of FD1094 317-0074 set)</description>
+	<cloneof>passsht</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1988</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="passshtb" index="" image="">
+	<description>Passing Shot (2 Players) (bootleg)</description>
+	<cloneof>passsht</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1988</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="passshtd" index="" image="">
+	<description>Passing Shot (World, 2 Players) (bootleg of FD1094 317-0080 set)</description>
+	<cloneof>passsht</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1988</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="passshtj" index="" image="">
+	<description>Passing Shot (Japan, 4 Players) (FD1094 317-0070)</description>
+	<cloneof>passsht</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="passshtjd" index="" image="">
+	<description>Passing Shot (Japan, 4 Players) (bootleg of FD1094 317-0070 set)</description>
+	<cloneof>passsht</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1988</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_tenis" index="" image="">
+	<description>Tennis (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1983</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="protennb" index="" image="">
+	<description>Tennis (bootleg of Pro Tennis)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1982</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="psmash3" index="" image="">
+	<description>Power Smash 3 / Virtua Tennis 3 (Export)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2006</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rltennis" index="" image="">
+	<description>Reality Tennis</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>TCH</manufacturer>
+	<year>1993</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scptour" index="" image="">
+	<description>Smash Court Pro Tournament (SCP1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2002</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sdtennis" index="" image="">
+	<description>Super Doubles Tennis</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="squaitsa" index="" image="">
+	<description>Squash (Itisa)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Itisa</manufacturer>
+	<year>1984</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="squash" index="" image="">
+	<description>Squash (Ver. 1.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1992</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sslam" index="" image="">
+	<description>Super Slam (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Playmark</manufacturer>
+	<year>1993</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sslama" index="" image="">
+	<description>Super Slam (set 2)</description>
+	<cloneof>sslam</cloneof>
+	<crc/>
+	<manufacturer>Playmark</manufacturer>
+	<year>1993</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sslamb" index="" image="">
+	<description>Super Slam (set 3)</description>
+	<cloneof>sslam</cloneof>
+	<crc/>
+	<manufacturer>Playmark</manufacturer>
+	<year>1993</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="swcourt" index="" image="">
+	<description>Super World Court (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="swcourtj" index="" image="">
+	<description>Super World Court (Japan)</description>
+	<cloneof>swcourt</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ultennis" index="" image="">
+	<description>Ultimate Tennis</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Art &amp; Magic</manufacturer>
+	<year>1993</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ultennisj" index="" image="">
+	<description>Ultimate Tennis (v 1.4, Japan)</description>
+	<cloneof>ultennis</cloneof>
+	<crc/>
+	<manufacturer>Art &amp; Magic (Banpresto license)</manufacturer>
+	<year>1993</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vstennis" index="" image="">
+	<description>Vs. Tennis (Japan/USA, set TE A-3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo Co., Ltd.</manufacturer>
+	<year>1984</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vstennisa" index="" image="">
+	<description>Vs. Tennis (Japan/USA, set 2)</description>
+	<cloneof>vstennis</cloneof>
+	<crc/>
+	<manufacturer>Nintendo Co., Ltd.</manufacturer>
+	<year>1984</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vstennisb" index="" image="">
+	<description>Vs. Tennis (Japan/USA, set 3)</description>
+	<cloneof>vstennis</cloneof>
+	<crc/>
+	<manufacturer>Nintendo Co., Ltd.</manufacturer>
+	<year>1984</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vtenis2c" index="" image="">
+	<description>Virtua Tennis 2 / Power Smash 2 (JPN) (USA, EXP, KOR, AUS) (Cart, Rev A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2001</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vtennis" index="" image="">
+	<description>Virtua Tennis (USA, EXP, KOR, AUS) / Power Smash (JPN)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1999</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vtennis2" index="" image="">
+	<description>Virtua Tennis 2 / Power Smash 2 (Rev A) (GDS-0015A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2001</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vtennis3" index="" image="">
+	<description>Virtua Tennis 3 (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2006</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vtennisg" index="" image="">
+	<description>Virtua Tennis / Power Smash (GDS-0011)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1999</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wldcourt" index="" image="">
+	<description>World Court (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1988</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wtennis" index="" image="">
+	<description>World Tennis</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1982</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

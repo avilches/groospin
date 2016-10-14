@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Platform / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="leprechp" index="" image="">
+	<description>Leprechaun (Pacific)</description>
+	<cloneof>leprechn</cloneof>
+	<crc/>
+	<manufacturer>Tong Electronic (Pacific Polytechnical license)</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="monsterb2" index="" image="">
+	<description>Monster Bash (2 board version)</description>
+	<cloneof>monsterb</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="snowbrosc" index="" image="">
+	<description>Snow Bros. - Nick &amp; Tom (set 4)</description>
+	<cloneof>snowbros</cloneof>
+	<crc/>
+	<manufacturer>Toaplan</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="suprridr" index="" image="">
+	<description>Super Rider</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation (Venture Line license)</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

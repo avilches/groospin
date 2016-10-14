@@ -1,0 +1,509 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1990-1999 / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="bam2" index="" image="">
+	<description>Bust a Move 2 (Japanese ROM ver. 1999/07/17 10:00:00)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Metro / Enix / Namco</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bm1stmix" index="" image="">
+	<description>beatmania (ver JA-B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1997</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bm2ndmix" index="" image="">
+	<description>beatmania 2nd MIX (ver JA-B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bm2ndmxa" index="" image="">
+	<description>beatmania 2nd MIX (ver JA-A)</description>
+	<cloneof>bm2ndmix</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bm3rdmix" index="" image="">
+	<description>beatmania 3rd MIX (ver JA-A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bm4thmix" index="" image="">
+	<description>beatmania 4th MIX (ver JA-A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bm5thmix" index="" image="">
+	<description>beatmania 5th MIX (ver JA-A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bmcompmx" index="" image="">
+	<description>beatmania complete MIX (ver JA-B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bmiidx" index="" image="">
+	<description>beatmania IIDX (863 JAB)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bmiidx2" index="" image="">
+	<description>beatmania IIDX 2nd style (GC985 JAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bmiidxa" index="" image="">
+	<description>beatmania IIDX (863 JAA)</description>
+	<cloneof>bmiidx</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bmiidxc" index="" image="">
+	<description>beatmania IIDX with DDR 2nd Club Version (896 JAB)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bmiidxc2" index="" image="">
+	<description>beatmania IIDX Substream with DDR 2nd Club Version 2 (984 A01 BM)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bmiidxca" index="" image="">
+	<description>beatmania IIDX with DDR 2nd Club Version (896 JAA)</description>
+	<cloneof>bmiidxc</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bmiidxs" index="" image="">
+	<description>beatmania IIDX Substream (983 JAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddr2m" index="" image="">
+	<description>Dance Dance Revolution 2nd Mix (GN895 VER. JAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddr2mc" index="" image="">
+	<description>Dance Dance Revolution 2nd Mix with beatmaniaIIDX CLUB VERSiON (GE896 VER. JAA)</description>
+	<cloneof>ddr2m</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddr2mc2" index="" image="">
+	<description>Dance Dance Revolution 2nd Mix with beatmaniaIIDX substream CLUB VERSiON 2 (GE984 VER. JAA)</description>
+	<cloneof>ddr2m</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddr2ml" index="" image="">
+	<description>Dance Dance Revolution 2nd Mix - Link Ver (GE885 VER. JAB)</description>
+	<cloneof>ddr2m</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddr2mla" index="" image="">
+	<description>Dance Dance Revolution 2nd Mix - Link Ver (GE885 VER. JAA)</description>
+	<cloneof>ddr2m</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddr3ma" index="" image="">
+	<description>Dance Dance Revolution 3rd Mix (GN887 VER. AAA)</description>
+	<cloneof>ddr3mk</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddr3mj" index="" image="">
+	<description>Dance Dance Revolution 3rd Mix (GN887 VER. JAA)</description>
+	<cloneof>ddr3mk</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddra" index="" image="">
+	<description>Dance Dance Revolution (GN845 VER. AAA)</description>
+	<cloneof>dstage</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddrbocd" index="" image="">
+	<description>Dance Dance Revolution Best of Cool Dancers (GE892 VER. JAA)</description>
+	<cloneof>ddr2m</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddrj" index="" image="">
+	<description>Dance Dance Revolution - Internet Ranking Ver (GC845 VER. JBA)</description>
+	<cloneof>dstage</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddrja" index="" image="">
+	<description>Dance Dance Revolution (GC845 VER. JAA)</description>
+	<cloneof>dstage</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddrjb" index="" image="">
+	<description>Dance Dance Revolution (GC845 VER. JAB)</description>
+	<cloneof>dstage</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddrs2k" index="" image="">
+	<description>Dance Dance Revolution Solo 2000 (GC905 VER. AAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddrs2kj" index="" image="">
+	<description>Dance Dance Revolution Solo 2000 (GC905 VER. JAA)</description>
+	<cloneof>ddrs2k</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddrsbm" index="" image="">
+	<description>Dance Dance Revolution Solo Bass Mix (GQ894 VER. JAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddru" index="" image="">
+	<description>Dance Dance Revolution (GN845 VER. UAA)</description>
+	<cloneof>dstage</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drmn" index="" image="">
+	<description>DrumMania (GQ881 VER. JAD)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drmn2m" index="" image="">
+	<description>DrumMania 2nd Mix (GE912 VER. JAB)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drmn2mpu" index="" image="">
+	<description>DrumMania 2nd Mix Session Power Up Kit (GE912 VER. JAB)</description>
+	<cloneof>drmn2m</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dsfdct" index="" image="">
+	<description>Dancing Stage featuring Dreams Come True (GC910 VER. JCA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dsfdcta" index="" image="">
+	<description>Dancing Stage featuring Dreams Come True (GC910 VER. JAA)</description>
+	<cloneof>dsfdct</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dsftkd" index="" image="">
+	<description>Dancing Stage featuring TRUE KiSS DESTiNATiON (G*884 VER. JAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dstage" index="" image="">
+	<description>Dancing Stage - Internet Ranking Ver (GC845 VER. EBA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dstagea" index="" image="">
+	<description>Dancing Stage (GN845 VER. EAA)</description>
+	<cloneof>dstage</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtrfrk2m" index="" image="">
+	<description>Guitar Freaks 2nd Mix Ver 1.01 (GQ883 VER. JAD)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtrfrks" index="" image="">
+	<description>Guitar Freaks (GQ886 VER. EAC)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtrfrksa" index="" image="">
+	<description>Guitar Freaks (GQ886 VER. AAC)</description>
+	<cloneof>gtrfrks</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtrfrksj" index="" image="">
+	<description>Guitar Freaks (GQ886 VER. JAC)</description>
+	<cloneof>gtrfrks</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtrfrksu" index="" image="">
+	<description>Guitar Freaks (GQ886 VER. UAC)</description>
+	<cloneof>gtrfrks</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hmcompmx" index="" image="">
+	<description>hiphopmania complete MIX (ver UA-B)</description>
+	<cloneof>bmcompmx</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="puyoda" index="" image="">
+	<description>Puyo Puyo Da!</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Compile</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="samba" index="" image="">
+	<description>Samba De Amigo (Rev B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sambap" index="" image="">
+	<description>Samba De Amigo (USA, prototype)</description>
+	<cloneof>samba</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="step3" index="" image="">
+	<description>Stepping 3 Superior</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stepstag" index="" image="">
+	<description>Stepping Stage Special</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

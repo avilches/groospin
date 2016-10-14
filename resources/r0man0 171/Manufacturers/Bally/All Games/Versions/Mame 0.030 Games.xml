@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Bally / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="bnjm" index="" image="">
+	<description>Bump &apos;n&apos; Jump (Midway)</description>
+	<cloneof>brubber</cloneof>
+	<crc/>
+	<manufacturer>Data East USA (Bally Midway license)</manufacturer>
+	<year>1982</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rbtapper" index="" image="">
+	<description>Tapper (Root Beer)</description>
+	<cloneof>tapper</cloneof>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sarge" index="" image="">
+	<description>Sarge</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2P alt / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="catnmous" index="" image="">
+	<description>Cat and Mouse (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Zaccaria</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gigandes" index="" image="">
+	<description>Gigandes</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>East Technology</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="laserbat" index="" image="">
+	<description>Laser Battle</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Zaccaria</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lazarian" index="" image="">
+	<description>Lazarian</description>
+	<cloneof>laserbat</cloneof>
+	<crc/>
+	<manufacturer>Zaccaria (Bally Midway license)</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="popspops" index="" image="">
+	<description>Pop&apos;s Pop&apos;s</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Afega</manufacturer>
+	<year>1999</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quizmstr" index="" image="">
+	<description>Quizmaster (German)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Loewen Spielautomaten</manufacturer>
+	<year>1985</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

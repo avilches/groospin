@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1970-1979 / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="astrof" index="" image="">
+	<description>Astro Fighter (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="astrof2" index="" image="">
+	<description>Astro Fighter (set 2)</description>
+	<cloneof>astrof</cloneof>
+	<crc/>
+	<manufacturer>Data East</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cosmicmo" index="" image="">
+	<description>Cosmic Monsters (version II)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>Taito / Universal</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="invadpt2" index="" image="">
+	<description>Space Invaders Part II (Taito)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="robotbwl" index="" image="">
+	<description>Robot Bowl</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Exidy</manufacturer>
+	<year>1977</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rollingc" index="" image="">
+	<description>Rolling Crash / Moon Base</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1979</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spaceph" index="" image="">
+	<description>Space Phantoms (bootleg of Ozma Wars)</description>
+	<cloneof>ozmawars</cloneof>
+	<crc/>
+	<manufacturer>bootleg? (Zilec Games)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sprint2" index="" image="">
+	<description>Sprint 2 (set 1)</description>
+	<cloneof>sprint1</cloneof>
+	<crc/>
+	<manufacturer>Atari (Kee Games)</manufacturer>
+	<year>1976</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

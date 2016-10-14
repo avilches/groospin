@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1P / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="boxingm" index="" image="">
+	<description>Boxing Mania (ver JAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2001</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fghtmn" index="" image="">
+	<description>Fighting Mania (QG918 VER. EAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fghtmna" index="" image="">
+	<description>Fighting Mania (QG918 VER. AAA)</description>
+	<cloneof>fghtmn</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fghtmnk" index="" image="">
+	<description>Fighting Mania (QG918 VER. KAA)</description>
+	<cloneof>fghtmn</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fghtmnu" index="" image="">
+	<description>Fighting Mania (QG918 VER. UAA)</description>
+	<cloneof>fghtmn</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fhboxers" index="" image="">
+	<description>Funky Head Boxers (JUETBKAL 951218 V1.000)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1995</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hwchamp" index="" image="">
+	<description>Heavyweight Champ</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hwchampj" index="" image="">
+	<description>Heavyweight Champ (Japan) (FD1094 317-0046)</description>
+	<cloneof>hwchamp</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hwchampjd" index="" image="">
+	<description>Heavyweight Champ (Japan) (bootleg of FD1094 317-0046 set)</description>
+	<cloneof>hwchamp</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1987</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mocapb" index="" image="">
+	<description>Mocap Boxing (ver AAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2001</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mocapbj" index="" image="">
+	<description>Mocap Boxing (ver JAA)</description>
+	<cloneof>mocapb</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2001</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_miket" index="" image="">
+	<description>Mike Tyson&apos;s Punch-Out!! (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1987</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pnchmn" index="" image="">
+	<description>Punch Mania: Hokuto No Ken (GQ918 VER. JAB)</description>
+	<cloneof>fghtmn</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pnchmn2" index="" image="">
+	<description>Punch Mania 2: Hokuto No Ken (GQA09 JAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pnchmna" index="" image="">
+	<description>Punch Mania: Hokuto No Ken (GQ918 VER. JAB ALT CD)</description>
+	<cloneof>fghtmn</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="punchita" index="" image="">
+	<description>Punch-Out!! (Italian bootleg)</description>
+	<cloneof>punchout</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1984</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="punchout" index="" image="">
+	<description>Punch-Out!! (Rev B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1984</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="punchouta" index="" image="">
+	<description>Punch-Out!! (Rev A)</description>
+	<cloneof>punchout</cloneof>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1984</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="punchoutj" index="" image="">
+	<description>Punch-Out!! (Japan)</description>
+	<cloneof>punchout</cloneof>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1984</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spnchout" index="" image="">
+	<description>Super Punch-Out!! (Rev B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1984</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spnchouta" index="" image="">
+	<description>Super Punch-Out!! (Rev A)</description>
+	<cloneof>spnchout</cloneof>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1984</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spnchoutj" index="" image="">
+	<description>Super Punch-Out!! (Japan)</description>
+	<cloneof>spnchout</cloneof>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1984</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

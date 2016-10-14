@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Shoot- / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="edfa" index="" image="">
+	<description>E.D.F. : Earth Defense Force (set 2)</description>
+	<cloneof>edf</cloneof>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gunsmokeua" index="" image="">
+	<description>Gun.Smoke (US, 851115, set 1)</description>
+	<cloneof>gunsmoke</cloneof>
+	<crc/>
+	<manufacturer>Capcom (Romstar license)</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="meteors" index="" image="">
+	<description>Meteors</description>
+	<cloneof>spcforce</cloneof>
+	<crc/>
+	<manufacturer>Amusement World</manufacturer>
+	<year>19??</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mimonscra" index="" image="">
+	<description>Mighty Monkey (Kaina Games, bootleg on Scramble hardware)</description>
+	<cloneof>mimonkey</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Kaina Games)</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="packbang" index="" image="">
+	<description>Pack&apos;n Bang Bang (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1994</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stdragonb" index="" image="">
+	<description>Saint Dragon (bootleg)</description>
+	<cloneof>stdragon</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

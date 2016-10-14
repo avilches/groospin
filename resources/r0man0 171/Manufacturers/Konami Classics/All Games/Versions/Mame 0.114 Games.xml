@@ -1,0 +1,299 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Konami / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="boxingm" index="" image="">
+	<description>Boxing Mania (ver JAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2001</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="code1d" index="" image="">
+	<description>Code One Dispatch (ver D)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="code1db" index="" image="">
+	<description>Code One Dispatch (ver B)</description>
+	<cloneof>code1d</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gticlub2" index="" image="">
+	<description>GTI Club 2 (ver JAB)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2001</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jpark3" index="" image="">
+	<description>Jurassic Park 3 (ver EBC)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2001</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lgtnfghta" index="" image="">
+	<description>Lightning Fighters (Asia)</description>
+	<cloneof>lgtnfght</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mfightc" index="" image="">
+	<description>Mahjong Fight Club (ver JAD)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2002</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mfightcc" index="" image="">
+	<description>Mahjong Fight Club (ver JAC)</description>
+	<cloneof>mfightc</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2002</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mocapb" index="" image="">
+	<description>Mocap Boxing (ver AAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2001</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mocapbj" index="" image="">
+	<description>Mocap Boxing (ver JAA)</description>
+	<cloneof>mocapb</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2001</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mocapglf" index="" image="">
+	<description>Mocap Golf (ver UAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2001</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="p911" index="" image="">
+	<description>Police 911 (ver UAD)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2001</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="p9112" index="" image="">
+	<description>Police 911 2 (VER. UAA:B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2001</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="p911e" index="" image="">
+	<description>Police 24/7 (ver EAA)</description>
+	<cloneof>p911</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2001</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="p911j" index="" image="">
+	<description>Keisatsukan Shinjuku 24ji (ver JAC)</description>
+	<cloneof>p911</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2001</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="p911uc" index="" image="">
+	<description>Police 911 (ver UAC)</description>
+	<cloneof>p911</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2001</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="popn9" index="" image="">
+	<description>Pop&apos;n Music 9 (ver JAB)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2003</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ppp2nd" index="" image="">
+	<description>ParaParaParadise 2nd Mix</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2001</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racinfrc" index="" image="">
+	<description>Racin&apos; Force (ver EAC)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sogeki" index="" image="">
+	<description>Sogeki (ver JAA)</description>
+	<cloneof>sscopex</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2001</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sscopex" index="" image="">
+	<description>Silent Scope EX (ver UAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2001</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thrild2" index="" image="">
+	<description>Thrill Drive 2 (ver EBB)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2001</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thrild2a" index="" image="">
+	<description>Thrill Drive 2 (ver AAA)</description>
+	<cloneof>thrild2</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2001</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tsurugi" index="" image="">
+	<description>Tsurugi (ver EAB)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2002</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tsurugij" index="" image="">
+	<description>Tsurugi (ver JAC)</description>
+	<cloneof>tsurugi</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2002</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wcombat" index="" image="">
+	<description>World Combat (ver AAD:B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2002</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wcombatj" index="" image="">
+	<description>World Combat (ver JAA)</description>
+	<cloneof>wcombat</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2002</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wcombatk" index="" image="">
+	<description>World Combat (ver KBC:B)</description>
+	<cloneof>wcombat</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2002</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xtrial" index="" image="">
+	<description>Xtrial Racing (ver JAB)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2002</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

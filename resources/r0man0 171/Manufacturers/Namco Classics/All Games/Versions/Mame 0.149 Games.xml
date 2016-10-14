@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Namco / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="crszonev3b2" index="" image="">
+	<description>Crisis Zone (CSZO3 Ver. B, set 2)</description>
+	<cloneof>crszone</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2000</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crszonev4a" index="" image="">
+	<description>Crisis Zone (CSZO4 Ver. A)</description>
+	<cloneof>crszone</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2000</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="suzuk8h2j" index="" image="">
+	<description>Suzuka 8 Hours 2 (Japan, Rev B)</description>
+	<cloneof>suzuk8h2</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

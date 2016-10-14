@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Data East / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="cobracomj" index="" image="">
+	<description>Cobra-Command (Japan)</description>
+	<cloneof>cobracom</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="darkseal1" index="" image="">
+	<description>Dark Seal (World revision 1)</description>
+	<cloneof>darkseal</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="darwin" index="" image="">
+	<description>Darwin 4078 (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ffantasya" index="" image="">
+	<description>Fighting Fantasy (Japan)</description>
+	<cloneof>hippodrm</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hbarrel" index="" image="">
+	<description>Heavy Barrel (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East USA</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hbarrelw" index="" image="">
+	<description>Heavy Barrel (World)</description>
+	<cloneof>hbarrel</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lnc" index="" image="">
+	<description>Lock&apos;n&apos;Chase</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shootout" index="" image="">
+	<description>Shoot Out (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East USA</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zoar" index="" image="">
+	<description>Zoar</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East USA</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

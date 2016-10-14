@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Shoot- / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="aburner2g" index="" image="">
+	<description>After Burner II (German)</description>
+	<cloneof>aburner2</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fireshrka" index="" image="">
+	<description>Fire Shark (earlier)</description>
+	<cloneof>fireshrk</cloneof>
+	<crc/>
+	<manufacturer>Toaplan</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sisv1" index="" image="">
+	<description>Space Invaders (SV Version rev 1)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sisv3" index="" image="">
+	<description>Space Invaders (SV Version rev 3)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="strkfgtr" index="" image="">
+	<description>Strike Fighter (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

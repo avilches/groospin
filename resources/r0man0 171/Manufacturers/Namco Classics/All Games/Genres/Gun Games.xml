@@ -1,0 +1,429 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Namco / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="bubbletr" index="" image="">
+	<description>Bubble Trouble (Japan, Rev C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cobrata" index="" image="">
+	<description>Cobra: The Arcade (CBR1 Ver. B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2005</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crszone" index="" image="">
+	<description>Crisis Zone (CSZO4 Ver. B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2000</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crszonev2a" index="" image="">
+	<description>Crisis Zone (CSZO2 Ver. A)</description>
+	<cloneof>crszone</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2000</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crszonev3a" index="" image="">
+	<description>Crisis Zone (CSZO3 Ver. A)</description>
+	<cloneof>crszone</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2000</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crszonev3b" index="" image="">
+	<description>Crisis Zone (CSZO3 Ver. B, set 1)</description>
+	<cloneof>crszone</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2000</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crszonev3b2" index="" image="">
+	<description>Crisis Zone (CSZO3 Ver. B, set 2)</description>
+	<cloneof>crszone</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2000</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crszonev4a" index="" image="">
+	<description>Crisis Zone (CSZO4 Ver. A)</description>
+	<cloneof>crszone</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2000</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cswat" index="" image="">
+	<description>Cosmoswat</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1984</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="g13knd" index="" image="">
+	<description>Golgo 13 Kiseki no Dandou (Japan, GLS1/VER.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Eighting / Raizing / Namco</manufacturer>
+	<year>1999</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ghlpanic" index="" image="">
+	<description>Ghoul Panic (Asia, OB2/VER.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Eighting / Raizing / Namco</manufacturer>
+	<year>1999</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="golgo13" index="" image="">
+	<description>Golgo 13 (Japan, GLG1/VER.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Eighting / Raizing / Namco</manufacturer>
+	<year>1999</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gollygho" index="" image="">
+	<description>Golly! Ghost!</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1990</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gunbalina" index="" image="">
+	<description>Gunbalina (Japan, GNN1 Ver.A)</description>
+	<cloneof>ptblank3</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2000</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gunbarl" index="" image="">
+	<description>Gunbarl (Japan, GNB4/VER.A)</description>
+	<cloneof>ptblank2</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1999</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gunbuletj" index="" image="">
+	<description>Gun Bullet (Japan, GN1)</description>
+	<cloneof>ptblank</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1994</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gunbuletw" index="" image="">
+	<description>Gun Bullet (World, GN3 Rev B)</description>
+	<cloneof>ptblank</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1994</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gunsur2" index="" image="">
+	<description>Gun Survivor 2 Biohazard Code: Veronica (Asia, BHF2 Ver.E)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom / Namco</manufacturer>
+	<year>2001</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gunsur2j" index="" image="">
+	<description>Gun Survivor 2 Biohazard Code: Veronica (Japan, BHF1 Ver.E)</description>
+	<cloneof>gunsur2</cloneof>
+	<crc/>
+	<manufacturer>Capcom / Namco</manufacturer>
+	<year>2001</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ninjaslt" index="" image="">
+	<description>Ninja Assault (World, NJA4 Ver.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2000</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ninjaslta" index="" image="">
+	<description>Ninja Assault (Asia, NJA2 Ver.A)</description>
+	<cloneof>ninjaslt</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2000</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ninjasltj" index="" image="">
+	<description>Ninja Assault (Japan, NJA1 Ver.A)</description>
+	<cloneof>ninjaslt</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2000</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ninjasltu" index="" image="">
+	<description>Ninja Assault (US, NJA3 Ver.A)</description>
+	<cloneof>ninjaslt</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2000</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ohbakyuun" index="" image="">
+	<description>Oh! Bakyuuun (Japan, OB1/VER.A)</description>
+	<cloneof>ghlpanic</cloneof>
+	<crc/>
+	<manufacturer>Eighting / Raizing / Namco</manufacturer>
+	<year>1999</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ptblank" index="" image="">
+	<description>Point Blank (World, GN2 Rev B, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1994</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ptblank2" index="" image="">
+	<description>Point Blank 2 (GNB5/VER.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1999</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ptblank2ua" index="" image="">
+	<description>Point Blank 2 (US, GNB3/VER.A)</description>
+	<cloneof>ptblank2</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1999</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ptblank3" index="" image="">
+	<description>Point Blank 3 (Asia, GNN2 Ver.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2000</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ptblanka" index="" image="">
+	<description>Point Blank (World, GN2 Rev B, set 2)</description>
+	<cloneof>ptblank</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1994</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sgunner" index="" image="">
+	<description>Steel Gunner (Rev B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1990</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sgunner2" index="" image="">
+	<description>Steel Gunner 2 (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1991</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sgunner2j" index="" image="">
+	<description>Steel Gunner 2 (Japan, Rev A)</description>
+	<cloneof>sgunner2</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1991</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sgunnerj" index="" image="">
+	<description>Steel Gunner (Japan)</description>
+	<cloneof>sgunner</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1990</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="timecris" index="" image="">
+	<description>Time Crisis (Rev. TS2 Ver.B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1995</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="timecrisa" index="" image="">
+	<description>Time Crisis (Rev. TS2 Ver.A)</description>
+	<cloneof>timecris</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1995</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="timecrs2" index="" image="">
+	<description>Time Crisis II (TSS3 Ver. B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1997</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="timecrs2v2b" index="" image="">
+	<description>Time Crisis II (TSS2 Ver. B)</description>
+	<cloneof>timecrs2</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1997</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="timecrs2v4a" index="" image="">
+	<description>Time Crisis II (TSS4 Ver. A)</description>
+	<cloneof>timecrs2</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1997</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="timecrs3" index="" image="">
+	<description>Time Crisis 3 (TST1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2003</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="timecrs3e" index="" image="">
+	<description>Time Crisis 3 (TST2 Ver. A)</description>
+	<cloneof>timecrs3</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2003</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="timecrs4" index="" image="">
+	<description>Time Crisis 4</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2006</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vnight" index="" image="">
+	<description>Vampire Night (VPN3 Ver. B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / Namco</manufacturer>
+	<year>2001</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

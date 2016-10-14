@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Sega / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="coolridr" index="" image="">
+	<description>Cool Riders</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1995</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tetrista" index="" image="">
+	<description>Tetris (Japan, Taito B-System, Master of Weapon Conversion Kit)</description>
+	<cloneof>tetris</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

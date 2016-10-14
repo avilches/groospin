@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Platform / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="jungleby" index="" image="">
+	<description>Jungle Boy (bootleg)</description>
+	<cloneof>junglek</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssriders2" index="" image="">
+	<description>Sunset Riders 2 (bootleg 4 Players ver ADD)</description>
+	<cloneof>ssriders</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

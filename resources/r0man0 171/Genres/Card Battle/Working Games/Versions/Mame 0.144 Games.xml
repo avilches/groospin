@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Card Battle / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="fortecrd" index="" image="">
+	<description>Forte Card (Ver 110, Spanish)</description>
+	<cloneof>fortecar</cloneof>
+	<crc/>
+	<manufacturer>Fortex Ltd</manufacturer>
+	<year>1994</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="unkpacg" index="" image="">
+	<description>unknown Pac-Man gambling game</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>199?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

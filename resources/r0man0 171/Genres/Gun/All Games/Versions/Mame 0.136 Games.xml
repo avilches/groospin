@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Gun / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="lamachin" index="" image="">
+	<description>L.A. Machineguns (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1998</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="timecrs2v4a" index="" image="">
+	<description>Time Crisis II (TSS4 Ver. A)</description>
+	<cloneof>timecrs2</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1997</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

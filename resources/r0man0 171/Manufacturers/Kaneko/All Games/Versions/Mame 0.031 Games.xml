@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Kaneko / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="fastfred" index="" image="">
+	<description>Fast Freddie</description>
+	<cloneof>flyboy</cloneof>
+	<crc/>
+	<manufacturer>Kaneko (Atari license)</manufacturer>
+	<year>1982</year>
+	<genre>Sports</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="flyboy" index="" image="">
+	<description>Fly-Boy</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1982</year>
+	<genre>Sports</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jumpcoas" index="" image="">
+	<description>Jump Coaster</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sqix" index="" image="">
+	<description>Super Qix (World, Rev 2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko / Taito</manufacturer>
+	<year>1987</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

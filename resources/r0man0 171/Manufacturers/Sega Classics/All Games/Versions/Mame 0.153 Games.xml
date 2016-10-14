@@ -1,0 +1,239 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Sega / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="18wheelu" index="" image="">
+	<description>18 Wheeler (upright)</description>
+	<cloneof>18wheelr</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2000</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="clubk2k3" index="" image="">
+	<description>Club Kart: European Session (2003, Rev A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2003</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="clubk2kp" index="" image="">
+	<description>Club Kart: European Session (2003, prototype)</description>
+	<cloneof>clubk2k3</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2003</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="clubkprz" index="" image="">
+	<description>Club Kart Prize</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2003</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="clubkpzb" index="" image="">
+	<description>Club Kart Prize Ver. B</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2004</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="clubkrt" index="" image="">
+	<description>Club Kart: European Session (Rev D)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2001</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fantzonepr" index="" image="">
+	<description>Fantasy Zone (prototype)</description>
+	<cloneof>fantzone</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hopper" index="" image="">
+	<description>SWP Hopper Board</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2002</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="manicpnc" index="" image="">
+	<description>Manic Panic Ghosts!</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2007</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="monacogp" index="" image="">
+	<description>Monaco GP (Set 1) [TTL]</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1980</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="monacogpa" index="" image="">
+	<description>Monaco GP (Set 2) [TTL]</description>
+	<cloneof>monacogp</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1980</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mushi2eo" index="" image="">
+	<description>MushiKing II - The King Of Beetle II ENG (Ver. 1.001)</description>
+	<cloneof>mushik2e</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2005</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mushik2e" index="" image="">
+	<description>MushiKing II - The King Of Beetle II ENG (Ver. 2.001)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2005</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="netmerc" index="" image="">
+	<description>NetMerc?</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="outrundxj" index="" image="">
+	<description>Out Run (Japan, deluxe sitdown) (FD1089A 317-0019)</description>
+	<cloneof>outrun</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="puyofevp" index="" image="">
+	<description>Puyo Puyo Fever (prototype ver 0.01)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2003</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spidmanj" index="" image="">
+	<description>Spider-Man: The Videogame (Japan)</description>
+	<cloneof>spidman</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="starhrcl" index="" image="">
+	<description>Star Horse (satellite)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2000</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="starhrct" index="" image="">
+	<description>Star Horse (server)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2000</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="starhrse" index="" image="">
+	<description>Star Horse (big screens)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2000</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="starhrsp" index="" image="">
+	<description>Star Horse Progress (satellite) (Rev A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2003</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="titlefj" index="" image="">
+	<description>Title Fight (Japan)</description>
+	<cloneof>titlef</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zunou" index="" image="">
+	<description>Touch De Zunou (Rev A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2006</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

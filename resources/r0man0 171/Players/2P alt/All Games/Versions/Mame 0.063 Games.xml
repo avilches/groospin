@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2P alt / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="birdtry" index="" image="">
+	<description>Birdie Try (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="boomrang" index="" image="">
+	<description>Boomer Rang&apos;r / Genesis (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dkongjrm" index="" image="">
+	<description>Donkey Kong Jr. (bootleg on Moon Cresta hardware)</description>
+	<cloneof>dkongjr</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dotrona" index="" image="">
+	<description>Discs of Tron (Upright alternate)</description>
+	<cloneof>dotron</cloneof>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1983</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drmicro" index="" image="">
+	<description>Dr. Micro</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sanritsu</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="freekick" index="" image="">
+	<description>Free Kick (NS6201-A 1987.10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nihon System (Merit license)</manufacturer>
+	<year>1987</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="freekickb1" index="" image="">
+	<description>Free Kick (bootleg set 1)</description>
+	<cloneof>freekick</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1987</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gmgalax" index="" image="">
+	<description>Ghostmuncher Galaxian (bootleg)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1981</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hiryuken" index="" image="">
+	<description>Hokuha Syourin Hiryu no Ken</description>
+	<cloneof>shangkid</cloneof>
+	<crc/>
+	<manufacturer>Taiyo (Taito license)</manufacturer>
+	<year>1985</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kamikcab" index="" image="">
+	<description>Kamikaze Cabbie</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="liberate" index="" image="">
+	<description>Liberation</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="liberateb" index="" image="">
+	<description>Liberation (bootleg)</description>
+	<cloneof>liberate</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mimonkey" index="" image="">
+	<description>Mighty Monkey</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Universal Video Games</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mimonsco" index="" image="">
+	<description>Mighty Monkey (bootleg on Super Cobra hardware)</description>
+	<cloneof>mimonkey</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mrkougar2" index="" image="">
+	<description>Mr. Kougar (earlier)</description>
+	<cloneof>mrkougar</cloneof>
+	<crc/>
+	<manufacturer>ATW</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mshuttle" index="" image="">
+	<description>Moon Shuttle (US? set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mshuttlej" index="" image="">
+	<description>Moon Shuttle (Japan set 1)</description>
+	<cloneof>mshuttle</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pbillrd" index="" image="">
+	<description>Perfect Billiard</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nihon System</manufacturer>
+	<year>1987</year>
+	<genre>Pool and Darts</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pbillrds" index="" image="">
+	<description>Perfect Billiard (MC-8123, 317-0030)</description>
+	<cloneof>pbillrd</cloneof>
+	<crc/>
+	<manufacturer>Nihon System</manufacturer>
+	<year>1987</year>
+	<genre>Pool and Darts</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfx" index="" image="">
+	<description>SF-X</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="snowboar" index="" image="">
+	<description>Snow Board Championship (Version 2.1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1996</year>
+	<genre>Skiing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="snowboara" index="" image="">
+	<description>Snow Board Championship (Version 2.0)</description>
+	<cloneof>snowboar</cloneof>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1996</year>
+	<genre>Skiing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="statriv2" index="" image="">
+	<description>Triv Two</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Status Games</manufacturer>
+	<year>1984</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="supertr2" index="" image="">
+	<description>Super Triv II</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Status Games</manufacturer>
+	<year>1986</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tugboat" index="" image="">
+	<description>Tugboat</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Enter-Tech, Ltd.</manufacturer>
+	<year>1982</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xeviousb" index="" image="">
+	<description>Xevious (Atari)</description>
+	<cloneof>xevious</cloneof>
+	<crc/>
+	<manufacturer>Namco (Atari license)</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

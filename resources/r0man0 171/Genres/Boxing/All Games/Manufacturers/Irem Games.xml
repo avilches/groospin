@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Boxing / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="poundfor" index="" image="">
+	<description>Pound for Pound (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1990</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="poundforj" index="" image="">
+	<description>Pound for Pound (Japan)</description>
+	<cloneof>poundfor</cloneof>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1990</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="poundforu" index="" image="">
+	<description>Pound for Pound (US)</description>
+	<cloneof>poundfor</cloneof>
+	<crc/>
+	<manufacturer>Irem America</manufacturer>
+	<year>1990</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

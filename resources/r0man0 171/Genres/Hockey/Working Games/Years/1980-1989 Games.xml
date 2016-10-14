@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Hockey / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="bladestl" index="" image="">
+	<description>Blades of Steel (version T)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1987</year>
+	<genre>Hockey</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bladestle" index="" image="">
+	<description>Blades of Steel (version E)</description>
+	<cloneof>bladestl</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1987</year>
+	<genre>Hockey</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bladestll" index="" image="">
+	<description>Blades of Steel (version L)</description>
+	<cloneof>bladestl</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1987</year>
+	<genre>Hockey</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bullfgtr" index="" image="">
+	<description>Bull Fighter</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Alpha Denshi Co.</manufacturer>
+	<year>1984</year>
+	<genre>Hockey</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bullfgtrs" index="" image="">
+	<description>Bull Fighter (Sega)</description>
+	<cloneof>bullfgtr</cloneof>
+	<crc/>
+	<manufacturer>Alpha Denshi Co. (Sega license)</manufacturer>
+	<year>1984</year>
+	<genre>Hockey</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cfghtice" index="" image="">
+	<description>Fighting Ice Hockey (DECO Cassette)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Hockey</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="faceoff" index="" image="">
+	<description>Face Off (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1988</year>
+	<genre>Hockey</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hattrick" index="" image="">
+	<description>Hat Trick</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally/Sente</manufacturer>
+	<year>1984</year>
+	<genre>Hockey</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hoccer" index="" image="">
+	<description>Hoccer (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Eastern Micro Electronics, Inc.</manufacturer>
+	<year>1983</year>
+	<genre>Hockey</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hoccer2" index="" image="">
+	<description>Hoccer (set 2)</description>
+	<cloneof>hoccer</cloneof>
+	<crc/>
+	<manufacturer>Eastern Micro Electronics, Inc.</manufacturer>
+	<year>1983</year>
+	<genre>Hockey</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

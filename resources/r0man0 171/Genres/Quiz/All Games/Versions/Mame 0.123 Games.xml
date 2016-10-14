@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Quiz / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="gtsers1" index="" image="">
+	<description>Trivia (Questions Series 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Greyhound Electronics</manufacturer>
+	<year>1984</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtsers2" index="" image="">
+	<description>Trivia (Questions Series 2)</description>
+	<cloneof>gtsers1</cloneof>
+	<crc/>
+	<manufacturer>Greyhound Electronics</manufacturer>
+	<year>1984</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtsers3" index="" image="">
+	<description>Trivia (Questions Series 3)</description>
+	<cloneof>gtsers1</cloneof>
+	<crc/>
+	<manufacturer>Greyhound Electronics</manufacturer>
+	<year>1984</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtsers4" index="" image="">
+	<description>Trivia (Questions Series 4)</description>
+	<cloneof>gtsers1</cloneof>
+	<crc/>
+	<manufacturer>Greyhound Electronics</manufacturer>
+	<year>1984</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtsers5" index="" image="">
+	<description>Trivia (Questions Series 5)</description>
+	<cloneof>gtsers1</cloneof>
+	<crc/>
+	<manufacturer>Greyhound Electronics</manufacturer>
+	<year>1984</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtsers7" index="" image="">
+	<description>Trivia (Questions Series 7)</description>
+	<cloneof>gtsers1</cloneof>
+	<crc/>
+	<manufacturer>Greyhound Electronics</manufacturer>
+	<year>1984</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtsersa" index="" image="">
+	<description>Trivia (Alt revision questions set 1)</description>
+	<cloneof>gtsers1</cloneof>
+	<crc/>
+	<manufacturer>Greyhound Electronics</manufacturer>
+	<year>1984</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtsersb" index="" image="">
+	<description>Trivia (Alt revision questions set 2)</description>
+	<cloneof>gtsers1</cloneof>
+	<crc/>
+	<manufacturer>Greyhound Electronics</manufacturer>
+	<year>1984</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

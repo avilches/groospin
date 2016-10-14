@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Bowling / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="champbwl" index="" image="">
+	<description>Championship Bowling</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Seta / Romstar Inc.</manufacturer>
+	<year>1989</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wcbowl140" index="" image="">
+	<description>World Class Bowling Tournament (v1.40)</description>
+	<cloneof>wcbowldx</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1997</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wcbowldx" index="" image="">
+	<description>World Class Bowling Deluxe (v2.00)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1999</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

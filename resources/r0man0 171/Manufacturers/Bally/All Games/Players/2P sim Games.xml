@@ -1,0 +1,249 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Bally / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="archrivl" index="" image="">
+	<description>Arch Rivals (rev 4.0 6/29/89)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1989</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="archrivla" index="" image="">
+	<description>Arch Rivals (rev 2.0 5/03/89)</description>
+	<cloneof>archrivl</cloneof>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1989</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blasted" index="" image="">
+	<description>Blasted</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gghost" index="" image="">
+	<description>Goalie Ghost</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally/Sente</manufacturer>
+	<year>1984</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hattrick" index="" image="">
+	<description>Hat Trick</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally/Sente</manufacturer>
+	<year>1984</year>
+	<genre>Hockey</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jumpshot" index="" image="">
+	<description>Jump Shot</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1985</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jumpshotp" index="" image="">
+	<description>Jump Shot Engineering Sample</description>
+	<cloneof>jumpshot</cloneof>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1985</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="maxrpm" index="" image="">
+	<description>Max RPM (ver 2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nametune" index="" image="">
+	<description>Name That Tune (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally/Sente</manufacturer>
+	<year>1986</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nametune2" index="" image="">
+	<description>Name That Tune (3/23/86)</description>
+	<cloneof>nametune</cloneof>
+	<crc/>
+	<manufacturer>Bally/Sente</manufacturer>
+	<year>1986</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="otwalls" index="" image="">
+	<description>Off the Wall (Sente)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally/Sente</manufacturer>
+	<year>1984</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="profpac" index="" image="">
+	<description>Professor Pac-Man</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dave Nutting Associates / Bally Midway</manufacturer>
+	<year>1983</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rpunch" index="" image="">
+	<description>Rabbit Punch (US)</description>
+	<cloneof>rabiolep</cloneof>
+	<crc/>
+	<manufacturer>V-System Co. (Bally/Midway/Sente license)</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sarge" index="" image="">
+	<description>Sarge</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfootbal" index="" image="">
+	<description>Street Football (11/12/86)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally/Sente</manufacturer>
+	<year>1986</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spiker" index="" image="">
+	<description>Spiker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally/Sente</manufacturer>
+	<year>1986</year>
+	<genre>Volleyball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spiker2" index="" image="">
+	<description>Spiker (5/5/86)</description>
+	<cloneof>spiker</cloneof>
+	<crc/>
+	<manufacturer>Bally/Sente</manufacturer>
+	<year>1986</year>
+	<genre>Volleyball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spiker3" index="" image="">
+	<description>Spiker (6/9/86)</description>
+	<cloneof>spiker</cloneof>
+	<crc/>
+	<manufacturer>Bally/Sente</manufacturer>
+	<year>1986</year>
+	<genre>Volleyball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spyhunt2" index="" image="">
+	<description>Spy Hunter II (rev 2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spyhunt2a" index="" image="">
+	<description>Spy Hunter II (rev 1)</description>
+	<cloneof>spyhunt2</cloneof>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="timber" index="" image="">
+	<description>Timber</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="toggle" index="" image="">
+	<description>Toggle (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally/Sente</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="twotiger" index="" image="">
+	<description>Two Tigers (dedicated)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="twotigerc" index="" image="">
+	<description>Two Tigers (Tron conversion)</description>
+	<cloneof>twotiger</cloneof>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

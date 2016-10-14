@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Sega / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="gforce2ja" index="" image="">
+	<description>Galaxy Force 2 (Japan, Rev A)</description>
+	<cloneof>gforce2</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="starrkr" index="" image="">
+	<description>Star Raker</description>
+	<cloneof>brdrline</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

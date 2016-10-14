@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Gun / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="catch22" index="" image="">
+	<description>Catch-22 (version 8.0)</description>
+	<cloneof>combat</cloneof>
+	<crc/>
+	<manufacturer>Exidy</manufacturer>
+	<year>1985</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="revx" index="" image="">
+	<description>Revolution X (rev 1.0 6/16/94)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1994</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

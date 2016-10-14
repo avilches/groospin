@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Namco / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="dunkmnia" index="" image="">
+	<description>Dunk Mania (Asia, DM2/VER.C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1995</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dunkmniajc" index="" image="">
+	<description>Dunk Mania (Japan, DM1/VER.C)</description>
+	<cloneof>dunkmnia</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1995</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="exvania" index="" image="">
+	<description>Exvania (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="exvaniaj" index="" image="">
+	<description>Exvania (Japan)</description>
+	<cloneof>exvania</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="knckhead" index="" image="">
+	<description>Knuckle Heads (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="knckheadj" index="" image="">
+	<description>Knuckle Heads (Japan)</description>
+	<cloneof>knckhead</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="knckheadjp" index="" image="">
+	<description>Knuckle Heads (Japan, Prototype?)</description>
+	<cloneof>knckhead</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="machbrkr" index="" image="">
+	<description>Mach Breakers - Numan Athletics 2 (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1995</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="numanath" index="" image="">
+	<description>Numan Athletics (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1993</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="numanathj" index="" image="">
+	<description>Numan Athletics (Japan)</description>
+	<cloneof>numanath</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1993</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="swcourt" index="" image="">
+	<description>Super World Court (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="swcourtj" index="" image="">
+	<description>Super World Court (Japan)</description>
+	<cloneof>swcourt</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tankfrce4" index="" image="">
+	<description>Tank Force (US, 4 Player)</description>
+	<cloneof>tankfrce</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vshoot" index="" image="">
+	<description>J-League Soccer V-Shoot (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1994</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

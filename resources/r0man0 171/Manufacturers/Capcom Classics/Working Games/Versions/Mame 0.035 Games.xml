@@ -1,0 +1,549 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Capcom / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="3wondersu" index="" image="">
+	<description>Three Wonders (USA 910520)</description>
+	<cloneof>3wonders</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bbros" index="" image="">
+	<description>Buster Bros. (USA)</description>
+	<cloneof>pang</cloneof>
+	<crc/>
+	<manufacturer>Mitchell (Capcom license)</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blockj" index="" image="">
+	<description>Block Block (Japan 910910)</description>
+	<cloneof>block</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blockr1" index="" image="">
+	<description>Block Block (World 911106 Joystick)</description>
+	<cloneof>block</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="capbowl2" index="" image="">
+	<description>Capcom Bowling (set 2)</description>
+	<cloneof>capbowl</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies / Capcom</manufacturer>
+	<year>1988</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="captcommj" index="" image="">
+	<description>Captain Commando (Japan 911202)</description>
+	<cloneof>captcomm</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="captcommu" index="" image="">
+	<description>Captain Commando (USA 910928)</description>
+	<cloneof>captcomm</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cworld" index="" image="">
+	<description>Capcom World (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1989</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cworld2j" index="" image="">
+	<description>Adventure Quiz Capcom World 2 (Japan 920611)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1992</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dino" index="" image="">
+	<description>Cadillacs and Dinosaurs (World 930201)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dinoj" index="" image="">
+	<description>Cadillacs: Kyouryuu Shin Seiki (Japan 930201)</description>
+	<cloneof>dino</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ffightua" index="" image="">
+	<description>Final Fight (USA 900112)</description>
+	<cloneof>ffight</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="forgottnua" index="" image="">
+	<description>Forgotten Worlds (USA, B-Board 88618B-2, Rev. A)</description>
+	<cloneof>forgottn</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnga" index="" image="">
+	<description>Ghosts&apos;n Goblins (World? set 2)</description>
+	<cloneof>gng</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hatena" index="" image="">
+	<description>Adventure Quiz 2 - Hatena? no Daibouken (Japan 900228)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1990</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="knightsj" index="" image="">
+	<description>Knights of the Round (Japan 911127, B-Board 91634B-2)</description>
+	<cloneof>knights</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kodj" index="" image="">
+	<description>The King of Dragons (Japan 910805, B-Board 90629B-3)</description>
+	<cloneof>kod</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lastduel" index="" image="">
+	<description>Last Duel (US New Ver.)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ledstorm" index="" image="">
+	<description>Led Storm (US)</description>
+	<cloneof>madgear</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="makaimur" index="" image="">
+	<description>Makai-Mura (Japan)</description>
+	<cloneof>gng</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="makaimurc" index="" image="">
+	<description>Makai-Mura (Japan Revision C)</description>
+	<cloneof>gng</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="makaimurg" index="" image="">
+	<description>Makai-Mura (Japan Revision G)</description>
+	<cloneof>gng</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mbomberj" index="" image="">
+	<description>Muscle Bomber: The Body Explosion (Japan 930713)</description>
+	<cloneof>slammast</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1993</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mbombrd" index="" image="">
+	<description>Muscle Bomber Duo: Ultimate Team Battle (World 931206)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1993</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mbombrdj" index="" image="">
+	<description>Muscle Bomber Duo: Heat Up Warriors (Japan 931206)</description>
+	<cloneof>mbombrd</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1993</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="punisher" index="" image="">
+	<description>The Punisher (World 930422)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="punisherj" index="" image="">
+	<description>The Punisher (Japan 930422)</description>
+	<cloneof>punisher</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qad" index="" image="">
+	<description>Quiz &amp; Dragons: Capcom Quiz Game (USA 920701)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1992</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qadjr" index="" image="">
+	<description>Quiz &amp; Dragons: Capcom Quiz Game (Japan Resale Ver. 940921)</description>
+	<cloneof>qad</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qsangoku" index="" image="">
+	<description>Quiz Sangokushi (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qtono1" index="" image="">
+	<description>Quiz Tonosama no Yabou (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qtono2j" index="" image="">
+	<description>Quiz Tonosama no Yabou 2: Zenkoku-ban (Japan 950123)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1995</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbbros" index="" image="">
+	<description>Super Buster Bros. (USA 901001)</description>
+	<cloneof>spang</cloneof>
+	<crc/>
+	<manufacturer>Mitchell (Capcom license)</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sectionza" index="" image="">
+	<description>Section Z (set 2)</description>
+	<cloneof>sectionz</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sf" index="" image="">
+	<description>Street Fighter (US, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1987</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sf2ceea" index="" image="">
+	<description>Street Fighter II&apos;: Champion Edition (World 920313)</description>
+	<cloneof>sf2ce</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sf2cejb" index="" image="">
+	<description>Street Fighter II&apos;: Champion Edition (Japan 920513)</description>
+	<cloneof>sf2ce</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sf2ceua" index="" image="">
+	<description>Street Fighter II&apos;: Champion Edition (USA 920313)</description>
+	<cloneof>sf2ce</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sf2ceub" index="" image="">
+	<description>Street Fighter II&apos;: Champion Edition (USA 920513)</description>
+	<cloneof>sf2ce</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sf2hfj" index="" image="">
+	<description>Street Fighter II&apos; Turbo: Hyper Fighting (Japan 921209)</description>
+	<cloneof>sf2hf</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sf2hfu" index="" image="">
+	<description>Street Fighter II&apos;: Hyper Fighting (USA 921209)</description>
+	<cloneof>sf2hf</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sf2ja" index="" image="">
+	<description>Street Fighter II: The World Warrior (Japan 910214)</description>
+	<cloneof>sf2</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sf2ua" index="" image="">
+	<description>Street Fighter II: The World Warrior (USA 910206)</description>
+	<cloneof>sf2</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sf2ub" index="" image="">
+	<description>Street Fighter II: The World Warrior (USA 910214)</description>
+	<cloneof>sf2</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sf2ue" index="" image="">
+	<description>Street Fighter II: The World Warrior (USA 910228)</description>
+	<cloneof>sf2</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfan" index="" image="">
+	<description>Street Fighter (World, pneumatic buttons)</description>
+	<cloneof>sf</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1987</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfj" index="" image="">
+	<description>Street Fighter (Japan) (protected)</description>
+	<cloneof>sf</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1987</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="slammast" index="" image="">
+	<description>Saturday Night Slam Masters (World 930713)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1993</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="topsecrt" index="" image="">
+	<description>Top Secret (Japan, old revision)</description>
+	<cloneof>bionicc</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="varthj" index="" image="">
+	<description>Varth: Operation Thunderstorm (Japan 920714)</description>
+	<cloneof>varth</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vulgus" index="" image="">
+	<description>Vulgus (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wofj" index="" image="">
+	<description>Tenchi wo Kurau II: Sekiheki no Tatakai (Japan 921031)</description>
+	<cloneof>wof</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wofr1" index="" image="">
+	<description>Warriors of Fate (World 921002)</description>
+	<cloneof>wof</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wonder3" index="" image="">
+	<description>Wonder 3 (Japan 910520)</description>
+	<cloneof>3wonders</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

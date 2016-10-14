@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Gun / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="bazooka" index="" image="">
+	<description>Bazooka [TTL]</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Project Support Engineering</manufacturer>
+	<year>1976</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bazookabr" index="" image="">
+	<description>Bazooka (Brazil) [TTL]</description>
+	<cloneof>bazooka</cloneof>
+	<crc/>
+	<manufacturer>Taito do Brasil</manufacturer>
+	<year>1977</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="claybust" index="" image="">
+	<description>Claybuster</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Model Racing</manufacturer>
+	<year>1978</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="desertgu" index="" image="">
+	<description>Desert Gun</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dave Nutting Associates / Midway</manufacturer>
+	<year>1977</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dpatrol" index="" image="">
+	<description>Desert Patrol [TTL]</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Project Support Engineering</manufacturer>
+	<year>1977</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dpatrola" index="" image="">
+	<description>Desert Patrol (set 2) [TTL]</description>
+	<cloneof>dpatrol</cloneof>
+	<crc/>
+	<manufacturer>Project Support Engineering (Telegames license)</manufacturer>
+	<year>1977</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="roadrunm" index="" image="">
+	<description>Road Runner (Midway)</description>
+	<cloneof>desertgu</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1977</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="triplhnt" index="" image="">
+	<description>Triple Hunt</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1977</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

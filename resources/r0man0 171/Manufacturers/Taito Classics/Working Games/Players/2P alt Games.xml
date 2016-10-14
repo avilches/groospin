@@ -1,0 +1,2989 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Taito / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="10yard85" index="" image="">
+	<description>10-Yard Fight &apos;85 (US, Taito license)</description>
+	<cloneof>10yard</cloneof>
+	<crc/>
+	<manufacturer>Irem (Taito license)</manufacturer>
+	<year>1985</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="40love" index="" image="">
+	<description>Forty-Love</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="alcon" index="" image="">
+	<description>Alcon (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Toaplan / Taito America Corp.</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="alpine" index="" image="">
+	<description>Alpine Ski (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Skiing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="alpinea" index="" image="">
+	<description>Alpine Ski (set 2)</description>
+	<cloneof>alpine</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Skiing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="animaljr" index="" image="">
+	<description>Exciting Animal Land Jr. (USA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nakanihon / East Technology (Taito license)</manufacturer>
+	<year>1993</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="animaljrj" index="" image="">
+	<description>Waiwai Animal Land Jr. (Japan)</description>
+	<cloneof>animaljr</cloneof>
+	<crc/>
+	<manufacturer>Nakanihon / East Technology (Taito license)</manufacturer>
+	<year>1993</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="animaljrs" index="" image="">
+	<description>Animalandia Jr. (Spanish)</description>
+	<cloneof>animaljr</cloneof>
+	<crc/>
+	<manufacturer>Nakanihon / East Technology (Taito license)</manufacturer>
+	<year>1993</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arkanoid" index="" image="">
+	<description>Arkanoid (World, older)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1986</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arkanoidj" index="" image="">
+	<description>Arkanoid (Japan, newer)</description>
+	<cloneof>arkanoid</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arkanoidja" index="" image="">
+	<description>Arkanoid (Japan, newer w/level select)</description>
+	<cloneof>arkanoid</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arkanoidjb" index="" image="">
+	<description>Arkanoid (Japan, older)</description>
+	<cloneof>arkanoid</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arkanoidu" index="" image="">
+	<description>Arkanoid (US, newer)</description>
+	<cloneof>arkanoid</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation (Romstar license)</manufacturer>
+	<year>1986</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arkanoiduo" index="" image="">
+	<description>Arkanoid (US, older)</description>
+	<cloneof>arkanoid</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation (Romstar license)</manufacturer>
+	<year>1986</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arkatour" index="" image="">
+	<description>Tournament Arkanoid (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito America Corporation (Romstar license)</manufacturer>
+	<year>1987</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arknoid2" index="" image="">
+	<description>Arkanoid - Revenge of DOH (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1987</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arknoid2j" index="" image="">
+	<description>Arkanoid - Revenge of DOH (Japan)</description>
+	<cloneof>arknoid2</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arknoid2u" index="" image="">
+	<description>Arkanoid - Revenge of DOH (US)</description>
+	<cloneof>arknoid2</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation (Romstar license)</manufacturer>
+	<year>1987</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ashnojoe" index="" image="">
+	<description>Ashita no Joe (Japan)</description>
+	<cloneof>scessjoe</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation / Wave</manufacturer>
+	<year>1990</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ballbomb" index="" image="">
+	<description>Balloon Bomber</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="battlane" index="" image="">
+	<description>Battle Lane! Vol. 5 (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Technos Japan (Taito license)</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="battlane2" index="" image="">
+	<description>Battle Lane! Vol. 5 (set 2)</description>
+	<cloneof>battlane</cloneof>
+	<crc/>
+	<manufacturer>Technos Japan (Taito license)</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="battlane3" index="" image="">
+	<description>Battle Lane! Vol. 5 (set 3)</description>
+	<cloneof>battlane</cloneof>
+	<crc/>
+	<manufacturer>Technos Japan (Taito license)</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="benberob" index="" image="">
+	<description>Ben Bero Beh (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bigevglf" index="" image="">
+	<description>Big Event Golf (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bigevglfj" index="" image="">
+	<description>Big Event Golf (Japan)</description>
+	<cloneof>bigevglf</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bioatack" index="" image="">
+	<description>Bio Attack</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation (Fox Video Games license)</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bking" index="" image="">
+	<description>Birdie King</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bking2" index="" image="">
+	<description>Birdie King 2</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bking3" index="" image="">
+	<description>Birdie King 3</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bonzeadv" index="" image="">
+	<description>Bonze Adventure (World, Newer)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bonzeadvo" index="" image="">
+	<description>Bonze Adventure (World, Older)</description>
+	<cloneof>bonzeadv</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bonzeadvp" index="" image="">
+	<description>Bonze Adventure (World, prototype)</description>
+	<cloneof>bonzeadv</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bonzeadvu" index="" image="">
+	<description>Bonze Adventure (US)</description>
+	<cloneof>bonzeadv</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bygone" index="" image="">
+	<description>Bygone (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cameltry" index="" image="">
+	<description>Cameltry (US, YM2610)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1989</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cameltrya" index="" image="">
+	<description>Cameltry (World, YM2203 + M6295)</description>
+	<cloneof>cameltry</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1989</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cameltryau" index="" image="">
+	<description>Cameltry (US, YM2203 + M6295)</description>
+	<cloneof>cameltry</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1989</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cameltryj" index="" image="">
+	<description>Cameltry (Japan, YM2610)</description>
+	<cloneof>cameltry</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1989</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chaknpop" index="" image="">
+	<description>Chack&apos;n Pop</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="changela" index="" image="">
+	<description>Change Lanes</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chukatai" index="" image="">
+	<description>Chuka Taisen (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chukataij" index="" image="">
+	<description>Chuka Taisen (Japan)</description>
+	<cloneof>chukatai</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chukataiu" index="" image="">
+	<description>Chuka Taisen (US)</description>
+	<cloneof>chukatai</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="colony7" index="" image="">
+	<description>Colony 7 (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="colony7a" index="" image="">
+	<description>Colony 7 (set 2)</description>
+	<cloneof>colony7</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="complexx" index="" image="">
+	<description>Complex X</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cosmicm2" index="" image="">
+	<description>Cosmic Monsters 2</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>Taito / Universal</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cosmicmo" index="" image="">
+	<description>Cosmic Monsters (version II)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>Taito / Universal</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crbaloon" index="" image="">
+	<description>Crazy Balloon (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1980</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crbaloon2" index="" image="">
+	<description>Crazy Balloon (set 2)</description>
+	<cloneof>crbaloon</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1980</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="daikaiju" index="" image="">
+	<description>Daikaiju no Gyakushu</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="daisenpu" index="" image="">
+	<description>Daisenpu (Japan)</description>
+	<cloneof>twinhawk</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="darkmist" index="" image="">
+	<description>The Lost Castle In Darkmist</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dockman" index="" image="">
+	<description>Dock Man</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drtoppel" index="" image="">
+	<description>Dr. Toppel&apos;s Adventure (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko / Taito Corporation Japan</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drtoppelj" index="" image="">
+	<description>Dr. Toppel&apos;s Tankentai (Japan)</description>
+	<cloneof>drtoppel</cloneof>
+	<crc/>
+	<manufacturer>Kaneko / Taito Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drtoppelu" index="" image="">
+	<description>Dr. Toppel&apos;s Adventure (US)</description>
+	<cloneof>drtoppel</cloneof>
+	<crc/>
+	<manufacturer>Kaneko / Taito America Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="einning" index="" image="">
+	<description>Extra Inning / Ball Park II</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway / Taito</manufacturer>
+	<year>1978</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="elecyoyo" index="" image="">
+	<description>The Electric Yo-Yo (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="elecyoyo2" index="" image="">
+	<description>The Electric Yo-Yo (set 2)</description>
+	<cloneof>elecyoyo</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="elevator" index="" image="">
+	<description>Elevator Action</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="empcityj" index="" image="">
+	<description>Empire City: 1931 (Japan)</description>
+	<cloneof>empcity</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Taito license)</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="empcityu" index="" image="">
+	<description>Empire City: 1931 (US)</description>
+	<cloneof>empcity</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Taito / Romstar license)</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="excthour" index="" image="">
+	<description>Exciting Hour</description>
+	<cloneof>matmania</cloneof>
+	<crc/>
+	<manufacturer>Technos Japan (Taito license)</manufacturer>
+	<year>1985</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="exeriont" index="" image="">
+	<description>Exerion (Taito)</description>
+	<cloneof>exerion</cloneof>
+	<crc/>
+	<manufacturer>Jaleco (Taito America license)</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="exzisus" index="" image="">
+	<description>Exzisus (Japan, dedicated)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="exzisusa" index="" image="">
+	<description>Exzisus (Japan, conversion)</description>
+	<cloneof>exzisus</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="exzisust" index="" image="">
+	<description>Exzisus (TAD license)</description>
+	<cloneof>exzisus</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation (TAD license)</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fantastc" index="" image="">
+	<description>Fantastic (Galaga conversion on Galaxian hardware)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito do Brasil</manufacturer>
+	<year>198?</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fgoal" index="" image="">
+	<description>Field Goal (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1979</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fgoala" index="" image="">
+	<description>Field Goal (set 2)</description>
+	<cloneof>fgoal</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1979</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fhawk" index="" image="">
+	<description>Fighting Hawk (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fhawkj" index="" image="">
+	<description>Fighting Hawk (Japan)</description>
+	<cloneof>fhawk</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fightrol" index="" image="">
+	<description>Fighting Roller</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko (Taito license)</manufacturer>
+	<year>1983</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="firebatl" index="" image="">
+	<description>Fire Battle</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fitter" index="" image="">
+	<description>Fitter</description>
+	<cloneof>roundup</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="flstory" index="" image="">
+	<description>The FairyLand Story</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="flstoryj" index="" image="">
+	<description>The FairyLand Story (Japan)</description>
+	<cloneof>flstory</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="frontlin" index="" image="">
+	<description>Front Line</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fshark" index="" image="">
+	<description>Flying Shark (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Toaplan / Taito Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fspiderb" index="" image="">
+	<description>Frog &amp; Spiders (bootleg?)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="funkyfig" index="" image="">
+	<description>The First Funky Fighter (North America, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nakanihon / East Technology (Taito license)</manufacturer>
+	<year>1993</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="funkyfiga" index="" image="">
+	<description>The First Funky Fighter (North America, set 2)</description>
+	<cloneof>funkyfig</cloneof>
+	<crc/>
+	<manufacturer>Nakanihon / East Technology (Taito license)</manufacturer>
+	<year>1993</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="funnymou" index="" image="">
+	<description>Funny Mouse (Japan)</description>
+	<cloneof>suprmous</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation (Chuo Co. Ltd license)</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galactic" index="" image="">
+	<description>Galactica - Batalha Espacial</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito do Brasil</manufacturer>
+	<year>1980?</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galaxiant" index="" image="">
+	<description>Galaxian (Taito)</description>
+	<cloneof>galaxian</cloneof>
+	<crc/>
+	<manufacturer>Namco (Taito license)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galemp" index="" image="">
+	<description>Galaxy Empire (bootleg?)</description>
+	<cloneof>uniwars</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Taito do Brasil)</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galxwarst" index="" image="">
+	<description>Galaxy Wars (Taito?)</description>
+	<cloneof>galxwars</cloneof>
+	<crc/>
+	<manufacturer>Universal (Taito license?)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gcastle" index="" image="">
+	<description>Golden Castle (prototype?)</description>
+	<cloneof>gladiatr</cloneof>
+	<crc/>
+	<manufacturer>Allumer / Taito Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="getstarj" index="" image="">
+	<description>Get Star (Japan)</description>
+	<cloneof>grdian</cloneof>
+	<crc/>
+	<manufacturer>Toaplan / Taito</manufacturer>
+	<year>1986</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gladiatr" index="" image="">
+	<description>Gladiator (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Allumer / Taito America Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gngt" index="" image="">
+	<description>Ghosts&apos;n Goblins (US)</description>
+	<cloneof>gng</cloneof>
+	<crc/>
+	<manufacturer>Capcom (Taito America license)</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="grdian" index="" image="">
+	<description>Guardian (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Toaplan / Taito America Corporation (Kitkorp license)</manufacturer>
+	<year>1986</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="greatgur" index="" image="">
+	<description>Great Gurianos (Japan?)</description>
+	<cloneof>gladiatr</cloneof>
+	<crc/>
+	<manufacturer>Allumer / Taito Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="grescue" index="" image="">
+	<description>Galaxy Rescue</description>
+	<cloneof>lrescue</cloneof>
+	<crc/>
+	<manufacturer>Taito (Universal license?)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gsword" index="" image="">
+	<description>Great Swordsman (World?)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Allumer / Taito Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gsword2" index="" image="">
+	<description>Great Swordsman (Japan?)</description>
+	<cloneof>gsword</cloneof>
+	<crc/>
+	<manufacturer>Allumer / Taito Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gyrodinet" index="" image="">
+	<description>Gyrodine (Taito Corporation license)</description>
+	<cloneof>gyrodine</cloneof>
+	<crc/>
+	<manufacturer>Crux (Taito Corporation license)</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="halley87" index="" image="">
+	<description>Halley&apos;s Comet &apos;87</description>
+	<cloneof>halleys</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="halleycj" index="" image="">
+	<description>Halley&apos;s Comet (Japan, Older)</description>
+	<cloneof>halleys</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="halleys" index="" image="">
+	<description>Halley&apos;s Comet (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito America Corporation (Coin-It license)</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="halleysc" index="" image="">
+	<description>Halley&apos;s Comet (Japan, Newer)</description>
+	<cloneof>halleys</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hellfire1" index="" image="">
+	<description>Hellfire (1P set)</description>
+	<cloneof>hellfire</cloneof>
+	<crc/>
+	<manufacturer>Toaplan (Taito license)</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hellfire1a" index="" image="">
+	<description>Hellfire (1P set, older)</description>
+	<cloneof>hellfire</cloneof>
+	<crc/>
+	<manufacturer>Toaplan (Taito license)</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hiryuken" index="" image="">
+	<description>Hokuha Syourin Hiryu no Ken</description>
+	<cloneof>shangkid</cloneof>
+	<crc/>
+	<manufacturer>Taiyo (Taito license)</manufacturer>
+	<year>1985</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hishouza" index="" image="">
+	<description>Hishou Zame (Japan)</description>
+	<cloneof>fshark</cloneof>
+	<crc/>
+	<manufacturer>Toaplan / Taito Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hvyunit" index="" image="">
+	<description>Heavy Unit (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko / Taito</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hvyunitj" index="" image="">
+	<description>Heavy Unit (Japan, Newer)</description>
+	<cloneof>hvyunit</cloneof>
+	<crc/>
+	<manufacturer>Kaneko / Taito</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hvyunitjo" index="" image="">
+	<description>Heavy Unit (Japan, Older)</description>
+	<cloneof>hvyunit</cloneof>
+	<crc/>
+	<manufacturer>Kaneko / Taito</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hvyunitu" index="" image="">
+	<description>Heavy Unit -U.S.A. Version- (US)</description>
+	<cloneof>hvyunit</cloneof>
+	<crc/>
+	<manufacturer>Kaneko / Taito</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hwrace" index="" image="">
+	<description>High Way Race</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="indianbt" index="" image="">
+	<description>Indian Battle</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="indianbtbr" index="" image="">
+	<description>Indian Battle (Brazil)</description>
+	<cloneof>indianbt</cloneof>
+	<crc/>
+	<manufacturer>Taito do Brasil</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="insectx" index="" image="">
+	<description>Insector X (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="insectxj" index="" image="">
+	<description>Insector X (Japan)</description>
+	<cloneof>insectx</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="invaddlx" index="" image="">
+	<description>Space Invaders Deluxe</description>
+	<cloneof>invadpt2</cloneof>
+	<crc/>
+	<manufacturer>Taito (Midway license)</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="invaderl" index="" image="">
+	<description>Space Invaders (Logitec)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>Taito / Logitec</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="invaders" index="" image="">
+	<description>Space Invaders / Space Invaders M</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito / Midway</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="invadpt2" index="" image="">
+	<description>Space Invaders Part II (Taito)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="invadpt2br" index="" image="">
+	<description>Space Invaders Part II (Brazil)</description>
+	<cloneof>invadpt2</cloneof>
+	<crc/>
+	<manufacturer>Taito do Brasil</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="invadrmr" index="" image="">
+	<description>Space Invaders (Model Racing)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>Taito / Model Racing</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="invqix" index="" image="">
+	<description>Space Invaders / Qix Silver Anniversary Edition (Ver. 2.03)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito / Namco</manufacturer>
+	<year>2003</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jigkmgri" index="" image="">
+	<description>Jigoku Meguri (Japan)</description>
+	<cloneof>bonzeadv</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jollyjgr" index="" image="">
+	<description>Jolly Jogger</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jumpcoast" index="" image="">
+	<description>Jump Coaster (Taito)</description>
+	<cloneof>jumpcoas</cloneof>
+	<crc/>
+	<manufacturer>Kaneko (Taito license)</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jungleh" index="" image="">
+	<description>Jungle Hunt (US)</description>
+	<cloneof>junglek</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="junglehbr" index="" image="">
+	<description>Jungle Hunt (Brazil)</description>
+	<cloneof>junglek</cloneof>
+	<crc/>
+	<manufacturer>Taito do Brasil</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="junglek" index="" image="">
+	<description>Jungle King (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="junglekas" index="" image="">
+	<description>Jungle King (alternate sound)</description>
+	<cloneof>junglek</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="junglekj2" index="" image="">
+	<description>Jungle King (Japan, earlier)</description>
+	<cloneof>junglek</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kabukiz" index="" image="">
+	<description>Kabuki-Z (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko / Taito Corporation Japan</manufacturer>
+	<year>1988</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kabukizj" index="" image="">
+	<description>Kabuki-Z (Japan)</description>
+	<cloneof>kabukiz</cloneof>
+	<crc/>
+	<manufacturer>Kaneko / Taito Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kagekij" index="" image="">
+	<description>Kageki (Japan)</description>
+	<cloneof>kageki</cloneof>
+	<crc/>
+	<manufacturer>Kaneko / Taito Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kikikai" index="" image="">
+	<description>KiKi KaiKai</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kikstart" index="" image="">
+	<description>Kick Start - Wheelie King</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kncljoe" index="" image="">
+	<description>Knuckle Joe (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Taito license)</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kncljoea" index="" image="">
+	<description>Knuckle Joe (set 2)</description>
+	<cloneof>kncljoe</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Taito license)</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kong" index="" image="">
+	<description>Kong (Donkey Kong conversion on Galaxian hardware)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito do Brasil</manufacturer>
+	<year>198?</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kram" index="" image="">
+	<description>Kram (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kram2" index="" image="">
+	<description>Kram (set 2)</description>
+	<cloneof>kram</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kram3" index="" image="">
+	<description>Kram (encrypted)</description>
+	<cloneof>kram</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ksayakyu" index="" image="">
+	<description>Kusayakyuu</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1985</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ktiger" index="" image="">
+	<description>Kyukyoku Tiger (Japan)</description>
+	<cloneof>twincobr</cloneof>
+	<crc/>
+	<manufacturer>Toaplan / Taito Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kurikint" index="" image="">
+	<description>Kuri Kinton (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kurikinta" index="" image="">
+	<description>Kuri Kinton (World, prototype?)</description>
+	<cloneof>kurikint</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kurikintj" index="" image="">
+	<description>Kuri Kinton (Japan)</description>
+	<cloneof>kurikint</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kurikintu" index="" image="">
+	<description>Kuri Kinton (US)</description>
+	<cloneof>kurikint</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ladymstr" index="" image="">
+	<description>Lady Master of Kung Fu</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko / Taito</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="liquidk" index="" image="">
+	<description>Liquid Kids (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="liquidku" index="" image="">
+	<description>Liquid Kids (US)</description>
+	<cloneof>liquidk</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lkage" index="" image="">
+	<description>The Legend of Kage</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lkageo" index="" image="">
+	<description>The Legend of Kage (older)</description>
+	<cloneof>lkage</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lkageoo" index="" image="">
+	<description>The Legend of Kage (oldest)</description>
+	<cloneof>lkage</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lrescue" index="" image="">
+	<description>Lunar Rescue</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lsasquad" index="" image="">
+	<description>Land Sea Air Squad / Riku Kai Kuu Saizensen</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lupin3" index="" image="">
+	<description>Lupin III (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1980</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lupin3a" index="" image="">
+	<description>Lupin III (set 2)</description>
+	<cloneof>lupin3</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1980</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="m660" index="" image="">
+	<description>Mission 660 (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Wood Place Inc. (Taito America Corporation license)</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="m660j" index="" image="">
+	<description>Mission 660 (Japan)</description>
+	<cloneof>m660</cloneof>
+	<crc/>
+	<manufacturer>Wood Place Inc. (Taito Corporation license)</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="marinedt" index="" image="">
+	<description>Marine Date</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="masterw" index="" image="">
+	<description>Master of Weapon (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="masterwj" index="" image="">
+	<description>Master of Weapon (Japan)</description>
+	<cloneof>masterw</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="masterwu" index="" image="">
+	<description>Master of Weapon (US)</description>
+	<cloneof>masterw</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="matmania" index="" image="">
+	<description>Mat Mania</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Technos Japan (Taito America license)</manufacturer>
+	<year>1985</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mizubaku" index="" image="">
+	<description>Mizubaku Daibouken (Japan)</description>
+	<cloneof>liquidk</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mmpanic" index="" image="">
+	<description>Monkey Mole Panic (USA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nakanihon / East Technology (Taito license)</manufacturer>
+	<year>1992</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mofflott" index="" image="">
+	<description>Maze of Flott (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1989</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="moonbase" index="" image="">
+	<description>Moon Base (set 1)</description>
+	<cloneof>invadpt2</cloneof>
+	<crc/>
+	<manufacturer>Taito / Nichibutsu</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="moonbasea" index="" image="">
+	<description>Moon Base (set 2)</description>
+	<cloneof>invadpt2</cloneof>
+	<crc/>
+	<manufacturer>Taito / Nichibutsu</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mrdofix" index="" image="">
+	<description>Mr. Do! (bugfixed)</description>
+	<cloneof>mrdo</cloneof>
+	<crc/>
+	<manufacturer>Universal (Taito license)</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mrdot" index="" image="">
+	<description>Mr. Do! (Taito)</description>
+	<cloneof>mrdo</cloneof>
+	<crc/>
+	<manufacturer>Universal (Taito license)</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="msisaac" index="" image="">
+	<description>Metal Soldier Isaac II</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ninjakun" index="" image="">
+	<description>Ninjakun Majou no Bouken</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>UPL (Taito license)</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nunchaku" index="" image="">
+	<description>Nunchackun</description>
+	<cloneof>ladymstr</cloneof>
+	<crc/>
+	<manufacturer>Kaneko / Taito</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ogonsiro" index="" image="">
+	<description>Ougon no Shiro (Japan)</description>
+	<cloneof>gladiatr</cloneof>
+	<crc/>
+	<manufacturer>Allumer / Taito Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="onna34ro" index="" image="">
+	<description>Onna Sansirou - Typhoon Gal (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1985</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="onna34roa" index="" image="">
+	<description>Onna Sansirou - Typhoon Gal (set 2)</description>
+	<cloneof>onna34ro</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1985</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="panicr" index="" image="">
+	<description>Panic Road (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Taito license)</manufacturer>
+	<year>1986</year>
+	<genre>Pinball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pbillian" index="" image="">
+	<description>Prebillian</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko / Taito</manufacturer>
+	<year>1986</year>
+	<genre>Pool and Darts</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="phoenixj" index="" image="">
+	<description>Phoenix (Taito Japan)</description>
+	<cloneof>phoenix</cloneof>
+	<crc/>
+	<manufacturer>Amstar (Taito Japan license)</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="phoenixt" index="" image="">
+	<description>Phoenix (Taito)</description>
+	<cloneof>phoenix</cloneof>
+	<crc/>
+	<manufacturer>Amstar (Taito license)</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="piratpet" index="" image="">
+	<description>Pirate Pete</description>
+	<cloneof>junglek</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pitnrun" index="" image="">
+	<description>Pit &amp; Run - F-1 Race (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pitnruna" index="" image="">
+	<description>Pit &amp; Run - F-1 Race (set 2)</description>
+	<cloneof>pitnrun</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="polaris" index="" image="">
+	<description>Polaris (Latest version)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="polarisa" index="" image="">
+	<description>Polaris (First revision)</description>
+	<cloneof>polaris</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="polarisbr" index="" image="">
+	<description>Polaris (Brazil)</description>
+	<cloneof>polaris</cloneof>
+	<crc/>
+	<manufacturer>Taito do Brasil</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="polariso" index="" image="">
+	<description>Polaris (Original version)</description>
+	<cloneof>polaris</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="portman" index="" image="">
+	<description>Port Man</description>
+	<cloneof>dockman</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation (Nova Games Ltd. license)</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="puzznic" index="" image="">
+	<description>Puzznic (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1989</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="puzznicj" index="" image="">
+	<description>Puzznic (Japan)</description>
+	<cloneof>puzznic</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1989</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pyros" index="" image="">
+	<description>Pyros (US)</description>
+	<cloneof>wardner</cloneof>
+	<crc/>
+	<manufacturer>Toaplan / Taito America Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qix" index="" image="">
+	<description>Qix (Rev 2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1981</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qix2" index="" image="">
+	<description>Qix II (Tournament)</description>
+	<cloneof>qix</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1981</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qixa" index="" image="">
+	<description>Qix (set 2, smaller roms)</description>
+	<cloneof>qix</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1981</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qixb" index="" image="">
+	<description>Qix (set 2, larger roms)</description>
+	<cloneof>qix</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1981</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qixo" index="" image="">
+	<description>Qix (set 3, earlier)</description>
+	<cloneof>qix</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1981</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="raiders5t" index="" image="">
+	<description>Raiders5 (Japan)</description>
+	<cloneof>raiders5</cloneof>
+	<crc/>
+	<manufacturer>UPL (Taito license)</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="raimais" index="" image="">
+	<description>Raimais (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1988</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="raimaisj" index="" image="">
+	<description>Raimais (Japan)</description>
+	<cloneof>raimais</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="raimaisjo" index="" image="">
+	<description>Raimais (Japan, first revision)</description>
+	<cloneof>raimais</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rallybik" index="" image="">
+	<description>Rally Bike / Dash Yarou</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Toaplan / Taito Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rastan" index="" image="">
+	<description>Rastan (World Rev 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rastana" index="" image="">
+	<description>Rastan (World)</description>
+	<cloneof>rastan</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rastanu" index="" image="">
+	<description>Rastan (US Rev 1)</description>
+	<cloneof>rastan</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rastanua" index="" image="">
+	<description>Rastan (US)</description>
+	<cloneof>rastan</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rastanub" index="" image="">
+	<description>Rastan (US, Earlier code base)</description>
+	<cloneof>rastan</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rastsaga" index="" image="">
+	<description>Rastan Saga (Japan Rev 1)</description>
+	<cloneof>rastan</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rastsagaa" index="" image="">
+	<description>Rastan Saga (Japan)</description>
+	<cloneof>rastan</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rbisland" index="" image="">
+	<description>Rainbow Islands (new version)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rbislande" index="" image="">
+	<description>Rainbow Islands (Extra)</description>
+	<cloneof>rbisland</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rbislando" index="" image="">
+	<description>Rainbow Islands (old version)</description>
+	<cloneof>rbisland</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="realpunc" index="" image="">
+	<description>Real Puncher</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1994</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="recalh" index="" image="">
+	<description>Recalhorn (Ver 1.42J 1994/5/11, prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="renegade" index="" image="">
+	<description>Renegade (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Technos Japan (Taito America license)</manufacturer>
+	<year>1986</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="retofinv" index="" image="">
+	<description>Return of the Invaders</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rezont" index="" image="">
+	<description>Rezon (Taito)</description>
+	<cloneof>rezon</cloneof>
+	<crc/>
+	<manufacturer>Allumer (Taito license)</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ringfgt" index="" image="">
+	<description>Ring Fighter (set 1)</description>
+	<cloneof>vsgongf</cloneof>
+	<crc/>
+	<manufacturer>Kaneko (Taito license)</manufacturer>
+	<year>1984</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ringfgt2" index="" image="">
+	<description>Ring Fighter (set 2)</description>
+	<cloneof>vsgongf</cloneof>
+	<crc/>
+	<manufacturer>Kaneko (Taito license)</manufacturer>
+	<year>1984</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rockclim" index="" image="">
+	<description>Rock Climber</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1981</year>
+	<genre>Climbing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="roundup" index="" image="">
+	<description>Round-Up</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation (Amenip/Centuri license)</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="safarir" index="" image="">
+	<description>Safari Rally (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK (Taito license)</manufacturer>
+	<year>1979</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbowling" index="" image="">
+	<description>Strike Bowling</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scessjoe" index="" image="">
+	<description>Success Joe (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation / Wave</manufacturer>
+	<year>1990</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="schaser" index="" image="">
+	<description>Space Chaser (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1979</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="schasera" index="" image="">
+	<description>Space Chaser (set 2)</description>
+	<cloneof>schaser</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1979</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="schaserb" index="" image="">
+	<description>Space Chaser (set 3)</description>
+	<cloneof>schaser</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1979</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="schaserc" index="" image="">
+	<description>Space Chaser (set 4)</description>
+	<cloneof>schaser</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1979</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="schasercv" index="" image="">
+	<description>Space Chaser (CV version - set 1)</description>
+	<cloneof>schaser</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1979</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sdungeon" index="" image="">
+	<description>Space Dungeon</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sflush" index="" image="">
+	<description>Straight Flush</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1979</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfposeid" index="" image="">
+	<description>Sea Fighter Poseidon</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sicv" index="" image="">
+	<description>Space Invaders (CV Version)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sinvzen" index="" image="">
+	<description>Super Invaders (Zenitone-Microsec)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>Taito / Zenitone-Microsec Ltd.</manufacturer>
+	<year>1980?</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sisv" index="" image="">
+	<description>Space Invaders (SV Version rev 4)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sisv2" index="" image="">
+	<description>Space Invaders (SV Version rev 2)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sisv3" index="" image="">
+	<description>Space Invaders (SV Version rev 3)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sitv" index="" image="">
+	<description>Space Invaders (TV Version rev 2)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sitv1" index="" image="">
+	<description>Space Invaders (TV Version rev 1)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="skydest" index="" image="">
+	<description>Sky Destroyer (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="skyshark" index="" image="">
+	<description>Sky Shark (US, set 1)</description>
+	<cloneof>fshark</cloneof>
+	<crc/>
+	<manufacturer>Toaplan / Taito America Corporation (Romstar license)</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="skysharka" index="" image="">
+	<description>Sky Shark (US, set 2)</description>
+	<cloneof>fshark</cloneof>
+	<crc/>
+	<manufacturer>Toaplan / Taito America Corporation (Romstar license)</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="slapfigh" index="" image="">
+	<description>Slap Fight (Japan set 1)</description>
+	<cloneof>alcon</cloneof>
+	<crc/>
+	<manufacturer>Toaplan / Taito</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="solrwarr" index="" image="">
+	<description>Solar-Warrior (US)</description>
+	<cloneof>xsleena</cloneof>
+	<crc/>
+	<manufacturer>Technos Japan (Taito / Memetron license)</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spacecr" index="" image="">
+	<description>Space Cruiser</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spaceskr" index="" image="">
+	<description>Space Seeker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spceking" index="" image="">
+	<description>Space King</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>Taito / Leijac Corporation</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spcewars" index="" image="">
+	<description>Space War (Sanritsu)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>Taito / Sanritsu</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sqix" index="" image="">
+	<description>Super Qix (World, Rev 2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko / Taito</manufacturer>
+	<year>1987</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sqixr1" index="" image="">
+	<description>Super Qix (World, Rev 1)</description>
+	<cloneof>sqix</cloneof>
+	<crc/>
+	<manufacturer>Kaneko / Taito</manufacturer>
+	<year>1987</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sqixu" index="" image="">
+	<description>Super Qix (US)</description>
+	<cloneof>sqix</cloneof>
+	<crc/>
+	<manufacturer>Kaneko / Taito (Romstar License)</manufacturer>
+	<year>1987</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="srdmissn" index="" image="">
+	<description>S.R.D. Mission</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kyugo / Taito Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sstarcrs" index="" image="">
+	<description>Super Star Crest</description>
+	<cloneof>mooncrst</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu (Taito do Brasil license)</manufacturer>
+	<year>1980?</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="steelwkr" index="" image="">
+	<description>Steel Worker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1980</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stratvox" index="" image="">
+	<description>Stratovox</description>
+	<cloneof>speakres</cloneof>
+	<crc/>
+	<manufacturer>Sun Electronics (Taito license)</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="suprmous" index="" image="">
+	<description>Super Mouse</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="suprridr" index="" image="">
+	<description>Super Rider</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation (Venture Line license)</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="syvalion" index="" image="">
+	<description>Syvalion (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="syvalionp" index="" image="">
+	<description>Syvalion (World, prototype)</description>
+	<cloneof>syvalion</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thepitj" index="" image="">
+	<description>The Pit (Japan)</description>
+	<cloneof>thepit</cloneof>
+	<crc/>
+	<manufacturer>Zilec Electronics (Taito license)</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tigerh" index="" image="">
+	<description>Tiger Heli (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Toaplan / Taito America Corp.</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tigerhj" index="" image="">
+	<description>Tiger Heli (Japan)</description>
+	<cloneof>tigerh</cloneof>
+	<crc/>
+	<manufacturer>Toaplan / Taito</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="timefgtr" index="" image="">
+	<description>Time Fighter (Time Pilot conversion on Galaxian hardware)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito do Brasil</manufacturer>
+	<year>198?</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="timetunl" index="" image="">
+	<description>Time Tunnel</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tinstar" index="" image="">
+	<description>The Tin Star (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tinstar2" index="" image="">
+	<description>The Tin Star (set 2)</description>
+	<cloneof>tinstar</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tnzs" index="" image="">
+	<description>The NewZealand Story (World, new version) (newer PCB)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tnzsj" index="" image="">
+	<description>The NewZealand Story (Japan, new version) (newer PCB)</description>
+	<cloneof>tnzs</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tnzsjo" index="" image="">
+	<description>The NewZealand Story (Japan, old version) (older PCB)</description>
+	<cloneof>tnzs</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tnzso" index="" image="">
+	<description>The NewZealand Story (World, old version) (older PCB)</description>
+	<cloneof>tnzs</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tnzsop" index="" image="">
+	<description>The NewZealand Story (World, prototype?) (older PCB)</description>
+	<cloneof>tnzs</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="truxton" index="" image="">
+	<description>Truxton / Tatsujin</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Toaplan / Taito Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tsamurai" index="" image="">
+	<description>Samurai Nihon-Ichi (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko / Taito</manufacturer>
+	<year>1985</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tsamurai2" index="" image="">
+	<description>Samurai Nihon-Ichi (set 2)</description>
+	<cloneof>tsamurai</cloneof>
+	<crc/>
+	<manufacturer>Kaneko / Taito</manufacturer>
+	<year>1985</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ttfitter" index="" image="">
+	<description>T.T. Fitter (Japan)</description>
+	<cloneof>roundup</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ultrainv" index="" image="">
+	<description>Ultra Invaders</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>Taito / Konami</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="volfied" index="" image="">
+	<description>Volfied (World, revision 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1989</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="volfiedj" index="" image="">
+	<description>Volfied (Japan, revision 1)</description>
+	<cloneof>volfied</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1989</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="volfiedjo" index="" image="">
+	<description>Volfied (Japan)</description>
+	<cloneof>volfied</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1989</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="volfiedo" index="" image="">
+	<description>Volfied (World)</description>
+	<cloneof>volfied</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1989</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="volfiedu" index="" image="">
+	<description>Volfied (US, revision 1)</description>
+	<cloneof>volfied</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1989</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="volfieduo" index="" image="">
+	<description>Volfied (US)</description>
+	<cloneof>volfied</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1989</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wardner" index="" image="">
+	<description>Wardner (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Toaplan / Taito Corporation Japan</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wardnerj" index="" image="">
+	<description>Wardner no Mori (Japan)</description>
+	<cloneof>wardner</cloneof>
+	<crc/>
+	<manufacturer>Toaplan / Taito Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="waterski" index="" image="">
+	<description>Water Ski</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Skiing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="westgun2" index="" image="">
+	<description>Western Gun Part II</description>
+	<cloneof>sheriff</cloneof>
+	<crc/>
+	<manufacturer>Nintendo (Taito Corporation license)</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wizt" index="" image="">
+	<description>Wiz (Taito, set 1)</description>
+	<cloneof>wiz</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Taito license)</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wizta" index="" image="">
+	<description>Wiz (Taito, set 2)</description>
+	<cloneof>wiz</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Taito license)</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wwestern" index="" image="">
+	<description>Wild Western (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wwestern1" index="" image="">
+	<description>Wild Western (set 2)</description>
+	<cloneof>wwestern</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xsleena" index="" image="">
+	<description>Xain&apos;d Sleena (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Technos Japan (Taito license)</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="yamagchi" index="" image="">
+	<description>Go Go Mr. Yamaguchi / Yuke Yuke Yamaguchi-kun</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko / Taito</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="yukiwo" index="" image="">
+	<description>Yukiwo (World, prototype)</description>
+	<cloneof>masterw</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zarzon" index="" image="">
+	<description>Zarzon</description>
+	<cloneof>satansat</cloneof>
+	<crc/>
+	<manufacturer>SNK (Taito America license)</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zookeep" index="" image="">
+	<description>Zoo Keeper (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zookeep2" index="" image="">
+	<description>Zoo Keeper (set 2)</description>
+	<cloneof>zookeep</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zookeep3" index="" image="">
+	<description>Zoo Keeper (set 3)</description>
+	<cloneof>zookeep</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

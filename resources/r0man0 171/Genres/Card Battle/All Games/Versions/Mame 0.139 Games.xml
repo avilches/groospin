@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Card Battle / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="5acespkr" index="" image="">
+	<description>5-Aces Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>198?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="comg240" index="" image="">
+	<description>Cal Omega - Game 24.0 (Gaming Draw Poker, hold)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Cal Omega / Casino Electronics Inc.</manufacturer>
+	<year>1985</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="comg5108" index="" image="">
+	<description>Cal Omega - Game 51.08 (CEI Video Poker, Jacks or Better)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Cal Omega / Casino Electronics Inc.</manufacturer>
+	<year>198?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="falcnwld" index="" image="">
+	<description>Falcons Wild - Wild Card 1991 (TVG)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>TVG</manufacturer>
+	<year>1991</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="falcnwlda" index="" image="">
+	<description>Falcons Wild - World Wide Poker (Video Klein, set 1)</description>
+	<cloneof>falcnwld</cloneof>
+	<crc/>
+	<manufacturer>Video Klein</manufacturer>
+	<year>1990</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="falcnwldc" index="" image="">
+	<description>Falcons Wild - World Wide Poker (Falcon original)</description>
+	<cloneof>falcnwld</cloneof>
+	<crc/>
+	<manufacturer>Falcon</manufacturer>
+	<year>1983</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hitme" index="" image="">
+	<description>Hit Me (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Ramtek</manufacturer>
+	<year>1976</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jubileep" index="" image="">
+	<description>Double-Up Poker (Jubilee)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jubilee</manufacturer>
+	<year>1985</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megadpkr" index="" image="">
+	<description>Mega Double Poker (conversion kit, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Blitz System Inc.</manufacturer>
+	<year>1990</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="moviecrd" index="" image="">
+	<description>Movie Card</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Golden Games / C+M Technics AG</manufacturer>
+	<year>1998</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nsmpoker" index="" image="">
+	<description>NSM Poker (TMS9995)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>NSM</manufacturer>
+	<year>198?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="piccolop" index="" image="">
+	<description>Piccolo Poker 100</description>
+	<cloneof>ampoker2</cloneof>
+	<crc/>
+	<manufacturer>Admiral/Novomatic</manufacturer>
+	<year>1990</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="roylcrdn" index="" image="">
+	<description>Royal Card (Nichibutsu)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1985</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssjkrpkr" index="" image="">
+	<description>Southern Systems Joker Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Southern Systems &amp; Assembly</manufacturer>
+	<year>1982</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="suprpokra" index="" image="">
+	<description>Super Poker (Version 10.15S)</description>
+	<cloneof>suprpokr</cloneof>
+	<crc/>
+	<manufacturer>Grayhound Electronics</manufacturer>
+	<year>1986</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="swisspkr" index="" image="">
+	<description>Swiss Poker (&apos;50 SG-.10&apos;, V2.5)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Golden Games / C+M Technics AG</manufacturer>
+	<year>1990</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="victor6" index="" image="">
+	<description>Victor 6 (v2.3N)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>American Alpha</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="victor6a" index="" image="">
+	<description>Victor 6 (v2.3)</description>
+	<cloneof>victor6</cloneof>
+	<crc/>
+	<manufacturer>American Alpha</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="victor6b" index="" image="">
+	<description>Victor 6 (v1.2)</description>
+	<cloneof>victor6</cloneof>
+	<crc/>
+	<manufacturer>American Alpha</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="witchcdg" index="" image="">
+	<description>Witch Card (Falcon, enhanced sound)</description>
+	<cloneof>witchcrd</cloneof>
+	<crc/>
+	<manufacturer>Falcon</manufacturer>
+	<year>199?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="witchcdh" index="" image="">
+	<description>Witch Card (German, WC3050, set 2 )</description>
+	<cloneof>witchcrd</cloneof>
+	<crc/>
+	<manufacturer>Proma</manufacturer>
+	<year>1994</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="witchgme" index="" image="">
+	<description>Witch Game (Video Klein, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Video Klein</manufacturer>
+	<year>1991</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

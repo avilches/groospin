@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Atari / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="dragrace" index="" image="">
+	<description>Drag Race</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari (Kee Games)</manufacturer>
+	<year>1977</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="poolshrk" index="" image="">
+	<description>Poolshark</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1977</year>
+	<genre>Pool and Darts</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="primrage" index="" image="">
+	<description>Primal Rage (version 2.3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="primrage20" index="" image="">
+	<description>Primal Rage (version 2.0)</description>
+	<cloneof>primrage</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

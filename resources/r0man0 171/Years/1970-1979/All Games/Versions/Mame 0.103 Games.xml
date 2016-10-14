@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1970-1979 / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="galaxia" index="" image="">
+	<description>Galaxia (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Zaccaria / Zelco</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shuttlei" index="" image="">
+	<description>Shuttle Invader</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Omori Electric Co., Ltd.</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sstarbtl" index="" image="">
+	<description>Super Star Battle</description>
+	<cloneof>astrof</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

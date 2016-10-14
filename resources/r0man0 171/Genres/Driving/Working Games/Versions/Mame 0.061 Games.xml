@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Driving / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="crshrace" index="" image="">
+	<description>Lethal Crash Race (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Video System Co.</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crshrace2" index="" image="">
+	<description>Lethal Crash Race (set 2)</description>
+	<cloneof>crshrace</cloneof>
+	<crc/>
+	<manufacturer>Video System Co.</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="f1gp" index="" image="">
+	<description>F-1 Grand Prix</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Video System Co.</manufacturer>
+	<year>1991</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="montecar" index="" image="">
+	<description>Monte Carlo</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1979</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

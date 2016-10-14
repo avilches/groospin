@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Sega / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="pdrifta" index="" image="">
+	<description>Power Drift (World)</description>
+	<cloneof>pdrift</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shtngmste" index="" image="">
+	<description>Shooting Master (EVG, 8751 315-5159a)</description>
+	<cloneof>shtngmst</cloneof>
+	<crc/>
+	<manufacturer>Sega / EVG</manufacturer>
+	<year>1985</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wboy4" index="" image="">
+	<description>Wonder Boy (315-5162, 4-D Warriors Conversion)</description>
+	<cloneof>wboy</cloneof>
+	<crc/>
+	<manufacturer>Escape (Sega license)</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

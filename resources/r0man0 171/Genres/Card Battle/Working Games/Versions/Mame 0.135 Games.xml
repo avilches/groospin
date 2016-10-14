@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Card Battle / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="cgip30cs" index="" image="">
+	<description>Credit Poker (ver.30c, standard)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>CGI</manufacturer>
+	<year>1999</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="df_djpkr" index="" image="">
+	<description>Double Joker Poker (45%-75% payout)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>DellFern Ltd.</manufacturer>
+	<year>199?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jokpokerb" index="" image="">
+	<description>Joker Poker (Version 16.04BI 10-19-88, Joker Poker ICB 9-30-86)</description>
+	<cloneof>jokpoker</cloneof>
+	<crc/>
+	<manufacturer>Greyhound Electronics</manufacturer>
+	<year>1983</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jokpokerc" index="" image="">
+	<description>Joker Poker (Version 16.03BI 5-10-85, Poker No Raise ICB 9-30-86)</description>
+	<cloneof>jokpoker</cloneof>
+	<crc/>
+	<manufacturer>Greyhound Electronics</manufacturer>
+	<year>1983</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mainline" index="" image="">
+	<description>Mainline Double Joker Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Mainline London</manufacturer>
+	<year>198?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ndxron10" index="" image="">
+	<description>Royal on Ten (Noraut Deluxe hack)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>2005</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="norautdx" index="" image="">
+	<description>Noraut Deluxe Poker (console)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Noraut Ltd.</manufacturer>
+	<year>198?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="norautjo" index="" image="">
+	<description>Noraut Joker Poker (original)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Noraut Ltd.</manufacturer>
+	<year>198?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="norautpl" index="" image="">
+	<description>Noraut Joker Poker (Prologic HW)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Video Fun Games Ltd.</manufacturer>
+	<year>198?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="norautra" index="" image="">
+	<description>Noraut Red Hot Joker Poker (alt HW)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Noraut Ltd.</manufacturer>
+	<year>198?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="suprpokr" index="" image="">
+	<description>Super Poker (Version 10.19S)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Grayhound Electronics</manufacturer>
+	<year>1986</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

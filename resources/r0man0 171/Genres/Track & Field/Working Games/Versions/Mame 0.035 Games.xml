@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Track &amp; Field / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="combatsc" index="" image="">
+	<description>Combat School (joystick)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1988</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="combatscb" index="" image="">
+	<description>Combat School (bootleg)</description>
+	<cloneof>combatsc</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1988</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mysticm" index="" image="">
+	<description>Mystic Marathon</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1983</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

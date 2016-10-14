@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Gaelco / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="bang" index="" image="">
+	<description>Bang!</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1998</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bangj" index="" image="">
+	<description>Gun Gabacho (Japan)</description>
+	<cloneof>bang</cloneof>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1998</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="targeth" index="" image="">
+	<description>Target Hits (ver 1.1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1994</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="targetha" index="" image="">
+	<description>Target Hits (ver 1.0)</description>
+	<cloneof>targeth</cloneof>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1994</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

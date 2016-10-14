@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Basketball / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="ar_fast" index="" image="">
+	<description>Magic Johnson&apos;s Fast Break (Arcadia, V 2.8)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Arcadia Systems</manufacturer>
+	<year>1988</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ar_fasta" index="" image="">
+	<description>Magic Johnson&apos;s Fast Break (Arcadia, V 2.7)</description>
+	<cloneof>ar_fast</cloneof>
+	<crc/>
+	<manufacturer>Arcadia Systems</manufacturer>
+	<year>1988</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="archrivl" index="" image="">
+	<description>Arch Rivals (rev 4.0 6/29/89)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1989</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="archrivla" index="" image="">
+	<description>Arch Rivals (rev 2.0 5/03/89)</description>
+	<cloneof>archrivl</cloneof>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1989</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="archrivlb" index="" image="">
+	<description>Arch Rivals (rev 2.0 5/03/89, 8-way Joystick bootleg)</description>
+	<cloneof>archrivl</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1989</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddribble" index="" image="">
+	<description>Double Dribble</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1986</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddribblep" index="" image="">
+	<description>Double Dribble (prototype?)</description>
+	<cloneof>ddribble</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1986</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dunkshot" index="" image="">
+	<description>Dunk Shot (Rev C, FD1089A 317-0022)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dunkshota" index="" image="">
+	<description>Dunk Shot (Rev A, FD1089A 317-0022)</description>
+	<cloneof>dunkshot</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dunkshoto" index="" image="">
+	<description>Dunk Shot (FD1089A 317-0022)</description>
+	<cloneof>dunkshot</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fghtbskt" index="" image="">
+	<description>Fighting Basketball</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Paradise Co. Ltd.</manufacturer>
+	<year>1984</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jumpshot" index="" image="">
+	<description>Jump Shot</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1985</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jumpshotp" index="" image="">
+	<description>Jump Shot Engineering Sample</description>
+	<cloneof>jumpshot</cloneof>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1985</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_dbldr" index="" image="">
+	<description>Double Dribble (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami (Nintendo of America license)</manufacturer>
+	<year>1987</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbasketb" index="" image="">
+	<description>Super Basketball (version I, encrypted)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1984</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbaskete" index="" image="">
+	<description>Super Basketball (version E, encrypted)</description>
+	<cloneof>sbasketb</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1984</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbasketg" index="" image="">
+	<description>Super Basketball (version G, encrypted)</description>
+	<cloneof>sbasketb</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1984</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbasketh" index="" image="">
+	<description>Super Basketball (version H, unprotected)</description>
+	<cloneof>sbasketb</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1984</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

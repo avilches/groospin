@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Platform / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="ckongg" index="" image="">
+	<description>Crazy Kong (bootleg on Galaxian hardware)</description>
+	<cloneof>ckong</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1981</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jailbrekb" index="" image="">
+	<description>Jail Break (bootleg)</description>
+	<cloneof>jailbrek</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Fighter / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="mshj" index="" image="">
+	<description>Marvel Super Heroes (Japan 951117)</description>
+	<cloneof>msh</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ncombath" index="" image="">
+	<description>Ninja Combat (NGH-009)</description>
+	<cloneof>ncombat</cloneof>
+	<crc/>
+	<manufacturer>Alpha Denshi Co.</manufacturer>
+	<year>1990</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vhuntjr1" index="" image="">
+	<description>Vampire Hunter: Darkstalkers&apos; Revenge (Japan 950307)</description>
+	<cloneof>nwarr</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

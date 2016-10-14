@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2P alt / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="ccboot" index="" image="">
+	<description>Crazy Climber (bootleg set 1)</description>
+	<cloneof>cclimber</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1980</year>
+	<genre>Climbing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cclimber" index="" image="">
+	<description>Crazy Climber (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1980</year>
+	<genre>Climbing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ckongpt2" index="" image="">
+	<description>Crazy Kong Part II (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Falcon</manufacturer>
+	<year>1981</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hangly" index="" image="">
+	<description>Hangly-Man (set 1)</description>
+	<cloneof>puckman</cloneof>
+	<crc/>
+	<manufacturer>hack</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mrdo" index="" image="">
+	<description>Mr. Do!</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Universal</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mrlo" index="" image="">
+	<description>Mr. Lo!</description>
+	<cloneof>mrdo</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="newpuckx" index="" image="">
+	<description>New Puck-X</description>
+	<cloneof>puckman</cloneof>
+	<crc/>
+	<manufacturer>hack</manufacturer>
+	<year>1980</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="penta" index="" image="">
+	<description>Penta</description>
+	<cloneof>pengo</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Grinbee Shouji)</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="piranhah" index="" image="">
+	<description>Piranha (hack)</description>
+	<cloneof>puckman</cloneof>
+	<crc/>
+	<manufacturer>hack</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="puckmanb" index="" image="">
+	<description>Puck Man (bootleg set 1)</description>
+	<cloneof>puckman</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1980</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

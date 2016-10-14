@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Golf / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="bigevglfj" index="" image="">
+	<description>Big Event Golf (Japan)</description>
+	<cloneof>bigevglf</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crgolf" index="" image="">
+	<description>Crowns Golf (834-5419-04)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nasco Japan</manufacturer>
+	<year>1984</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt97t243" index="" image="">
+	<description>Golden Tee &apos;97 Tournament (v2.43)</description>
+	<cloneof>gt97</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1997</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

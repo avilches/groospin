@@ -1,0 +1,669 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Capcom / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="1942" index="" image="">
+	<description>1942 (Revision B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="1942a" index="" image="">
+	<description>1942 (Revision A)</description>
+	<cloneof>1942</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="1942b" index="" image="">
+	<description>1942 (First Version)</description>
+	<cloneof>1942</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="1942w" index="" image="">
+	<description>1942 (Williams Electronics license)</description>
+	<cloneof>1942</cloneof>
+	<crc/>
+	<manufacturer>Capcom (Williams Electronics license)</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ataxxj" index="" image="">
+	<description>Ataxx (Japan)</description>
+	<cloneof>ataxx</cloneof>
+	<crc/>
+	<manufacturer>Leland Corp. (Capcom license)</manufacturer>
+	<year>1990</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bionicc" index="" image="">
+	<description>Bionic Commando (Euro)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bionicc1" index="" image="">
+	<description>Bionic Commando (US set 1)</description>
+	<cloneof>bionicc</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bionicc2" index="" image="">
+	<description>Bionic Commando (US set 2)</description>
+	<cloneof>bionicc</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blkdrgon" index="" image="">
+	<description>Black Dragon (Japan)</description>
+	<cloneof>blktiger</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blktiger" index="" image="">
+	<description>Black Tiger</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blktigera" index="" image="">
+	<description>Black Tiger (older)</description>
+	<cloneof>blktiger</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="commando" index="" image="">
+	<description>Commando (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="commandoj" index="" image="">
+	<description>Senjou no Ookami</description>
+	<cloneof>commando</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="commandou" index="" image="">
+	<description>Commando (US set 1)</description>
+	<cloneof>commando</cloneof>
+	<crc/>
+	<manufacturer>Capcom (Data East USA license)</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="commandou2" index="" image="">
+	<description>Commando (US set 2)</description>
+	<cloneof>commando</cloneof>
+	<crc/>
+	<manufacturer>Capcom (Data East USA license)</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="daimakai" index="" image="">
+	<description>Daimakaimura (Japan)</description>
+	<cloneof>ghouls</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="daimakair" index="" image="">
+	<description>Daimakaimura (Japan Resale Ver.)</description>
+	<cloneof>ghouls</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="f1dream" index="" image="">
+	<description>F-1 Dream</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom (Romstar license)</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ghouls" index="" image="">
+	<description>Ghouls&apos;n Ghosts (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ghoulsu" index="" image="">
+	<description>Ghouls&apos;n Ghosts (USA)</description>
+	<cloneof>ghouls</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gng" index="" image="">
+	<description>Ghosts&apos;n Goblins (World? set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnga" index="" image="">
+	<description>Ghosts&apos;n Goblins (World? set 2)</description>
+	<cloneof>gng</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gngc" index="" image="">
+	<description>Ghosts&apos;n Goblins (World? set 3)</description>
+	<cloneof>gng</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gngprot" index="" image="">
+	<description>Ghosts&apos;n Goblins (prototype)</description>
+	<cloneof>gng</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gngt" index="" image="">
+	<description>Ghosts&apos;n Goblins (US)</description>
+	<cloneof>gng</cloneof>
+	<crc/>
+	<manufacturer>Capcom (Taito America license)</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gunsmoke" index="" image="">
+	<description>Gun.Smoke (World, 851115)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gunsmokej" index="" image="">
+	<description>Gun.Smoke (Japan, 851115)</description>
+	<cloneof>gunsmoke</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gunsmokeu" index="" image="">
+	<description>Gun.Smoke (US, 860408)</description>
+	<cloneof>gunsmoke</cloneof>
+	<crc/>
+	<manufacturer>Capcom (Romstar license)</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gunsmokeua" index="" image="">
+	<description>Gun.Smoke (US, 851115, set 1)</description>
+	<cloneof>gunsmoke</cloneof>
+	<crc/>
+	<manufacturer>Capcom (Romstar license)</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gunsmokeub" index="" image="">
+	<description>Gun.Smoke (US, 851115, set 2)</description>
+	<cloneof>gunsmoke</cloneof>
+	<crc/>
+	<manufacturer>Capcom (Romstar license)</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="higemaru" index="" image="">
+	<description>Pirate Ship Higemaru</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1984</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="leds2011" index="" image="">
+	<description>Led Storm Rally 2011 (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="leds2011u" index="" image="">
+	<description>Led Storm Rally 2011 (US)</description>
+	<cloneof>leds2011</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ledstorm" index="" image="">
+	<description>Led Storm (US)</description>
+	<cloneof>madgear</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="madgear" index="" image="">
+	<description>Mad Gear (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1989</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="madgearj" index="" image="">
+	<description>Mad Gear (Japan)</description>
+	<cloneof>madgear</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1989</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="makaimur" index="" image="">
+	<description>Makai-Mura (Japan)</description>
+	<cloneof>gng</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="makaimurc" index="" image="">
+	<description>Makai-Mura (Japan Revision C)</description>
+	<cloneof>gng</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="makaimurg" index="" image="">
+	<description>Makai-Mura (Japan Revision G)</description>
+	<cloneof>gng</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_1942" index="" image="">
+	<description>1942 (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sectionz" index="" image="">
+	<description>Section Z (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sectionza" index="" image="">
+	<description>Section Z (set 2)</description>
+	<cloneof>sectionz</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sinvasn" index="" image="">
+	<description>Space Invasion (Europe)</description>
+	<cloneof>commando</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="srumbler" index="" image="">
+	<description>The Speed Rumbler (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="srumbler2" index="" image="">
+	<description>The Speed Rumbler (set 2)</description>
+	<cloneof>srumbler</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="srumbler3" index="" image="">
+	<description>The Speed Rumbler (set 3)</description>
+	<cloneof>srumbler</cloneof>
+	<crc/>
+	<manufacturer>Capcom (Tecfri license)</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="strider" index="" image="">
+	<description>Strider (USA, B-Board 89624B-2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="striderj" index="" image="">
+	<description>Strider Hiryu (Japan)</description>
+	<cloneof>strider</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="striderjr" index="" image="">
+	<description>Strider Hiryu (Japan Resale Ver.)</description>
+	<cloneof>strider</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="striderua" index="" image="">
+	<description>Strider (USA, B-Board 89624B-3)</description>
+	<cloneof>strider</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="strideruc" index="" image="">
+	<description>Strider (USA, B-Board 90629B-3, buggy Street Fighter II conversion)</description>
+	<cloneof>strider</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Capcom)</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tigeroad" index="" image="">
+	<description>Tiger Road (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tigeroadu" index="" image="">
+	<description>Tiger Road (US, Romstar license)</description>
+	<cloneof>tigeroad</cloneof>
+	<crc/>
+	<manufacturer>Capcom (Romstar license)</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="topsecrt" index="" image="">
+	<description>Top Secret (Japan, old revision)</description>
+	<cloneof>bionicc</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="toramich" index="" image="">
+	<description>Tora e no Michi (Japan)</description>
+	<cloneof>tigeroad</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trojan" index="" image="">
+	<description>Trojan (US set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trojana" index="" image="">
+	<description>Trojan (US set 2)</description>
+	<cloneof>trojan</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trojanj" index="" image="">
+	<description>Tatakai no Banka (Japan)</description>
+	<cloneof>trojan</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trojanr" index="" image="">
+	<description>Trojan (Romstar)</description>
+	<cloneof>trojan</cloneof>
+	<crc/>
+	<manufacturer>Capcom (Romstar license)</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vulgus" index="" image="">
+	<description>Vulgus (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vulgusa" index="" image="">
+	<description>Vulgus (set 2)</description>
+	<cloneof>vulgus</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vulgusj" index="" image="">
+	<description>Vulgus (Japan?)</description>
+	<cloneof>vulgus</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="willow" index="" image="">
+	<description>Willow (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="willowj" index="" image="">
+	<description>Willow (Japan)</description>
+	<cloneof>willow</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="willowu" index="" image="">
+	<description>Willow (USA)</description>
+	<cloneof>willow</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="willowuo" index="" image="">
+	<description>Willow (USA Old Ver.)</description>
+	<cloneof>willow</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

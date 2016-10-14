@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Nichibutsu / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="cclimbr2" index="" image="">
+	<description>Crazy Climber 2 (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1988</year>
+	<genre>Climbing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kozure" index="" image="">
+	<description>Kozure Ookami (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1987</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ninjemak" index="" image="">
+	<description>Ninja Emaki (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="youma" index="" image="">
+	<description>Youma Ninpou Chou (Japan)</description>
+	<cloneof>ninjemak</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

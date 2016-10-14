@@ -1,0 +1,299 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Platform / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="berabohm" index="" image="">
+	<description>Beraboh Man (Japan, Rev C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="berabohmb" index="" image="">
+	<description>Beraboh Man (Japan, Rev B)</description>
+	<cloneof>berabohm</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drgnbstr" index="" image="">
+	<description>Dragon Buster</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="finehour" index="" image="">
+	<description>Finest Hour (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="genpeitd" index="" image="">
+	<description>Genpei ToumaDen</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hopmappy" index="" image="">
+	<description>Hopping Mappy</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mappy" index="" image="">
+	<description>Mappy (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mappyj" index="" image="">
+	<description>Mappy (Japan)</description>
+	<cloneof>mappy</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="marvland" index="" image="">
+	<description>Marvel Land (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="marvlandj" index="" image="">
+	<description>Marvel Land (Japan)</description>
+	<cloneof>marvland</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="metrocrs" index="" image="">
+	<description>Metro-Cross (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="metrocrsa" index="" image="">
+	<description>Metro-Cross (set 2)</description>
+	<cloneof>metrocrs</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mirninja" index="" image="">
+	<description>Mirai Ninja (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="outfxies" index="" image="">
+	<description>The Outfoxies (World, OU2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="outfxiesj" index="" image="">
+	<description>The Outfoxies (Japan, OU1)</description>
+	<cloneof>outfxies</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pacland" index="" image="">
+	<description>Pac-Land (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="paclandj" index="" image="">
+	<description>Pac-Land (Japan new)</description>
+	<cloneof>pacland</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="paclandjo" index="" image="">
+	<description>Pac-Land (Japan old)</description>
+	<cloneof>pacland</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="paclandjo2" index="" image="">
+	<description>Pac-Land (Japan older)</description>
+	<cloneof>pacland</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="paclandp" index="" image="">
+	<description>Pac-Land (United Amusements PC Engine)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rthun2" index="" image="">
+	<description>Rolling Thunder 2</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rthun2j" index="" image="">
+	<description>Rolling Thunder 2 (Japan)</description>
+	<cloneof>rthun2</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rthunder" index="" image="">
+	<description>Rolling Thunder (rev 3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rthunder0" index="" image="">
+	<description>Rolling Thunder (oldest)</description>
+	<cloneof>rthunder</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rthunder1" index="" image="">
+	<description>Rolling Thunder (rev 1)</description>
+	<cloneof>rthunder</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rthunder2" index="" image="">
+	<description>Rolling Thunder (rev 2)</description>
+	<cloneof>rthunder</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shadowld" index="" image="">
+	<description>Shadowland (YD3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="youkaidk1" index="" image="">
+	<description>Yokai Douchuuki (Japan, old version (YD1))</description>
+	<cloneof>shadowld</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="youkaidk2" index="" image="">
+	<description>Yokai Douchuuki (Japan, new version (YD2, Rev B))</description>
+	<cloneof>shadowld</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

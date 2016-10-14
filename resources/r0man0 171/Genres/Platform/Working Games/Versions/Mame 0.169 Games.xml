@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Platform / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="drgninjab2" index="" image="">
+	<description>Dragonninja (bootleg with 68705)</description>
+	<cloneof>baddudes</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ninjakd2c" index="" image="">
+	<description>Ninja-Kid II / NinjaKun Ashura no Shou (set 4)</description>
+	<cloneof>ninjakd2</cloneof>
+	<crc/>
+	<manufacturer>UPL</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xsleenaba" index="" image="">
+	<description>Xain&apos;d Sleena (bootleg, bugfixed)</description>
+	<cloneof>xsleena</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

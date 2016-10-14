@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Taito / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="arkanoidj" index="" image="">
+	<description>Arkanoid (Japan, newer)</description>
+	<cloneof>arkanoid</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bonzeadvp" index="" image="">
+	<description>Bonze Adventure (World, prototype)</description>
+	<cloneof>bonzeadv</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="growl" index="" image="">
+	<description>Growl (World, Rev 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1990</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="skysharka" index="" image="">
+	<description>Sky Shark (US, set 2)</description>
+	<cloneof>fshark</cloneof>
+	<crc/>
+	<manufacturer>Toaplan / Taito America Corporation (Romstar license)</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,289 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>4P alt / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="bowler" index="" image="">
+	<description>Bowling Alley</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1978</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bowlrama" index="" image="">
+	<description>Bowl-O-Rama Rev 1.0</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>P&amp;P Marketing</manufacturer>
+	<year>1991</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="capbowl" index="" image="">
+	<description>Capcom Bowling (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Incredible Technologies / Capcom</manufacturer>
+	<year>1988</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="capbowl2" index="" image="">
+	<description>Capcom Bowling (set 2)</description>
+	<cloneof>capbowl</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies / Capcom</manufacturer>
+	<year>1988</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="capbowl3" index="" image="">
+	<description>Capcom Bowling (set 3)</description>
+	<cloneof>capbowl</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies / Capcom</manufacturer>
+	<year>1988</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="capbowl4" index="" image="">
+	<description>Capcom Bowling (set 4)</description>
+	<cloneof>capbowl</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies / Capcom</manufacturer>
+	<year>1988</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="champbwl" index="" image="">
+	<description>Championship Bowling</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Seta / Romstar Inc.</manufacturer>
+	<year>1989</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="clbowl" index="" image="">
+	<description>Coors Light Bowling</description>
+	<cloneof>capbowl</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies / Capcom</manufacturer>
+	<year>1989</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="krzybowl" index="" image="">
+	<description>Krazy Bowl</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>American Sammy</manufacturer>
+	<year>1994</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lbowling" index="" image="">
+	<description>League Bowling (NGM-019)(NGH-019)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1990</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="simpbowl" index="" image="">
+	<description>Simpsons Bowling (GQ829 UAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stratab" index="" image="">
+	<description>Strata Bowling (V3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Strata/Incredible Technologies</manufacturer>
+	<year>1990</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stratab1" index="" image="">
+	<description>Strata Bowling (V1)</description>
+	<cloneof>stratab</cloneof>
+	<crc/>
+	<manufacturer>Strata/Incredible Technologies</manufacturer>
+	<year>1990</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stratabs" index="" image="">
+	<description>Strata Bowling (V1 4T, Super Strike Bowling type PCB)</description>
+	<cloneof>stratab</cloneof>
+	<crc/>
+	<manufacturer>Strata/Incredible Technologies</manufacturer>
+	<year>1990</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vbowl" index="" image="">
+	<description>Virtua Bowling (World, V101XCM)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1996</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vbowlj" index="" image="">
+	<description>Virtua Bowling (Japan, V100JCM)</description>
+	<cloneof>vbowl</cloneof>
+	<crc/>
+	<manufacturer>IGS / Alta</manufacturer>
+	<year>1996</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wcbowl" index="" image="">
+	<description>World Class Bowling (v1.66)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1995</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wcbowl11" index="" image="">
+	<description>World Class Bowling (v1.1)</description>
+	<cloneof>wcbowl</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1995</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wcbowl12" index="" image="">
+	<description>World Class Bowling (v1.2)</description>
+	<cloneof>wcbowl</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1995</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wcbowl13" index="" image="">
+	<description>World Class Bowling (v1.3)</description>
+	<cloneof>wcbowl</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1995</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wcbowl13j" index="" image="">
+	<description>World Class Bowling (v1.3J, Japan)</description>
+	<cloneof>wcbowl</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1995</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wcbowl14" index="" image="">
+	<description>World Class Bowling (v1.4)</description>
+	<cloneof>wcbowl</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1995</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wcbowl140" index="" image="">
+	<description>World Class Bowling Tournament (v1.40)</description>
+	<cloneof>wcbowldx</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1997</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wcbowl15" index="" image="">
+	<description>World Class Bowling (v1.5)</description>
+	<cloneof>wcbowl</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1995</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wcbowl16" index="" image="">
+	<description>World Class Bowling (v1.6)</description>
+	<cloneof>wcbowl</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1995</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wcbowl161" index="" image="">
+	<description>World Class Bowling (v1.61)</description>
+	<cloneof>wcbowl</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1995</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wcbowl165" index="" image="">
+	<description>World Class Bowling (v1.65)</description>
+	<cloneof>wcbowl</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1995</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wcbowldx" index="" image="">
+	<description>World Class Bowling Deluxe (v2.00)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1999</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

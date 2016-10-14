@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>3P sim / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="ctribeo" index="" image="">
+	<description>The Combatribes (US, older)</description>
+	<cloneof>ctribe</cloneof>
+	<crc/>
+	<manufacturer>Technos Japan</manufacturer>
+	<year>1990</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nitrobala" index="" image="">
+	<description>Nitro Ball (World, set 2)</description>
+	<cloneof>nitrobal</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

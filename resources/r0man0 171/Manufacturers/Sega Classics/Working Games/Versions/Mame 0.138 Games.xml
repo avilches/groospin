@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Sega / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="altbeast5" index="" image="">
+	<description>Altered Beast (set 5) (FD1094 317-0069)</description>
+	<cloneof>altbeast</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="desertbrj" index="" image="">
+	<description>Desert Breaker (Japan) (FD1094 317-0194)</description>
+	<cloneof>desertbr</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fantzonep" index="" image="">
+	<description>Fantasy Zone (317-5000)</description>
+	<cloneof>fantzone</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hwchampj" index="" image="">
+	<description>Heavyweight Champ (Japan) (FD1094 317-0046)</description>
+	<cloneof>hwchamp</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spaceshp" index="" image="">
+	<description>Space Ship</description>
+	<cloneof>spacewar</cloneof>
+	<crc/>
+	<manufacturer>Cinematronics (Sega license)</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

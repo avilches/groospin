@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Capcom / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="batcir" index="" image="">
+	<description>Battle Circuit (Euro 970319)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dimahoou" index="" image="">
+	<description>Dimahoo (USA 000121)</description>
+	<cloneof>dimahoo</cloneof>
+	<crc/>
+	<manufacturer>Eighting / Raizing (Capcom license)</manufacturer>
+	<year>2000</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dinou" index="" image="">
+	<description>Cadillacs and Dinosaurs (USA 930201)</description>
+	<cloneof>dino</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gmahou" index="" image="">
+	<description>Great Mahou Daisakusen (Japan 000121)</description>
+	<cloneof>dimahoo</cloneof>
+	<crc/>
+	<manufacturer>Eighting / Raizing (Capcom license)</manufacturer>
+	<year>2000</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mswordr1" index="" image="">
+	<description>Magic Sword: Heroic Fantasy (World 900623)</description>
+	<cloneof>msword</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sf2uf" index="" image="">
+	<description>Street Fighter II: The World Warrior (USA 910411)</description>
+	<cloneof>sf2</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

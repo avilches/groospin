@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Sega / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="pengo2" index="" image="">
+	<description>Pengo (set 2)</description>
+	<cloneof>pengo</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pengo2u" index="" image="">
+	<description>Pengo (set 2 not encrypted)</description>
+	<cloneof>pengo</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

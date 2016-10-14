@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Card Battle / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="5clown" index="" image="">
+	<description>Five Clown (English, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1993</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="5clowna" index="" image="">
+	<description>Five Clown (English, set 2)</description>
+	<cloneof>5clown</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1993</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="5clownsp" index="" image="">
+	<description>Five Clown (Spanish hack)</description>
+	<cloneof>5clown</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1993</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chleague" index="" image="">
+	<description>Champion League (Poker)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2000</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chleagul" index="" image="">
+	<description>Champion League (Lattine)</description>
+	<cloneof>chleague</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2000</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cjddzsp" index="" image="">
+	<description>Super Dou Di Zhu Special (V122CN)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>200?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cjdh2" index="" image="">
+	<description>Chao Ji Da Heng 2 (V311CN)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>200?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cjdh2a" index="" image="">
+	<description>Chao Ji Da Heng 2 (V311CNA)</description>
+	<cloneof>cjdh2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>200?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cjdh2b" index="" image="">
+	<description>Chao Ji Da Heng 2 (V311CNB)</description>
+	<cloneof>cjdh2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>200?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cjdh2c" index="" image="">
+	<description>Chao Ji Da Heng 2 (V215CN)</description>
+	<cloneof>cjdh2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>200?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddz" index="" image="">
+	<description>Dou Di Zhu</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS?</manufacturer>
+	<year>200?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="igs_ncs" index="" image="">
+	<description>New Champion Skill (v100n)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>198?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="igs_ncs2" index="" image="">
+	<description>New Champion Skill (v100n 2000)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2000</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="igsm312" index="" image="">
+	<description>unknown &apos;IGS 6POKER2&apos; game (V312CN)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>200?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kungfu" index="" image="">
+	<description>Kung Fu (IGS, v100)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1992</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sddz" index="" image="">
+	<description>Super Dou Di Zhu</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>200?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spk115it" index="" image="">
+	<description>Super Poker (v115IT)</description>
+	<cloneof>spk116it</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1993?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spk116it" index="" image="">
+	<description>Super Poker (v116IT)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1993?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spkrform" index="" image="">
+	<description>Super Poker (v100xD03) / Formosa</description>
+	<cloneof>spk116it</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>????</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zhongguo" index="" image="">
+	<description>Zhong Guo Chu Da D</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2000</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Driving / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="buggyboy" index="" image="">
+	<description>Buggy Boy/Speed Buggy (cockpit)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Tatsumi</manufacturer>
+	<year>1985</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crzrallyg" index="" image="">
+	<description>Crazy Rally (Gecas license)</description>
+	<cloneof>crzrally</cloneof>
+	<crc/>
+	<manufacturer>Tecfri (Gecas license)</manufacturer>
+	<year>1985</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pitnruna" index="" image="">
+	<description>Pit &amp; Run - F-1 Race (set 2)</description>
+	<cloneof>pitnrun</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tx1" index="" image="">
+	<description>TX-1 (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Tatsumi (Atari/Namco/Taito license)</manufacturer>
+	<year>1983</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

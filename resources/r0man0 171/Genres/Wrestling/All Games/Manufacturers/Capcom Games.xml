@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Wrestling / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="mbomberj" index="" image="">
+	<description>Muscle Bomber: The Body Explosion (Japan 930713)</description>
+	<cloneof>slammast</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1993</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mbombrd" index="" image="">
+	<description>Muscle Bomber Duo: Ultimate Team Battle (World 931206)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1993</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mbombrdj" index="" image="">
+	<description>Muscle Bomber Duo: Heat Up Warriors (Japan 931206)</description>
+	<cloneof>mbombrd</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1993</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ringdest" index="" image="">
+	<description>Ring of Destruction: Slammasters II (Euro 940902)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ringdesta" index="" image="">
+	<description>Ring of Destruction: Slammasters II (Asia 940831)</description>
+	<cloneof>ringdest</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ringdesth" index="" image="">
+	<description>Ring of Destruction: Slammasters II (Hispanic 940902)</description>
+	<cloneof>ringdest</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="slammast" index="" image="">
+	<description>Saturday Night Slam Masters (World 930713)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1993</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="slammastu" index="" image="">
+	<description>Saturday Night Slam Masters (USA 930713)</description>
+	<cloneof>slammast</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1993</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smbomb" index="" image="">
+	<description>Super Muscle Bomber: The International Blowout (Japan 940831)</description>
+	<cloneof>ringdest</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smbombr1" index="" image="">
+	<description>Super Muscle Bomber: The International Blowout (Japan 940808)</description>
+	<cloneof>ringdest</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

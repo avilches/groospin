@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Platform / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="bonzeadvo" index="" image="">
+	<description>Bonze Adventure (World, Older)</description>
+	<cloneof>bonzeadv</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ms5pcb" index="" image="">
+	<description>Metal Slug 5 (JAMMA PCB)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK Playmore</manufacturer>
+	<year>2003</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mslug3b6" index="" image="">
+	<description>Metal Slug 6 (Metal Slug 3 bootleg)</description>
+	<cloneof>mslug3</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2000</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pangpang" index="" image="">
+	<description>Pang Pang</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dong Gue La Mi Ltd.</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

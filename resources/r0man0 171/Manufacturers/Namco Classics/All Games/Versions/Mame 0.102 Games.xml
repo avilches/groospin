@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Namco / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="ghlpanic" index="" image="">
+	<description>Ghoul Panic (Asia, OB2/VER.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Eighting / Raizing / Namco</manufacturer>
+	<year>1999</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pacapp2" index="" image="">
+	<description>Paca Paca Passion 2 (Japan, PKS1/VER.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Produce / Namco</manufacturer>
+	<year>1999</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pacappsp" index="" image="">
+	<description>Paca Paca Passion Special (Japan, PSP1/VER.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Produce / Namco</manufacturer>
+	<year>1999</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="soulclbrjb" index="" image="">
+	<description>Soul Calibur (Japan, SOC11/VER.B)</description>
+	<cloneof>soulclbr</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="splatter2" index="" image="">
+	<description>Splatter House (World, old version (SH2))</description>
+	<cloneof>splatter</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1988</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tektagtub" index="" image="">
+	<description>Tekken Tag Tournament (US, TEG3/VER.B)</description>
+	<cloneof>tektagt</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tenkomorja" index="" image="">
+	<description>Tenkomori Shooting (Japan, TKM1/VER.A1)</description>
+	<cloneof>tenkomor</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

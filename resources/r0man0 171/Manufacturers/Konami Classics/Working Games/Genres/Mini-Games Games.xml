@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Konami / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="bishi" index="" image="">
+	<description>Bishi Bashi Championship Mini Game Senshuken (ver JAA, 3 Players)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="daiskiss" index="" image="">
+	<description>Daisu-Kiss (ver JAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gchgchmp" index="" image="">
+	<description>Gachaga Champ (GE877 VER. JAB)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hypbbc2p" index="" image="">
+	<description>Hyper Bishi Bashi Champ - 2 Player (GX908 1999/08/24 VER. JAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hypbbc2pk" index="" image="">
+	<description>Hyper Bishi Bashi Champ - 2 Player (GX908 1999/08/24 VER. KAA)</description>
+	<cloneof>hypbbc2p</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hyperbbc" index="" image="">
+	<description>Hyper Bishi Bashi Champ (GQ876 VER. EAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hyperbbca" index="" image="">
+	<description>Hyper Bishi Bashi Champ (GQ876 VER. AAA)</description>
+	<cloneof>hyperbbc</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="konam80a" index="" image="">
+	<description>Konami 80&apos;s AC Special (GC826 VER. AAA)</description>
+	<cloneof>konam80s</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="konam80j" index="" image="">
+	<description>Konami 80&apos;s Gallery (GC826 VER. JAA)</description>
+	<cloneof>konam80s</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="konam80k" index="" image="">
+	<description>Konami 80&apos;s AC Special (GC826 VER. KAA)</description>
+	<cloneof>konam80s</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="konam80s" index="" image="">
+	<description>Konami 80&apos;s AC Special (GC826 VER. EAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="konam80u" index="" image="">
+	<description>Konami 80&apos;s AC Special (GC826 VER. UAA)</description>
+	<cloneof>konam80s</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="salarymc" index="" image="">
+	<description>Salary Man Champ (GCA18 VER. JAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbishi" index="" image="">
+	<description>Super Bishi Bashi Championship (ver JAA, 2 Players)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbishik" index="" image="">
+	<description>Super Bishi Bashi Championship (ver KAA, 3 Players)</description>
+	<cloneof>sbishi</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stepchmp" index="" image="">
+	<description>Step Champ (GQ930 VER. JA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

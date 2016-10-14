@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Sports / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="cupsoca" index="" image="">
+	<description>Seibu Cup Soccer (set 2)</description>
+	<cloneof>cupsoc</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>1992</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="grmatch" index="" image="">
+	<description>Grudge Match (Yankee Game Technology)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Yankee Game Technology</manufacturer>
+	<year>1989</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="protennb" index="" image="">
+	<description>Tennis (bootleg of Pro Tennis)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1982</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ringdstd" index="" image="">
+	<description>Ring of Destruction: Slammasters II (Euro 940902 Phoenix Edition) (bootleg)</description>
+	<cloneof>ringdest</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1994</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shimpactp6" index="" image="">
+	<description>Super High Impact (prototype, rev 6.0 09/23/91)</description>
+	<cloneof>shimpact</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1991</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="surfplnt40" index="" image="">
+	<description>Surf Planet (Version 4.0)</description>
+	<cloneof>surfplnt</cloneof>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1997</year>
+	<genre>Skiing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wc90b2" index="" image="">
+	<description>Worldcup &apos;90</description>
+	<cloneof>wc90</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1989</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

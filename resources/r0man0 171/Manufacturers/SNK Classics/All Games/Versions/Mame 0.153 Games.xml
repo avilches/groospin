@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>SNK / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="kof95a" index="" image="">
+	<description>The King of Fighters &apos;95 (NGM-084), alternate board</description>
+	<cloneof>kof95</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kof98a" index="" image="">
+	<description>The King of Fighters &apos;98 - The Slugfest / King of Fighters &apos;98 - dream match never ends (NGM-2420, alternate board)</description>
+	<cloneof>kof98</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1P / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="calspeedb" index="" image="">
+	<description>California Speed (Version 1.0r7a Mar 4 1998, GUTS Mar 3 1998 / MAIN Jan 19 1998)</description>
+	<cloneof>calspeed</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1998</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fredmem" index="" image="">
+	<description>Fred Flintstones&apos; Memory Match (World?, Ticket version, 3/17/95)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Coastal Amusements</manufacturer>
+	<year>1994</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="janjans2" index="" image="">
+	<description>Lovely Pop Mahjong JangJang Shimasho 2 (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Visco</manufacturer>
+	<year>2000</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="magicstk" index="" image="">
+	<description>Magic Sticks</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Playmark</manufacturer>
+	<year>1995</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smgpu1" index="" image="">
+	<description>Super Monaco GP (US, Rev B) (FD1094 317-0125a)</description>
+	<cloneof>smgp</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

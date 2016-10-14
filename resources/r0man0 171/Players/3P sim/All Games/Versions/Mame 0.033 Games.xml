@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>3P sim / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="knights" index="" image="">
+	<description>Knights of the Round (World 911127)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssprint" index="" image="">
+	<description>Super Sprint (rev 4)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xenophob" index="" image="">
+	<description>Xenophobe</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

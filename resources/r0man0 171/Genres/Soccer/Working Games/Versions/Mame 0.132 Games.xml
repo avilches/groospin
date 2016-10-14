@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Soccer / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="bestleaw" index="" image="">
+	<description>Best League (bootleg of Big Striker, World Cup)</description>
+	<cloneof>bigstrik</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1993</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gstrik2" index="" image="">
+	<description>Grand Striker 2 (Europe and Oceania)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Human Amusement</manufacturer>
+	<year>1996</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

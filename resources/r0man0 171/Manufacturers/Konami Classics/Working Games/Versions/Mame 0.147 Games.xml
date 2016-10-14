@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Konami / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="gchgchmp" index="" image="">
+	<description>Gachaga Champ (GE877 VER. JAB)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hangpltu" index="" image="">
+	<description>Hang Pilot (ver UAA)</description>
+	<cloneof>hangplt</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1997</year>
+	<genre>Sports</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hcastlee" index="" image="">
+	<description>Haunted Castle (version E)</description>
+	<cloneof>hcastle</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jetwavej" index="" image="">
+	<description>Jet Wave (JAB, Japan v1.04)</description>
+	<cloneof>jetwave</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scrambles2" index="" image="">
+	<description>Scramble (Stern Electronics set 2)</description>
+	<cloneof>scramble</cloneof>
+	<crc/>
+	<manufacturer>Konami (Stern Electronics license)</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssridersjac" index="" image="">
+	<description>Sunset Riders (4 Players ver JAC)</description>
+	<cloneof>ssriders</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssridersuab" index="" image="">
+	<description>Sunset Riders (4 Players ver UAB)</description>
+	<cloneof>ssriders</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ultrainv" index="" image="">
+	<description>Ultra Invaders</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>Taito / Konami</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="weclemana" index="" image="">
+	<description>WEC Le Mans 24 (v2.00, set 2)</description>
+	<cloneof>wecleman</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="windheata" index="" image="">
+	<description>Winding Heat (AAA, Asia v2.11)</description>
+	<cloneof>windheat</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

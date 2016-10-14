@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>SNK / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="fbfrenzy" index="" image="">
+	<description>Football Frenzy (NGM-034)(NGH-034)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1992</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tdfever" index="" image="">
+	<description>TouchDown Fever (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1987</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tdfever2" index="" image="">
+	<description>TouchDown Fever 2</description>
+	<cloneof>tdfever</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1988</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tdfeverj" index="" image="">
+	<description>TouchDown Fever (Japan)</description>
+	<cloneof>tdfever</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1987</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Seibu Kaihatsu / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="raiden2nl" index="" image="">
+	<description>Raiden II (Holland)</description>
+	<cloneof>raiden2</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>1993</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="raidendxnl" index="" image="">
+	<description>Raiden DX (Holland)</description>
+	<cloneof>raidendx</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>1994</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="viprp1k" index="" image="">
+	<description>Viper Phase 1 (New Version, Korea)</description>
+	<cloneof>viprp1</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Dream Island license)</manufacturer>
+	<year>1995</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

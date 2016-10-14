@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>SNK / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="pballoonr" index="" image="">
+	<description>Pioneer Balloon (Rock-Ola license)</description>
+	<cloneof>pballoon</cloneof>
+	<crc/>
+	<manufacturer>SNK (Rock-Ola license)</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quizdaisk" index="" image="">
+	<description>Quiz Daisousa Sen - The Last Count Down (Korean release)</description>
+	<cloneof>quizdais</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1991</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rbffspeck" index="" image="">
+	<description>Real Bout Fatal Fury Special / Real Bout Garou Densetsu Special (Korean release)</description>
+	<cloneof>rbffspec</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

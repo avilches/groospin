@@ -1,0 +1,559 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1980-1989 / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="1942h" index="" image="">
+	<description>42</description>
+	<cloneof>1942</cloneof>
+	<crc/>
+	<manufacturer>hack (Two Bit Score?)</manufacturer>
+	<year>198?</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blktigerb3" index="" image="">
+	<description>Black Tiger / Black Dragon (mixed bootleg?)</description>
+	<cloneof>blktiger</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cencourt" index="" image="">
+	<description>Center Court (World, 4 Players, prototype) (MC-8123B)</description>
+	<cloneof>passsht</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cmpacman" index="" image="">
+	<description>Super Pacman (v1.2) + Cherry Master (Corsica, v8.31)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>198?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cmtetris" index="" image="">
+	<description>Tetris + Cherry Master (Corsica, v8.01, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>198?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cocoloco" index="" image="">
+	<description>Coco Loco</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Petaco S.A.</manufacturer>
+	<year>198?</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fireball" index="" image="">
+	<description>Fireball</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Valco</manufacturer>
+	<year>1989</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galaga88a" index="" image="">
+	<description>Galaga &apos;88 (02-03-88)</description>
+	<cloneof>galaga88</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gangwarsb" index="" image="">
+	<description>Gang Wars (bootleg)</description>
+	<cloneof>gangwars</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gangwarsj" index="" image="">
+	<description>Gang Wars (Japan)</description>
+	<cloneof>gangwars</cloneof>
+	<crc/>
+	<manufacturer>Alpha Denshi Co.</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gunsmokeb" index="" image="">
+	<description>Gun.Smoke (World, 851115) (bootleg)</description>
+	<cloneof>gunsmoke</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="joust2r1" index="" image="">
+	<description>Joust 2 - Survival of the Fittest (revision 1)</description>
+	<cloneof>joust2</cloneof>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peip0028" index="" image="">
+	<description>Player&apos;s Edge Plus (IP0028) Joker Poker - French</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1987</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peip0029" index="" image="">
+	<description>Player&apos;s Edge Plus (IP0029) Joker Poker - French</description>
+	<cloneof>peip0028</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1987</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peip0031" index="" image="">
+	<description>Player&apos;s Edge Plus (IP0031) Standard Draw Poker - French</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1987</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peip0051" index="" image="">
+	<description>Player&apos;s Edge Plus (IP0051) Joker Poker - French</description>
+	<cloneof>peip0028</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1987</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peip0058" index="" image="">
+	<description>Player&apos;s Edge Plus (IP0058) Standard Draw Poker - French</description>
+	<cloneof>peip0031</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1987</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peip0062" index="" image="">
+	<description>Player&apos;s Edge Plus (IP0062) Joker Poker - French</description>
+	<cloneof>peip0028</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1987</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peip0101" index="" image="">
+	<description>Player&apos;s Edge Plus (IP0101) Joker Poker - French</description>
+	<cloneof>peip0028</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1987</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peip0103" index="" image="">
+	<description>Player&apos;s Edge Plus (IP0103) Joker Poker - French</description>
+	<cloneof>peip0028</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1987</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peip0105" index="" image="">
+	<description>Player&apos;s Edge Plus (IP0105) Joker Poker - French</description>
+	<cloneof>peip0028</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1987</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peip0108" index="" image="">
+	<description>Player&apos;s Edge Plus (IP0108) Standard Draw Poker - French</description>
+	<cloneof>peip0031</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1987</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peip0111" index="" image="">
+	<description>Player&apos;s Edge Plus (IP0111) Joker Poker - French</description>
+	<cloneof>peip0028</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1987</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peip0112" index="" image="">
+	<description>Player&apos;s Edge Plus (IP0112) Standard Draw Poker - French</description>
+	<cloneof>peip0031</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1987</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peip0114" index="" image="">
+	<description>Player&apos;s Edge Plus (IP0114) Standard Draw Poker - French</description>
+	<cloneof>peip0031</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1987</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peip0115" index="" image="">
+	<description>Player&apos;s Edge Plus (IP0115) Joker Poker - French</description>
+	<cloneof>peip0028</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1987</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peip0116" index="" image="">
+	<description>Player&apos;s Edge Plus (IP0116) Standard Draw Poker - French</description>
+	<cloneof>peip0031</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1987</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peip0118" index="" image="">
+	<description>Player&apos;s Edge Plus (IP0118) Standard Draw Poker - French</description>
+	<cloneof>peip0031</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1987</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peip0120" index="" image="">
+	<description>Player&apos;s Edge Plus (IP0120) Standard Draw Poker - French</description>
+	<cloneof>peip0031</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1987</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pepp0009" index="" image="">
+	<description>Player&apos;s Edge Plus (PP0009) Standard Draw Poker</description>
+	<cloneof>pepp0002</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1987</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pepp0043a" index="" image="">
+	<description>Player&apos;s Edge Plus (PP0043) 10&apos;s or Better (International, set 1)</description>
+	<cloneof>pepp0002</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1987</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pepp0046a" index="" image="">
+	<description>Player&apos;s Edge Plus (PP0046) 10&apos;s or Better (International)</description>
+	<cloneof>pepp0002</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1987</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pepp0046b" index="" image="">
+	<description>Player&apos;s Edge Plus (PP0046) 10&apos;s or Better (set 2)</description>
+	<cloneof>pepp0002</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1987</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pepp0063" index="" image="">
+	<description>Player&apos;s Edge Plus (PP0063) 10&apos;s or Better</description>
+	<cloneof>pepp0002</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1987</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pepp0127a" index="" image="">
+	<description>Player&apos;s Edge Plus (PP0127) Deuces Joker Wild Poker (International)</description>
+	<cloneof>pepp0127</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1987</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pepp0171a" index="" image="">
+	<description>Player&apos;s Edge Plus (PP0171) Joker Poker (International)</description>
+	<cloneof>pepp0053</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1987</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pepp0190c" index="" image="">
+	<description>Player&apos;s Edge Plus (PP0190) Deuces Wild Poker (International)</description>
+	<cloneof>pepp0055</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1987</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pepp0197b" index="" image="">
+	<description>Player&apos;s Edge Plus (PP0197) Standard Draw Poker (set 3)</description>
+	<cloneof>pepp0002</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1987</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pepp0203d" index="" image="">
+	<description>Player&apos;s Edge Plus (PP0203) 4 of a Kind Bonus Poker (International)</description>
+	<cloneof>pepp0158</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1987</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pepp0242" index="" image="">
+	<description>Player&apos;s Edge Plus (PP0242) Deuces Wild Poker (International English/Spanish)</description>
+	<cloneof>pepp0055</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1987</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pepp0265c" index="" image="">
+	<description>Player&apos;s Edge Plus (PP0265) 4 of a Kind Bonus Poker (International)</description>
+	<cloneof>pepp0158</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1987</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pepp0288" index="" image="">
+	<description>Player&apos;s Edge Plus (PP0288) Standard Draw Poker (Spanish)</description>
+	<cloneof>pepp0002</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1987</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pepp0431" index="" image="">
+	<description>Player&apos;s Edge Plus (PP0431) Deuces Joker Wild Poker (International)</description>
+	<cloneof>pepp0127</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1987</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pepp0449a" index="" image="">
+	<description>Player&apos;s Edge Plus (PP0449) Standard Draw Poker (International English/Spanish)</description>
+	<cloneof>pepp0002</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1987</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pepp0516b" index="" image="">
+	<description>Player&apos;s Edge Plus (PP0516) Double Bonus Poker (International)</description>
+	<cloneof>pepp0514</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1987</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pepp0816" index="" image="">
+	<description>Player&apos;s Edge Plus (PP0816) Treasure Chest Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1987</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pleiadsi" index="" image="">
+	<description>Pleiads (Irecsa)</description>
+	<cloneof>pleiads</cloneof>
+	<crc/>
+	<manufacturer>bootleg? (Irecsa)</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pleiadss" index="" image="">
+	<description>Pleiads (Spanish bootleg)</description>
+	<cloneof>pleiads</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quaak" index="" image="">
+	<description>Quaak (bootleg of Frogger)</description>
+	<cloneof>frogger</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sdia" index="" image="">
+	<description>SDI - Strategic Defense Initiative (Japan, old, System 16A, FD1089B 317-0027)</description>
+	<cloneof>sdi</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="snakepit2" index="" image="">
+	<description>Snake Pit (9/14/84)</description>
+	<cloneof>snakepit</cloneof>
+	<crc/>
+	<manufacturer>Sente Technologies Inc.</manufacturer>
+	<year>1984</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tazzmang2" index="" image="">
+	<description>Tazz-Mania (bootleg on Galaxian hardware with Starfield)</description>
+	<cloneof>tazmania</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tigeroad" index="" image="">
+	<description>Tiger Road (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wc90ba" index="" image="">
+	<description>Euro League (Italian hack of Temco World Cup &apos;90 - alt version)</description>
+	<cloneof>wc90</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1989</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wyvernf0" index="" image="">
+	<description>Wyvern F-0</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

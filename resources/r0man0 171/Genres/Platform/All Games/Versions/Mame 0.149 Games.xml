@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Platform / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="contrabj" index="" image="">
+	<description>Contra (Japan bootleg, set 1)</description>
+	<cloneof>contra</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="contraj1" index="" image="">
+	<description>Contra (Japan, set 2)</description>
+	<cloneof>contra</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="snowbroswb" index="" image="">
+	<description>Snow Bros. - Nick &amp; Tom (The Winter Bobble hardware bootleg)</description>
+	<cloneof>snowbros</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spicaadv" index="" image="">
+	<description>Spica Adventure (v2.03J)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>2005</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="teddybbobl" index="" image="">
+	<description>TeddyBoy Blues (Old Ver. bootleg)</description>
+	<cloneof>teddybb</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

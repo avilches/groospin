@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Namco / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="adillor" index="" image="">
+	<description>Armadillo Racing (Rev. AM1 Ver.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galaga3b" index="" image="">
+	<description>Galaga 3 (GP3)</description>
+	<cloneof>gaplus</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gaplusa" index="" image="">
+	<description>Gaplus (GP2)</description>
+	<cloneof>gaplus</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="knckheadjp" index="" image="">
+	<description>Knuckle Heads (Japan, Prototype?)</description>
+	<cloneof>knckhead</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="motoxgov1a" index="" image="">
+	<description>Motocross Go! (MG1 Ver. A, set 1)</description>
+	<cloneof>motoxgo</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1997</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="motoxgov1a2" index="" image="">
+	<description>Motocross Go! (MG1 Ver. A, set 2)</description>
+	<cloneof>motoxgo</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1997</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="starblad" index="" image="">
+	<description>Starblade (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

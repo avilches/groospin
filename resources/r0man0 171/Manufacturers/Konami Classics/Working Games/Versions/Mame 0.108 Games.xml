@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Konami / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="gryzor" index="" image="">
+	<description>Gryzor (set 1)</description>
+	<cloneof>contra</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lethaleneab" index="" image="">
+	<description>Lethal Enforcers (ver EAB, 10/14/92 19:53)</description>
+	<cloneof>lethalen</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lethaleneae" index="" image="">
+	<description>Lethal Enforcers (ver EAE, 11/19/92 16:24)</description>
+	<cloneof>lethalen</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lethalenua" index="" image="">
+	<description>Lethal Enforcers (ver UAA, 08/17/92 21:38)</description>
+	<cloneof>lethalen</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lethalenux" index="" image="">
+	<description>Lethal Enforcers (ver unknown, US, 08/06/92 15:11, hacked/proto?)</description>
+	<cloneof>lethalen</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tmht22pe" index="" image="">
+	<description>Teenage Mutant Hero Turtles - Turtles in Time (2 Players ver EBA)</description>
+	<cloneof>tmnt2</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tmht2pa" index="" image="">
+	<description>Teenage Mutant Hero Turtles (UK 2 Players, set 2)</description>
+	<cloneof>tmnt</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

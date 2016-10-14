@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Driving / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="atvtrack" index="" image="">
+	<description>ATV Track (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>2002</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="atvtracka" index="" image="">
+	<description>ATV Track (set 2)</description>
+	<cloneof>atvtrack</cloneof>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>2002</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="initdv2e" index="" image="">
+	<description>Initial D Arcade Stage Ver. 2 (Export) (GDS-0027)</description>
+	<cloneof>initdv2j</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2002</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="initdv2j" index="" image="">
+	<description>Initial D Arcade Stage Ver. 2 (Japan) (Rev B) (GDS-0026B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2002</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="initdv3j" index="" image="">
+	<description>Initial D Arcade Stage Ver. 3 (Japan) (Rev C) (GDS-0032C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2004</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="roadriot" index="" image="">
+	<description>Road Riot 4WD (set 1, 13 Nov 1991)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1991</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sgnascar" index="" image="">
+	<description>NASCAR Racing</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / Electronic Arts</manufacturer>
+	<year>2000</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stcc" index="" image="">
+	<description>Sega Touring Car Championship</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stccb" index="" image="">
+	<description>Sega Touring Car Championship (Revision B)</description>
+	<cloneof>stcc</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="truckk" index="" image="">
+	<description>Truck Kyosokyoku (Japan, TKK2/VER.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Metro / Namco</manufacturer>
+	<year>2000</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wangmid2" index="" image="">
+	<description>Wangan Midnight Maximum Tune 2 (Japan) (GDX-0015)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2005</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

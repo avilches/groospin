@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Gun / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="area51a" index="" image="">
+	<description>Area 51 (Atari Games license, Oct 25, 1995)</description>
+	<cloneof>area51</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1995</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="maxf_102" index="" image="">
+	<description>Maximum Force v1.02</description>
+	<cloneof>maxforce</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1996</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nycaptor" index="" image="">
+	<description>N.Y. Captor</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1985</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="oneshot" index="" image="">
+	<description>One Shot One Kill</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Promat</manufacturer>
+	<year>1996</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sgunner2" index="" image="">
+	<description>Steel Gunner 2 (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1991</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2P sim / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="drgnwrldv10c" index="" image="">
+	<description>Zhong Guo Long (China, V010C)</description>
+	<cloneof>drgnwrld</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1995</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drgnwrldv11h" index="" image="">
+	<description>Dong Fang Zhi Zhu (Hong Kong, V011H)</description>
+	<cloneof>drgnwrld</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1995</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ffight2b" index="" image="">
+	<description>Final Fight 2 (SNES bootleg)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sblast2b" index="" image="">
+	<description>Sonic Blast Man 2 Special Turbo (SNES bootleg)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sf2mdt" index="" image="">
+	<description>Street Fighter II&apos;: Magic Delta Turbo (bootleg, set 1)</description>
+	<cloneof>sf2ce</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

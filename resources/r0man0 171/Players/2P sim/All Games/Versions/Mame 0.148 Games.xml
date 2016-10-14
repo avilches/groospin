@@ -1,0 +1,569 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2P sim / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="3wondersr1" index="" image="">
+	<description>Three Wonders (World 910513)</description>
+	<cloneof>3wonders</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aliensyn7" index="" image="">
+	<description>Alien Syndrome (set 7, System 16B, MC-8123B 317-00xx)</description>
+	<cloneof>aliensyn</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="altbeastbl" index="" image="">
+	<description>Altered Beast (Datsu bootleg)</description>
+	<cloneof>altbeast</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Datsu)</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ar_fasta" index="" image="">
+	<description>Magic Johnson&apos;s Fast Break (Arcadia, V 2.7)</description>
+	<cloneof>ar_fast</cloneof>
+	<crc/>
+	<manufacturer>Arcadia Systems</manufacturer>
+	<year>1988</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arkretrn" index="" image="">
+	<description>Arkanoid Returns (Ver 2.02O 1997/02/10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1997</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="atombjt" index="" image="">
+	<description>Atom (bootleg of Bombjack Twin)</description>
+	<cloneof>bjtwin</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1993</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ballboy" index="" image="">
+	<description>Ball Boy</description>
+	<cloneof>snowbro3</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bombkicka" index="" image="">
+	<description>Bomb Kick (set 2)</description>
+	<cloneof>bombkick</cloneof>
+	<crc/>
+	<manufacturer>Yun Sung</manufacturer>
+	<year>1998</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="capsnkb" index="" image="">
+	<description>Capcom Vs. SNK Millennium Fight 2000 (JPN, USA, EXP, KOR, AUS)</description>
+	<cloneof>capsnk</cloneof>
+	<crc/>
+	<manufacturer>Capcom / SNK</manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chinhero3" index="" image="">
+	<description>Chinese Hero (older, set 2)</description>
+	<cloneof>chinhero</cloneof>
+	<crc/>
+	<manufacturer>Taiyo</manufacturer>
+	<year>1984</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2" index="" image="">
+	<description>DoDonPachi II - Bee Storm (World, ver. 102)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2100" index="" image="">
+	<description>DoDonPachi II - Bee Storm (World, ver. 100)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2100c" index="" image="">
+	<description>DoDonPachi II - Bee Storm (China, ver. 100)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2100hk" index="" image="">
+	<description>DoDonPachi II - Bee Storm (Hong Kong, ver. 100)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2100k" index="" image="">
+	<description>DoDonPachi II - Bee Storm (Korea, ver. 100)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2100t" index="" image="">
+	<description>DoDonPachi II - Bee Storm (Taiwan, ver. 100)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2101" index="" image="">
+	<description>DoDonPachi II - Bee Storm (World, ver. 101)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2101c" index="" image="">
+	<description>DoDonPachi II - Bee Storm (China, ver. 101)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2101hk" index="" image="">
+	<description>DoDonPachi II - Bee Storm (Hong Kong, ver. 101)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2101k" index="" image="">
+	<description>DoDonPachi II - Bee Storm (Korea, ver. 101)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2101t" index="" image="">
+	<description>DoDonPachi II - Bee Storm (Taiwan, ver. 101)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2c" index="" image="">
+	<description>DoDonPachi II - Bee Storm (China, ver. 102)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2hk" index="" image="">
+	<description>DoDonPachi II - Bee Storm (Hong Kong, ver. 102)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2k" index="" image="">
+	<description>DoDonPachi II - Bee Storm (Korea, ver. 102)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2t" index="" image="">
+	<description>DoDonPachi II - Bee Storm (Taiwan, ver. 102)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dmnfrntb" index="" image="">
+	<description>Demon Front (68k label V103, ROM M103XX 07/05/02) (ARM label V103, ROM 07/05/02 S103XX)</description>
+	<cloneof>dmnfrnt</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2002</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ffightbl" index="" image="">
+	<description>Final Fight (bootleg)</description>
+	<cloneof>ffight</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1990</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="forgottnuaa" index="" image="">
+	<description>Forgotten Worlds (USA, B-Board 88618B-2, Rev. AA)</description>
+	<cloneof>forgottn</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galpani2e" index="" image="">
+	<description>Gals Panic II (English)</description>
+	<cloneof>galpani2</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1993</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="grdnstrmv" index="" image="">
+	<description>Guardian Storm (vertical)</description>
+	<cloneof>grdnstrm</cloneof>
+	<crc/>
+	<manufacturer>Afega (Apples Industries license)</manufacturer>
+	<year>1998</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lacrazyc" index="" image="">
+	<description>Let&apos;s Attack Crazy Cross (GV027 Asia 1.10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mtlchampu" index="" image="">
+	<description>Martial Champion (ver UAE)</description>
+	<cloneof>mtlchamp</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pangb2" index="" image="">
+	<description>Pang (bootleg, set 4)</description>
+	<cloneof>pang</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_bload" index="" image="">
+	<description>Bases Loaded (Prototype, PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco (Nintendo of America license)</manufacturer>
+	<year>1990</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_virus" index="" image="">
+	<description>Virus (Dr. Mario prototype, PlayChoice-10)</description>
+	<cloneof>pc_drmro</cloneof>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1990</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="penfana" index="" image="">
+	<description>Penfan Girls - Step1. Mild Mind (set 2)</description>
+	<cloneof>penfan</cloneof>
+	<crc/>
+	<manufacturer>Eolith</manufacturer>
+	<year>1999</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pspikesu" index="" image="">
+	<description>Power Spikes (US)</description>
+	<cloneof>pspikes</cloneof>
+	<crc/>
+	<manufacturer>Video System Co.</manufacturer>
+	<year>1991</year>
+	<genre>Volleyball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rdfts" index="" image="">
+	<description>Raiden Fighters (Taiwan, single board)</description>
+	<cloneof>rdft</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Explorer System Corp. license)</manufacturer>
+	<year>1996</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="redfoxwp2a" index="" image="">
+	<description>Red Fox War Planes II (China, set 2)</description>
+	<cloneof>grdnstrm</cloneof>
+	<crc/>
+	<manufacturer>Afega</manufacturer>
+	<year>1998</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rfjetsa" index="" image="">
+	<description>Raiden Fighters Jet (US, single board, test version?)</description>
+	<cloneof>rfjet</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>1999</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rotr" index="" image="">
+	<description>Rise of the Robots (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM/Mirage</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sf2dongb" index="" image="">
+	<description>Street Fighter II&apos;: Champion Edition (Dongfang Bubai protection, bootleg)</description>
+	<cloneof>sf2ce</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfz2j" index="" image="">
+	<description>Street Fighter Zero 2 (Japan 960430)</description>
+	<cloneof>sfa2</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shaktmsp" index="" image="">
+	<description>Shakatto Tambourine Motto Norinori Shinkyoku Tsuika (2K1 SPR) (GDS-0013)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2001</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="silkroada" index="" image="">
+	<description>The Legend of Silkroad (larger ROMs)</description>
+	<cloneof>silkroad</cloneof>
+	<crc/>
+	<manufacturer>Unico</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spikes91b" index="" image="">
+	<description>1991 Spikes (Italian bootleg, set 2)</description>
+	<cloneof>pspikes</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1991</year>
+	<genre>Volleyball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sprint2h" index="" image="">
+	<description>Sprint 2 (color kit, Italy)</description>
+	<cloneof>sprint1</cloneof>
+	<crc/>
+	<manufacturer>hack</manufacturer>
+	<year>1976</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="srangero" index="" image="">
+	<description>Super Ranger (older)</description>
+	<cloneof>sranger</cloneof>
+	<crc/>
+	<manufacturer>SunA</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssf2tbh" index="" image="">
+	<description>Super Street Fighter II: The Tournament Battle (Hispanic 931005)</description>
+	<cloneof>ssf2</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="survartsj" index="" image="">
+	<description>Survival Arts (Japan)</description>
+	<cloneof>survarts</cloneof>
+	<crc/>
+	<manufacturer>Sammy</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tnextspc2" index="" image="">
+	<description>The Next Space (set 2)</description>
+	<cloneof>tnextspc</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tumblepba" index="" image="">
+	<description>Tumble Pop (Playmark bootleg)</description>
+	<cloneof>tumblep</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Playmark)</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ultrchmph" index="" image="">
+	<description>Cheng Ba Shi Jie - Chao Shi Kong Guan Jun (Taiwan)</description>
+	<cloneof>nettoqc</cloneof>
+	<crc/>
+	<manufacturer>Nakanihon</manufacturer>
+	<year>1995</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wmg" index="" image="">
+	<description>Williams Multigame</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>hack (Clay Cowgill)</manufacturer>
+	<year>2001</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wschampb" index="" image="">
+	<description>Wing Shooting Championship V1.00</description>
+	<cloneof>wschamp</cloneof>
+	<crc/>
+	<manufacturer>Sammy USA Corporation</manufacturer>
+	<year>2001</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wwfsstarb" index="" image="">
+	<description>WWF Superstars (bootleg)</description>
+	<cloneof>wwfsstar</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1989</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

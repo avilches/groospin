@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1P / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="gforce2" index="" image="">
+	<description>Galaxy Force 2</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gforce2j" index="" image="">
+	<description>Galaxy Force 2 (Japan)</description>
+	<cloneof>gforce2</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="glocu" index="" image="">
+	<description>G-LOC Air Battle (US)</description>
+	<cloneof>gloc</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gpriders" index="" image="">
+	<description>GP Rider (World, FD1094 317-0163)</description>
+	<cloneof>gprider</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gpriderus" index="" image="">
+	<description>GP Rider (US, FD1094 317-0162)</description>
+	<cloneof>gprider</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gs4002" index="" image="">
+	<description>Selection (Version 40.02TMB, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Greyhound Electronics</manufacturer>
+	<year>1982</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mf_achas" index="" image="">
+	<description>Astro Chase (Max-A-Flex)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Exidy / First Star Software</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mf_bdash" index="" image="">
+	<description>Boulder Dash (Max-A-Flex)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Exidy / First Star Software</manufacturer>
+	<year>1984</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mf_brist" index="" image="">
+	<description>Bristles (Max-A-Flex)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Exidy / First Star Software</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mf_flip" index="" image="">
+	<description>Flip &amp; Flop (Max-A-Flex)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Exidy / First Star Software</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pdrift" index="" image="">
+	<description>Power Drift (World, Rev A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pdriftj" index="" image="">
+	<description>Power Drift (Japan)</description>
+	<cloneof>pdrift</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sjryuko" index="" image="">
+	<description>Sukeban Jansi Ryuko (set 2, System 16B, FD1089B 317-5021)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>White Board</manufacturer>
+	<year>1988</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sjryuko1" index="" image="">
+	<description>Sukeban Jansi Ryuko (set 1, System 16A, FD1089B 317-5021)</description>
+	<cloneof>sjryuko</cloneof>
+	<crc/>
+	<manufacturer>White Board</manufacturer>
+	<year>1987</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smgp6" index="" image="">
+	<description>Super Monaco GP (World, Rev A) (FD1094 317-0126a)</description>
+	<cloneof>smgp</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smgpj" index="" image="">
+	<description>Super Monaco GP (Japan, Rev B) (FD1094 317-0124a)</description>
+	<cloneof>smgp</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smgpu2" index="" image="">
+	<description>Super Monaco GP (US, Rev A) (FD1094 317-0125a)</description>
+	<cloneof>smgp</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="strkfgtrj" index="" image="">
+	<description>Strike Fighter (Japan)</description>
+	<cloneof>strkfgtr</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="toutrun" index="" image="">
+	<description>Turbo Out Run (Out Run upgrade) (FD1094 317-0118)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vformula" index="" image="">
+	<description>Virtua Formula</description>
+	<cloneof>vr</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

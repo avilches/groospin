@@ -1,0 +1,759 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Sega / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="abcop" index="" image="">
+	<description>A.B. Cop (World) (FD1094 317-0169b)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="abcopj" index="" image="">
+	<description>A.B. Cop (Japan) (FD1094 317-0169b)</description>
+	<cloneof>abcop</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="coolridr" index="" image="">
+	<description>Cool Riders</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1995</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="enduror" index="" image="">
+	<description>Enduro Racer (YM2151) (FD1089B 317-0013A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="enduror1" index="" image="">
+	<description>Enduro Racer (YM2203) (FD1089B 317-0013A)</description>
+	<cloneof>enduror</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="f1en" index="" image="">
+	<description>F1 Exhaust Note (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="f1enj" index="" image="">
+	<description>F1 Exhaust Note (Japan)</description>
+	<cloneof>f1en</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="f1enu" index="" image="">
+	<description>F1 Exhaust Note (US)</description>
+	<cloneof>f1en</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="f1lap" index="" image="">
+	<description>F1 Super Lap (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="f1lapj" index="" image="">
+	<description>F1 Super Lap (Japan)</description>
+	<cloneof>f1lap</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gprider" index="" image="">
+	<description>GP Rider (World, FD1094 317-0163) (Twin setup)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gpriderj" index="" image="">
+	<description>GP Rider (Japan, FD1094 317-0161) (Twin setup)</description>
+	<cloneof>gprider</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gpriderjs" index="" image="">
+	<description>GP Rider (Japan, FD1094 317-0161)</description>
+	<cloneof>gprider</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gpriders" index="" image="">
+	<description>GP Rider (World, FD1094 317-0163)</description>
+	<cloneof>gprider</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gprideru" index="" image="">
+	<description>GP Rider (US, FD1094 317-0162) (Twin setup)</description>
+	<cloneof>gprider</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gpriderus" index="" image="">
+	<description>GP Rider (US, FD1094 317-0162)</description>
+	<cloneof>gprider</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hangon" index="" image="">
+	<description>Hang-On (Rev A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1985</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hangon1" index="" image="">
+	<description>Hang-On</description>
+	<cloneof>hangon</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1985</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hangon2" index="" image="">
+	<description>Hang-On (ride-on)</description>
+	<cloneof>hangon</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1985</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hangonjr" index="" image="">
+	<description>Hang-On Jr.</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1985</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hotrod" index="" image="">
+	<description>Hot Rod (World, 3 Players, Turbo set 1, Floppy Based)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hotroda" index="" image="">
+	<description>Hot Rod (World, 3 Players, Turbo set 2, Floppy Based)</description>
+	<cloneof>hotrod</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hotrodj" index="" image="">
+	<description>Hot Rod (Japan, 4 Players, Floppy Based, Rev C)</description>
+	<cloneof>hotrod</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hotrodja" index="" image="">
+	<description>Hot Rod (Japan, 4 Players, Floppy Based, Rev B)</description>
+	<cloneof>hotrod</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="orunners" index="" image="">
+	<description>OutRunners (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="orunnersj" index="" image="">
+	<description>OutRunners (Japan)</description>
+	<cloneof>orunners</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="orunnersu" index="" image="">
+	<description>OutRunners (US)</description>
+	<cloneof>orunners</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="outrun" index="" image="">
+	<description>Out Run (sitdown/upright, Rev B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="outrundx" index="" image="">
+	<description>Out Run (deluxe sitdown)</description>
+	<cloneof>outrun</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="outrundxa" index="" image="">
+	<description>Out Run (deluxe sitdown earlier version)</description>
+	<cloneof>outrun</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="outrundxj" index="" image="">
+	<description>Out Run (Japan, deluxe sitdown) (FD1089A 317-0019)</description>
+	<cloneof>outrun</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="outrunra" index="" image="">
+	<description>Out Run (sitdown/upright, Rev A)</description>
+	<cloneof>outrun</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pdrift" index="" image="">
+	<description>Power Drift (World, Rev A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pdrifta" index="" image="">
+	<description>Power Drift (World)</description>
+	<cloneof>pdrift</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pdrifte" index="" image="">
+	<description>Power Drift (World, Earlier)</description>
+	<cloneof>pdrift</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pdriftj" index="" image="">
+	<description>Power Drift (Japan)</description>
+	<cloneof>pdrift</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rachero" index="" image="">
+	<description>Racing Hero (FD1094 317-0144)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="radm" index="" image="">
+	<description>Rad Mobile (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="radmu" index="" image="">
+	<description>Rad Mobile (US)</description>
+	<cloneof>radm</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="radr" index="" image="">
+	<description>Rad Rally (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="radrj" index="" image="">
+	<description>Rad Rally (Japan)</description>
+	<cloneof>radr</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="radru" index="" image="">
+	<description>Rad Rally (US)</description>
+	<cloneof>radr</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="roughrac" index="" image="">
+	<description>Rough Racer (Japan, Floppy Based, FD1094 317-0058-06b)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scross" index="" image="">
+	<description>Stadium Cross (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scrossa" index="" image="">
+	<description>Stadium Cross (World, alt)</description>
+	<cloneof>scross</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scrossu" index="" image="">
+	<description>Stadium Cross (US)</description>
+	<cloneof>scross</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shangon" index="" image="">
+	<description>Super Hang-On (sitdown/upright) (unprotected)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shangon1" index="" image="">
+	<description>Super Hang-On (mini ride-on) (FD1089B 317-0034)</description>
+	<cloneof>shangon</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shangon2" index="" image="">
+	<description>Super Hang-On (mini ride-on, Rev A) (FD1089B 317-0034)</description>
+	<cloneof>shangon</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shangon3" index="" image="">
+	<description>Super Hang-On (sitdown/upright) (FD1089B 317-0034)</description>
+	<cloneof>shangon</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shangonle" index="" image="">
+	<description>Limited Edition Hang-On</description>
+	<cloneof>shangon</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shangonro" index="" image="">
+	<description>Super Hang-On (ride-on, Japan, FD1094 317-0038)</description>
+	<cloneof>shangon</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smgp" index="" image="">
+	<description>Super Monaco GP (World, Rev B) (FD1094 317-0126a)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smgp5" index="" image="">
+	<description>Super Monaco GP (World) (FD1094 317-0126)</description>
+	<cloneof>smgp</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smgp6" index="" image="">
+	<description>Super Monaco GP (World, Rev A) (FD1094 317-0126a)</description>
+	<cloneof>smgp</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smgpj" index="" image="">
+	<description>Super Monaco GP (Japan, Rev B) (FD1094 317-0124a)</description>
+	<cloneof>smgp</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smgpja" index="" image="">
+	<description>Super Monaco GP (Japan, Rev A) (FD1094 317-0124a)</description>
+	<cloneof>smgp</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smgpu" index="" image="">
+	<description>Super Monaco GP (US, Rev C) (FD1094 317-0125a)</description>
+	<cloneof>smgp</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smgpu1" index="" image="">
+	<description>Super Monaco GP (US, Rev B) (FD1094 317-0125a)</description>
+	<cloneof>smgp</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smgpu2" index="" image="">
+	<description>Super Monaco GP (US, Rev A) (FD1094 317-0125a)</description>
+	<cloneof>smgp</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="soniccar" index="" image="">
+	<description>Waku Waku Sonic Patrol Car</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spcpostn" index="" image="">
+	<description>Space Position (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / Nasco</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="toutrun" index="" image="">
+	<description>Turbo Out Run (Out Run upgrade) (FD1094 317-0118)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="toutrun1" index="" image="">
+	<description>Turbo Out Run (deluxe cockpit) (FD1094 317-0109)</description>
+	<cloneof>toutrun</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="toutrun2" index="" image="">
+	<description>Turbo Out Run (cockpit) (FD1094 317-0106)</description>
+	<cloneof>toutrun</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="toutrun3" index="" image="">
+	<description>Turbo Out Run (cockpit) (FD1094 317-0107)</description>
+	<cloneof>toutrun</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="toutrunj" index="" image="">
+	<description>Turbo Out Run (Japan, Out Run upgrade) (FD1094 317-0117)</description>
+	<cloneof>toutrun</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="toutrunj1" index="" image="">
+	<description>Turbo Out Run (Japan, cockpit) (FD1094 317-0101)</description>
+	<cloneof>toutrun</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="turbo" index="" image="">
+	<description>Turbo (program 1513-1515)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1981</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="turboa" index="" image="">
+	<description>Turbo (encrypted, program 1262-1264)</description>
+	<cloneof>turbo</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1981</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="turbob" index="" image="">
+	<description>Turbo (encrypted, program 1363-1365 rev B)</description>
+	<cloneof>turbo</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1981</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="turboc" index="" image="">
+	<description>Turbo (encrypted, program 1363-1365 rev A)</description>
+	<cloneof>turbo</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1981</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="turbod" index="" image="">
+	<description>Turbo (encrypted, program 1363-1365)</description>
+	<cloneof>turbo</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1981</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vformula" index="" image="">
+	<description>Virtua Formula</description>
+	<cloneof>vr</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vr" index="" image="">
+	<description>Virtua Racing</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

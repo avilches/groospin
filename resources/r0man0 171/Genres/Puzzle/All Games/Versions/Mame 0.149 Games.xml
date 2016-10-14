@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Puzzle / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="guttangt" index="" image="">
+	<description>Guttang Gottong (bootleg on Galaxian type hardware)</description>
+	<cloneof>locomotn</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Recreativos Franco?)</manufacturer>
+	<year>1982</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shangha3u" index="" image="">
+	<description>Shanghai III (US)</description>
+	<cloneof>shangha3</cloneof>
+	<crc/>
+	<manufacturer>Sunsoft</manufacturer>
+	<year>1993</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tetristh" index="" image="">
+	<description>Tetris (Japan, Taito H-System)</description>
+	<cloneof>tetris</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="volfiedo" index="" image="">
+	<description>Volfied (World)</description>
+	<cloneof>volfied</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1989</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="volfieduo" index="" image="">
+	<description>Volfied (US)</description>
+	<cloneof>volfied</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1989</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

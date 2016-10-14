@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>4P sim / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="nbamht" index="" image="">
+	<description>NBA Maximum Hangtime (rev 1.03 06/09/97)</description>
+	<cloneof>nbahangt</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1996</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zeroteam" index="" image="">
+	<description>Zero Team USA (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Fabtek license)</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

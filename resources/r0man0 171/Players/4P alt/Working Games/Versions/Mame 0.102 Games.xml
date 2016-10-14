@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>4P alt / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="promutrvb" index="" image="">
+	<description>Progressive Music Trivia (Question set 3)</description>
+	<cloneof>promutrv</cloneof>
+	<crc/>
+	<manufacturer>Enerdyne Technologies Inc.</manufacturer>
+	<year>1985</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trvmstra" index="" image="">
+	<description>Trivia Master (set 2)</description>
+	<cloneof>trvmstr</cloneof>
+	<crc/>
+	<manufacturer>Enerdyne Technologies Inc.</manufacturer>
+	<year>1985</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vbowlj" index="" image="">
+	<description>Virtua Bowling (Japan, V100JCM)</description>
+	<cloneof>vbowl</cloneof>
+	<crc/>
+	<manufacturer>IGS / Alta</manufacturer>
+	<year>1996</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

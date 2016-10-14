@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Basketball / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="anmlbskt" index="" image="">
+	<description>Animal Basket</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>MOSS / Sammy</manufacturer>
+	<year>2005</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nbajamten" index="" image="">
+	<description>NBA Jam T.E. Nani Edition (rev 5.2 8/11/95, prototype)</description>
+	<cloneof>nbajamte</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1995</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

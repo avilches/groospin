@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Mahjong / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="mahjngoh" index="" image="">
+	<description>Mahjong Oh (V2.06J)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Warashi / Mahjong Kobo / Taito</manufacturer>
+	<year>1999</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjnquestb" index="" image="">
+	<description>Mahjong Quest (No Nudity)</description>
+	<cloneof>mjnquest</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ttmahjng" index="" image="">
+	<description>T.T Mahjong</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1981</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="usagi" index="" image="">
+	<description>Usagi (V2.02J)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Warashi / Mahjong Kobo / Taito</manufacturer>
+	<year>2001</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

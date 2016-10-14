@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Card Battle / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="dealer" index="" image="">
+	<description>The Dealer</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Epos Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="m21" index="" image="">
+	<description>21 (Mirco)</description>
+	<cloneof>hitme</cloneof>
+	<crc/>
+	<manufacturer>Mirco Games</manufacturer>
+	<year>1976</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ryukyu" index="" image="">
+	<description>RyuKyu (Japan) (FD1094 317-5023)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Success / Sega</manufacturer>
+	<year>1990</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="supdrapo" index="" image="">
+	<description>Super Draw Poker (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Valadon Automation (Stern Electronics license)</manufacturer>
+	<year>1983</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

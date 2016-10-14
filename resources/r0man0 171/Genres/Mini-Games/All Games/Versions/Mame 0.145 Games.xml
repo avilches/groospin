@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Mini-Games / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="am_mg3a" index="" image="">
+	<description>Multi Game III (V.Ger 3.64)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amatic Trading GmbH</manufacturer>
+	<year>2000</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="csplayh1" index="" image="">
+	<description>Super CD Dai8dan Mahjong Hanafuda Cosplay Tengoku (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sphinx/AV Japan/Astro System Japan</manufacturer>
+	<year>1995</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="funcube5" index="" image="">
+	<description>Funcube 5 (v1.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2002</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat2caa" index="" image="">
+	<description>Pit Boss Megatouch II (9255-10-06 ROE, California version)</description>
+	<cloneof>megat2</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1994</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat4d" index="" image="">
+	<description>Megatouch IV (9255-40-01 RO, Standard version)</description>
+	<cloneof>megat4</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1996</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

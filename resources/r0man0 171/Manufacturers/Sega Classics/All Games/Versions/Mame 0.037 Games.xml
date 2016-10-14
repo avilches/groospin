@@ -1,0 +1,289 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Sega / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="aburner" index="" image="">
+	<description>After Burner</description>
+	<cloneof>aburner2</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aburner2" index="" image="">
+	<description>After Burner II</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="astrob" index="" image="">
+	<description>Astro Blaster (version 3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="astrofl" index="" image="">
+	<description>Astro Flash (Japan)</description>
+	<cloneof>transfrm</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bloxeed" index="" image="">
+	<description>Bloxeed (Japan) (FD1094 317-0139)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bloxeedc" index="" image="">
+	<description>Bloxeed (World, C System)</description>
+	<cloneof>bloxeed</cloneof>
+	<crc/>
+	<manufacturer>Sega / Elorg</manufacturer>
+	<year>1989</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="borench" index="" image="">
+	<description>Borench (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bullfgt" index="" image="">
+	<description>Bullfight (315-5065)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Coreland / Sega</manufacturer>
+	<year>1984</year>
+	<genre>Sports</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="columns" index="" image="">
+	<description>Columns (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="columns2" index="" image="">
+	<description>Columns II: The Voyage Through Time (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="columnsj" index="" image="">
+	<description>Columns (Japan)</description>
+	<cloneof>columns</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hangonjr" index="" image="">
+	<description>Hang-On Jr.</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1985</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ichir" index="" image="">
+	<description>Puzzle &amp; Action: Ichidant-R (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1994</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ichirj" index="" image="">
+	<description>Puzzle &amp; Action: Ichidant-R (Japan)</description>
+	<cloneof>ichir</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1994</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ixion" index="" image="">
+	<description>Ixion (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="potopoto" index="" image="">
+	<description>Poto Poto (Japan, Rev A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1994</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="puyoj" index="" image="">
+	<description>Puyo Puyo (Japan, Rev B)</description>
+	<cloneof>puyo</cloneof>
+	<crc/>
+	<manufacturer>Compile / Sega</manufacturer>
+	<year>1992</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="puyoja" index="" image="">
+	<description>Puyo Puyo (Japan, Rev A)</description>
+	<cloneof>puyo</cloneof>
+	<crc/>
+	<manufacturer>Compile / Sega</manufacturer>
+	<year>1992</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="puyopuy2" index="" image="">
+	<description>Puyo Puyo 2 (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Compile (Sega license)</manufacturer>
+	<year>1994</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ridleofp" index="" image="">
+	<description>Riddle of Pythagoras (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / Nasco</manufacturer>
+	<year>1986</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sspaceat2" index="" image="">
+	<description>Space Attack (upright set 2)</description>
+	<cloneof>sspaceat</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stkclmnsj" index="" image="">
+	<description>Stack Columns (Japan)</description>
+	<cloneof>stkclmns</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1994</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tantr" index="" image="">
+	<description>Puzzle &amp; Action: Tant-R (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tetrist" index="" image="">
+	<description>Tetris (Japan, Taito B-System, Nastar Conversion Kit)</description>
+	<cloneof>tetris</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tfrceac" index="" image="">
+	<description>Thunder Force AC</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Technosoft / Sega</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tfrceacj" index="" image="">
+	<description>Thunder Force AC (Japan)</description>
+	<cloneof>tfrceac</cloneof>
+	<crc/>
+	<manufacturer>Technosoft / Sega</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="transfrm" index="" image="">
+	<description>Transformer</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zunkyou" index="" image="">
+	<description>Zunzunkyou No Yabou (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1994</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

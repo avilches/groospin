@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Sega / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="aburner2g" index="" image="">
+	<description>After Burner II (German)</description>
+	<cloneof>aburner2</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dduxj" index="" image="">
+	<description>Dynamite Dux (set 2, Japan) (FD1094 317-0094)</description>
+	<cloneof>ddux</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="eswatj1" index="" image="">
+	<description>E-Swat - Cyber Police (set 1, Japan) (FD1094 317-0131)</description>
+	<cloneof>eswat</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="strkfgtr" index="" image="">
+	<description>Strike Fighter (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

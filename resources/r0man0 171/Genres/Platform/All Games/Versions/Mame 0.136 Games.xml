@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Platform / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="bagmanf" index="" image="">
+	<description>Bagman (bootleg on Crazy Kong hardware)</description>
+	<cloneof>bagman</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1981</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="begas" index="" image="">
+	<description>Bega&apos;s Battle (Revision 3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="begas1" index="" image="">
+	<description>Bega&apos;s Battle (Revision 1)</description>
+	<cloneof>begas</cloneof>
+	<crc/>
+	<manufacturer>Data East</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cyclemb" index="" image="">
+	<description>Cycle Maabou (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gngc" index="" image="">
+	<description>Ghosts&apos;n Goblins (World? set 3)</description>
+	<cloneof>gng</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pengadvb" index="" image="">
+	<description>Penguin Adventure (bootleg of MSX version)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>bootleg (Screen) / Konami</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shaolinb" index="" image="">
+	<description>Shao-lin&apos;s Road (set 2)</description>
+	<cloneof>kicker</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sparkmana" index="" image="">
+	<description>Spark Man (v2.0, set 2)</description>
+	<cloneof>sparkman</cloneof>
+	<crc/>
+	<manufacturer>SunA</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

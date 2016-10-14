@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Handball / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="hvysmsh" index="" image="">
+	<description>Heavy Smash (Europe version -2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Handball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hvysmsha" index="" image="">
+	<description>Heavy Smash (Asia version -4)</description>
+	<cloneof>hvysmsh</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Handball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hvysmshj" index="" image="">
+	<description>Heavy Smash (Japan version -2)</description>
+	<cloneof>hvysmsh</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Handball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,379 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2000-2009 / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="deerhunte" index="" image="">
+	<description>Deer Hunting USA V1</description>
+	<cloneof>deerhunt</cloneof>
+	<crc/>
+	<manufacturer>Sammy USA Corporation</manufacturer>
+	<year>2000</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fantzn2x" index="" image="">
+	<description>Fantasy Zone II - The Tears of Opa-Opa (System 16C version)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / M2</manufacturer>
+	<year>2008</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fantzn2xp" index="" image="">
+	<description>Fantasy Zone II - The Tears of Opa-Opa (System 16C version, prototype)</description>
+	<cloneof>fantzn2x</cloneof>
+	<crc/>
+	<manufacturer>Sega / M2</manufacturer>
+	<year>2008</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt2_6" index="" image="">
+	<description>Fruit Cocktail 2 (090528 Lottery)</description>
+	<cloneof>fcockt2</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2008</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt2_7" index="" image="">
+	<description>Fruit Cocktail 2 (090813 Entertainment)</description>
+	<cloneof>fcockt2</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2008</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt_14" index="" image="">
+	<description>Fruit Cocktail (090708 Entertainment)</description>
+	<cloneof>fcockt_8</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="funcube" index="" image="">
+	<description>Funcube (v1.5)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2000</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="garage_9" index="" image="">
+	<description>Garage (090715 Entertainment)</description>
+	<cloneof>garage_5</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnome_4" index="" image="">
+	<description>Gnome (090402 Russia)</description>
+	<cloneof>gnome_9</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnome_5" index="" image="">
+	<description>Gnome (090406 World)</description>
+	<cloneof>gnome_9</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnome_5a" index="" image="">
+	<description>Gnome (bootleg, 090406, banking address hack, payout percentage 70)</description>
+	<cloneof>gnome_9</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnome_5b" index="" image="">
+	<description>Gnome (bootleg, 090406, LOTTOGAME (I))</description>
+	<cloneof>gnome_9</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnome_7" index="" image="">
+	<description>Gnome (090708 Lottery)</description>
+	<cloneof>gnome_9</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="invmulti" index="" image="">
+	<description>Space Invaders Multigame (M8.03D)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>hack (Braze Technologies)</manufacturer>
+	<year>2002</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="invmultim1a" index="" image="">
+	<description>Space Invaders Multigame (M8.01A)</description>
+	<cloneof>invmulti</cloneof>
+	<crc/>
+	<manufacturer>hack (Braze Technologies)</manufacturer>
+	<year>2002</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="invmultim2a" index="" image="">
+	<description>Space Invaders Multigame (M8.02A)</description>
+	<cloneof>invmulti</cloneof>
+	<crc/>
+	<manufacturer>hack (Braze Technologies)</manufacturer>
+	<year>2002</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="invmultim2c" index="" image="">
+	<description>Space Invaders Multigame (M8.02C)</description>
+	<cloneof>invmulti</cloneof>
+	<crc/>
+	<manufacturer>hack (Braze Technologies)</manufacturer>
+	<year>2002</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="invmultim3a" index="" image="">
+	<description>Space Invaders Multigame (M8.03A)</description>
+	<cloneof>invmulti</cloneof>
+	<crc/>
+	<manufacturer>hack (Braze Technologies)</manufacturer>
+	<year>2002</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="invmultip" index="" image="">
+	<description>Space Invaders Multigame (prototype)</description>
+	<cloneof>invmulti</cloneof>
+	<crc/>
+	<manufacturer>hack (Braze Technologies)</manufacturer>
+	<year>2002</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="invmultis1a" index="" image="">
+	<description>Space Invaders Multigame (S0.81A)</description>
+	<cloneof>invmulti</cloneof>
+	<crc/>
+	<manufacturer>hack (Braze Technologies)</manufacturer>
+	<year>2002</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="invmultis2a" index="" image="">
+	<description>Space Invaders Multigame (S0.82A)</description>
+	<cloneof>invmulti</cloneof>
+	<crc/>
+	<manufacturer>hack (Braze Technologies)</manufacturer>
+	<year>2002</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="invmultis3a" index="" image="">
+	<description>Space Invaders Multigame (S0.83A)</description>
+	<cloneof>invmulti</cloneof>
+	<crc/>
+	<manufacturer>hack (Braze Technologies)</manufacturer>
+	<year>2002</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="invmultit3d" index="" image="">
+	<description>Space Invaders Multigame (T8.03D)</description>
+	<cloneof>invmulti</cloneof>
+	<crc/>
+	<manufacturer>hack (Braze Technologies)</manufacturer>
+	<year>2002</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="invqix" index="" image="">
+	<description>Space Invaders / Qix Silver Anniversary Edition (Ver. 2.03)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito / Namco</manufacturer>
+	<year>2003</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="island2_5" index="" image="">
+	<description>Island 2 (090528 Lottery)</description>
+	<cloneof>island2</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="island2_6" index="" image="">
+	<description>Island 2 (090724 Entertainment)</description>
+	<cloneof>island2</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jumppope" index="" image="">
+	<description>Jumping Pop (set 2)</description>
+	<cloneof>jumppop</cloneof>
+	<crc/>
+	<manufacturer>Emag Soft</manufacturer>
+	<year>2001</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="keks_4" index="" image="">
+	<description>Keks (090604 Lottery)</description>
+	<cloneof>keks_2</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="keks_5" index="" image="">
+	<description>Keks (090727 Entertainment)</description>
+	<cloneof>keks_2</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lhaunt_10" index="" image="">
+	<description>Lucky Haunter (090712 Entertainment)</description>
+	<cloneof>lhaunt_6</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pirate2_3" index="" image="">
+	<description>Pirate 2 (090528 Lottery)</description>
+	<cloneof>pirate2</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pirate2_4" index="" image="">
+	<description>Pirate 2 (090730 Entertainment)</description>
+	<cloneof>pirate2</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rclimb_7" index="" image="">
+	<description>Rock Climber (090716 Entertainment)</description>
+	<cloneof>rclimb_3</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sweetl2_3" index="" image="">
+	<description>Sweet Life 2 (090525 Lottery)</description>
+	<cloneof>sweetl2</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sweetl2_4" index="" image="">
+	<description>Sweet Life 2 (090812 Entertainment)</description>
+	<cloneof>sweetl2</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="touryuu" index="" image="">
+	<description>Touryuumon (V1.1)?</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Yuki Enterprise</manufacturer>
+	<year>2005</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zerotm2k" index="" image="">
+	<description>Zero Team 2000</description>
+	<cloneof>zeroteam</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

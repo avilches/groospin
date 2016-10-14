@@ -1,0 +1,239 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Data East / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="bouldash" index="" image="">
+	<description>Boulder Dash / Boulder Dash Part 2 (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation (licensed from First Star)</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bouldashj" index="" image="">
+	<description>Boulder Dash / Boulder Dash Part 2 (Japan)</description>
+	<cloneof>bouldash</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation (licensed from First Star)</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cbdash" index="" image="">
+	<description>Boulder Dash (DECO Cassette)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1985</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cdiscon1" index="" image="">
+	<description>Disco No.1 (DECO Cassette)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="clapapa" index="" image="">
+	<description>Rootin&apos; Tootin&apos; / La-Pa-Pa (DECO Cassette)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="clapapa2" index="" image="">
+	<description>Rootin&apos; Tootin&apos; (DECO Cassette)</description>
+	<cloneof>clapapa</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="clocknch" index="" image="">
+	<description>Lock&apos;n&apos;Chase (DECO Cassette)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="csweetht" index="" image="">
+	<description>Sweet Heart (DECO Cassette)</description>
+	<cloneof>cdiscon1</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ctisland" index="" image="">
+	<description>Treasure Island (DECO Cassette, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ctisland2" index="" image="">
+	<description>Treasure Island (DECO Cassette, set 2)</description>
+	<cloneof>ctisland</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ctisland3" index="" image="">
+	<description>Treasure Island (DECO Cassette, set 3)</description>
+	<cloneof>ctisland</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="czeroize" index="" image="">
+	<description>Zeroize (DECO Cassette)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="darkseal" index="" image="">
+	<description>Dark Seal (World revision 3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="darkseal1" index="" image="">
+	<description>Dark Seal (World revision 1)</description>
+	<cloneof>darkseal</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="darksealj" index="" image="">
+	<description>Dark Seal (Japan revision 4)</description>
+	<cloneof>darkseal</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="disco" index="" image="">
+	<description>Disco No.1</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="discof" index="" image="">
+	<description>Disco No.1 (Rev.F)</description>
+	<cloneof>disco</cloneof>
+	<crc/>
+	<manufacturer>Data East</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gatedoom" index="" image="">
+	<description>Gate of Doom (US revision 4)</description>
+	<cloneof>darkseal</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gatedoom1" index="" image="">
+	<description>Gate of Doom (US revision 1)</description>
+	<cloneof>darkseal</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kamikcab" index="" image="">
+	<description>Kamikaze Cabbie</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lnc" index="" image="">
+	<description>Lock&apos;n&apos;Chase</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tisland" index="" image="">
+	<description>Treasure Island</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="yellowcbj" index="" image="">
+	<description>Yellow Cab (Japan)</description>
+	<cloneof>kamikcab</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

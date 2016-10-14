@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Gun / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="kdeadeye" index="" image="">
+	<description>Dead Eye (GV054 UAA01)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="loffirej" index="" image="">
+	<description>Line of Fire / Bakudan Yarou (Japan) (FD1094 317-0134)</description>
+	<cloneof>loffire</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lostwsga" index="" image="">
+	<description>The Lost World (Japan, Revision A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1997</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sgunnerj" index="" image="">
+	<description>Steel Gunner (Japan)</description>
+	<cloneof>sgunner</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1990</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

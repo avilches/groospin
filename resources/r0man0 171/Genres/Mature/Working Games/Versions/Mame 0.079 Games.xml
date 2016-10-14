@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Mature / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="mjelct3" index="" image="">
+	<description>Mahjong Electron Base (parts 2 &amp; 3, Japan)</description>
+	<cloneof>mjelctrn</cloneof>
+	<crc/>
+	<manufacturer>Dynax</manufacturer>
+	<year>1990</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjelct3a" index="" image="">
+	<description>Mahjong Electron Base (parts 2 &amp; 3, alt., Japan)</description>
+	<cloneof>mjelctrn</cloneof>
+	<crc/>
+	<manufacturer>Dynax</manufacturer>
+	<year>1990</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjelctrn" index="" image="">
+	<description>Mahjong Electron Base (parts 2 &amp; 4, Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dynax</manufacturer>
+	<year>1993</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="neruton" index="" image="">
+	<description>Mahjong Neruton Haikujiradan (Japan, Rev. B?)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dynax / Yukiyoshi Tokoro</manufacturer>
+	<year>1990</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pairlove" index="" image="">
+	<description>Pairs Love</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Athena</manufacturer>
+	<year>1991</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="perestrof" index="" image="">
+	<description>Perestroika Girls (Fuuki license)</description>
+	<cloneof>perestro</cloneof>
+	<crc/>
+	<manufacturer>Promat (Fuuki license)</manufacturer>
+	<year>1993</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="supertr3" index="" image="">
+	<description>Super Triv III</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Status Games</manufacturer>
+	<year>1988</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

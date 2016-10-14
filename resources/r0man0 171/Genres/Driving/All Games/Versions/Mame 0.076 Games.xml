@@ -1,0 +1,509 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Driving / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="apb1" index="" image="">
+	<description>APB - All Points Bulletin (rev 1)</description>
+	<cloneof>apb</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1987</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="apb2" index="" image="">
+	<description>APB - All Points Bulletin (rev 2)</description>
+	<cloneof>apb</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1987</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="apb3" index="" image="">
+	<description>APB - All Points Bulletin (rev 3)</description>
+	<cloneof>apb</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1987</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="apb5" index="" image="">
+	<description>APB - All Points Bulletin (rev 5)</description>
+	<cloneof>apb</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1987</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="apb6" index="" image="">
+	<description>APB - All Points Bulletin (rev 6)</description>
+	<cloneof>apb</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1987</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="apbf" index="" image="">
+	<description>APB - All Points Bulletin (French)</description>
+	<cloneof>apb</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1987</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="apbg" index="" image="">
+	<description>APB - All Points Bulletin (German)</description>
+	<cloneof>apb</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1987</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="csprint" index="" image="">
+	<description>Championship Sprint (rev 3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="csprint1" index="" image="">
+	<description>Championship Sprint (rev 1)</description>
+	<cloneof>csprint</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="csprintf" index="" image="">
+	<description>Championship Sprint (French)</description>
+	<cloneof>csprint</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="csprintg" index="" image="">
+	<description>Championship Sprint (German, rev 2)</description>
+	<cloneof>csprint</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="csprintg1" index="" image="">
+	<description>Championship Sprint (German, rev 1)</description>
+	<cloneof>csprint</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="csprints" index="" image="">
+	<description>Championship Sprint (Spanish, rev 2)</description>
+	<cloneof>csprint</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="csprints1" index="" image="">
+	<description>Championship Sprint (Spanish, rev 1)</description>
+	<cloneof>csprint</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="harddriv1" index="" image="">
+	<description>Hard Drivin&apos; (cockpit, rev 1)</description>
+	<cloneof>harddriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="harddriv2" index="" image="">
+	<description>Hard Drivin&apos; (cockpit, rev 2)</description>
+	<cloneof>harddriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="harddriv3" index="" image="">
+	<description>Hard Drivin&apos; (cockpit, rev 3)</description>
+	<cloneof>harddriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="harddrivb" index="" image="">
+	<description>Hard Drivin&apos; (cockpit, British, rev 7)</description>
+	<cloneof>harddriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="harddrivb5" index="" image="">
+	<description>Hard Drivin&apos; (cockpit, British, rev 5)</description>
+	<cloneof>harddriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="harddrivb6" index="" image="">
+	<description>Hard Drivin&apos; (cockpit, British, rev 6)</description>
+	<cloneof>harddriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="harddrivc1" index="" image="">
+	<description>Hard Drivin&apos; (compact, rev 1)</description>
+	<cloneof>harddriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="harddrivcb" index="" image="">
+	<description>Hard Drivin&apos; (compact, British, rev 2)</description>
+	<cloneof>harddriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="harddrivcg" index="" image="">
+	<description>Hard Drivin&apos; (compact, German, rev 2)</description>
+	<cloneof>harddriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="harddrivg" index="" image="">
+	<description>Hard Drivin&apos; (cockpit, German, rev 7)</description>
+	<cloneof>harddriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="harddrivg4" index="" image="">
+	<description>Hard Drivin&apos; (cockpit, German, rev 4)</description>
+	<cloneof>harddriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="harddrivj" index="" image="">
+	<description>Hard Drivin&apos; (cockpit, Japan, rev 7)</description>
+	<cloneof>harddriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="harddrivj6" index="" image="">
+	<description>Hard Drivin&apos; (cockpit, Japan, rev 6)</description>
+	<cloneof>harddriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedriv1" index="" image="">
+	<description>Race Drivin&apos; (cockpit, rev 1)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedriv2" index="" image="">
+	<description>Race Drivin&apos; (cockpit, rev 2)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedriv4" index="" image="">
+	<description>Race Drivin&apos; (cockpit, rev 4)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivb" index="" image="">
+	<description>Race Drivin&apos; (cockpit, British, rev 5)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivb1" index="" image="">
+	<description>Race Drivin&apos; (cockpit, British, rev 1)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivb4" index="" image="">
+	<description>Race Drivin&apos; (cockpit, British, rev 4)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivc1" index="" image="">
+	<description>Race Drivin&apos; (compact, rev 1)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivc2" index="" image="">
+	<description>Race Drivin&apos; (compact, rev 2)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivc4" index="" image="">
+	<description>Race Drivin&apos; (compact, rev 4)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivcb" index="" image="">
+	<description>Race Drivin&apos; (compact, British, rev 5)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivcb4" index="" image="">
+	<description>Race Drivin&apos; (compact, British, rev 4)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivcg" index="" image="">
+	<description>Race Drivin&apos; (compact, German, rev 5)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivcg4" index="" image="">
+	<description>Race Drivin&apos; (compact, German, rev 4)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivg" index="" image="">
+	<description>Race Drivin&apos; (cockpit, German, rev 5)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivg1" index="" image="">
+	<description>Race Drivin&apos; (cockpit, German, rev 2)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivg4" index="" image="">
+	<description>Race Drivin&apos; (cockpit, German, rev 4)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sspeedr" index="" image="">
+	<description>Super Speed Race</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1979</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssprint1" index="" image="">
+	<description>Super Sprint (rev 1)</description>
+	<cloneof>ssprint</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssprint3" index="" image="">
+	<description>Super Sprint (rev 3)</description>
+	<cloneof>ssprint</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssprintf" index="" image="">
+	<description>Super Sprint (French)</description>
+	<cloneof>ssprint</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssprintg" index="" image="">
+	<description>Super Sprint (German, rev 2)</description>
+	<cloneof>ssprint</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssprintg1" index="" image="">
+	<description>Super Sprint (German, rev 1)</description>
+	<cloneof>ssprint</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssprints" index="" image="">
+	<description>Super Sprint (Spanish)</description>
+	<cloneof>ssprint</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

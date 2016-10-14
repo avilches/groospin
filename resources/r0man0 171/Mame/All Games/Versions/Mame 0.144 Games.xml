@@ -1,0 +1,749 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Mame / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="18wheels" index="" image="">
+	<description>18 Wheeler (standard)</description>
+	<cloneof>18wheelr</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2000</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="7smash" index="" image="">
+	<description>7 Smash</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sovic</manufacturer>
+	<year>1993</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="acheart" index="" image="">
+	<description>Arcana Heart</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Examu</manufacturer>
+	<year>2005</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="acheartf" index="" image="">
+	<description>Arcana Heart Full</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Examu</manufacturer>
+	<year>2006</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aliencr" index="" image="">
+	<description>Alien Crush</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Hudson Soft</manufacturer>
+	<year>1989</year>
+	<genre>Pinball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="alienfnt" index="" image="">
+	<description>Alien Front (Rev T)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="batlballe" index="" image="">
+	<description>Battle Balls (Hong Kong, earlier)</description>
+	<cloneof>senkyu</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Metrotainment license)</manufacturer>
+	<year>1995</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="birdiy" index="" image="">
+	<description>Birdiy</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Mama Top</manufacturer>
+	<year>1983</year>
+	<genre>Climbing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="brapboysu" index="" image="">
+	<description>B.Rap Boys Special (US)</description>
+	<cloneof>brapboys</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cawingbl" index="" image="">
+	<description>Carrier Air Wing (bootleg with 2xYM2203 + 2xMSM205 set 1)</description>
+	<cloneof>cawing</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cpsoccerj" index="" image="">
+	<description>Pro Soccer (DECO Cassette, Japan)</description>
+	<cloneof>cpsoccer</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crockman" index="" image="">
+	<description>Crock-Man</description>
+	<cloneof>puckman</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Rene Pierre)</manufacturer>
+	<year>1980</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="exzisust" index="" image="">
+	<description>Exzisus (TAD license)</description>
+	<cloneof>exzisus</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation (TAD license)</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="eyeszac" index="" image="">
+	<description>Eyes (Italy)</description>
+	<cloneof>eyes</cloneof>
+	<crc/>
+	<manufacturer>Techstar (Zaccaria license)</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt2_3" index="" image="">
+	<description>Fruit Cocktail 2 (080909 World)</description>
+	<cloneof>fcockt2</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2008</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt2_4" index="" image="">
+	<description>Fruit Cocktail 2 (081105 World)</description>
+	<cloneof>fcockt2</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2008</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt2_4a" index="" image="">
+	<description>Fruit Cocktail 2 (bootleg, 081105, banking address hack)</description>
+	<cloneof>fcockt2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2008</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt2_4b" index="" image="">
+	<description>Fruit Cocktail 2 (bootleg, 081105, banking address hack, no credit limit)</description>
+	<cloneof>fcockt2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2008</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt2_4d" index="" image="">
+	<description>Fruit Cocktail 2 (bootleg, 081105, banking address hack, payout percentage 70)</description>
+	<cloneof>fcockt2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2008</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt2_4f" index="" image="">
+	<description>Fruit Cocktail 2 (bootleg, 081105, LOTOS FR02)</description>
+	<cloneof>fcockt2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2008</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt2_5" index="" image="">
+	<description>Fruit Cocktail 2 (081106 Russia)</description>
+	<cloneof>fcockt2</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2008</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fnshark" index="" image="">
+	<description>Flyin&apos; Shark (bootleg of Hishou Zame)</description>
+	<cloneof>fshark</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fortecrd" index="" image="">
+	<description>Forte Card (Ver 110, Spanish)</description>
+	<cloneof>fortecar</cloneof>
+	<crc/>
+	<manufacturer>Fortex Ltd</manufacturer>
+	<year>1994</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galgame" index="" image="">
+	<description>Galaxy Game</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Computer Recreations, Inc</manufacturer>
+	<year>1971</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galpani3" index="" image="">
+	<description>Gals Panic 3 (Euro)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1995</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galpanis" index="" image="">
+	<description>Gals Panic S - Extra Edition (Europe)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1997</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gunbalina" index="" image="">
+	<description>Gunbalina (Japan, GNN1 Ver.A)</description>
+	<cloneof>ptblank3</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2000</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gunhard" index="" image="">
+	<description>Gun Hard (Japan)</description>
+	<cloneof>lockload</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1994</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="guzzlers" index="" image="">
+	<description>Guzzler (Swimmer Conversion)</description>
+	<cloneof>guzzler</cloneof>
+	<crc/>
+	<manufacturer>Tehkan</manufacturer>
+	<year>1983</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hotd2p" index="" image="">
+	<description>House of the Dead 2 (prototype)</description>
+	<cloneof>hotd2</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1998</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ichiban" index="" image="">
+	<description>Ichi Ban Jyan</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Excel</manufacturer>
+	<year>199?</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="itaten" index="" image="">
+	<description>Itazura Tenshi (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu / Alice</manufacturer>
+	<year>1984</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jjsquawkb2" index="" image="">
+	<description>J. J. Squawkers (bootleg, Blandia Conversion)</description>
+	<cloneof>jjsquawk</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1993</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="keith" index="" image="">
+	<description>Keith Courage In Alpha Zones</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Hudson Soft</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kotm2p" index="" image="">
+	<description>King of the Monsters 2 - The Next Thing (prototype)</description>
+	<cloneof>kotm2</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1992</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov2nl" index="" image="">
+	<description>Knights of Valour 2 New Legend (V302, China)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2008</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov2nlo" index="" image="">
+	<description>Knights of Valour 2 New Legend (V301, China)</description>
+	<cloneof>kov2nl</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2008</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kovlsqh" index="" image="">
+	<description>Knights of Valour: Luan Shi Quan Huang / Sangoku Senki: Luan Shi Quan Huang (ver. 200CN)</description>
+	<cloneof>kovshp</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2004</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kovsgqyz" index="" image="">
+	<description>Knights of Valour: SanGuo QunYingZhuan / Sangoku Senki: SanGuo QunYingZhuan (bootleg, set 1)</description>
+	<cloneof>kovplus</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kovsgqyza" index="" image="">
+	<description>Knights of Valour: SanGuo QunYingZhuan / Sangoku Senki: SanGuo QunYingZhuan (bootleg, set 2)</description>
+	<cloneof>kovplus</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kovsgqyzb" index="" image="">
+	<description>Knights of Valour: SanGuo QunYingZhuan / Sangoku Senki: SanGuo QunYingZhuan (bootleg, set 3)</description>
+	<cloneof>kovplus</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mbaao" index="" image="">
+	<description>Melty Blood Actress Again</description>
+	<cloneof>mbaa</cloneof>
+	<crc/>
+	<manufacturer>Type-Moon/Ecole</manufacturer>
+	<year>2008</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mini2440" index="" image="">
+	<description>Mini2440</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>FriendlyARM</manufacturer>
+	<year>2009</year>
+	<genre>Pocket Device / Pad / PDA</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mtkob2" index="" image="">
+	<description>Mushiking The King Of Beetle 2K3 2nd</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2003</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ninjawu" index="" image="">
+	<description>The Ninja Warriors (US)</description>
+	<cloneof>ninjaw</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation America (licensed to Romstar)</manufacturer>
+	<year>1987</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="orleg2o" index="" image="">
+	<description>Oriental Legend 2 (V103, China)</description>
+	<cloneof>orleg2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2007</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="paclandp" index="" image="">
+	<description>Pac-Land (United Amusements PC Engine)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="palmz22" index="" image="">
+	<description>Palm Z22</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Palm</manufacturer>
+	<year>2005</year>
+	<genre>Pocket Device / Pad / PDA</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pang3r1" index="" image="">
+	<description>Pang! 3 (Euro 950511)</description>
+	<cloneof>pang3</cloneof>
+	<crc/>
+	<manufacturer>Mitchell</manufacturer>
+	<year>1995</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pepper27" index="" image="">
+	<description>Pepper II (version 7)</description>
+	<cloneof>pepper2</cloneof>
+	<crc/>
+	<manufacturer>Exidy</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="popobear" index="" image="">
+	<description>PoPo Bear</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BMC</manufacturer>
+	<year>2000</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quizard" index="" image="">
+	<description>Quizard (v1.8)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>TAB Austria</manufacturer>
+	<year>1995</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quizard2" index="" image="">
+	<description>Quizard 2 (v2.3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>TAB Austria</manufacturer>
+	<year>1995</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quizard3" index="" image="">
+	<description>Quizard 3 (v3.4)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>TAB Austria</manufacturer>
+	<year>1995</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rapidfira" index="" image="">
+	<description>Rapid Fire v1.1 (Build 238)</description>
+	<cloneof>rapidfir</cloneof>
+	<crc/>
+	<manufacturer>Hanaho Games</manufacturer>
+	<year>1998</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rvschool" index="" image="">
+	<description>Rival Schools: United By Fate (Euro 971117)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbp" index="" image="">
+	<description>Super Bubble Pop</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Vektorlogic</manufacturer>
+	<year>2004</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfiii3" index="" image="">
+	<description>Street Fighter III 3rd Strike: Fight for the Future (Euro 990608)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfiii3r1" index="" image="">
+	<description>Street Fighter III 3rd Strike: Fight for the Future (Euro 990512)</description>
+	<cloneof>sfiii3</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spacegunj" index="" image="">
+	<description>Space Gun (Japan)</description>
+	<cloneof>spacegun</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spacegunu" index="" image="">
+	<description>Space Gun (US)</description>
+	<cloneof>spacegun</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spiker2" index="" image="">
+	<description>Spiker (5/5/86)</description>
+	<cloneof>spiker</cloneof>
+	<crc/>
+	<manufacturer>Bally/Sente</manufacturer>
+	<year>1986</year>
+	<genre>Volleyball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spiker3" index="" image="">
+	<description>Spiker (6/9/86)</description>
+	<cloneof>spiker</cloneof>
+	<crc/>
+	<manufacturer>Bally/Sente</manufacturer>
+	<year>1986</year>
+	<genre>Volleyball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stealsee" index="" image="">
+	<description>Steal See</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Moov Generation / Eolith</manufacturer>
+	<year>2000</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tduno2" index="" image="">
+	<description>Touch de Uno! 2</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2000</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="toukon4" index="" image="">
+	<description>Shin Nihon Pro Wrestling Toukon Retsuden 4 Arcade Edition (Japan, TRF1 Ver.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2000</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="toyland" index="" image="">
+	<description>Toy Land Adventure</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SemiCom</manufacturer>
+	<year>2001</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ts2" index="" image="">
+	<description>Battle Arena Toshinden 2 (USA 951124)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom / Takara</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="unkpacg" index="" image="">
+	<description>unknown Pac-Man gambling game</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>199?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="virnbap" index="" image="">
+	<description>Virtua NBA (prototype)</description>
+	<cloneof>virnba</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2000</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wbeachvl3" index="" image="">
+	<description>World Beach Volley (set 3)</description>
+	<cloneof>wbeachvl</cloneof>
+	<crc/>
+	<manufacturer>Playmark</manufacturer>
+	<year>1995</year>
+	<genre>Volleyball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="westgun2" index="" image="">
+	<description>Western Gun Part II</description>
+	<cloneof>sheriff</cloneof>
+	<crc/>
+	<manufacturer>Nintendo (Taito Corporation license)</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wof" index="" image="">
+	<description>Warriors of Fate (World 921031)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zeroteamd" index="" image="">
+	<description>Zero Team (Korea)</description>
+	<cloneof>zeroteam</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Dream Soft license)</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

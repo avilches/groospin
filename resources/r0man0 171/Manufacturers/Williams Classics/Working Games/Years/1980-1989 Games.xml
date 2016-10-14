@@ -1,0 +1,399 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Williams / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="1942w" index="" image="">
+	<description>1942 (Williams Electronics license)</description>
+	<cloneof>1942</cloneof>
+	<crc/>
+	<manufacturer>Capcom (Williams Electronics license)</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aeroboto" index="" image="">
+	<description>Aeroboto</description>
+	<cloneof>formatz</cloneof>
+	<crc/>
+	<manufacturer>Jaleco (Williams license)</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blaster" index="" image="">
+	<description>Blaster</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams / Vid Kidz</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blasterkit" index="" image="">
+	<description>Blaster (conversion kit)</description>
+	<cloneof>blaster</cloneof>
+	<crc/>
+	<manufacturer>Williams / Vid Kidz</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blastero" index="" image="">
+	<description>Blaster (location test)</description>
+	<cloneof>blaster</cloneof>
+	<crc/>
+	<manufacturer>Williams / Vid Kidz</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bubbles" index="" image="">
+	<description>Bubbles</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bubblesp" index="" image="">
+	<description>Bubbles (prototype version)</description>
+	<cloneof>bubbles</cloneof>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bubblesr" index="" image="">
+	<description>Bubbles (Solid Red label)</description>
+	<cloneof>bubbles</cloneof>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="defender" index="" image="">
+	<description>Defender (Red label)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="defenderb" index="" image="">
+	<description>Defender (Blue label)</description>
+	<cloneof>defender</cloneof>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="defenderg" index="" image="">
+	<description>Defender (Green label)</description>
+	<cloneof>defender</cloneof>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="defenderw" index="" image="">
+	<description>Defender (White label)</description>
+	<cloneof>defender</cloneof>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="inferno" index="" image="">
+	<description>Inferno (Williams)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="joust" index="" image="">
+	<description>Joust (White/Green label)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="joust2" index="" image="">
+	<description>Joust 2 - Survival of the Fittest (revision 2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="joust2r1" index="" image="">
+	<description>Joust 2 - Survival of the Fittest (revision 1)</description>
+	<cloneof>joust2</cloneof>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="joustr" index="" image="">
+	<description>Joust (Solid Red label)</description>
+	<cloneof>joust</cloneof>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="joustwr" index="" image="">
+	<description>Joust (White/Red label)</description>
+	<cloneof>joust</cloneof>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="maketrax" index="" image="">
+	<description>Make Trax (US set 1)</description>
+	<cloneof>crush</cloneof>
+	<crc/>
+	<manufacturer>Alpha Denshi Co. / Kural (Williams license)</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="maketrxb" index="" image="">
+	<description>Make Trax (US set 2)</description>
+	<cloneof>crush</cloneof>
+	<crc/>
+	<manufacturer>Alpha Denshi Co. / Kural (Williams license)</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="motorace" index="" image="">
+	<description>MotoRace USA</description>
+	<cloneof>travrusa</cloneof>
+	<crc/>
+	<manufacturer>Irem (Williams license)</manufacturer>
+	<year>1983</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mpatrolw" index="" image="">
+	<description>Moon Patrol (Williams)</description>
+	<cloneof>mpatrol</cloneof>
+	<crc/>
+	<manufacturer>Irem (Williams license)</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mysticm" index="" image="">
+	<description>Mystic Marathon</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1983</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mysticmp" index="" image="">
+	<description>Mystic Marathon (prototype)</description>
+	<cloneof>mysticm</cloneof>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1983</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="narc" index="" image="">
+	<description>Narc (rev 7.00)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="narc2" index="" image="">
+	<description>Narc (rev 2.00)</description>
+	<cloneof>narc</cloneof>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="narc3" index="" image="">
+	<description>Narc (rev 3.20)</description>
+	<cloneof>narc</cloneof>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="robotron" index="" image="">
+	<description>Robotron: 2084 (Solid Blue label)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams / Vid Kidz</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="robotronyo" index="" image="">
+	<description>Robotron: 2084 (Yellow/Orange label)</description>
+	<cloneof>robotron</cloneof>
+	<crc/>
+	<manufacturer>Williams / Vid Kidz</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rollace" index="" image="">
+	<description>Roller Aces (set 1)</description>
+	<cloneof>fightrol</cloneof>
+	<crc/>
+	<manufacturer>Kaneko (Williams license)</manufacturer>
+	<year>1983</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rollace2" index="" image="">
+	<description>Roller Aces (set 2)</description>
+	<cloneof>fightrol</cloneof>
+	<crc/>
+	<manufacturer>Kaneko (Williams license)</manufacturer>
+	<year>1983</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sinistar" index="" image="">
+	<description>Sinistar (revision 3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sinistar1" index="" image="">
+	<description>Sinistar (prototype version)</description>
+	<cloneof>sinistar</cloneof>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sinistar2" index="" image="">
+	<description>Sinistar (revision 2)</description>
+	<cloneof>sinistar</cloneof>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spdball" index="" image="">
+	<description>Speed Ball - Contest at Neonworld (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1985</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="splat" index="" image="">
+	<description>Splat!</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stargate" index="" image="">
+	<description>Stargate</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams / Vid Kidz</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tshoot" index="" image="">
+	<description>Turkey Shoot</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1984</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zerowingw" index="" image="">
+	<description>Zero Wing (2P set, Williams license)</description>
+	<cloneof>zerowing</cloneof>
+	<crc/>
+	<manufacturer>Toaplan (Williams license)</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

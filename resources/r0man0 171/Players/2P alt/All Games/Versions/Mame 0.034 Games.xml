@@ -1,0 +1,1839 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2P alt / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="1942" index="" image="">
+	<description>1942 (Revision B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="4dwarrio" index="" image="">
+	<description>4-D Warriors (315-5162)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Coreland / Sega</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="600" index="" image="">
+	<description>600</description>
+	<cloneof>turtles</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="720r3" index="" image="">
+	<description>720 Degrees (rev 3)</description>
+	<cloneof>720</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1986</year>
+	<genre>Skateboarding</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="alpine" index="" image="">
+	<description>Alpine Ski (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Skiing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="alpinea" index="" image="">
+	<description>Alpine Ski (set 2)</description>
+	<cloneof>alpine</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Skiing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arknoid2" index="" image="">
+	<description>Arkanoid - Revenge of DOH (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1987</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arknoid2u" index="" image="">
+	<description>Arkanoid - Revenge of DOH (US)</description>
+	<cloneof>arknoid2</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation (Romstar license)</manufacturer>
+	<year>1987</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="armorcar2" index="" image="">
+	<description>Armored Car (set 2)</description>
+	<cloneof>armorcar</cloneof>
+	<crc/>
+	<manufacturer>Stern Electronics</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="astrof3" index="" image="">
+	<description>Astro Fighter (set 3)</description>
+	<cloneof>astrof</cloneof>
+	<crc/>
+	<manufacturer>Data East</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aurail" index="" image="">
+	<description>Aurail (set 3, US) (unprotected)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / Westone</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bagmans2" index="" image="">
+	<description>Bagman (Stern Electronics, set 2)</description>
+	<cloneof>bagman</cloneof>
+	<crc/>
+	<manufacturer>Valadon Automation (Stern Electronics license)</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="beastf" index="" image="">
+	<description>Beastie Feastie</description>
+	<cloneof>suprglob</cloneof>
+	<crc/>
+	<manufacturer>Epos Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="billiard" index="" image="">
+	<description>The Billiards (Video Hustler bootleg)</description>
+	<cloneof>hustler</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1981</year>
+	<genre>Pool and Darts</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bioatack" index="" image="">
+	<description>Bio Attack</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation (Fox Video Games license)</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bionicc1" index="" image="">
+	<description>Bionic Commando (US set 1)</description>
+	<cloneof>bionicc</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bionicc2" index="" image="">
+	<description>Bionic Commando (US set 2)</description>
+	<cloneof>bionicc</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blktigerb1" index="" image="">
+	<description>Black Tiger (bootleg set 1)</description>
+	<cloneof>blktiger</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="brain" index="" image="">
+	<description>Brain</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Coreland / Sega</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="brix" index="" image="">
+	<description>Brix</description>
+	<cloneof>zzyzzyxx</cloneof>
+	<crc/>
+	<manufacturer>Cinematronics / Advanced Microcomputer Systems</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ccastles2" index="" image="">
+	<description>Crystal Castles (version 2)</description>
+	<cloneof>ccastles</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1983</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cheekyms" index="" image="">
+	<description>Cheeky Mouse</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Universal</manufacturer>
+	<year>1980</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cookrace" index="" image="">
+	<description>Cook Race</description>
+	<cloneof>btime</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cop01" index="" image="">
+	<description>Cop 01 (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cop01a" index="" image="">
+	<description>Cop 01 (set 2)</description>
+	<cloneof>cop01</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="defcmnd" index="" image="">
+	<description>Defense Command (Defender bootleg)</description>
+	<cloneof>defender</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="defence" index="" image="">
+	<description>Defence Command (Defender bootleg)</description>
+	<cloneof>defender</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Outer Limits)</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dotron" index="" image="">
+	<description>Discs of Tron (Upright)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1983</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dplay" index="" image="">
+	<description>Double Play</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1977</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="einning" index="" image="">
+	<description>Extra Inning / Ball Park II</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway / Taito</manufacturer>
+	<year>1978</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="elecyoyo" index="" image="">
+	<description>The Electric Yo-Yo (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="elecyoyo2" index="" image="">
+	<description>The Electric Yo-Yo (set 2)</description>
+	<cloneof>elecyoyo</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="exctsccr" index="" image="">
+	<description>Exciting Soccer</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Alpha Denshi Co.</manufacturer>
+	<year>1983</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="exctsccrb" index="" image="">
+	<description>Exciting Soccer (bootleg)</description>
+	<cloneof>exctsccr</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Kazutomi)</manufacturer>
+	<year>1983</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="exeriont" index="" image="">
+	<description>Exerion (Taito)</description>
+	<cloneof>exerion</cloneof>
+	<crc/>
+	<manufacturer>Jaleco (Taito America license)</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="exprraidu" index="" image="">
+	<description>Express Raider (US, rev 5)</description>
+	<cloneof>exprraid</cloneof>
+	<crc/>
+	<manufacturer>Data East USA</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="f1dreamb" index="" image="">
+	<description>F-1 Dream (bootleg, set 1)</description>
+	<cloneof>f1dream</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fantzone1" index="" image="">
+	<description>Fantasy Zone (unprotected)</description>
+	<cloneof>fantzone</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="flicky" index="" image="">
+	<description>Flicky (128k Version, System 2, 315-5051)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="flickyo" index="" image="">
+	<description>Flicky (64k Version, System 1, 315-5051, set 1)</description>
+	<cloneof>flicky</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galivan2" index="" image="">
+	<description>Cosmo Police Galivan (12/16/1985)</description>
+	<cloneof>galivan</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gradius" index="" image="">
+	<description>Gradius (Japan, ROM version)</description>
+	<cloneof>nemesis</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="grdian" index="" image="">
+	<description>Guardian (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Toaplan / Taito America Corporation (Kitkorp license)</manufacturer>
+	<year>1986</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="grescue" index="" image="">
+	<description>Galaxy Rescue</description>
+	<cloneof>lrescue</cloneof>
+	<crc/>
+	<manufacturer>Taito (Universal license?)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gsword" index="" image="">
+	<description>Great Swordsman (World?)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Allumer / Taito Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gundealra" index="" image="">
+	<description>Gun Dealer (alt card set)</description>
+	<cloneof>gundealr</cloneof>
+	<crc/>
+	<manufacturer>Dooyong</manufacturer>
+	<year>1990</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hardhat" index="" image="">
+	<description>Hard Hat</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Exidy</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="helifirea" index="" image="">
+	<description>HeliFire (set 2)</description>
+	<cloneof>helifire</cloneof>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="higemaru" index="" image="">
+	<description>Pirate Ship Higemaru</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1984</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hvymetal" index="" image="">
+	<description>Heavy Metal (315-5135)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="imsorry" index="" image="">
+	<description>I&apos;m Sorry (315-5110, US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Coreland / Sega</manufacturer>
+	<year>1985</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="imsorryj" index="" image="">
+	<description>Gonbee no I&apos;m Sorry (315-5110, Japan)</description>
+	<cloneof>imsorry</cloneof>
+	<crc/>
+	<manufacturer>Coreland / Sega</manufacturer>
+	<year>1985</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="intrepid" index="" image="">
+	<description>Intrepid (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nova Games Ltd.</manufacturer>
+	<year>1983</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="invrvngedu" index="" image="">
+	<description>Invader&apos;s Revenge (Dutchford, single PCB)</description>
+	<cloneof>invrvnge</cloneof>
+	<crc/>
+	<manufacturer>Zenitone-Microsec Ltd. (Dutchford license)</manufacturer>
+	<year>1980?</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jack2" index="" image="">
+	<description>Jack the Giantkiller (set 2)</description>
+	<cloneof>jack</cloneof>
+	<crc/>
+	<manufacturer>Hara Industries (Cinematronics license)</manufacturer>
+	<year>1982</year>
+	<genre>Climbing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jack3" index="" image="">
+	<description>Jack the Giantkiller (set 3)</description>
+	<cloneof>jack</cloneof>
+	<crc/>
+	<manufacturer>Hara Industries (Cinematronics license)</manufacturer>
+	<year>1982</year>
+	<genre>Climbing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jackrabt2" index="" image="">
+	<description>Jack Rabbit (set 2)</description>
+	<cloneof>jackrabt</cloneof>
+	<crc/>
+	<manufacturer>Zaccaria</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jackrabts" index="" image="">
+	<description>Jack Rabbit (special)</description>
+	<cloneof>jackrabt</cloneof>
+	<crc/>
+	<manufacturer>Zaccaria</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jailbrek" index="" image="">
+	<description>Jail Break</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jumping" index="" image="">
+	<description>Jumping (set 1)</description>
+	<cloneof>rbisland</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="junglers" index="" image="">
+	<description>Jungler (Stern Electronics)</description>
+	<cloneof>jungler</cloneof>
+	<crc/>
+	<manufacturer>Konami (Stern Electronics license)</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kangaroob" index="" image="">
+	<description>Kangaroo (bootleg)</description>
+	<cloneof>kangaroo</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kchamp" index="" image="">
+	<description>Karate Champ (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East USA</manufacturer>
+	<year>1984</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kidnikiu" index="" image="">
+	<description>Kid Niki - Radical Ninja (US)</description>
+	<cloneof>kidniki</cloneof>
+	<crc/>
+	<manufacturer>Irem (Data East USA license)</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kingball" index="" image="">
+	<description>King &amp; Balloon (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kingofb" index="" image="">
+	<description>King of Boxer (English)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Wood Place Inc.</manufacturer>
+	<year>1985</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kram" index="" image="">
+	<description>Kram (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kram2" index="" image="">
+	<description>Kram (set 2)</description>
+	<cloneof>kram</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ktiger" index="" image="">
+	<description>Kyukyoku Tiger (Japan)</description>
+	<cloneof>twincobr</cloneof>
+	<crc/>
+	<manufacturer>Toaplan / Taito Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kungfub2" index="" image="">
+	<description>Kung-Fu Master (bootleg set 2)</description>
+	<cloneof>kungfum</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1984</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kungfumd" index="" image="">
+	<description>Kung-Fu Master (US)</description>
+	<cloneof>kungfum</cloneof>
+	<crc/>
+	<manufacturer>Irem (Data East USA license)</manufacturer>
+	<year>1984</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kuniokunb" index="" image="">
+	<description>Nekketsu Kouha Kunio-kun (Japan bootleg)</description>
+	<cloneof>renegade</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1986</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ladybugb" index="" image="">
+	<description>Lady Bug (bootleg set 1)</description>
+	<cloneof>ladybug</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ldrun" index="" image="">
+	<description>Lode Runner (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem (licensed from Broderbund)</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="legendos" index="" image="">
+	<description>Legend of Success Joe / Ashita no Joe Densetsu</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="liquidk" index="" image="">
+	<description>Liquid Kids (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="losttombh" index="" image="">
+	<description>Lost Tomb (hard)</description>
+	<cloneof>losttomb</cloneof>
+	<crc/>
+	<manufacturer>Stern Electronics</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="maglordh" index="" image="">
+	<description>Magician Lord (NGH-005)</description>
+	<cloneof>maglord</cloneof>
+	<crc/>
+	<manufacturer>Alpha Denshi Co.</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="medlanes" index="" image="">
+	<description>Meadows Lanes</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Meadows Games, Inc.</manufacturer>
+	<year>1977</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mikiehs" index="" image="">
+	<description>Mikie (High School Graffiti)</description>
+	<cloneof>mikie</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1984</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="missile1" index="" image="">
+	<description>Missile Command (rev 1)</description>
+	<cloneof>missile</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="moonwar" index="" image="">
+	<description>Moonwar</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Stern Electronics</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="moonwara" index="" image="">
+	<description>Moonwar (older)</description>
+	<cloneof>moonwar</cloneof>
+	<crc/>
+	<manufacturer>Stern Electronics</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mrdofix" index="" image="">
+	<description>Mr. Do! (bugfixed)</description>
+	<cloneof>mrdo</cloneof>
+	<crc/>
+	<manufacturer>Universal (Taito license)</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mrdoy" index="" image="">
+	<description>Mr. Do! (prototype)</description>
+	<cloneof>mrdo</cloneof>
+	<crc/>
+	<manufacturer>Universal</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mrtnt" index="" image="">
+	<description>Mr. TNT</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Techstar (Telko license)</manufacturer>
+	<year>1983</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mrviking" index="" image="">
+	<description>Mister Viking (315-5041)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="myhero" index="" image="">
+	<description>My Hero (US, not encrypted)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Coreland / Sega</manufacturer>
+	<year>1985</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="myherok" index="" image="">
+	<description>My Hero (Korea)</description>
+	<cloneof>myhero</cloneof>
+	<crc/>
+	<manufacturer>Coreland / Sega</manufacturer>
+	<year>1985</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nprincesb" index="" image="">
+	<description>Ninja Princess (315-5051?, 128k Ver. bootleg?)</description>
+	<cloneof>seganinj</cloneof>
+	<crc/>
+	<manufacturer>bootleg?</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nprinceso" index="" image="">
+	<description>Ninja Princess (315-5098, 128k Ver.)</description>
+	<cloneof>seganinj</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="oscar" index="" image="">
+	<description>Psycho-Nics Oscar (World revision 0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="oscaru" index="" image="">
+	<description>Psycho-Nics Oscar (US)</description>
+	<cloneof>oscar</cloneof>
+	<crc/>
+	<manufacturer>Data East USA</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ozmawars" index="" image="">
+	<description>Ozma Wars (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pacland" index="" image="">
+	<description>Pac-Land (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="panicger" index="" image="">
+	<description>Space Panic (German)</description>
+	<cloneof>panic</cloneof>
+	<crc/>
+	<manufacturer>Universal (ADP Automaten license)</manufacturer>
+	<year>1980</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pbaction2" index="" image="">
+	<description>Pinball Action (set 2)</description>
+	<cloneof>pbaction</cloneof>
+	<crc/>
+	<manufacturer>Tehkan</manufacturer>
+	<year>1985</year>
+	<genre>Pinball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="phoenixc" index="" image="">
+	<description>Phoenix (Irecsa / G.G.I Corp, set 1)</description>
+	<cloneof>phoenix</cloneof>
+	<crc/>
+	<manufacturer>bootleg? (Irecsa / G.G.I Corp)</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pickin" index="" image="">
+	<description>Pickin&apos;</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Valadon Automation</manufacturer>
+	<year>1983</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pitfall2u" index="" image="">
+	<description>Pitfall II (not encrypted)</description>
+	<cloneof>pitfall2</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pkunwar" index="" image="">
+	<description>Penguin-Kun Wars (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>UPL</manufacturer>
+	<year>1985</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pkunwarj" index="" image="">
+	<description>Penguin-Kun Wars (Japan)</description>
+	<cloneof>pkunwar</cloneof>
+	<crc/>
+	<manufacturer>UPL</manufacturer>
+	<year>1985</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="polaris" index="" image="">
+	<description>Polaris (Latest version)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pooyan" index="" image="">
+	<description>Pooyan</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="portman" index="" image="">
+	<description>Port Man</description>
+	<cloneof>dockman</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation (Nova Games Ltd. license)</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="potogold" index="" image="">
+	<description>Pot of Gold</description>
+	<cloneof>leprechn</cloneof>
+	<crc/>
+	<manufacturer>Tong Electronic (Game Plan license)</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="psychic5j" index="" image="">
+	<description>Psychic 5 (Japan)</description>
+	<cloneof>psychic5</cloneof>
+	<crc/>
+	<manufacturer>Jaleco / NMK</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pulstar" index="" image="">
+	<description>Pulstar</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aicom</manufacturer>
+	<year>1995</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qwak" index="" image="">
+	<description>Qwak (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1982</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="regulus" index="" image="">
+	<description>Regulus (315-5033, Rev A.)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="regulusu" index="" image="">
+	<description>Regulus (not encrypted)</description>
+	<cloneof>regulus</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="renegade" index="" image="">
+	<description>Renegade (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Technos Japan (Taito America license)</manufacturer>
+	<year>1986</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ripcord" index="" image="">
+	<description>Rip Cord</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Exidy</manufacturer>
+	<year>1979</year>
+	<genre>Sports</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="roadf2" index="" image="">
+	<description>Road Fighter (set 2)</description>
+	<cloneof>roadf</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1984</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rpatrolb" index="" image="">
+	<description>River Patrol (bootleg)</description>
+	<cloneof>rpatrol</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1981</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rygar3" index="" image="">
+	<description>Rygar (US set 3 Old Version)</description>
+	<cloneof>rygar</cloneof>
+	<crc/>
+	<manufacturer>Tecmo</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="samurai" index="" image="">
+	<description>Samurai</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1980</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sasuke" index="" image="">
+	<description>Sasuke vs. Commander</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sauro" index="" image="">
+	<description>Sauro</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Tecfri</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbagman" index="" image="">
+	<description>Super Bagman</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Valadon Automation</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scion" index="" image="">
+	<description>Scion</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Seibu Denshi</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scionc" index="" image="">
+	<description>Scion (Cinematronics)</description>
+	<cloneof>scion</cloneof>
+	<crc/>
+	<manufacturer>Seibu Denshi (Cinematronics license)</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="seganinj" index="" image="">
+	<description>Sega Ninja (315-5102)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="seganinju" index="" image="">
+	<description>Sega Ninja (not encrypted)</description>
+	<cloneof>seganinj</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfposeid" index="" image="">
+	<description>Sea Fighter Poseidon</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sharkatt" index="" image="">
+	<description>Shark Attack</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Pacific Novelty</manufacturer>
+	<year>1980</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sidetrac" index="" image="">
+	<description>Side Trak</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Exidy</manufacturer>
+	<year>1979</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="silvland" index="" image="">
+	<description>Silver Land</description>
+	<cloneof>rpatrol</cloneof>
+	<crc/>
+	<manufacturer>Falcon</manufacturer>
+	<year>1981</year>
+	<genre>Skiing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sinistar2" index="" image="">
+	<description>Sinistar (revision 2)</description>
+	<cloneof>sinistar</cloneof>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sinvemag" index="" image="">
+	<description>Super Invaders (bootleg set 2)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Emag)</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spacetrkc" index="" image="">
+	<description>Space Trek (cocktail)</description>
+	<cloneof>spacetrk</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="speakres" index="" image="">
+	<description>Speak &amp; Rescue</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sun Electronics</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spectar" index="" image="">
+	<description>Spectar (revision 3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Exidy</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="speedbal" index="" image="">
+	<description>Speed Ball</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Tecfri / Desystem S.A.</manufacturer>
+	<year>1987</year>
+	<genre>Pinball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spelunk2" index="" image="">
+	<description>Spelunker II</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem (licensed from Broderbund)</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="starjack" index="" image="">
+	<description>Star Jacker (Sega)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="starjacks" index="" image="">
+	<description>Star Jacker (Stern Electronics)</description>
+	<cloneof>starjack</cloneof>
+	<crc/>
+	<manufacturer>Sega (Stern Electronics license)</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stinger" index="" image="">
+	<description>Stinger</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Seibu Denshi</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sucasino" index="" image="">
+	<description>Super Casino</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data Amusement</manufacturer>
+	<year>1984</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="suprmous" index="" image="">
+	<description>Super Mouse</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="swat" index="" image="">
+	<description>SWAT (315-5048)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Coreland / Sega</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tagteam" index="" image="">
+	<description>Tag Team Wrestling</description>
+	<cloneof>bigprowr</cloneof>
+	<crc/>
+	<manufacturer>Technos Japan (Data East license)</manufacturer>
+	<year>1983</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="teddybb" index="" image="">
+	<description>TeddyBoy Blues (315-5115, New Ver.)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="terracren" index="" image="">
+	<description>Terra Cresta (YM2203)</description>
+	<cloneof>terracre</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="terracreo" index="" image="">
+	<description>Terra Cresta (YM3526 set 2)</description>
+	<cloneof>terracre</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thetogyu" index="" image="">
+	<description>The Togyu (315-5065, Japan)</description>
+	<cloneof>bullfgt</cloneof>
+	<crc/>
+	<manufacturer>Coreland / Sega</manufacturer>
+	<year>1984</year>
+	<genre>Sports</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tigerh" index="" image="">
+	<description>Tiger Heli (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Toaplan / Taito America Corp.</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tigerhb2" index="" image="">
+	<description>Tiger Heli (bootleg set 2)</description>
+	<cloneof>tigerh</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tigerhb3" index="" image="">
+	<description>Tiger Heli (bootleg set 3)</description>
+	<cloneof>tigerh</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="timepltc" index="" image="">
+	<description>Time Pilot (Centuri)</description>
+	<cloneof>timeplt</cloneof>
+	<crc/>
+	<manufacturer>Konami (Centuri license)</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="timescan" index="" image="">
+	<description>Time Scanner (set 2, System 16B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Pinball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="timetunl" index="" image="">
+	<description>Time Tunnel</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tinstar" index="" image="">
+	<description>The Tin Star (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tokiob" index="" image="">
+	<description>Tokio / Scramble Formation (bootleg)</description>
+	<cloneof>tokio</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tokiou" index="" image="">
+	<description>Tokio / Scramble Formation (US)</description>
+	<cloneof>tokio</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation (Romstar license)</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tokisens" index="" image="">
+	<description>Toki no Senshi - Chrono Soldier</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tomahawk" index="" image="">
+	<description>Tomahawk 777 (rev 5)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tomahawk1" index="" image="">
+	<description>Tomahawk 777 (rev 1)</description>
+	<cloneof>tomahawk</cloneof>
+	<crc/>
+	<manufacturer>Data East</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tp84a" index="" image="">
+	<description>Time Pilot &apos;84 (set 2)</description>
+	<cloneof>tp84</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tpgolf" index="" image="">
+	<description>Top Player&apos;s Golf (NGM-003)(NGH-003)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1990</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="treahunt" index="" image="">
+	<description>Treasure Hunt</description>
+	<cloneof>jack</cloneof>
+	<crc/>
+	<manufacturer>Hara Industries</manufacturer>
+	<year>1982</year>
+	<genre>Climbing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tron" index="" image="">
+	<description>Tron (8/9)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1982</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="turfmast" index="" image="">
+	<description>Neo Turf Masters / Big Tournament Golf</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nazca</manufacturer>
+	<year>1996</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vanguardc" index="" image="">
+	<description>Vanguard (Centuri)</description>
+	<cloneof>vanguard</cloneof>
+	<crc/>
+	<manufacturer>SNK (Centuri license)</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vastar2" index="" image="">
+	<description>Vastar (set 2)</description>
+	<cloneof>vastar</cloneof>
+	<crc/>
+	<manufacturer>Orca (Sesame Japan license)</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="venture4" index="" image="">
+	<description>Venture (version 4)</description>
+	<cloneof>venture</cloneof>
+	<crc/>
+	<manufacturer>Exidy</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="venus" index="" image="">
+	<description>Venus (bootleg of Gyruss)</description>
+	<cloneof>gyruss</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vigilantd" index="" image="">
+	<description>Vigilante (Japan, Rev D)</description>
+	<cloneof>vigilant</cloneof>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vulgusa" index="" image="">
+	<description>Vulgus (set 2)</description>
+	<cloneof>vulgus</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="warpwarpr2" index="" image="">
+	<description>Warp Warp (Rock-Ola set 2)</description>
+	<cloneof>warpwarp</cloneof>
+	<crc/>
+	<manufacturer>Namco (Rock-Ola license)</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="waterski" index="" image="">
+	<description>Water Ski</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Skiing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wboy" index="" image="">
+	<description>Wonder Boy (set 1, 315-5177)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Escape (Sega license)</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wboy2" index="" image="">
+	<description>Wonder Boy (set 2, 315-5178)</description>
+	<cloneof>wboy</cloneof>
+	<crc/>
+	<manufacturer>Escape (Sega license)</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wboy2u" index="" image="">
+	<description>Wonder Boy (set 2, not encrypted)</description>
+	<cloneof>wboy</cloneof>
+	<crc/>
+	<manufacturer>Escape (Sega license)</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wboy3" index="" image="">
+	<description>Wonder Boy (set 3, 315-5135)</description>
+	<cloneof>wboy</cloneof>
+	<crc/>
+	<manufacturer>Escape (Sega license)</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wboyo" index="" image="">
+	<description>Wonder Boy (set 1, 315-5135)</description>
+	<cloneof>wboy</cloneof>
+	<crc/>
+	<manufacturer>Escape (Sega license)</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wboyu" index="" image="">
+	<description>Wonder Boy (prototype?)</description>
+	<cloneof>wboy</cloneof>
+	<crc/>
+	<manufacturer>Escape (Sega license)</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wexpressb1" index="" image="">
+	<description>Western Express (bootleg set 1)</description>
+	<cloneof>exprraid</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wexpressb2" index="" image="">
+	<description>Western Express (bootleg set 2)</description>
+	<cloneof>exprraid</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xevios" index="" image="">
+	<description>Xevios</description>
+	<cloneof>xevious</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="yankeedo" index="" image="">
+	<description>Yankee DO!</description>
+	<cloneof>mrdo</cloneof>
+	<crc/>
+	<manufacturer>hack</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zigzagb" index="" image="">
+	<description>Zig Zag (Dig Dug conversion on Galaxian hardware, bootleg set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>bootleg (LAX)</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zigzagb2" index="" image="">
+	<description>Zig Zag (Dig Dug conversion on Galaxian hardware, bootleg set 2)</description>
+	<cloneof>zigzagb</cloneof>
+	<crc/>
+	<manufacturer>bootleg (LAX)</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

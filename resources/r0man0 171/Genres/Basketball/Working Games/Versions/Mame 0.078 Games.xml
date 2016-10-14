@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Basketball / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="nbajamex" index="" image="">
+	<description>NBA Jam Extreme</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Acclaim</manufacturer>
+	<year>1996</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="runguna" index="" image="">
+	<description>Run and Gun (ver EAA 1993 10.4)</description>
+	<cloneof>rungun</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1993</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rungunua" index="" image="">
+	<description>Run and Gun (ver UBA 1993 10.8)</description>
+	<cloneof>rungun</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1993</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

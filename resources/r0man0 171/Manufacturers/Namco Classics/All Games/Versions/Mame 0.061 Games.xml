@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Namco / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="airbustr" index="" image="">
+	<description>Air Buster: Trouble Specialty Raid Unit (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko (Namco license)</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bakutotu" index="" image="">
+	<description>Bakutotsu Kijuutei</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="metrocrsa" index="" image="">
+	<description>Metro-Cross (set 2)</description>
+	<cloneof>metrocrs</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="outfxiesj" index="" image="">
+	<description>The Outfoxies (Japan, OU1)</description>
+	<cloneof>outfxies</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

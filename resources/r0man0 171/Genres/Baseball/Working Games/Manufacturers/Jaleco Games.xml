@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Baseball / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="homerun" index="" image="">
+	<description>Moero!! Pro Yakyuu Homerun Kyousou</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1988</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jitsupro" index="" image="">
+	<description>Jitsuryoku!! Pro Yakyuu (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1989</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_bload" index="" image="">
+	<description>Bases Loaded (Prototype, PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco (Nintendo of America license)</manufacturer>
+	<year>1990</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

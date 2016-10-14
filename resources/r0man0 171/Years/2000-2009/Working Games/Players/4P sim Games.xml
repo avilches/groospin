@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2000-2009 / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="hotdebut" index="" image="">
+	<description>Quiz de Idol! Hot Debut (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>MOSS / Psikyo</manufacturer>
+	<year>2000</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov2" index="" image="">
+	<description>Knights of Valour 2 / Sangoku Senki 2 (ver. 107, 102, 100HK)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov2100" index="" image="">
+	<description>Knights of Valour 2 / Sangoku Senki 2 (ver. 100, 100, 100HK)</description>
+	<cloneof>kov2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov2101" index="" image="">
+	<description>Knights of Valour 2 / Sangoku Senki 2 (ver. 101, 101, 100HK)</description>
+	<cloneof>kov2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov2102" index="" image="">
+	<description>Knights of Valour 2 / Sangoku Senki 2 (ver. 102, 101, 100HK)</description>
+	<cloneof>kov2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov2103" index="" image="">
+	<description>Knights of Valour 2 / Sangoku Senki 2 (ver. 103, 101, 100HK)</description>
+	<cloneof>kov2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov2106" index="" image="">
+	<description>Knights of Valour 2 / Sangoku Senki 2 (ver. 106, 102, 100HK)</description>
+	<cloneof>kov2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov2p" index="" image="">
+	<description>Knights of Valour 2 Plus - Nine Dragons / Sangoku Senki 2 Plus - Nine Dragons (ver. M205XX, 200, 100CN)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov2p202" index="" image="">
+	<description>Knights of Valour 2 Plus - Nine Dragons / Sangoku Senki 2 Plus - Nine Dragons (ver. M202XX, 200, 100CN)</description>
+	<cloneof>kov2p</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov2p204" index="" image="">
+	<description>Knights of Valour 2 Plus - Nine Dragons / Sangoku Senki 2 Plus - Nine Dragons (ver. M204XX, 200, 100CN)</description>
+	<cloneof>kov2p</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="legendoh" index="" image="">
+	<description>Legend of Heroes</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Limenko</manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="theglad" index="" image="">
+	<description>The Gladiator / Road of the Sword / Shen Jian (M68k label V101) (ARM label V107, ROM 06/06/03 SHEN JIAN V107)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2003</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="theglad100" index="" image="">
+	<description>The Gladiator / Road of the Sword / Shen Jian (M68k label V100) (ARM label V100, ROM 01/16/03 SHEN JIAN)</description>
+	<cloneof>theglad</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2003</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="theglad101" index="" image="">
+	<description>The Gladiator / Road of the Sword / Shen Jian (M68k label V100) (ARM label V101, ROM 03/13/03 SHEN JIAN)</description>
+	<cloneof>theglad</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2003</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thegladpcb" index="" image="">
+	<description>The Gladiator / Road of the Sword / Shen Jian (M68k label V100) (ARM label V100, ROM 02/25/03 SHEN JIAN) (Japan, JAMMA PCB)</description>
+	<cloneof>theglad</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2003</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zerotm2k" index="" image="">
+	<description>Zero Team 2000</description>
+	<cloneof>zeroteam</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

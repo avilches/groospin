@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Gun / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="alien3" index="" image="">
+	<description>Alien3: The Gun (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bang" index="" image="">
+	<description>Bang!</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1998</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gollygho" index="" image="">
+	<description>Golly! Ghost!</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1990</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="policetr11" index="" image="">
+	<description>Police Trainer (Rev 1.1)</description>
+	<cloneof>policetr</cloneof>
+	<crc/>
+	<manufacturer>P&amp;P Marketing</manufacturer>
+	<year>1996</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sshooter17" index="" image="">
+	<description>Sharpshooter (Rev 1.7)</description>
+	<cloneof>sshooter</cloneof>
+	<crc/>
+	<manufacturer>P&amp;P Marketing</manufacturer>
+	<year>1998</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="targeth" index="" image="">
+	<description>Target Hits (ver 1.1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1994</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="term2la2" index="" image="">
+	<description>Terminator 2 - Judgment Day (rev LA2 12/09/91)</description>
+	<cloneof>term2</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1991</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

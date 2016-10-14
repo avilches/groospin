@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Platform / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="akumajoun" index="" image="">
+	<description>Akuma-Jou Dracula (Japan version N)</description>
+	<cloneof>hcastle</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="berabohm" index="" image="">
+	<description>Beraboh Man (Japan, Rev C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="moomesauab" index="" image="">
+	<description>Wild West C.O.W.-Boys of Moo Mesa (ver UAB)</description>
+	<cloneof>moomesa</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

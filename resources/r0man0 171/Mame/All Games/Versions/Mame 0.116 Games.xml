@@ -1,0 +1,259 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Mame / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="aladmdb" index="" image="">
+	<description>Aladdin (bootleg of Japanese Megadrive version)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>bootleg / Sega</manufacturer>
+	<year>1993</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="brapboys" index="" image="">
+	<description>B.Rap Boys (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="buzzard" index="" image="">
+	<description>Buzzard</description>
+	<cloneof>gyrodine</cloneof>
+	<crc/>
+	<manufacturer>Crux</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="car2" index="" image="">
+	<description>Car 2 (bootleg of Head On 2)</description>
+	<cloneof>headon2</cloneof>
+	<crc/>
+	<manufacturer>bootleg (RZ Bologna)</manufacturer>
+	<year>1979</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ct2k3sa" index="" image="">
+	<description>Crouching Tiger Hidden Dragon 2003 Super Plus alternate (The King of Fighters 2001 bootleg)</description>
+	<cloneof>kof2001</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dai2kaku" index="" image="">
+	<description>Dai-Dai-Kakumei (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SystemBit</manufacturer>
+	<year>2004</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="finalgdr" index="" image="">
+	<description>Final Godori (Korea, version 2.20.5915)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SemiCom</manufacturer>
+	<year>2001</year>
+	<genre>Board Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jojobaner1" index="" image="">
+	<description>JoJo&apos;s Bizarre Adventure (Euro 990913, NO CD)</description>
+	<cloneof>jojoba</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jojojr2" index="" image="">
+	<description>JoJo no Kimyou na Bouken (Japan 981202)</description>
+	<cloneof>jojo</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jojonr1" index="" image="">
+	<description>JoJo&apos;s Venture (Asia 990108, NO CD)</description>
+	<cloneof>jojo</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jojonr2" index="" image="">
+	<description>JoJo&apos;s Venture (Asia 981202, NO CD)</description>
+	<cloneof>jojo</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mcombat" index="" image="">
+	<description>Missile Combat (Videotron bootleg, set 1)</description>
+	<cloneof>missile</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Videotron)</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mcombata" index="" image="">
+	<description>Missile Combat (Videotron bootleg, set 2)</description>
+	<cloneof>missile</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Videotron)</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="popflamen" index="" image="">
+	<description>Pop Flamer (bootleg on Naughty Boy PCB)</description>
+	<cloneof>popflame</cloneof>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="punchita" index="" image="">
+	<description>Punch-Out!! (Italian bootleg)</description>
+	<cloneof>punchout</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1984</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="radarscp1" index="" image="">
+	<description>Radar Scope (TRS01)</description>
+	<cloneof>radarscp</cloneof>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="redearth" index="" image="">
+	<description>Red Earth (Euro 961121)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfiii2" index="" image="">
+	<description>Street Fighter III 2nd Impact: Giant Attack (USA 970930)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfiii2n" index="" image="">
+	<description>Street Fighter III 2nd Impact: Giant Attack (Asia 970930, NO CD)</description>
+	<cloneof>sfiii2</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfiii3n" index="" image="">
+	<description>Street Fighter III 3rd Strike: Fight for the Future (Japan 990608, NO CD)</description>
+	<cloneof>sfiii3</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfiii3nr1" index="" image="">
+	<description>Street Fighter III 3rd Strike: Fight for the Future (Japan 990512, NO CD)</description>
+	<cloneof>sfiii3</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfiii3ur1" index="" image="">
+	<description>Street Fighter III 3rd Strike: Fight for the Future (USA 990512)</description>
+	<cloneof>sfiii3</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfiiina" index="" image="">
+	<description>Street Fighter III: New Generation (Asia 970204, NO CD, bios set 2)</description>
+	<cloneof>sfiii</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfiiiu" index="" image="">
+	<description>Street Fighter III: New Generation (USA 970204)</description>
+	<cloneof>sfiii</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tinstar2" index="" image="">
+	<description>The Tin Star (set 2)</description>
+	<cloneof>tinstar</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

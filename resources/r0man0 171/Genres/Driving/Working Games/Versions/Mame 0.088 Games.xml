@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Driving / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="gpriders" index="" image="">
+	<description>GP Rider (World, FD1094 317-0163)</description>
+	<cloneof>gprider</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gpriderus" index="" image="">
+	<description>GP Rider (US, FD1094 317-0162)</description>
+	<cloneof>gprider</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hotrod" index="" image="">
+	<description>Hot Rod (World, 3 Players, Turbo set 1, Floppy Based)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hotrodja" index="" image="">
+	<description>Hot Rod (Japan, 4 Players, Floppy Based, Rev B)</description>
+	<cloneof>hotrod</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pdrift" index="" image="">
+	<description>Power Drift (World, Rev A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pdriftj" index="" image="">
+	<description>Power Drift (Japan)</description>
+	<cloneof>pdrift</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smgp6" index="" image="">
+	<description>Super Monaco GP (World, Rev A) (FD1094 317-0126a)</description>
+	<cloneof>smgp</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smgpj" index="" image="">
+	<description>Super Monaco GP (Japan, Rev B) (FD1094 317-0124a)</description>
+	<cloneof>smgp</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smgpu2" index="" image="">
+	<description>Super Monaco GP (US, Rev A) (FD1094 317-0125a)</description>
+	<cloneof>smgp</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="toutrun" index="" image="">
+	<description>Turbo Out Run (Out Run upgrade) (FD1094 317-0118)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vformula" index="" image="">
+	<description>Virtua Formula</description>
+	<cloneof>vr</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

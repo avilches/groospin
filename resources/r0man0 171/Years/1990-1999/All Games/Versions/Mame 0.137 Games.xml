@@ -1,0 +1,779 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1990-1999 / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="5clown" index="" image="">
+	<description>Five Clown (English, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1993</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="5clowna" index="" image="">
+	<description>Five Clown (English, set 2)</description>
+	<cloneof>5clown</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1993</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="5clownsp" index="" image="">
+	<description>Five Clown (Spanish hack)</description>
+	<cloneof>5clown</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1993</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="agalleth" index="" image="">
+	<description>Air Gallet (Hong Kong)</description>
+	<cloneof>agallet</cloneof>
+	<crc/>
+	<manufacturer>Gazelle (Banpresto license)</manufacturer>
+	<year>1996</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="agalletj" index="" image="">
+	<description>Akuu Gallet (Japan)</description>
+	<cloneof>agallet</cloneof>
+	<crc/>
+	<manufacturer>Gazelle (Banpresto license)</manufacturer>
+	<year>1996</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="agalletk" index="" image="">
+	<description>Air Gallet (Korea)</description>
+	<cloneof>agallet</cloneof>
+	<crc/>
+	<manufacturer>Gazelle (Banpresto license)</manufacturer>
+	<year>1996</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="agallett" index="" image="">
+	<description>Air Gallet (Taiwan)</description>
+	<cloneof>agallet</cloneof>
+	<crc/>
+	<manufacturer>Gazelle (Banpresto license)</manufacturer>
+	<year>1996</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="agalletu" index="" image="">
+	<description>Air Gallet (USA)</description>
+	<cloneof>agallet</cloneof>
+	<crc/>
+	<manufacturer>Gazelle (Banpresto license)</manufacturer>
+	<year>1996</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="botss" index="" image="">
+	<description>Battle of the Solar System (rev. 1.1a 7/23/92)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Microprose Games Inc.</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cb3c" index="" image="">
+	<description>Cherry Bonus III (alt, set 2)</description>
+	<cloneof>ncb3</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cmezspin" index="" image="">
+	<description>Cherry Master I (E-Z Spin bootleg / hack)</description>
+	<cloneof>cmaster</cloneof>
+	<crc/>
+	<manufacturer>Dyna</manufacturer>
+	<year>1991</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crusherm" index="" image="">
+	<description>Crusher Makochan (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Takumi</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cupsocsb2" index="" image="">
+	<description>Seibu Cup Soccer :Selection: (bootleg, set 2)</description>
+	<cloneof>cupsoc</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1992</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dinohunt" index="" image="">
+	<description>Dinosaur Hunter (Chinese bootleg of Cadillacs and Dinosaurs)</description>
+	<cloneof>dino</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="downhill" index="" image="">
+	<description>Downhill Bikers (DH3 Ver. A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1997</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drgw3105" index="" image="">
+	<description>Dragon World 3 / Chuugokuryuu 3 Special (ver. 105)</description>
+	<cloneof>drgw3</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1998</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="finalap3a" index="" image="">
+	<description>Final Lap 3 (World, set 2)</description>
+	<cloneof>finalap3</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gunwarsa" index="" image="">
+	<description>Gunmen Wars (GM1 Ver. A)</description>
+	<cloneof>gunwars</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1998</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hiimpact2" index="" image="">
+	<description>High Impact Football (rev LA2 12/26/90)</description>
+	<cloneof>hiimpact</cloneof>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1990</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hotd2o" index="" image="">
+	<description>House of the Dead 2 (original)</description>
+	<cloneof>hotd2</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1998</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ironfortj" index="" image="">
+	<description>Iron Fortress (Japan)</description>
+	<cloneof>ironfort</cloneof>
+	<crc/>
+	<manufacturer>Eolith</manufacturer>
+	<year>1998</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jkrmast" index="" image="">
+	<description>Joker Master</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>199?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jolycmzs" index="" image="">
+	<description>Jolly Card Professional 2.0 (MZS Tech)</description>
+	<cloneof>jollycrd</cloneof>
+	<crc/>
+	<manufacturer>MZS Tech</manufacturer>
+	<year>1993</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kovsh103" index="" image="">
+	<description>Knights of Valour Super Heroes / Sangoku Senki Super Heroes (ver. 103, CN)</description>
+	<cloneof>kovsh</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mazingerj" index="" image="">
+	<description>Mazinger Z (Japan)</description>
+	<cloneof>mazinger</cloneof>
+	<crc/>
+	<manufacturer>Banpresto / Dynamic Pl. Toei Animation</manufacturer>
+	<year>1994</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat4tea" index="" image="">
+	<description>Megatouch IV Tournament Edition (9255-50-01 ROA, Standard version)</description>
+	<cloneof>megat4</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1996</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="msgogo" index="" image="">
+	<description>Mouse Shooter GoGo</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Metro</manufacturer>
+	<year>1995</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mt_spman" index="" image="">
+	<description>Spider-Man vs The Kingpin (Mega-Tech)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / Marvel</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="multiwin" index="" image="">
+	<description>Multi Win (Ver.0167, encrypted)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Fun World</manufacturer>
+	<year>1992</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="orlegendca" index="" image="">
+	<description>Oriental Legend / Xi You Shi E Zhuan (ver. ???, Chinese Board)</description>
+	<cloneof>orlegend</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pkrmast" index="" image="">
+	<description>Poker Master (ED-1993 set 1)</description>
+	<cloneof>jkrmast</cloneof>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>199?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pkrmasta" index="" image="">
+	<description>Poker Master (ED-1993 set 2)</description>
+	<cloneof>jkrmast</cloneof>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1993</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="poker72" index="" image="">
+	<description>Poker Monarch (v2.50)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Extrema Systems International Ltd.</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="punisherbz" index="" image="">
+	<description>Biaofeng Zhanjing (Chinese bootleg of The Punisher)</description>
+	<cloneof>punisher</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="raidendxu" index="" image="">
+	<description>Raiden DX (US)</description>
+	<cloneof>raidendx</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Fabtek license)</manufacturer>
+	<year>1994</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rapidrvrv2c" index="" image="">
+	<description>Rapid River (RD2 Ver. C)</description>
+	<cloneof>rapidrvr</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1997</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rchase" index="" image="">
+	<description>Rail Chase (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ridgeracf" index="" image="">
+	<description>Ridge Racer Full Scale (World)</description>
+	<cloneof>ridgerac</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="royalcrd" index="" image="">
+	<description>Royal Card (Austrian, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>TAB Austria</manufacturer>
+	<year>1991</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="royalcrda" index="" image="">
+	<description>Royal Card (Austrian, set 2)</description>
+	<cloneof>royalcrd</cloneof>
+	<crc/>
+	<manufacturer>TAB Austria</manufacturer>
+	<year>1991</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="royalcrdb" index="" image="">
+	<description>Royal Card (Austrian/Polish, set 3)</description>
+	<cloneof>royalcrd</cloneof>
+	<crc/>
+	<manufacturer>TAB Austria</manufacturer>
+	<year>1991</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="royalcrdc" index="" image="">
+	<description>Royal Card (Austrian, set 4)</description>
+	<cloneof>royalcrd</cloneof>
+	<crc/>
+	<manufacturer>TAB Austria</manufacturer>
+	<year>1991</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sailormnh" index="" image="">
+	<description>Pretty Soldier Sailor Moon (Ver. 95/03/22B, Hong Kong)</description>
+	<cloneof>sailormn</cloneof>
+	<crc/>
+	<manufacturer>Gazelle (Banpresto license)</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sailormnj" index="" image="">
+	<description>Pretty Soldier Sailor Moon (Ver. 95/03/22B, Japan)</description>
+	<cloneof>sailormn</cloneof>
+	<crc/>
+	<manufacturer>Gazelle (Banpresto license)</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sailormnk" index="" image="">
+	<description>Pretty Soldier Sailor Moon (Ver. 95/03/22B, Korea)</description>
+	<cloneof>sailormn</cloneof>
+	<crc/>
+	<manufacturer>Gazelle (Banpresto license)</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sailormnoh" index="" image="">
+	<description>Pretty Soldier Sailor Moon (Ver. 95/03/22, Hong Kong)</description>
+	<cloneof>sailormn</cloneof>
+	<crc/>
+	<manufacturer>Gazelle (Banpresto license)</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sailormnoj" index="" image="">
+	<description>Pretty Soldier Sailor Moon (Ver. 95/03/22, Japan)</description>
+	<cloneof>sailormn</cloneof>
+	<crc/>
+	<manufacturer>Gazelle (Banpresto license)</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sailormnok" index="" image="">
+	<description>Pretty Soldier Sailor Moon (Ver. 95/03/22, Korea)</description>
+	<cloneof>sailormn</cloneof>
+	<crc/>
+	<manufacturer>Gazelle (Banpresto license)</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sailormnot" index="" image="">
+	<description>Pretty Soldier Sailor Moon (Ver. 95/03/22, Taiwan)</description>
+	<cloneof>sailormn</cloneof>
+	<crc/>
+	<manufacturer>Gazelle (Banpresto license)</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sailormnou" index="" image="">
+	<description>Pretty Soldier Sailor Moon (Ver. 95/03/22, USA)</description>
+	<cloneof>sailormn</cloneof>
+	<crc/>
+	<manufacturer>Gazelle (Banpresto license)</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sailormnt" index="" image="">
+	<description>Pretty Soldier Sailor Moon (Ver. 95/03/22B, Taiwan)</description>
+	<cloneof>sailormn</cloneof>
+	<crc/>
+	<manufacturer>Gazelle (Banpresto license)</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sailormnu" index="" image="">
+	<description>Pretty Soldier Sailor Moon (Ver. 95/03/22B, USA)</description>
+	<cloneof>sailormn</cloneof>
+	<crc/>
+	<manufacturer>Gazelle (Banpresto license)</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sf2thndr" index="" image="">
+	<description>Street Fighter II: The World Warrior (Thunder Edition, bootleg)</description>
+	<cloneof>sf2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfchampo" index="" image="">
+	<description>Super Football Champ (Ver 2.4O)</description>
+	<cloneof>sfchamp</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1995</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sharkpye" index="" image="">
+	<description>Shark Party (English, Alpha license)</description>
+	<cloneof>sharkpy</cloneof>
+	<crc/>
+	<manufacturer>American Alpha</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smashtv3" index="" image="">
+	<description>Smash T.V. (rev 3.01)</description>
+	<cloneof>smashtv</cloneof>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stargladj" index="" image="">
+	<description>Star Gladiator Episode I: Final Crusade (Japan 960627)</description>
+	<cloneof>starglad</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stbsub" index="" image="">
+	<description>Treasure Bonus (Subsino, v1.6)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>American Alpha</manufacturer>
+	<year>1995</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thrilldb" index="" image="">
+	<description>Thrill Drive (JAB)</description>
+	<cloneof>thrilld</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tisuba" index="" image="">
+	<description>Treasure Island (Subsino, set 2)</description>
+	<cloneof>tisub</cloneof>
+	<crc/>
+	<manufacturer>Subsino</manufacturer>
+	<year>1992</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tjumpman" index="" image="">
+	<description>Tobikose! Jumpman</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1999</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tm2kb" index="" image="">
+	<description>Touchmaster 2000 (v4.00 Standard)</description>
+	<cloneof>tm2k</cloneof>
+	<crc/>
+	<manufacturer>Midway Games Inc.</manufacturer>
+	<year>1996</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4blox" index="" image="">
+	<description>Blox (v2.0) (MPU4 Video)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BwB</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4bloxd" index="" image="">
+	<description>Blox (v2.0, Datapak) (MPU4 Video)</description>
+	<cloneof>v4blox</cloneof>
+	<crc/>
+	<manufacturer>BwB</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4eyedwn" index="" image="">
+	<description>Eyes Down (v1.3) (MPU4 Video)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Barcrest</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4eyedwnd" index="" image="">
+	<description>Eyes Down (v1.3, Datapak) (MPU4 Video)</description>
+	<cloneof>v4eyedwn</cloneof>
+	<crc/>
+	<manufacturer>Barcrest</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4psi" index="" image="">
+	<description>Prize Space Invaders (v1.1) (MPU4 Video)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BwB</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4quidgr" index="" image="">
+	<description>Ten Quid Grid (v1.2) (MPU4 Video)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Barcrest</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4quidgr2" index="" image="">
+	<description>Ten Quid Grid (v2.4) (MPU4 Video)</description>
+	<cloneof>v4quidgr</cloneof>
+	<crc/>
+	<manufacturer>Barcrest</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4quidgr2d" index="" image="">
+	<description>Ten Quid Grid (v2.4, Datapak) (MPU4 Video)</description>
+	<cloneof>v4quidgr</cloneof>
+	<crc/>
+	<manufacturer>Barcrest</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4quidgrd" index="" image="">
+	<description>Ten Quid Grid (v1.2, Datapak) (MPU4 Video)</description>
+	<cloneof>v4quidgr</cloneof>
+	<crc/>
+	<manufacturer>Barcrest</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4strike" index="" image="">
+	<description>Strike it Lucky (v0.5) (MPU4 Video)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Barcrest</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4strike2" index="" image="">
+	<description>Strike it Lucky (v0.53) (MPU4 Video)</description>
+	<cloneof>v4strike</cloneof>
+	<crc/>
+	<manufacturer>Barcrest</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4strike2d" index="" image="">
+	<description>Strike it Lucky (v0.53, Datapak) (MPU4 Video)</description>
+	<cloneof>v4strike</cloneof>
+	<crc/>
+	<manufacturer>Barcrest</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4striked" index="" image="">
+	<description>Strike it Lucky (v0.5, Datapak) (MPU4 Video)</description>
+	<cloneof>v4strike</cloneof>
+	<crc/>
+	<manufacturer>Barcrest</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vegasmil" index="" image="">
+	<description>Royal Vegas Joker Card (fast deal, Mile)</description>
+	<cloneof>vegasslw</cloneof>
+	<crc/>
+	<manufacturer>Mile</manufacturer>
+	<year>1993</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vs299a" index="" image="">
+	<description>Virtua Striker 2 &apos;99 (Revision A)</description>
+	<cloneof>vs2v991</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1999</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Platform / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="btime3" index="" image="">
+	<description>Burger Time (Data East USA)</description>
+	<cloneof>btime</cloneof>
+	<crc/>
+	<manufacturer>Data East USA Inc.</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="eswatj1" index="" image="">
+	<description>E-Swat - Cyber Police (set 1, Japan) (FD1094 317-0131)</description>
+	<cloneof>eswat</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="franticf" index="" image="">
+	<description>Frantic Fred</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>The Game Room</manufacturer>
+	<year>1996</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

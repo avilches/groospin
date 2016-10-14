@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Maze / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="blueprnt" index="" image="">
+	<description>Blue Print (Midway)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Zilec Electronics / Bally Midway</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cshift" index="" image="">
+	<description>Chicken Shift</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally/Sente</manufacturer>
+	<year>1984</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="journey" index="" image="">
+	<description>Journey</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1983</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jrpacman" index="" image="">
+	<description>Jr. Pac-Man (11/9/83)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1983</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="robby" index="" image="">
+	<description>The Adventures of Robby Roto!</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dave Nutting Associates / Bally Midway</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stompin" index="" image="">
+	<description>Stompin&apos; (4/4/86)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally/Sente</manufacturer>
+	<year>1986</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="superpacm" index="" image="">
+	<description>Super Pac-Man (Midway)</description>
+	<cloneof>superpac</cloneof>
+	<crc/>
+	<manufacturer>Namco (Bally Midway license)</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

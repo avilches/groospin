@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Baseball / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="champbb2" index="" image="">
+	<description>Champion Base Ball Part-2 (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Alpha Denshi Co. (Sega license)</manufacturer>
+	<year>1983</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cltchitr" index="" image="">
+	<description>Clutch Hitter (US) (FD1094 317-0176)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="exctleag" index="" image="">
+	<description>Excite League (FD1094 317-0079)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="homerun" index="" image="">
+	<description>Moero!! Pro Yakyuu Homerun Kyousou</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1988</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mvp" index="" image="">
+	<description>MVP (set 2, US) (FD1094 317-0143)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="suprleag" index="" image="">
+	<description>Super League (FD1094 317-0045)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vsbballj" index="" image="">
+	<description>Vs. BaseBall (Japan, set BA A-3)</description>
+	<cloneof>vsbball</cloneof>
+	<crc/>
+	<manufacturer>Nintendo Co., Ltd.</manufacturer>
+	<year>1984</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

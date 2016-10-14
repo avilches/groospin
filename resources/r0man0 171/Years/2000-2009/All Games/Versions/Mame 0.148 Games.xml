@@ -1,0 +1,539 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2000-2009 / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="ballboy" index="" image="">
+	<description>Ball Boy</description>
+	<cloneof>snowbro3</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="basschalo" index="" image="">
+	<description>Sega Bass Fishing Challenge</description>
+	<cloneof>basschal</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2009</year>
+	<genre>Fishing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bowltry" index="" image="">
+	<description>Bowling Try</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atlus</manufacturer>
+	<year>200?</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="capsnkb" index="" image="">
+	<description>Capcom Vs. SNK Millennium Fight 2000 (JPN, USA, EXP, KOR, AUS)</description>
+	<cloneof>capsnk</cloneof>
+	<crc/>
+	<manufacturer>Capcom / SNK</manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cjddzsp" index="" image="">
+	<description>Super Dou Di Zhu Special (V122CN)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>200?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cjdh2" index="" image="">
+	<description>Chao Ji Da Heng 2 (V311CN)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>200?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cjdh2a" index="" image="">
+	<description>Chao Ji Da Heng 2 (V311CNA)</description>
+	<cloneof>cjdh2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>200?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cjdh2b" index="" image="">
+	<description>Chao Ji Da Heng 2 (V311CNB)</description>
+	<cloneof>cjdh2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>200?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cjdh2c" index="" image="">
+	<description>Chao Ji Da Heng 2 (V215CN)</description>
+	<cloneof>cjdh2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>200?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crakndj2" index="" image="">
+	<description>Crackin&apos; DJ Part 2</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2001</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="czmon_13" index="" image="">
+	<description>Crazy Monkey (100311 World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="czmon_15" index="" image="">
+	<description>Crazy Monkey (100311 Entertainment)</description>
+	<cloneof>czmon_13</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="czmon_16" index="" image="">
+	<description>Crazy Monkey (100312 Russia)</description>
+	<cloneof>czmon_13</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2" index="" image="">
+	<description>DoDonPachi II - Bee Storm (World, ver. 102)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2100" index="" image="">
+	<description>DoDonPachi II - Bee Storm (World, ver. 100)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2100c" index="" image="">
+	<description>DoDonPachi II - Bee Storm (China, ver. 100)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2100hk" index="" image="">
+	<description>DoDonPachi II - Bee Storm (Hong Kong, ver. 100)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2100k" index="" image="">
+	<description>DoDonPachi II - Bee Storm (Korea, ver. 100)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2100t" index="" image="">
+	<description>DoDonPachi II - Bee Storm (Taiwan, ver. 100)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2101" index="" image="">
+	<description>DoDonPachi II - Bee Storm (World, ver. 101)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2101c" index="" image="">
+	<description>DoDonPachi II - Bee Storm (China, ver. 101)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2101hk" index="" image="">
+	<description>DoDonPachi II - Bee Storm (Hong Kong, ver. 101)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2101k" index="" image="">
+	<description>DoDonPachi II - Bee Storm (Korea, ver. 101)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2101t" index="" image="">
+	<description>DoDonPachi II - Bee Storm (Taiwan, ver. 101)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2c" index="" image="">
+	<description>DoDonPachi II - Bee Storm (China, ver. 102)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2hk" index="" image="">
+	<description>DoDonPachi II - Bee Storm (Hong Kong, ver. 102)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2k" index="" image="">
+	<description>DoDonPachi II - Bee Storm (Korea, ver. 102)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2t" index="" image="">
+	<description>DoDonPachi II - Bee Storm (Taiwan, ver. 102)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dmnfrntb" index="" image="">
+	<description>Demon Front (68k label V103, ROM M103XX 07/05/02) (ARM label V103, ROM 07/05/02 S103XX)</description>
+	<cloneof>dmnfrnt</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2002</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb2010" index="" image="">
+	<description>Fruit Bonus 2010</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2009</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fruitpc" index="" image="">
+	<description>Fruit Land</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnome_10" index="" image="">
+	<description>Gnome (100326 Lottery)</description>
+	<cloneof>gnome_9</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnome_11" index="" image="">
+	<description>Gnome (100326 Entertainment)</description>
+	<cloneof>gnome_9</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnome_12" index="" image="">
+	<description>Gnome (100326 Russia)</description>
+	<cloneof>gnome_9</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnome_9" index="" image="">
+	<description>Gnome (100326 World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtfore04" index="" image="">
+	<description>Golden Tee Fore! 2004 Extra (v4.00.08)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>2003</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtfore05b" index="" image="">
+	<description>Golden Tee Fore! 2005 Extra (v5.01.00)</description>
+	<cloneof>gtfore05</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>2004</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hotslots" index="" image="">
+	<description>Hot Slots (6.00)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Impera</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="igsm312" index="" image="">
+	<description>unknown &apos;IGS 6POKER2&apos; game (V312CN)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>200?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="konotako" index="" image="">
+	<description>Kono Tako (10021 Ver.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Mitchell</manufacturer>
+	<year>2003</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lhaunt_11" index="" image="">
+	<description>Lucky Haunter (100331 Entertainment)</description>
+	<cloneof>lhaunt_6</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nyjoker" index="" image="">
+	<description>New York Joker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>High Video</manufacturer>
+	<year>2000</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pgm3in1" index="" image="">
+	<description>Photo Y2K 2 (Flash 3-in-1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2004</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="resdnt_6" index="" image="">
+	<description>Resident (100311 World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="resdnt_8" index="" image="">
+	<description>Resident (100311 Entertainment)</description>
+	<cloneof>resdnt_6</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="resdnt_9" index="" image="">
+	<description>Resident (100316 Russia)</description>
+	<cloneof>resdnt_6</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shaktmsp" index="" image="">
+	<description>Shakatto Tambourine Motto Norinori Shinkyoku Tsuika (2K1 SPR) (GDS-0013)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2001</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spookyo" index="" image="">
+	<description>Spooky Night (Version 1.0.1)</description>
+	<cloneof>spooky</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thedrink" index="" image="">
+	<description>The Drink</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="unkh8gam" index="" image="">
+	<description>unknown H8 Italian Gambling game</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wbmlvc" index="" image="">
+	<description>Wonder Boy in Monster Land (English, Virtual Console)</description>
+	<cloneof>wbml</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2009</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wmg" index="" image="">
+	<description>Williams Multigame</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>hack (Clay Cowgill)</manufacturer>
+	<year>2001</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wschampb" index="" image="">
+	<description>Wing Shooting Championship V1.00</description>
+	<cloneof>wschamp</cloneof>
+	<crc/>
+	<manufacturer>Sammy USA Corporation</manufacturer>
+	<year>2001</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

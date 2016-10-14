@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Platform / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="rmpgwt" index="" image="">
+	<description>Rampage: World Tour (rev 1.3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1997</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rmpgwt11" index="" image="">
+	<description>Rampage: World Tour (rev 1.1)</description>
+	<cloneof>rmpgwt</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1997</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

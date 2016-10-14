@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Baseball / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="champbas" index="" image="">
+	<description>Champion Base Ball</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Alpha Denshi Co. (Sega license)</manufacturer>
+	<year>1983</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="champbasj" index="" image="">
+	<description>Champion Base Ball (Japan set 1)</description>
+	<cloneof>champbas</cloneof>
+	<crc/>
+	<manufacturer>Alpha Denshi Co.</manufacturer>
+	<year>1983</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="champbasja" index="" image="">
+	<description>Champion Base Ball (Japan set 2)</description>
+	<cloneof>champbas</cloneof>
+	<crc/>
+	<manufacturer>Alpha Denshi Co.</manufacturer>
+	<year>1983</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dplay" index="" image="">
+	<description>Double Play</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1977</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="einning" index="" image="">
+	<description>Extra Inning / Ball Park II</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway / Taito</manufacturer>
+	<year>1978</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ksayakyu" index="" image="">
+	<description>Kusayakyuu</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1985</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="strkzone" index="" image="">
+	<description>Strike Zone Baseball</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Leland Corp.</manufacturer>
+	<year>1988</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tryout" index="" image="">
+	<description>Pro Baseball Skill Tryout (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1985</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

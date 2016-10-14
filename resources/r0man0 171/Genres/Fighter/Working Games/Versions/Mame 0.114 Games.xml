@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Fighter / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="nwarr" index="" image="">
+	<description>Night Warriors: Darkstalkers&apos; Revenge (Euro 950316)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfex" index="" image="">
+	<description>Street Fighter EX (Euro 961219)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom / Arika</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="soulclbrub" index="" image="">
+	<description>Soul Calibur (US, SOC13/VER.B)</description>
+	<cloneof>soulclbr</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tekken3ua" index="" image="">
+	<description>Tekken 3 (US, TET3/VER.A)</description>
+	<cloneof>tekken3</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

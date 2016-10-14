@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Shoot- / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="astrob2a" index="" image="">
+	<description>Astro Blaster (version 2a)</description>
+	<cloneof>astrob</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bullet" index="" image="">
+	<description>Bullet (FD1094 317-0041)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="flowerj" index="" image="">
+	<description>Flower (Japan)</description>
+	<cloneof>flower</cloneof>
+	<crc/>
+	<manufacturer>Clarue (Sega / Alpha Denshi Co. license)</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="forcebrk" index="" image="">
+	<description>Force Break (bootleg)</description>
+	<cloneof>brkthru</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gforce2" index="" image="">
+	<description>Galaxy Force 2</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gforce2j" index="" image="">
+	<description>Galaxy Force 2 (Japan)</description>
+	<cloneof>gforce2</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="glocu" index="" image="">
+	<description>G-LOC Air Battle (US)</description>
+	<cloneof>gloc</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gunball" index="" image="">
+	<description>Gun Ball (Japan)</description>
+	<cloneof>nitrobal</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="meteorts" index="" image="">
+	<description>Meteorites (bootleg of Asteroids)</description>
+	<cloneof>asteroid</cloneof>
+	<crc/>
+	<manufacturer>bootleg (VGG)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mf_achas" index="" image="">
+	<description>Astro Chase (Max-A-Flex)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Exidy / First Star Software</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rdftau" index="" image="">
+	<description>Raiden Fighters (Australia)</description>
+	<cloneof>rdft</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>1996</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rfjet" index="" image="">
+	<description>Raiden Fighters Jet (Germany)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Tuning license)</manufacturer>
+	<year>1998</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rfjeta" index="" image="">
+	<description>Raiden Fighters Jet (Korea)</description>
+	<cloneof>rfjet</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Dream Island license)</manufacturer>
+	<year>1998</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rfjets" index="" image="">
+	<description>Raiden Fighters Jet (US, single board)</description>
+	<cloneof>rfjet</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>1999</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rfjetu" index="" image="">
+	<description>Raiden Fighters Jet (US)</description>
+	<cloneof>rfjet</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Fabtek license)</manufacturer>
+	<year>1998</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sonicbom" index="" image="">
+	<description>Sonic Boom (FD1094 317-0053)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="strkfgtrj" index="" image="">
+	<description>Strike Fighter (Japan)</description>
+	<cloneof>strkfgtr</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tank8" index="" image="">
+	<description>Tank 8 (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari (Kee Games)</manufacturer>
+	<year>1976</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vanguardj" index="" image="">
+	<description>Vanguard (Japan)</description>
+	<cloneof>vanguard</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

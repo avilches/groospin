@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1970-1979 / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="lbeach" index="" image="">
+	<description>Long Beach</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Olympia / Seletron</manufacturer>
+	<year>1979</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sisv2" index="" image="">
+	<description>Space Invaders (SV Version rev 2)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

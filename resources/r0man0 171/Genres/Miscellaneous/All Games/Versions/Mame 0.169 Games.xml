@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Miscellaneous / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="aftrshok" index="" image="">
+	<description>After Shock (Lazer-tron, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Lazer-tron</manufacturer>
+	<year>19??</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aftrshoka" index="" image="">
+	<description>After Shock (Lazer-tron, set 2)</description>
+	<cloneof>aftrshok</cloneof>
+	<crc/>
+	<manufacturer>Lazer-tron</manufacturer>
+	<year>19??</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="age_cand" index="" image="">
+	<description>Candy Crane (AGE)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Advanced Game Engineering</manufacturer>
+	<year>19??</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="awetoss" index="" image="">
+	<description>Awesome Toss&apos;em (Lazer-tron)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Lazer-tron</manufacturer>
+	<year>19??</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="clowndwn" index="" image="">
+	<description>Clown Roll Down (Elwood)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Elwood Electronics</manufacturer>
+	<year>1987</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

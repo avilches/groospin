@@ -1,0 +1,329 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Track &amp; Field / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="88games" index="" image="">
+	<description>&apos;88 Games</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1988</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bootcamp" index="" image="">
+	<description>Boot Camp (set 1)</description>
+	<cloneof>combatsc</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1987</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bootcampa" index="" image="">
+	<description>Boot Camp (set 2)</description>
+	<cloneof>combatsc</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1987</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="combatsc" index="" image="">
+	<description>Combat School (joystick)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1988</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="combatscb" index="" image="">
+	<description>Combat School (bootleg)</description>
+	<cloneof>combatsc</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1988</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="combatscj" index="" image="">
+	<description>Combat School (Japan trackball)</description>
+	<cloneof>combatsc</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1987</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="combatsct" index="" image="">
+	<description>Combat School (trackball)</description>
+	<cloneof>combatsc</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1987</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fieldday" index="" image="">
+	<description>Field Day</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gogold" index="" image="">
+	<description>Go For The Gold (Japan)</description>
+	<cloneof>recordbr</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="goldmedl" index="" image="">
+	<description>Gold Medalist (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1988</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="goldmedla" index="" image="">
+	<description>Gold Medalist (set 2)</description>
+	<cloneof>goldmedl</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1988</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="goldmedlb" index="" image="">
+	<description>Gold Medalist (bootleg)</description>
+	<cloneof>goldmedl</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1988</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="herbiedk" index="" image="">
+	<description>Herbie at the Olympics (DK conversion)</description>
+	<cloneof>huncholy</cloneof>
+	<crc/>
+	<manufacturer>Century Electronics / Seatongrove Ltd</manufacturer>
+	<year>1984</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hncholms" index="" image="">
+	<description>Hunchback Olympic (Scramble hardware)</description>
+	<cloneof>huncholy</cloneof>
+	<crc/>
+	<manufacturer>Century Electronics / Seatongrove Ltd</manufacturer>
+	<year>1984</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hpolym84" index="" image="">
+	<description>Hyper Olympic &apos;84</description>
+	<cloneof>hyperspt</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1984</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="huncholy" index="" image="">
+	<description>Hunchback Olympic</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Century Electronics / Seatongrove Ltd</manufacturer>
+	<year>1984</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hyperspt" index="" image="">
+	<description>Hyper Sports</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami (Centuri license)</manufacturer>
+	<year>1984</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hypersptb" index="" image="">
+	<description>Hyper Sports (bootleg)</description>
+	<cloneof>hyperspt</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1984</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hyprolym" index="" image="">
+	<description>Hyper Olympic</description>
+	<cloneof>trackfld</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1983</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hyprolymb" index="" image="">
+	<description>Hyper Olympic (bootleg, set 1)</description>
+	<cloneof>trackfld</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1983</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hyprolymba" index="" image="">
+	<description>Hyper Olympic (bootleg, set 2)</description>
+	<cloneof>trackfld</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1983</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hypsptsp" index="" image="">
+	<description>Hyper Sports Special (Japan)</description>
+	<cloneof>88games</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1988</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="konami88" index="" image="">
+	<description>Konami &apos;88</description>
+	<cloneof>88games</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1988</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mysticm" index="" image="">
+	<description>Mystic Marathon</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1983</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mysticmp" index="" image="">
+	<description>Mystic Marathon (prototype)</description>
+	<cloneof>mysticm</cloneof>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1983</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_tkfld" index="" image="">
+	<description>Track &amp; Field (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami (Nintendo of America license)</manufacturer>
+	<year>1987</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="recordbr" index="" image="">
+	<description>Recordbreaker (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1988</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trackfld" index="" image="">
+	<description>Track &amp; Field</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1983</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trackfldc" index="" image="">
+	<description>Track &amp; Field (Centuri)</description>
+	<cloneof>trackfld</cloneof>
+	<crc/>
+	<manufacturer>Konami (Centuri license)</manufacturer>
+	<year>1983</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trackfldnz" index="" image="">
+	<description>Track &amp; Field (NZ bootleg?)</description>
+	<cloneof>trackfld</cloneof>
+	<crc/>
+	<manufacturer>bootleg? (Goldberg Enterprizes Inc.)</manufacturer>
+	<year>1982</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="undoukai" index="" image="">
+	<description>The Undoukai (Japan)</description>
+	<cloneof>fieldday</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wmatch" index="" image="">
+	<description>Water Match (315-5064)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1984</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

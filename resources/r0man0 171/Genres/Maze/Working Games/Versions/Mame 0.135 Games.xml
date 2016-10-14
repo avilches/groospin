@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Maze / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="fitterbl" index="" image="">
+	<description>Fitter (bootleg of Round-Up)</description>
+	<cloneof>roundup</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lightbr" index="" image="">
+	<description>Light Bringer (Ver 2.2O 1994/04/08)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1993</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="popeyeman" index="" image="">
+	<description>Popeye-Man</description>
+	<cloneof>puckman</cloneof>
+	<crc/>
+	<manufacturer>hack</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="todruagas" index="" image="">
+	<description>The Tower of Druaga (Sidam)</description>
+	<cloneof>todruaga</cloneof>
+	<crc/>
+	<manufacturer>bootleg? (Sidam)</manufacturer>
+	<year>1984</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="toucheme" index="" image="">
+	<description>Touche Me (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>19??</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

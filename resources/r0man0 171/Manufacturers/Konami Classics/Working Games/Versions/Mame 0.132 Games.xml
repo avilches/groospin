@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Konami / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="bassang2" index="" image="">
+	<description>Bass Angler 2 (GE865 VER. JAA)</description>
+	<cloneof>fbait2bc</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Fishing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hypbbc2p" index="" image="">
+	<description>Hyper Bishi Bashi Champ - 2 Player (GX908 1999/08/24 VER. JAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hypbbc2pk" index="" image="">
+	<description>Hyper Bishi Bashi Champ - 2 Player (GX908 1999/08/24 VER. KAA)</description>
+	<cloneof>hypbbc2p</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbasketh" index="" image="">
+	<description>Super Basketball (version H, unprotected)</description>
+	<cloneof>sbasketb</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1984</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="srmdb" index="" image="">
+	<description>Sunset Riders (bootleg of Megadrive version)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>bootleg / Konami</manufacturer>
+	<year>1993</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

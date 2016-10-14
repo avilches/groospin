@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Fighter / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="acheart" index="" image="">
+	<description>Arcana Heart</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Examu</manufacturer>
+	<year>2005</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="acheartf" index="" image="">
+	<description>Arcana Heart Full</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Examu</manufacturer>
+	<year>2006</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="brapboysu" index="" image="">
+	<description>B.Rap Boys Special (US)</description>
+	<cloneof>brapboys</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov2nl" index="" image="">
+	<description>Knights of Valour 2 New Legend (V302, China)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2008</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov2nlo" index="" image="">
+	<description>Knights of Valour 2 New Legend (V301, China)</description>
+	<cloneof>kov2nl</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2008</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kovlsqh" index="" image="">
+	<description>Knights of Valour: Luan Shi Quan Huang / Sangoku Senki: Luan Shi Quan Huang (ver. 200CN)</description>
+	<cloneof>kovshp</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2004</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kovsgqyz" index="" image="">
+	<description>Knights of Valour: SanGuo QunYingZhuan / Sangoku Senki: SanGuo QunYingZhuan (bootleg, set 1)</description>
+	<cloneof>kovplus</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kovsgqyza" index="" image="">
+	<description>Knights of Valour: SanGuo QunYingZhuan / Sangoku Senki: SanGuo QunYingZhuan (bootleg, set 2)</description>
+	<cloneof>kovplus</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kovsgqyzb" index="" image="">
+	<description>Knights of Valour: SanGuo QunYingZhuan / Sangoku Senki: SanGuo QunYingZhuan (bootleg, set 3)</description>
+	<cloneof>kovplus</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mbaao" index="" image="">
+	<description>Melty Blood Actress Again</description>
+	<cloneof>mbaa</cloneof>
+	<crc/>
+	<manufacturer>Type-Moon/Ecole</manufacturer>
+	<year>2008</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mtkob2" index="" image="">
+	<description>Mushiking The King Of Beetle 2K3 2nd</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2003</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ninjawu" index="" image="">
+	<description>The Ninja Warriors (US)</description>
+	<cloneof>ninjaw</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation America (licensed to Romstar)</manufacturer>
+	<year>1987</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="orleg2o" index="" image="">
+	<description>Oriental Legend 2 (V103, China)</description>
+	<cloneof>orleg2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2007</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rvschool" index="" image="">
+	<description>Rival Schools: United By Fate (Euro 971117)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfiii3" index="" image="">
+	<description>Street Fighter III 3rd Strike: Fight for the Future (Euro 990608)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfiii3r1" index="" image="">
+	<description>Street Fighter III 3rd Strike: Fight for the Future (Euro 990512)</description>
+	<cloneof>sfiii3</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ts2" index="" image="">
+	<description>Battle Arena Toshinden 2 (USA 951124)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom / Takara</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wof" index="" image="">
+	<description>Warriors of Fate (World 921031)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zeroteamd" index="" image="">
+	<description>Zero Team (Korea)</description>
+	<cloneof>zeroteam</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Dream Soft license)</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

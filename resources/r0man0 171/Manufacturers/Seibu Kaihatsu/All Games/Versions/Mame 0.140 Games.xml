@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Seibu Kaihatsu / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="raiden2eu" index="" image="">
+	<description>Raiden II (easy version, US set 2)</description>
+	<cloneof>raiden2</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Fabtek license)</manufacturer>
+	<year>1993</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

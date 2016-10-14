@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Shoot- / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="genix" index="" image="">
+	<description>Genix Family</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>NIX</manufacturer>
+	<year>1994</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="magspot" index="" image="">
+	<description>Magical Spot</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Universal</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mt_astro" index="" image="">
+	<description>Astro Warrior (Mega-Tech, SMS based)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mt_fshrk" index="" image="">
+	<description>Fire Shark (Mega-Tech)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Toaplan / Sega</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sengekis" index="" image="">
+	<description>Sengeki Striker (Asia)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko / Warashi</manufacturer>
+	<year>1997</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sinvasn" index="" image="">
+	<description>Space Invasion (Europe)</description>
+	<cloneof>commando</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

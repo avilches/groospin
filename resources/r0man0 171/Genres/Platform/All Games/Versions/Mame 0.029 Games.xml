@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Platform / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="blktiger" index="" image="">
+	<description>Black Tiger</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dkongjnrj" index="" image="">
+	<description>Donkey Kong Junior (Japan?)</description>
+	<cloneof>dkongjr</cloneof>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dkongjre" index="" image="">
+	<description>Donkey Kong Junior (E kit)</description>
+	<cloneof>dkongjr</cloneof>
+	<crc/>
+	<manufacturer>Nintendo of America</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mappyj" index="" image="">
+	<description>Mappy (Japan)</description>
+	<cloneof>mappy</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rastana" index="" image="">
+	<description>Rastan (World)</description>
+	<cloneof>rastan</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rastsagaa" index="" image="">
+	<description>Rastan Saga (Japan)</description>
+	<cloneof>rastan</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sboblboblb" index="" image="">
+	<description>Super Bobble Bobble (bootleg, set 3)</description>
+	<cloneof>bublbobl</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zookeep" index="" image="">
+	<description>Zoo Keeper (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Atari / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="atarifb" index="" image="">
+	<description>Atari Football (revision 2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1978</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="atarifb1" index="" image="">
+	<description>Atari Football (revision 1)</description>
+	<cloneof>atarifb</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1978</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="atarifb2" index="" image="">
+	<description>Atari Football II</description>
+	<cloneof>atarifb</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1978</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="atarifb4" index="" image="">
+	<description>Atari Football (4 players)</description>
+	<cloneof>atarifb</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1979</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cyberbal" index="" image="">
+	<description>Cyberball (rev 4)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1988</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cyberbal2" index="" image="">
+	<description>Cyberball (rev 2)</description>
+	<cloneof>cyberbal</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1988</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cyberbal2p" index="" image="">
+	<description>Cyberball 2072 (2 player, rev 4)</description>
+	<cloneof>cyberbal</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1989</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cyberbal2p1" index="" image="">
+	<description>Cyberball 2072 (2 player, rev 1)</description>
+	<cloneof>cyberbal</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1989</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cyberbal2p2" index="" image="">
+	<description>Cyberball 2072 (2 player, rev 2)</description>
+	<cloneof>cyberbal</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1989</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cyberbal2p3" index="" image="">
+	<description>Cyberball 2072 (2 player, rev 3)</description>
+	<cloneof>cyberbal</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1989</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cyberbalp" index="" image="">
+	<description>Cyberball (prototype)</description>
+	<cloneof>cyberbal</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1988</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cyberbalt" index="" image="">
+	<description>Tournament Cyberball 2072 (rev 2)</description>
+	<cloneof>cyberbal</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1989</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cyberbalt1" index="" image="">
+	<description>Tournament Cyberball 2072 (rev 1)</description>
+	<cloneof>cyberbal</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1989</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

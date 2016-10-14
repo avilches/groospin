@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Card Battle / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="parrot3" index="" image="">
+	<description>Parrot Poker III (Version 2.6E Dual)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="parrot3b1" index="" image="">
+	<description>Parrot Poker III (Version 2.6R, set 1)</description>
+	<cloneof>parrot3</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="parrot3d1" index="" image="">
+	<description>Parrot Poker III (Version 2.6R, set 2)</description>
+	<cloneof>parrot3</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="parrot3o" index="" image="">
+	<description>Parrot Poker III (Version 2.4)</description>
+	<cloneof>parrot3</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="parrot3v1" index="" image="">
+	<description>Parrot Poker III (Version 2.6R Dual)</description>
+	<cloneof>parrot3</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pirpok2" index="" image="">
+	<description>Pirate Poker II (Version 2.4E Dual)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pirpok2b1" index="" image="">
+	<description>Pirate Poker II (Version 2.2R, set 1)</description>
+	<cloneof>pirpok2</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pirpok2d1" index="" image="">
+	<description>Pirate Poker II (Version 2.2R, set 2)</description>
+	<cloneof>pirpok2</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pirpok2o" index="" image="">
+	<description>Pirate Poker II (Version 2.0)</description>
+	<cloneof>pirpok2</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pirpok2v1" index="" image="">
+	<description>Pirate Poker II (Version 2.2R Dual)</description>
+	<cloneof>pirpok2</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pokonl97" index="" image="">
+	<description>Poker Only &apos;97 (Talking ver. 3.3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1997</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

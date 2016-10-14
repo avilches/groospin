@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Casino / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="dvislando" index="" image="">
+	<description>Devil Island (Version 1.0R CGA)</description>
+	<cloneof>dvisland</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt_3" index="" image="">
+	<description>Fruit Cocktail (030623 World)</description>
+	<cloneof>fcockt_8</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnome_2" index="" image="">
+	<description>Gnome (071115 Russia)</description>
+	<cloneof>gnome_9</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnome_2a" index="" image="">
+	<description>Gnome (bootleg, 071115, banking address hack)</description>
+	<cloneof>gnome_9</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="island_2" index="" image="">
+	<description>Island (070409 Russia)</description>
+	<cloneof>island</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2005</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lhaunt_2" index="" image="">
+	<description>Lucky Haunter (030804 World)</description>
+	<cloneof>lhaunt_6</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pacslot" index="" image="">
+	<description>Pac-Slot</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="resdnt" index="" image="">
+	<description>Resident (040415 World)</description>
+	<cloneof>resdnt_6</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sweetl2" index="" image="">
+	<description>Sweet Life 2 (071217 Russia)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

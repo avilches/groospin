@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>IGS / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="5clown" index="" image="">
+	<description>Five Clown (English, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1993</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="5clowna" index="" image="">
+	<description>Five Clown (English, set 2)</description>
+	<cloneof>5clown</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1993</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="5clownsp" index="" image="">
+	<description>Five Clown (Spanish hack)</description>
+	<cloneof>5clown</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1993</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drgw3105" index="" image="">
+	<description>Dragon World 3 / Chuugokuryuu 3 Special (ver. 105)</description>
+	<cloneof>drgw3</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1998</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov2" index="" image="">
+	<description>Knights of Valour 2 / Sangoku Senki 2 (ver. 107, 102, 100HK)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov2102" index="" image="">
+	<description>Knights of Valour 2 / Sangoku Senki 2 (ver. 102, 101, 100HK)</description>
+	<cloneof>kov2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov2103" index="" image="">
+	<description>Knights of Valour 2 / Sangoku Senki 2 (ver. 103, 101, 100HK)</description>
+	<cloneof>kov2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kovsh103" index="" image="">
+	<description>Knights of Valour Super Heroes / Sangoku Senki Super Heroes (ver. 103, CN)</description>
+	<cloneof>kovsh</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="martmastc102" index="" image="">
+	<description>Martial Masters (ver. 102, 101, 101CN)</description>
+	<cloneof>martmast</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="orlegendca" index="" image="">
+	<description>Oriental Legend / Xi You Shi E Zhuan (ver. ???, Chinese Board)</description>
+	<cloneof>orlegend</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>IGS / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="fearless" index="" image="">
+	<description>Fearless Pinocchio (V101US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2006</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kovsh101" index="" image="">
+	<description>Knights of Valour Super Heroes / Sangoku Senki Super Heroes (ver. 101, CN)</description>
+	<cloneof>kovsh</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kovsh102" index="" image="">
+	<description>Knights of Valour Super Heroes / Sangoku Senki Super Heroes (ver. 102, CN)</description>
+	<cloneof>kovsh</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="puzzli2" index="" image="">
+	<description>Puzzli 2 (ver. 100)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1999</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

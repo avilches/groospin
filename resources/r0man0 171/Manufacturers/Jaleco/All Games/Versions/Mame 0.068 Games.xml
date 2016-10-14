@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Jaleco / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="47pie2" index="" image="">
+	<description>Idol Janshi Su-Chi-Pie 2 (v1.1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1994</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="47pie2o" index="" image="">
+	<description>Idol Janshi Su-Chi-Pie 2 (v1.0)</description>
+	<cloneof>47pie2</cloneof>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1994</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vandykejal" index="" image="">
+	<description>Vandyke (Jaleco, set 1)</description>
+	<cloneof>vandyke</cloneof>
+	<crc/>
+	<manufacturer>UPL (Jaleco license)</manufacturer>
+	<year>1990</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

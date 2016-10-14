@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>4P sim / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="ddsomr2" index="" image="">
+	<description>Dungeons &amp; Dragons: Shadow over Mystara (Euro 960209)</description>
+	<cloneof>ddsom</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="elim4p" index="" image="">
+	<description>Eliminator (4 Players, prototype)</description>
+	<cloneof>elim2</cloneof>
+	<crc/>
+	<manufacturer>Gremlin</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="soccerssja" index="" image="">
+	<description>Soccer Superstars (ver JAA)</description>
+	<cloneof>soccerss</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1994</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssriderseaa" index="" image="">
+	<description>Sunset Riders (4 Players ver EAA)</description>
+	<cloneof>ssriders</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wbeachvl2" index="" image="">
+	<description>World Beach Volley (set 2)</description>
+	<cloneof>wbeachvl</cloneof>
+	<crc/>
+	<manufacturer>Playmark</manufacturer>
+	<year>1995</year>
+	<genre>Volleyball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

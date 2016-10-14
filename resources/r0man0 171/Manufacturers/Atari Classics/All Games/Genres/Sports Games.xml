@@ -1,0 +1,449 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Atari / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="720" index="" image="">
+	<description>720 Degrees (rev 4)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1986</year>
+	<genre>Sports / Skateboarding</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="720g" index="" image="">
+	<description>720 Degrees (German, rev 2)</description>
+	<cloneof>720</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1986</year>
+	<genre>Sports / Skateboarding</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="720gr1" index="" image="">
+	<description>720 Degrees (German, rev 1)</description>
+	<cloneof>720</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1986</year>
+	<genre>Sports / Skateboarding</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="720r1" index="" image="">
+	<description>720 Degrees (rev 1)</description>
+	<cloneof>720</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1986</year>
+	<genre>Sports / Skateboarding</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="720r2" index="" image="">
+	<description>720 Degrees (rev 2)</description>
+	<cloneof>720</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1986</year>
+	<genre>Sports / Skateboarding</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="720r3" index="" image="">
+	<description>720 Degrees (rev 3)</description>
+	<cloneof>720</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1986</year>
+	<genre>Sports / Skateboarding</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="abaseb" index="" image="">
+	<description>Atari Baseball (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1979</year>
+	<genre>Sports / Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="abaseb2" index="" image="">
+	<description>Atari Baseball (set 2)</description>
+	<cloneof>abaseb</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1979</year>
+	<genre>Sports / Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="atarifb" index="" image="">
+	<description>Atari Football (revision 2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1978</year>
+	<genre>Sports / Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="atarifb1" index="" image="">
+	<description>Atari Football (revision 1)</description>
+	<cloneof>atarifb</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1978</year>
+	<genre>Sports / Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="atarifb2" index="" image="">
+	<description>Atari Football II</description>
+	<cloneof>atarifb</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1978</year>
+	<genre>Sports / Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="atarifb4" index="" image="">
+	<description>Atari Football (4 players)</description>
+	<cloneof>atarifb</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1979</year>
+	<genre>Sports / Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="barbball" index="" image="">
+	<description>Barroom Baseball (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1983</year>
+	<genre>Sports / Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="boxer" index="" image="">
+	<description>Boxer (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1978</year>
+	<genre>Sports / Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bsktball" index="" image="">
+	<description>Basketball</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1979</year>
+	<genre>Sports / Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cyberbal" index="" image="">
+	<description>Cyberball (rev 4)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1988</year>
+	<genre>Sports / Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cyberbal2" index="" image="">
+	<description>Cyberball (rev 2)</description>
+	<cloneof>cyberbal</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1988</year>
+	<genre>Sports / Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cyberbal2p" index="" image="">
+	<description>Cyberball 2072 (2 player, rev 4)</description>
+	<cloneof>cyberbal</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1989</year>
+	<genre>Sports / Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cyberbal2p1" index="" image="">
+	<description>Cyberball 2072 (2 player, rev 1)</description>
+	<cloneof>cyberbal</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1989</year>
+	<genre>Sports / Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cyberbal2p2" index="" image="">
+	<description>Cyberball 2072 (2 player, rev 2)</description>
+	<cloneof>cyberbal</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1989</year>
+	<genre>Sports / Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cyberbal2p3" index="" image="">
+	<description>Cyberball 2072 (2 player, rev 3)</description>
+	<cloneof>cyberbal</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1989</year>
+	<genre>Sports / Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cyberbalp" index="" image="">
+	<description>Cyberball (prototype)</description>
+	<cloneof>cyberbal</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1988</year>
+	<genre>Sports / Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cyberbalt" index="" image="">
+	<description>Tournament Cyberball 2072 (rev 2)</description>
+	<cloneof>cyberbal</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1989</year>
+	<genre>Sports / Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cyberbalt1" index="" image="">
+	<description>Tournament Cyberball 2072 (rev 1)</description>
+	<cloneof>cyberbal</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1989</year>
+	<genre>Sports / Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fastfred" index="" image="">
+	<description>Fast Freddie</description>
+	<cloneof>flyboy</cloneof>
+	<crc/>
+	<manufacturer>Kaneko (Atari license)</manufacturer>
+	<year>1982</year>
+	<genre>Sports</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="flyball" index="" image="">
+	<description>Flyball (rev 2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1976</year>
+	<genre>Sports / Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="flyball1" index="" image="">
+	<description>Flyball (rev 1)</description>
+	<cloneof>flyball</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1976</year>
+	<genre>Sports / Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mgolf" index="" image="">
+	<description>Atari Mini Golf (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1978</year>
+	<genre>Sports / Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="poolshrk" index="" image="">
+	<description>Poolshark</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1977</year>
+	<genre>Sports / Pool and Darts</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="relief" index="" image="">
+	<description>Relief Pitcher (set 1, 07 Jun 1992 / 28 May 1992)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1992</year>
+	<genre>Sports / Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="relief2" index="" image="">
+	<description>Relief Pitcher (set 2, 26 Apr 1992 / 08 Apr 1992)</description>
+	<cloneof>relief</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1992</year>
+	<genre>Sports / Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="relief3" index="" image="">
+	<description>Relief Pitcher (set 3, 10 Apr 1992 / 08 Apr 1992)</description>
+	<cloneof>relief</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1992</year>
+	<genre>Sports / Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shuuz" index="" image="">
+	<description>Shuuz (version 8.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Sports</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shuuz2" index="" image="">
+	<description>Shuuz (version 7.1)</description>
+	<cloneof>shuuz</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Sports</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="skydiver" index="" image="">
+	<description>Sky Diver</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1978</year>
+	<genre>Sports</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="soccer" index="" image="">
+	<description>Atari Soccer</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1980</year>
+	<genre>Sports / Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="steeplec" index="" image="">
+	<description>Steeplechase [TTL]</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1975</year>
+	<genre>Sports / Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="toobin" index="" image="">
+	<description>Toobin&apos; (rev 3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1988</year>
+	<genre>Sports / Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="toobin1" index="" image="">
+	<description>Toobin&apos; (rev 1)</description>
+	<cloneof>toobin</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1988</year>
+	<genre>Sports / Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="toobin2" index="" image="">
+	<description>Toobin&apos; (rev 2)</description>
+	<cloneof>toobin</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1988</year>
+	<genre>Sports / Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="toobin2e" index="" image="">
+	<description>Toobin&apos; (Europe, rev 2)</description>
+	<cloneof>toobin</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1988</year>
+	<genre>Sports / Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="toobine" index="" image="">
+	<description>Toobin&apos; (Europe, rev 3)</description>
+	<cloneof>toobin</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1988</year>
+	<genre>Sports / Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="toobing" index="" image="">
+	<description>Toobin&apos; (German, rev 3)</description>
+	<cloneof>toobin</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1988</year>
+	<genre>Sports / Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wg3dh" index="" image="">
+	<description>Wayne Gretzky&apos;s 3D Hockey</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1996</year>
+	<genre>Sports / Hockey</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

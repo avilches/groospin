@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Soccer / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="fiveside" index="" image="">
+	<description>Five a Side Soccer (ver UAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1995</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="heatof11" index="" image="">
+	<description>Heat of Eleven &apos;98 (ver EAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="prmrsocr" index="" image="">
+	<description>Premier Soccer (ver EAB)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1993</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="prmrsocrj" index="" image="">
+	<description>Premier Soccer (ver JAB)</description>
+	<cloneof>prmrsocr</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1993</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="soccerss" index="" image="">
+	<description>Soccer Superstars (ver EAC)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1994</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="soccerssa" index="" image="">
+	<description>Soccer Superstars (ver AAA)</description>
+	<cloneof>soccerss</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1994</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="soccerssj" index="" image="">
+	<description>Soccer Superstars (ver JAC)</description>
+	<cloneof>soccerss</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1994</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="soccerssja" index="" image="">
+	<description>Soccer Superstars (ver JAA)</description>
+	<cloneof>soccerss</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1994</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="soccerssu" index="" image="">
+	<description>Soccer Superstars (ver UAC)</description>
+	<cloneof>soccerss</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1994</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vsnetscr" index="" image="">
+	<description>Versus Net Soccer (ver EAD)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vsnetscra" index="" image="">
+	<description>Versus Net Soccer (ver AAA)</description>
+	<cloneof>vsnetscr</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vsnetscreb" index="" image="">
+	<description>Versus Net Soccer (ver EAB)</description>
+	<cloneof>vsnetscr</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vsnetscrj" index="" image="">
+	<description>Versus Net Soccer (ver JAB)</description>
+	<cloneof>vsnetscr</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vsnetscru" index="" image="">
+	<description>Versus Net Soccer (ver UAB)</description>
+	<cloneof>vsnetscr</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wswe" index="" image="">
+	<description>World Soccer Winning Eleven Arcade Game Style</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2002</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wswe2k3" index="" image="">
+	<description>World Soccer Winning Eleven Arcade Game 2003</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2003</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

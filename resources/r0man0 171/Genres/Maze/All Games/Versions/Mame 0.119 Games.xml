@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Maze / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="turpins" index="" image="">
+	<description>Turpin (bootleg on Scramble hardware)</description>
+	<cloneof>turtles</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Sports / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="dotrone" index="" image="">
+	<description>Discs of Tron (Environmental)</description>
+	<cloneof>dotron</cloneof>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1983</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbaskete" index="" image="">
+	<description>Super Basketball (version E, encrypted)</description>
+	<cloneof>sbasketb</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1984</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

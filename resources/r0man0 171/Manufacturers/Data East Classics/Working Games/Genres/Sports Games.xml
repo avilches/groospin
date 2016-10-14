@@ -1,0 +1,559 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Data East / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="birdtry" index="" image="">
+	<description>Birdie Try (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Sports / Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cadanglr" index="" image="">
+	<description>Angler Dangler (DECO Cassette)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Sports / Fishing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cfghtice" index="" image="">
+	<description>Fighting Ice Hockey (DECO Cassette)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Sports / Hockey</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cfishing" index="" image="">
+	<description>Fishing (DECO Cassette, Japan)</description>
+	<cloneof>cadanglr</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Sports / Fishing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="compgolf" index="" image="">
+	<description>Competition Golf Final Round (revision 3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East</manufacturer>
+	<year>1986</year>
+	<genre>Sports / Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="compgolfo" index="" image="">
+	<description>Competition Golf Final Round (Japan, old version)</description>
+	<cloneof>compgolf</cloneof>
+	<crc/>
+	<manufacturer>Data East</manufacturer>
+	<year>1985</year>
+	<genre>Sports / Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="coozumou" index="" image="">
+	<description>Oozumou - The Grand Sumo (DECO Cassette, Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Sports</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cprobowl" index="" image="">
+	<description>Pro Bowling (DECO Cassette)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Sports / Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cprogolf" index="" image="">
+	<description>Tournament Pro Golf (DECO Cassette)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1981</year>
+	<genre>Sports / Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cprogolf18" index="" image="">
+	<description>18 Challenge Pro Golf (DECO Cassette, Japan)</description>
+	<cloneof>cprogolf</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Sports / Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cprogolfj" index="" image="">
+	<description>Tournament Pro Golf (DECO Cassette, Japan)</description>
+	<cloneof>cprogolf</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1981</year>
+	<genre>Sports / Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cpsoccer" index="" image="">
+	<description>Pro Soccer (DECO Cassette)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Sports / Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cpsoccerj" index="" image="">
+	<description>Pro Soccer (DECO Cassette, Japan)</description>
+	<cloneof>cpsoccer</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Sports / Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cptennis" index="" image="">
+	<description>Pro Tennis (DECO Cassette)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Sports / Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cscrtry" index="" image="">
+	<description>Scrum Try (DECO Cassette, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Sports / Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cscrtry2" index="" image="">
+	<description>Scrum Try (DECO Cassette, set 2)</description>
+	<cloneof>cscrtry</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Sports / Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="csdtenis" index="" image="">
+	<description>Super Doubles Tennis (DECO Cassette, Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Sports / Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cskater" index="" image="">
+	<description>Skater (DECO Cassette, Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Sports / Skateboarding</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddream95" index="" image="">
+	<description>Dunk Dream &apos;95 (Japan 1.4, EAM)</description>
+	<cloneof>hoops96</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1995</year>
+	<genre>Sports / Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dsoccr94" index="" image="">
+	<description>Dream Soccer &apos;94 (World, M107 hardware)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem (Data East Corporation license)</manufacturer>
+	<year>1994</year>
+	<genre>Sports / Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dsoccr94k" index="" image="">
+	<description>Dream Soccer &apos;94 (Korea, M107 hardware)</description>
+	<cloneof>dsoccr94</cloneof>
+	<crc/>
+	<manufacturer>Irem (Data East Corporation license)</manufacturer>
+	<year>1994</year>
+	<genre>Sports / Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hoops95" index="" image="">
+	<description>Hoops (Europe/Asia 1.7)</description>
+	<cloneof>hoops96</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1995</year>
+	<genre>Sports / Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hoops96" index="" image="">
+	<description>Hoops &apos;96 (Europe/Asia 2.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1996</year>
+	<genre>Sports / Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hvysmsh" index="" image="">
+	<description>Heavy Smash (Europe version -2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Sports / Handball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hvysmsha" index="" image="">
+	<description>Heavy Smash (Asia version -4)</description>
+	<cloneof>hvysmsh</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Sports / Handball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hvysmshj" index="" image="">
+	<description>Heavy Smash (Japan version -2)</description>
+	<cloneof>hvysmsh</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Sports / Handball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pcktgal" index="" image="">
+	<description>Pocket Gal (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Sports / Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pcktgal2" index="" image="">
+	<description>Pocket Gal 2 (English)</description>
+	<cloneof>pcktgal</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1989</year>
+	<genre>Sports / Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pcktgal2j" index="" image="">
+	<description>Pocket Gal 2 (Japanese)</description>
+	<cloneof>pcktgal</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1989</year>
+	<genre>Sports / Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pktgaldx" index="" image="">
+	<description>Pocket Gal Deluxe (Euro v3.00)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1992</year>
+	<genre>Sports / Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pktgaldxj" index="" image="">
+	<description>Pocket Gal Deluxe (Japan v3.00)</description>
+	<cloneof>pktgaldx</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation (Nihon System license)</manufacturer>
+	<year>1993</year>
+	<genre>Sports / Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="progolf" index="" image="">
+	<description>18 Holes Pro Golf (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1981</year>
+	<genre>Sports / Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="prosoccr" index="" image="">
+	<description>Pro Soccer</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Sports / Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="prosport" index="" image="">
+	<description>Pro Sports - Bowling, Tennis, and Golf</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Sports / Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="prosporta" index="" image="">
+	<description>Pro Sports - Bowling, Tennis, and Golf (USA)</description>
+	<cloneof>prosport</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation (Digital Controls license)</manufacturer>
+	<year>1983</year>
+	<genre>Sports / Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ringking" index="" image="">
+	<description>Ring King (US set 1)</description>
+	<cloneof>kingofb</cloneof>
+	<crc/>
+	<manufacturer>Wood Place Inc. (Data East USA license)</manufacturer>
+	<year>1985</year>
+	<genre>Sports / Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ringking2" index="" image="">
+	<description>Ring King (US set 2)</description>
+	<cloneof>kingofb</cloneof>
+	<crc/>
+	<manufacturer>Wood Place Inc. (Data East USA license)</manufacturer>
+	<year>1985</year>
+	<genre>Sports / Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ringking3" index="" image="">
+	<description>Ring King (US set 3)</description>
+	<cloneof>kingofb</cloneof>
+	<crc/>
+	<manufacturer>Wood Place Inc. (Data East USA license)</manufacturer>
+	<year>1985</year>
+	<genre>Sports / Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sdtennis" index="" image="">
+	<description>Super Doubles Tennis</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Sports / Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sidepckt" index="" image="">
+	<description>Side Pocket (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Sports / Pool and Darts</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sidepcktj" index="" image="">
+	<description>Side Pocket (Japan)</description>
+	<cloneof>sidepckt</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Sports / Pool and Darts</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spool3" index="" image="">
+	<description>Super Pool III (English)</description>
+	<cloneof>pcktgal</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1989</year>
+	<genre>Sports / Pool and Darts</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spool3i" index="" image="">
+	<description>Super Pool III (I-Vics)</description>
+	<cloneof>pcktgal</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation (I-Vics license)</manufacturer>
+	<year>1990</year>
+	<genre>Sports / Pool and Darts</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stadhero" index="" image="">
+	<description>Stadium Hero (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Sports / Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stadhr96" index="" image="">
+	<description>Stadium Hero &apos;96 (World, EAJ)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1996</year>
+	<genre>Sports / Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stadhr96j" index="" image="">
+	<description>Stadium Hero &apos;96 (Japan, EAD)</description>
+	<cloneof>stadhr96</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1996</year>
+	<genre>Sports / Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stadhr96u" index="" image="">
+	<description>Stadium Hero &apos;96 (USA, EAH)</description>
+	<cloneof>stadhr96</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1996</year>
+	<genre>Sports / Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="strhoop" index="" image="">
+	<description>Street Hoop / Street Slam / Dunk Dream (DEM-004)(DEH-004)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1994</year>
+	<genre>Sports / Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="svolleyu" index="" image="">
+	<description>Super Volleyball (US)</description>
+	<cloneof>svolley</cloneof>
+	<crc/>
+	<manufacturer>V-System Co. (Data East license)</manufacturer>
+	<year>1989</year>
+	<genre>Sports / Volleyball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tagteam" index="" image="">
+	<description>Tag Team Wrestling</description>
+	<cloneof>bigprowr</cloneof>
+	<crc/>
+	<manufacturer>Technos Japan (Data East license)</manufacturer>
+	<year>1983</year>
+	<genre>Sports / Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tkoboxng" index="" image="">
+	<description>Vs. T.K.O. Boxing</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco / Data East USA</manufacturer>
+	<year>1987</year>
+	<genre>Sports / Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tryout" index="" image="">
+	<description>Pro Baseball Skill Tryout (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1985</year>
+	<genre>Sports / Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wcvol95" index="" image="">
+	<description>World Cup Volley &apos;95 (Japan v1.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1995</year>
+	<genre>Sports / Volleyball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wcvol95x" index="" image="">
+	<description>World Cup Volley &apos;95 Extra Version (Asia v2.0B)</description>
+	<cloneof>wcvol95</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1995</year>
+	<genre>Sports / Volleyball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wjammers" index="" image="">
+	<description>Windjammers / Flying Power Disc</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1994</year>
+	<genre>Sports / Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

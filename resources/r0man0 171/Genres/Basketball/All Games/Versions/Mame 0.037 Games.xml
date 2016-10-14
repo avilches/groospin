@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Basketball / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="nbahangt" index="" image="">
+	<description>NBA Hangtime (rev L1.1 04/16/96)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1996</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nbajamte1" index="" image="">
+	<description>NBA Jam TE (rev 1.0 01/17/94)</description>
+	<cloneof>nbajamte</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1994</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nbajamte2" index="" image="">
+	<description>NBA Jam TE (rev 2.0 01/28/94)</description>
+	<cloneof>nbajamte</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1994</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nbajamte3" index="" image="">
+	<description>NBA Jam TE (rev 3.0 03/04/94)</description>
+	<cloneof>nbajamte</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1994</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nbamht1" index="" image="">
+	<description>NBA Maximum Hangtime (rev 1.0 11/08/96)</description>
+	<cloneof>nbahangt</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1996</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_dbldr" index="" image="">
+	<description>Double Dribble (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami (Nintendo of America license)</manufacturer>
+	<year>1987</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="punkshotj" index="" image="">
+	<description>Punk Shot (Japan 2 Players)</description>
+	<cloneof>punkshot</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1990</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rimrockn" index="" image="">
+	<description>Rim Rockin&apos; Basketball (V2.2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Strata/Incredible Technologies</manufacturer>
+	<year>1991</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rimrockn12" index="" image="">
+	<description>Rim Rockin&apos; Basketball (V1.2)</description>
+	<cloneof>rimrockn</cloneof>
+	<crc/>
+	<manufacturer>Strata/Incredible Technologies</manufacturer>
+	<year>1991</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rimrockn16" index="" image="">
+	<description>Rim Rockin&apos; Basketball (V1.6)</description>
+	<cloneof>rimrockn</cloneof>
+	<crc/>
+	<manufacturer>Strata/Incredible Technologies</manufacturer>
+	<year>1991</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rimrockn20" index="" image="">
+	<description>Rim Rockin&apos; Basketball (V2.0)</description>
+	<cloneof>rimrockn</cloneof>
+	<crc/>
+	<manufacturer>Strata/Incredible Technologies</manufacturer>
+	<year>1991</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

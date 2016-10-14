@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>4P sim / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="arabfgt" index="" image="">
+	<description>Arabian Fight (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gauntdl24" index="" image="">
+	<description>Gauntlet Dark Legacy (version DL 2.4)</description>
+	<cloneof>gauntdl</cloneof>
+	<crc/>
+	<manufacturer>Midway Games</manufacturer>
+	<year>1999</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov2100" index="" image="">
+	<description>Knights of Valour 2 / Sangoku Senki 2 (ver. 100, 100, 100HK)</description>
+	<cloneof>kov2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov2106" index="" image="">
+	<description>Knights of Valour 2 / Sangoku Senki 2 (ver. 106, 102, 100HK)</description>
+	<cloneof>kov2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov2p204" index="" image="">
+	<description>Knights of Valour 2 Plus - Nine Dragons / Sangoku Senki 2 Plus - Nine Dragons (ver. M204XX, 200, 100CN)</description>
+	<cloneof>kov2p</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="metamrph" index="" image="">
+	<description>Metamorphic Force (ver EAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

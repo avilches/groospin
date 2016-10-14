@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Williams / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="defenderg" index="" image="">
+	<description>Defender (Green label)</description>
+	<cloneof>defender</cloneof>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="inferno" index="" image="">
+	<description>Inferno (Williams)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="joust2" index="" image="">
+	<description>Joust 2 - Survival of the Fittest (revision 2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mysticm" index="" image="">
+	<description>Mystic Marathon</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1983</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smashtv4" index="" image="">
+	<description>Smash T.V. (rev 4.00)</description>
+	<cloneof>smashtv</cloneof>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smashtv6" index="" image="">
+	<description>Smash T.V. (rev 6.00)</description>
+	<cloneof>smashtv</cloneof>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tshoot" index="" image="">
+	<description>Turkey Shoot</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1984</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

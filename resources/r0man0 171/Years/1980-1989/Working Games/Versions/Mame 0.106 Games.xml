@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1980-1989 / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="7mezzo" index="" image="">
+	<description>7 e Mezzo</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>198?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bombsa" index="" image="">
+	<description>Bombs Away (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="daikaiju" index="" image="">
+	<description>Daikaiju no Gyakushu</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="firebeas" index="" image="">
+	<description>Firebeast (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="indytempc" index="" image="">
+	<description>Indiana Jones and the Temple of Doom (Cocktail)</description>
+	<cloneof>indytemp</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1985</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="madalienb" index="" image="">
+	<description>Mad Alien (set 2, alt gfx)</description>
+	<cloneof>madalien</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="magicfly" index="" image="">
+	<description>Magic Fly</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>P&amp;A Games</manufacturer>
+	<year>198?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfkick" index="" image="">
+	<description>Super Free Kick (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Haesung/HJ Corp</manufacturer>
+	<year>1988</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spacfuryb" index="" image="">
+	<description>Space Fury (revision B)</description>
+	<cloneof>spacfury</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spinkick" index="" image="">
+	<description>Hec&apos;s Spinkick</description>
+	<cloneof>sfkick</cloneof>
+	<crc/>
+	<manufacturer>Haesung/Seojin</manufacturer>
+	<year>1988</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="turtship" index="" image="">
+	<description>Turtle Ship (North America)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Philko (Sharp Image license)</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="turtshipj" index="" image="">
+	<description>Turtle Ship (Japan)</description>
+	<cloneof>turtship</cloneof>
+	<crc/>
+	<manufacturer>Philko (Pacific Games license)</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

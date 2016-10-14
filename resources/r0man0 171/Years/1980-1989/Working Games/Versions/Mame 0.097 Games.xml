@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1980-1989 / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="btlfieldb" index="" image="">
+	<description>Battle Field (bootleg)</description>
+	<cloneof>timesold</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="falconz" index="" image="">
+	<description>Falcon (bootleg of Phoenix) (Z80 CPU)</description>
+	<cloneof>phoenix</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ladybgb2" index="" image="">
+	<description>Lady Bug (bootleg set 2)</description>
+	<cloneof>ladybug</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mdrawpkr" index="" image="">
+	<description>Draw Poker - Joker&apos;s Wild (Standard)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Meyco Games, Inc.</manufacturer>
+	<year>1984</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mechattu" index="" image="">
+	<description>Mechanized Attack (US)</description>
+	<cloneof>mechatt</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1989</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mrkougb2" index="" image="">
+	<description>Mr. Kougar (bootleg set 2)</description>
+	<cloneof>mrkougar</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="puzznic" index="" image="">
+	<description>Puzznic (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1989</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="winrungp" index="" image="">
+	<description>Winning Run Suzuka Grand Prix (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1989</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

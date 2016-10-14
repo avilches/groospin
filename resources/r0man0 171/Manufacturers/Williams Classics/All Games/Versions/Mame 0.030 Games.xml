@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Williams / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="bubblesr" index="" image="">
+	<description>Bubbles (Solid Red label)</description>
+	<cloneof>bubbles</cloneof>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="joust" index="" image="">
+	<description>Joust (White/Green label)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="joustwr" index="" image="">
+	<description>Joust (White/Red label)</description>
+	<cloneof>joust</cloneof>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="maketrax" index="" image="">
+	<description>Make Trax (US set 1)</description>
+	<cloneof>crush</cloneof>
+	<crc/>
+	<manufacturer>Alpha Denshi Co. / Kural (Williams license)</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="robotronyo" index="" image="">
+	<description>Robotron: 2084 (Yellow/Orange label)</description>
+	<cloneof>robotron</cloneof>
+	<crc/>
+	<manufacturer>Williams / Vid Kidz</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

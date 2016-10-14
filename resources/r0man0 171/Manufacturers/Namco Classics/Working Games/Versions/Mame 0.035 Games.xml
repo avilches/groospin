@@ -1,0 +1,239 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Namco / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="airbustrj" index="" image="">
+	<description>Air Buster: Trouble Specialty Raid Unit (Japan)</description>
+	<cloneof>airbustr</cloneof>
+	<crc/>
+	<manufacturer>Kaneko (Namco license)</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="boscomd" index="" image="">
+	<description>Bosconian (Midway, new version)</description>
+	<cloneof>bosco</cloneof>
+	<crc/>
+	<manufacturer>Namco (Midway license)</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="digdug" index="" image="">
+	<description>Dig Dug (rev 2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="digdug2" index="" image="">
+	<description>Dig Dug II (New Ver.)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1985</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galaga3a" index="" image="">
+	<description>Galaga 3 (GP3 rev. C)</description>
+	<cloneof>gaplus</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galaga3m" index="" image="">
+	<description>Galaga 3 (set 5)</description>
+	<cloneof>gaplus</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gaplus" index="" image="">
+	<description>Gaplus (GP2 rev. B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gaplusd" index="" image="">
+	<description>Gaplus (GP2 rev D, alternate hardware)</description>
+	<cloneof>gaplus</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="genpeitd" index="" image="">
+	<description>Genpei ToumaDen</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="grobda" index="" image="">
+	<description>Grobda (New Ver.)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="grobda2" index="" image="">
+	<description>Grobda (Old Ver. set 1)</description>
+	<cloneof>grobda</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="grobda3" index="" image="">
+	<description>Grobda (Old Ver. set 2)</description>
+	<cloneof>grobda</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kingballj" index="" image="">
+	<description>King &amp; Balloon (Japan)</description>
+	<cloneof>kingball</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pacmod" index="" image="">
+	<description>Pac-Man (Midway, harder)</description>
+	<cloneof>puckman</cloneof>
+	<crc/>
+	<manufacturer>Namco (Midway license)</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="phozon" index="" image="">
+	<description>Phozon (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1983</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="puckmod" index="" image="">
+	<description>Puck Man (Japan set 2)</description>
+	<cloneof>puckman</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rallyx" index="" image="">
+	<description>Rally X (32k Ver.?)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1980</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="roishtar" index="" image="">
+	<description>The Return of Ishtar</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1986</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rthunder" index="" image="">
+	<description>Rolling Thunder (rev 3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rthunder1" index="" image="">
+	<description>Rolling Thunder (rev 1)</description>
+	<cloneof>rthunder</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="todruaga" index="" image="">
+	<description>The Tower of Druaga (New Ver.)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1984</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="warpwarp" index="" image="">
+	<description>Warp &amp; Warp</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wndrmomo" index="" image="">
+	<description>Wonder Momo</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1987</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

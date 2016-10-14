@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1970-1979 / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="galap1" index="" image="">
+	<description>Space Invaders Galactica (galaxiana hack)</description>
+	<cloneof>galaxian</cloneof>
+	<crc/>
+	<manufacturer>hack</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galap4" index="" image="">
+	<description>Galaxian Part 4 (hack)</description>
+	<cloneof>galaxian</cloneof>
+	<crc/>
+	<manufacturer>hack (G.G.I)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galapx" index="" image="">
+	<description>Galaxian Part X (moonaln hack)</description>
+	<cloneof>galaxian</cloneof>
+	<crc/>
+	<manufacturer>hack</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galaxian" index="" image="">
+	<description>Galaxian (Namco set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galaxianm" index="" image="">
+	<description>Galaxian (Midway set 1)</description>
+	<cloneof>galaxian</cloneof>
+	<crc/>
+	<manufacturer>Namco (Midway license)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galturbo" index="" image="">
+	<description>Galaxian Turbo (superg hack)</description>
+	<cloneof>galaxian</cloneof>
+	<crc/>
+	<manufacturer>hack</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="superg" index="" image="">
+	<description>Super Galaxians (galaxiana hack)</description>
+	<cloneof>galaxian</cloneof>
+	<crc/>
+	<manufacturer>hack</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

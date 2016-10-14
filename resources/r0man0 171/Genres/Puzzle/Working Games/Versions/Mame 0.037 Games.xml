@@ -1,0 +1,659 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Puzzle / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="ballbros" index="" image="">
+	<description>Balloon Brothers</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>East Technology</manufacturer>
+	<year>1992</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bangball" index="" image="">
+	<description>Bang Bang Ball (v1.05)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Banpresto / Kunihiko Tashiro+Goodhouse</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bloxeed" index="" image="">
+	<description>Bloxeed (Japan) (FD1094 317-0139)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bloxeedc" index="" image="">
+	<description>Bloxeed (World, C System)</description>
+	<cloneof>bloxeed</cloneof>
+	<crc/>
+	<manufacturer>Sega / Elorg</manufacturer>
+	<year>1989</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cgangpzl" index="" image="">
+	<description>Cosmo Gang the Puzzle (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cgangpzlj" index="" image="">
+	<description>Cosmo Gang the Puzzle (Japan)</description>
+	<cloneof>cgangpzl</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chinatwn" index="" image="">
+	<description>China Town (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1991</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cleopatr" index="" image="">
+	<description>Cleopatra Fortune (Ver 2.1J 1996/09/05)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="columns" index="" image="">
+	<description>Columns (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="columns2" index="" image="">
+	<description>Columns II: The Voyage Through Time (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="columnsj" index="" image="">
+	<description>Columns (Japan)</description>
+	<cloneof>columns</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="daitorid" index="" image="">
+	<description>Daitoride</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Metro</manufacturer>
+	<year>1995</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drmario" index="" image="">
+	<description>Vs. Dr. Mario</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1990</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="emeraldaj" index="" image="">
+	<description>Emeraldia (Japan Version B)</description>
+	<cloneof>emeralda</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1993</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="eto" index="" image="">
+	<description>Kokontouzai Eto Monogatari (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Visco</manufacturer>
+	<year>1994</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hatrisj" index="" image="">
+	<description>Hatris (Japan)</description>
+	<cloneof>hatris</cloneof>
+	<crc/>
+	<manufacturer>Video System Co.</manufacturer>
+	<year>1990</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="heberpop" index="" image="">
+	<description>Hebereke no Popoon (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sunsoft / Atlus</manufacturer>
+	<year>1994</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hexion" index="" image="">
+	<description>Hexion (Japan ver JAB)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="karianx" index="" image="">
+	<description>Karian Cross (Rev. 1.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Deniam</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="klaxd" index="" image="">
+	<description>Klax (Germany)</description>
+	<cloneof>klax</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1989</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="landmakr" index="" image="">
+	<description>Land Maker (Ver 2.01J 1998/06/01)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1998</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lastfort" index="" image="">
+	<description>Last Fortress - Toride</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Metro</manufacturer>
+	<year>1994</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="liblrabl" index="" image="">
+	<description>Libble Rabble</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1983</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="magicbub" index="" image="">
+	<description>Magic Bubble</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Yun Sung</manufacturer>
+	<year>199?</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mouja" index="" image="">
+	<description>Mouja (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Etona</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="naname" index="" image="">
+	<description>Naname de Magic! (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atlus</manufacturer>
+	<year>1994</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ohmygod" index="" image="">
+	<description>Oh My God! (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atlus</manufacturer>
+	<year>1993</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pbancho" index="" image="">
+	<description>Gyakuten!! Puzzle Bancho (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Fuuki</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pbobbl2n" index="" image="">
+	<description>Puzzle Bobble 2 / Bust-A-Move Again (Neo-Geo)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito (SNK license)</manufacturer>
+	<year>1999</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pbobble" index="" image="">
+	<description>Puzzle Bobble (Japan, B-System)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1994</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pbobble2j" index="" image="">
+	<description>Puzzle Bobble 2 (Ver 2.2J 1995/07/20)</description>
+	<cloneof>pbobble2</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1995</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pbobble2o" index="" image="">
+	<description>Puzzle Bobble 2 (Ver 2.2O 1995/07/20)</description>
+	<cloneof>pbobble2</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1995</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pbobble2u" index="" image="">
+	<description>Bust-A-Move Again (Ver 2.3A 1995/07/31)</description>
+	<cloneof>pbobble2</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1995</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pbobble2x" index="" image="">
+	<description>Puzzle Bobble 2X (Ver 2.2J 1995/11/11)</description>
+	<cloneof>pbobble2</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1995</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pbobble3" index="" image="">
+	<description>Puzzle Bobble 3 (Ver 2.1O 1996/09/27)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pbobble3j" index="" image="">
+	<description>Puzzle Bobble 3 (Ver 2.1J 1996/09/27)</description>
+	<cloneof>pbobble3</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pbobble3u" index="" image="">
+	<description>Puzzle Bobble 3 (Ver 2.1A 1996/09/27)</description>
+	<cloneof>pbobble3</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pbobble4" index="" image="">
+	<description>Puzzle Bobble 4 (Ver 2.04O 1997/12/19)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1997</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pbobble4j" index="" image="">
+	<description>Puzzle Bobble 4 (Ver 2.04J 1997/12/19)</description>
+	<cloneof>pbobble4</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1997</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pbobble4u" index="" image="">
+	<description>Puzzle Bobble 4 (Ver 2.04A 1997/12/19)</description>
+	<cloneof>pbobble4</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1997</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_drmro" index="" image="">
+	<description>Dr. Mario (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1990</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pipedrmj" index="" image="">
+	<description>Pipe Dream (Japan)</description>
+	<cloneof>pipedrm</cloneof>
+	<crc/>
+	<manufacturer>Video System Co.</manufacturer>
+	<year>1990</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pipedrmu" index="" image="">
+	<description>Pipe Dream (US)</description>
+	<cloneof>pipedrm</cloneof>
+	<crc/>
+	<manufacturer>Video System Co.</manufacturer>
+	<year>1990</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="poitto" index="" image="">
+	<description>Poitto!</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Metro / Able Corp.</manufacturer>
+	<year>1993</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="popnpopj" index="" image="">
+	<description>Pop&apos;n Pop (Ver 2.07J 1998/02/09)</description>
+	<cloneof>popnpop</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1997</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="potopoto" index="" image="">
+	<description>Poto Poto (Japan, Rev A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1994</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="puyobl" index="" image="">
+	<description>Puyo Puyo (World, bootleg)</description>
+	<cloneof>puyo</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1992</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="puyoj" index="" image="">
+	<description>Puyo Puyo (Japan, Rev B)</description>
+	<cloneof>puyo</cloneof>
+	<crc/>
+	<manufacturer>Compile / Sega</manufacturer>
+	<year>1992</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="puyoja" index="" image="">
+	<description>Puyo Puyo (Japan, Rev A)</description>
+	<cloneof>puyo</cloneof>
+	<crc/>
+	<manufacturer>Compile / Sega</manufacturer>
+	<year>1992</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="puyopuy2" index="" image="">
+	<description>Puyo Puyo 2 (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Compile (Sega license)</manufacturer>
+	<year>1994</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="puzzli" index="" image="">
+	<description>Puzzli</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Metro / Banpresto</manufacturer>
+	<year>1995</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shangha2" index="" image="">
+	<description>Shanghai II (Japan, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sunsoft</manufacturer>
+	<year>1989</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shangha3j" index="" image="">
+	<description>Shanghai III (Japan)</description>
+	<cloneof>shangha3</cloneof>
+	<crc/>
+	<manufacturer>Sunsoft</manufacturer>
+	<year>1993</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spf2tu" index="" image="">
+	<description>Super Puzzle Fighter II Turbo (USA 960620)</description>
+	<cloneof>spf2t</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spf2xj" index="" image="">
+	<description>Super Puzzle Fighter II X (Japan 960531)</description>
+	<cloneof>spf2t</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stkclmnsj" index="" image="">
+	<description>Stack Columns (Japan)</description>
+	<cloneof>stkclmns</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1994</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tetrisp2" index="" image="">
+	<description>Tetris Plus 2 (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco / The Tetris Company</manufacturer>
+	<year>1997</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tetrisp2j" index="" image="">
+	<description>Tetris Plus 2 (Japan, V2.2)</description>
+	<cloneof>tetrisp2</cloneof>
+	<crc/>
+	<manufacturer>Jaleco / The Tetris Company</manufacturer>
+	<year>1997</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tetrist" index="" image="">
+	<description>Tetris (Japan, Taito B-System, Nastar Conversion Kit)</description>
+	<cloneof>tetris</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="toride2g" index="" image="">
+	<description>Toride II Adauchi Gaiden</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Metro</manufacturer>
+	<year>1994</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tubeit" index="" image="">
+	<description>Tube-It</description>
+	<cloneof>cachat</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1993</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="twinqix" index="" image="">
+	<description>Twin Qix (Ver 1.0A 1995/01/17, prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1995</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="uopokoj" index="" image="">
+	<description>Puzzle Uo Poko (Japan)</description>
+	<cloneof>uopoko</cloneof>
+	<crc/>
+	<manufacturer>Cave (Jaleco license)</manufacturer>
+	<year>1998</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="volfiedj" index="" image="">
+	<description>Volfied (Japan, revision 1)</description>
+	<cloneof>volfied</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1989</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vstetris" index="" image="">
+	<description>Vs. Tetris</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Academysoft-Elorg</manufacturer>
+	<year>1987</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,239 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Shoot- / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="1942w" index="" image="">
+	<description>1942 (Williams Electronics license)</description>
+	<cloneof>1942</cloneof>
+	<crc/>
+	<manufacturer>Capcom (Williams Electronics license)</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aeroboto" index="" image="">
+	<description>Aeroboto</description>
+	<cloneof>formatz</cloneof>
+	<crc/>
+	<manufacturer>Jaleco (Williams license)</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blaster" index="" image="">
+	<description>Blaster</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams / Vid Kidz</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blasterkit" index="" image="">
+	<description>Blaster (conversion kit)</description>
+	<cloneof>blaster</cloneof>
+	<crc/>
+	<manufacturer>Williams / Vid Kidz</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blastero" index="" image="">
+	<description>Blaster (location test)</description>
+	<cloneof>blaster</cloneof>
+	<crc/>
+	<manufacturer>Williams / Vid Kidz</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="defender" index="" image="">
+	<description>Defender (Red label)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="defenderb" index="" image="">
+	<description>Defender (Blue label)</description>
+	<cloneof>defender</cloneof>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="defenderg" index="" image="">
+	<description>Defender (Green label)</description>
+	<cloneof>defender</cloneof>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="defenderw" index="" image="">
+	<description>Defender (White label)</description>
+	<cloneof>defender</cloneof>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="inferno" index="" image="">
+	<description>Inferno (Williams)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="robotron" index="" image="">
+	<description>Robotron: 2084 (Solid Blue label)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams / Vid Kidz</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="robotronyo" index="" image="">
+	<description>Robotron: 2084 (Yellow/Orange label)</description>
+	<cloneof>robotron</cloneof>
+	<crc/>
+	<manufacturer>Williams / Vid Kidz</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sinistar" index="" image="">
+	<description>Sinistar (revision 3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sinistar1" index="" image="">
+	<description>Sinistar (prototype version)</description>
+	<cloneof>sinistar</cloneof>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sinistar2" index="" image="">
+	<description>Sinistar (revision 2)</description>
+	<cloneof>sinistar</cloneof>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smashtv" index="" image="">
+	<description>Smash T.V. (rev 8.00)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smashtv3" index="" image="">
+	<description>Smash T.V. (rev 3.01)</description>
+	<cloneof>smashtv</cloneof>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smashtv4" index="" image="">
+	<description>Smash T.V. (rev 4.00)</description>
+	<cloneof>smashtv</cloneof>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smashtv5" index="" image="">
+	<description>Smash T.V. (rev 5.00)</description>
+	<cloneof>smashtv</cloneof>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smashtv6" index="" image="">
+	<description>Smash T.V. (rev 6.00)</description>
+	<cloneof>smashtv</cloneof>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="splat" index="" image="">
+	<description>Splat!</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stargate" index="" image="">
+	<description>Stargate</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams / Vid Kidz</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zerowingw" index="" image="">
+	<description>Zero Wing (2P set, Williams license)</description>
+	<cloneof>zerowing</cloneof>
+	<crc/>
+	<manufacturer>Toaplan (Williams license)</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

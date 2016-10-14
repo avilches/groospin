@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Maze / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="diggerc" index="" image="">
+	<description>Digger (CVS)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Century Electronics</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kngtmare" index="" image="">
+	<description>Knightmare (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gottlieb</manufacturer>
+	<year>1983</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mspacmnf" index="" image="">
+	<description>Ms. Pac-Man (speedup hack)</description>
+	<cloneof>mspacman</cloneof>
+	<crc/>
+	<manufacturer>hack</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nibbler8" index="" image="">
+	<description>Nibbler (rev 8)</description>
+	<cloneof>nibbler</cloneof>
+	<crc/>
+	<manufacturer>Rock-Ola</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pacmanf" index="" image="">
+	<description>Pac-Man (Midway, speedup hack)</description>
+	<cloneof>puckman</cloneof>
+	<crc/>
+	<manufacturer>hack</manufacturer>
+	<year>1980</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="portraita" index="" image="">
+	<description>Portraits (set 2)</description>
+	<cloneof>portrait</cloneof>
+	<crc/>
+	<manufacturer>Olympia</manufacturer>
+	<year>1983</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="puckmanf" index="" image="">
+	<description>Puck Man (speedup hack)</description>
+	<cloneof>puckman</cloneof>
+	<crc/>
+	<manufacturer>hack</manufacturer>
+	<year>1980</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

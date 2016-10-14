@@ -1,0 +1,249 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Atari / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="atetris" index="" image="">
+	<description>Tetris (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1988</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="atetrisa" index="" image="">
+	<description>Tetris (set 2)</description>
+	<cloneof>atetris</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1988</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="atetrisc" index="" image="">
+	<description>Tetris (cocktail set 1)</description>
+	<cloneof>atetris</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1989</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bsktball" index="" image="">
+	<description>Basketball</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1979</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="copsnrob" index="" image="">
+	<description>Cops&apos;n Robbers</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1976</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dominos" index="" image="">
+	<description>Dominos</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1977</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fastfred" index="" image="">
+	<description>Fast Freddie</description>
+	<cloneof>flyboy</cloneof>
+	<crc/>
+	<manufacturer>Kaneko (Atari license)</manufacturer>
+	<year>1982</year>
+	<genre>Sports</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gauntlet2p" index="" image="">
+	<description>Gauntlet (2 Players, rev 6)</description>
+	<cloneof>gauntlet</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gauntletr5" index="" image="">
+	<description>Gauntlet (rev 5)</description>
+	<cloneof>gauntlet</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gauntletr7" index="" image="">
+	<description>Gauntlet (rev 7)</description>
+	<cloneof>gauntlet</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="indytemp" index="" image="">
+	<description>Indiana Jones and the Temple of Doom (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1985</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jedi" index="" image="">
+	<description>Return of the Jedi</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="liberatr" index="" image="">
+	<description>Liberator (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="marble2" index="" image="">
+	<description>Marble Madness (set 2)</description>
+	<cloneof>marble</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1984</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="marble3" index="" image="">
+	<description>Marble Madness (set 3)</description>
+	<cloneof>marble</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1984</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="marble4" index="" image="">
+	<description>Marble Madness (set 4)</description>
+	<cloneof>marble</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1984</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nitedrvr" index="" image="">
+	<description>Night Driver</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1976</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peterpak" index="" image="">
+	<description>Peter Pack-Rat</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="roadblst" index="" image="">
+	<description>Road Blasters (upright, rev 4)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="roadrunn" index="" image="">
+	<description>Road Runner (rev 2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbrkout" index="" image="">
+	<description>Super Breakout (rev 04)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1978</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sprint1" index="" image="">
+	<description>Sprint 1</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari (Kee Games)</manufacturer>
+	<year>1978</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="suprmatkd" index="" image="">
+	<description>Super Missile Attack (not encrypted)</description>
+	<cloneof>missile</cloneof>
+	<crc/>
+	<manufacturer>Atari / General Computer Corporation</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="toobin" index="" image="">
+	<description>Toobin&apos; (rev 3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1988</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

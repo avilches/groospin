@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Mahjong / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="cafebrk" index="" image="">
+	<description>Mahjong Cafe Break</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nakanihon / Dynax</manufacturer>
+	<year>1999</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="makaijan" index="" image="">
+	<description>Makaijan [BET] (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dynax</manufacturer>
+	<year>1987</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjclub" index="" image="">
+	<description>Mahjong Club [BET] (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Xex</manufacturer>
+	<year>1986?</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjgaiden" index="" image="">
+	<description>Mahjong Gaiden [BET] (Japan 870803)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Central Denshi</manufacturer>
+	<year>1987</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjifb2" index="" image="">
+	<description>Mahjong If...? [BET](2921)</description>
+	<cloneof>mjifb</cloneof>
+	<crc/>
+	<manufacturer>Dynax</manufacturer>
+	<year>1990</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjifb3" index="" image="">
+	<description>Mahjong If...? [BET](2931)</description>
+	<cloneof>mjifb</cloneof>
+	<crc/>
+	<manufacturer>Dynax</manufacturer>
+	<year>1990</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjsenka" index="" image="">
+	<description>Mahjong Senka (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Visco</manufacturer>
+	<year>1986</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjyarou" index="" image="">
+	<description>Mahjong Yarou [BET] (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Visco / Video System</manufacturer>
+	<year>1986</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

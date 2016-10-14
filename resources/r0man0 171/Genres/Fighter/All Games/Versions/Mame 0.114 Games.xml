@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Fighter / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="capsnk" index="" image="">
+	<description>Capcom Vs. SNK Millennium Fight 2000 (JPN, USA, EXP, KOR, AUS) (Rev C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom / SNK</manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="doa2" index="" image="">
+	<description>Dead or Alive 2 (Rev A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Tecmo</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="doa2m" index="" image="">
+	<description>Dead or Alive 2 Millennium</description>
+	<cloneof>doa2</cloneof>
+	<crc/>
+	<manufacturer>Tecmo</manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dyndeka2b" index="" image="">
+	<description>Dynamite Deka 2 (Japan, Model 2B)</description>
+	<cloneof>dynamcop</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hmgeo" index="" image="">
+	<description>Heavy Metal Geomatrix (JPN, USA, EUR, ASI, AUS) (Rev B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>2001</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nwarr" index="" image="">
+	<description>Night Warriors: Darkstalkers&apos; Revenge (Euro 950316)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pjustic" index="" image="">
+	<description>Moero! Justice Gakuen (JPN) / Project Justice (USA, EXP, KOR, AUS) (Rev A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pstone" index="" image="">
+	<description>Power Stone (JPN, USA, EUR, ASI, AUS)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pstone2" index="" image="">
+	<description>Power Stone 2 (JPN, USA, EUR, ASI, AUS)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfex" index="" image="">
+	<description>Street Fighter EX (Euro 961219)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom / Arika</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="slasho" index="" image="">
+	<description>Slashout (JPN, USA, EXP, KOR, AUS)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="soulclbrub" index="" image="">
+	<description>Soul Calibur (US, SOC13/VER.B)</description>
+	<cloneof>soulclbr</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tekken3ua" index="" image="">
+	<description>Tekken 3 (US, TET3/VER.A)</description>
+	<cloneof>tekken3</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tsurugi" index="" image="">
+	<description>Tsurugi (ver EAB)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2002</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tsurugij" index="" image="">
+	<description>Tsurugi (ver JAC)</description>
+	<cloneof>tsurugi</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2002</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zombrvno" index="" image="">
+	<description>Zombie Revenge</description>
+	<cloneof>zombrvn</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

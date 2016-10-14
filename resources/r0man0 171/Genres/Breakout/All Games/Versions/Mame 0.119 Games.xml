@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Breakout / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="cannonbp" index="" image="">
+	<description>Cannon Ball (Pac-Man Hardware)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Novomatic</manufacturer>
+	<year>1985</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dominob" index="" image="">
+	<description>Domino Block</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Wonwoo Systems</manufacturer>
+	<year>1996</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

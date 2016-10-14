@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1P / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="choko" index="" image="">
+	<description>Janpai Puzzle Choukou (Japan 010820)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Mitchell (Capcom license)</manufacturer>
+	<year>2001</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ganbare" index="" image="">
+	<description>Ganbare! Marine Kun (Japan 2K0411)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>2000</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gdvsgd" index="" image="">
+	<description>Gundam vs. Gundam (GVS1 Ver. A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom / Bandai</manufacturer>
+	<year>2008</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gdvsgdnx" index="" image="">
+	<description>Gundam vs. Gundam Next</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom / Bandai</manufacturer>
+	<year>2009</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gundmct" index="" image="">
+	<description>Mobile Suit Gundam: Federation Vs. Zeon</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Banpresto / Capcom</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gundmgd" index="" image="">
+	<description>Mobile Suit Gundam: Federation Vs. Zeon (GDL-0001)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom / Banpresto</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gundmxgd" index="" image="">
+	<description>Mobile Suit Gundam: Federation Vs. Zeon DX (GDL-0006)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gundzaft" index="" image="">
+	<description>Gundam Seed: Federation vs. Z.A.F.T. (SED1 Ver. A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom / Banpresto</manufacturer>
+	<year>2005</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jyangoku" index="" image="">
+	<description>Jyangokushi: Haoh no Saihai (Japan 990527)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1999</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfp" index="" image="">
+	<description>Street Fighter (prototype)</description>
+	<cloneof>sf</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1987</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shiryu2" index="" image="">
+	<description>Strider Hiryu 2 (Japan 991213)</description>
+	<cloneof>strider2</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1999</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="slipstrm" index="" image="">
+	<description>Slip Stream (Brazil 950515)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1995</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="slipstrmh" index="" image="">
+	<description>Slip Stream (Hispanic 950515)</description>
+	<cloneof>slipstrm</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1995</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spawn" index="" image="">
+	<description>Spawn In the Demon&apos;s Hand (JPN, USA, EUR, ASI, AUS) (Rev B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Todd Mc Farlane / Capcom</manufacturer>
+	<year>1999</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="strider2" index="" image="">
+	<description>Strider 2 (USA 991213)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1999</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="strider2a" index="" image="">
+	<description>Strider 2 (Asia 991213)</description>
+	<cloneof>strider2</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1999</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zgundm" index="" image="">
+	<description>Mobile Suit Z-Gundam: A.E.U.G. vs Titans (ZGA1 Ver. A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom / Banpresto</manufacturer>
+	<year>2003</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zgundmdx" index="" image="">
+	<description>Mobile Suit Z-Gundam: A.E.U.G. vs Titans DX (ZDX1 Ver. A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom / Banpresto</manufacturer>
+	<year>2004</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

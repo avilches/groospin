@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Platform / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="cninjabl2" index="" image="">
+	<description>Caveman Ninja (bootleg, alt)</description>
+	<cloneof>cninja</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="congoa" index="" image="">
+	<description>Congo Bongo (Rev C, 3 board stack)</description>
+	<cloneof>congo</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dmnfrntpcb" index="" image="">
+	<description>Demon Front (68k label V107KR, ROM M107KR 11/03/03) (ARM label V106KR, ROM 10/16/03 S106KR) (JAMMA PCB)</description>
+	<cloneof>dmnfrnt</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2002</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drgninjab" index="" image="">
+	<description>Dragonninja (bootleg)</description>
+	<cloneof>baddudes</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kong" index="" image="">
+	<description>Kong (Donkey Kong conversion on Galaxian hardware)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito do Brasil</manufacturer>
+	<year>198?</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rastan" index="" image="">
+	<description>Rastan (World Rev 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rastanua" index="" image="">
+	<description>Rastan (US)</description>
+	<cloneof>rastan</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sboblbobl" index="" image="">
+	<description>Super Bobble Bobble (bootleg, set 1)</description>
+	<cloneof>bublbobl</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Datsu)</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wboy5" index="" image="">
+	<description>Wonder Boy (set 5, bootleg)</description>
+	<cloneof>wboy</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wboyub" index="" image="">
+	<description>Wonder Boy (US bootleg)</description>
+	<cloneof>wboy</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Nintendo / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="dkong3j" index="" image="">
+	<description>Donkey Kong 3 (Japan)</description>
+	<cloneof>dkong3</cloneof>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dkongjo1" index="" image="">
+	<description>Donkey Kong (Japan set 3)</description>
+	<cloneof>dkong</cloneof>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1981</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="marioj" index="" image="">
+	<description>Mario Bros. (Japan)</description>
+	<cloneof>mario</cloneof>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rtypeu" index="" image="">
+	<description>R-Type (US)</description>
+	<cloneof>rtype</cloneof>
+	<crc/>
+	<manufacturer>Irem (Nintendo of America license)</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spnchoutj" index="" image="">
+	<description>Super Punch-Out!! (Japan)</description>
+	<cloneof>spnchout</cloneof>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1984</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

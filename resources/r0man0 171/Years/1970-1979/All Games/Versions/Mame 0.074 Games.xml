@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1970-1979 / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="andromed" index="" image="">
+	<description>Andromeda (Japan?)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IPM</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="depthcho" index="" image="">
+	<description>Depthcharge (older)</description>
+	<cloneof>depthch</cloneof>
+	<crc/>
+	<manufacturer>Gremlin</manufacturer>
+	<year>1977</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="embargo" index="" image="">
+	<description>Embargo</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Cinematronics</manufacturer>
+	<year>1977</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="m21" index="" image="">
+	<description>21 (Mirco)</description>
+	<cloneof>hitme</cloneof>
+	<crc/>
+	<manufacturer>Mirco Games</manufacturer>
+	<year>1976</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

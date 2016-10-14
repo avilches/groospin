@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Miscellaneous / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="hotmind" index="" image="">
+	<description>Hot Mind (Hard Times hardware)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Playmark</manufacturer>
+	<year>1995</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="slikshot16" index="" image="">
+	<description>Slick Shot (V1.6)</description>
+	<cloneof>slikshot</cloneof>
+	<crc/>
+	<manufacturer>Grand Products/Incredible Technologies</manufacturer>
+	<year>1990</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,249 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2P sim / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="ar_airh" index="" image="">
+	<description>SportTime Table Hockey (Arcadia, set 1, V 2.1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Arcadia Systems</manufacturer>
+	<year>1988</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ar_fast" index="" image="">
+	<description>Magic Johnson&apos;s Fast Break (Arcadia, V 2.8)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Arcadia Systems</manufacturer>
+	<year>1988</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ar_rdwr" index="" image="">
+	<description>RoadWars (Arcadia, V 2.3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Arcadia Systems</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bayroutej" index="" image="">
+	<description>Bay Route (set 2, Japan) (FD1094 317-0115)</description>
+	<cloneof>bayroute</cloneof>
+	<crc/>
+	<manufacturer>Sunsoft / Sega</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bloodbroa" index="" image="">
+	<description>Blood Bros. (set 2)</description>
+	<cloneof>bloodbro</cloneof>
+	<crc/>
+	<manufacturer>TAD Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="eswatj" index="" image="">
+	<description>E-Swat - Cyber Police (set 2, Japan) (FD1094 317-0128)</description>
+	<cloneof>eswat</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jchan2" index="" image="">
+	<description>Jackie Chan in Fists of Fire</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kdeadeye" index="" image="">
+	<description>Dead Eye (GV054 UAA01)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="loffirej" index="" image="">
+	<description>Line of Fire / Bakudan Yarou (Japan) (FD1094 317-0134)</description>
+	<cloneof>loffire</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="luckywldj" index="" image="">
+	<description>Lucky &amp; Wild (Japan)</description>
+	<cloneof>luckywld</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mt_astrm" index="" image="">
+	<description>Alien Storm (Mega-Tech)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ordynej" index="" image="">
+	<description>Ordyne (Japan)</description>
+	<cloneof>ordyne</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sgunnerj" index="" image="">
+	<description>Steel Gunner (Japan)</description>
+	<cloneof>sgunner</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1990</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tetris3" index="" image="">
+	<description>Tetris (set 3, Japan, System 16A) (FD1094 317-0093a)</description>
+	<cloneof>tetris</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vf3" index="" image="">
+	<description>Virtua Fighter 3 (Revision C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vf3tb" index="" image="">
+	<description>Virtua Fighter 3 Team Battle</description>
+	<cloneof>vf3</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vs2" index="" image="">
+	<description>Virtua Striker 2 (Step 2.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1997</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vs215" index="" image="">
+	<description>Virtua Striker 2 (Step 1.5)</description>
+	<cloneof>vs2</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1997</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vs298" index="" image="">
+	<description>Virtua Striker 2 &apos;98 (Step 2.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1998</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vs29815" index="" image="">
+	<description>Virtua Striker 2 &apos;98 (Step 1.5)</description>
+	<cloneof>vs298</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1998</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vs299" index="" image="">
+	<description>Virtua Striker 2 &apos;99</description>
+	<cloneof>vs2v991</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1999</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vs2v991" index="" image="">
+	<description>Virtua Striker 2 &apos;99.1 (Revision B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1999</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wrestwar2" index="" image="">
+	<description>Wrestle War (set 2, World) (FD1094 317-0102)</description>
+	<cloneof>wrestwar</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wwallyj" index="" image="">
+	<description>Wally wo Sagase! (rev B, Japan) (FD1094 317-0197B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

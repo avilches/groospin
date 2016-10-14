@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Capcom / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="csclub1" index="" image="">
+	<description>Capcom Sports Club (Euro 970722)</description>
+	<cloneof>csclub</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1997</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddsom" index="" image="">
+	<description>Dungeons &amp; Dragons: Shadow over Mystara (Euro 960619)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mshvsfb" index="" image="">
+	<description>Marvel Super Heroes Vs. Street Fighter (Brazil 970827)</description>
+	<cloneof>mshvsf</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfz2b" index="" image="">
+	<description>Street Fighter Zero 2 (Brazil 960531)</description>
+	<cloneof>sfa2</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfz2br1" index="" image="">
+	<description>Street Fighter Zero 2 (Brazil 960304)</description>
+	<cloneof>sfa2</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sinvasn" index="" image="">
+	<description>Space Invasion (Europe)</description>
+	<cloneof>commando</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

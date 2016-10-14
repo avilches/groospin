@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Platform / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="dynabomb" index="" image="">
+	<description>Dynamite Bomber (Korea, Rev 1.5)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Limenko</manufacturer>
+	<year>2000</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ladymstr" index="" image="">
+	<description>Lady Master of Kung Fu</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko / Taito</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rastsaga" index="" image="">
+	<description>Rastan Saga (Japan Rev 1)</description>
+	<cloneof>rastan</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

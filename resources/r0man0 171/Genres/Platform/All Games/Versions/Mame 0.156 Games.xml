@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Platform / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="cadashj" index="" image="">
+	<description>Cadash (Japan, version 2)</description>
+	<cloneof>cadash</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cadashjo" index="" image="">
+	<description>Cadash (Japan, oldest version)</description>
+	<cloneof>cadash</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ckongdks" index="" image="">
+	<description>Donkey Kong (Spanish Crazy Kong bootleg)</description>
+	<cloneof>ckong</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1981</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jt104" index="" image="">
+	<description>JT-104 (title screen modification of Rad Action)</description>
+	<cloneof>ninjakd2</cloneof>
+	<crc/>
+	<manufacturer>UPL (United Amusements license)</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="secretagj" index="" image="">
+	<description>Secret Agent (Japan revision 2)</description>
+	<cloneof>secretag</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sonic2mb" index="" image="">
+	<description>Sonic The Hedgehog 2 (bootleg of Megadrive version)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>bootleg / Sega</manufacturer>
+	<year>1993</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vigilant" index="" image="">
+	<description>Vigilante (World, Rev E)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

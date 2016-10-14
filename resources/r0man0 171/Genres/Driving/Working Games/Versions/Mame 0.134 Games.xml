@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Driving / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="offroadt2p" index="" image="">
+	<description>Ironman Ivan Stewart&apos;s Super Off-Road Track-Pak (2 Players)</description>
+	<cloneof>offroadt</cloneof>
+	<crc/>
+	<manufacturer>Leland Corp.</manufacturer>
+	<year>1989</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shangonro" index="" image="">
+	<description>Super Hang-On (ride-on, Japan, FD1094 317-0038)</description>
+	<cloneof>shangon</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

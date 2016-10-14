@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Capcom / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="capbowl4" index="" image="">
+	<description>Capcom Bowling (set 4)</description>
+	<cloneof>capbowl</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies / Capcom</manufacturer>
+	<year>1988</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cybots" index="" image="">
+	<description>Cyberbots: Fullmetal Madness (Euro 950424)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mvscb" index="" image="">
+	<description>Marvel Vs. Capcom: Clash of Super Heroes (Brazil 980123)</description>
+	<cloneof>mvsc</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfa3b" index="" image="">
+	<description>Street Fighter Alpha 3 (Brazil 980629)</description>
+	<cloneof>sfa3</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfar2" index="" image="">
+	<description>Street Fighter Alpha: Warriors&apos; Dreams (Euro 950627)</description>
+	<cloneof>sfa</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfz2n" index="" image="">
+	<description>Street Fighter Zero 2 (Oceania 960229)</description>
+	<cloneof>sfa2</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

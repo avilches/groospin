@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Fighter / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="64street" index="" image="">
+	<description>64th. Street - A Detective Story (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="64streetj" index="" image="">
+	<description>64th. Street - A Detective Story (Japan, set 1)</description>
+	<cloneof>64street</cloneof>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="64streetja" index="" image="">
+	<description>64th. Street - A Detective Story (Japan, set 2)</description>
+	<cloneof>64street</cloneof>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ganjaja" index="" image="">
+	<description>Ganbare Jajamaru Saisho wa Goo / Ganbare Jajamaru Hop Step &amp; Jump</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1990</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hachoo" index="" image="">
+	<description>Hachoo!</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lomakai" index="" image="">
+	<description>Legend of Makai (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1988</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="makaiden" index="" image="">
+	<description>Makai Densetsu (Japan)</description>
+	<cloneof>lomakai</cloneof>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1988</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tshingen" index="" image="">
+	<description>Shingen Samurai-Fighter (Japan, English)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1988</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tshingena" index="" image="">
+	<description>Takeda Shingen (Japan, Japanese)</description>
+	<cloneof>tshingen</cloneof>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1988</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vandykejal" index="" image="">
+	<description>Vandyke (Jaleco, set 1)</description>
+	<cloneof>vandyke</cloneof>
+	<crc/>
+	<manufacturer>UPL (Jaleco license)</manufacturer>
+	<year>1990</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vandykejal2" index="" image="">
+	<description>Vandyke (Jaleco, set 2)</description>
+	<cloneof>vandyke</cloneof>
+	<crc/>
+	<manufacturer>UPL (Jaleco license)</manufacturer>
+	<year>1990</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

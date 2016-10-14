@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Boxing / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="hwchamp" index="" image="">
+	<description>Heavyweight Champ</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kingofb" index="" image="">
+	<description>King of Boxer (English)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Wood Place Inc.</manufacturer>
+	<year>1985</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ringking" index="" image="">
+	<description>Ring King (US set 1)</description>
+	<cloneof>kingofb</cloneof>
+	<crc/>
+	<manufacturer>Wood Place Inc. (Data East USA license)</manufacturer>
+	<year>1985</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ringking3" index="" image="">
+	<description>Ring King (US set 3)</description>
+	<cloneof>kingofb</cloneof>
+	<crc/>
+	<manufacturer>Wood Place Inc. (Data East USA license)</manufacturer>
+	<year>1985</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

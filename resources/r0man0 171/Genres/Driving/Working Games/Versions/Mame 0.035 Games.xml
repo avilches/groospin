@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Driving / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="badlands" index="" image="">
+	<description>Bad Lands</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1989</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ledstorm" index="" image="">
+	<description>Led Storm (US)</description>
+	<cloneof>madgear</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rallybik" index="" image="">
+	<description>Rally Bike / Dash Yarou</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Toaplan / Taito Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="speedfrk" index="" image="">
+	<description>Speed Freak</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Vectorbeam</manufacturer>
+	<year>1979</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,279 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>4P sim / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="cyberbal" index="" image="">
+	<description>Cyberball (rev 4)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1988</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cyberbalt1" index="" image="">
+	<description>Tournament Cyberball 2072 (rev 1)</description>
+	<cloneof>cyberbal</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1989</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="demoderm" index="" image="">
+	<description>Demolition Derby (MCR-3 Mono Board Version)</description>
+	<cloneof>demoderb</cloneof>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1984</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dsoccr94" index="" image="">
+	<description>Dream Soccer &apos;94 (World, M107 hardware)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem (Data East Corporation license)</manufacturer>
+	<year>1994</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fsoccerb" index="" image="">
+	<description>Fighting Soccer (Joystick hack bootleg)</description>
+	<cloneof>fsoccer</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1988</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="goldmedl" index="" image="">
+	<description>Gold Medalist (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1988</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="growla" index="" image="">
+	<description>Growl (World)</description>
+	<cloneof>growl</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1990</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hook" index="" image="">
+	<description>Hook (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hooku" index="" image="">
+	<description>Hook (US)</description>
+	<cloneof>hook</cloneof>
+	<crc/>
+	<manufacturer>Irem America</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kicknrun" index="" image="">
+	<description>Kick and Run (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mexico86" index="" image="">
+	<description>Mexico 86 (bootleg of Kick and Run) (set 1)</description>
+	<cloneof>kicknrun</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1986</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nbajamr2" index="" image="">
+	<description>NBA Jam (rev 2.00 02/10/93)</description>
+	<cloneof>nbajam</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1993</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nbajamte" index="" image="">
+	<description>NBA Jam TE (rev 4.0 03/23/94)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1994</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="passht4b" index="" image="">
+	<description>Passing Shot (4 Players) (bootleg)</description>
+	<cloneof>passsht</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1988</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quartet" index="" image="">
+	<description>Quartet (Rev A, 8751 315-5194)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quarteta" index="" image="">
+	<description>Quartet (8751 315-5194)</description>
+	<cloneof>quartet</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="runark" index="" image="">
+	<description>Runark (Japan)</description>
+	<cloneof>growl</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="simpsons" index="" image="">
+	<description>The Simpsons (4 Players World, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="snowbro2" index="" image="">
+	<description>Snow Bros. 2 - With New Elves / Otenki Paradise</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Hanafram</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="soccer" index="" image="">
+	<description>Atari Soccer</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1980</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssriders" index="" image="">
+	<description>Sunset Riders (4 Players ver EAC)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssridersuac" index="" image="">
+	<description>Sunset Riders (4 Players ver UAC)</description>
+	<cloneof>ssriders</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssridersuda" index="" image="">
+	<description>Sunset Riders (4 Players ver UDA)</description>
+	<cloneof>ssriders</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tmht" index="" image="">
+	<description>Teenage Mutant Hero Turtles (UK 4 Players, set 1)</description>
+	<cloneof>tmnt</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tmnt2" index="" image="">
+	<description>Teenage Mutant Ninja Turtles - Turtles in Time (4 Players ver UAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tmnt2a" index="" image="">
+	<description>Teenage Mutant Ninja Turtles - Turtles in Time (4 Players ver ADA)</description>
+	<cloneof>tmnt2</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xmen" index="" image="">
+	<description>X-Men (4 Players ver UBB)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

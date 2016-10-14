@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Soccer / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="asoccer" index="" image="">
+	<description>American Soccer</description>
+	<cloneof>idsoccer</cloneof>
+	<crc/>
+	<manufacturer>Universal</manufacturer>
+	<year>1987</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="idsoccera" index="" image="">
+	<description>Indoor Soccer (set 2)</description>
+	<cloneof>idsoccer</cloneof>
+	<crc/>
+	<manufacturer>Universal</manufacturer>
+	<year>1985</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vs299b" index="" image="">
+	<description>Virtua Striker 2 &apos;99 (Revision B)</description>
+	<cloneof>vs2v991</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1999</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vs42006" index="" image="">
+	<description>Virtua Striker 4 Ver.2006 (Japan) (Rev D) (GDT-0020D)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2006</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

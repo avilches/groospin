@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Card Battle / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="cntrygrla" index="" image="">
+	<description>Country Girl (Japan set 2)</description>
+	<cloneof>cntrygrl</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1984</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dphl" index="" image="">
+	<description>Draw Poker HI-LO (M.Kramer)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>M.Kramer Manufacturing.</manufacturer>
+	<year>1983</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dphla" index="" image="">
+	<description>Draw Poker HI-LO (Alt)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1983</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dphljp" index="" image="">
+	<description>Draw Poker HI-LO (Japanese)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1983</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pma" index="" image="">
+	<description>PMA Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>PMA</manufacturer>
+	<year>1983</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smshilo" index="" image="">
+	<description>HI-LO Double Up Joker Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SMS Manufacturing Corp.</manufacturer>
+	<year>1983</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tpoker2" index="" image="">
+	<description>Turbo Poker 2</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Micro Manufacturing</manufacturer>
+	<year>1993</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

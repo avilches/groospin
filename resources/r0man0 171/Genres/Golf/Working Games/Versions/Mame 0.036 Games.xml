@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Golf / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="majtitl2" index="" image="">
+	<description>Major Title 2 (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1992</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="majtitlej" index="" image="">
+	<description>Major Title (Japan)</description>
+	<cloneof>majtitle</cloneof>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1990</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="minigolf" index="" image="">
+	<description>Mini Golf (11/25/85)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally/Sente</manufacturer>
+	<year>1985</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="minigolf2" index="" image="">
+	<description>Mini Golf (10/8/85)</description>
+	<cloneof>minigolf</cloneof>
+	<crc/>
+	<manufacturer>Bally/Sente</manufacturer>
+	<year>1985</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="skingame" index="" image="">
+	<description>The Irem Skins Game (US set 1)</description>
+	<cloneof>majtitl2</cloneof>
+	<crc/>
+	<manufacturer>Irem America</manufacturer>
+	<year>1992</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="skingame2" index="" image="">
+	<description>The Irem Skins Game (US set 2)</description>
+	<cloneof>majtitl2</cloneof>
+	<crc/>
+	<manufacturer>Irem America</manufacturer>
+	<year>1992</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

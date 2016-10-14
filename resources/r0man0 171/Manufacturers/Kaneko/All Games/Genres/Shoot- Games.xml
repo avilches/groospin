@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Kaneko / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="airbustr" index="" image="">
+	<description>Air Buster: Trouble Specialty Raid Unit (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko (Namco license)</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="airbustrj" index="" image="">
+	<description>Air Buster: Trouble Specialty Raid Unit (Japan)</description>
+	<cloneof>airbustr</cloneof>
+	<crc/>
+	<manufacturer>Kaneko (Namco license)</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bakubrkr" index="" image="">
+	<description>Bakuretsu Breaker</description>
+	<cloneof>explbrkr</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cyvern" index="" image="">
+	<description>Cyvern (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1998</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cyvernj" index="" image="">
+	<description>Cyvern (Japan)</description>
+	<cloneof>cyvern</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1998</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drtoppel" index="" image="">
+	<description>Dr. Toppel&apos;s Adventure (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko / Taito Corporation Japan</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drtoppelj" index="" image="">
+	<description>Dr. Toppel&apos;s Tankentai (Japan)</description>
+	<cloneof>drtoppel</cloneof>
+	<crc/>
+	<manufacturer>Kaneko / Taito Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drtoppelu" index="" image="">
+	<description>Dr. Toppel&apos;s Adventure (US)</description>
+	<cloneof>drtoppel</cloneof>
+	<crc/>
+	<manufacturer>Kaneko / Taito America Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="explbrkr" index="" image="">
+	<description>Explosive Breaker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hvyunit" index="" image="">
+	<description>Heavy Unit (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko / Taito</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hvyunitj" index="" image="">
+	<description>Heavy Unit (Japan, Newer)</description>
+	<cloneof>hvyunit</cloneof>
+	<crc/>
+	<manufacturer>Kaneko / Taito</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hvyunitjo" index="" image="">
+	<description>Heavy Unit (Japan, Older)</description>
+	<cloneof>hvyunit</cloneof>
+	<crc/>
+	<manufacturer>Kaneko / Taito</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hvyunitu" index="" image="">
+	<description>Heavy Unit -U.S.A. Version- (US)</description>
+	<cloneof>hvyunit</cloneof>
+	<crc/>
+	<manufacturer>Kaneko / Taito</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mgcrystl" index="" image="">
+	<description>Magical Crystals (World, 92/01/10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mgcrystlj" index="" image="">
+	<description>Magical Crystals (Japan, 92/01/13)</description>
+	<cloneof>mgcrystl</cloneof>
+	<crc/>
+	<manufacturer>Kaneko (Atlus license)</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mgcrystlo" index="" image="">
+	<description>Magical Crystals (World, 91/12/10)</description>
+	<cloneof>mgcrystl</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="packbang" index="" image="">
+	<description>Pack&apos;n Bang Bang (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1994</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="redclashk" index="" image="">
+	<description>Red Clash (Kaneko)</description>
+	<cloneof>redclash</cloneof>
+	<crc/>
+	<manufacturer>Tehkan (Kaneko license)</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sengekis" index="" image="">
+	<description>Sengeki Striker (Asia)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko / Warashi</manufacturer>
+	<year>1997</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sengekisj" index="" image="">
+	<description>Sengeki Striker (Japan)</description>
+	<cloneof>sengekis</cloneof>
+	<crc/>
+	<manufacturer>Kaneko / Warashi</manufacturer>
+	<year>1997</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="yamagchi" index="" image="">
+	<description>Go Go Mr. Yamaguchi / Yuke Yuke Yamaguchi-kun</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko / Taito</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

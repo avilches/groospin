@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Puzzle / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="crzcross" index="" image="">
+	<description>Crazy Cross (ver EAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1994</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cuebrick" index="" image="">
+	<description>Cue Brick (World, version D)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1989</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cuebrickj" index="" image="">
+	<description>Cue Brick (Japan)</description>
+	<cloneof>cuebrick</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1989</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gutangtn" index="" image="">
+	<description>Guttang Gottong</description>
+	<cloneof>locomotn</cloneof>
+	<crc/>
+	<manufacturer>Konami (Sega license)</manufacturer>
+	<year>1982</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hexion" index="" image="">
+	<description>Hexion (Japan ver JAB)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lacrazyc" index="" image="">
+	<description>Let&apos;s Attack Crazy Cross (GV027 Asia 1.10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="locomotn" index="" image="">
+	<description>Loco-Motion</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami (Centuri license)</manufacturer>
+	<year>1982</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="puzldama" index="" image="">
+	<description>Taisen Puzzle-dama (ver JAA)</description>
+	<cloneof>crzcross</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1994</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="susume" index="" image="">
+	<description>Susume! Taisen Puzzle-Dama (GV027 Japan 1.20)</description>
+	<cloneof>lacrazyc</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tkmmpzdm" index="" image="">
+	<description>Tokimeki Memorial Taisen Puzzle-dama (ver JAB)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1995</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

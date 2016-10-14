@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2P sim / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="contra" index="" image="">
+	<description>Contra (US / Asia, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mslug5h" index="" image="">
+	<description>Metal Slug 5 (NGH-2680)</description>
+	<cloneof>mslug5</cloneof>
+	<crc/>
+	<manufacturer>SNK Playmore</manufacturer>
+	<year>2003</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rbff1a" index="" image="">
+	<description>Real Bout Fatal Fury / Real Bout Garou Densetsu (bug fix revision)</description>
+	<cloneof>rbff1</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rdfta" index="" image="">
+	<description>Raiden Fighters (Austria)</description>
+	<cloneof>rdft</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>1996</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="redhawke" index="" image="">
+	<description>Red Hawk (Excellent Co., Ltd)</description>
+	<cloneof>stagger1</cloneof>
+	<crc/>
+	<manufacturer>Afega (Excellent Co. license)</manufacturer>
+	<year>1997</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sandscrpa" index="" image="">
+	<description>Sand Scorpion (Earlier)</description>
+	<cloneof>sandscrp</cloneof>
+	<crc/>
+	<manufacturer>Face</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tdragon" index="" image="">
+	<description>Thunder Dragon (8th Jan. 1992, unprotected)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>NMK (Tecmo license)</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wpksocv2" index="" image="">
+	<description>World PK Soccer V2 (ver 1.1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1996</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zerowingw" index="" image="">
+	<description>Zero Wing (2P set, Williams license)</description>
+	<cloneof>zerowing</cloneof>
+	<crc/>
+	<manufacturer>Toaplan (Williams license)</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

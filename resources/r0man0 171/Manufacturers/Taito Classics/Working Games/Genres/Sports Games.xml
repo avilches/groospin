@@ -1,0 +1,749 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Taito / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="10yard85" index="" image="">
+	<description>10-Yard Fight &apos;85 (US, Taito license)</description>
+	<cloneof>10yard</cloneof>
+	<crc/>
+	<manufacturer>Irem (Taito license)</manufacturer>
+	<year>1985</year>
+	<genre>Sports / Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="40love" index="" image="">
+	<description>Forty-Love</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Sports / Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="alpine" index="" image="">
+	<description>Alpine Ski (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Sports / Skiing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="alpinea" index="" image="">
+	<description>Alpine Ski (set 2)</description>
+	<cloneof>alpine</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Sports / Skiing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ashnojoe" index="" image="">
+	<description>Ashita no Joe (Japan)</description>
+	<cloneof>scessjoe</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation / Wave</manufacturer>
+	<year>1990</year>
+	<genre>Sports / Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bigevglf" index="" image="">
+	<description>Big Event Golf (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Sports / Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bigevglfj" index="" image="">
+	<description>Big Event Golf (Japan)</description>
+	<cloneof>bigevglf</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Sports / Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bking" index="" image="">
+	<description>Birdie King</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Sports / Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bking2" index="" image="">
+	<description>Birdie King 2</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Sports / Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bking3" index="" image="">
+	<description>Birdie King 3</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Sports / Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="champwr" index="" image="">
+	<description>Champion Wrestler (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1989</year>
+	<genre>Sports / Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="champwrj" index="" image="">
+	<description>Champion Wrestler (Japan)</description>
+	<cloneof>champwr</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1989</year>
+	<genre>Sports / Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="champwru" index="" image="">
+	<description>Champion Wrestler (US)</description>
+	<cloneof>champwr</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1989</year>
+	<genre>Sports / Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cupfinal" index="" image="">
+	<description>Taito Cup Finals (Ver 1.0O 1993/02/28)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1993</year>
+	<genre>Sports / Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dleague" index="" image="">
+	<description>Dynamite League (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Sports / Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dleaguej" index="" image="">
+	<description>Dynamite League (Japan)</description>
+	<cloneof>dleague</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Sports / Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="einning" index="" image="">
+	<description>Extra Inning / Ball Park II</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway / Taito</manufacturer>
+	<year>1978</year>
+	<genre>Sports / Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="euroch92" index="" image="">
+	<description>Euro Champ &apos;92 (World)</description>
+	<cloneof>footchmp</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1992</year>
+	<genre>Sports / Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="excthour" index="" image="">
+	<description>Exciting Hour</description>
+	<cloneof>matmania</cloneof>
+	<crc/>
+	<manufacturer>Technos Japan (Taito license)</manufacturer>
+	<year>1985</year>
+	<genre>Sports / Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fieldday" index="" image="">
+	<description>Field Day</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Sports / Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="finalb" index="" image="">
+	<description>Final Blow (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1988</year>
+	<genre>Sports / Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="finalbj" index="" image="">
+	<description>Final Blow (Japan)</description>
+	<cloneof>finalb</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Sports / Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="finalbu" index="" image="">
+	<description>Final Blow (US)</description>
+	<cloneof>finalb</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Sports / Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="footchmp" index="" image="">
+	<description>Football Champ (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1990</year>
+	<genre>Sports / Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gogold" index="" image="">
+	<description>Go For The Gold (Japan)</description>
+	<cloneof>recordbr</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Sports / Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gsword" index="" image="">
+	<description>Great Swordsman (World?)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Allumer / Taito Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Sports / Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gsword2" index="" image="">
+	<description>Great Swordsman (Japan?)</description>
+	<cloneof>gsword</cloneof>
+	<crc/>
+	<manufacturer>Allumer / Taito Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Sports / Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hitice" index="" image="">
+	<description>Hit the Ice (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation (Williams license)</manufacturer>
+	<year>1990</year>
+	<genre>Sports / Hockey</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hiticej" index="" image="">
+	<description>Hit the Ice (Japan)</description>
+	<cloneof>hitice</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation (licensed from Midway)</manufacturer>
+	<year>1990</year>
+	<genre>Sports / Hockey</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="horshoes" index="" image="">
+	<description>American Horseshoes (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Sports</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hotsmash" index="" image="">
+	<description>Vs. Hot Smash</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko / Taito</manufacturer>
+	<year>1987</year>
+	<genre>Sports / Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hthero" index="" image="">
+	<description>Hat Trick Hero (Japan)</description>
+	<cloneof>footchmp</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Sports / Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hthero93" index="" image="">
+	<description>Hat Trick Hero &apos;93 (Ver 1.0J 1993/02/28)</description>
+	<cloneof>cupfinal</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Sports / Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hthero93u" index="" image="">
+	<description>Hat Trick Hero &apos;93 (Ver 1.0A 1993/02/28)</description>
+	<cloneof>cupfinal</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Sports / Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hthero94" index="" image="">
+	<description>Hat Trick Hero &apos;94 (Ver 2.2A 1994/05/26)</description>
+	<cloneof>intcup94</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1994</year>
+	<genre>Sports / Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hthero95" index="" image="">
+	<description>Hat Trick Hero &apos;95 (Ver 2.5J 1994/11/03)</description>
+	<cloneof>pwrgoal</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1994</year>
+	<genre>Sports / Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hthero95u" index="" image="">
+	<description>Hat Trick Hero &apos;95 (Ver 2.5A 1994/11/03)</description>
+	<cloneof>pwrgoal</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1994</year>
+	<genre>Sports / Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="intcup94" index="" image="">
+	<description>International Cup &apos;94 (Ver 2.2O 1994/05/26)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1994</year>
+	<genre>Sports / Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="josvolly" index="" image="">
+	<description>Joshi Volleyball</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Allumer / Taito Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Sports / Volleyball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kicknrun" index="" image="">
+	<description>Kick and Run (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Sports / Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kicknrunu" index="" image="">
+	<description>Kick and Run (US)</description>
+	<cloneof>kicknrun</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corp</manufacturer>
+	<year>1986</year>
+	<genre>Sports / Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="koshien" index="" image="">
+	<description>Ah Eikou no Koshien (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Sports / Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ksayakyu" index="" image="">
+	<description>Kusayakyuu</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1985</year>
+	<genre>Sports / Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="maniach" index="" image="">
+	<description>Mania Challenge (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Technos Japan (Taito America license)</manufacturer>
+	<year>1986</year>
+	<genre>Sports / Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="maniach2" index="" image="">
+	<description>Mania Challenge (set 2)</description>
+	<cloneof>maniach</cloneof>
+	<crc/>
+	<manufacturer>Technos Japan (Taito America license)</manufacturer>
+	<year>1986</year>
+	<genre>Sports / Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="matmania" index="" image="">
+	<description>Mat Mania</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Technos Japan (Taito America license)</manufacturer>
+	<year>1985</year>
+	<genre>Sports / Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pbillian" index="" image="">
+	<description>Prebillian</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko / Taito</manufacturer>
+	<year>1986</year>
+	<genre>Sports / Pool and Darts</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="prmtmfgt" index="" image="">
+	<description>Prime Time Fighter (Ver 2.1A 1993/05/21) (New Version)</description>
+	<cloneof>trstar</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Sports / Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="prmtmfgto" index="" image="">
+	<description>Prime Time Fighter (Ver 2.1A 1993/05/21) (Old Version)</description>
+	<cloneof>trstar</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Sports / Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pwrgoal" index="" image="">
+	<description>Taito Power Goal (Ver 2.5O 1994/11/03)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1994</year>
+	<genre>Sports / Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="recordbr" index="" image="">
+	<description>Recordbreaker (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1988</year>
+	<genre>Sports / Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ringfgt" index="" image="">
+	<description>Ring Fighter (set 1)</description>
+	<cloneof>vsgongf</cloneof>
+	<crc/>
+	<manufacturer>Kaneko (Taito license)</manufacturer>
+	<year>1984</year>
+	<genre>Sports / Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ringfgt2" index="" image="">
+	<description>Ring Fighter (set 2)</description>
+	<cloneof>vsgongf</cloneof>
+	<crc/>
+	<manufacturer>Kaneko (Taito license)</manufacturer>
+	<year>1984</year>
+	<genre>Sports / Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ringrage" index="" image="">
+	<description>Ring Rage (Ver 2.3O 1992/08/09)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1992</year>
+	<genre>Sports / Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ringragej" index="" image="">
+	<description>Ring Rage (Ver 2.3J 1992/08/09)</description>
+	<cloneof>ringrage</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1992</year>
+	<genre>Sports / Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ringrageu" index="" image="">
+	<description>Ring Rage (Ver 2.3A 1992/08/09)</description>
+	<cloneof>ringrage</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1992</year>
+	<genre>Sports / Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbowling" index="" image="">
+	<description>Strike Bowling</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Sports / Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scessjoe" index="" image="">
+	<description>Success Joe (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation / Wave</manufacturer>
+	<year>1990</year>
+	<genre>Sports / Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scfinals" index="" image="">
+	<description>Super Cup Finals (Ver 2.2O 1994/01/13)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1993</year>
+	<genre>Sports / Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scfinalso" index="" image="">
+	<description>Super Cup Finals (Ver 2.1O 1993/11/19)</description>
+	<cloneof>scfinals</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1993</year>
+	<genre>Sports / Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfchamp" index="" image="">
+	<description>Super Football Champ (Ver 2.5O)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1995</year>
+	<genre>Sports / Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfchampj" index="" image="">
+	<description>Super Football Champ (Ver 2.4J)</description>
+	<cloneof>sfchamp</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1995</year>
+	<genre>Sports / Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfchampo" index="" image="">
+	<description>Super Football Champ (Ver 2.4O)</description>
+	<cloneof>sfchamp</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1995</year>
+	<genre>Sports / Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfchampu" index="" image="">
+	<description>Super Football Champ (Ver 2.4A)</description>
+	<cloneof>sfchamp</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1995</year>
+	<genre>Sports / Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="slapshot" index="" image="">
+	<description>Slap Shot (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1994</year>
+	<genre>Sports / Hockey</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tornbase" index="" image="">
+	<description>Tornado Baseball / Ball Park</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dave Nutting Associates / Midway / Taito</manufacturer>
+	<year>1976</year>
+	<genre>Sports / Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trstar" index="" image="">
+	<description>Top Ranking Stars (Ver 2.1O 1993/05/21) (New Version)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1993</year>
+	<genre>Sports / Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trstarj" index="" image="">
+	<description>Top Ranking Stars (Ver 2.1J 1993/05/21) (New Version)</description>
+	<cloneof>trstar</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Sports / Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trstaro" index="" image="">
+	<description>Top Ranking Stars (Ver 2.1O 1993/05/21) (Old Version)</description>
+	<cloneof>trstar</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1993</year>
+	<genre>Sports / Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trstaroj" index="" image="">
+	<description>Top Ranking Stars (Ver 2.1J 1993/05/21) (Old Version)</description>
+	<cloneof>trstar</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Sports / Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="undoukai" index="" image="">
+	<description>The Undoukai (Japan)</description>
+	<cloneof>fieldday</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Sports / Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="victnine" index="" image="">
+	<description>Victorious Nine</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1984</year>
+	<genre>Sports / Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vs10yardu" index="" image="">
+	<description>Vs 10-Yard Fight (US, Taito license)</description>
+	<cloneof>10yard</cloneof>
+	<crc/>
+	<manufacturer>Irem (Taito license)</manufacturer>
+	<year>1984</year>
+	<genre>Sports / Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="waterski" index="" image="">
+	<description>Water Ski</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Sports / Skiing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

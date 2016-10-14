@@ -1,0 +1,279 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1980-1989 / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="3stooges" index="" image="">
+	<description>The Three Stooges In Brides Is Brides (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Mylstar</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="3stoogesa" index="" image="">
+	<description>The Three Stooges In Brides Is Brides (set 2)</description>
+	<cloneof>3stooges</cloneof>
+	<crc/>
+	<manufacturer>Mylstar</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bbusters" index="" image="">
+	<description>Beast Busters (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1989</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bbustersu" index="" image="">
+	<description>Beast Busters (US, Version 3)</description>
+	<cloneof>bbusters</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1989</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bbustersua" index="" image="">
+	<description>Beast Busters (US, Version 2)</description>
+	<cloneof>bbusters</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1989</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bullet" index="" image="">
+	<description>Bullet (FD1094 317-0041)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bulletd" index="" image="">
+	<description>Bullet (bootleg of FD1094 317-0041 set)</description>
+	<cloneof>bullet</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="darkadv" index="" image="">
+	<description>Dark Adventure</description>
+	<cloneof>devilw</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gground" index="" image="">
+	<description>Gain Ground (World, 3 Players, Floppy Based, FD1094 317-0058-03d Rev A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ghostb3" index="" image="">
+	<description>The Real Ghostbusters (US 3 Players)</description>
+	<cloneof>ghostb</cloneof>
+	<crc/>
+	<manufacturer>Data East USA</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="grudge" index="" image="">
+	<description>Grudge Match (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>198?</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hotrod" index="" image="">
+	<description>Hot Rod (World, 3 Players, Turbo set 1, Floppy Based)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hotroda" index="" image="">
+	<description>Hot Rod (World, 3 Players, Turbo set 2, Floppy Based)</description>
+	<cloneof>hotrod</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="offroad" index="" image="">
+	<description>Ironman Ivan Stewart&apos;s Super Off-Road</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Leland Corp.</manufacturer>
+	<year>1989</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="offroadt" index="" image="">
+	<description>Ironman Ivan Stewart&apos;s Super Off-Road Track-Pak</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Leland Corp.</manufacturer>
+	<year>1989</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="powerdrv" index="" image="">
+	<description>Power Drive</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rampage" index="" image="">
+	<description>Rampage (Rev 3, 8/27/86)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rampage2" index="" image="">
+	<description>Rampage (Rev 2, 8/4/86)</description>
+	<cloneof>rampage</cloneof>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssprint" index="" image="">
+	<description>Super Sprint (rev 4)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssprint1" index="" image="">
+	<description>Super Sprint (rev 1)</description>
+	<cloneof>ssprint</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssprint3" index="" image="">
+	<description>Super Sprint (rev 3)</description>
+	<cloneof>ssprint</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssprintf" index="" image="">
+	<description>Super Sprint (French)</description>
+	<cloneof>ssprint</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssprintg" index="" image="">
+	<description>Super Sprint (German, rev 2)</description>
+	<cloneof>ssprint</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssprintg1" index="" image="">
+	<description>Super Sprint (German, rev 1)</description>
+	<cloneof>ssprint</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssprints" index="" image="">
+	<description>Super Sprint (Spanish)</description>
+	<cloneof>ssprint</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stargrds" index="" image="">
+	<description>Star Guards</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xenophob" index="" image="">
+	<description>Xenophobe</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

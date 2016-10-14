@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>4P sim / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="ddcrewu" index="" image="">
+	<description>D. D. Crew (US, 4 Players) (FD1094 317-0186)</description>
+	<cloneof>ddcrew</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dunkmniajc" index="" image="">
+	<description>Dunk Mania (Japan, DM1/VER.C)</description>
+	<cloneof>dunkmnia</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1995</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dunkshoto" index="" image="">
+	<description>Dunk Shot (FD1089A 317-0022)</description>
+	<cloneof>dunkshot</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dynablst" index="" image="">
+	<description>Dynablaster / Bomber Man</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem (licensed from Hudson Soft)</manufacturer>
+	<year>1991</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dynablstb" index="" image="">
+	<description>Dynablaster / Bomber Man (bootleg)</description>
+	<cloneof>dynablst</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Seitu)</manufacturer>
+	<year>1991</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="embargo" index="" image="">
+	<description>Embargo</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Cinematronics</manufacturer>
+	<year>1977</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="goldmedlb" index="" image="">
+	<description>Gold Medalist (bootleg)</description>
+	<cloneof>goldmedl</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1988</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="heatbrl2" index="" image="">
+	<description>Heated Barrel (World version 2)</description>
+	<cloneof>heatbrl</cloneof>
+	<crc/>
+	<manufacturer>TAD Corporation</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="heatbrlo" index="" image="">
+	<description>Heated Barrel (World old version)</description>
+	<cloneof>heatbrl</cloneof>
+	<crc/>
+	<manufacturer>TAD Corporation</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="heatbrlu" index="" image="">
+	<description>Heated Barrel (US)</description>
+	<cloneof>heatbrl</cloneof>
+	<crc/>
+	<manufacturer>TAD Corporation</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kovsh" index="" image="">
+	<description>Knights of Valour Super Heroes / Sangoku Senki Super Heroes (ver. 104, CN)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rungun2" index="" image="">
+	<description>Run and Gun 2 (ver UAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rushhero" index="" image="">
+	<description>Rushing Heroes (ver UAB)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="slamdnk2" index="" image="">
+	<description>Slam Dunk 2 (ver JAA)</description>
+	<cloneof>rungun2</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="soccerss" index="" image="">
+	<description>Soccer Superstars (ver EAC)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1994</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tdfever2" index="" image="">
+	<description>TouchDown Fever 2</description>
+	<cloneof>tdfever</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1988</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="touchgoe" index="" image="">
+	<description>Touch &amp; Go (earlier revision)</description>
+	<cloneof>touchgo</cloneof>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1995</year>
+	<genre>Volleyball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vsbballj" index="" image="">
+	<description>Vs. BaseBall (Japan, set BA A-3)</description>
+	<cloneof>vsbball</cloneof>
+	<crc/>
+	<manufacturer>Nintendo Co., Ltd.</manufacturer>
+	<year>1984</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

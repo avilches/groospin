@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Kaneko / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="gtmr2u" index="" image="">
+	<description>Great 1000 Miles Rally 2 USA (95/05/18)</description>
+	<cloneof>gtmr2</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1995</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kabukiz" index="" image="">
+	<description>Kabuki-Z (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko / Taito Corporation Japan</manufacturer>
+	<year>1988</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kabukizj" index="" image="">
+	<description>Kabuki-Z (Japan)</description>
+	<cloneof>kabukiz</cloneof>
+	<crc/>
+	<manufacturer>Kaneko / Taito Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

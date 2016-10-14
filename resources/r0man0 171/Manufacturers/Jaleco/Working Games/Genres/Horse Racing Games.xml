@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Jaleco / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="photof" index="" image="">
+	<description>Photo Finish (bootleg?)</description>
+	<cloneof>wwjgtin</cloneof>
+	<crc/>
+	<manufacturer>Jaleco / Casio</manufacturer>
+	<year>1991</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wwjgtin" index="" image="">
+	<description>Wai Wai Jockey Gate-In!</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco / Casio</manufacturer>
+	<year>1984</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

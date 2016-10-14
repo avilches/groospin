@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Gun / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="area51mx" index="" image="">
+	<description>Area 51 / Maximum Force Duo v2.0</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1998</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="eggventr" index="" image="">
+	<description>Egg Venture (Release 10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>The Game Room</manufacturer>
+	<year>1997</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="eggventrd" index="" image="">
+	<description>Egg Venture Deluxe</description>
+	<cloneof>eggventr</cloneof>
+	<crc/>
+	<manufacturer>The Game Room</manufacturer>
+	<year>1997</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="le2u" index="" image="">
+	<description>Lethal Enforcers II: Gun Fighters (ver UAA)</description>
+	<cloneof>le2</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1994</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lethalj" index="" image="">
+	<description>Lethal Justice (Version 2.3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>The Game Room</manufacturer>
+	<year>1996</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="opwolf3" index="" image="">
+	<description>Operation Wolf 3 (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1994</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="opwolf3u" index="" image="">
+	<description>Operation Wolf 3 (US)</description>
+	<cloneof>opwolf3</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1994</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sgunner" index="" image="">
+	<description>Steel Gunner (Rev B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1990</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sgunner2j" index="" image="">
+	<description>Steel Gunner 2 (Japan, Rev A)</description>
+	<cloneof>sgunner2</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1991</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="term2la1" index="" image="">
+	<description>Terminator 2 - Judgment Day (rev LA1 11/01/91)</description>
+	<cloneof>term2</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1991</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zeropnt2" index="" image="">
+	<description>Zero Point 2</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Unico</manufacturer>
+	<year>1999</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

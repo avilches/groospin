@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Sports / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="bullsdrt" index="" image="">
+	<description>Bulls Eye Darts</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Shinkai Inc. (Magic Electronics Inc. license)</manufacturer>
+	<year>1985</year>
+	<genre>Pool and Darts</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gslugrsj" index="" image="">
+	<description>Great Sluggers (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1993</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ksayakyu" index="" image="">
+	<description>Kusayakyuu</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1985</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="soccerssa" index="" image="">
+	<description>Soccer Superstars (ver AAA)</description>
+	<cloneof>soccerss</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1994</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sslam" index="" image="">
+	<description>Super Slam (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Playmark</manufacturer>
+	<year>1993</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="surfplnt" index="" image="">
+	<description>Surf Planet (Version 4.1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1997</year>
+	<genre>Skiing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vstennis" index="" image="">
+	<description>Vs. Tennis (Japan/USA, set TE A-3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo Co., Ltd.</manufacturer>
+	<year>1984</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

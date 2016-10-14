@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>4P alt / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="88games" index="" image="">
+	<description>&apos;88 Games</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1988</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="horshoes" index="" image="">
+	<description>American Horseshoes (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Sports</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hpolym84" index="" image="">
+	<description>Hyper Olympic &apos;84</description>
+	<cloneof>hyperspt</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1984</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hyprolym" index="" image="">
+	<description>Hyper Olympic</description>
+	<cloneof>trackfld</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1983</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hypsptsp" index="" image="">
+	<description>Hyper Sports Special (Japan)</description>
+	<cloneof>88games</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1988</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="konami88" index="" image="">
+	<description>Konami &apos;88</description>
+	<cloneof>88games</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1988</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="majtitl2" index="" image="">
+	<description>Major Title 2 (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1992</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="majtitlej" index="" image="">
+	<description>Major Title (Japan)</description>
+	<cloneof>majtitle</cloneof>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1990</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="minigolf" index="" image="">
+	<description>Mini Golf (11/25/85)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally/Sente</manufacturer>
+	<year>1985</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="minigolf2" index="" image="">
+	<description>Mini Golf (10/8/85)</description>
+	<cloneof>minigolf</cloneof>
+	<crc/>
+	<manufacturer>Bally/Sente</manufacturer>
+	<year>1985</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="skingame" index="" image="">
+	<description>The Irem Skins Game (US set 1)</description>
+	<cloneof>majtitl2</cloneof>
+	<crc/>
+	<manufacturer>Irem America</manufacturer>
+	<year>1992</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="skingame2" index="" image="">
+	<description>The Irem Skins Game (US set 2)</description>
+	<cloneof>majtitl2</cloneof>
+	<crc/>
+	<manufacturer>Irem America</manufacturer>
+	<year>1992</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trisport" index="" image="">
+	<description>Tri-Sports</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1989</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="triviabb" index="" image="">
+	<description>Trivial Pursuit (Baby Boomer Edition) (3/20/85)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally/Sente</manufacturer>
+	<year>1984</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="triviag1" index="" image="">
+	<description>Trivial Pursuit (Think Tank - Genus Edition) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally/Sente</manufacturer>
+	<year>1984</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="triviag2" index="" image="">
+	<description>Trivial Pursuit (Genus II Edition)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally/Sente</manufacturer>
+	<year>1984</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="triviasp" index="" image="">
+	<description>Trivial Pursuit (All Star Sports Edition)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally/Sente</manufacturer>
+	<year>1984</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="triviayp" index="" image="">
+	<description>Trivial Pursuit (Young Players Edition)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally/Sente</manufacturer>
+	<year>1984</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Quiz / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="cluedo" index="" image="">
+	<description>Cluedo (prod. 2D)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>JPM</manufacturer>
+	<year>1995</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cluedo2c" index="" image="">
+	<description>Cluedo (prod. 2C)</description>
+	<cloneof>cluedo</cloneof>
+	<crc/>
+	<manufacturer>JPM</manufacturer>
+	<year>1995</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hngmnjpm" index="" image="">
+	<description>Hangman (JPM)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>JPM</manufacturer>
+	<year>1998</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scrabble" index="" image="">
+	<description>Scrabble (rev. F)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>JPM</manufacturer>
+	<year>1997</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trivialp" index="" image="">
+	<description>Trivial Pursuit (New Edition) (prod. 1D)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>JPM</manufacturer>
+	<year>1996</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

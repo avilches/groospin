@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Quiz / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="fbcrazy" index="" image="">
+	<description>Football Crazy (Video Quiz)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>1997</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="marstv" index="" image="">
+	<description>Mars TV (JPN)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1999</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ultrchmph" index="" image="">
+	<description>Cheng Ba Shi Jie - Chao Shi Kong Guan Jun (Taiwan)</description>
+	<cloneof>nettoqc</cloneof>
+	<crc/>
+	<manufacturer>Nakanihon</manufacturer>
+	<year>1995</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

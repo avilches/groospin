@@ -1,0 +1,649 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Mame / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="animalc" index="" image="">
+	<description>Animal Catch</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy</manufacturer>
+	<year>2000</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="anmlbskt" index="" image="">
+	<description>Animal Basket</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>MOSS / Sammy</manufacturer>
+	<year>2005</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bioship" index="" image="">
+	<description>Bio-ship Paladin</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>UPL (American Sammy license)</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cairblad" index="" image="">
+	<description>Change Air Blade (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy</manufacturer>
+	<year>1999</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="deerhunt" index="" image="">
+	<description>Deer Hunting USA V4.3</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy USA Corporation</manufacturer>
+	<year>2000</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="deerhunta" index="" image="">
+	<description>Deer Hunting USA V4.2</description>
+	<cloneof>deerhunt</cloneof>
+	<crc/>
+	<manufacturer>Sammy USA Corporation</manufacturer>
+	<year>2000</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="deerhuntb" index="" image="">
+	<description>Deer Hunting USA V4.0</description>
+	<cloneof>deerhunt</cloneof>
+	<crc/>
+	<manufacturer>Sammy USA Corporation</manufacturer>
+	<year>2000</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="deerhuntc" index="" image="">
+	<description>Deer Hunting USA V3</description>
+	<cloneof>deerhunt</cloneof>
+	<crc/>
+	<manufacturer>Sammy USA Corporation</manufacturer>
+	<year>2000</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="deerhuntd" index="" image="">
+	<description>Deer Hunting USA V2</description>
+	<cloneof>deerhunt</cloneof>
+	<crc/>
+	<manufacturer>Sammy USA Corporation</manufacturer>
+	<year>2000</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="deerhunte" index="" image="">
+	<description>Deer Hunting USA V1</description>
+	<cloneof>deerhunt</cloneof>
+	<crc/>
+	<manufacturer>Sammy USA Corporation</manufacturer>
+	<year>2000</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dirtypig" index="" image="">
+	<description>Dirty Pigskin Football</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy</manufacturer>
+	<year>2004</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="djboy" index="" image="">
+	<description>DJ Boy (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko (American Sammy license)</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="djboya" index="" image="">
+	<description>DJ Boy (set 2)</description>
+	<cloneof>djboy</cloneof>
+	<crc/>
+	<manufacturer>Kaneko (American Sammy license)</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dolphin" index="" image="">
+	<description>Dolphin Blue</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy</manufacturer>
+	<year>2003</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dynagear" index="" image="">
+	<description>Dyna Gear</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy</manufacturer>
+	<year>1993</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="eaglshot" index="" image="">
+	<description>Eagle Shot Golf</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy</manufacturer>
+	<year>1994</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="extdwnhl" index="" image="">
+	<description>Extreme Downhill (v1.5)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy Industries Japan</manufacturer>
+	<year>1995</year>
+	<genre>Skiing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ftspeed" index="" image="">
+	<description>Faster Than Speed</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy</manufacturer>
+	<year>2004</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ggisuka" index="" image="">
+	<description>Guilty Gear Isuka</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Arc System Works / Sammy</manufacturer>
+	<year>2003</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ggx15" index="" image="">
+	<description>Guilty Gear X ver. 1.5</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Arc System Works / Sammy</manufacturer>
+	<year>2003</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="haekaka" index="" image="">
+	<description>Hae Hae Ka Ka Ka</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hypreac2" index="" image="">
+	<description>Mahjong Hyper Reaction 2 (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy</manufacturer>
+	<year>1997</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hypreact" index="" image="">
+	<description>Mahjong Hyper Reaction (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy</manufacturer>
+	<year>1995</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="itazuram" index="" image="">
+	<description>Itazura Monkey</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy</manufacturer>
+	<year>2000</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="keroppi" index="" image="">
+	<description>Kero Kero Keroppi&apos;s Let&apos;s Play Together (USA, Version 2.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>American Sammy</manufacturer>
+	<year>1995</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="keroppij" index="" image="">
+	<description>Kero Kero Keroppi no Issyoni Asobou (Japan)</description>
+	<cloneof>keroppi</cloneof>
+	<crc/>
+	<manufacturer>Sammy Industries</manufacturer>
+	<year>1993</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kofnw" index="" image="">
+	<description>The King of Fighters Neowave</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy / SNK Playmore</manufacturer>
+	<year>2005</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kofnwj" index="" image="">
+	<description>The King of Fighters Neowave (Japan)</description>
+	<cloneof>kofnw</cloneof>
+	<crc/>
+	<manufacturer>Sammy / SNK Playmore</manufacturer>
+	<year>2005</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kofxi" index="" image="">
+	<description>The King of Fighters XI</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy / SNK Playmore</manufacturer>
+	<year>2005</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="krzybowl" index="" image="">
+	<description>Krazy Bowl</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>American Sammy</manufacturer>
+	<year>1994</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="maxspeed" index="" image="">
+	<description>Maximum Speed</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy</manufacturer>
+	<year>2003</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="meosism" index="" image="">
+	<description>Meosis Magic (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy</manufacturer>
+	<year>1996?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ngbc" index="" image="">
+	<description>NeoGeo Battle Coliseum</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy / SNK Playmore</manufacturer>
+	<year>2005</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ngbcj" index="" image="">
+	<description>NeoGeo Battle Coliseum (Japan)</description>
+	<cloneof>ngbc</cloneof>
+	<crc/>
+	<manufacturer>Sammy / SNK Playmore</manufacturer>
+	<year>2005</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="orbs" index="" image="">
+	<description>Orbs (10/7/94 prototype?)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>American Sammy</manufacturer>
+	<year>1994</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pushmans" index="" image="">
+	<description>Pushman (American Sammy license)</description>
+	<cloneof>pushman</cloneof>
+	<crc/>
+	<manufacturer>Comad (American Sammy license)</manufacturer>
+	<year>1990</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pyenaget" index="" image="">
+	<description>Pye-nage Taikai</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy</manufacturer>
+	<year>2000</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rangrmsn" index="" image="">
+	<description>Ranger Mission</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy</manufacturer>
+	<year>2004</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rumblef" index="" image="">
+	<description>The Rumble Fish</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy / Dimps</manufacturer>
+	<year>2004</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rumblef2" index="" image="">
+	<description>The Rumble Fish 2</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy / Dimps</manufacturer>
+	<year>2005</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rumblefp" index="" image="">
+	<description>The Rumble Fish (prototype)</description>
+	<cloneof>rumblef</cloneof>
+	<crc/>
+	<manufacturer>Sammy / Dimps</manufacturer>
+	<year>2004</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rumblf2p" index="" image="">
+	<description>The Rumble Fish 2 (prototype)</description>
+	<cloneof>rumblef2</cloneof>
+	<crc/>
+	<manufacturer>Sammy / Dimps</manufacturer>
+	<year>2005</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="salmankt" index="" image="">
+	<description>Salary Man Kintarou</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy</manufacturer>
+	<year>2004</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="samsptk" index="" image="">
+	<description>Samurai Spirits Tenkaichi Kenkakuden</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy / SNK Playmore</manufacturer>
+	<year>2005</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sokonuke" index="" image="">
+	<description>Sokonuke Taisen Game (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy Industries</manufacturer>
+	<year>1995</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sprtshot" index="" image="">
+	<description>Sports Shooting USA</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy USA</manufacturer>
+	<year>2003</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="survarts" index="" image="">
+	<description>Survival Arts (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="survartsj" index="" image="">
+	<description>Survival Arts (Japan)</description>
+	<cloneof>survarts</cloneof>
+	<crc/>
+	<manufacturer>Sammy</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="survartsu" index="" image="">
+	<description>Survival Arts (USA)</description>
+	<cloneof>survarts</cloneof>
+	<crc/>
+	<manufacturer>American Sammy</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sxyreac2" index="" image="">
+	<description>Pachinko Sexy Reaction 2 (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy</manufacturer>
+	<year>1999</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sxyreact" index="" image="">
+	<description>Pachinko Sexy Reaction (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy</manufacturer>
+	<year>1998</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tdoboon" index="" image="">
+	<description>Taihou de Doboon</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy</manufacturer>
+	<year>2000</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tharrieru" index="" image="">
+	<description>Task Force Harrier (US?)</description>
+	<cloneof>tharrier</cloneof>
+	<crc/>
+	<manufacturer>UPL (American Sammy license)</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trophyh" index="" image="">
+	<description>Trophy Hunting - Bear &amp; Moose V1.0</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy USA Corporation</manufacturer>
+	<year>2002</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="turkhunt" index="" image="">
+	<description>Turkey Hunting USA V1.0</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy USA Corporation</manufacturer>
+	<year>2001</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vfurlong" index="" image="">
+	<description>Net Select Keiba Victory Furlong</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy</manufacturer>
+	<year>2005</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="viewpoin" index="" image="">
+	<description>Viewpoint</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy / Aicom</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wschamp" index="" image="">
+	<description>Wing Shooting Championship V2.00</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy USA Corporation</manufacturer>
+	<year>2001</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wschampa" index="" image="">
+	<description>Wing Shooting Championship V1.01</description>
+	<cloneof>wschamp</cloneof>
+	<crc/>
+	<manufacturer>Sammy USA Corporation</manufacturer>
+	<year>2001</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wschampb" index="" image="">
+	<description>Wing Shooting Championship V1.00</description>
+	<cloneof>wschamp</cloneof>
+	<crc/>
+	<manufacturer>Sammy USA Corporation</manufacturer>
+	<year>2001</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xtrmhunt" index="" image="">
+	<description>Extreme Hunting</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy</manufacturer>
+	<year>2005</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zombraid" index="" image="">
+	<description>Zombie Raid (9/28/95, US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>American Sammy</manufacturer>
+	<year>1995</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zombraidp" index="" image="">
+	<description>Zombie Raid (9/28/95, US, prototype PCB)</description>
+	<cloneof>zombraid</cloneof>
+	<crc/>
+	<manufacturer>American Sammy</manufacturer>
+	<year>1995</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zombraidpj" index="" image="">
+	<description>Zombie Raid (9/28/95, Japan, prototype PCB)</description>
+	<cloneof>zombraid</cloneof>
+	<crc/>
+	<manufacturer>Sammy Industries Co.,Ltd.</manufacturer>
+	<year>1995</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,889 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Shoot- / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="astrof" index="" image="">
+	<description>Astro Fighter (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="astrof2" index="" image="">
+	<description>Astro Fighter (set 2)</description>
+	<cloneof>astrof</cloneof>
+	<crc/>
+	<manufacturer>Data East</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="astrof3" index="" image="">
+	<description>Astro Fighter (set 3)</description>
+	<cloneof>astrof</cloneof>
+	<crc/>
+	<manufacturer>Data East</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="battlera" index="" image="">
+	<description>Battle Rangers (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bldwolf" index="" image="">
+	<description>Bloody Wolf (US)</description>
+	<cloneof>battlera</cloneof>
+	<crc/>
+	<manufacturer>Data East USA</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bldwolfj" index="" image="">
+	<description>Narazumono Sentoubutai Bloody Wolf (Japan)</description>
+	<cloneof>battlera</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="boogwing" index="" image="">
+	<description>Boogie Wings (Euro v1.5, 92.12.07)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="boogwinga" index="" image="">
+	<description>Boogie Wings (Asia v1.5, 92.12.07)</description>
+	<cloneof>boogwing</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="boogwingu" index="" image="">
+	<description>Boogie Wings (USA v1.7, 92.12.14)</description>
+	<cloneof>boogwing</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="boomrang" index="" image="">
+	<description>Boomer Rang&apos;r / Genesis (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="boomranga" index="" image="">
+	<description>Boomer Rang&apos;r / Genesis (set 2)</description>
+	<cloneof>boomrang</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="breywood" index="" image="">
+	<description>Breywood (Japan revision 2)</description>
+	<cloneof>shackled</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="brkthru" index="" image="">
+	<description>Break Thru (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East USA</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="brkthruj" index="" image="">
+	<description>Kyohkoh-Toppa (Japan)</description>
+	<cloneof>brkthru</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bwings" index="" image="">
+	<description>B-Wings (Japan new Ver.)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bwingsa" index="" image="">
+	<description>B-Wings (Alt Ver.?)</description>
+	<cloneof>bwings</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bwingso" index="" image="">
+	<description>B-Wings (Japan old Ver.)</description>
+	<cloneof>bwings</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="castfant" index="" image="">
+	<description>Astro Fantasia (DECO Cassette)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cexplore" index="" image="">
+	<description>Explorer (DECO Cassette)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chwy" index="" image="">
+	<description>Highway Chase (DECO Cassette)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cmissnx" index="" image="">
+	<description>Mission-X (DECO Cassette)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cnightst" index="" image="">
+	<description>Night Star (DECO Cassette, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cnightst2" index="" image="">
+	<description>Night Star (DECO Cassette, set 2)</description>
+	<cloneof>cnightst</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cobra" index="" image="">
+	<description>Cobra Command (Data East LD, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cobraa" index="" image="">
+	<description>Cobra Command (Data East LD, set 2)</description>
+	<cloneof>cobra</cloneof>
+	<crc/>
+	<manufacturer>Data East</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cobracom" index="" image="">
+	<description>Cobra-Command (World revision 5)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cobracomj" index="" image="">
+	<description>Cobra-Command (Japan)</description>
+	<cloneof>cobracom</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cobram3" index="" image="">
+	<description>Cobra Command (M.A.C.H. 3 hardware)</description>
+	<cloneof>cobra</cloneof>
+	<crc/>
+	<manufacturer>Data East</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="commandou" index="" image="">
+	<description>Commando (US set 1)</description>
+	<cloneof>commando</cloneof>
+	<crc/>
+	<manufacturer>Capcom (Data East USA license)</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="commandou2" index="" image="">
+	<description>Commando (US set 2)</description>
+	<cloneof>commando</cloneof>
+	<crc/>
+	<manufacturer>Capcom (Data East USA license)</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="csuperas" index="" image="">
+	<description>Super Astro Fighter (DECO Cassette)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cterrani" index="" image="">
+	<description>Terranean (DECO Cassette)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ctornado" index="" image="">
+	<description>Tornado (DECO Cassette)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="darwin" index="" image="">
+	<description>Darwin 4078 (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dassault" index="" image="">
+	<description>Desert Assault (US)</description>
+	<cloneof>thndzone</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dassault4" index="" image="">
+	<description>Desert Assault (US 4 Players)</description>
+	<cloneof>thndzone</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dogfgtu" index="" image="">
+	<description>Acrobatic Dog-Fight (USA)</description>
+	<cloneof>dogfgt</cloneof>
+	<crc/>
+	<manufacturer>Technos Japan (Data East USA, Inc. license)</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dualaslt" index="" image="">
+	<description>Dual Assault</description>
+	<cloneof>liberate</cloneof>
+	<crc/>
+	<manufacturer>Data East USA</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="garyoret" index="" image="">
+	<description>Garyo Retsuden (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gekitsui" index="" image="">
+	<description>Gekitsui Oh (Japan)</description>
+	<cloneof>zerotrgt</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ghostb" index="" image="">
+	<description>The Real Ghostbusters (US 2 Players, revision 2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East USA</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ghostb2a" index="" image="">
+	<description>The Real Ghostbusters (US 2 Players)</description>
+	<cloneof>ghostb</cloneof>
+	<crc/>
+	<manufacturer>Data East USA</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ghostb3" index="" image="">
+	<description>The Real Ghostbusters (US 3 Players)</description>
+	<cloneof>ghostb</cloneof>
+	<crc/>
+	<manufacturer>Data East USA</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gondo" index="" image="">
+	<description>Gondomania (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East USA</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gunball" index="" image="">
+	<description>Gun Ball (Japan)</description>
+	<cloneof>nitrobal</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hbarrel" index="" image="">
+	<description>Heavy Barrel (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East USA</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hbarrelw" index="" image="">
+	<description>Heavy Barrel (World)</description>
+	<cloneof>hbarrel</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kuhga" index="" image="">
+	<description>Kuhga - Operation Code &apos;Vapor Trail&apos; (Japan revision 3)</description>
+	<cloneof>vaportra</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lastmisn" index="" image="">
+	<description>Last Mission (US revision 6)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East USA</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lastmisnj" index="" image="">
+	<description>Last Mission (Japan)</description>
+	<cloneof>lastmisn</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lastmisno" index="" image="">
+	<description>Last Mission (US revision 5)</description>
+	<cloneof>lastmisn</cloneof>
+	<crc/>
+	<manufacturer>Data East USA</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="liberate" index="" image="">
+	<description>Liberation</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="madalien" index="" image="">
+	<description>Mad Alien (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="madaliena" index="" image="">
+	<description>Mad Alien (set 2)</description>
+	<cloneof>madalien</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="madalienb" index="" image="">
+	<description>Mad Alien (set 2, alt gfx)</description>
+	<cloneof>madalien</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="makyosen" index="" image="">
+	<description>Makyou Senshi (Japan)</description>
+	<cloneof>gondo</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="meikyuh" index="" image="">
+	<description>Meikyuu Hunter G (Japan, set 1)</description>
+	<cloneof>ghostb</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="meikyuha" index="" image="">
+	<description>Meikyuu Hunter G (Japan, set 2)</description>
+	<cloneof>ghostb</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nitrobal" index="" image="">
+	<description>Nitro Ball (World, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nitrobala" index="" image="">
+	<description>Nitro Ball (World, set 2)</description>
+	<cloneof>nitrobal</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="perfrman" index="" image="">
+	<description>Performan (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Toaplan / Data East Corporation</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="perfrmanu" index="" image="">
+	<description>Performan (US)</description>
+	<cloneof>perfrman</cloneof>
+	<crc/>
+	<manufacturer>Toaplan / Data East USA</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ragtime" index="" image="">
+	<description>The Great Ragtime Show (Japan v1.5, 92.12.07)</description>
+	<cloneof>boogwing</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ragtimea" index="" image="">
+	<description>The Great Ragtime Show (Japan v1.3, 92.11.26)</description>
+	<cloneof>boogwing</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shackled" index="" image="">
+	<description>Shackled (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East USA</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shootout" index="" image="">
+	<description>Shoot Out (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East USA</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shootoutj" index="" image="">
+	<description>Shoot Out (Japan)</description>
+	<cloneof>shootout</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="skullfng" index="" image="">
+	<description>Skull Fang (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1996</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="skullfngj" index="" image="">
+	<description>Skull Fang (Japan)</description>
+	<cloneof>skullfng</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1996</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spfghmk2" index="" image="">
+	<description>Space Fighter Mark II (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spfghmk22" index="" image="">
+	<description>Space Fighter Mark II (set 2)</description>
+	<cloneof>spfghmk2</cloneof>
+	<crc/>
+	<manufacturer>Data East</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="srdarwin" index="" image="">
+	<description>Super Real Darwin (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="srdarwinj" index="" image="">
+	<description>Super Real Darwin (Japan)</description>
+	<cloneof>srdarwin</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thndzone" index="" image="">
+	<description>Thunder Zone (World, Rev 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thndzone4" index="" image="">
+	<description>Thunder Zone (World 4 Players)</description>
+	<cloneof>thndzone</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thndzonea" index="" image="">
+	<description>Thunder Zone (World)</description>
+	<cloneof>thndzone</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thndzonej" index="" image="">
+	<description>Thunder Zone (Japan)</description>
+	<cloneof>thndzone</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tomahawk" index="" image="">
+	<description>Tomahawk 777 (rev 5)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tomahawk1" index="" image="">
+	<description>Tomahawk 777 (rev 1)</description>
+	<cloneof>tomahawk</cloneof>
+	<crc/>
+	<manufacturer>Data East</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vaportra" index="" image="">
+	<description>Vapor Trail - Hyper Offence Formation (World revision 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vaportra3" index="" image="">
+	<description>Vapor Trail - Hyper Offence Formation (World revision 3?)</description>
+	<cloneof>vaportra</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vaportrau" index="" image="">
+	<description>Vapor Trail - Hyper Offence Formation (US)</description>
+	<cloneof>vaportra</cloneof>
+	<crc/>
+	<manufacturer>Data East USA</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wndrplnt" index="" image="">
+	<description>Wonder Planet (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zaviga" index="" image="">
+	<description>Zaviga</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zavigaj" index="" image="">
+	<description>Zaviga (Japan)</description>
+	<cloneof>zaviga</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zerotrgt" index="" image="">
+	<description>Zero Target (World, CW)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zerotrgta" index="" image="">
+	<description>Zero Target (World, CT)</description>
+	<cloneof>zerotrgt</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zoar" index="" image="">
+	<description>Zoar</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East USA</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

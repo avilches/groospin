@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Sega / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="champbas" index="" image="">
+	<description>Champion Base Ball</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Alpha Denshi Co. (Sega license)</manufacturer>
+	<year>1983</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="champbb2" index="" image="">
+	<description>Champion Base Ball Part-2 (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Alpha Denshi Co. (Sega license)</manufacturer>
+	<year>1983</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cltchitr" index="" image="">
+	<description>Clutch Hitter (US) (FD1094 317-0176)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cltchitrj" index="" image="">
+	<description>Clutch Hitter (Japan) (FD1094 317-0175)</description>
+	<cloneof>cltchitr</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dybb99" index="" image="">
+	<description>Dynamite Baseball &apos;99 (JPN) / World Series &apos;99 (USA, EXP, KOR, AUS) (Rev B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1999</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dybbnao" index="" image="">
+	<description>Dynamite Baseball NAOMI (JPN)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1998</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dynabb" index="" image="">
+	<description>Dynamite Baseball</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1996</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dynabb97" index="" image="">
+	<description>Dynamite Baseball 97 (Revision A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1997</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="exctleag" index="" image="">
+	<description>Excite League (FD1094 317-0079)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="finlarch" index="" image="">
+	<description>Final Arch (J 950714 V1.001)</description>
+	<cloneof>smleague</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1995</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gekpurya" index="" image="">
+	<description>Gekitou Pro Yakyuu Mizushima Shinji All Stars vs. Pro Yakyuu (Rev C) (GDT-0008C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / Wow Entertainment</manufacturer>
+	<year>2003</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gekpuryb" index="" image="">
+	<description>Gekitou Pro Yakyuu Mizushima Shinji All Stars vs. Pro Yakyuu (Rev B) (GDT-0008B)</description>
+	<cloneof>gekpurya</cloneof>
+	<crc/>
+	<manufacturer>Sega / Wow Entertainment</manufacturer>
+	<year>2003</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjleague" index="" image="">
+	<description>Major League</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1985</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mt_tlbba" index="" image="">
+	<description>Tommy Lasorda Baseball (Mega-Tech)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mvp" index="" image="">
+	<description>MVP (set 2, US) (FD1094 317-0143)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mvpj" index="" image="">
+	<description>MVP (set 1, Japan) (FD1094 317-0142)</description>
+	<cloneof>mvp</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smleague" index="" image="">
+	<description>Super Major League (U 960108 V1.000)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1995</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smlg99" index="" image="">
+	<description>Super Major League &apos;99</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1999</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="suprleag" index="" image="">
+	<description>Super League (FD1094 317-0045)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wsbbgd" index="" image="">
+	<description>Super Major League / World Series Baseball (GDS-0010)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2001</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

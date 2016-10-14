@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Taito / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="maniach" index="" image="">
+	<description>Mania Challenge (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Technos Japan (Taito America license)</manufacturer>
+	<year>1986</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rbislande" index="" image="">
+	<description>Rainbow Islands (Extra)</description>
+	<cloneof>rbisland</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rbislando" index="" image="">
+	<description>Rainbow Islands (old version)</description>
+	<cloneof>rbisland</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="schaser" index="" image="">
+	<description>Space Chaser (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1979</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sqix" index="" image="">
+	<description>Super Qix (World, Rev 2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko / Taito</manufacturer>
+	<year>1987</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stratvox" index="" image="">
+	<description>Stratovox</description>
+	<cloneof>speakres</cloneof>
+	<crc/>
+	<manufacturer>Sun Electronics (Taito license)</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tnzsjo" index="" image="">
+	<description>The NewZealand Story (Japan, old version) (older PCB)</description>
+	<cloneof>tnzs</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tnzsop" index="" image="">
+	<description>The NewZealand Story (World, prototype?) (older PCB)</description>
+	<cloneof>tnzs</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tornbase" index="" image="">
+	<description>Tornado Baseball / Ball Park</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dave Nutting Associates / Midway / Taito</manufacturer>
+	<year>1976</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

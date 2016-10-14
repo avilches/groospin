@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Capcom / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="choko" index="" image="">
+	<description>Janpai Puzzle Choukou (Japan 010820)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Mitchell (Capcom license)</manufacturer>
+	<year>2001</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ganbare" index="" image="">
+	<description>Ganbare! Marine Kun (Japan 2K0411)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>2000</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jyangoku" index="" image="">
+	<description>Jyangokushi: Haoh no Saihai (Japan 990527)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1999</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_mman3" index="" image="">
+	<description>Mega Man III (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom USA (Nintendo of America license)</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_ynoid" index="" image="">
+	<description>Yo! Noid (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom USA (Nintendo of America license)</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfp" index="" image="">
+	<description>Street Fighter (prototype)</description>
+	<cloneof>sf</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1987</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="slipstrm" index="" image="">
+	<description>Slip Stream (Brazil 950515)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1995</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="slipstrmh" index="" image="">
+	<description>Slip Stream (Hispanic 950515)</description>
+	<cloneof>slipstrm</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1995</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sss" index="" image="">
+	<description>Steep Slope Sliders (JUET 981110 V1.000)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom / Cave / Victor</manufacturer>
+	<year>1998</year>
+	<genre>Skiing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Gun / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="cheyenne" index="" image="">
+	<description>Cheyenne (version 1.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Exidy</manufacturer>
+	<year>1984</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chiller" index="" image="">
+	<description>Chiller (version 3.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Exidy</manufacturer>
+	<year>1986</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="claypign" index="" image="">
+	<description>Clay Pigeon (version 2.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Exidy</manufacturer>
+	<year>1986</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="combat" index="" image="">
+	<description>Combat (version 3.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Exidy</manufacturer>
+	<year>1985</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cracksht" index="" image="">
+	<description>Crackshot (version 2.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Exidy</manufacturer>
+	<year>1985</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crossbow" index="" image="">
+	<description>Crossbow (version 2.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Exidy</manufacturer>
+	<year>1983</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hitnmiss" index="" image="">
+	<description>Hit &apos;n Miss (version 3.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Exidy</manufacturer>
+	<year>1987</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hitnmiss2" index="" image="">
+	<description>Hit &apos;n Miss (version 2.0)</description>
+	<cloneof>hitnmiss</cloneof>
+	<crc/>
+	<manufacturer>Exidy</manufacturer>
+	<year>1987</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tshoot" index="" image="">
+	<description>Turkey Shoot</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1984</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="whodunit8" index="" image="">
+	<description>Who Dunit (version 8.0)</description>
+	<cloneof>whodunit</cloneof>
+	<crc/>
+	<manufacturer>Exidy</manufacturer>
+	<year>1988</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

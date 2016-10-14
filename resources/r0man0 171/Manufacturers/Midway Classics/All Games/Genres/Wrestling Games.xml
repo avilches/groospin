@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Midway / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="wwfmania" index="" image="">
+	<description>WWF: Wrestlemania (rev 1.30 08/10/95)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1995</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wwfmaniab" index="" image="">
+	<description>WWF: Wrestlemania (rev 1.20 08/02/95)</description>
+	<cloneof>wwfmania</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1995</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wwfmaniac" index="" image="">
+	<description>WWF: Wrestlemania (rev 1.1 07/11/95)</description>
+	<cloneof>wwfmania</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1995</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

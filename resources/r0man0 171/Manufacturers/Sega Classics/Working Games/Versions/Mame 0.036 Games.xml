@@ -1,0 +1,559 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Sega / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="alexkidd" index="" image="">
+	<description>Alex Kidd: The Lost Stars (set 2, unprotected)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aliensyn2" index="" image="">
+	<description>Alien Syndrome (set 2, System 16A, FD1089A 317-0033)</description>
+	<cloneof>aliensyn</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aliensyn3" index="" image="">
+	<description>Alien Syndrome (set 3, System 16B, FD1089A 317-0033)</description>
+	<cloneof>aliensyn</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aliensynjo" index="" image="">
+	<description>Alien Syndrome (set 1, Japan, old, System 16A, FD1089A 317-0033)</description>
+	<cloneof>aliensyn</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="altbeast4" index="" image="">
+	<description>Altered Beast (set 4) (MC-8123B 317-0066)</description>
+	<cloneof>altbeast</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="altbeastj1" index="" image="">
+	<description>Juuouki (set 1, Japan) (FD1094 317-0065)</description>
+	<cloneof>altbeast</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="astorm" index="" image="">
+	<description>Alien Storm (World, 2 Players) (FD1094 317-0154)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="astormj" index="" image="">
+	<description>Alien Storm (Japan, 2 Players) (FD1094 317-0146)</description>
+	<cloneof>astorm</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aurail1" index="" image="">
+	<description>Aurail (set 2, World) (FD1089B 317-0168)</description>
+	<cloneof>aurail</cloneof>
+	<crc/>
+	<manufacturer>Sega / Westone</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bayroute" index="" image="">
+	<description>Bay Route (set 3, World) (FD1094 317-0116)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sunsoft / Sega</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bayroute1" index="" image="">
+	<description>Bay Route (set 1, US) (unprotected)</description>
+	<cloneof>bayroute</cloneof>
+	<crc/>
+	<manufacturer>Sunsoft / Sega</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bodyslam" index="" image="">
+	<description>Body Slam (8751 317-0015)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dotrikun" index="" image="">
+	<description>Dottori Kun (new version)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dotrikun2" index="" image="">
+	<description>Dottori Kun (old version)</description>
+	<cloneof>dotrikun</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dumpmtmt" index="" image="">
+	<description>Dump Matsumoto (Japan, 8751 317-0011a)</description>
+	<cloneof>bodyslam</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="enduror" index="" image="">
+	<description>Enduro Racer (YM2151) (FD1089B 317-0013A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="eswatu" index="" image="">
+	<description>E-Swat - Cyber Police (set 3, US) (FD1094 317-0129)</description>
+	<cloneof>eswat</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fantzone" index="" image="">
+	<description>Fantasy Zone (Rev A, unprotected)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="flashgal" index="" image="">
+	<description>Flashgal (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kyugo / Sega</manufacturer>
+	<year>1985</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fpoint1" index="" image="">
+	<description>Flash Point (set 1, Japan) (FD1094 317-0127A)</description>
+	<cloneof>fpoint</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="goldnaxe" index="" image="">
+	<description>Golden Axe (set 6, US) (8751 317-123A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="goldnaxe1" index="" image="">
+	<description>Golden Axe (set 1, World) (FD1094 317-0110)</description>
+	<cloneof>goldnaxe</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="goldnaxej" index="" image="">
+	<description>Golden Axe (set 4, Japan) (FD1094 317-0121)</description>
+	<cloneof>goldnaxe</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="goldnaxeu" index="" image="">
+	<description>Golden Axe (set 5, US) (FD1094 317-0122)</description>
+	<cloneof>goldnaxe</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gutangtn" index="" image="">
+	<description>Guttang Gottong</description>
+	<cloneof>locomotn</cloneof>
+	<crc/>
+	<manufacturer>Konami (Sega license)</manufacturer>
+	<year>1982</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hangon" index="" image="">
+	<description>Hang-On (Rev A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1985</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hopprobo" index="" image="">
+	<description>Hopper Robo</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mrvikingj" index="" image="">
+	<description>Mister Viking (315-5041, Japan)</description>
+	<cloneof>mrviking</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mwalk" index="" image="">
+	<description>Michael Jackson&apos;s Moonwalker (World) (FD1094/8751 317-0159)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mwalku" index="" image="">
+	<description>Michael Jackson&apos;s Moonwalker (US) (FD1094/8751 317-0158)</description>
+	<cloneof>mwalk</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="outrun" index="" image="">
+	<description>Out Run (sitdown/upright, Rev B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="outrunra" index="" image="">
+	<description>Out Run (sitdown/upright, Rev A)</description>
+	<cloneof>outrun</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="passsht" index="" image="">
+	<description>Passing Shot (World, 2 Players) (FD1094 317-0080)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quartet" index="" image="">
+	<description>Quartet (Rev A, 8751 315-5194)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quarteta" index="" image="">
+	<description>Quartet (8751 315-5194)</description>
+	<cloneof>quartet</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="razmataz" index="" image="">
+	<description>Razzmatazz</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="repulse" index="" image="">
+	<description>Repulse</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Crux / Sega</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="riotcity" index="" image="">
+	<description>Riot City (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / Westone</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sdi" index="" image="">
+	<description>SDI - Strategic Defense Initiative (Japan, newer, System 16A, FD1089B 317-0027)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shangon1" index="" image="">
+	<description>Super Hang-On (mini ride-on) (FD1089B 317-0034)</description>
+	<cloneof>shangon</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shangon2" index="" image="">
+	<description>Super Hang-On (mini ride-on, Rev A) (FD1089B 317-0034)</description>
+	<cloneof>shangon</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sharrier1" index="" image="">
+	<description>Space Harrier (8751 315-5163)</description>
+	<cloneof>sharrier</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shdancer" index="" image="">
+	<description>Shadow Dancer (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shdancerj" index="" image="">
+	<description>Shadow Dancer (Japan)</description>
+	<cloneof>shdancer</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shinobi1" index="" image="">
+	<description>Shinobi (set 1, System 16A) (FD1094 317-0050)</description>
+	<cloneof>shinobi</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shinobi2" index="" image="">
+	<description>Shinobi (set 2, System 16B) (FD1094 317-0049)</description>
+	<cloneof>shinobi</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tetris" index="" image="">
+	<description>Tetris (set 4, Japan, System 16A) (FD1094 317-0093)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tetris2" index="" image="">
+	<description>Tetris (set 2, Japan, System 16B) (FD1094 317-0092)</description>
+	<cloneof>tetris</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="toryumon" index="" image="">
+	<description>Toryumon</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1994</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tturf" index="" image="">
+	<description>Tough Turf (set 2, Japan) (8751 317-0104)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / Sunsoft</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tturfu" index="" image="">
+	<description>Tough Turf (set 1, US) (8751 317-0099)</description>
+	<cloneof>tturf</cloneof>
+	<crc/>
+	<manufacturer>Sega / Sunsoft</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wb3" index="" image="">
+	<description>Wonder Boy III - Monster Lair (set 6, World, System 16B) (8751 317-0098)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / Westone</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wb33" index="" image="">
+	<description>Wonder Boy III - Monster Lair (set 3, World, System 16B) (FD1094 317-0089)</description>
+	<cloneof>wb3</cloneof>
+	<crc/>
+	<manufacturer>Sega / Westone</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wbml" index="" image="">
+	<description>Wonder Boy in Monster Land (Japan New Ver., MC-8123, 317-0043)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / Westone</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wbmljo" index="" image="">
+	<description>Wonder Boy in Monster Land (Japan Old Ver., MC-8123, 317-0043)</description>
+	<cloneof>wbml</cloneof>
+	<crc/>
+	<manufacturer>Sega / Westone</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

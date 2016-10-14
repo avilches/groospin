@@ -1,0 +1,849 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Capcom / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="19xx" index="" image="">
+	<description>19XX: The War Against Destiny (USA 951207)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="19xxh" index="" image="">
+	<description>19XX: The War Against Destiny (Hispanic 951218)</description>
+	<cloneof>19xx</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="19xxjr2" index="" image="">
+	<description>19XX: The War Against Destiny (Japan 951207)</description>
+	<cloneof>19xx</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="3wonders" index="" image="">
+	<description>Three Wonders (World 910520)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="armwarar1" index="" image="">
+	<description>Armored Warriors (Asia 940920)</description>
+	<cloneof>armwar</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="armwaru" index="" image="">
+	<description>Armored Warriors (USA 941024)</description>
+	<cloneof>armwar</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ataxxj" index="" image="">
+	<description>Ataxx (Japan)</description>
+	<cloneof>ataxx</cloneof>
+	<crc/>
+	<manufacturer>Leland Corp. (Capcom license)</manufacturer>
+	<year>1990</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="avsp" index="" image="">
+	<description>Alien vs. Predator (Euro 940520)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="avspa" index="" image="">
+	<description>Alien vs. Predator (Asia 940520)</description>
+	<cloneof>avsp</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="avspj" index="" image="">
+	<description>Alien vs. Predator (Japan 940520)</description>
+	<cloneof>avsp</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="avspu" index="" image="">
+	<description>Alien vs. Predator (USA 940520)</description>
+	<cloneof>avsp</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blockr2" index="" image="">
+	<description>Block Block (World 910910)</description>
+	<cloneof>block</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="buraiken" index="" image="">
+	<description>Hissatsu Buraiken (Japan)</description>
+	<cloneof>avengers</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1987</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cybotsj" index="" image="">
+	<description>Cyberbots: Fullmetal Madness (Japan 950420)</description>
+	<cloneof>cybots</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddsomjr1" index="" image="">
+	<description>Dungeons &amp; Dragons: Shadow over Mystara (Japan 960206)</description>
+	<cloneof>ddsom</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddsomur1" index="" image="">
+	<description>Dungeons &amp; Dragons: Shadow over Mystara (USA 960209)</description>
+	<cloneof>ddsom</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddtodar1" index="" image="">
+	<description>Dungeons &amp; Dragons: Tower of Doom (Asia 940113)</description>
+	<cloneof>ddtod</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddtodjr2" index="" image="">
+	<description>Dungeons &amp; Dragons: Tower of Doom (Japan 940113)</description>
+	<cloneof>ddtod</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddtodu" index="" image="">
+	<description>Dungeons &amp; Dragons: Tower of Doom (USA 940125)</description>
+	<cloneof>ddtod</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddtodur1" index="" image="">
+	<description>Dungeons &amp; Dragons: Tower of Doom (USA 940113)</description>
+	<cloneof>ddtod</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dstlka" index="" image="">
+	<description>Darkstalkers: The Night Warriors (Asia 940705)</description>
+	<cloneof>dstlk</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dstlku" index="" image="">
+	<description>Darkstalkers: The Night Warriors (USA 940818)</description>
+	<cloneof>dstlk</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="knightsu" index="" image="">
+	<description>Knights of the Round (USA 911127)</description>
+	<cloneof>knights</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kodu" index="" image="">
+	<description>The King of Dragons (USA 910910)</description>
+	<cloneof>kod</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mshh" index="" image="">
+	<description>Marvel Super Heroes (Hispanic 951117)</description>
+	<cloneof>msh</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mshjr1" index="" image="">
+	<description>Marvel Super Heroes (Japan 951024)</description>
+	<cloneof>msh</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mshu" index="" image="">
+	<description>Marvel Super Heroes (USA 951024)</description>
+	<cloneof>msh</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_1942" index="" image="">
+	<description>1942 (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_mman3" index="" image="">
+	<description>Mega Man III (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom USA (Nintendo of America license)</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_rrngr" index="" image="">
+	<description>Chip&apos;n Dale: Rescue Rangers (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom USA (Nintendo of America license)</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_trjan" index="" image="">
+	<description>Trojan (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom USA (Nintendo of America license)</manufacturer>
+	<year>1986</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_ynoid" index="" image="">
+	<description>Yo! Noid (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom USA (Nintendo of America license)</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pgear" index="" image="">
+	<description>Powered Gear: Strategic Variant Armor Equipment (Japan 941024)</description>
+	<cloneof>armwar</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pgearr1" index="" image="">
+	<description>Powered Gear: Strategic Variant Armor Equipment (Japan 940916)</description>
+	<cloneof>armwar</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qndream" index="" image="">
+	<description>Quiz Nanairo Dreams: Nijiirochou no Kiseki (Japan 960826)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ringdest" index="" image="">
+	<description>Ring of Destruction: Slammasters II (Euro 940902)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sf2jc" index="" image="">
+	<description>Street Fighter II: The World Warrior (Japan 910306)</description>
+	<cloneof>sf2</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sf2ui" index="" image="">
+	<description>Street Fighter II: The World Warrior (USA 910522, Rev. I)</description>
+	<cloneof>sf2</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfa" index="" image="">
+	<description>Street Fighter Alpha: Warriors&apos; Dreams (Euro 950727)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfa2ur1" index="" image="">
+	<description>Street Fighter Alpha 2 (USA 960306)</description>
+	<cloneof>sfa2</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfa3u" index="" image="">
+	<description>Street Fighter Alpha 3 (USA 980904)</description>
+	<cloneof>sfa3</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfa3ur1" index="" image="">
+	<description>Street Fighter Alpha 3 (USA 980629)</description>
+	<cloneof>sfa3</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfau" index="" image="">
+	<description>Street Fighter Alpha: Warriors&apos; Dreams (USA 950627)</description>
+	<cloneof>sfa</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sftm" index="" image="">
+	<description>Street Fighter: The Movie (v1.12)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom / Incredible Technologies</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sftm110" index="" image="">
+	<description>Street Fighter: The Movie (v1.10)</description>
+	<cloneof>sftm</cloneof>
+	<crc/>
+	<manufacturer>Capcom / Incredible Technologies</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sftmj" index="" image="">
+	<description>Street Fighter: The Movie (v1.12N, Japan)</description>
+	<cloneof>sftm</cloneof>
+	<crc/>
+	<manufacturer>Capcom / Incredible Technologies</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfz2alh" index="" image="">
+	<description>Street Fighter Zero 2 Alpha (Hispanic 960813)</description>
+	<cloneof>sfz2al</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfz2alj" index="" image="">
+	<description>Street Fighter Zero 2 Alpha (Japan 960805)</description>
+	<cloneof>sfz2al</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfz2jr1" index="" image="">
+	<description>Street Fighter Zero 2 (Japan 960227)</description>
+	<cloneof>sfa2</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfz3jr1" index="" image="">
+	<description>Street Fighter Zero 3 (Japan 980727)</description>
+	<cloneof>sfa3</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfz3jr2" index="" image="">
+	<description>Street Fighter Zero 3 (Japan 980629)</description>
+	<cloneof>sfa3</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfzhr1" index="" image="">
+	<description>Street Fighter Zero (Hispanic 950627)</description>
+	<cloneof>sfa</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfzj" index="" image="">
+	<description>Street Fighter Zero (Japan 950727)</description>
+	<cloneof>sfa</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfzjr1" index="" image="">
+	<description>Street Fighter Zero (Japan 950627)</description>
+	<cloneof>sfa</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfzjr2" index="" image="">
+	<description>Street Fighter Zero (Japan 950605)</description>
+	<cloneof>sfa</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="slammastu" index="" image="">
+	<description>Saturday Night Slam Masters (USA 930713)</description>
+	<cloneof>slammast</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1993</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smbombr1" index="" image="">
+	<description>Super Muscle Bomber: The International Blowout (Japan 940808)</description>
+	<cloneof>ringdest</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sonsonj" index="" image="">
+	<description>Son Son (Japan)</description>
+	<cloneof>sonson</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spf2tu" index="" image="">
+	<description>Super Puzzle Fighter II Turbo (USA 960620)</description>
+	<cloneof>spf2t</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spf2xj" index="" image="">
+	<description>Super Puzzle Fighter II X (Japan 960531)</description>
+	<cloneof>spf2t</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssf2ar1" index="" image="">
+	<description>Super Street Fighter II: The New Challengers (Asia 930914)</description>
+	<cloneof>ssf2</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssf2j" index="" image="">
+	<description>Super Street Fighter II: The New Challengers (Japan 931005)</description>
+	<cloneof>ssf2</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssf2jr1" index="" image="">
+	<description>Super Street Fighter II: The New Challengers (Japan 930911)</description>
+	<cloneof>ssf2</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssf2jr2" index="" image="">
+	<description>Super Street Fighter II: The New Challengers (Japan 930910)</description>
+	<cloneof>ssf2</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssf2t" index="" image="">
+	<description>Super Street Fighter II Turbo (World 940223)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssf2ta" index="" image="">
+	<description>Super Street Fighter II Turbo (Asia 940223)</description>
+	<cloneof>ssf2t</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssf2tur1" index="" image="">
+	<description>Super Street Fighter II Turbo (USA 940223)</description>
+	<cloneof>ssf2t</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssf2u" index="" image="">
+	<description>Super Street Fighter II: The New Challengers (USA 930911)</description>
+	<cloneof>ssf2</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssf2xj" index="" image="">
+	<description>Super Street Fighter II X: Grand Master Challenge (Japan 940223)</description>
+	<cloneof>ssf2t</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vampj" index="" image="">
+	<description>Vampire: The Night Warriors (Japan 940705)</description>
+	<cloneof>dstlk</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vampja" index="" image="">
+	<description>Vampire: The Night Warriors (Japan 940705 alt)</description>
+	<cloneof>dstlk</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vsavh" index="" image="">
+	<description>Vampire Savior: The Lord of Vampire (Hispanic 970519)</description>
+	<cloneof>vsav</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vsavj" index="" image="">
+	<description>Vampire Savior: The Lord of Vampire (Japan 970519)</description>
+	<cloneof>vsav</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vsavu" index="" image="">
+	<description>Vampire Savior: The Lord of Vampire (USA 970519)</description>
+	<cloneof>vsav</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wofa" index="" image="">
+	<description>Sangokushi II (Asia 921005)</description>
+	<cloneof>wof</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wofu" index="" image="">
+	<description>Warriors of Fate (USA 921031)</description>
+	<cloneof>wof</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xmcotaj2" index="" image="">
+	<description>X-Men: Children of the Atom (Japan 941219)</description>
+	<cloneof>xmcota</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xmcotaj3" index="" image="">
+	<description>X-Men: Children of the Atom (Japan 941217)</description>
+	<cloneof>xmcota</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xmcotajr" index="" image="">
+	<description>X-Men: Children of the Atom (Japan 941208 rent version)</description>
+	<cloneof>xmcota</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xmcotau" index="" image="">
+	<description>X-Men: Children of the Atom (USA 950105)</description>
+	<cloneof>xmcota</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xmvsfa" index="" image="">
+	<description>X-Men Vs. Street Fighter (Asia 961023)</description>
+	<cloneof>xmvsf</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xmvsfh" index="" image="">
+	<description>X-Men Vs. Street Fighter (Hispanic 961004)</description>
+	<cloneof>xmvsf</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xmvsfjr1" index="" image="">
+	<description>X-Men Vs. Street Fighter (Japan 960910)</description>
+	<cloneof>xmvsf</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xmvsfur1" index="" image="">
+	<description>X-Men Vs. Street Fighter (USA 961004)</description>
+	<cloneof>xmvsf</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

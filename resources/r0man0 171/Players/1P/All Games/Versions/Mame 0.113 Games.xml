@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1P / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="7ordi" index="" image="">
+	<description>7 Ordi (Korea)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Yun Sung</manufacturer>
+	<year>2002</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="daytonas" index="" image="">
+	<description>Daytona USA (With Saturn Adverts)</description>
+	<cloneof>daytona</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dbc" index="" image="">
+	<description>Da Ban Cheng (Hong Kong, V027H)</description>
+	<cloneof>lhb</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1995</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddr4msj" index="" image="">
+	<description>Dance Dance Revolution 4th Mix Solo (G*A33 VER. JBA)</description>
+	<cloneof>ddr4ms</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drmn" index="" image="">
+	<description>DrumMania (GQ881 VER. JAD)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drmn3m" index="" image="">
+	<description>DrumMania 3rd Mix (G*A23 VER. JAA)</description>
+	<cloneof>pcnfrk3m</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dunhuang" index="" image="">
+	<description>Mahjong Dunhuang</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Spirit</manufacturer>
+	<year>1995</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="good" index="" image="">
+	<description>Good (Korea)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1998</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lhbv33c" index="" image="">
+	<description>Long Hu Bang (China, V033C)</description>
+	<cloneof>lhb</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1995</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lhzb2a" index="" image="">
+	<description>Mahjong Long Hu Zheng Ba 2 (VS221M)</description>
+	<cloneof>lhzb2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1998</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="motoraid" index="" image="">
+	<description>Motor Raid - Twin</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1997</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pcnfrk3m" index="" image="">
+	<description>Percussion Freaks 3rd Mix (G*A23 VER. KAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ppd" index="" image="">
+	<description>ParaParaDancing</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ppp11" index="" image="">
+	<description>ParaParaParadise v1.1</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qosa" index="" image="">
+	<description>A Question of Sport (set 2, 39-960-099)</description>
+	<cloneof>qos</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>1992</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qosb" index="" image="">
+	<description>A Question of Sport (set 3, 39-960-089)</description>
+	<cloneof>qos</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>1992</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sdmg2" index="" image="">
+	<description>Mahjong Super Da Man Guan II (China, V754C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1997</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="snookr10" index="" image="">
+	<description>Snooker 10 (Ver 1.11)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sandii&apos;</manufacturer>
+	<year>1998</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spotty" index="" image="">
+	<description>Spotty (Ver. 2.0.2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Prince Co.</manufacturer>
+	<year>2001</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tjsb" index="" image="">
+	<description>Mahjong Tian Jiang Shen Bing (V137C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1997</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

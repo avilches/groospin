@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Sammy / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="djboy" index="" image="">
+	<description>DJ Boy (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko (American Sammy license)</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="djboya" index="" image="">
+	<description>DJ Boy (set 2)</description>
+	<cloneof>djboy</cloneof>
+	<crc/>
+	<manufacturer>Kaneko (American Sammy license)</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ggisuka" index="" image="">
+	<description>Guilty Gear Isuka</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Arc System Works / Sammy</manufacturer>
+	<year>2003</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ggx15" index="" image="">
+	<description>Guilty Gear X ver. 1.5</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Arc System Works / Sammy</manufacturer>
+	<year>2003</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kofnw" index="" image="">
+	<description>The King of Fighters Neowave</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy / SNK Playmore</manufacturer>
+	<year>2005</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kofnwj" index="" image="">
+	<description>The King of Fighters Neowave (Japan)</description>
+	<cloneof>kofnw</cloneof>
+	<crc/>
+	<manufacturer>Sammy / SNK Playmore</manufacturer>
+	<year>2005</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kofxi" index="" image="">
+	<description>The King of Fighters XI</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy / SNK Playmore</manufacturer>
+	<year>2005</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov7sprt" index="" image="">
+	<description>Knights of Valour - The Seven Spirits</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS / Sammy</manufacturer>
+	<year>2003</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ngbc" index="" image="">
+	<description>NeoGeo Battle Coliseum</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy / SNK Playmore</manufacturer>
+	<year>2005</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ngbcj" index="" image="">
+	<description>NeoGeo Battle Coliseum (Japan)</description>
+	<cloneof>ngbc</cloneof>
+	<crc/>
+	<manufacturer>Sammy / SNK Playmore</manufacturer>
+	<year>2005</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rumblef" index="" image="">
+	<description>The Rumble Fish</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy / Dimps</manufacturer>
+	<year>2004</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rumblef2" index="" image="">
+	<description>The Rumble Fish 2</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy / Dimps</manufacturer>
+	<year>2005</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rumblefp" index="" image="">
+	<description>The Rumble Fish (prototype)</description>
+	<cloneof>rumblef</cloneof>
+	<crc/>
+	<manufacturer>Sammy / Dimps</manufacturer>
+	<year>2004</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rumblf2p" index="" image="">
+	<description>The Rumble Fish 2 (prototype)</description>
+	<cloneof>rumblef2</cloneof>
+	<crc/>
+	<manufacturer>Sammy / Dimps</manufacturer>
+	<year>2005</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="samsptk" index="" image="">
+	<description>Samurai Spirits Tenkaichi Kenkakuden</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy / SNK Playmore</manufacturer>
+	<year>2005</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="survarts" index="" image="">
+	<description>Survival Arts (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="survartsj" index="" image="">
+	<description>Survival Arts (Japan)</description>
+	<cloneof>survarts</cloneof>
+	<crc/>
+	<manufacturer>Sammy</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="survartsu" index="" image="">
+	<description>Survival Arts (USA)</description>
+	<cloneof>survarts</cloneof>
+	<crc/>
+	<manufacturer>American Sammy</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

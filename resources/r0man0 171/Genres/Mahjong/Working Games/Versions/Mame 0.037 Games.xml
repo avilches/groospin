@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Mahjong / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="kiwame" index="" image="">
+	<description>Pro Mahjong Kiwame</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Athena</manufacturer>
+	<year>1994</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjnquestb" index="" image="">
+	<description>Mahjong Quest (No Nudity)</description>
+	<cloneof>mjnquest</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="royalmah" index="" image="">
+	<description>Royal Mahjong (Falcon bootleg, v1.01)</description>
+	<cloneof>royalmj</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1982</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ttmahjng" index="" image="">
+	<description>T.T Mahjong</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1981</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vsmahjng" index="" image="">
+	<description>Vs. Mahjong (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo Co., Ltd.</manufacturer>
+	<year>1984</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

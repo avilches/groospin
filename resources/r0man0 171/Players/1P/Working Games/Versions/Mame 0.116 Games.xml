@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1P / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="aladmdb" index="" image="">
+	<description>Aladdin (bootleg of Japanese Megadrive version)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>bootleg / Sega</manufacturer>
+	<year>1993</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dai2kaku" index="" image="">
+	<description>Dai-Dai-Kakumei (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SystemBit</manufacturer>
+	<year>2004</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="finalgdr" index="" image="">
+	<description>Final Godori (Korea, version 2.20.5915)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SemiCom</manufacturer>
+	<year>2001</year>
+	<genre>Board Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="punchita" index="" image="">
+	<description>Punch-Out!! (Italian bootleg)</description>
+	<cloneof>punchout</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1984</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

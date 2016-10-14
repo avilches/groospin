@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Mature / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="csk227it" index="" image="">
+	<description>Champion Skill (with Ability)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>198?</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="csk234it" index="" image="">
+	<description>Champion Skill (Ability, Poker &amp; Symbols)</description>
+	<cloneof>csk227it</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>198?</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lucky8" index="" image="">
+	<description>New Lucky 8 Lines (set 1, W-4)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Wing Co., Ltd.</manufacturer>
+	<year>1989</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lvpoker" index="" image="">
+	<description>Lovely Poker [BET]</description>
+	<cloneof>lvcards</cloneof>
+	<crc/>
+	<manufacturer>Tehkan</manufacturer>
+	<year>1985</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="magicbuba" index="" image="">
+	<description>Magic Bubble (Adult version, YS-1302 PCB)</description>
+	<cloneof>magicbub</cloneof>
+	<crc/>
+	<manufacturer>Yun Sung</manufacturer>
+	<year>199?</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

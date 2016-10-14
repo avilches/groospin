@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1970-1979 / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="fi6845" index="" image="">
+	<description>Fast Invaders (6845 version)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Fiberglass</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fi8275" index="" image="">
+	<description>Fast Invaders (8275 version)</description>
+	<cloneof>fi6845</cloneof>
+	<crc/>
+	<manufacturer>Fiberglass</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mrchalgr" index="" image="">
+	<description>Mr. Challenger</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Texas Instruments</manufacturer>
+	<year>1979</year>
+	<genre>Handheld Game</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="schaserm" index="" image="">
+	<description>Space Chaser (Model Racing bootleg)</description>
+	<cloneof>schaser</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Model Racing)</manufacturer>
+	<year>1979</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spellb" index="" image="">
+	<description>Spelling B (1978 version)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Texas Instruments</manufacturer>
+	<year>1978</year>
+	<genre>Handheld Game</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

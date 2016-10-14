@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Pinball / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="pbchmp95" index="" image="">
+	<description>Pinball Champ &apos;95</description>
+	<cloneof>witch</cloneof>
+	<crc/>
+	<manufacturer>Veltmeijer Automaten</manufacturer>
+	<year>1995</year>
+	<genre>Pinball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="witchs" index="" image="">
+	<description>Witch (Sega License)</description>
+	<cloneof>witch</cloneof>
+	<crc/>
+	<manufacturer>Sega / Vic Tokai</manufacturer>
+	<year>1992</year>
+	<genre>Pinball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>4P alt / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="basschal" index="" image="">
+	<description>Sega Bass Fishing Challenge Version A</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2009</year>
+	<genre>Fishing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="basschalo" index="" image="">
+	<description>Sega Bass Fishing Challenge</description>
+	<cloneof>basschal</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2009</year>
+	<genre>Fishing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

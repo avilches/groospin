@@ -1,0 +1,249 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Basketball / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="ddribble" index="" image="">
+	<description>Double Dribble</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1986</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddribblep" index="" image="">
+	<description>Double Dribble (prototype?)</description>
+	<cloneof>ddribble</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1986</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nbapbp" index="" image="">
+	<description>NBA Play By Play</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_dbldr" index="" image="">
+	<description>Double Dribble (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami (Nintendo of America license)</manufacturer>
+	<year>1987</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="punkshot" index="" image="">
+	<description>Punk Shot (US 4 Players)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1990</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="punkshot2" index="" image="">
+	<description>Punk Shot (US 2 Players)</description>
+	<cloneof>punkshot</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1990</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="punkshotj" index="" image="">
+	<description>Punk Shot (Japan 2 Players)</description>
+	<cloneof>punkshot</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1990</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rungun" index="" image="">
+	<description>Run and Gun (ver EAA 1993 10.8)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1993</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rungun2" index="" image="">
+	<description>Run and Gun 2 (ver UAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="runguna" index="" image="">
+	<description>Run and Gun (ver EAA 1993 10.4)</description>
+	<cloneof>rungun</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1993</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rungunad" index="" image="">
+	<description>Run and Gun (ver EAA 1993 10.4) (dual screen with demux adapter)</description>
+	<cloneof>rungun</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1993</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rungunb" index="" image="">
+	<description>Run and Gun (ver EAA 1993 9.10, prototype?)</description>
+	<cloneof>rungun</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1993</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rungunbd" index="" image="">
+	<description>Run and Gun (ver EAA 1993 9.10, prototype?) (dual screen with demux adapter)</description>
+	<cloneof>rungun</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1993</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rungund" index="" image="">
+	<description>Run and Gun (ver EAA 1993 10.8) (dual screen with demux adapter)</description>
+	<cloneof>rungun</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1993</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rungunua" index="" image="">
+	<description>Run and Gun (ver UBA 1993 10.8)</description>
+	<cloneof>rungun</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1993</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rungunuad" index="" image="">
+	<description>Run and Gun (ver UBA 1993 10.8) (dual screen with demux adapter)</description>
+	<cloneof>rungun</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1993</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rungunud" index="" image="">
+	<description>Run and Gun (ver UAB 1993 10.12, dedicated twin cabinet)</description>
+	<cloneof>rungun</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1993</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbasketb" index="" image="">
+	<description>Super Basketball (version I, encrypted)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1984</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbaskete" index="" image="">
+	<description>Super Basketball (version E, encrypted)</description>
+	<cloneof>sbasketb</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1984</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbasketg" index="" image="">
+	<description>Super Basketball (version G, encrypted)</description>
+	<cloneof>sbasketb</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1984</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbasketh" index="" image="">
+	<description>Super Basketball (version H, unprotected)</description>
+	<cloneof>sbasketb</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1984</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="slamdnk2" index="" image="">
+	<description>Slam Dunk 2 (ver JAA)</description>
+	<cloneof>rungun2</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="slmdunkj" index="" image="">
+	<description>Slam Dunk (ver JAA 1993 10.8)</description>
+	<cloneof>rungun</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1993</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="slmdunkjd" index="" image="">
+	<description>Slam Dunk (ver JAA 1993 10.8) (dual screen with demux adapter)</description>
+	<cloneof>rungun</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1993</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

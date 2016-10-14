@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Skiing / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="alpinr2a" index="" image="">
+	<description>Alpine Racer 2 (Rev. ARS2 Ver.A)</description>
+	<cloneof>alpinr2b</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1996</year>
+	<genre>Skiing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="skimaxx" index="" image="">
+	<description>Skimaxx</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kyle Hodgetts / ICE</manufacturer>
+	<year>1996</year>
+	<genre>Skiing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

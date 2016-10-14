@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Sports / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="gt3dt211" index="" image="">
+	<description>Golden Tee 3D Golf Tournament (v2.11)</description>
+	<cloneof>gt3d</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1995</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xtheball" index="" image="">
+	<description>X the Ball</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Rare</manufacturer>
+	<year>1991</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

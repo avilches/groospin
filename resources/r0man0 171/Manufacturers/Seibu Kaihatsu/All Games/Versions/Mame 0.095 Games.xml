@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Seibu Kaihatsu / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="panicr" index="" image="">
+	<description>Panic Road (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Taito license)</manufacturer>
+	<year>1986</year>
+	<genre>Pinball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zeroteamb" index="" image="">
+	<description>Zero Team (Japan?, later batteryless)</description>
+	<cloneof>zeroteam</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

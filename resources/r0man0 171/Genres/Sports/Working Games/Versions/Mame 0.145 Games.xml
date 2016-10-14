@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Sports / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="bigstrkba" index="" image="">
+	<description>Big Striker (bootleg w/Italian teams)</description>
+	<cloneof>bigstrik</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1992</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="coozumou" index="" image="">
+	<description>Oozumou - The Grand Sumo (DECO Cassette, Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Sports</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="coozumou" index="" image="">
+	<description>Oozumou - The Grand Sumo (DECO Cassette, Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Sports</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="csdtenis" index="" image="">
+	<description>Super Doubles Tennis (DECO Cassette, Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cskater" index="" image="">
+	<description>Skater (DECO Cassette, Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Skateboarding</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="driblingbr" index="" image="">
+	<description>Dribbling (bootleg, Brazil)</description>
+	<cloneof>dribling</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Videomac)</manufacturer>
+	<year>1983</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fsoccerba" index="" image="">
+	<description>Fighting Soccer (Joystick hack bootleg, alt)</description>
+	<cloneof>fsoccer</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1988</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

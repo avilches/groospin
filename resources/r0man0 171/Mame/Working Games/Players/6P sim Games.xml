@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Mame / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="harddunk" index="" image="">
+	<description>Hard Dunk (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1994</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="harddunkj" index="" image="">
+	<description>Hard Dunk (Japan)</description>
+	<cloneof>harddunk</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1994</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kas89" index="" image="">
+	<description>Kasino &apos;89</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SFC S.R.L.</manufacturer>
+	<year>1989</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="luckyrlt" index="" image="">
+	<description>Lucky Roulette Plus (6-players, Spanish)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1990</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="neckneck" index="" image="">
+	<description>Neck-n-Neck (v1.2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bundra Games/Incredible Technologies</manufacturer>
+	<year>1992</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rcirulet" index="" image="">
+	<description>Ruleta RCI (6-players, Spanish)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Entretenimientos GEMINIS</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="re800ea" index="" image="">
+	<description>Ruleta RE-800 (earlier, no attract)</description>
+	<cloneof>re800v1</cloneof>
+	<crc/>
+	<manufacturer>Entretenimientos GEMINIS</manufacturer>
+	<year>1991</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="re800v1" index="" image="">
+	<description>Ruleta RE-800 (v1.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Entretenimientos GEMINIS</manufacturer>
+	<year>1991</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="re800v3" index="" image="">
+	<description>Ruleta RE-800 (v3.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Entretenimientos GEMINIS</manufacturer>
+	<year>1991</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xmen6p" index="" image="">
+	<description>X-Men (6 Players ver ECB)</description>
+	<cloneof>xmen</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xmen6pu" index="" image="">
+	<description>X-Men (6 Players ver UCB)</description>
+	<cloneof>xmen</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

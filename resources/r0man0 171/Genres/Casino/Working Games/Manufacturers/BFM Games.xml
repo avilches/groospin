@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Casino / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="gldncrwn" index="" image="">
+	<description>Golden Crown (Dutch, Game Card 95-752-011)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM/ELAM</manufacturer>
+	<year>1997</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="paradice" index="" image="">
+	<description>Paradice (Dutch, Game Card 95-750-615)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM/ELAM</manufacturer>
+	<year>1995</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pokio" index="" image="">
+	<description>Pokio (Dutch, Game Card 95-750-278)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM/ELAM</manufacturer>
+	<year>1994</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pyramid" index="" image="">
+	<description>Pyramid (Dutch, Game Card 95-750-898)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM/ELAM</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qntoond" index="" image="">
+	<description>Quintoon (Dutch, Game Card 95-750-243)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM/ELAM</manufacturer>
+	<year>1993</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qntoondo" index="" image="">
+	<description>Quintoon (Dutch, Game Card 95-750-136)</description>
+	<cloneof>qntoond</cloneof>
+	<crc/>
+	<manufacturer>BFM/ELAM</manufacturer>
+	<year>1993</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quintono" index="" image="">
+	<description>Quintoon (UK, Game Card 95-750-203)</description>
+	<cloneof>quintoon</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>1993</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quintoon" index="" image="">
+	<description>Quintoon (UK, Game Card 95-750-206)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>1993</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="slotsnl" index="" image="">
+	<description>Slots (Dutch, Game Card 95-750-368)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM/ELAM</manufacturer>
+	<year>1995</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sltblgp1" index="" image="">
+	<description>Slots (Belgian Cash, Game Card 95-752-008)</description>
+	<cloneof>sltblgpo</cloneof>
+	<crc/>
+	<manufacturer>BFM/ELAM</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sltblgpo" index="" image="">
+	<description>Slots (Belgian Cash, Game Card 95-750-938)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM/ELAM</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sltblgtk" index="" image="">
+	<description>Slots (Belgian Token, Game Card 95-750-943)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM/ELAM</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2P alt / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="cfghtice" index="" image="">
+	<description>Fighting Ice Hockey (DECO Cassette)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Hockey</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hoccer" index="" image="">
+	<description>Hoccer (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Eastern Micro Electronics, Inc.</manufacturer>
+	<year>1983</year>
+	<genre>Hockey</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hoccer2" index="" image="">
+	<description>Hoccer (set 2)</description>
+	<cloneof>hoccer</cloneof>
+	<crc/>
+	<manufacturer>Eastern Micro Electronics, Inc.</manufacturer>
+	<year>1983</year>
+	<genre>Hockey</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

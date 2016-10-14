@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Capcom / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="sfz2alb" index="" image="">
+	<description>Street Fighter Zero 2 Alpha (Brazil 960813)</description>
+	<cloneof>sfz2al</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssf2tu" index="" image="">
+	<description>Super Street Fighter II Turbo (USA 940323)</description>
+	<cloneof>ssf2t</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vhunt2" index="" image="">
+	<description>Vampire Hunter 2: Darkstalkers Revenge (Japan 970929)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xmvsfb" index="" image="">
+	<description>X-Men Vs. Street Fighter (Brazil 961023)</description>
+	<cloneof>xmvsf</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Gun / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="targetha" index="" image="">
+	<description>Target Hits (ver 1.0)</description>
+	<cloneof>targeth</cloneof>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1994</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="totlvicu" index="" image="">
+	<description>Total Vice (ver UAC)</description>
+	<cloneof>totlvice</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1997</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

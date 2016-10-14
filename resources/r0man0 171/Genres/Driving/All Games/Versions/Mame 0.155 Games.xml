@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Driving / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="f1dreamba" index="" image="">
+	<description>F-1 Dream (bootleg, set 2)</description>
+	<cloneof>f1dream</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="f1enu" index="" image="">
+	<description>F1 Exhaust Note (US)</description>
+	<cloneof>f1en</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="initdo" index="" image="">
+	<description>Initial D Arcade Stage (Japan) (GDS-0020)</description>
+	<cloneof>initd</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2002</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lgpalt" index="" image="">
+	<description>Laser Grand Prix (alternate)</description>
+	<cloneof>lgp</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1983</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pdriftl" index="" image="">
+	<description>Power Drift (Japan, Link Version)</description>
+	<cloneof>pdrift</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shtriderb" index="" image="">
+	<description>Shot Rider (bootleg)</description>
+	<cloneof>shtrider</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1985</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="speedup10" index="" image="">
+	<description>Speed Up (Version 1.00)</description>
+	<cloneof>speedup</cloneof>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

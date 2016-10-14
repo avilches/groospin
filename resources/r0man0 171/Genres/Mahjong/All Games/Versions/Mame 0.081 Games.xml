@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Mahjong / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="kisekaem" index="" image="">
+	<description>Kisekae Mahjong</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>I&apos;Max</manufacturer>
+	<year>1995</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="srmp5" index="" image="">
+	<description>Super Real Mahjong P5</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Seta</manufacturer>
+	<year>1994</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="yujan" index="" image="">
+	<description>Yu-Jan</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Yubis / T.System</manufacturer>
+	<year>1999</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

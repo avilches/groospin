@@ -1,0 +1,909 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>SNK / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="aodk" index="" image="">
+	<description>Aggressors of Dark Kombat / Tsuukai GANGAN Koushinkyoku (ADM-008)(ADH-008)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>ADK / SNK</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aof" index="" image="">
+	<description>Art of Fighting / Ryuuko no Ken (NGM-044)(NGH-044)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aof2" index="" image="">
+	<description>Art of Fighting 2 / Ryuuko no Ken 2 (NGM-056)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aof2a" index="" image="">
+	<description>Art of Fighting 2 / Ryuuko no Ken 2 (NGH-056)</description>
+	<cloneof>aof2</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aof3" index="" image="">
+	<description>Art of Fighting 3 - The Path of the Warrior / Art of Fighting - Ryuuko no Ken Gaiden</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aof3k" index="" image="">
+	<description>Art of Fighting 3 - The Path of the Warrior (Korean release)</description>
+	<cloneof>aof3</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="burningf" index="" image="">
+	<description>Burning Fight (NGM-018)(NGH-018)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="burningfh" index="" image="">
+	<description>Burning Fight (NGH-018)(US)</description>
+	<cloneof>burningf</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="burningfp" index="" image="">
+	<description>Burning Fight (prototype)</description>
+	<cloneof>burningf</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fatfursp" index="" image="">
+	<description>Fatal Fury Special / Garou Densetsu Special (set 1)(NGM-058)(NGH-058)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fatfurspa" index="" image="">
+	<description>Fatal Fury Special / Garou Densetsu Special (set 2)(NGM-058)(NGH-058)</description>
+	<cloneof>fatfursp</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fatfury1" index="" image="">
+	<description>Fatal Fury - King of Fighters / Garou Densetsu - shukumei no tatakai (NGM-033)(NGH-033)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fatfury2" index="" image="">
+	<description>Fatal Fury 2 / Garou Densetsu 2 - arata-naru tatakai (NGM-047)(NGH-047)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fatfury3" index="" image="">
+	<description>Fatal Fury 3 - Road to the Final Victory / Garou Densetsu 3 - haruka-naru tatakai (NGM-069)(NGH-069)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fswords" index="" image="">
+	<description>Fighters Swords (Korean release of Samurai Shodown III)</description>
+	<cloneof>samsho3</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="garou" index="" image="">
+	<description>Garou - Mark of the Wolves (NGM-2530)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="garouh" index="" image="">
+	<description>Garou - Mark of the Wolves (NGM-2530)(NGH-2530)</description>
+	<cloneof>garou</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="garoup" index="" image="">
+	<description>Garou - Mark of the Wolves (prototype)</description>
+	<cloneof>garou</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kf2k3pcb" index="" image="">
+	<description>The King of Fighters 2003 (Japan, JAMMA PCB)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK Playmore</manufacturer>
+	<year>2003</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kizuna" index="" image="">
+	<description>Kizuna Encounter - Super Tag Battle / Fu&apos;un Super Tag Battle</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kizuna4p" index="" image="">
+	<description>Kizuna Encounter - Super Tag Battle 4 Way Battle Version / Fu&apos;un Super Tag Battle Special Version</description>
+	<cloneof>kizuna</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kof2000" index="" image="">
+	<description>The King of Fighters 2000 (NGM-2570) (NGH-2570)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kof2000n" index="" image="">
+	<description>The King of Fighters 2000 (not encrypted)</description>
+	<cloneof>kof2000</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kof2001" index="" image="">
+	<description>The King of Fighters 2001 (NGM-262?)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Eolith / SNK</manufacturer>
+	<year>2001</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kof2001h" index="" image="">
+	<description>The King of Fighters 2001 (NGH-2621)</description>
+	<cloneof>kof2001</cloneof>
+	<crc/>
+	<manufacturer>Eolith / SNK</manufacturer>
+	<year>2001</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kof2003" index="" image="">
+	<description>The King of Fighters 2003 (NGM-2710)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK Playmore</manufacturer>
+	<year>2003</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kof2003h" index="" image="">
+	<description>The King of Fighters 2003 (NGH-2710)</description>
+	<cloneof>kof2003</cloneof>
+	<crc/>
+	<manufacturer>SNK Playmore</manufacturer>
+	<year>2003</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kof94" index="" image="">
+	<description>The King of Fighters &apos;94 (NGM-055)(NGH-055)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kof95" index="" image="">
+	<description>The King of Fighters &apos;95 (NGM-084)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kof95a" index="" image="">
+	<description>The King of Fighters &apos;95 (NGM-084), alternate board</description>
+	<cloneof>kof95</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kof95h" index="" image="">
+	<description>The King of Fighters &apos;95 (NGH-084)</description>
+	<cloneof>kof95</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kof96" index="" image="">
+	<description>The King of Fighters &apos;96 (NGM-214)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kof96h" index="" image="">
+	<description>The King of Fighters &apos;96 (NGH-214)</description>
+	<cloneof>kof96</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kof97" index="" image="">
+	<description>The King of Fighters &apos;97 (NGM-2320)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kof97h" index="" image="">
+	<description>The King of Fighters &apos;97 (NGH-2320)</description>
+	<cloneof>kof97</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kof97k" index="" image="">
+	<description>The King of Fighters &apos;97 (Korean release)</description>
+	<cloneof>kof97</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kof98" index="" image="">
+	<description>The King of Fighters &apos;98 - The Slugfest / King of Fighters &apos;98 - dream match never ends (NGM-2420)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kof98a" index="" image="">
+	<description>The King of Fighters &apos;98 - The Slugfest / King of Fighters &apos;98 - dream match never ends (NGM-2420, alternate board)</description>
+	<cloneof>kof98</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kof98h" index="" image="">
+	<description>The King of Fighters &apos;98 - The Slugfest / King of Fighters &apos;98 - dream match never ends (NGH-2420)</description>
+	<cloneof>kof98</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kof98k" index="" image="">
+	<description>The King of Fighters &apos;98 - The Slugfest / King of Fighters &apos;98 - dream match never ends (Korean board)</description>
+	<cloneof>kof98</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kof98ka" index="" image="">
+	<description>The King of Fighters &apos;98 - The Slugfest / King of Fighters &apos;98 - dream match never ends (Korean board 2)</description>
+	<cloneof>kof98</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kof99" index="" image="">
+	<description>The King of Fighters &apos;99 - Millennium Battle (NGM-2510)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kof99e" index="" image="">
+	<description>The King of Fighters &apos;99 - Millennium Battle (earlier)</description>
+	<cloneof>kof99</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kof99h" index="" image="">
+	<description>The King of Fighters &apos;99 - Millennium Battle (NGH-2510)</description>
+	<cloneof>kof99</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kof99k" index="" image="">
+	<description>The King of Fighters &apos;99 - Millennium Battle (Korean release)</description>
+	<cloneof>kof99</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kof99p" index="" image="">
+	<description>The King of Fighters &apos;99 - Millennium Battle (prototype)</description>
+	<cloneof>kof99</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lastblad" index="" image="">
+	<description>The Last Blade / Bakumatsu Roman - Gekka no Kenshi (NGM-2340)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lastbladh" index="" image="">
+	<description>The Last Blade / Bakumatsu Roman - Gekka no Kenshi (NGH-2340)</description>
+	<cloneof>lastblad</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lastbld2" index="" image="">
+	<description>The Last Blade 2 / Bakumatsu Roman - Dai Ni Maku Gekka no Kenshi (NGM-2430)(NGH-2430)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lastsold" index="" image="">
+	<description>The Last Soldier (Korean release of The Last Blade)</description>
+	<cloneof>lastblad</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="legendos" index="" image="">
+	<description>Legend of Success Joe / Ashita no Joe Densetsu</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mutnat" index="" image="">
+	<description>Mutation Nation (NGM-014)(NGH-014)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ninjamas" index="" image="">
+	<description>Ninja Master&apos;s - haoh-ninpo-cho</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>ADK / SNK</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pow" index="" image="">
+	<description>P.O.W. - Prisoners of War (US version 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1988</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="powj" index="" image="">
+	<description>Datsugoku - Prisoners of War (Japan)</description>
+	<cloneof>pow</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1988</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rbff1" index="" image="">
+	<description>Real Bout Fatal Fury / Real Bout Garou Densetsu (NGM-095)(NGH-095)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rbff1a" index="" image="">
+	<description>Real Bout Fatal Fury / Real Bout Garou Densetsu (bug fix revision)</description>
+	<cloneof>rbff1</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rbff2" index="" image="">
+	<description>Real Bout Fatal Fury 2 - The Newcomers / Real Bout Garou Densetsu 2 - the newcomers (NGM-2400)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rbff2h" index="" image="">
+	<description>Real Bout Fatal Fury 2 - The Newcomers / Real Bout Garou Densetsu 2 - the newcomers (NGH-2400)</description>
+	<cloneof>rbff2</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rbff2k" index="" image="">
+	<description>Real Bout Fatal Fury 2 - The Newcomers (Korean release)</description>
+	<cloneof>rbff2</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rbffspec" index="" image="">
+	<description>Real Bout Fatal Fury Special / Real Bout Garou Densetsu Special</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rbffspeck" index="" image="">
+	<description>Real Bout Fatal Fury Special / Real Bout Garou Densetsu Special (Korean release)</description>
+	<cloneof>rbffspec</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="roboarmy" index="" image="">
+	<description>Robo Army</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="samsh5sp" index="" image="">
+	<description>Samurai Shodown V Special / Samurai Spirits Zero Special (NGM-2720)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Yuki Enterprise / SNK Playmore</manufacturer>
+	<year>2004</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="samsh5sph" index="" image="">
+	<description>Samurai Shodown V Special / Samurai Spirits Zero Special (NGH-2720) (2nd release, less censored)</description>
+	<cloneof>samsh5sp</cloneof>
+	<crc/>
+	<manufacturer>Yuki Enterprise / SNK Playmore</manufacturer>
+	<year>2004</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="samsh5spho" index="" image="">
+	<description>Samurai Shodown V Special / Samurai Spirits Zero Special (NGH-2720) (1st release, censored)</description>
+	<cloneof>samsh5sp</cloneof>
+	<crc/>
+	<manufacturer>Yuki Enterprise / SNK Playmore</manufacturer>
+	<year>2004</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="samsho" index="" image="">
+	<description>Samurai Shodown / Samurai Spirits (NGM-045)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="samsho2" index="" image="">
+	<description>Samurai Shodown II / Shin Samurai Spirits - Haohmaru jigokuhen (NGM-063)(NGH-063)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="samsho2k" index="" image="">
+	<description>Saulabi Spirits / Jin Saulabi Tu Hon (Korean release of Samurai Shodown II)</description>
+	<cloneof>samsho2</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="samsho3" index="" image="">
+	<description>Samurai Shodown III / Samurai Spirits - Zankurou Musouken (NGM-087)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="samsho3h" index="" image="">
+	<description>Samurai Shodown III / Samurai Spirits - Zankurou Musouken (NGH-087)</description>
+	<cloneof>samsho3</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="samsho4" index="" image="">
+	<description>Samurai Shodown IV - Amakusa&apos;s Revenge / Samurai Spirits - Amakusa Kourin (NGM-222)(NGH-222)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="samsho4k" index="" image="">
+	<description>Pae Wang Jeon Seol / Legend of a Warrior (Korean censored Samurai Shodown IV)</description>
+	<cloneof>samsho4</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="samsho5" index="" image="">
+	<description>Samurai Shodown V / Samurai Spirits Zero (NGM-2700)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Yuki Enterprise / SNK Playmore</manufacturer>
+	<year>2003</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="samsho5h" index="" image="">
+	<description>Samurai Shodown V / Samurai Spirits Zero (NGH-2700)</description>
+	<cloneof>samsho5</cloneof>
+	<crc/>
+	<manufacturer>Yuki Enterprise / SNK Playmore</manufacturer>
+	<year>2003</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="samshoh" index="" image="">
+	<description>Samurai Shodown / Samurai Spirits (NGH-045)</description>
+	<cloneof>samsho</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="savagere" index="" image="">
+	<description>Savage Reign / Fu&apos;un Mokushiroku - kakutou sousei</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sengoku" index="" image="">
+	<description>Sengoku / Sengoku Denshou (NGM-017)(NGH-017)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sengoku2" index="" image="">
+	<description>Sengoku 2 / Sengoku Denshou 2</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sengoku3" index="" image="">
+	<description>Sengoku 3 / Sengoku Densho 2001</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Noise Factory / SNK</manufacturer>
+	<year>2001</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sengokuh" index="" image="">
+	<description>Sengoku / Sengoku Denshou (NGH-017)(US)</description>
+	<cloneof>sengoku</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="streetsm" index="" image="">
+	<description>Street Smart (US version 2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="streetsm1" index="" image="">
+	<description>Street Smart (US version 1)</description>
+	<cloneof>streetsm</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="streetsmj" index="" image="">
+	<description>Street Smart (Japan version 1)</description>
+	<cloneof>streetsm</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="streetsmw" index="" image="">
+	<description>Street Smart (World version 1)</description>
+	<cloneof>streetsm</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="svc" index="" image="">
+	<description>SNK vs. Capcom - SVC Chaos (NGM-2690)(NGH-2690)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK Playmore</manufacturer>
+	<year>2003</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="svcpcb" index="" image="">
+	<description>SNK vs. Capcom - SVC Chaos (JAMMA PCB, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK Playmore</manufacturer>
+	<year>2003</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="svcpcba" index="" image="">
+	<description>SNK vs. Capcom - SVC Chaos (JAMMA PCB, set 2)</description>
+	<cloneof>svcpcb</cloneof>
+	<crc/>
+	<manufacturer>SNK Playmore</manufacturer>
+	<year>2003</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wh2j" index="" image="">
+	<description>World Heroes 2 Jet (ADM-007)(ADH-007)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>ADK / SNK</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="whp" index="" image="">
+	<description>World Heroes Perfect</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>ADK / SNK</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

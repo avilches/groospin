@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Bowling / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="alleymas" index="" image="">
+	<description>Alley Master</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Cinematronics</manufacturer>
+	<year>1986</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cprobowl" index="" image="">
+	<description>Pro Bowling (DECO Cassette)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="krzybowl" index="" image="">
+	<description>Krazy Bowl</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>American Sammy</manufacturer>
+	<year>1994</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stratab" index="" image="">
+	<description>Strata Bowling (V3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Strata/Incredible Technologies</manufacturer>
+	<year>1990</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

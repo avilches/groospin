@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Gun / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="dpatrola" index="" image="">
+	<description>Desert Patrol (set 2) [TTL]</description>
+	<cloneof>dpatrol</cloneof>
+	<crc/>
+	<manufacturer>Project Support Engineering (Telegames license)</manufacturer>
+	<year>1977</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lghostj" index="" image="">
+	<description>Laser Ghost (Japan) (FD1094 317-0164)</description>
+	<cloneof>lghost</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

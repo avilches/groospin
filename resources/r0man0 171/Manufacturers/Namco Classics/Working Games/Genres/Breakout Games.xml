@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Namco / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="bombbee" index="" image="">
+	<description>Bomb Bee</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1979</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cutieq" index="" image="">
+	<description>Cutie Q</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1979</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="geebee" index="" image="">
+	<description>Gee Bee (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1978</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="geebeeb" index="" image="">
+	<description>Gee Bee (Europe)</description>
+	<cloneof>geebee</cloneof>
+	<crc/>
+	<manufacturer>Namco (F.lli Bertolino license)</manufacturer>
+	<year>1978</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="geebeeg" index="" image="">
+	<description>Gee Bee (US)</description>
+	<cloneof>geebee</cloneof>
+	<crc/>
+	<manufacturer>Namco (Gremlin license)</manufacturer>
+	<year>1978</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quester" index="" image="">
+	<description>Quester (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1987</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="questers" index="" image="">
+	<description>Quester Special Edition (Japan)</description>
+	<cloneof>quester</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1987</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

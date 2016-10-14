@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Gun / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="carnevil" index="" image="">
+	<description>CarnEvil (v1.0.3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway Games</manufacturer>
+	<year>1998</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="carnevil1" index="" image="">
+	<description>CarnEvil (v1.0.1)</description>
+	<cloneof>carnevil</cloneof>
+	<crc/>
+	<manufacturer>Midway Games</manufacturer>
+	<year>1998</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="desertgu" index="" image="">
+	<description>Desert Gun</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dave Nutting Associates / Midway</manufacturer>
+	<year>1977</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="invasnab" index="" image="">
+	<description>Invasion - The Abductors (version 5.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1999</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="invasnab3" index="" image="">
+	<description>Invasion - The Abductors (version 3.0)</description>
+	<cloneof>invasnab</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1999</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="invasnab4" index="" image="">
+	<description>Invasion - The Abductors (version 4.0)</description>
+	<cloneof>invasnab</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1999</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="revx" index="" image="">
+	<description>Revolution X (rev 1.0 6/16/94)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1994</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="revxp5" index="" image="">
+	<description>Revolution X (prototype, rev 5.0 5/23/94)</description>
+	<cloneof>revx</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1994</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="roadrunm" index="" image="">
+	<description>Road Runner (Midway)</description>
+	<cloneof>desertgu</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1977</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="term2" index="" image="">
+	<description>Terminator 2 - Judgment Day (rev LA4 08/03/92)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1991</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="term2la1" index="" image="">
+	<description>Terminator 2 - Judgment Day (rev LA1 11/01/91)</description>
+	<cloneof>term2</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1991</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="term2la2" index="" image="">
+	<description>Terminator 2 - Judgment Day (rev LA2 12/09/91)</description>
+	<cloneof>term2</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1991</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="term2la3" index="" image="">
+	<description>Terminator 2 - Judgment Day (rev LA3 03/27/92)</description>
+	<cloneof>term2</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1991</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

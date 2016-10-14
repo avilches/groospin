@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2000-2009 / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="fmaniac3" index="" image="">
+	<description>Fishing Maniac 3</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Saero Entertainment</manufacturer>
+	<year>2002</year>
+	<genre>Fishing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mangchi" index="" image="">
+	<description>Mang-Chi</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Afega</manufacturer>
+	<year>2000</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ms5pcb" index="" image="">
+	<description>Metal Slug 5 (JAMMA PCB)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK Playmore</manufacturer>
+	<year>2003</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mslug3b6" index="" image="">
+	<description>Metal Slug 6 (Metal Slug 3 bootleg)</description>
+	<cloneof>mslug3</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2000</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="svcpcba" index="" image="">
+	<description>SNK vs. Capcom - SVC Chaos (JAMMA PCB, set 2)</description>
+	<cloneof>svcpcb</cloneof>
+	<crc/>
+	<manufacturer>SNK Playmore</manufacturer>
+	<year>2003</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="theglad" index="" image="">
+	<description>The Gladiator / Road of the Sword / Shen Jian (M68k label V101) (ARM label V107, ROM 06/06/03 SHEN JIAN V107)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2003</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Puzzle / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="atetrisb3" index="" image="">
+	<description>Tetris (bootleg set 3)</description>
+	<cloneof>atetris</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1988</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drgw2hk" index="" image="">
+	<description>Dragon World II (ver. 100H, Hong Kong [Hokg Kong])</description>
+	<cloneof>drgw2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1997</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

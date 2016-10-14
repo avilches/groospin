@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Maze / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="blkbustr" index="" image="">
+	<description>BlockBuster</description>
+	<cloneof>mrjong</cloneof>
+	<crc/>
+	<manufacturer>Kiwako (ECI license)</manufacturer>
+	<year>1983</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chaknpop" index="" image="">
+	<description>Chack&apos;n Pop</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="piranha" index="" image="">
+	<description>Piranha</description>
+	<cloneof>puckman</cloneof>
+	<crc/>
+	<manufacturer>GL (US Billiards license)</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="piranhao" index="" image="">
+	<description>Piranha (older)</description>
+	<cloneof>puckman</cloneof>
+	<crc/>
+	<manufacturer>GL (US Billiards license)</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="puckpkmn" index="" image="">
+	<description>Puckman Pockimon (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Genie</manufacturer>
+	<year>2000</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

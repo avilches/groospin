@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Sports / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="asoccer" index="" image="">
+	<description>American Soccer</description>
+	<cloneof>idsoccer</cloneof>
+	<crc/>
+	<manufacturer>Universal</manufacturer>
+	<year>1987</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="champbb2j" index="" image="">
+	<description>Champion Base Ball Part-2 (Japan)</description>
+	<cloneof>champbb2</cloneof>
+	<crc/>
+	<manufacturer>Alpha Denshi Co.</manufacturer>
+	<year>1983</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chkun" index="" image="">
+	<description>Chance Kun (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Peni</manufacturer>
+	<year>1988</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt2kp100" index="" image="">
+	<description>Golden Tee 2K (v1.00) (alt protection)</description>
+	<cloneof>gt2k</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>2000</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hwchampj" index="" image="">
+	<description>Heavyweight Champ (Japan) (FD1094 317-0046)</description>
+	<cloneof>hwchamp</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="idsoccera" index="" image="">
+	<description>Indoor Soccer (set 2)</description>
+	<cloneof>idsoccer</cloneof>
+	<crc/>
+	<manufacturer>Universal</manufacturer>
+	<year>1985</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ollie" index="" image="">
+	<description>Ollie King (GDX-0007)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / Amusement Vision</manufacturer>
+	<year>2004</year>
+	<genre>Skateboarding</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scg06nt" index="" image="">
+	<description>Sega Club Golf 2006 Next Tours (Rev A) (GDX-0018A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2005</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vs299b" index="" image="">
+	<description>Virtua Striker 2 &apos;99 (Revision B)</description>
+	<cloneof>vs2v991</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1999</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vs42006" index="" image="">
+	<description>Virtua Striker 4 Ver.2006 (Japan) (Rev D) (GDT-0020D)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2006</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Namco / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="alpinr2a" index="" image="">
+	<description>Alpine Racer 2 (Rev. ARS2 Ver.A)</description>
+	<cloneof>alpinr2b</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1996</year>
+	<genre>Skiing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aquajet" index="" image="">
+	<description>Aqua Jet (Rev. AJ2 Ver.B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ehrgeizja" index="" image="">
+	<description>Ehrgeiz (Japan, EG1/VER.A)</description>
+	<cloneof>ehrgeiz</cloneof>
+	<crc/>
+	<manufacturer>Square / Namco</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="panicprk" index="" image="">
+	<description>Panic Park (PNP2 Ver. A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sxeviousj" index="" image="">
+	<description>Super Xevious (Japan)</description>
+	<cloneof>xevious</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tokyowar" index="" image="">
+	<description>Tokyo Wars (Rev. TW2 Ver.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1996</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

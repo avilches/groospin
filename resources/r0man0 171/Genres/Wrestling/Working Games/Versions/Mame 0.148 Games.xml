@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Wrestling / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="slampic" index="" image="">
+	<description>Saturday Night Slam Masters (bootleg with PIC16c57)</description>
+	<cloneof>slammast</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1993</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wwfsstarb" index="" image="">
+	<description>WWF Superstars (bootleg)</description>
+	<cloneof>wwfsstar</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1989</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wwfwfestk" index="" image="">
+	<description>WWF WrestleFest (Korea)</description>
+	<cloneof>wwfwfest</cloneof>
+	<crc/>
+	<manufacturer>Technos Japan (Tecmo license)</manufacturer>
+	<year>1991</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

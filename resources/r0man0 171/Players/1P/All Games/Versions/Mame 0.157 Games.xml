@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1P / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="2spicy" index="" image="">
+	<description>2 Spicy</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2007</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="abclimax" index="" image="">
+	<description>After Burner Climax (Export)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2006</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="brkblast" index="" image="">
+	<description>Brick Blast (bootleg of Wall Crash)</description>
+	<cloneof>wallc</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Fadesa)</manufacturer>
+	<year>1984</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="f1enj" index="" image="">
+	<description>F1 Exhaust Note (Japan)</description>
+	<cloneof>f1en</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fantzoneta" index="" image="">
+	<description>Fantasy Zone (Time Attack, bootleg)</description>
+	<cloneof>fantzone</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2008</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hummerxt" index="" image="">
+	<description>Hummer Extreme</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2009</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="initiad4" index="" image="">
+	<description>Initial D4 (Rev D)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2007</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="initiad4c" index="" image="">
+	<description>Initial D4 (Rev C)</description>
+	<cloneof>initiad4</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2007</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pemg0183" index="" image="">
+	<description>Montana Choice (MG0183) Multi-Game</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1994</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2478p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002478P+XP000154) Joker Poker - French</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2479p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002479P+XP000154) Joker Poker - French</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2480p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002480P+XP000154) Joker Poker (Aces or Better) - French</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2485p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002485P+XP000154) Standard Draw Poker - French</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="radikalb" index="" image="">
+	<description>Radikal Bikers (Version 2.02)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1998</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rrvac2" index="" image="">
+	<description>Ridge Racer V Arcade Battle (RRV2 Ver. A)</description>
+	<cloneof>rrvac</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2001</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="segartv" index="" image="">
+	<description>Sega Race-TV (Export)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2007</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="starwarso" index="" image="">
+	<description>Star Wars (set 3)</description>
+	<cloneof>starwars</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="timecrs4" index="" image="">
+	<description>Time Crisis 4</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2006</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

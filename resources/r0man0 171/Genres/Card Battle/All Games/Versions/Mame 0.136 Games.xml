@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Card Battle / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="fortune1" index="" image="">
+	<description>Fortune I (PK485-S) Draw Poker</description>
+	<cloneof>videopkr</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1984</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fstation" index="" image="">
+	<description>Fun Station Spielekoffer 9 Spiele</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>ADP</manufacturer>
+	<year>2000</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jwildb52" index="" image="">
+	<description>Joker&apos;s Wild (B52 system, BP55114-V1104, Ver.054NMV)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sigma</manufacturer>
+	<year>199?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jwildb52a" index="" image="">
+	<description>Joker&apos;s Wild (B52 system, WP02001-054, Ver.031WM)</description>
+	<cloneof>jwildb52</cloneof>
+	<crc/>
+	<manufacturer>Sigma</manufacturer>
+	<year>199?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jwildb52h" index="" image="">
+	<description>Joker&apos;s Wild (B52 system, BP55114-V1104, Ver.054NMV, Harrah&apos;s GFX)</description>
+	<cloneof>jwildb52</cloneof>
+	<crc/>
+	<manufacturer>Sigma</manufacturer>
+	<year>199?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pkladiesbl" index="" image="">
+	<description>Poker Ladies (Censored bootleg)</description>
+	<cloneof>pkladies</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1989</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="secondch" index="" image="">
+	<description>Second Chance</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SMS Manufacturing Corp.</manufacturer>
+	<year>1985</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

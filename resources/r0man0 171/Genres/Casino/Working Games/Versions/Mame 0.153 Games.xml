@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Casino / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="bingo" index="" image="">
+	<description>Bingo</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Game-A-Tron</manufacturer>
+	<year>1983</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cb3e" index="" image="">
+	<description>Cherry Bonus III (set 4, encrypted bootleg)</description>
+	<cloneof>ncb3</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chewheel" index="" image="">
+	<description>Cherry Wheel (Version 1.7)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Assogiochi Assago</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="goldfrui" index="" image="">
+	<description>Gold Fruit</description>
+	<cloneof>goldstar</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0296" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0296) Haywire Slots</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0426" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0426) Sizzling Sevens Slots</description>
+	<cloneof>peps0425</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sstar97" index="" image="">
+	<description>Super Star 97 / Ming Xing 97 (version V153B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bordun International</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tesorone230" index="" image="">
+	<description>Tesorone Dell&apos;Isola (Italy, v2.30)</description>
+	<cloneof>stbsub</cloneof>
+	<crc/>
+	<manufacturer>Subsino</manufacturer>
+	<year>1995</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

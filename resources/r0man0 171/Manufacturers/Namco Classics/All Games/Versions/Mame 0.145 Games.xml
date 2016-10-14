@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Namco / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="funcube5" index="" image="">
+	<description>Funcube 5 (v1.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2002</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mazana" index="" image="">
+	<description>Mazan: Flash of the Blade (Asia, MAZ2 Ver.A)</description>
+	<cloneof>mazan</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2002</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nflclsfb" index="" image="">
+	<description>NFL Classic Football (US, NCF3 Ver.A.)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2003</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ninjasltu" index="" image="">
+	<description>Ninja Assault (US, NJA3 Ver.A)</description>
+	<cloneof>ninjaslt</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2000</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="soulclb3a" index="" image="">
+	<description>Soul Calibur III (SC31002-NA-A key, NA-B disc)</description>
+	<cloneof>soulclb3</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2005</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tekken4c" index="" image="">
+	<description>Tekken 4 (TEF1 Ver. C)</description>
+	<cloneof>tekken4</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2002</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tektagtac" index="" image="">
+	<description>Tekken Tag Tournament (Asia, TEG2/VER.C1, set 1)</description>
+	<cloneof>tektagt</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="winrun" index="" image="">
+	<description>Winning Run</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

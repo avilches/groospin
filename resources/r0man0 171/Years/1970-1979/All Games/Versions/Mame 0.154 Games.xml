@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1970-1979 / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="bombaway" index="" image="">
+	<description>Bombs Away [TTL]</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Meadows</manufacturer>
+	<year>1976</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cgunship" index="" image="">
+	<description>Cobra Gunship [TTL]</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Meadows</manufacturer>
+	<year>1976</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zerotimed" index="" image="">
+	<description>Zero Time (Datamat)</description>
+	<cloneof>galaxian</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Datamat)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

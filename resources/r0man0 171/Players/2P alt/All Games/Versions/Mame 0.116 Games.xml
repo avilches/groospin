@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2P alt / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="buzzard" index="" image="">
+	<description>Buzzard</description>
+	<cloneof>gyrodine</cloneof>
+	<crc/>
+	<manufacturer>Crux</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="car2" index="" image="">
+	<description>Car 2 (bootleg of Head On 2)</description>
+	<cloneof>headon2</cloneof>
+	<crc/>
+	<manufacturer>bootleg (RZ Bologna)</manufacturer>
+	<year>1979</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="popflamen" index="" image="">
+	<description>Pop Flamer (bootleg on Naughty Boy PCB)</description>
+	<cloneof>popflame</cloneof>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="radarscp1" index="" image="">
+	<description>Radar Scope (TRS01)</description>
+	<cloneof>radarscp</cloneof>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tinstar2" index="" image="">
+	<description>The Tin Star (set 2)</description>
+	<cloneof>tinstar</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,589 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Fighter / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="aliencha" index="" image="">
+	<description>Alien Challenge (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="alienchac" index="" image="">
+	<description>Alien Challenge (China)</description>
+	<cloneof>aliencha</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fearless" index="" image="">
+	<description>Fearless Pinocchio (V101US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2006</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="killbld" index="" image="">
+	<description>The Killing Blade (ver. 109, Chinese Board)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="killbld104" index="" image="">
+	<description>The Killing Blade (ver. 104)</description>
+	<cloneof>killbld</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="killbldp" index="" image="">
+	<description>The Killing Blade Plus (China, ver. 300)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2005</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov" index="" image="">
+	<description>Knights of Valour / Sangoku Senki (ver. 117)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov100" index="" image="">
+	<description>Knights of Valour / Sangoku Senki (ver. 100, Japanese Board)</description>
+	<cloneof>kov</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov115" index="" image="">
+	<description>Knights of Valour / Sangoku Senki (ver. 115)</description>
+	<cloneof>kov</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov2" index="" image="">
+	<description>Knights of Valour 2 / Sangoku Senki 2 (ver. 107, 102, 100HK)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov2100" index="" image="">
+	<description>Knights of Valour 2 / Sangoku Senki 2 (ver. 100, 100, 100HK)</description>
+	<cloneof>kov2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov2101" index="" image="">
+	<description>Knights of Valour 2 / Sangoku Senki 2 (ver. 101, 101, 100HK)</description>
+	<cloneof>kov2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov2102" index="" image="">
+	<description>Knights of Valour 2 / Sangoku Senki 2 (ver. 102, 101, 100HK)</description>
+	<cloneof>kov2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov2103" index="" image="">
+	<description>Knights of Valour 2 / Sangoku Senki 2 (ver. 103, 101, 100HK)</description>
+	<cloneof>kov2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov2106" index="" image="">
+	<description>Knights of Valour 2 / Sangoku Senki 2 (ver. 106, 102, 100HK)</description>
+	<cloneof>kov2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov2nl" index="" image="">
+	<description>Knights of Valour 2 New Legend (V302, China)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2008</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov2nlo" index="" image="">
+	<description>Knights of Valour 2 New Legend (V301, China)</description>
+	<cloneof>kov2nl</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2008</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov2nloa" index="" image="">
+	<description>Knights of Valour 2 New Legend (V300, Taiwan)</description>
+	<cloneof>kov2nl</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2008</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov2p" index="" image="">
+	<description>Knights of Valour 2 Plus - Nine Dragons / Sangoku Senki 2 Plus - Nine Dragons (ver. M205XX, 200, 100CN)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov2p202" index="" image="">
+	<description>Knights of Valour 2 Plus - Nine Dragons / Sangoku Senki 2 Plus - Nine Dragons (ver. M202XX, 200, 100CN)</description>
+	<cloneof>kov2p</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov2p204" index="" image="">
+	<description>Knights of Valour 2 Plus - Nine Dragons / Sangoku Senki 2 Plus - Nine Dragons (ver. M204XX, 200, 100CN)</description>
+	<cloneof>kov2p</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov3" index="" image="">
+	<description>Knights of Valour 3 (V102, China)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2011</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov7sprt" index="" image="">
+	<description>Knights of Valour - The Seven Spirits</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS / Sammy</manufacturer>
+	<year>2003</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kovplus" index="" image="">
+	<description>Knights of Valour Plus / Sangoku Senki Plus (ver. 119, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kovplusa" index="" image="">
+	<description>Knights of Valour Plus / Sangoku Senki Plus (ver. 119, set 2)</description>
+	<cloneof>kovplus</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kovsh" index="" image="">
+	<description>Knights of Valour Super Heroes / Sangoku Senki Super Heroes (ver. 104, CN)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kovsh100" index="" image="">
+	<description>Knights of Valour Super Heroes / Sangoku Senki Super Heroes (ver. 100, CN)</description>
+	<cloneof>kovsh</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kovsh101" index="" image="">
+	<description>Knights of Valour Super Heroes / Sangoku Senki Super Heroes (ver. 101, CN)</description>
+	<cloneof>kovsh</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kovsh102" index="" image="">
+	<description>Knights of Valour Super Heroes / Sangoku Senki Super Heroes (ver. 102, CN)</description>
+	<cloneof>kovsh</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kovsh103" index="" image="">
+	<description>Knights of Valour Super Heroes / Sangoku Senki Super Heroes (ver. 103, CN)</description>
+	<cloneof>kovsh</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kovshp" index="" image="">
+	<description>Knights of Valour Super Heroes Plus / Sangoku Senki Super Heroes Plus (ver. 101)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2004</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kovshpa" index="" image="">
+	<description>Knights of Valour Super Heroes Plus / Sangoku Senki Super Heroes Plus (ver. 100)</description>
+	<cloneof>kovshp</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2004</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kovytzy" index="" image="">
+	<description>Knights of Valour: Yi Tong Zhong Yuan / Sangoku Senki: Yi Tong Zhong Yuan (ver. 201, China)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="martmast" index="" image="">
+	<description>Martial Masters (ver. 104, 102, 102US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="martmastc" index="" image="">
+	<description>Martial Masters (ver. 104, 102, 101CN)</description>
+	<cloneof>martmast</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="martmastc102" index="" image="">
+	<description>Martial Masters (ver. 102, 101, 101CN)</description>
+	<cloneof>martmast</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="olds" index="" image="">
+	<description>Oriental Legend Special / Xi You Shi E Zhuan Super (ver. 101, Korean Board)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="olds100" index="" image="">
+	<description>Oriental Legend Special / Xi You Shi E Zhuan Super (ver. 100, set 1)</description>
+	<cloneof>olds</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="olds100a" index="" image="">
+	<description>Oriental Legend Special / Xi You Shi E Zhuan Super (ver. 100, set 2)</description>
+	<cloneof>olds</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="oldsplus" index="" image="">
+	<description>Oriental Legend Special Plus / Xi You Shi E Zhuan Super Plus</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2004</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="orleg2" index="" image="">
+	<description>Oriental Legend 2 (V104, China)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2007</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="orleg2o" index="" image="">
+	<description>Oriental Legend 2 (V103, China)</description>
+	<cloneof>orleg2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2007</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="orleg2oa" index="" image="">
+	<description>Oriental Legend 2 (V101, China)</description>
+	<cloneof>orleg2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2007</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="orlegend" index="" image="">
+	<description>Oriental Legend / Xi You Shi E Zhuan (ver. 126)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="orlegend105k" index="" image="">
+	<description>Oriental Legend / Xi You Shi E Zhuan (ver. 105, Korean Board)</description>
+	<cloneof>orlegend</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="orlegend111c" index="" image="">
+	<description>Oriental Legend / Xi You Shi E Zhuan (ver. 111, Chinese Board)</description>
+	<cloneof>orlegend</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="orlegend111k" index="" image="">
+	<description>Oriental Legend / Xi You Shi E Zhuan (ver. 111, Korean Board)</description>
+	<cloneof>orlegend</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="orlegend111t" index="" image="">
+	<description>Oriental Legend / Xi You Shi E Zhuan (ver. 111, Taiwanese Board)</description>
+	<cloneof>orlegend</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="orlegendc" index="" image="">
+	<description>Oriental Legend / Xi You Shi E Zhuan (ver. 112, Chinese Board)</description>
+	<cloneof>orlegend</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="orlegendca" index="" image="">
+	<description>Oriental Legend / Xi You Shi E Zhuan (ver. ???, Chinese Board)</description>
+	<cloneof>orlegend</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="orlegende" index="" image="">
+	<description>Oriental Legend / Xi You Shi E Zhuan (ver. 112)</description>
+	<cloneof>orlegend</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="svg" index="" image="">
+	<description>S.V.G. - Spectral vs Generation (M68k label V200) (ARM label V200, ROM 10/11/05 S.V.G V201)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS / Idea Factory</manufacturer>
+	<year>2005</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="svgpcb" index="" image="">
+	<description>S.V.G. - Spectral vs Generation (M68k label V100JP) (ARM label V100JP, ROM 05/12/05 S.V.G V100) (Japan, JAMMA PCB)</description>
+	<cloneof>svg</cloneof>
+	<crc/>
+	<manufacturer>IGS / Idea Factory</manufacturer>
+	<year>2005</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="svgtw" index="" image="">
+	<description>S.V.G. - Spectral vs Generation (M68k label V101TW) (ARM label V101TW, ROM 06/20/05 S.V.G V100)</description>
+	<cloneof>svg</cloneof>
+	<crc/>
+	<manufacturer>IGS / Idea Factory</manufacturer>
+	<year>2005</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="theglad" index="" image="">
+	<description>The Gladiator / Road of the Sword / Shen Jian (M68k label V101) (ARM label V107, ROM 06/06/03 SHEN JIAN V107)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2003</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="theglad100" index="" image="">
+	<description>The Gladiator / Road of the Sword / Shen Jian (M68k label V100) (ARM label V100, ROM 01/16/03 SHEN JIAN)</description>
+	<cloneof>theglad</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2003</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="theglad101" index="" image="">
+	<description>The Gladiator / Road of the Sword / Shen Jian (M68k label V100) (ARM label V101, ROM 03/13/03 SHEN JIAN)</description>
+	<cloneof>theglad</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2003</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thegladpcb" index="" image="">
+	<description>The Gladiator / Road of the Sword / Shen Jian (M68k label V100) (ARM label V100, ROM 02/25/03 SHEN JIAN) (Japan, JAMMA PCB)</description>
+	<cloneof>theglad</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2003</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

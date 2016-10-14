@@ -1,0 +1,299 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Driving / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="cischeat" index="" image="">
+	<description>Cisco Heat</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="demoderm" index="" image="">
+	<description>Demolition Derby (MCR-3 Mono Board Version)</description>
+	<cloneof>demoderb</cloneof>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1984</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="endurobl" index="" image="">
+	<description>Enduro Racer (bootleg set 1)</description>
+	<cloneof>enduror</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="enduror" index="" image="">
+	<description>Enduro Racer (YM2151) (FD1089B 317-0013A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="f1gpstar" index="" image="">
+	<description>Grand Prix Star</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1991</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtmr" index="" image="">
+	<description>1000 Miglia: Great 1000 Miles Rally (94/07/18)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtmre" index="" image="">
+	<description>Great 1000 Miles Rally: Evolution Model!!! (94/09/06)</description>
+	<cloneof>gtmr</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hangon" index="" image="">
+	<description>Hang-On (Rev A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1985</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hotchase" index="" image="">
+	<description>Hot Chase (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hwrace" index="" image="">
+	<description>High Way Race</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="joyfulr" index="" image="">
+	<description>Joyful Road (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1983</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="madgearj" index="" image="">
+	<description>Mad Gear (Japan)</description>
+	<cloneof>madgear</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1989</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mnchmobl" index="" image="">
+	<description>Munch Mobile (US)</description>
+	<cloneof>joyfulr</cloneof>
+	<crc/>
+	<manufacturer>SNK (Centuri license)</manufacturer>
+	<year>1983</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="outrun" index="" image="">
+	<description>Out Run (sitdown/upright, Rev B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="outrunb" index="" image="">
+	<description>Out Run (bootleg)</description>
+	<cloneof>outrun</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="outrunra" index="" image="">
+	<description>Out Run (sitdown/upright, Rev A)</description>
+	<cloneof>outrun</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="polepos2" index="" image="">
+	<description>Pole Position II (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1983</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="polepos2a" index="" image="">
+	<description>Pole Position II (Atari)</description>
+	<cloneof>polepos2</cloneof>
+	<crc/>
+	<manufacturer>Namco (Atari license)</manufacturer>
+	<year>1983</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="polepos2b" index="" image="">
+	<description>Pole Position II (bootleg)</description>
+	<cloneof>polepos2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1983</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="poleposa1" index="" image="">
+	<description>Pole Position (Atari version 1)</description>
+	<cloneof>polepos</cloneof>
+	<crc/>
+	<manufacturer>Namco (Atari license)</manufacturer>
+	<year>1982</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="poleposa2" index="" image="">
+	<description>Pole Position (Atari version 2)</description>
+	<cloneof>polepos</cloneof>
+	<crc/>
+	<manufacturer>Namco (Atari license)</manufacturer>
+	<year>1982</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="poleposj" index="" image="">
+	<description>Pole Position (Japan)</description>
+	<cloneof>polepos</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1982</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="powerdrv" index="" image="">
+	<description>Power Drive</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shangon1" index="" image="">
+	<description>Super Hang-On (mini ride-on) (FD1089B 317-0034)</description>
+	<cloneof>shangon</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shangon2" index="" image="">
+	<description>Super Hang-On (mini ride-on, Rev A) (FD1089B 317-0034)</description>
+	<cloneof>shangon</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stocker" index="" image="">
+	<description>Stocker (3/19/85)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally/Sente</manufacturer>
+	<year>1984</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="topracer" index="" image="">
+	<description>Top Racer (with MB8841 + MB8842, 1984)</description>
+	<cloneof>polepos</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1984</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="turbotag" index="" image="">
+	<description>Turbo Tag (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1985</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wecleman" index="" image="">
+	<description>WEC Le Mans 24 (v2.00, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

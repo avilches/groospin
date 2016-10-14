@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2P alt / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="bigfghtr" index="" image="">
+	<description>Tatakae! Big Fighter (Japan)</description>
+	<cloneof>skyrobo</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fghtbskt" index="" image="">
+	<description>Fighting Basketball</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Paradise Co. Ltd.</manufacturer>
+	<year>1984</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fgoala" index="" image="">
+	<description>Field Goal (set 2)</description>
+	<cloneof>fgoal</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1979</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gradius4" index="" image="">
+	<description>Gradius 4: Fukkatsu</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pitbossb" index="" image="">
+	<description>The Pit Boss (2214-02?)</description>
+	<cloneof>pitboss</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1983</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="recalh" index="" image="">
+	<description>Recalhorn (Ver 1.42J 1994/5/11, prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="suprgolf" index="" image="">
+	<description>Super Crowns Golf (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nasco</manufacturer>
+	<year>1989</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zero" index="" image="">
+	<description>Zero (set 1, Defender bootleg)</description>
+	<cloneof>defender</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Jeutel)</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

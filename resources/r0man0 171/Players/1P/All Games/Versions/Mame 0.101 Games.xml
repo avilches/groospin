@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1P / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="alpinesa" index="" image="">
+	<description>Alpine Surfer (Rev. AF2 Ver.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1996</year>
+	<genre>Skiing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dayto2pe" index="" image="">
+	<description>Daytona USA 2 Power Edition</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1998</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="getbass" index="" image="">
+	<description>Get Bass</description>
+	<cloneof>bass</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1997</year>
+	<genre>Fishing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="moonlght" index="" image="">
+	<description>Moon Light (v.0629, low program)</description>
+	<cloneof>goldstar</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ppcar" index="" image="">
+	<description>Pang Pang Car</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Icarus</manufacturer>
+	<year>1999</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scudplus" index="" image="">
+	<description>Scud Race Plus (Revision A)</description>
+	<cloneof>scud</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1997</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trvquest" index="" image="">
+	<description>Trivia Quest</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sunn / Techstar</manufacturer>
+	<year>1984</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

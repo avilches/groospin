@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Taito / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="ashnojoe" index="" image="">
+	<description>Ashita no Joe (Japan)</description>
+	<cloneof>scessjoe</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation / Wave</manufacturer>
+	<year>1990</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="finalb" index="" image="">
+	<description>Final Blow (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1988</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="finalbj" index="" image="">
+	<description>Final Blow (Japan)</description>
+	<cloneof>finalb</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="finalbu" index="" image="">
+	<description>Final Blow (US)</description>
+	<cloneof>finalb</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="prmtmfgt" index="" image="">
+	<description>Prime Time Fighter (Ver 2.1A 1993/05/21) (New Version)</description>
+	<cloneof>trstar</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="prmtmfgto" index="" image="">
+	<description>Prime Time Fighter (Ver 2.1A 1993/05/21) (Old Version)</description>
+	<cloneof>trstar</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ringfgt" index="" image="">
+	<description>Ring Fighter (set 1)</description>
+	<cloneof>vsgongf</cloneof>
+	<crc/>
+	<manufacturer>Kaneko (Taito license)</manufacturer>
+	<year>1984</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ringfgt2" index="" image="">
+	<description>Ring Fighter (set 2)</description>
+	<cloneof>vsgongf</cloneof>
+	<crc/>
+	<manufacturer>Kaneko (Taito license)</manufacturer>
+	<year>1984</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scessjoe" index="" image="">
+	<description>Success Joe (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation / Wave</manufacturer>
+	<year>1990</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trstar" index="" image="">
+	<description>Top Ranking Stars (Ver 2.1O 1993/05/21) (New Version)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1993</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trstarj" index="" image="">
+	<description>Top Ranking Stars (Ver 2.1J 1993/05/21) (New Version)</description>
+	<cloneof>trstar</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trstaro" index="" image="">
+	<description>Top Ranking Stars (Ver 2.1O 1993/05/21) (Old Version)</description>
+	<cloneof>trstar</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1993</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trstaroj" index="" image="">
+	<description>Top Ranking Stars (Ver 2.1J 1993/05/21) (Old Version)</description>
+	<cloneof>trstar</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

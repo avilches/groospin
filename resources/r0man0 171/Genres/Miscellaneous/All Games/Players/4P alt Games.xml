@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Miscellaneous / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="arac6000" index="" image="">
+	<description>Super Six Plus II English Mark Darts</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Arachnid</manufacturer>
+	<year>1990</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="slikshot" index="" image="">
+	<description>Slick Shot (V2.2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Grand Products/Incredible Technologies</manufacturer>
+	<year>1990</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="slikshot16" index="" image="">
+	<description>Slick Shot (V1.6)</description>
+	<cloneof>slikshot</cloneof>
+	<crc/>
+	<manufacturer>Grand Products/Incredible Technologies</manufacturer>
+	<year>1990</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="slikshot17" index="" image="">
+	<description>Slick Shot (V1.7)</description>
+	<cloneof>slikshot</cloneof>
+	<crc/>
+	<manufacturer>Grand Products/Incredible Technologies</manufacturer>
+	<year>1990</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sstrike" index="" image="">
+	<description>Super Strike Bowling</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Strata/Incredible Technologies</manufacturer>
+	<year>1990</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

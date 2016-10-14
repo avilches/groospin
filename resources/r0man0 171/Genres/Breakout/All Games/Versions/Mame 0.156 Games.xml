@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Breakout / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="arkretrnu" index="" image="">
+	<description>Arkanoid Returns (Ver 2.02A 1997/02/10)</description>
+	<cloneof>arkretrn</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1997</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbrkoutc" index="" image="">
+	<description>Super Breakout (Canyon and Vertical Breakout, prototype)</description>
+	<cloneof>sbrkout</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1978</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

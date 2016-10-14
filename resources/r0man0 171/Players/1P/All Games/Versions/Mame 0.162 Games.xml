@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1P / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="pex2297p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002297P+XP000053) Jackpot Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pexmp030" index="" image="">
+	<description>Player&apos;s Edge Plus (XMP00030) 5-in-1 Wingboard (CG2451)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vigilanta" index="" image="">
+	<description>Vigilante (World, Rev A)</description>
+	<cloneof>vigilant</cloneof>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vigilantb" index="" image="">
+	<description>Vigilante (US, Rev B)</description>
+	<cloneof>vigilant</cloneof>
+	<crc/>
+	<manufacturer>Irem (Data East license)</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

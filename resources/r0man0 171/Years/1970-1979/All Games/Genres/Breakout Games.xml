@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1970-1979 / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="bombbee" index="" image="">
+	<description>Bomb Bee</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1979</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="breakout" index="" image="">
+	<description>Breakout [TTL]</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1976</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cleanswp" index="" image="">
+	<description>Clean Sweep [TTL]</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Ramtek</manufacturer>
+	<year>1974</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cutieq" index="" image="">
+	<description>Cutie Q</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1979</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fgoal" index="" image="">
+	<description>Field Goal (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1979</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fgoala" index="" image="">
+	<description>Field Goal (set 2)</description>
+	<cloneof>fgoal</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1979</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="geebee" index="" image="">
+	<description>Gee Bee (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1978</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="geebeeb" index="" image="">
+	<description>Gee Bee (Europe)</description>
+	<cloneof>geebee</cloneof>
+	<crc/>
+	<manufacturer>Namco (F.lli Bertolino license)</manufacturer>
+	<year>1978</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="geebeeg" index="" image="">
+	<description>Gee Bee (US)</description>
+	<cloneof>geebee</cloneof>
+	<crc/>
+	<manufacturer>Namco (Gremlin license)</manufacturer>
+	<year>1978</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mmagic" index="" image="">
+	<description>Monkey Magic</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1979</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbrkout" index="" image="">
+	<description>Super Breakout (rev 04)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1978</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbrkout3" index="" image="">
+	<description>Super Breakout (rev 03)</description>
+	<cloneof>sbrkout</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1978</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbrkoutc" index="" image="">
+	<description>Super Breakout (Canyon and Vertical Breakout, prototype)</description>
+	<cloneof>sbrkout</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1978</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbrkoutct" index="" image="">
+	<description>Super Breakout (Cocktail, prototype)</description>
+	<cloneof>sbrkout</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1978</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sflush" index="" image="">
+	<description>Straight Flush</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1979</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ttblock" index="" image="">
+	<description>T.T. Block [TTL]</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1977</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zzblock" index="" image="">
+	<description>Zun Zun Block [TTL]</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1979</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

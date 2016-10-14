@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Gaelco / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="bangj" index="" image="">
+	<description>Gun Gabacho (Japan)</description>
+	<cloneof>bang</cloneof>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1998</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wrally" index="" image="">
+	<description>World Rally (Version 1.0, Checksum 0E56)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wrallya" index="" image="">
+	<description>World Rally (Version 1.0, Checksum 3873)</description>
+	<cloneof>wrally</cloneof>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

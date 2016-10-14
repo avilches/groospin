@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Card Battle / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="ampkr2b4" index="" image="">
+	<description>American Poker II (bootleg, set 4)</description>
+	<cloneof>ampoker2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1994</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="murogmbl" index="" image="">
+	<description>Muroge Monaco (bootleg?)</description>
+	<cloneof>murogem</cloneof>
+	<crc/>
+	<manufacturer>bootleg?</manufacturer>
+	<year>1982</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

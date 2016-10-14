@@ -1,0 +1,1419 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Sports / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="8ball" index="" image="">
+	<description>Video Eight Ball</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Century Electronics</manufacturer>
+	<year>1982</year>
+	<genre>Pool and Darts</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="8ball1" index="" image="">
+	<description>Video Eight Ball (Rev.1)</description>
+	<cloneof>8ball</cloneof>
+	<crc/>
+	<manufacturer>Century Electronics</manufacturer>
+	<year>1982</year>
+	<genre>Pool and Darts</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aafb" index="" image="">
+	<description>All American Football (rev E)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Leland Corp.</manufacturer>
+	<year>1989</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aafbb" index="" image="">
+	<description>All American Football (rev B)</description>
+	<cloneof>aafb</cloneof>
+	<crc/>
+	<manufacturer>Leland Corp.</manufacturer>
+	<year>1989</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aafbc" index="" image="">
+	<description>All American Football (rev C)</description>
+	<cloneof>aafb</cloneof>
+	<crc/>
+	<manufacturer>Leland Corp.</manufacturer>
+	<year>1989</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aafbd2p" index="" image="">
+	<description>All American Football (rev D, 2 Players)</description>
+	<cloneof>aafb</cloneof>
+	<crc/>
+	<manufacturer>Leland Corp.</manufacturer>
+	<year>1989</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="alleymas" index="" image="">
+	<description>Alley Master</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Cinematronics</manufacturer>
+	<year>1986</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arlingtn" index="" image="">
+	<description>Arlington Horse Racing (v1.21-D)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Strata/Incredible Technologies</manufacturer>
+	<year>1991</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="basebal2" index="" image="">
+	<description>Baseball: The Season II</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Cinematronics</manufacturer>
+	<year>1987</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blzntrnd" index="" image="">
+	<description>Blazing Tornado</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Human Amusement</manufacturer>
+	<year>1994</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bssoccer" index="" image="">
+	<description>Back Street Soccer (KRB-0031 PCB)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SunA (Unico license)</manufacturer>
+	<year>1996</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bullfgt" index="" image="">
+	<description>Bullfight (315-5065)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Coreland / Sega</manufacturer>
+	<year>1984</year>
+	<genre>Sports</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bullfgt" index="" image="">
+	<description>Bullfight (315-5065)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Coreland / Sega</manufacturer>
+	<year>1984</year>
+	<genre>Sports</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cfghtice" index="" image="">
+	<description>Fighting Ice Hockey (DECO Cassette)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Hockey</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="champbasj" index="" image="">
+	<description>Champion Base Ball (Japan set 1)</description>
+	<cloneof>champbas</cloneof>
+	<crc/>
+	<manufacturer>Alpha Denshi Co.</manufacturer>
+	<year>1983</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cprobowl" index="" image="">
+	<description>Pro Bowling (DECO Cassette)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cprogolf" index="" image="">
+	<description>Tournament Pro Golf (DECO Cassette)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1981</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cpsoccer" index="" image="">
+	<description>Pro Soccer (DECO Cassette)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cptennis" index="" image="">
+	<description>Pro Tennis (DECO Cassette)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cscrtry" index="" image="">
+	<description>Scrum Try (DECO Cassette, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cupfinal" index="" image="">
+	<description>Taito Cup Finals (Ver 1.0O 1993/02/28)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1993</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cyberbal2" index="" image="">
+	<description>Cyberball (rev 2)</description>
+	<cloneof>cyberbal</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1988</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dblplay" index="" image="">
+	<description>Super Baseball Double Play Home Run Derby</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Leland Corp. / Tradewest</manufacturer>
+	<year>1987</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dleaguej" index="" image="">
+	<description>Dynamite League (Japan)</description>
+	<cloneof>dleague</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dynamski" index="" image="">
+	<description>Dynamic Ski</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taiyo</manufacturer>
+	<year>1984</year>
+	<genre>Skiing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="euroch92" index="" image="">
+	<description>Euro Champ &apos;92 (World)</description>
+	<cloneof>footchmp</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1992</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="extdwnhl" index="" image="">
+	<description>Extreme Downhill (v1.5)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy Industries Japan</manufacturer>
+	<year>1995</year>
+	<genre>Skiing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="finalb" index="" image="">
+	<description>Final Blow (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1988</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="finalbj" index="" image="">
+	<description>Final Blow (Japan)</description>
+	<cloneof>finalb</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="footchmp" index="" image="">
+	<description>Football Champ (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1990</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fround" index="" image="">
+	<description>The Final Round (version M)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1988</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gslgr94u" index="" image="">
+	<description>Great Sluggers &apos;94</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1994</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtg" index="" image="">
+	<description>Golden Tee Golf (Joystick, v3.1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Strata/Incredible Technologies</manufacturer>
+	<year>1990</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtg2" index="" image="">
+	<description>Golden Tee Golf II (Trackball, V2.2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Strata/Incredible Technologies</manufacturer>
+	<year>1992</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtg2j" index="" image="">
+	<description>Golden Tee Golf II (Joystick, V1.0)</description>
+	<cloneof>gtg2</cloneof>
+	<crc/>
+	<manufacturer>Strata/Incredible Technologies</manufacturer>
+	<year>1991</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtg2t" index="" image="">
+	<description>Golden Tee Golf II (Trackball, V1.1)</description>
+	<cloneof>gtg2</cloneof>
+	<crc/>
+	<manufacturer>Strata/Incredible Technologies</manufacturer>
+	<year>1989</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="guiness" index="" image="">
+	<description>The Guiness (Japan)</description>
+	<cloneof>strnskil</cloneof>
+	<crc/>
+	<manufacturer>Sun Electronics</manufacturer>
+	<year>1984</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hardyard" index="" image="">
+	<description>Hard Yardage (v1.20)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Strata/Incredible Technologies</manufacturer>
+	<year>1993</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hardyard10" index="" image="">
+	<description>Hard Yardage (v1.00)</description>
+	<cloneof>hardyard</cloneof>
+	<crc/>
+	<manufacturer>Strata/Incredible Technologies</manufacturer>
+	<year>1993</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hitice" index="" image="">
+	<description>Hit the Ice (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation (Williams license)</manufacturer>
+	<year>1990</year>
+	<genre>Hockey</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hstennis" index="" image="">
+	<description>Hot Shots Tennis (V1.1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Strata/Incredible Technologies</manufacturer>
+	<year>1990</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hthero" index="" image="">
+	<description>Hat Trick Hero (Japan)</description>
+	<cloneof>footchmp</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hthero93" index="" image="">
+	<description>Hat Trick Hero &apos;93 (Ver 1.0J 1993/02/28)</description>
+	<cloneof>cupfinal</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hthero95" index="" image="">
+	<description>Hat Trick Hero &apos;95 (Ver 2.5J 1994/11/03)</description>
+	<cloneof>pwrgoal</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1994</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hthero95u" index="" image="">
+	<description>Hat Trick Hero &apos;95 (Ver 2.5A 1994/11/03)</description>
+	<cloneof>pwrgoal</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1994</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="huncholy" index="" image="">
+	<description>Hunchback Olympic</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Century Electronics / Seatongrove Ltd</manufacturer>
+	<year>1984</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jitsupro" index="" image="">
+	<description>Jitsuryoku!! Pro Yakyuu (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1989</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="koshien" index="" image="">
+	<description>Ah Eikou no Koshien (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="krzybowl" index="" image="">
+	<description>Krazy Bowl</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>American Sammy</manufacturer>
+	<year>1994</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ladygolf" index="" image="">
+	<description>Vs. Stroke &amp; Match Golf (Ladies Version, set LG4 ?)</description>
+	<cloneof>smgolf</cloneof>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1984</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mayhem" index="" image="">
+	<description>Mayhem 2002</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Cinematronics</manufacturer>
+	<year>1985</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mermaid" index="" image="">
+	<description>Mermaid</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sanritsu / Rock-Ola</manufacturer>
+	<year>1982</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mstadium" index="" image="">
+	<description>Main Stadium (Japan)</description>
+	<cloneof>bottom9</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1989</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nbahangt" index="" image="">
+	<description>NBA Hangtime (rev L1.1 04/16/96)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1996</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nbajamte1" index="" image="">
+	<description>NBA Jam TE (rev 1.0 01/17/94)</description>
+	<cloneof>nbajamte</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1994</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nbajamte2" index="" image="">
+	<description>NBA Jam TE (rev 2.0 01/28/94)</description>
+	<cloneof>nbajamte</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1994</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nbajamte3" index="" image="">
+	<description>NBA Jam TE (rev 3.0 03/04/94)</description>
+	<cloneof>nbajamte</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1994</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nbamht1" index="" image="">
+	<description>NBA Maximum Hangtime (rev 1.0 11/08/96)</description>
+	<cloneof>nbahangt</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1996</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="neckneck" index="" image="">
+	<description>Neck-n-Neck (v1.2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bundra Games/Incredible Technologies</manufacturer>
+	<year>1992</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nkdodgeb" index="" image="">
+	<description>Nekketsu Koukou Dodgeball Bu (Japan, bootleg)</description>
+	<cloneof>spdodgeb</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1987</year>
+	<genre>Sports</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nkdodgeb" index="" image="">
+	<description>Nekketsu Koukou Dodgeball Bu (Japan, bootleg)</description>
+	<cloneof>spdodgeb</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1987</year>
+	<genre>Sports</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="openice" index="" image="">
+	<description>2 On 2 Open Ice Challenge (rev 1.21)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1995</year>
+	<genre>Hockey</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_bball" index="" image="">
+	<description>Baseball (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo of America</manufacturer>
+	<year>1984</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_bstar" index="" image="">
+	<description>Baseball Stars: Be a Champ! (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK (Nintendo of America license)</manufacturer>
+	<year>1989</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_dbldr" index="" image="">
+	<description>Double Dribble (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami (Nintendo of America license)</manufacturer>
+	<year>1987</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_golf" index="" image="">
+	<description>Golf (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1984</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_miket" index="" image="">
+	<description>Mike Tyson&apos;s Punch-Out!! (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1987</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_moglf" index="" image="">
+	<description>Mario&apos;s Open Golf (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1991</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_pwrst" index="" image="">
+	<description>Pro Wrestling (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1986</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_tbowl" index="" image="">
+	<description>Tecmo Bowl (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Tecmo (Nintendo of America license)</manufacturer>
+	<year>1989</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_tenis" index="" image="">
+	<description>Tennis (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1983</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_tkfld" index="" image="">
+	<description>Track &amp; Field (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami (Nintendo of America license)</manufacturer>
+	<year>1987</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_vball" index="" image="">
+	<description>Volley Ball (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1986</year>
+	<genre>Volleyball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_wcup" index="" image="">
+	<description>Nintendo World Cup (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Technos Japan (Nintendo license)</manufacturer>
+	<year>1990</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="poundfor" index="" image="">
+	<description>Pound for Pound (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1990</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="poundforu" index="" image="">
+	<description>Pound for Pound (US)</description>
+	<cloneof>poundfor</cloneof>
+	<crc/>
+	<manufacturer>Irem America</manufacturer>
+	<year>1990</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="powrplay" index="" image="">
+	<description>Power Play</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Cinematronics</manufacturer>
+	<year>1985</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="prmrsocrj" index="" image="">
+	<description>Premier Soccer (ver JAB)</description>
+	<cloneof>prmrsocr</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1993</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="prmtmfgt" index="" image="">
+	<description>Prime Time Fighter (Ver 2.1A 1993/05/21) (New Version)</description>
+	<cloneof>trstar</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="prmtmfgto" index="" image="">
+	<description>Prime Time Fighter (Ver 2.1A 1993/05/21) (Old Version)</description>
+	<cloneof>trstar</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="punkshotj" index="" image="">
+	<description>Punk Shot (Japan 2 Players)</description>
+	<cloneof>punkshot</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1990</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pwrgoal" index="" image="">
+	<description>Taito Power Goal (Ver 2.5O 1994/11/03)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1994</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quarterb" index="" image="">
+	<description>Quarterback (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Leland Corp.</manufacturer>
+	<year>1987</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quarterba" index="" image="">
+	<description>Quarterback (set 2)</description>
+	<cloneof>quarterb</cloneof>
+	<crc/>
+	<manufacturer>Leland Corp.</manufacturer>
+	<year>1987</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rackemup" index="" image="">
+	<description>Rack &apos;em Up (program code L)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1987</year>
+	<genre>Pool and Darts</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rbibb" index="" image="">
+	<description>Vs. Atari R.B.I. Baseball (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1986</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="recordbr" index="" image="">
+	<description>Recordbreaker (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1988</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rimrockn" index="" image="">
+	<description>Rim Rockin&apos; Basketball (V2.2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Strata/Incredible Technologies</manufacturer>
+	<year>1991</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rimrockn12" index="" image="">
+	<description>Rim Rockin&apos; Basketball (V1.2)</description>
+	<cloneof>rimrockn</cloneof>
+	<crc/>
+	<manufacturer>Strata/Incredible Technologies</manufacturer>
+	<year>1991</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rimrockn16" index="" image="">
+	<description>Rim Rockin&apos; Basketball (V1.6)</description>
+	<cloneof>rimrockn</cloneof>
+	<crc/>
+	<manufacturer>Strata/Incredible Technologies</manufacturer>
+	<year>1991</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rimrockn20" index="" image="">
+	<description>Rim Rockin&apos; Basketball (V2.0)</description>
+	<cloneof>rimrockn</cloneof>
+	<crc/>
+	<manufacturer>Strata/Incredible Technologies</manufacturer>
+	<year>1991</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ringdest" index="" image="">
+	<description>Ring of Destruction: Slammasters II (Euro 940902)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ringrage" index="" image="">
+	<description>Ring Rage (Ver 2.3O 1992/08/09)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1992</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ringragej" index="" image="">
+	<description>Ring Rage (Ver 2.3J 1992/08/09)</description>
+	<cloneof>ringrage</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1992</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ringrageu" index="" image="">
+	<description>Ring Rage (Ver 2.3A 1992/08/09)</description>
+	<cloneof>ringrage</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1992</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scfinalso" index="" image="">
+	<description>Super Cup Finals (Ver 2.1O 1993/11/19)</description>
+	<cloneof>scfinals</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1993</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shootbul" index="" image="">
+	<description>Shoot the Bull</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1985</year>
+	<genre>Pool and Darts</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shufshot" index="" image="">
+	<description>Shuffleshot (v1.40)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Strata/Incredible Technologies</manufacturer>
+	<year>1997</year>
+	<genre>Sports</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shufshot" index="" image="">
+	<description>Shuffleshot (v1.40)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Strata/Incredible Technologies</manufacturer>
+	<year>1997</year>
+	<genre>Sports</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="slammastu" index="" image="">
+	<description>Saturday Night Slam Masters (USA 930713)</description>
+	<cloneof>slammast</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1993</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="slapshot" index="" image="">
+	<description>Slap Shot (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1994</year>
+	<genre>Hockey</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smbombr1" index="" image="">
+	<description>Super Muscle Bomber: The International Blowout (Japan 940808)</description>
+	<cloneof>ringdest</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smgolfb" index="" image="">
+	<description>Vs. Stroke &amp; Match Golf (Men Version, set GF4-2 ?)</description>
+	<cloneof>smgolf</cloneof>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1984</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smgolfj" index="" image="">
+	<description>Vs. Stroke &amp; Match Golf (Men Version) (Japan, set GF3 B)</description>
+	<cloneof>smgolf</cloneof>
+	<crc/>
+	<manufacturer>Nintendo Co., Ltd.</manufacturer>
+	<year>1984</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spdodgeb" index="" image="">
+	<description>Super Dodge Ball (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Technos Japan</manufacturer>
+	<year>1987</year>
+	<genre>Sports</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spdodgeb" index="" image="">
+	<description>Super Dodge Ball (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Technos Japan</manufacturer>
+	<year>1987</year>
+	<genre>Sports</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stratab" index="" image="">
+	<description>Strata Bowling (V3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Strata/Incredible Technologies</manufacturer>
+	<year>1990</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="strkzone" index="" image="">
+	<description>Strike Zone Baseball</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Leland Corp.</manufacturer>
+	<year>1988</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="strnskil" index="" image="">
+	<description>Strength &amp; Skill</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sun Electronics</manufacturer>
+	<year>1984</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="svolley" index="" image="">
+	<description>Super Volleyball (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>V-System Co.</manufacturer>
+	<year>1989</year>
+	<genre>Volleyball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="svolleyk" index="" image="">
+	<description>Super Volleyball (Korea)</description>
+	<cloneof>svolley</cloneof>
+	<crc/>
+	<manufacturer>V-System Co.</manufacturer>
+	<year>1989</year>
+	<genre>Volleyball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="swcourtj" index="" image="">
+	<description>Super World Court (Japan)</description>
+	<cloneof>swcourt</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sws92g" index="" image="">
+	<description>Super World Stadium &apos;92 Gekitouban (Japan)</description>
+	<cloneof>sws92</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sws96" index="" image="">
+	<description>Super World Stadium &apos;96 (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1996</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sws97" index="" image="">
+	<description>Super World Stadium &apos;97 (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1997</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="teamqb" index="" image="">
+	<description>John Elway&apos;s Team Quarterback (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Leland Corp.</manufacturer>
+	<year>1988</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="teamqb2" index="" image="">
+	<description>John Elway&apos;s Team Quarterback (set 2)</description>
+	<cloneof>teamqb</cloneof>
+	<crc/>
+	<manufacturer>Leland Corp.</manufacturer>
+	<year>1988</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tkoboxng" index="" image="">
+	<description>Vs. T.K.O. Boxing</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco / Data East USA</manufacturer>
+	<year>1987</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trstar" index="" image="">
+	<description>Top Ranking Stars (Ver 2.1O 1993/05/21) (New Version)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1993</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trstarj" index="" image="">
+	<description>Top Ranking Stars (Ver 2.1J 1993/05/21) (New Version)</description>
+	<cloneof>trstar</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trstaro" index="" image="">
+	<description>Top Ranking Stars (Ver 2.1O 1993/05/21) (Old Version)</description>
+	<cloneof>trstar</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1993</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trstaroj" index="" image="">
+	<description>Top Ranking Stars (Ver 2.1J 1993/05/21) (Old Version)</description>
+	<cloneof>trstar</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="usclssic" index="" image="">
+	<description>U.S. Classic</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Seta</manufacturer>
+	<year>1989</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vball2pj" index="" image="">
+	<description>U.S. Championship V&apos;ball (Japan)</description>
+	<cloneof>vball</cloneof>
+	<crc/>
+	<manufacturer>Technos Japan</manufacturer>
+	<year>1988</year>
+	<genre>Volleyball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vballb" index="" image="">
+	<description>U.S. Championship V&apos;ball (bootleg of US set)</description>
+	<cloneof>vball</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1988</year>
+	<genre>Volleyball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vsbball" index="" image="">
+	<description>Vs. BaseBall (US, set BA E-1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo of America</manufacturer>
+	<year>1984</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vsbballja" index="" image="">
+	<description>Vs. BaseBall (Japan, set BA A-2)</description>
+	<cloneof>vsbball</cloneof>
+	<crc/>
+	<manufacturer>Nintendo Co., Ltd.</manufacturer>
+	<year>1984</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vsbballjb" index="" image="">
+	<description>Vs. BaseBall (Japan, set BA A-1)</description>
+	<cloneof>vsbball</cloneof>
+	<crc/>
+	<manufacturer>Nintendo Co., Ltd.</manufacturer>
+	<year>1984</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vsgongf" index="" image="">
+	<description>VS Gong Fight</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1984</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vsslalom" index="" image="">
+	<description>Vs. Slalom</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Rare Coin-It Inc.</manufacturer>
+	<year>1986</year>
+	<genre>Skiing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vssoccera" index="" image="">
+	<description>Vs. Soccer (set SC4-3 ?)</description>
+	<cloneof>vssoccer</cloneof>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1985</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vstennisa" index="" image="">
+	<description>Vs. Tennis (Japan/USA, set 2)</description>
+	<cloneof>vstennis</cloneof>
+	<crc/>
+	<manufacturer>Nintendo Co., Ltd.</manufacturer>
+	<year>1984</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wbeachvl" index="" image="">
+	<description>World Beach Volley (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Playmark</manufacturer>
+	<year>1995</year>
+	<genre>Volleyball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wc90a" index="" image="">
+	<description>Tecmo World Cup &apos;90 (Euro set 1)</description>
+	<cloneof>wc90</cloneof>
+	<crc/>
+	<manufacturer>Tecmo</manufacturer>
+	<year>1989</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wseries" index="" image="">
+	<description>World Series: The Season</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Cinematronics</manufacturer>
+	<year>1985</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wsf" index="" image="">
+	<description>World Soccer Finals</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Leland Corp.</manufacturer>
+	<year>1990</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wwfmania" index="" image="">
+	<description>WWF: Wrestlemania (rev 1.30 08/10/95)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1995</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wwfsstarua" index="" image="">
+	<description>WWF Superstars (US)</description>
+	<cloneof>wwfsstar</cloneof>
+	<crc/>
+	<manufacturer>Technos Japan</manufacturer>
+	<year>1989</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wwfwfest" index="" image="">
+	<description>WWF WrestleFest (US set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Technos Japan</manufacturer>
+	<year>1991</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wwfwfesta" index="" image="">
+	<description>WWF WrestleFest (US Tecmo)</description>
+	<cloneof>wwfwfest</cloneof>
+	<crc/>
+	<manufacturer>Technos Japan (Tecmo license)</manufacturer>
+	<year>1991</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wwfwfestj" index="" image="">
+	<description>WWF WrestleFest (Japan)</description>
+	<cloneof>wwfwfest</cloneof>
+	<crc/>
+	<manufacturer>Technos Japan (Tecmo license)</manufacturer>
+	<year>1991</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

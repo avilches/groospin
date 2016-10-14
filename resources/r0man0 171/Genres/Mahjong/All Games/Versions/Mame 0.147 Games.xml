@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Mahjong / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="janyuki" index="" image="">
+	<description>Jong Yu Ki (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dynax</manufacturer>
+	<year>1988</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shabdama" index="" image="">
+	<description>LD Mahjong #4 Shabon-Dama</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>199?</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

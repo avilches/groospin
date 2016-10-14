@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Platform / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="bagmanm2" index="" image="">
+	<description>Bagman (bootleg on Moon Cresta hardware, set 2)</description>
+	<cloneof>bagman</cloneof>
+	<crc/>
+	<manufacturer>bootleg (GIB)</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dking" index="" image="">
+	<description>Donkey King</description>
+	<cloneof>ckong</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1981</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gngprot" index="" image="">
+	<description>Ghosts&apos;n Goblins (prototype)</description>
+	<cloneof>gng</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hcastlee" index="" image="">
+	<description>Haunted Castle (version E)</description>
+	<cloneof>hcastle</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rthunder2" index="" image="">
+	<description>Rolling Thunder (rev 2)</description>
+	<cloneof>rthunder</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="srangern" index="" image="">
+	<description>Super Ranger (older, NOVA license)</description>
+	<cloneof>sranger</cloneof>
+	<crc/>
+	<manufacturer>SunA (NOVA license)</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssridersjac" index="" image="">
+	<description>Sunset Riders (4 Players ver JAC)</description>
+	<cloneof>ssriders</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssridersuab" index="" image="">
+	<description>Sunset Riders (4 Players ver UAB)</description>
+	<cloneof>ssriders</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wexpress" index="" image="">
+	<description>Western Express (Japan, rev 4)</description>
+	<cloneof>exprraid</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xsleena" index="" image="">
+	<description>Xain&apos;d Sleena (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Technos Japan (Taito license)</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

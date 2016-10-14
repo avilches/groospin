@@ -1,0 +1,309 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Horse Racing / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="arlingtn" index="" image="">
+	<description>Arlington Horse Racing (v1.21-D)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Strata/Incredible Technologies</manufacturer>
+	<year>1991</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="darkhleg" index="" image="">
+	<description>Dark Horse Legend (GX706 VER. JAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="derbyo2k" index="" image="">
+	<description>Derby Owners Club 2000 (Rev A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2000</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="derbyoc" index="" image="">
+	<description>Derby Owners Club (JPN, USA, EXP, KOR, AUS) (Rev B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1999</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="derbyoc2" index="" image="">
+	<description>Derby Owners Club II (JPN, USA, EXP, KOR, AUS) (Rev B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2001</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="derbyocw" index="" image="">
+	<description>Derby Owners Club World Edition (JPN, USA, EXP, KOR, AUS) (Rev D)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2001</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drbyocwc" index="" image="">
+	<description>Derby Owners Club World Edition (JPN, USA, EXP, KOR, AUS) (Rev C)</description>
+	<cloneof>derbyocw</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2001</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="finfurl" index="" image="">
+	<description>Final Furlong (FF2 Ver. A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1997</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="finfurl2" index="" image="">
+	<description>Final Furlong 2 (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1999</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="finfurl2j" index="" image="">
+	<description>Final Furlong 2 (Japan)</description>
+	<cloneof>finfurl2</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1999</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="glpracr" index="" image="">
+	<description>Gallop Racer (English Ver 10.17.K)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Tecmo</manufacturer>
+	<year>1996</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="glpracr2" index="" image="">
+	<description>Gallop Racer 2 (USA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Tecmo</manufacturer>
+	<year>1997</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="glpracr2j" index="" image="">
+	<description>Gallop Racer 2 (Japan)</description>
+	<cloneof>glpracr2</cloneof>
+	<crc/>
+	<manufacturer>Tecmo</manufacturer>
+	<year>1997</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="glpracr2l" index="" image="">
+	<description>Gallop Racer 2 Link HW (Japan)</description>
+	<cloneof>glpracr2</cloneof>
+	<crc/>
+	<manufacturer>Tecmo</manufacturer>
+	<year>1997</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="glpracr3" index="" image="">
+	<description>Gallop Racer 3 (Export)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Tecmo</manufacturer>
+	<year>1999</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="glpracr3j" index="" image="">
+	<description>Gallop Racer 3 (Japan)</description>
+	<cloneof>glpracr3</cloneof>
+	<crc/>
+	<manufacturer>Tecmo</manufacturer>
+	<year>1999</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="glpracrj" index="" image="">
+	<description>Gallop Racer (Japanese Ver 9.01.12)</description>
+	<cloneof>glpracr</cloneof>
+	<crc/>
+	<manufacturer>Tecmo</manufacturer>
+	<year>1996</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mirderby" index="" image="">
+	<description>Miracle Derby - Ascot</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Home Data?</manufacturer>
+	<year>1988</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="neckneck" index="" image="">
+	<description>Neck-n-Neck (v1.2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bundra Games/Incredible Technologies</manufacturer>
+	<year>1992</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="photof" index="" image="">
+	<description>Photo Finish (bootleg?)</description>
+	<cloneof>wwjgtin</cloneof>
+	<crc/>
+	<manufacturer>Jaleco / Casio</manufacturer>
+	<year>1991</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stakwin" index="" image="">
+	<description>Stakes Winner / Stakes Winner - GI kinzen seiha e no michi</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Saurus</manufacturer>
+	<year>1995</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stakwin2" index="" image="">
+	<description>Stakes Winner 2</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Saurus</manufacturer>
+	<year>1996</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="starhrcl" index="" image="">
+	<description>Star Horse (satellite)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2000</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="starhrct" index="" image="">
+	<description>Star Horse (server)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2000</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="starhrpr" index="" image="">
+	<description>Star Horse Progress Returns (satellite)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2009</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="starhrse" index="" image="">
+	<description>Star Horse (big screens)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2000</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="starhrsp" index="" image="">
+	<description>Star Horse Progress (satellite) (Rev A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2003</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="steeplec" index="" image="">
+	<description>Steeplechase [TTL]</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1975</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vfurlong" index="" image="">
+	<description>Net Select Keiba Victory Furlong</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy</manufacturer>
+	<year>2005</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wwjgtin" index="" image="">
+	<description>Wai Wai Jockey Gate-In!</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco / Casio</manufacturer>
+	<year>1984</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

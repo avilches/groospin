@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2P alt / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="1942w" index="" image="">
+	<description>1942 (Williams Electronics license)</description>
+	<cloneof>1942</cloneof>
+	<crc/>
+	<manufacturer>Capcom (Williams Electronics license)</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gngbl" index="" image="">
+	<description>Ghosts&apos;n Goblins (bootleg with Cross)</description>
+	<cloneof>gng</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gngblita" index="" image="">
+	<description>Ghosts&apos;n Goblins (Italian bootleg, harder)</description>
+	<cloneof>gng</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jrking" index="" image="">
+	<description>Junior King (bootleg of Donkey Kong Jr.)</description>
+	<cloneof>dkongjr</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="leds2011u" index="" image="">
+	<description>Led Storm Rally 2011 (US)</description>
+	<cloneof>leds2011</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat4a" index="" image="">
+	<description>Megatouch IV (9255-40-01 ROD, Standard version)</description>
+	<cloneof>megat4</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1996</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="raimaisjo" index="" image="">
+	<description>Raimais (Japan, first revision)</description>
+	<cloneof>raimais</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rygar2" index="" image="">
+	<description>Rygar (US set 2)</description>
+	<cloneof>rygar</cloneof>
+	<crc/>
+	<manufacturer>Tecmo</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shinobi5" index="" image="">
+	<description>Shinobi (set 5, System 16B) (unprotected)</description>
+	<cloneof>shinobi</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tm3ka" index="" image="">
+	<description>Touchmaster 3000 (v5.01 Standard)</description>
+	<cloneof>tm3k</cloneof>
+	<crc/>
+	<manufacturer>Midway Games Inc.</manufacturer>
+	<year>1997</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tm5k" index="" image="">
+	<description>Touchmaster 5000 (v7.10 Standard)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway Games Inc.</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tm7ka" index="" image="">
+	<description>Touchmaster 7000 (v8.00 Standard)</description>
+	<cloneof>tm7k</cloneof>
+	<crc/>
+	<manufacturer>Midway Games Inc.</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

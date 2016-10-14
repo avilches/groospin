@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Quiz / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="fax2" index="" image="">
+	<description>FAX 2</description>
+	<cloneof>fax</cloneof>
+	<crc/>
+	<manufacturer>Exidy</manufacturer>
+	<year>1983</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt103a1" index="" image="">
+	<description>Trivia (Unsorted question roms)</description>
+	<cloneof>gtsers8</cloneof>
+	<crc/>
+	<manufacturer>Greyhound Electronics</manufacturer>
+	<year>1984</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt103aa" index="" image="">
+	<description>Trivia (Version 1.03a Alt questions 1)</description>
+	<cloneof>gtsers8</cloneof>
+	<crc/>
+	<manufacturer>Greyhound Electronics</manufacturer>
+	<year>1984</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtsers12" index="" image="">
+	<description>Trivia (Questions Series 12)</description>
+	<cloneof>gtsers8</cloneof>
+	<crc/>
+	<manufacturer>Greyhound Electronics</manufacturer>
+	<year>1984</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtsers15" index="" image="">
+	<description>Trivia (Questions Series 15)</description>
+	<cloneof>gtsers8</cloneof>
+	<crc/>
+	<manufacturer>Greyhound Electronics</manufacturer>
+	<year>1986</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hangman" index="" image="">
+	<description>Hangman</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Status Games</manufacturer>
+	<year>1984</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

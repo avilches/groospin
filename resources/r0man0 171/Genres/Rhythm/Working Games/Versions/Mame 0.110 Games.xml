@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Rhythm / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="ddr2m" index="" image="">
+	<description>Dance Dance Revolution 2nd Mix (GN895 VER. JAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddr2mla" index="" image="">
+	<description>Dance Dance Revolution 2nd Mix - Link Ver (GE885 VER. JAA)</description>
+	<cloneof>ddr2m</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddra" index="" image="">
+	<description>Dance Dance Revolution (GN845 VER. AAA)</description>
+	<cloneof>dstage</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddrj" index="" image="">
+	<description>Dance Dance Revolution - Internet Ranking Ver (GC845 VER. JBA)</description>
+	<cloneof>dstage</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddru" index="" image="">
+	<description>Dance Dance Revolution (GN845 VER. UAA)</description>
+	<cloneof>dstage</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dstagea" index="" image="">
+	<description>Dancing Stage (GN845 VER. EAA)</description>
+	<cloneof>dstage</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtrfrks" index="" image="">
+	<description>Guitar Freaks (GQ886 VER. EAC)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtrfrksa" index="" image="">
+	<description>Guitar Freaks (GQ886 VER. AAC)</description>
+	<cloneof>gtrfrks</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtrfrksj" index="" image="">
+	<description>Guitar Freaks (GQ886 VER. JAC)</description>
+	<cloneof>gtrfrks</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtrfrksu" index="" image="">
+	<description>Guitar Freaks (GQ886 VER. UAC)</description>
+	<cloneof>gtrfrks</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

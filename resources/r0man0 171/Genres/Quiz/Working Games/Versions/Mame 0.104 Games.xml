@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Quiz / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="triviaes" index="" image="">
+	<description>Trivial Pursuit (Spanish)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally/Sente</manufacturer>
+	<year>1987</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trvwz4" index="" image="">
+	<description>Trivia ? Whiz (6221-13, U5-0B Edition 4)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1985</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trvwzv" index="" image="">
+	<description>Trivia ? Whiz (6221-02, Vertical)</description>
+	<cloneof>trvwzh</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1985</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

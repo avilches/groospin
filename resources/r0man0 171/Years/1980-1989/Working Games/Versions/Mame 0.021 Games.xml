@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1980-1989 / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="dkongj" index="" image="">
+	<description>Donkey Kong (Japan set 1)</description>
+	<cloneof>dkong</cloneof>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1981</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galagamf" index="" image="">
+	<description>Galaga (Midway set 1 with fast shoot hack)</description>
+	<cloneof>galaga</cloneof>
+	<crc/>
+	<manufacturer>Namco (Midway license)</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jungleh" index="" image="">
+	<description>Jungle Hunt (US)</description>
+	<cloneof>junglek</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kangarooa" index="" image="">
+	<description>Kangaroo (Atari)</description>
+	<cloneof>kangaroo</cloneof>
+	<crc/>
+	<manufacturer>Sun Electronics (Atari license)</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="superpacm" index="" image="">
+	<description>Super Pac-Man (Midway)</description>
+	<cloneof>superpac</cloneof>
+	<crc/>
+	<manufacturer>Namco (Bally Midway license)</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

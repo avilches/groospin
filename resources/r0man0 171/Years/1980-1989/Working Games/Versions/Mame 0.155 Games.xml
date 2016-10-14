@@ -1,0 +1,279 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1980-1989 / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="americnaa" index="" image="">
+	<description>Americana (9131-00)</description>
+	<cloneof>americna</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1987</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arkanoidj" index="" image="">
+	<description>Arkanoid (Japan, newer)</description>
+	<cloneof>arkanoid</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bonzeadvp" index="" image="">
+	<description>Bonze Adventure (World, prototype)</description>
+	<cloneof>bonzeadv</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="candory" index="" image="">
+	<description>Candory (Ponpoko bootleg with Mario)</description>
+	<cloneof>ponpoko</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="centiped1" index="" image="">
+	<description>Centipede (revision 1)</description>
+	<cloneof>centiped</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chelnovjbl" index="" image="">
+	<description>Chelnov - Atomic Runner (Japan, bootleg with I8031, set 1)</description>
+	<cloneof>chelnov</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chelnovjbla" index="" image="">
+	<description>Chelnov - Atomic Runner (Japan, bootleg with I8031, set 2)</description>
+	<cloneof>chelnov</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="circusc2" index="" image="">
+	<description>Circus Charlie (level select, set 2)</description>
+	<cloneof>circusc</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cliffhgra2" index="" image="">
+	<description>Cliff Hanger (set 3)</description>
+	<cloneof>cliffhgr</cloneof>
+	<crc/>
+	<manufacturer>Stern Electronics</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="f1dreamba" index="" image="">
+	<description>F-1 Dream (bootleg, set 2)</description>
+	<cloneof>f1dream</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="foodf1" index="" image="">
+	<description>Food Fight (rev 1)</description>
+	<cloneof>foodf</cloneof>
+	<crc/>
+	<manufacturer>General Computer Corporation (Atari license)</manufacturer>
+	<year>1982</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="friskytb" index="" image="">
+	<description>Frisky Tom (set 3, encrypted)</description>
+	<cloneof>friskyt</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jumpinga" index="" image="">
+	<description>Jumping (set 2)</description>
+	<cloneof>rbisland</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Seyutu)</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mariobl" index="" image="">
+	<description>Mario Bros. (Japan, bootleg)</description>
+	<cloneof>mario</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pacmaniao" index="" image="">
+	<description>Pac-Mania (111187 sound program)</description>
+	<cloneof>pacmania</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1987</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pacmanjpm" index="" image="">
+	<description>Pac-Man (JPM bootleg)</description>
+	<cloneof>puckman</cloneof>
+	<crc/>
+	<manufacturer>bootleg (JPM)</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pengojpm" index="" image="">
+	<description>Pengo (bootleg on Pac-Man hardware, set 1)</description>
+	<cloneof>pengo</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pengopac" index="" image="">
+	<description>Pengo (bootleg on Pac-Man hardware, set 2)</description>
+	<cloneof>pengo</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pepk1024" index="" image="">
+	<description>Player&apos;s Edge (PK1024-PC095) Aces and Faces Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1987</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pepp0158" index="" image="">
+	<description>Player&apos;s Edge Plus (PP0158) 4 of a Kind Bonus Poker (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1987</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="phoenixdal" index="" image="">
+	<description>Phoenix (D&amp;L bootleg)</description>
+	<cloneof>phoenix</cloneof>
+	<crc/>
+	<manufacturer>bootleg (D&amp;L)</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="punchout" index="" image="">
+	<description>Punch-Out!! (Rev B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1984</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shtriderb" index="" image="">
+	<description>Shot Rider (bootleg)</description>
+	<cloneof>shtrider</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1985</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="skysharka" index="" image="">
+	<description>Sky Shark (US, set 2)</description>
+	<cloneof>fshark</cloneof>
+	<crc/>
+	<manufacturer>Toaplan / Taito America Corporation (Romstar license)</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spnchouta" index="" image="">
+	<description>Super Punch-Out!! (Rev A)</description>
+	<cloneof>spnchout</cloneof>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1984</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ti95" index="" image="">
+	<description>TI-95 PROCALC</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Texas Instruments</manufacturer>
+	<year>1986</year>
+	<genre>Calculator / Pocket Computer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zerohouri" index="" image="">
+	<description>Zero Hour (Inder)</description>
+	<cloneof>zerohour</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Inder SA)</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

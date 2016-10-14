@@ -1,0 +1,1289 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Shoot- / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="ajax" index="" image="">
+	<description>Ajax</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ajaxj" index="" image="">
+	<description>Ajax (Japan)</description>
+	<cloneof>ajax</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="battlnts" index="" image="">
+	<description>Battlantis (program code G)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="battlntsa" index="" image="">
+	<description>Battlantis (program code F)</description>
+	<cloneof>battlnts</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="battlntsj" index="" image="">
+	<description>Battlantis (Japan, program code E)</description>
+	<cloneof>battlnts</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blswhstl" index="" image="">
+	<description>Bells &amp; Whistles (World, version L)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blswhstla" index="" image="">
+	<description>Bells &amp; Whistles (Asia, version M)</description>
+	<cloneof>blswhstl</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bucky" index="" image="">
+	<description>Bucky O&apos;Hare (ver EAB)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="buckyaab" index="" image="">
+	<description>Bucky O&apos;Hare (ver AAB)</description>
+	<cloneof>bucky</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="buckyea" index="" image="">
+	<description>Bucky O&apos;Hare (ver EA)</description>
+	<cloneof>bucky</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="buckyuab" index="" image="">
+	<description>Bucky O&apos;Hare (ver UAB)</description>
+	<cloneof>bucky</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="citybomb" index="" image="">
+	<description>City Bomber (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="citybombj" index="" image="">
+	<description>City Bomber (Japan)</description>
+	<cloneof>citybomb</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crazycop" index="" image="">
+	<description>Crazy Cop (Japan)</description>
+	<cloneof>gbusters</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="darkadv" index="" image="">
+	<description>Dark Adventure</description>
+	<cloneof>devilw</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="detatwin" index="" image="">
+	<description>Detana!! Twin Bee (Japan, version J)</description>
+	<cloneof>blswhstl</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="devilw" index="" image="">
+	<description>Devil World</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="devstors" index="" image="">
+	<description>Devastators (ver. Z)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="devstors2" index="" image="">
+	<description>Devastators (ver. X)</description>
+	<cloneof>devstors</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="devstors3" index="" image="">
+	<description>Devastators (ver. V)</description>
+	<cloneof>devstors</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fantjour" index="" image="">
+	<description>Fantastic Journey (ver EAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1994</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fantjoura" index="" image="">
+	<description>Fantastic Journey (ver AAA)</description>
+	<cloneof>fantjour</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1994</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="finalizr" index="" image="">
+	<description>Finalizer - Super Transformation</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="flkatck" index="" image="">
+	<description>Flak Attack (Japan)</description>
+	<cloneof>mx5000</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="flkatcka" index="" image="">
+	<description>Flak Attack (Japan, PWB 450593 sub-board)</description>
+	<cloneof>mx5000</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="garuka" index="" image="">
+	<description>Garuka (Japan ver. W)</description>
+	<cloneof>devstors</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gbusters" index="" image="">
+	<description>Gang Busters (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gbustersa" index="" image="">
+	<description>Gang Busters (set 2)</description>
+	<cloneof>gbusters</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gijoe" index="" image="">
+	<description>G.I. Joe (World, EAB, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gijoea" index="" image="">
+	<description>G.I. Joe (World, EB8, prototype?)</description>
+	<cloneof>gijoe</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gijoej" index="" image="">
+	<description>G.I. Joe (Japan, JAA)</description>
+	<cloneof>gijoe</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gijoeu" index="" image="">
+	<description>G.I. Joe (US, UAB)</description>
+	<cloneof>gijoe</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gokuparo" index="" image="">
+	<description>Gokujyou Parodius (ver JAD)</description>
+	<cloneof>fantjour</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1994</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gradius" index="" image="">
+	<description>Gradius (Japan, ROM version)</description>
+	<cloneof>nemesis</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gradius2" index="" image="">
+	<description>Gradius II - GOFER no Yabou (Japan New Ver.)</description>
+	<cloneof>vulcan</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gradius2a" index="" image="">
+	<description>Gradius II - GOFER no Yabou (Japan Old Ver.)</description>
+	<cloneof>vulcan</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gradius2b" index="" image="">
+	<description>Gradius II - GOFER no Yabou (Japan Older Ver.)</description>
+	<cloneof>vulcan</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gradius3" index="" image="">
+	<description>Gradius III (World, program code R)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gradius3a" index="" image="">
+	<description>Gradius III (Asia)</description>
+	<cloneof>gradius3</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gradius3j" index="" image="">
+	<description>Gradius III (Japan, program code S)</description>
+	<cloneof>gradius3</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gradius3js" index="" image="">
+	<description>Gradius III (Japan, program code S, split)</description>
+	<cloneof>gradius3</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gradius4" index="" image="">
+	<description>Gradius 4: Fukkatsu</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gyruss" index="" image="">
+	<description>Gyruss</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gyrussce" index="" image="">
+	<description>Gyruss (Centuri)</description>
+	<cloneof>gyruss</cloneof>
+	<crc/>
+	<manufacturer>Konami (Centuri license)</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jackal" index="" image="">
+	<description>Jackal (World, 8-way Joystick)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jackalj" index="" image="">
+	<description>Tokushu Butai Jackal (Japan, 8-way Joystick)</description>
+	<cloneof>jackal</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jackalr" index="" image="">
+	<description>Jackal (World, Rotary Joystick)</description>
+	<cloneof>jackal</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jungler" index="" image="">
+	<description>Jungler</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="junglers" index="" image="">
+	<description>Jungler (Stern Electronics)</description>
+	<cloneof>jungler</cloneof>
+	<crc/>
+	<manufacturer>Konami (Stern Electronics license)</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="junofrst" index="" image="">
+	<description>Juno First</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="junofrstg" index="" image="">
+	<description>Juno First (Gottlieb)</description>
+	<cloneof>junofrst</cloneof>
+	<crc/>
+	<manufacturer>Konami (Gottlieb license)</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="labyrunr" index="" image="">
+	<description>Labyrinth Runner (Japan)</description>
+	<cloneof>tricktrp</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="labyrunrk" index="" image="">
+	<description>Labyrinth Runner (World Ver. K)</description>
+	<cloneof>tricktrp</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lgtnfght" index="" image="">
+	<description>Lightning Fighters (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lgtnfghta" index="" image="">
+	<description>Lightning Fighters (Asia)</description>
+	<cloneof>lgtnfght</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lgtnfghtu" index="" image="">
+	<description>Lightning Fighters (US)</description>
+	<cloneof>lgtnfght</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lifefrce" index="" image="">
+	<description>Lifeforce (US)</description>
+	<cloneof>salamand</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lifefrcej" index="" image="">
+	<description>Lifeforce (Japan)</description>
+	<cloneof>salamand</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="majuu" index="" image="">
+	<description>Majuu no Ohkoku</description>
+	<cloneof>devilw</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megazone" index="" image="">
+	<description>Mega Zone (Konami set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megazonea" index="" image="">
+	<description>Mega Zone (Konami set 2)</description>
+	<cloneof>megazone</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megazoneb" index="" image="">
+	<description>Mega Zone (Kosuka set 1)</description>
+	<cloneof>megazone</cloneof>
+	<crc/>
+	<manufacturer>Konami (Kosuka license)</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megazonec" index="" image="">
+	<description>Mega Zone (Kosuka set 2)</description>
+	<cloneof>megazone</cloneof>
+	<crc/>
+	<manufacturer>Konami (Kosuka license)</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megazonei" index="" image="">
+	<description>Mega Zone (Interlogic)</description>
+	<cloneof>megazone</cloneof>
+	<crc/>
+	<manufacturer>Konami (Interlogic license)</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mogura" index="" image="">
+	<description>Mogura Desse (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mx5000" index="" image="">
+	<description>MX5000</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nemesis" index="" image="">
+	<description>Nemesis (ROM version)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nemesisuk" index="" image="">
+	<description>Nemesis (World?, ROM version)</description>
+	<cloneof>nemesis</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="orius" index="" image="">
+	<description>Orius (ver UAA)</description>
+	<cloneof>xexex</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="parodius" index="" image="">
+	<description>Parodius DA! (World, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="parodiusa" index="" image="">
+	<description>Parodius DA! (Asia)</description>
+	<cloneof>parodius</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="parodiuse" index="" image="">
+	<description>Parodius DA! (World, set 2)</description>
+	<cloneof>parodius</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="parodiusj" index="" image="">
+	<description>Parodius DA! (Japan)</description>
+	<cloneof>parodius</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_grdue" index="" image="">
+	<description>Gradius (PlayChoice-10, older)</description>
+	<cloneof>pc_grdus</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_grdus" index="" image="">
+	<description>Gradius (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pesadelo" index="" image="">
+	<description>Pesadelo (bootleg of Knightmare on MSX)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>bootleg (Forte II Games) / Konami</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pooyan" index="" image="">
+	<description>Pooyan</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pooyans" index="" image="">
+	<description>Pooyan (Stern Electronics)</description>
+	<cloneof>pooyan</cloneof>
+	<crc/>
+	<manufacturer>Konami (Stern Electronics license)</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="salamand" index="" image="">
+	<description>Salamander (version D)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="salamandj" index="" image="">
+	<description>Salamander (version J)</description>
+	<cloneof>salamand</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="salmndr2" index="" image="">
+	<description>Salamander 2 (ver JAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="salmndr2a" index="" image="">
+	<description>Salamander 2 (ver AAB)</description>
+	<cloneof>salmndr2</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scobra" index="" image="">
+	<description>Super Cobra</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scobrae" index="" image="">
+	<description>Super Cobra (Stern Electronics) (encrypted, KONATEC XC-103SS CPU)</description>
+	<cloneof>scobra</cloneof>
+	<crc/>
+	<manufacturer>Konami (Stern Electronics license)</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scobras" index="" image="">
+	<description>Super Cobra (Stern Electronics)</description>
+	<cloneof>scobra</cloneof>
+	<crc/>
+	<manufacturer>Konami (Stern Electronics license)</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scobrase" index="" image="">
+	<description>Super Cobra (Sega)</description>
+	<cloneof>scobra</cloneof>
+	<crc/>
+	<manufacturer>Konami (Sega license)</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scotrsht" index="" image="">
+	<description>Scooter Shooter</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scramble" index="" image="">
+	<description>Scramble</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scrambles" index="" image="">
+	<description>Scramble (Stern Electronics set 1)</description>
+	<cloneof>scramble</cloneof>
+	<crc/>
+	<manufacturer>Konami (Stern Electronics license)</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scrambles2" index="" image="">
+	<description>Scramble (Stern Electronics set 2)</description>
+	<cloneof>scramble</cloneof>
+	<crc/>
+	<manufacturer>Konami (Stern Electronics license)</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="slrasslt" index="" image="">
+	<description>Solar Assault (ver UAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1997</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spcking2" index="" image="">
+	<description>Space King 2</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="srmdb" index="" image="">
+	<description>Sunset Riders (bootleg of Megadrive version)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>bootleg / Konami</manufacturer>
+	<year>1993</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stratgys" index="" image="">
+	<description>Strategy X (Stern Electronics)</description>
+	<cloneof>stratgyx</cloneof>
+	<crc/>
+	<manufacturer>Konami (Stern Electronics license)</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stratgyx" index="" image="">
+	<description>Strategy X</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tactcian" index="" image="">
+	<description>Tactician (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami (Sega license)</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tactcian2" index="" image="">
+	<description>Tactician (set 2)</description>
+	<cloneof>tactcian</cloneof>
+	<crc/>
+	<manufacturer>Konami (Sega license)</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tbyahhoo" index="" image="">
+	<description>Twin Bee Yahhoo! (ver JAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1995</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="theend" index="" image="">
+	<description>The End</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="theends" index="" image="">
+	<description>The End (Stern Electronics)</description>
+	<cloneof>theend</cloneof>
+	<crc/>
+	<manufacturer>Konami (Stern Electronics license)</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thndrx2" index="" image="">
+	<description>Thunder Cross II (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thndrx2a" index="" image="">
+	<description>Thunder Cross II (Asia)</description>
+	<cloneof>thndrx2</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thndrx2j" index="" image="">
+	<description>Thunder Cross II (Japan)</description>
+	<cloneof>thndrx2</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thunderx" index="" image="">
+	<description>Thunder Cross (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thunderxa" index="" image="">
+	<description>Thunder Cross (set 2)</description>
+	<cloneof>thunderx</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thunderxb" index="" image="">
+	<description>Thunder Cross (set 3)</description>
+	<cloneof>thunderx</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thunderxj" index="" image="">
+	<description>Thunder Cross (Japan)</description>
+	<cloneof>thunderx</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="timeplt" index="" image="">
+	<description>Time Pilot</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="timeplta" index="" image="">
+	<description>Time Pilot (Atari)</description>
+	<cloneof>timeplt</cloneof>
+	<crc/>
+	<manufacturer>Konami (Atari license)</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="timepltc" index="" image="">
+	<description>Time Pilot (Centuri)</description>
+	<cloneof>timeplt</cloneof>
+	<crc/>
+	<manufacturer>Konami (Centuri license)</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="topgun" index="" image="">
+	<description>Vs. Top Gun</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="topgunr" index="" image="">
+	<description>Top Gunner (US, 8-way Joystick)</description>
+	<cloneof>jackal</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tp84" index="" image="">
+	<description>Time Pilot &apos;84 (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tp84a" index="" image="">
+	<description>Time Pilot &apos;84 (set 2)</description>
+	<cloneof>tp84</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tp84b" index="" image="">
+	<description>Time Pilot &apos;84 (set 3)</description>
+	<cloneof>tp84</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tricktrp" index="" image="">
+	<description>Trick Trap (World?)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trigon" index="" image="">
+	<description>Trigon (Japan)</description>
+	<cloneof>lgtnfght</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tutankhm" index="" image="">
+	<description>Tutankham</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tutankhms" index="" image="">
+	<description>Tutankham (Stern Electronics)</description>
+	<cloneof>tutankhm</cloneof>
+	<crc/>
+	<manufacturer>Konami (Stern Electronics license)</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="twinbee" index="" image="">
+	<description>TwinBee (ROM version)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="typhoon" index="" image="">
+	<description>Typhoon</description>
+	<cloneof>ajax</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vsgradus" index="" image="">
+	<description>Vs. Gradius (US, set GR E)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vulcan" index="" image="">
+	<description>Vulcan Venture (New)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vulcana" index="" image="">
+	<description>Vulcan Venture (Old)</description>
+	<cloneof>vulcan</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vulcanb" index="" image="">
+	<description>Vulcan Venture (Oldest)</description>
+	<cloneof>vulcan</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xexex" index="" image="">
+	<description>Xexex (ver EAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xexexa" index="" image="">
+	<description>Xexex (ver AAA)</description>
+	<cloneof>xexex</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xexexj" index="" image="">
+	<description>Xexex (ver JAA)</description>
+	<cloneof>xexex</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

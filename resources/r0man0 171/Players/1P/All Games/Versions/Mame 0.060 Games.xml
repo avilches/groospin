@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1P / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="gtmr2a" index="" image="">
+	<description>Mille Miglia 2: Great 1000 Miles Rally (95/04/04)</description>
+	<cloneof>gtmr2</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1995</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="news" index="" image="">
+	<description>News (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Poby / Virus</manufacturer>
+	<year>1993</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rrrevengb" index="" image="">
+	<description>Road Riot&apos;s Revenge (prototype, Jan 27, 1994, set 2)</description>
+	<cloneof>rrreveng</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfp" index="" image="">
+	<description>Street Fighter (prototype)</description>
+	<cloneof>sf</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1987</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

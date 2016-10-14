@@ -1,0 +1,389 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2000-2009 / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="b2b" index="" image="">
+	<description>Bang Bang Busters (2010 NCI release)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Visco</manufacturer>
+	<year>2000</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ballboy" index="" image="">
+	<description>Ball Boy</description>
+	<cloneof>snowbro3</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dkongf" index="" image="">
+	<description>Donkey Kong Foundry (hack)</description>
+	<cloneof>dkong</cloneof>
+	<crc/>
+	<manufacturer>hack (Jeff Kulczycki)</manufacturer>
+	<year>2004</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dkongx" index="" image="">
+	<description>Donkey Kong II: Jumpman Returns (hack, V1.2)</description>
+	<cloneof>dkong</cloneof>
+	<crc/>
+	<manufacturer>hack (Braze Technologies)</manufacturer>
+	<year>2006</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dkongx11" index="" image="">
+	<description>Donkey Kong II: Jumpman Returns (hack, V1.1)</description>
+	<cloneof>dkong</cloneof>
+	<crc/>
+	<manufacturer>hack (Braze Technologies)</manufacturer>
+	<year>2006</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dmnfrnt" index="" image="">
+	<description>Demon Front (68k label V105, ROM M105XX 08/05/02) (ARM label V105, ROM 08/05/02 S105XX)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2002</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dmnfrnta" index="" image="">
+	<description>Demon Front (68k label V102, ROM M102XX 06/19/02) (ARM label V102, ROM 05/24/02 S101XX)</description>
+	<cloneof>dmnfrnt</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2002</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dmnfrntb" index="" image="">
+	<description>Demon Front (68k label V103, ROM M103XX 07/05/02) (ARM label V103, ROM 07/05/02 S103XX)</description>
+	<cloneof>dmnfrnt</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2002</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dreamwld" index="" image="">
+	<description>Dream World</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SemiCom</manufacturer>
+	<year>2000</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dynabomb" index="" image="">
+	<description>Dynamite Bomber (Korea, Rev 1.5)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Limenko</manufacturer>
+	<year>2000</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hedpanic" index="" image="">
+	<description>Head Panic (ver. 0117, 17/01/2000)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>ESD</manufacturer>
+	<year>2000</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hedpanicf" index="" image="">
+	<description>Head Panic (ver. 0315, 15/03/2000)</description>
+	<cloneof>hedpanic</cloneof>
+	<crc/>
+	<manufacturer>ESD / Fuuki</manufacturer>
+	<year>2000</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jumppop" index="" image="">
+	<description>Jumping Pop (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>ESD</manufacturer>
+	<year>2001</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jumppope" index="" image="">
+	<description>Jumping Pop (set 2)</description>
+	<cloneof>jumppop</cloneof>
+	<crc/>
+	<manufacturer>Emag Soft</manufacturer>
+	<year>2001</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="loderndf" index="" image="">
+	<description>Lode Runner - The Dig Fight (ver. B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Psikyo</manufacturer>
+	<year>2000</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="loderndfa" index="" image="">
+	<description>Lode Runner - The Dig Fight (ver. A)</description>
+	<cloneof>loderndf</cloneof>
+	<crc/>
+	<manufacturer>Psikyo</manufacturer>
+	<year>2000</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mfjump" index="" image="">
+	<description>Monster Farm Jump (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Tecmo</manufacturer>
+	<year>2001</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ms4plus" index="" image="">
+	<description>Metal Slug 4 Plus (bootleg)</description>
+	<cloneof>mslug4</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2002</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ms5pcb" index="" image="">
+	<description>Metal Slug 5 (JAMMA PCB)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK Playmore</manufacturer>
+	<year>2003</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ms5plus" index="" image="">
+	<description>Metal Slug 5 Plus (bootleg)</description>
+	<cloneof>mslug5</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mslug3" index="" image="">
+	<description>Metal Slug 3 (NGM-2560)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>2000</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mslug3b6" index="" image="">
+	<description>Metal Slug 6 (Metal Slug 3 bootleg)</description>
+	<cloneof>mslug3</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2000</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mslug3h" index="" image="">
+	<description>Metal Slug 3 (NGH-2560)</description>
+	<cloneof>mslug3</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>2000</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mslug4" index="" image="">
+	<description>Metal Slug 4 (NGM-2630)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Mega / Playmore</manufacturer>
+	<year>2002</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mslug4h" index="" image="">
+	<description>Metal Slug 4 (NGH-2630)</description>
+	<cloneof>mslug4</cloneof>
+	<crc/>
+	<manufacturer>Mega / Playmore</manufacturer>
+	<year>2002</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mslug5" index="" image="">
+	<description>Metal Slug 5 (NGM-2680)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK Playmore</manufacturer>
+	<year>2003</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mslug5h" index="" image="">
+	<description>Metal Slug 5 (NGH-2680)</description>
+	<cloneof>mslug5</cloneof>
+	<crc/>
+	<manufacturer>SNK Playmore</manufacturer>
+	<year>2003</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nitd" index="" image="">
+	<description>Nightmare in the Dark</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Eleven / Gavaking</manufacturer>
+	<year>2000</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nitdbl" index="" image="">
+	<description>Nightmare in the Dark (bootleg)</description>
+	<cloneof>nitd</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2001</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="penbros" index="" image="">
+	<description>Penguin Brothers (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Subsino</manufacturer>
+	<year>2000</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sb2003" index="" image="">
+	<description>Super Bubble 2003 (World, Ver 1.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Limenko</manufacturer>
+	<year>2003</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sb2003a" index="" image="">
+	<description>Super Bubble 2003 (Asia, Ver 1.0)</description>
+	<cloneof>sb2003</cloneof>
+	<crc/>
+	<manufacturer>Limenko</manufacturer>
+	<year>2003</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shinfz" index="" image="">
+	<description>Shinobi / FZ-2006 (Korean System 16 bootleg) (ISG Selection Master Type 2006)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>bootleg (ISG)</manufacturer>
+	<year>2008</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="snowbro3" index="" image="">
+	<description>Snow Brothers 3 - Magical Adventure</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Syrmex</manufacturer>
+	<year>2002</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tangtang" index="" image="">
+	<description>Tang Tang (ver. 0526, 26/05/2000)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>ESD</manufacturer>
+	<year>2000</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="toyland" index="" image="">
+	<description>Toy Land Adventure</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SemiCom</manufacturer>
+	<year>2001</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wbmlvc" index="" image="">
+	<description>Wonder Boy in Monster Land (English, Virtual Console)</description>
+	<cloneof>wbml</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2009</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zupapa" index="" image="">
+	<description>Zupapa!</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>2001</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

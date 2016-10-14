@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2P alt / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="ckonggx" index="" image="">
+	<description>Crazy Kong (bootleg on Galaxian hardware, encrypted, set 1)</description>
+	<cloneof>ckong</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1981</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cosmicgi" index="" image="">
+	<description>Cosmic Guerilla (Spanish bootleg)</description>
+	<cloneof>cosmicg</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Inder)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cottonj" index="" image="">
+	<description>Cotton (set 2, Japan, Rev B) (FD1094 317-0179b)</description>
+	<cloneof>cotton</cloneof>
+	<crc/>
+	<manufacturer>Success / Sega</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="freekickb3" index="" image="">
+	<description>Free Kick (bootleg set 3)</description>
+	<cloneof>freekick</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1987</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sitv1" index="" image="">
+	<description>Space Invaders (TV Version rev 1)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

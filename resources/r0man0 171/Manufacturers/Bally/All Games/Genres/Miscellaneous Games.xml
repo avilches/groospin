@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Bally / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="babypac" index="" image="">
+	<description>Baby Pac-Man (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dave Nutting Associates / Bally</manufacturer>
+	<year>1982</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="babypac2" index="" image="">
+	<description>Baby Pac-Man (set 2)</description>
+	<cloneof>babypac</cloneof>
+	<crc/>
+	<manufacturer>Dave Nutting Associates / Bally</manufacturer>
+	<year>1982</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cntinntl" index="" image="">
+	<description>Continental (Bingo)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally</manufacturer>
+	<year>1980</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="domino" index="" image="">
+	<description>Domino Man</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1982</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dotron" index="" image="">
+	<description>Discs of Tron (Upright)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1983</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dotrona" index="" image="">
+	<description>Discs of Tron (Upright alternate)</description>
+	<cloneof>dotron</cloneof>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1983</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dotrone" index="" image="">
+	<description>Discs of Tron (Environmental)</description>
+	<cloneof>dotron</cloneof>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1983</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="granny" index="" image="">
+	<description>Granny and the Gators</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally</manufacturer>
+	<year>1984</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mdntmrdr" index="" image="">
+	<description>Midnight Marauders (Gun game)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1984</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tenpindx" index="" image="">
+	<description>Ten Pin Deluxe</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dave Nutting Associates / Bally Midway</manufacturer>
+	<year>1983</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

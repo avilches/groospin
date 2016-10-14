@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Sports / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="blitz99a" index="" image="">
+	<description>NFL Blitz &apos;99 (ver 1.2, Aug 28 1998)</description>
+	<cloneof>blitz99</cloneof>
+	<crc/>
+	<manufacturer>Midway Games</manufacturer>
+	<year>1998</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pspikesba" index="" image="">
+	<description>Power Spikes (Italian bootleg)</description>
+	<cloneof>pspikes</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Playmark?)</manufacturer>
+	<year>1991</year>
+	<genre>Volleyball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rungunb" index="" image="">
+	<description>Run and Gun (ver EAA 1993 9.10, prototype?)</description>
+	<cloneof>rungun</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1993</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Maze / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="flagrall" index="" image="">
+	<description>&apos;96 Flag Rally</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1996?</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="froggers3" index="" image="">
+	<description>Frogger (Sega set 3)</description>
+	<cloneof>frogger</cloneof>
+	<crc/>
+	<manufacturer>Konami (Sega license)</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="touchemea" index="" image="">
+	<description>Touche Me (set 2, harder)</description>
+	<cloneof>toucheme</cloneof>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>19??</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

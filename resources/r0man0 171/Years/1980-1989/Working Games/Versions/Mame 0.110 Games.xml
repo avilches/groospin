@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1980-1989 / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="bionicc" index="" image="">
+	<description>Bionic Commando (Euro)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hellfire2a" index="" image="">
+	<description>Hellfire (2P set, older)</description>
+	<cloneof>hellfire</cloneof>
+	<crc/>
+	<manufacturer>Toaplan (Taito license)</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jokpoker" index="" image="">
+	<description>Joker Poker (Version 16.03B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Greyhound Electronics</manufacturer>
+	<year>1982</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="phoenixa" index="" image="">
+	<description>Phoenix (Centuri, set 1)</description>
+	<cloneof>phoenix</cloneof>
+	<crc/>
+	<manufacturer>Amstar (Centuri license)</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stratvoxb" index="" image="">
+	<description>Stratovox (bootleg)</description>
+	<cloneof>speakres</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="superbwl" index="" image="">
+	<description>Super Bowl (Version 16.03B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Greyhound Electronics</manufacturer>
+	<year>1982</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trvhang" index="" image="">
+	<description>Trivia Hangup (question set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SMS Manufacturing Corp.</manufacturer>
+	<year>1984</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

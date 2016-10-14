@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Gun / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="carnking" index="" image="">
+	<description>Carnival King (v1.00.11)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>2002</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crszonev3b2" index="" image="">
+	<description>Crisis Zone (CSZO3 Ver. B, set 2)</description>
+	<cloneof>crszone</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2000</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crszonev4a" index="" image="">
+	<description>Crisis Zone (CSZO4 Ver. A)</description>
+	<cloneof>crszone</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2000</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dragngunj" index="" image="">
+	<description>Dragon Gun (Japan)</description>
+	<cloneof>dragngun</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zombraidp" index="" image="">
+	<description>Zombie Raid (9/28/95, US, prototype PCB)</description>
+	<cloneof>zombraid</cloneof>
+	<crc/>
+	<manufacturer>American Sammy</manufacturer>
+	<year>1995</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zombraidpj" index="" image="">
+	<description>Zombie Raid (9/28/95, Japan, prototype PCB)</description>
+	<cloneof>zombraid</cloneof>
+	<crc/>
+	<manufacturer>Sammy Industries Co.,Ltd.</manufacturer>
+	<year>1995</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

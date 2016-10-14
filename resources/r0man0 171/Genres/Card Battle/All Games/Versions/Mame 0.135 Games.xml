@@ -1,0 +1,239 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Card Battle / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="bjpoker" index="" image="">
+	<description>Poker / Black Jack (Model 7521)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>M.Kramer Manufacturing.</manufacturer>
+	<year>198?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cgip30cs" index="" image="">
+	<description>Credit Poker (ver.30c, standard)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>CGI</manufacturer>
+	<year>1999</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="df_djpkr" index="" image="">
+	<description>Double Joker Poker (45%-75% payout)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>DellFern Ltd.</manufacturer>
+	<year>199?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dphlunka" index="" image="">
+	<description>Draw Poker HI-LO (unknown, rev 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SMS Manufacturing Corp.</manufacturer>
+	<year>198?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dphlunkb" index="" image="">
+	<description>Draw Poker HI-LO (unknown, rev 2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SMS Manufacturing Corp.</manufacturer>
+	<year>198?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drhl" index="" image="">
+	<description>Drews Revenge (v.2.89, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Drews Inc.</manufacturer>
+	<year>1986</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drw80pkr" index="" image="">
+	<description>Draw 80 Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1982</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fastdrwp" index="" image="">
+	<description>Fast Draw (poker conversion kit)?</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Stern Electronics?</manufacturer>
+	<year>198?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jokpokerb" index="" image="">
+	<description>Joker Poker (Version 16.04BI 10-19-88, Joker Poker ICB 9-30-86)</description>
+	<cloneof>jokpoker</cloneof>
+	<crc/>
+	<manufacturer>Greyhound Electronics</manufacturer>
+	<year>1983</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jokpokerc" index="" image="">
+	<description>Joker Poker (Version 16.03BI 5-10-85, Poker No Raise ICB 9-30-86)</description>
+	<cloneof>jokpoker</cloneof>
+	<crc/>
+	<manufacturer>Greyhound Electronics</manufacturer>
+	<year>1983</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kimbldhl" index="" image="">
+	<description>Kimble Double HI-LO</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kimble Ireland</manufacturer>
+	<year>198?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kimblz80" index="" image="">
+	<description>Kimble Double HI-LO (z80 version)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kimble Ireland</manufacturer>
+	<year>198?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="magicardj" index="" image="">
+	<description>Magic Card Jackpot (4.01)</description>
+	<cloneof>magicard</cloneof>
+	<crc/>
+	<manufacturer>Impera</manufacturer>
+	<year>1998</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mainline" index="" image="">
+	<description>Mainline Double Joker Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Mainline London</manufacturer>
+	<year>198?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ndxron10" index="" image="">
+	<description>Royal on Ten (Noraut Deluxe hack)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>2005</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="noraut3b" index="" image="">
+	<description>Noraut Joker Poker (V3.011a)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Noraut Ltd.</manufacturer>
+	<year>2003</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="norautdx" index="" image="">
+	<description>Noraut Deluxe Poker (console)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Noraut Ltd.</manufacturer>
+	<year>198?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="norautjo" index="" image="">
+	<description>Noraut Joker Poker (original)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Noraut Ltd.</manufacturer>
+	<year>198?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="norautpl" index="" image="">
+	<description>Noraut Joker Poker (Prologic HW)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Video Fun Games Ltd.</manufacturer>
+	<year>198?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="norautra" index="" image="">
+	<description>Noraut Red Hot Joker Poker (alt HW)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Noraut Ltd.</manufacturer>
+	<year>198?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="norautua" index="" image="">
+	<description>Noraut unknown set 1 (console)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Noraut Ltd.</manufacturer>
+	<year>198?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="norautub" index="" image="">
+	<description>Noraut unknown set 2 (console)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Noraut Ltd.</manufacturer>
+	<year>198?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="suprpokr" index="" image="">
+	<description>Super Poker (Version 10.19S)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Grayhound Electronics</manufacturer>
+	<year>1986</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

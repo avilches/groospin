@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Sega / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="dcclub" index="" image="">
+	<description>Dynamic Country Club (World, ROM Based)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dcclubfd" index="" image="">
+	<description>Dynamic Country Club (US, Floppy Based, FD1094 317-0058-09d)</description>
+	<cloneof>dcclub</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dcclubj" index="" image="">
+	<description>Dynamic Country Club (Japan, ROM Based)</description>
+	<cloneof>dcclub</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dygolf" index="" image="">
+	<description>Dynamic Golf / Virtua Golf (Rev A) (GDS-0009A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2001</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mt_ggolf" index="" image="">
+	<description>Great Golf (Mega-Tech, SMS based)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mt_tgolf" index="" image="">
+	<description>Arnold Palmer Tournament Golf (Mega-Tech)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scg06nt" index="" image="">
+	<description>Sega Club Golf 2006 Next Tours (Rev A) (GDX-0018A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2005</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sgmast" index="" image="">
+	<description>Super Masters Golf (World?, Floppy Based, FD1094 317-0058-05d?)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sgmastc" index="" image="">
+	<description>Jumbo Ozaki Super Masters Golf (World, Floppy Based, FD1094 317-0058-05c)</description>
+	<cloneof>sgmast</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sgmastj" index="" image="">
+	<description>Jumbo Ozaki Super Masters Golf (Japan, Floppy Based, FD1094 317-0058-05b)</description>
+	<cloneof>sgmast</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

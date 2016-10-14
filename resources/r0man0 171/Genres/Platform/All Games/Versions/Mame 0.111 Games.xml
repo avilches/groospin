@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Platform / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="bub68705" index="" image="">
+	<description>Bubble Bobble (bootleg with 68705)</description>
+	<cloneof>bublbobl</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cliffhgr" index="" image="">
+	<description>Cliff Hanger (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Stern Electronics</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cliffhgra" index="" image="">
+	<description>Cliff Hanger (set 2)</description>
+	<cloneof>cliffhgr</cloneof>
+	<crc/>
+	<manufacturer>Stern Electronics</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dleuro" index="" image="">
+	<description>Dragon&apos;s Lair (European)</description>
+	<cloneof>dlair</cloneof>
+	<crc/>
+	<manufacturer>Cinematronics (Atari license)</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dlital" index="" image="">
+	<description>Dragon&apos;s Lair (Italian)</description>
+	<cloneof>dlair</cloneof>
+	<crc/>
+	<manufacturer>Cinematronics (Sidam license?)</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jujuba" index="" image="">
+	<description>JuJu Densetsu (Japan, bootleg)</description>
+	<cloneof>toki</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="midresb" index="" image="">
+	<description>Midnight Resistance (bootleg with 68705)</description>
+	<cloneof>midres</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spaceace" index="" image="">
+	<description>Space Ace (US Rev. A3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Cinematronics</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spaceacea" index="" image="">
+	<description>Space Ace (US Rev. A)</description>
+	<cloneof>spaceace</cloneof>
+	<crc/>
+	<manufacturer>Cinematronics</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spaceacea2" index="" image="">
+	<description>Space Ace (US Rev. A2)</description>
+	<cloneof>spaceace</cloneof>
+	<crc/>
+	<manufacturer>Cinematronics</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spaceaceeuro" index="" image="">
+	<description>Space Ace (European)</description>
+	<cloneof>spaceace</cloneof>
+	<crc/>
+	<manufacturer>Cinematronics (Atari license)</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="superdq" index="" image="">
+	<description>Super Don Quix-ote (Long Scenes)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Universal</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="superdqa" index="" image="">
+	<description>Super Don Quix-ote (Short Scenes, Alt)</description>
+	<cloneof>superdq</cloneof>
+	<crc/>
+	<manufacturer>Universal</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="superdqs" index="" image="">
+	<description>Super Don Quix-ote (Short Scenes)</description>
+	<cloneof>superdq</cloneof>
+	<crc/>
+	<manufacturer>Universal</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="suprmrio" index="" image="">
+	<description>Vs. Super Mario Bros. (set SM4-4 E)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="twrshaft" index="" image="">
+	<description>Tower &amp; Shaft</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aruze</manufacturer>
+	<year>2003</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Mame / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="crimfght2" index="" image="">
+	<description>Crime Fighters (World 2 Players)</description>
+	<cloneof>crimfght</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1989</year>
+	<genre>New</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="excitebka" index="" image="">
+	<description>Vs. Excitebike (set EB4-3 ?)</description>
+	<cloneof>excitebk</cloneof>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1984</year>
+	<genre>New</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="majest12" index="" image="">
+	<description>Majestic Twelve - The Space Invaders Part IV (Japan)</description>
+	<cloneof>ssi</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1990</year>
+	<genre>New</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

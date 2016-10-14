@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Kaneko / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="gtmrusa" index="" image="">
+	<description>Great 1000 Miles Rally: U.S.A Version! (94/09/06)</description>
+	<cloneof>gtmr</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mgcrystlj" index="" image="">
+	<description>Magical Crystals (Japan, 92/01/13)</description>
+	<cloneof>mgcrystl</cloneof>
+	<crc/>
+	<manufacturer>Kaneko (Atlus license)</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

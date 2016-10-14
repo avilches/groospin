@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Midway / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="crusnexob" index="" image="">
+	<description>Cruis&apos;n Exotica (version 1.6)</description>
+	<cloneof>crusnexo</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1999</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="invasnab4" index="" image="">
+	<description>Invasion - The Abductors (version 4.0)</description>
+	<cloneof>invasnab</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1999</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mk4" index="" image="">
+	<description>Mortal Kombat 4 (version 3.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thegrida" index="" image="">
+	<description>The Grid (version 1.1)</description>
+	<cloneof>thegrid</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

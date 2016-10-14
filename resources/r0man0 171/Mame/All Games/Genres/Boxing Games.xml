@@ -1,0 +1,559 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Mame / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="ashnojoe" index="" image="">
+	<description>Ashita no Joe (Japan)</description>
+	<cloneof>scessjoe</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation / Wave</manufacturer>
+	<year>1990</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bbbxing" index="" image="">
+	<description>Best Bout Boxing</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1994</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="boxer" index="" image="">
+	<description>Boxer (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1978</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="boxingm" index="" image="">
+	<description>Boxing Mania (ver JAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2001</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chboxing" index="" image="">
+	<description>Champion Boxing</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1984</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fghtmn" index="" image="">
+	<description>Fighting Mania (QG918 VER. EAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fghtmna" index="" image="">
+	<description>Fighting Mania (QG918 VER. AAA)</description>
+	<cloneof>fghtmn</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fghtmnk" index="" image="">
+	<description>Fighting Mania (QG918 VER. KAA)</description>
+	<cloneof>fghtmn</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fghtmnu" index="" image="">
+	<description>Fighting Mania (QG918 VER. UAA)</description>
+	<cloneof>fghtmn</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fhboxers" index="" image="">
+	<description>Funky Head Boxers (JUETBKAL 951218 V1.000)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1995</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="finalb" index="" image="">
+	<description>Final Blow (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1988</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="finalbj" index="" image="">
+	<description>Final Blow (Japan)</description>
+	<cloneof>finalb</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="finalbu" index="" image="">
+	<description>Final Blow (US)</description>
+	<cloneof>finalb</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fround" index="" image="">
+	<description>The Final Round (version M)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1988</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="froundl" index="" image="">
+	<description>The Final Round (version L)</description>
+	<cloneof>fround</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1988</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hpuncher" index="" image="">
+	<description>Hard Puncher (Japan)</description>
+	<cloneof>fround</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1988</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hwchamp" index="" image="">
+	<description>Heavyweight Champ</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hwchampj" index="" image="">
+	<description>Heavyweight Champ (Japan) (FD1094 317-0046)</description>
+	<cloneof>hwchamp</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hwchampjd" index="" image="">
+	<description>Heavyweight Champ (Japan) (bootleg of FD1094 317-0046 set)</description>
+	<cloneof>hwchamp</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1987</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kingofb" index="" image="">
+	<description>King of Boxer (English)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Wood Place Inc.</manufacturer>
+	<year>1985</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mainsnk" index="" image="">
+	<description>Main Event (1984)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1984</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mocapb" index="" image="">
+	<description>Mocap Boxing (ver AAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2001</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mocapbj" index="" image="">
+	<description>Mocap Boxing (ver JAA)</description>
+	<cloneof>mocapb</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2001</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_miket" index="" image="">
+	<description>Mike Tyson&apos;s Punch-Out!! (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1987</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pnchmn" index="" image="">
+	<description>Punch Mania: Hokuto No Ken (GQ918 VER. JAB)</description>
+	<cloneof>fghtmn</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pnchmn2" index="" image="">
+	<description>Punch Mania 2: Hokuto No Ken (GQA09 JAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pnchmna" index="" image="">
+	<description>Punch Mania: Hokuto No Ken (GQ918 VER. JAB ALT CD)</description>
+	<cloneof>fghtmn</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="poundfor" index="" image="">
+	<description>Pound for Pound (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1990</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="poundforj" index="" image="">
+	<description>Pound for Pound (Japan)</description>
+	<cloneof>poundfor</cloneof>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1990</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="poundforu" index="" image="">
+	<description>Pound for Pound (US)</description>
+	<cloneof>poundfor</cloneof>
+	<crc/>
+	<manufacturer>Irem America</manufacturer>
+	<year>1990</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="prmtmfgt" index="" image="">
+	<description>Prime Time Fighter (Ver 2.1A 1993/05/21) (New Version)</description>
+	<cloneof>trstar</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="prmtmfgto" index="" image="">
+	<description>Prime Time Fighter (Ver 2.1A 1993/05/21) (Old Version)</description>
+	<cloneof>trstar</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="punchita" index="" image="">
+	<description>Punch-Out!! (Italian bootleg)</description>
+	<cloneof>punchout</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1984</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="punchout" index="" image="">
+	<description>Punch-Out!! (Rev B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1984</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="punchouta" index="" image="">
+	<description>Punch-Out!! (Rev A)</description>
+	<cloneof>punchout</cloneof>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1984</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="punchoutj" index="" image="">
+	<description>Punch-Out!! (Japan)</description>
+	<cloneof>punchout</cloneof>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1984</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ringfgt" index="" image="">
+	<description>Ring Fighter (set 1)</description>
+	<cloneof>vsgongf</cloneof>
+	<crc/>
+	<manufacturer>Kaneko (Taito license)</manufacturer>
+	<year>1984</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ringfgt2" index="" image="">
+	<description>Ring Fighter (set 2)</description>
+	<cloneof>vsgongf</cloneof>
+	<crc/>
+	<manufacturer>Kaneko (Taito license)</manufacturer>
+	<year>1984</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ringking" index="" image="">
+	<description>Ring King (US set 1)</description>
+	<cloneof>kingofb</cloneof>
+	<crc/>
+	<manufacturer>Wood Place Inc. (Data East USA license)</manufacturer>
+	<year>1985</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ringking2" index="" image="">
+	<description>Ring King (US set 2)</description>
+	<cloneof>kingofb</cloneof>
+	<crc/>
+	<manufacturer>Wood Place Inc. (Data East USA license)</manufacturer>
+	<year>1985</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ringking3" index="" image="">
+	<description>Ring King (US set 3)</description>
+	<cloneof>kingofb</cloneof>
+	<crc/>
+	<manufacturer>Wood Place Inc. (Data East USA license)</manufacturer>
+	<year>1985</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ringkingw" index="" image="">
+	<description>Ring King (US, Wood Place Inc.)</description>
+	<cloneof>kingofb</cloneof>
+	<crc/>
+	<manufacturer>Wood Place Inc.</manufacturer>
+	<year>1985</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scessjoe" index="" image="">
+	<description>Success Joe (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation / Wave</manufacturer>
+	<year>1990</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spnchout" index="" image="">
+	<description>Super Punch-Out!! (Rev B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1984</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spnchouta" index="" image="">
+	<description>Super Punch-Out!! (Rev A)</description>
+	<cloneof>spnchout</cloneof>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1984</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spnchoutj" index="" image="">
+	<description>Super Punch-Out!! (Japan)</description>
+	<cloneof>spnchout</cloneof>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1984</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="titlef" index="" image="">
+	<description>Title Fight (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="titlefj" index="" image="">
+	<description>Title Fight (Japan)</description>
+	<cloneof>titlef</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="titlefu" index="" image="">
+	<description>Title Fight (US)</description>
+	<cloneof>titlef</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tkoboxng" index="" image="">
+	<description>Vs. T.K.O. Boxing</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco / Data East USA</manufacturer>
+	<year>1987</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trstar" index="" image="">
+	<description>Top Ranking Stars (Ver 2.1O 1993/05/21) (New Version)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1993</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trstarj" index="" image="">
+	<description>Top Ranking Stars (Ver 2.1J 1993/05/21) (New Version)</description>
+	<cloneof>trstar</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trstaro" index="" image="">
+	<description>Top Ranking Stars (Ver 2.1O 1993/05/21) (Old Version)</description>
+	<cloneof>trstar</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1993</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trstaroj" index="" image="">
+	<description>Top Ranking Stars (Ver 2.1J 1993/05/21) (Old Version)</description>
+	<cloneof>trstar</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vsgongf" index="" image="">
+	<description>VS Gong Fight</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1984</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

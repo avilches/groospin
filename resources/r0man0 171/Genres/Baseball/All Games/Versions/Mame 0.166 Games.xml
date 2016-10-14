@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Baseball / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="cltchitrd" index="" image="">
+	<description>Clutch Hitter (US) (bootleg of FD1094 317-0176 set)</description>
+	<cloneof>cltchitr</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1991</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cltchitrjd" index="" image="">
+	<description>Clutch Hitter (Japan) (bootleg of FD1094 317-0175 set)</description>
+	<cloneof>cltchitr</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1991</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="exctleagd" index="" image="">
+	<description>Excite League (bootleg of FD1094 317-0079 set)</description>
+	<cloneof>exctleag</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1988</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mvpd" index="" image="">
+	<description>MVP (set 2, US) (bootleg of FD1094 317-0143 set)</description>
+	<cloneof>mvp</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1989</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mvpjd" index="" image="">
+	<description>MVP (set 1, Japan) (bootleg of FD1094 317-0142 set)</description>
+	<cloneof>mvp</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1989</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

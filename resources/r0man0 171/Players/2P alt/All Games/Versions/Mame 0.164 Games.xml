@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2P alt / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="avefenixl" index="" image="">
+	<description>Ave Fenix (Laguna, Spanish bootleg of Phoenix)</description>
+	<cloneof>phoenix</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Laguna)</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crushrlf" index="" image="">
+	<description>Crush Roller (Famaresa PCB)</description>
+	<cloneof>crush</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ghunter" index="" image="">
+	<description>Gang Hunter / Dead Angle</description>
+	<cloneof>deadang</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jumpingi" index="" image="">
+	<description>Jumping (set 3, Imnoe PCB)</description>
+	<cloneof>rbisland</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Seyutu)</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mayac" index="" image="">
+	<description>Maya (set 4, clean)</description>
+	<cloneof>maya</cloneof>
+	<crc/>
+	<manufacturer>Promat</manufacturer>
+	<year>1994</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mmagic" index="" image="">
+	<description>Monkey Magic</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1979</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="phoenixass" index="" image="">
+	<description>Phoenix (Assa, Spanish bootleg)</description>
+	<cloneof>phoenix</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Assa)</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scobrae" index="" image="">
+	<description>Super Cobra (Stern Electronics) (encrypted, KONATEC XC-103SS CPU)</description>
+	<cloneof>scobra</cloneof>
+	<crc/>
+	<manufacturer>Konami (Stern Electronics license)</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shinoblda" index="" image="">
+	<description>Shinobi (Datsu bootleg, set 2)</description>
+	<cloneof>shinobi</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Datsu)</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vautourza" index="" image="">
+	<description>Vautour (bootleg of Phoenix) (Z80 CPU, single PROM)</description>
+	<cloneof>phoenix</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Jeutel)</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

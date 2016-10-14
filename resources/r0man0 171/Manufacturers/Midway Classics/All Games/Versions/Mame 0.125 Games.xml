@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Midway / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="spyhuntp" index="" image="">
+	<description>Spy Hunter (Playtronic license)</description>
+	<cloneof>spyhunt</cloneof>
+	<crc/>
+	<manufacturer>Bally Midway (Playtronic license)</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tm7k" index="" image="">
+	<description>Touchmaster 7000 (v8.04 Standard)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway Games Inc.</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tm8k" index="" image="">
+	<description>Touchmaster 8000 (v9.04 Standard)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway Games Inc.</manufacturer>
+	<year>2000</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

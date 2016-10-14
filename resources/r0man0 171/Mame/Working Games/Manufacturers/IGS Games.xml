@@ -1,0 +1,1279 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Mame / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="5clown" index="" image="">
+	<description>Five Clown (English, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1993</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="5clowna" index="" image="">
+	<description>Five Clown (English, set 2)</description>
+	<cloneof>5clown</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1993</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="5clownsp" index="" image="">
+	<description>Five Clown (Spanish hack)</description>
+	<cloneof>5clown</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1993</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aliencha" index="" image="">
+	<description>Alien Challenge (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="alienchac" index="" image="">
+	<description>Alien Challenge (China)</description>
+	<cloneof>aliencha</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chleague" index="" image="">
+	<description>Champion League (Poker)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2000</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chleagul" index="" image="">
+	<description>Champion League (Lattine)</description>
+	<cloneof>chleague</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2000</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cpoker" index="" image="">
+	<description>Champion Poker (v220I)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1993?</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cpokert" index="" image="">
+	<description>Champion Poker (v200G)</description>
+	<cloneof>cpoker</cloneof>
+	<crc/>
+	<manufacturer>IGS (Tuning license)</manufacturer>
+	<year>1993?</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cpokerx" index="" image="">
+	<description>Champion Poker (v100)</description>
+	<cloneof>cpoker</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1993</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="csk227it" index="" image="">
+	<description>Champion Skill (with Ability)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>198?</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="csk234it" index="" image="">
+	<description>Champion Skill (Ability, Poker &amp; Symbols)</description>
+	<cloneof>csk227it</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>198?</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dbc" index="" image="">
+	<description>Da Ban Cheng (Hong Kong, V027H)</description>
+	<cloneof>lhb</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1995</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2" index="" image="">
+	<description>DoDonPachi II - Bee Storm (World, ver. 102)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2100" index="" image="">
+	<description>DoDonPachi II - Bee Storm (World, ver. 100)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2100c" index="" image="">
+	<description>DoDonPachi II - Bee Storm (China, ver. 100)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2100hk" index="" image="">
+	<description>DoDonPachi II - Bee Storm (Hong Kong, ver. 100)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2100j" index="" image="">
+	<description>DoDonPachi II - Bee Storm (Japan, ver. 100)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2100k" index="" image="">
+	<description>DoDonPachi II - Bee Storm (Korea, ver. 100)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2100t" index="" image="">
+	<description>DoDonPachi II - Bee Storm (Taiwan, ver. 100)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2101" index="" image="">
+	<description>DoDonPachi II - Bee Storm (World, ver. 101)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2101c" index="" image="">
+	<description>DoDonPachi II - Bee Storm (China, ver. 101)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2101hk" index="" image="">
+	<description>DoDonPachi II - Bee Storm (Hong Kong, ver. 101)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2101j" index="" image="">
+	<description>DoDonPachi II - Bee Storm (Japan, ver. 101)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2101k" index="" image="">
+	<description>DoDonPachi II - Bee Storm (Korea, ver. 101)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2101t" index="" image="">
+	<description>DoDonPachi II - Bee Storm (Taiwan, ver. 101)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2c" index="" image="">
+	<description>DoDonPachi II - Bee Storm (China, ver. 102)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2hk" index="" image="">
+	<description>DoDonPachi II - Bee Storm (Hong Kong, ver. 102)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2j" index="" image="">
+	<description>DoDonPachi II - Bee Storm (Japan, ver. 102)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2k" index="" image="">
+	<description>DoDonPachi II - Bee Storm (Korea, ver. 102)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2t" index="" image="">
+	<description>DoDonPachi II - Bee Storm (Taiwan, ver. 102)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dmnfrnt" index="" image="">
+	<description>Demon Front (68k label V105, ROM M105XX 08/05/02) (ARM label V105, ROM 08/05/02 S105XX)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2002</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dmnfrnta" index="" image="">
+	<description>Demon Front (68k label V102, ROM M102XX 06/19/02) (ARM label V102, ROM 05/24/02 S101XX)</description>
+	<cloneof>dmnfrnt</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2002</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dmnfrntb" index="" image="">
+	<description>Demon Front (68k label V103, ROM M103XX 07/05/02) (ARM label V103, ROM 07/05/02 S103XX)</description>
+	<cloneof>dmnfrnt</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2002</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drgnwrld" index="" image="">
+	<description>Dragon World (World, V040O)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1997</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drgnwrldv10c" index="" image="">
+	<description>Zhong Guo Long (China, V010C)</description>
+	<cloneof>drgnwrld</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1995</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drgnwrldv11h" index="" image="">
+	<description>Dong Fang Zhi Zhu (Hong Kong, V011H)</description>
+	<cloneof>drgnwrld</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1995</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drgnwrldv20j" index="" image="">
+	<description>Zhong Guo Long (Japan, V020J)</description>
+	<cloneof>drgnwrld</cloneof>
+	<crc/>
+	<manufacturer>IGS / Alta</manufacturer>
+	<year>1995</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drgnwrldv21" index="" image="">
+	<description>Dragon World (World, V021O)</description>
+	<cloneof>drgnwrld</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1995</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drgnwrldv21j" index="" image="">
+	<description>Zhong Guo Long (Japan, V021J)</description>
+	<cloneof>drgnwrld</cloneof>
+	<crc/>
+	<manufacturer>IGS / Alta</manufacturer>
+	<year>1995</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drgnwrldv30" index="" image="">
+	<description>Dragon World (World, V030O)</description>
+	<cloneof>drgnwrld</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1995</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drgw2" index="" image="">
+	<description>Dragon World II (ver. 110X, Export)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1997</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drgw2c" index="" image="">
+	<description>Zhong Guo Long II (ver. 100C, China)</description>
+	<cloneof>drgw2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1997</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drgw2j" index="" image="">
+	<description>Chuugokuryuu II (ver. 100J, Japan)</description>
+	<cloneof>drgw2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1997</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drgw3" index="" image="">
+	<description>Dragon World 3 / Chuugokuryuu 3 Special (ver. 106)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1998</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drgw3100" index="" image="">
+	<description>Chuugokuryuu 3 Special (Japan, ver. 100)</description>
+	<cloneof>drgw3</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1998</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drgw3103" index="" image="">
+	<description>Chuugokuryuu 3 Special (Japan, ver. 103)</description>
+	<cloneof>drgw3</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1998</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drgw3105" index="" image="">
+	<description>Dragon World 3 / Chuugokuryuu 3 Special (ver. 105)</description>
+	<cloneof>drgw3</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1998</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dw2001" index="" image="">
+	<description>Chuugokuryuu 2001 [Dragon World 2001] (V100?, Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dw2v100x" index="" image="">
+	<description>Dragon World II (ver. 100X, Export)</description>
+	<cloneof>drgw2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1997</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dwex" index="" image="">
+	<description>Dragon World 3 EX (ver. 100)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1998</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dwpc" index="" image="">
+	<description>Chuugokuryuu Pretty Chance [Dragon World Pretty Chance] (V101, Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="goldstar" index="" image="">
+	<description>Golden Star</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="goldstbl" index="" image="">
+	<description>Golden Star (Blue version)</description>
+	<cloneof>goldstar</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="grndtour" index="" image="">
+	<description>Grand Tour</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1993</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="happy6" index="" image="">
+	<description>Happy 6-in-1 (ver. 102CN)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2004</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="happy6101" index="" image="">
+	<description>Happy 6-in-1 (ver. 101CN)</description>
+	<cloneof>happy6</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2004</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="igs_ncs" index="" image="">
+	<description>New Champion Skill (v100n)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>198?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="igs_ncs2" index="" image="">
+	<description>New Champion Skill (v100n 2000)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2000</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="iqblock" index="" image="">
+	<description>IQ-Block</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1993</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jackie" index="" image="">
+	<description>Happy Jackie (v110U)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1993</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jingbell" index="" image="">
+	<description>Jingle Bell (Italy, V133I)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1995?</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="killbld" index="" image="">
+	<description>The Killing Blade (ver. 109, Chinese Board)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="killbld104" index="" image="">
+	<description>The Killing Blade (ver. 104)</description>
+	<cloneof>killbld</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="killbldp" index="" image="">
+	<description>The Killing Blade Plus (China, ver. 300)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2005</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov" index="" image="">
+	<description>Knights of Valour / Sangoku Senki (ver. 117)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov100" index="" image="">
+	<description>Knights of Valour / Sangoku Senki (ver. 100, Japanese Board)</description>
+	<cloneof>kov</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov115" index="" image="">
+	<description>Knights of Valour / Sangoku Senki (ver. 115)</description>
+	<cloneof>kov</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov2" index="" image="">
+	<description>Knights of Valour 2 / Sangoku Senki 2 (ver. 107, 102, 100HK)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov2100" index="" image="">
+	<description>Knights of Valour 2 / Sangoku Senki 2 (ver. 100, 100, 100HK)</description>
+	<cloneof>kov2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov2101" index="" image="">
+	<description>Knights of Valour 2 / Sangoku Senki 2 (ver. 101, 101, 100HK)</description>
+	<cloneof>kov2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov2102" index="" image="">
+	<description>Knights of Valour 2 / Sangoku Senki 2 (ver. 102, 101, 100HK)</description>
+	<cloneof>kov2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov2103" index="" image="">
+	<description>Knights of Valour 2 / Sangoku Senki 2 (ver. 103, 101, 100HK)</description>
+	<cloneof>kov2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov2106" index="" image="">
+	<description>Knights of Valour 2 / Sangoku Senki 2 (ver. 106, 102, 100HK)</description>
+	<cloneof>kov2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov2p" index="" image="">
+	<description>Knights of Valour 2 Plus - Nine Dragons / Sangoku Senki 2 Plus - Nine Dragons (ver. M205XX, 200, 100CN)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov2p202" index="" image="">
+	<description>Knights of Valour 2 Plus - Nine Dragons / Sangoku Senki 2 Plus - Nine Dragons (ver. M202XX, 200, 100CN)</description>
+	<cloneof>kov2p</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov2p204" index="" image="">
+	<description>Knights of Valour 2 Plus - Nine Dragons / Sangoku Senki 2 Plus - Nine Dragons (ver. M204XX, 200, 100CN)</description>
+	<cloneof>kov2p</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kovplus" index="" image="">
+	<description>Knights of Valour Plus / Sangoku Senki Plus (ver. 119, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kovplusa" index="" image="">
+	<description>Knights of Valour Plus / Sangoku Senki Plus (ver. 119, set 2)</description>
+	<cloneof>kovplus</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kovsh" index="" image="">
+	<description>Knights of Valour Super Heroes / Sangoku Senki Super Heroes (ver. 104, CN)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kovsh100" index="" image="">
+	<description>Knights of Valour Super Heroes / Sangoku Senki Super Heroes (ver. 100, CN)</description>
+	<cloneof>kovsh</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kovsh101" index="" image="">
+	<description>Knights of Valour Super Heroes / Sangoku Senki Super Heroes (ver. 101, CN)</description>
+	<cloneof>kovsh</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kovsh102" index="" image="">
+	<description>Knights of Valour Super Heroes / Sangoku Senki Super Heroes (ver. 102, CN)</description>
+	<cloneof>kovsh</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kovsh103" index="" image="">
+	<description>Knights of Valour Super Heroes / Sangoku Senki Super Heroes (ver. 103, CN)</description>
+	<cloneof>kovsh</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lhb" index="" image="">
+	<description>Long Hu Bang (China, V035C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1995</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lhb2" index="" image="">
+	<description>Long Hu Bang II (Hong Kong, V185H)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1996</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lhbv33c" index="" image="">
+	<description>Long Hu Bang (China, V033C)</description>
+	<cloneof>lhb</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1995</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lhzb2a" index="" image="">
+	<description>Mahjong Long Hu Zheng Ba 2 (VS221M)</description>
+	<cloneof>lhzb2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1998</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lordgun" index="" image="">
+	<description>Lord of Gun (USA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1994</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="martmast" index="" image="">
+	<description>Martial Masters (ver. 104, 102, 102US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="martmastc" index="" image="">
+	<description>Martial Masters (ver. 104, 102, 101CN)</description>
+	<cloneof>martmast</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="martmastc102" index="" image="">
+	<description>Martial Masters (ver. 102, 101, 101CN)</description>
+	<cloneof>martmast</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mgdh" index="" image="">
+	<description>Mahjong Man Guan Da Heng (Taiwan, V125T1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1997</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mgdha" index="" image="">
+	<description>Mahjong Man Guan Da Heng (Taiwan, V123T1)</description>
+	<cloneof>mgdh</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1997</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nkishusp" index="" image="">
+	<description>Mahjong Nenrikishu SP (Japan, V250J)</description>
+	<cloneof>lhb2</cloneof>
+	<crc/>
+	<manufacturer>IGS / Alta</manufacturer>
+	<year>1998</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="olds" index="" image="">
+	<description>Oriental Legend Special / Xi You Shi E Zhuan Super (ver. 101, Korean Board)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="olds100" index="" image="">
+	<description>Oriental Legend Special / Xi You Shi E Zhuan Super (ver. 100, set 1)</description>
+	<cloneof>olds</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="olds100a" index="" image="">
+	<description>Oriental Legend Special / Xi You Shi E Zhuan Super (ver. 100, set 2)</description>
+	<cloneof>olds</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="orlegend" index="" image="">
+	<description>Oriental Legend / Xi You Shi E Zhuan (ver. 126)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="orlegend105k" index="" image="">
+	<description>Oriental Legend / Xi You Shi E Zhuan (ver. 105, Korean Board)</description>
+	<cloneof>orlegend</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="orlegend111c" index="" image="">
+	<description>Oriental Legend / Xi You Shi E Zhuan (ver. 111, Chinese Board)</description>
+	<cloneof>orlegend</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="orlegend111k" index="" image="">
+	<description>Oriental Legend / Xi You Shi E Zhuan (ver. 111, Korean Board)</description>
+	<cloneof>orlegend</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="orlegend111t" index="" image="">
+	<description>Oriental Legend / Xi You Shi E Zhuan (ver. 111, Taiwanese Board)</description>
+	<cloneof>orlegend</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="orlegendc" index="" image="">
+	<description>Oriental Legend / Xi You Shi E Zhuan (ver. 112, Chinese Board)</description>
+	<cloneof>orlegend</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="orlegendca" index="" image="">
+	<description>Oriental Legend / Xi You Shi E Zhuan (ver. ???, Chinese Board)</description>
+	<cloneof>orlegend</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="orlegende" index="" image="">
+	<description>Oriental Legend / Xi You Shi E Zhuan (ver. 112)</description>
+	<cloneof>orlegend</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="photoy2k" index="" image="">
+	<description>Photo Y2K (ver. 105)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1999</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="photoy2k102" index="" image="">
+	<description>Photo Y2K (ver. 102, Japanese Board)</description>
+	<cloneof>photoy2k</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1999</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="photoy2k104" index="" image="">
+	<description>Photo Y2K (ver. 104)</description>
+	<cloneof>photoy2k</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1999</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pktet346" index="" image="">
+	<description>PK Tetris (v346I)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1993?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="puzzli2" index="" image="">
+	<description>Puzzli 2 (ver. 100)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1999</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="puzzli2s" index="" image="">
+	<description>Puzzli 2 Super (ver. 200)</description>
+	<cloneof>puzzli2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ryukobou" index="" image="">
+	<description>Mahjong Ryukobou (Japan, V030J)</description>
+	<cloneof>lhb</cloneof>
+	<crc/>
+	<manufacturer>IGS / Alta</manufacturer>
+	<year>1995</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sdmg2" index="" image="">
+	<description>Mahjong Super Da Man Guan II (China, V754C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1997</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spk115it" index="" image="">
+	<description>Super Poker (v115IT)</description>
+	<cloneof>spk116it</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1993?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spk116it" index="" image="">
+	<description>Super Poker (v116IT)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1993?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="svg" index="" image="">
+	<description>S.V.G. - Spectral vs Generation (M68k label V200) (ARM label V200, ROM 10/11/05 S.V.G V201)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS / Idea Factory</manufacturer>
+	<year>2005</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="svgpcb" index="" image="">
+	<description>S.V.G. - Spectral vs Generation (M68k label V100JP) (ARM label V100JP, ROM 05/12/05 S.V.G V100) (Japan, JAMMA PCB)</description>
+	<cloneof>svg</cloneof>
+	<crc/>
+	<manufacturer>IGS / Idea Factory</manufacturer>
+	<year>2005</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="theglad" index="" image="">
+	<description>The Gladiator / Road of the Sword / Shen Jian (M68k label V101) (ARM label V107, ROM 06/06/03 SHEN JIAN V107)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2003</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="theglad100" index="" image="">
+	<description>The Gladiator / Road of the Sword / Shen Jian (M68k label V100) (ARM label V100, ROM 01/16/03 SHEN JIAN)</description>
+	<cloneof>theglad</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2003</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="theglad101" index="" image="">
+	<description>The Gladiator / Road of the Sword / Shen Jian (M68k label V100) (ARM label V101, ROM 03/13/03 SHEN JIAN)</description>
+	<cloneof>theglad</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2003</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thegladpcb" index="" image="">
+	<description>The Gladiator / Road of the Sword / Shen Jian (M68k label V100) (ARM label V100, ROM 02/25/03 SHEN JIAN) (Japan, JAMMA PCB)</description>
+	<cloneof>theglad</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2003</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tjsb" index="" image="">
+	<description>Mahjong Tian Jiang Shen Bing (V137C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1997</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vbowl" index="" image="">
+	<description>Virtua Bowling (World, V101XCM)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1996</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vbowlj" index="" image="">
+	<description>Virtua Bowling (Japan, V100JCM)</description>
+	<cloneof>vbowl</cloneof>
+	<crc/>
+	<manufacturer>IGS / Alta</manufacturer>
+	<year>1996</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wlcc" index="" image="">
+	<description>Wan Li Chang Cheng (China, V638C)</description>
+	<cloneof>xymg</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1996</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xymg" index="" image="">
+	<description>Xing Yun Man Guan (China, V651C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1996</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

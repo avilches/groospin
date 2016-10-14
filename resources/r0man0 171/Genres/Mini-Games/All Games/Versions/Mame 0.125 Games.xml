@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Mini-Games / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="megat3ca" index="" image="">
+	<description>Megatouch III (9255-20-06 RON, California version)</description>
+	<cloneof>megat3</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1996</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat3te" index="" image="">
+	<description>Megatouch III Tournament Edition (9255-30-01 ROE, Standard version)</description>
+	<cloneof>megat3</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1996</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="officeye" index="" image="">
+	<description>Office Yeo In Cheon Ha (version 1.2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Danbi</manufacturer>
+	<year>2001</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pitbosss" index="" image="">
+	<description>Pit Boss Superstar (9221-10-00B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1990</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tm7k" index="" image="">
+	<description>Touchmaster 7000 (v8.04 Standard)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway Games Inc.</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tm8k" index="" image="">
+	<description>Touchmaster 8000 (v9.04 Standard)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway Games Inc.</manufacturer>
+	<year>2000</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

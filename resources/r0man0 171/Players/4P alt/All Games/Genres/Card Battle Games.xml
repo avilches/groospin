@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>4P alt / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="hitme" index="" image="">
+	<description>Hit Me (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Ramtek</manufacturer>
+	<year>1976</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hitme1" index="" image="">
+	<description>Hit Me (set 2)</description>
+	<cloneof>hitme</cloneof>
+	<crc/>
+	<manufacturer>Ramtek</manufacturer>
+	<year>1976</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="m21" index="" image="">
+	<description>21 (Mirco)</description>
+	<cloneof>hitme</cloneof>
+	<crc/>
+	<manufacturer>Mirco Games</manufacturer>
+	<year>1976</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="super21" index="" image="">
+	<description>Super Twenty One</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Mirco Games</manufacturer>
+	<year>1978</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Psikyo / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="btlkroad" index="" image="">
+	<description>Battle K-Road</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Psikyo</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gunbirdj" index="" image="">
+	<description>Gunbird (Japan)</description>
+	<cloneof>gunbird</cloneof>
+	<crc/>
+	<manufacturer>Psikyo</manufacturer>
+	<year>1994</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sngkace" index="" image="">
+	<description>Sengoku Ace (Japan, set 1)</description>
+	<cloneof>samuraia</cloneof>
+	<crc/>
+	<manufacturer>Psikyo</manufacturer>
+	<year>1993</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

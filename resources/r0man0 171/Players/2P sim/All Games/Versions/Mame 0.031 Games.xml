@@ -1,0 +1,329 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2P sim / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="atetris" index="" image="">
+	<description>Tetris (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1988</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="atetrisa" index="" image="">
+	<description>Tetris (set 2)</description>
+	<cloneof>atetris</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1988</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="atetrisb" index="" image="">
+	<description>Tetris (bootleg set 1)</description>
+	<cloneof>atetris</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1988</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="atetrisc" index="" image="">
+	<description>Tetris (cocktail set 1)</description>
+	<cloneof>atetris</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1989</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="baddudes" index="" image="">
+	<description>Bad Dudes vs. Dragonninja (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East USA</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blockade" index="" image="">
+	<description>Blockade</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gremlin</manufacturer>
+	<year>1976</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blockout" index="" image="">
+	<description>Block Out (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Technos Japan / California Dreams</manufacturer>
+	<year>1989</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="boothill" index="" image="">
+	<description>Boot Hill</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dave Nutting Associates / Midway</manufacturer>
+	<year>1977</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bsktball" index="" image="">
+	<description>Basketball</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1979</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dominos" index="" image="">
+	<description>Dominos</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1977</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drgninja" index="" image="">
+	<description>Dragonninja (Japan)</description>
+	<cloneof>baddudes</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ebases" index="" image="">
+	<description>Extra Bases</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dave Nutting Associates / Midway</manufacturer>
+	<year>1980</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gaiden" index="" image="">
+	<description>Ninja Gaiden (US)</description>
+	<cloneof>shadoww</cloneof>
+	<crc/>
+	<manufacturer>Tecmo</manufacturer>
+	<year>1988</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gauntlet2p" index="" image="">
+	<description>Gauntlet (2 Players, rev 6)</description>
+	<cloneof>gauntlet</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gemini" index="" image="">
+	<description>Gemini Wing (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Tecmo</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hippodrm" index="" image="">
+	<description>Hippodrome (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East USA</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="maniach" index="" image="">
+	<description>Mania Challenge (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Technos Japan (Taito America license)</manufacturer>
+	<year>1986</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="marble2" index="" image="">
+	<description>Marble Madness (set 2)</description>
+	<cloneof>marble</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1984</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="marble3" index="" image="">
+	<description>Marble Madness (set 3)</description>
+	<cloneof>marble</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1984</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="marble4" index="" image="">
+	<description>Marble Madness (set 4)</description>
+	<cloneof>marble</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1984</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="maze" index="" image="">
+	<description>Amazing Maze</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1976</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="midresu" index="" image="">
+	<description>Midnight Resistance (US)</description>
+	<cloneof>midres</cloneof>
+	<crc/>
+	<manufacturer>Data East USA</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mtwins" index="" image="">
+	<description>Mega Twins (World 900619)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pingpong" index="" image="">
+	<description>Konami&apos;s Ping-Pong</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1985</year>
+	<genre>Sports</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="savgbees" index="" image="">
+	<description>Savage Bees</description>
+	<cloneof>exedexes</cloneof>
+	<crc/>
+	<manufacturer>Capcom (Memetron license)</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shadowwa" index="" image="">
+	<description>Shadow Warriors (World, set 2)</description>
+	<cloneof>shadoww</cloneof>
+	<crc/>
+	<manufacturer>Tecmo</manufacturer>
+	<year>1988</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="snowbrosa" index="" image="">
+	<description>Snow Bros. - Nick &amp; Tom (set 2)</description>
+	<cloneof>snowbros</cloneof>
+	<crc/>
+	<manufacturer>Toaplan</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="toobin" index="" image="">
+	<description>Toobin&apos; (rev 3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1988</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tornbase" index="" image="">
+	<description>Tornado Baseball / Ball Park</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dave Nutting Associates / Midway / Taito</manufacturer>
+	<year>1976</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="unsquad" index="" image="">
+	<description>U.N. Squadron (USA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom / Daipro</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wc90" index="" image="">
+	<description>Tecmo World Cup &apos;90 (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Tecmo</manufacturer>
+	<year>1989</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wc90b1" index="" image="">
+	<description>Euro League (Italian hack of Tecmo World Cup &apos;90)</description>
+	<cloneof>wc90</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1989</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

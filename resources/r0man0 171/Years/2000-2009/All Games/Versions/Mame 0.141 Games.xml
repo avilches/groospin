@@ -1,0 +1,519 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2000-2009 / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="animalc" index="" image="">
+	<description>Animal Catch</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy</manufacturer>
+	<year>2000</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="atvtrack" index="" image="">
+	<description>ATV Track (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>2002</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="atvtracka" index="" image="">
+	<description>ATV Track (set 2)</description>
+	<cloneof>atvtrack</cloneof>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>2002</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chocovdr" index="" image="">
+	<description>Uchuu Daisakusen: Chocovader Contactee (Japan, CVC1 Ver.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2002</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drmn10m" index="" image="">
+	<description>DrumMania 10th Mix (G*D40 VER. JAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2004</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drmn4m" index="" image="">
+	<description>DrumMania 4th Mix (G*A25 VER. JAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drmn5m" index="" image="">
+	<description>DrumMania 5th Mix (G*B05 VER. JAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2001</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drmn6m" index="" image="">
+	<description>DrumMania 6th Mix (G*B16 VER. JAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2001</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drmn7m" index="" image="">
+	<description>DrumMania 7th Mix power-up ver. (G*C07 VER. JBA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2002</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drmn7ma" index="" image="">
+	<description>DrumMania 7th Mix (G*C07 VER. JAA)</description>
+	<cloneof>drmn7m</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2002</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drmn8m" index="" image="">
+	<description>DrumMania 8th Mix (G*C07 VER. JAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2003</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drmn9m" index="" image="">
+	<description>DrumMania 9th Mix (G*D09 VER. JAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2003</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fbdeluxeo" index="" image="">
+	<description>Fruit Bonus Deluxe (Version 1.0.7)</description>
+	<cloneof>fbdeluxe</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fghtmn" index="" image="">
+	<description>Fighting Mania (QG918 VER. EAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fghtmna" index="" image="">
+	<description>Fighting Mania (QG918 VER. AAA)</description>
+	<cloneof>fghtmn</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fghtmnk" index="" image="">
+	<description>Fighting Mania (QG918 VER. KAA)</description>
+	<cloneof>fghtmn</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fghtmnu" index="" image="">
+	<description>Fighting Mania (QG918 VER. UAA)</description>
+	<cloneof>fghtmn</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ggx15" index="" image="">
+	<description>Guilty Gear X ver. 1.5</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Arc System Works / Sammy</manufacturer>
+	<year>2003</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gizmondo" index="" image="">
+	<description>Gizmondo</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Tiger Telematics</manufacturer>
+	<year>2005</year>
+	<genre>Handheld Game</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtfrk10m" index="" image="">
+	<description>Guitar Freaks 10th Mix (G*D10 VER. JAB)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2003</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtfrk10ma" index="" image="">
+	<description>Guitar Freaks 10th Mix (G*D10 VER. JAA)</description>
+	<cloneof>gtfrk10m</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2003</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtfrk10mb" index="" image="">
+	<description>Guitar Freaks 10th Mix eAmusement (G*D10 VER. JBA)</description>
+	<cloneof>gtfrk10m</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2003</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtrfrk8m" index="" image="">
+	<description>Guitar Freaks 8th Mix power-up ver. (G*C08 VER. JBA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2002</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtrfrk8ma" index="" image="">
+	<description>Guitar Freaks 8th Mix (G*C08 VER. JAA)</description>
+	<cloneof>gtrfrk8m</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2002</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtrfrk9m" index="" image="">
+	<description>Guitar Freaks 9th Mix (G*C39 VER. JAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2003</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gunmania" index="" image="">
+	<description>GunMania (GL906 VER. JAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="haekaka" index="" image="">
+	<description>Hae Hae Ka Ka Ka</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hp49gp" index="" image="">
+	<description>HP49G+</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Hewlett Packard</manufacturer>
+	<year>2009</year>
+	<genre>Calculator / Pocket Computer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="initdv2e" index="" image="">
+	<description>Initial D Arcade Stage Ver. 2 (Export) (GDS-0027)</description>
+	<cloneof>initdv2j</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2002</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="initdv2j" index="" image="">
+	<description>Initial D Arcade Stage Ver. 2 (Japan) (Rev B) (GDS-0026B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2002</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="initdv3j" index="" image="">
+	<description>Initial D Arcade Stage Ver. 3 (Japan) (Rev C) (GDS-0032C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2004</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="itazuram" index="" image="">
+	<description>Itazura Monkey</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy</manufacturer>
+	<year>2000</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jockeygpa" index="" image="">
+	<description>Jockey Grand Prix (set 2)</description>
+	<cloneof>jockeygp</cloneof>
+	<crc/>
+	<manufacturer>Sun Amusement / BrezzaSoft</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov2101" index="" image="">
+	<description>Knights of Valour 2 / Sangoku Senki 2 (ver. 101, 101, 100HK)</description>
+	<cloneof>kov2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mamboagg" index="" image="">
+	<description>Mambo A Go-Go (GQA40 VER. JAB)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2001</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mrtlbeat" index="" image="">
+	<description>Martial Beat (G*B47 VER. JBA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2002</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mslug6" index="" image="">
+	<description>Metal Slug 6</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / SNK Playmore</manufacturer>
+	<year>2006</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="oinori" index="" image="">
+	<description>Oinori-daimyoujin Matsuri</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pnchmn" index="" image="">
+	<description>Punch Mania: Hokuto No Ken (GQ918 VER. JAB)</description>
+	<cloneof>fghtmn</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pnchmn2" index="" image="">
+	<description>Punch Mania 2: Hokuto No Ken (GQA09 JAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pnchmna" index="" image="">
+	<description>Punch Mania: Hokuto No Ken (GQ918 VER. JAB ALT CD)</description>
+	<cloneof>fghtmn</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ptblank3" index="" image="">
+	<description>Point Blank 3 (Asia, GNN2 Ver.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2000</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pyenaget" index="" image="">
+	<description>Pye-nage Taikai</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy</manufacturer>
+	<year>2000</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rumblef2" index="" image="">
+	<description>The Rumble Fish 2</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy / Dimps</manufacturer>
+	<year>2005</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="samsptk" index="" image="">
+	<description>Samurai Spirits Tenkaichi Kenkakuden</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy / SNK Playmore</manufacturer>
+	<year>2005</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sgnascar" index="" image="">
+	<description>NASCAR Racing</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / Electronic Arts</manufacturer>
+	<year>2000</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tdoboon" index="" image="">
+	<description>Taihou de Doboon</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy</manufacturer>
+	<year>2000</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tetfight" index="" image="">
+	<description>Tetris Fighters</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sego</manufacturer>
+	<year>2001</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="truckk" index="" image="">
+	<description>Truck Kyosokyoku (Japan, TKK2/VER.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Metro / Namco</manufacturer>
+	<year>2000</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wangmid2" index="" image="">
+	<description>Wangan Midnight Maximum Tune 2 (Japan) (GDX-0015)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2005</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xplan" index="" image="">
+	<description>X-Plan (Ver. 1.01)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Subsino</manufacturer>
+	<year>2006</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

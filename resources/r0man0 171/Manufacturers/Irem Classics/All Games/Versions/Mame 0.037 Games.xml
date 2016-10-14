@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Irem / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="airduelm72" index="" image="">
+	<description>Air Duel (Japan, M72)</description>
+	<cloneof>airduel</cloneof>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bbmanw" index="" image="">
+	<description>Bomber Man World / New Dyna Blaster - Global Quest</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1992</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bbmanwja" index="" image="">
+	<description>Bomber Man World (Japan, revised sound hardware)</description>
+	<cloneof>bbmanw</cloneof>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1992</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bombrman" index="" image="">
+	<description>Bomber Man (Japan)</description>
+	<cloneof>dynablst</cloneof>
+	<crc/>
+	<manufacturer>Irem (licensed from Hudson Soft)</manufacturer>
+	<year>1991</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dkgensanm72" index="" image="">
+	<description>Daiku no Gensan (Japan, M72)</description>
+	<cloneof>hharry</cloneof>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gunforcej" index="" image="">
+	<description>Gunforce - Battle Fire Engulfed Terror Island (Japan)</description>
+	<cloneof>gunforce</cloneof>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="inthuntu" index="" image="">
+	<description>In The Hunt (US)</description>
+	<cloneof>inthunt</cloneof>
+	<crc/>
+	<manufacturer>Irem America</manufacturer>
+	<year>1993</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="newapunk" index="" image="">
+	<description>New Atomic Punk - Global Quest (US)</description>
+	<cloneof>bbmanw</cloneof>
+	<crc/>
+	<manufacturer>Irem America</manufacturer>
+	<year>1992</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="olibochu" index="" image="">
+	<description>Oli-Boo-Chu</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem / GDI</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_kngfu" index="" image="">
+	<description>Kung Fu (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem (Nintendo license)</manufacturer>
+	<year>1985</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="poundfor" index="" image="">
+	<description>Pound for Pound (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1990</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="poundforu" index="" image="">
+	<description>Pound for Pound (US)</description>
+	<cloneof>poundfor</cloneof>
+	<crc/>
+	<manufacturer>Irem America</manufacturer>
+	<year>1990</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rtype" index="" image="">
+	<description>R-Type (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spacbeam" index="" image="">
+	<description>Space Beam</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spelunkrj" index="" image="">
+	<description>Spelunker (Japan)</description>
+	<cloneof>spelunkr</cloneof>
+	<crc/>
+	<manufacturer>Irem (licensed from Broderbund)</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

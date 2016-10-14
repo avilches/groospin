@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1980-1989 / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="capitol" index="" image="">
+	<description>Capitol</description>
+	<cloneof>pleiads</cloneof>
+	<crc/>
+	<manufacturer>bootleg? (Universal Video Spiel)</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddragonw" index="" image="">
+	<description>Double Dragon (World set 1)</description>
+	<cloneof>ddragon</cloneof>
+	<crc/>
+	<manufacturer>Technos Japan (Taito license)</manufacturer>
+	<year>1987</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kyustrkr" index="" image="">
+	<description>Last Striker / Kyuukyoku no Striker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>East Technology</manufacturer>
+	<year>1989</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rollace2" index="" image="">
+	<description>Roller Aces (set 2)</description>
+	<cloneof>fightrol</cloneof>
+	<crc/>
+	<manufacturer>Kaneko (Williams license)</manufacturer>
+	<year>1983</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="runaway" index="" image="">
+	<description>Runaway (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tceptor" index="" image="">
+	<description>Thunder Ceptor</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,409 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Card Battle / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="ampkr228" index="" image="">
+	<description>American Poker II (iamp2 v28)</description>
+	<cloneof>ampoker2</cloneof>
+	<crc/>
+	<manufacturer>bootleg?</manufacturer>
+	<year>1994</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bottl10b" index="" image="">
+	<description>Bottle 10 (Italian, set 2)</description>
+	<cloneof>bottle10</cloneof>
+	<crc/>
+	<manufacturer>C.M.C.</manufacturer>
+	<year>1996</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bottle10" index="" image="">
+	<description>Bottle 10 (Italian, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>C.M.C.</manufacturer>
+	<year>1996</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cfever1k" index="" image="">
+	<description>Casino Fever 1k</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>High Video</manufacturer>
+	<year>2000</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cfever40" index="" image="">
+	<description>Casino Fever 4.0</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>High Video</manufacturer>
+	<year>2000</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cfever50" index="" image="">
+	<description>Casino Fever 5.0</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>High Video</manufacturer>
+	<year>2000</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cfever51" index="" image="">
+	<description>Casino Fever 5.1</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>High Video</manufacturer>
+	<year>2000</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cfever61" index="" image="">
+	<description>Casino Fever 6.1</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>High Video</manufacturer>
+	<year>2000</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chleague" index="" image="">
+	<description>Champion League (Poker)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2000</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chleagul" index="" image="">
+	<description>Champion League (Lattine)</description>
+	<cloneof>chleague</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2000</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ciclone" index="" image="">
+	<description>Ciclone</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>High Video</manufacturer>
+	<year>2000</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crsbingo" index="" image="">
+	<description>Poker Carnival</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Subsino</manufacturer>
+	<year>1991</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="girotutt" index="" image="">
+	<description>GiroTutto</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>High Video</manufacturer>
+	<year>2000</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="igs_ncs" index="" image="">
+	<description>New Champion Skill (v100n)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>198?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="igs_ncs2" index="" image="">
+	<description>New Champion Skill (v100n 2000)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2000</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jokpokera" index="" image="">
+	<description>Joker Poker (Version 16.03BI 5-10-85, Joker Poker ICB 9-30-86)</description>
+	<cloneof>jokpoker</cloneof>
+	<crc/>
+	<manufacturer>Greyhound Electronics</manufacturer>
+	<year>1983</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mgames" index="" image="">
+	<description>Match Games</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1981</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="norautp" index="" image="">
+	<description>Noraut Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Noraut Ltd.</manufacturer>
+	<year>1988</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="norautpn" index="" image="">
+	<description>Noraut Deluxe Poker (bootleg)</description>
+	<cloneof>norautp</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>198?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="parrot3" index="" image="">
+	<description>Parrot Poker III (Version 2.6E Dual)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="parrot3b1" index="" image="">
+	<description>Parrot Poker III (Version 2.6R, set 1)</description>
+	<cloneof>parrot3</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="parrot3d1" index="" image="">
+	<description>Parrot Poker III (Version 2.6R, set 2)</description>
+	<cloneof>parrot3</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="parrot3o" index="" image="">
+	<description>Parrot Poker III (Version 2.4)</description>
+	<cloneof>parrot3</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="parrot3v1" index="" image="">
+	<description>Parrot Poker III (Version 2.6R Dual)</description>
+	<cloneof>parrot3</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pepp0043" index="" image="">
+	<description>Player&apos;s Edge Plus (PP0043) 10&apos;s or Better</description>
+	<cloneof>pepp0002</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1987</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pexm003p" index="" image="">
+	<description>Player&apos;s Edge Plus (XM00003P+XMP00024) Multi-Poker</description>
+	<cloneof>pexm001p</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pexmp017" index="" image="">
+	<description>Player&apos;s Edge Plus (XMP00017) 5-in-1 Wingboard (CG2298)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pirpok2" index="" image="">
+	<description>Pirate Poker II (Version 2.4E Dual)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pirpok2b1" index="" image="">
+	<description>Pirate Poker II (Version 2.2R, set 1)</description>
+	<cloneof>pirpok2</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pirpok2d1" index="" image="">
+	<description>Pirate Poker II (Version 2.2R, set 2)</description>
+	<cloneof>pirpok2</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pirpok2o" index="" image="">
+	<description>Pirate Poker II (Version 2.0)</description>
+	<cloneof>pirpok2</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pirpok2v1" index="" image="">
+	<description>Pirate Poker II (Version 2.2R Dual)</description>
+	<cloneof>pirpok2</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pokonl97" index="" image="">
+	<description>Poker Only &apos;97 (Talking ver. 3.3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1997</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="showhanc" index="" image="">
+	<description>Wang Pai Dui Jue (China)</description>
+	<cloneof>showhand</cloneof>
+	<crc/>
+	<manufacturer>Astro Corp.</manufacturer>
+	<year>2000</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spk115it" index="" image="">
+	<description>Super Poker (v115IT)</description>
+	<cloneof>spk116it</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1993?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spk116it" index="" image="">
+	<description>Super Poker (v116IT)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1993?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="statusbj" index="" image="">
+	<description>Status Black Jack (V1.0c)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Status Games</manufacturer>
+	<year>1981</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sureshot" index="" image="">
+	<description>Sure Shot</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SMS Manufacturing Corp.</manufacturer>
+	<year>1985</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tour4000" index="" image="">
+	<description>Tour 4000</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>High Video</manufacturer>
+	<year>2000</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tour4010" index="" image="">
+	<description>Tour 4010</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>High Video</manufacturer>
+	<year>2000</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

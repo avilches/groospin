@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Sports / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="pigskinb" index="" image="">
+	<description>Pigskin 621AD (rev 1.1 6/05/90)</description>
+	<cloneof>pigskin</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1990</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="punchoutj" index="" image="">
+	<description>Punch-Out!! (Japan)</description>
+	<cloneof>punchout</cloneof>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1984</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

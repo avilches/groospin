@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2P alt / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="deadang" index="" image="">
+	<description>Dead Angle</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="empcity" index="" image="">
+	<description>Empire City: 1931 (bootleg?)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="empcityi" index="" image="">
+	<description>Empire City: 1931 (Italy)</description>
+	<cloneof>empcity</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Eurobed license)</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="empcityj" index="" image="">
+	<description>Empire City: 1931 (Japan)</description>
+	<cloneof>empcity</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Taito license)</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="empcityu" index="" image="">
+	<description>Empire City: 1931 (US)</description>
+	<cloneof>empcity</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Taito / Romstar license)</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ghunter" index="" image="">
+	<description>Gang Hunter / Dead Angle</description>
+	<cloneof>deadang</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ghunters" index="" image="">
+	<description>Gang Hunter / Dead Angle (Spain)</description>
+	<cloneof>deadang</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Segasa/Sonic license)</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kncljoe" index="" image="">
+	<description>Knuckle Joe (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Taito license)</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kncljoea" index="" image="">
+	<description>Knuckle Joe (set 2)</description>
+	<cloneof>kncljoe</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Taito license)</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="leadang" index="" image="">
+	<description>Lead Angle (Japan)</description>
+	<cloneof>deadang</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mustache" index="" image="">
+	<description>Mustache Boy</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (March license)</manufacturer>
+	<year>1987</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="panicr" index="" image="">
+	<description>Panic Road (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Taito license)</manufacturer>
+	<year>1986</year>
+	<genre>Pinball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="panicrg" index="" image="">
+	<description>Panic Road (Germany)</description>
+	<cloneof>panicr</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Tuning license)</manufacturer>
+	<year>1986</year>
+	<genre>Pinball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shtrider" index="" image="">
+	<description>Shot Rider</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>1985</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shtridera" index="" image="">
+	<description>Shot Rider (Sigma license)</description>
+	<cloneof>shtrider</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Sigma license)</manufacturer>
+	<year>1984</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stfight" index="" image="">
+	<description>Street Fight (Germany)</description>
+	<cloneof>empcity</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Tuning license)</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stfighta" index="" image="">
+	<description>Street Fight (bootleg?)</description>
+	<cloneof>empcity</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wiz" index="" image="">
+	<description>Wiz</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wizt" index="" image="">
+	<description>Wiz (Taito, set 1)</description>
+	<cloneof>wiz</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Taito license)</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wizta" index="" image="">
+	<description>Wiz (Taito, set 2)</description>
+	<cloneof>wiz</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Taito license)</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

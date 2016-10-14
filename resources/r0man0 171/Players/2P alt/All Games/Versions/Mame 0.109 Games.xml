@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2P alt / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="acombato" index="" image="">
+	<description>Astro Combat (older, PZ)</description>
+	<cloneof>astrof</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="altair" index="" image="">
+	<description>Altair</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Cidelsa</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arian" index="" image="">
+	<description>Arian Mission</description>
+	<cloneof>aso</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bowl3d" index="" image="">
+	<description>3-D Bowling</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Meadows Games, Inc.</manufacturer>
+	<year>1978</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="destryer" index="" image="">
+	<description>Destroyer (Cidelsa) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Cidelsa</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dokidoki" index="" image="">
+	<description>Doki Doki Penguin Land</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="draco" index="" image="">
+	<description>Draco</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Cidelsa</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="funkybeeb" index="" image="">
+	<description>Funky Bee (bootleg, harder)</description>
+	<cloneof>funkybee</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="konam80j" index="" image="">
+	<description>Konami 80&apos;s Gallery (GC826 VER. JAA)</description>
+	<cloneof>konam80s</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="konam80s" index="" image="">
+	<description>Konami 80&apos;s AC Special (GC826 VER. EAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rockduck" index="" image="">
+	<description>Rock Duck (prototype?)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Datel SAS</manufacturer>
+	<year>1983</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spacbatt" index="" image="">
+	<description>Space Battle (bootleg set 1)</description>
+	<cloneof>uniwars</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

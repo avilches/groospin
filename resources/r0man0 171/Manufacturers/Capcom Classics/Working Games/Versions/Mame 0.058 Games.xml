@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Capcom / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="dstlk" index="" image="">
+	<description>Darkstalkers: The Night Warriors (Euro 940705)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mvscar1" index="" image="">
+	<description>Marvel Vs. Capcom: Clash of Super Heroes (Asia 980112)</description>
+	<cloneof>mvsc</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mvsch" index="" image="">
+	<description>Marvel Vs. Capcom: Clash of Super Heroes (Hispanic 980123)</description>
+	<cloneof>mvsc</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mvscj" index="" image="">
+	<description>Marvel Vs. Capcom: Clash of Super Heroes (Japan 980123)</description>
+	<cloneof>mvsc</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mvscjr1" index="" image="">
+	<description>Marvel Vs. Capcom: Clash of Super Heroes (Japan 980112)</description>
+	<cloneof>mvsc</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mvscu" index="" image="">
+	<description>Marvel Vs. Capcom: Clash of Super Heroes (USA 980123)</description>
+	<cloneof>mvsc</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

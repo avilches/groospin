@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2000-2009 / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="feversoc" index="" image="">
+	<description>Fever Soccer</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="raiden3" index="" image="">
+	<description>Raiden III (v2.01J)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>MOSS / Seibu Kaihatsu</manufacturer>
+	<year>2005</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="raiden4" index="" image="">
+	<description>Raiden IV (v1.00J)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>MOSS / Seibu Kaihatsu</manufacturer>
+	<year>2007</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rdft22kc" index="" image="">
+	<description>Raiden Fighters 2 - Operation Hell Dive 2000 (China, SYS386I)</description>
+	<cloneof>rdft2</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>2000</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rfjet2kc" index="" image="">
+	<description>Raiden Fighters Jet 2000 (China, SYS386I)</description>
+	<cloneof>rfjet</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>2000</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zerotm2k" index="" image="">
+	<description>Zero Team 2000</description>
+	<cloneof>zeroteam</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

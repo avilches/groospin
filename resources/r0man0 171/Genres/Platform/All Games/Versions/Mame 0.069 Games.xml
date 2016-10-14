@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Platform / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="docastleo" index="" image="">
+	<description>Mr. Do&apos;s Castle (older)</description>
+	<cloneof>docastle</cloneof>
+	<crc/>
+	<manufacturer>Universal</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="evilston" index="" image="">
+	<description>Evil Stone</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Spacy Industrial, Ltd.</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nmouse" index="" image="">
+	<description>Naughty Mouse (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amenip (Palcom Queen River)</manufacturer>
+	<year>1981</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nmouseb" index="" image="">
+	<description>Naughty Mouse (set 2)</description>
+	<cloneof>nmouse</cloneof>
+	<crc/>
+	<manufacturer>Amenip Nova Games Ltd.</manufacturer>
+	<year>1981</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

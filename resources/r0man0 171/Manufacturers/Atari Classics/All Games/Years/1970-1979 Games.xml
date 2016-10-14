@@ -1,0 +1,739 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Atari / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="abaseb" index="" image="">
+	<description>Atari Baseball (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1979</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="abaseb2" index="" image="">
+	<description>Atari Baseball (set 2)</description>
+	<cloneof>abaseb</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1979</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="antiairc" index="" image="">
+	<description>Anti-Aircraft [TTL]</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1975</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="asteroid" index="" image="">
+	<description>Asteroids (rev 4)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="asteroid1" index="" image="">
+	<description>Asteroids (rev 1)</description>
+	<cloneof>asteroid</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="asteroid2" index="" image="">
+	<description>Asteroids (rev 2)</description>
+	<cloneof>asteroid</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="atarifb" index="" image="">
+	<description>Atari Football (revision 2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1978</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="atarifb1" index="" image="">
+	<description>Atari Football (revision 1)</description>
+	<cloneof>atarifb</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1978</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="atarifb2" index="" image="">
+	<description>Atari Football II</description>
+	<cloneof>atarifb</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1978</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="atarifb4" index="" image="">
+	<description>Atari Football (4 players)</description>
+	<cloneof>atarifb</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1979</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="boxer" index="" image="">
+	<description>Boxer (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1978</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="breakout" index="" image="">
+	<description>Breakout [TTL]</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1976</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bsktball" index="" image="">
+	<description>Basketball</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1979</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="canyon" index="" image="">
+	<description>Canyon Bomber</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1977</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="canyonp" index="" image="">
+	<description>Canyon Bomber (prototype)</description>
+	<cloneof>canyon</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1977</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="copsnrob" index="" image="">
+	<description>Cops&apos;n Robbers</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1976</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crashnsc" index="" image="">
+	<description>Crash &apos;n Score/Stock Car [TTL]</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1975</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="destroyr" index="" image="">
+	<description>Destroyer (version O2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1977</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="destroyr1" index="" image="">
+	<description>Destroyer (version O1)</description>
+	<cloneof>destroyr</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1977</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dominos" index="" image="">
+	<description>Dominos</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1977</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dominos4" index="" image="">
+	<description>Dominos 4 (Cocktail)</description>
+	<cloneof>dominos</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1977</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dragrace" index="" image="">
+	<description>Drag Race</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari (Kee Games)</manufacturer>
+	<year>1977</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="firetrk" index="" image="">
+	<description>Fire Truck / Smokey Joe</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1978</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="flyball" index="" image="">
+	<description>Flyball (rev 2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1976</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="flyball1" index="" image="">
+	<description>Flyball (rev 1)</description>
+	<cloneof>flyball</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1976</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="indy4" index="" image="">
+	<description>Indy 4 [TTL]</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari/Kee</manufacturer>
+	<year>1976</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="indy800" index="" image="">
+	<description>Indy 800 [TTL]</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari/Kee</manufacturer>
+	<year>1975</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jetfight" index="" image="">
+	<description>Jet Fighter/Jet Fighter Cocktail/Launch Aircraft (set 1) [TTL]</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1975</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jetfighta" index="" image="">
+	<description>Jet Fighter/Jet Fighter Cocktail/Launch Aircraft (set 2) [TTL]</description>
+	<cloneof>jetfight</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1975</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="llander" index="" image="">
+	<description>Lunar Lander (rev 2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1979</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="llander1" index="" image="">
+	<description>Lunar Lander (rev 1)</description>
+	<cloneof>llander</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1979</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mgolf" index="" image="">
+	<description>Atari Mini Golf (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1978</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="montecar" index="" image="">
+	<description>Monte Carlo</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1979</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nitedrvr" index="" image="">
+	<description>Night Driver</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1976</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="orbit" index="" image="">
+	<description>Orbit</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="outlaw" index="" image="">
+	<description>Outlaw [TTL]</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1976</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="poolshrk" index="" image="">
+	<description>Poolshark</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1977</year>
+	<genre>Pool and Darts</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quizshow" index="" image="">
+	<description>Quiz Show</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari (Kee Games)</manufacturer>
+	<year>1976</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbrkout" index="" image="">
+	<description>Super Breakout (rev 04)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1978</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbrkout3" index="" image="">
+	<description>Super Breakout (rev 03)</description>
+	<cloneof>sbrkout</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1978</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbrkoutc" index="" image="">
+	<description>Super Breakout (Canyon and Vertical Breakout, prototype)</description>
+	<cloneof>sbrkout</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1978</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbrkoutct" index="" image="">
+	<description>Super Breakout (Cocktail, prototype)</description>
+	<cloneof>sbrkout</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1978</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sharkjaw" index="" image="">
+	<description>Shark JAWS [TTL]</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari/Horror Games</manufacturer>
+	<year>1975</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="skydiver" index="" image="">
+	<description>Sky Diver</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1978</year>
+	<genre>Sports</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="skyraid" index="" image="">
+	<description>Sky Raider</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="solarwar" index="" image="">
+	<description>Solar War</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1979</year>
+	<genre>Pinball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sprint1" index="" image="">
+	<description>Sprint 1</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari (Kee Games)</manufacturer>
+	<year>1978</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sprint2" index="" image="">
+	<description>Sprint 2 (set 1)</description>
+	<cloneof>sprint1</cloneof>
+	<crc/>
+	<manufacturer>Atari (Kee Games)</manufacturer>
+	<year>1976</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sprint2a" index="" image="">
+	<description>Sprint 2 (set 2)</description>
+	<cloneof>sprint1</cloneof>
+	<crc/>
+	<manufacturer>Atari (Kee Games)</manufacturer>
+	<year>1976</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sprint4" index="" image="">
+	<description>Sprint 4 (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1977</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sprint4a" index="" image="">
+	<description>Sprint 4 (set 2)</description>
+	<cloneof>sprint4</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1977</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sprint8" index="" image="">
+	<description>Sprint 8</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1977</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sprint8a" index="" image="">
+	<description>Sprint 8 (play tag &amp; chase)</description>
+	<cloneof>sprint8</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1977</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="starshp1" index="" image="">
+	<description>Starship 1</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1977</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="starshpp" index="" image="">
+	<description>Starship 1 (prototype?)</description>
+	<cloneof>starshp1</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1977</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="steeplec" index="" image="">
+	<description>Steeplechase [TTL]</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1975</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stuntcyc" index="" image="">
+	<description>Stunt Cycle [TTL]</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1976</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="subs" index="" image="">
+	<description>Subs</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1977</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="superbug" index="" image="">
+	<description>Super Bug</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari (Kee Games)</manufacturer>
+	<year>1977</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tank" index="" image="">
+	<description>Tank/Tank Cocktail [TTL]</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari/Kee</manufacturer>
+	<year>1974</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tank8" index="" image="">
+	<description>Tank 8 (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari (Kee Games)</manufacturer>
+	<year>1976</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tank8a" index="" image="">
+	<description>Tank 8 (set 2)</description>
+	<cloneof>tank8</cloneof>
+	<crc/>
+	<manufacturer>Atari (Kee Games)</manufacturer>
+	<year>1976</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tank8b" index="" image="">
+	<description>Tank 8 (set 3)</description>
+	<cloneof>tank8</cloneof>
+	<crc/>
+	<manufacturer>Atari (Kee Games)</manufacturer>
+	<year>1976</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tank8c" index="" image="">
+	<description>Tank 8 (set 4)</description>
+	<cloneof>tank8</cloneof>
+	<crc/>
+	<manufacturer>Atari (Kee Games)</manufacturer>
+	<year>1976</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tank8d" index="" image="">
+	<description>Tank 8 (set 5)</description>
+	<cloneof>tank8</cloneof>
+	<crc/>
+	<manufacturer>Atari (Kee Games)</manufacturer>
+	<year>1976</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tankii" index="" image="">
+	<description>Tank II [TTL]</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari/Kee</manufacturer>
+	<year>1975</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tourtab2" index="" image="">
+	<description>Tournament Table (set 2)</description>
+	<cloneof>tourtabl</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1978</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tourtabl" index="" image="">
+	<description>Tournament Table (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1978</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="triplhnt" index="" image="">
+	<description>Triple Hunt</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1977</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tunhunt" index="" image="">
+	<description>Tunnel Hunt</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ultratnk" index="" image="">
+	<description>Ultra Tank</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari (Kee Games)</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="videopin" index="" image="">
+	<description>Video Pinball</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1979</year>
+	<genre>Pinball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wolfpack" index="" image="">
+	<description>Wolf Pack (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

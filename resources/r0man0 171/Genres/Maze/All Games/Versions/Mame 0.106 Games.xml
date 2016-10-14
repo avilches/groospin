@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Maze / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="diggerma" index="" image="">
+	<description>Digger Man (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kyle Hodgetts</manufacturer>
+	<year>2000</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="indytempc" index="" image="">
+	<description>Indiana Jones and the Temple of Doom (Cocktail)</description>
+	<cloneof>indytemp</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1985</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

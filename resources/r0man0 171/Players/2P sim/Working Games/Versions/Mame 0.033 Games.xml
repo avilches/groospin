@@ -1,0 +1,499 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2P sim / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="1941j" index="" image="">
+	<description>1941: Counter Attack (Japan)</description>
+	<cloneof>1941</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="1941r1" index="" image="">
+	<description>1941: Counter Attack (World)</description>
+	<cloneof>1941</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="1943ja" index="" image="">
+	<description>1943: Midway Kaisen (Japan)</description>
+	<cloneof>1943</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aliensyn" index="" image="">
+	<description>Alien Syndrome (set 4, System 16B, unprotected)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="altbeast2" index="" image="">
+	<description>Altered Beast (set 2) (MC-8123B 317-0066)</description>
+	<cloneof>altbeast</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blasto" index="" image="">
+	<description>Blasto</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gremlin</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blstroid2" index="" image="">
+	<description>Blasteroids (rev 2)</description>
+	<cloneof>blstroid</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cawingj" index="" image="">
+	<description>U.S. Navy (Japan 901012)</description>
+	<cloneof>cawing</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chikij" index="" image="">
+	<description>Chiki Chiki Boys (Japan 900619)</description>
+	<cloneof>mtwins</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="contra1" index="" image="">
+	<description>Contra (US / Asia, set 2)</description>
+	<cloneof>contra</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="contrab" index="" image="">
+	<description>Contra (bootleg)</description>
+	<cloneof>contra</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="contrabj1" index="" image="">
+	<description>Contra (Japan bootleg, set 2)</description>
+	<cloneof>contra</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="csprint2" index="" image="">
+	<description>Championship Sprint (rev 2)</description>
+	<cloneof>csprint</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="curvebal" index="" image="">
+	<description>Curve Ball</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Mylstar</manufacturer>
+	<year>1984</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="darkseal1" index="" image="">
+	<description>Dark Seal (World revision 1)</description>
+	<cloneof>darkseal</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddragon" index="" image="">
+	<description>Double Dragon (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Technos Japan</manufacturer>
+	<year>1987</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddragon2" index="" image="">
+	<description>Double Dragon II - The Revenge (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Technos Japan</manufacturer>
+	<year>1988</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddragonb" index="" image="">
+	<description>Double Dragon (bootleg with HD6309)</description>
+	<cloneof>ddragon</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1987</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="devstors2" index="" image="">
+	<description>Devastators (ver. X)</description>
+	<cloneof>devstors</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="eprom" index="" image="">
+	<description>Escape from the Planet of the Robot Monsters (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fax" index="" image="">
+	<description>FAX</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Exidy</manufacturer>
+	<year>1983</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ffantasya" index="" image="">
+	<description>Fighting Fantasy (Japan)</description>
+	<cloneof>hippodrm</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ffight" index="" image="">
+	<description>Final Fight (World, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ffightj" index="" image="">
+	<description>Final Fight (Japan)</description>
+	<cloneof>ffight</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gmissile" index="" image="">
+	<description>Guided Missile</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1977</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="goldnaxe2" index="" image="">
+	<description>Golden Axe (set 2, US) (8751 317-0112)</description>
+	<cloneof>goldnaxe</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gunfight" index="" image="">
+	<description>Gun Fight (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dave Nutting Associates / Midway</manufacturer>
+	<year>1975</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hbarrel" index="" image="">
+	<description>Heavy Barrel (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East USA</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hbarrelw" index="" image="">
+	<description>Heavy Barrel (World)</description>
+	<cloneof>hbarrel</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jackal" index="" image="">
+	<description>Jackal (World, 8-way Joystick)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="klax" index="" image="">
+	<description>Klax (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1989</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lastduelo" index="" image="">
+	<description>Last Duel (US Old Ver.)</description>
+	<cloneof>lastduel</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lazercmd" index="" image="">
+	<description>Lazer Command</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Meadows Games, Inc.</manufacturer>
+	<year>1976</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lizwiz" index="" image="">
+	<description>Lizard Wizard</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Techstar (Sunn license)</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="masao" index="" image="">
+	<description>Masao</description>
+	<cloneof>mario</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="msword" index="" image="">
+	<description>Magic Sword: Heroic Fantasy (World 900725)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mswordj" index="" image="">
+	<description>Magic Sword: Heroic Fantasy (Japan 900623)</description>
+	<cloneof>msword</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nemo" index="" image="">
+	<description>Nemo (World 901130)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nemoj" index="" image="">
+	<description>Nemo (Japan 901120)</description>
+	<cloneof>nemo</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pnickj" index="" image="">
+	<description>Pnickies (Japan 940608)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Compile (Capcom license)</manufacturer>
+	<year>1994</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="punkshot2" index="" image="">
+	<description>Punk Shot (US 2 Players)</description>
+	<cloneof>punkshot</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1990</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssi" index="" image="">
+	<description>Super Space Invaders &apos;91 (World, Rev 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tehkanwc" index="" image="">
+	<description>Tehkan World Cup (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Tehkan</manufacturer>
+	<year>1985</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tetrisbl" index="" image="">
+	<description>Tetris (bootleg)</description>
+	<cloneof>tetris</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1988</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tmht2p" index="" image="">
+	<description>Teenage Mutant Hero Turtles (UK 2 Players, set 1)</description>
+	<cloneof>tmnt</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tmnt2pj" index="" image="">
+	<description>Teenage Mutant Ninja Turtles (Japan 2 Players)</description>
+	<cloneof>tmnt</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1990</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="topgunr" index="" image="">
+	<description>Top Gunner (US, 8-way Joystick)</description>
+	<cloneof>jackal</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vindictr4" index="" image="">
+	<description>Vindicators (rev 4)</description>
+	<cloneof>vindictr</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xybots" index="" image="">
+	<description>Xybots (rev 2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

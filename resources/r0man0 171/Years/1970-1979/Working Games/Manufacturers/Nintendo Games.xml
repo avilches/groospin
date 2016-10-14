@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1970-1979 / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="highsplt" index="" image="">
+	<description>Space Fever High Splitter (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="highsplta" index="" image="">
+	<description>Space Fever High Splitter (set 2)</description>
+	<cloneof>highsplt</cloneof>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="highspltb" index="" image="">
+	<description>Space Fever High Splitter (alt Sound)</description>
+	<cloneof>highsplt</cloneof>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mmagic" index="" image="">
+	<description>Monkey Magic</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1979</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sheriff" index="" image="">
+	<description>Sheriff</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spacefev" index="" image="">
+	<description>Space Fever (New Ver.)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spacefevo" index="" image="">
+	<description>Space Fever (Old Ver.)</description>
+	<cloneof>spacefev</cloneof>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spacefevo2" index="" image="">
+	<description>Space Fever (Older Ver.)</description>
+	<cloneof>spacefev</cloneof>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spacelnc" index="" image="">
+	<description>Space Launcher</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1979</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

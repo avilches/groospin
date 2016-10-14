@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Gun / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="cobrata" index="" image="">
+	<description>Cobra: The Arcade (CBR1 Ver. B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2005</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lghostd" index="" image="">
+	<description>Laser Ghost (World) (bootleg of FD1094 317-0166 set)</description>
+	<cloneof>lghost</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1990</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lghostud" index="" image="">
+	<description>Laser Ghost (US) (bootleg of FD1094 317-0165 set)</description>
+	<cloneof>lghost</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1990</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="loffired" index="" image="">
+	<description>Line of Fire / Bakudan Yarou (World) (bootleg of FD1094 317-0136 set)</description>
+	<cloneof>loffire</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1989</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="loffirejd" index="" image="">
+	<description>Line of Fire / Bakudan Yarou (Japan) (bootleg of FD1094 317-0134 set)</description>
+	<cloneof>loffire</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1989</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="loffireud" index="" image="">
+	<description>Line of Fire / Bakudan Yarou (US) (bootleg of FD1094 317-0135 set)</description>
+	<cloneof>loffire</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1989</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ptblanka" index="" image="">
+	<description>Point Blank (World, GN2 Rev B, set 2)</description>
+	<cloneof>ptblank</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1994</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="revxp5" index="" image="">
+	<description>Revolution X (prototype, rev 5.0 5/23/94)</description>
+	<cloneof>revx</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1994</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

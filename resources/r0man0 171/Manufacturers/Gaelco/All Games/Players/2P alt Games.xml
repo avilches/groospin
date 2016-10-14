@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Gaelco / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="snowboar" index="" image="">
+	<description>Snow Board Championship (Version 2.1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1996</year>
+	<genre>Skiing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="snowboara" index="" image="">
+	<description>Snow Board Championship (Version 2.0)</description>
+	<cloneof>snowboar</cloneof>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1996</year>
+	<genre>Skiing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thoop" index="" image="">
+	<description>Thunder Hoop (Ver. 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1992</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wrally" index="" image="">
+	<description>World Rally (Version 1.0, Checksum 0E56)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wrallya" index="" image="">
+	<description>World Rally (Version 1.0, Checksum 3873)</description>
+	<cloneof>wrally</cloneof>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wrallyat" index="" image="">
+	<description>World Rally (US, 930217)</description>
+	<cloneof>wrally</cloneof>
+	<crc/>
+	<manufacturer>Gaelco (Atari license)</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wrallyb" index="" image="">
+	<description>World Rally (Version 1.0, Checksum 8AA2)</description>
+	<cloneof>wrally</cloneof>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

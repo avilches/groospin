@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Breakout / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="arkangc" index="" image="">
+	<description>Arkanoid (Game Corporation bootleg, set 1)</description>
+	<cloneof>arkanoid</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Game Corporation)</manufacturer>
+	<year>1986</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arkanoidja" index="" image="">
+	<description>Arkanoid (Japan, newer w/level select)</description>
+	<cloneof>arkanoid</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blockbl" index="" image="">
+	<description>Block Block (bootleg)</description>
+	<cloneof>block</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1991</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blockj" index="" image="">
+	<description>Block Block (Japan 910910)</description>
+	<cloneof>block</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blockr1" index="" image="">
+	<description>Block Block (World 911106 Joystick)</description>
+	<cloneof>block</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="goindolu" index="" image="">
+	<description>Goindol (US)</description>
+	<cloneof>goindol</cloneof>
+	<crc/>
+	<manufacturer>SunA</manufacturer>
+	<year>1987</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="homo" index="" image="">
+	<description>Homo</description>
+	<cloneof>goindol</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1987</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="popbounc" index="" image="">
+	<description>Pop &apos;n Bounce / Gapporin</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Video System Co.</manufacturer>
+	<year>1997</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

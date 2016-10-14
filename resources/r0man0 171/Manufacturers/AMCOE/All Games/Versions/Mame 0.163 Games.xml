@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>AMCOE / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="nc96b" index="" image="">
+	<description>New Cherry &apos;96 Special Edition (v3.61, C1 PCB)</description>
+	<cloneof>nc96</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nc96d" index="" image="">
+	<description>New Cherry &apos;96 Special Edition (v3.53, D PCB)</description>
+	<cloneof>nc96</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nc96e" index="" image="">
+	<description>New Cherry &apos;96 Special Edition (v3.40, D PCB)</description>
+	<cloneof>nc96</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

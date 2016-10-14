@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>4P sim / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="barricad" index="" image="">
+	<description>Barricade</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Ramtek</manufacturer>
+	<year>1976</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="brickyrd" index="" image="">
+	<description>Brickyard</description>
+	<cloneof>barricad</cloneof>
+	<crc/>
+	<manufacturer>Ramtek</manufacturer>
+	<year>1976</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="knckhead" index="" image="">
+	<description>Knuckle Heads (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="moomesa" index="" image="">
+	<description>Wild West C.O.W.-Boys of Moo Mesa (ver EAB)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="orlegende" index="" image="">
+	<description>Oriental Legend / Xi You Shi E Zhuan (ver. 112)</description>
+	<cloneof>orlegend</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

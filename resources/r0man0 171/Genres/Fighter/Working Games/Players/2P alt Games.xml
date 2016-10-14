@@ -1,0 +1,789 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Fighter / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="buccanrs" index="" image="">
+	<description>Buccaneers (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Duintronic</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="buccanrsa" index="" image="">
+	<description>Buccaneers (set 2)</description>
+	<cloneof>buccanrs</cloneof>
+	<crc/>
+	<manufacturer>Duintronic</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cheekyms" index="" image="">
+	<description>Cheeky Mouse</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Universal</manufacturer>
+	<year>1980</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="desertdn" index="" image="">
+	<description>Desert Dan</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Video Optics</manufacturer>
+	<year>1982</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fightrol" index="" image="">
+	<description>Fighting Roller</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko (Taito license)</manufacturer>
+	<year>1983</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="flashgal" index="" image="">
+	<description>Flashgal (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kyugo / Sega</manufacturer>
+	<year>1985</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="flashgala" index="" image="">
+	<description>Flashgal (set 2)</description>
+	<cloneof>flashgal</cloneof>
+	<crc/>
+	<manufacturer>Kyugo / Sega</manufacturer>
+	<year>1985</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="foodf" index="" image="">
+	<description>Food Fight (rev 3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>General Computer Corporation (Atari license)</manufacturer>
+	<year>1982</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="foodf1" index="" image="">
+	<description>Food Fight (rev 1)</description>
+	<cloneof>foodf</cloneof>
+	<crc/>
+	<manufacturer>General Computer Corporation (Atari license)</manufacturer>
+	<year>1982</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="foodf2" index="" image="">
+	<description>Food Fight (rev 2)</description>
+	<cloneof>foodf</cloneof>
+	<crc/>
+	<manufacturer>General Computer Corporation (Atari license)</manufacturer>
+	<year>1982</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="foodfc" index="" image="">
+	<description>Food Fight (cocktail)</description>
+	<cloneof>foodf</cloneof>
+	<crc/>
+	<manufacturer>General Computer Corporation (Atari license)</manufacturer>
+	<year>1982</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gcastle" index="" image="">
+	<description>Golden Castle (prototype?)</description>
+	<cloneof>gladiatr</cloneof>
+	<crc/>
+	<manufacturer>Allumer / Taito Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="getstarb1" index="" image="">
+	<description>Get Star (bootleg set 1)</description>
+	<cloneof>grdian</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1986</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="getstarb2" index="" image="">
+	<description>Get Star (bootleg set 2)</description>
+	<cloneof>grdian</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1986</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="getstarj" index="" image="">
+	<description>Get Star (Japan)</description>
+	<cloneof>grdian</cloneof>
+	<crc/>
+	<manufacturer>Toaplan / Taito</manufacturer>
+	<year>1986</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gladiatr" index="" image="">
+	<description>Gladiator (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Allumer / Taito America Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="grdian" index="" image="">
+	<description>Guardian (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Toaplan / Taito America Corporation (Kitkorp license)</manufacturer>
+	<year>1986</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="greatgur" index="" image="">
+	<description>Great Gurianos (Japan?)</description>
+	<cloneof>gladiatr</cloneof>
+	<crc/>
+	<manufacturer>Allumer / Taito Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hiryuken" index="" image="">
+	<description>Hokuha Syourin Hiryu no Ken</description>
+	<cloneof>shangkid</cloneof>
+	<crc/>
+	<manufacturer>Taiyo (Taito license)</manufacturer>
+	<year>1985</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kabukiz" index="" image="">
+	<description>Kabuki-Z (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko / Taito Corporation Japan</manufacturer>
+	<year>1988</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kabukizj" index="" image="">
+	<description>Kabuki-Z (Japan)</description>
+	<cloneof>kabukiz</cloneof>
+	<crc/>
+	<manufacturer>Kaneko / Taito Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kagekij" index="" image="">
+	<description>Kageki (Japan)</description>
+	<cloneof>kageki</cloneof>
+	<crc/>
+	<manufacturer>Kaneko / Taito Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="karatedo" index="" image="">
+	<description>Karate Dou (Japan)</description>
+	<cloneof>kchamp</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kchamp" index="" image="">
+	<description>Karate Champ (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East USA</manufacturer>
+	<year>1984</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kozure" index="" image="">
+	<description>Kozure Ookami (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1987</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kungfub" index="" image="">
+	<description>Kung-Fu Master (bootleg set 1)</description>
+	<cloneof>kungfum</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1984</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kungfub2" index="" image="">
+	<description>Kung-Fu Master (bootleg set 2)</description>
+	<cloneof>kungfum</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1984</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kungfum" index="" image="">
+	<description>Kung-Fu Master (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1984</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kungfumd" index="" image="">
+	<description>Kung-Fu Master (US)</description>
+	<cloneof>kungfum</cloneof>
+	<crc/>
+	<manufacturer>Irem (Data East USA license)</manufacturer>
+	<year>1984</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kuniokun" index="" image="">
+	<description>Nekketsu Kouha Kunio-kun (Japan)</description>
+	<cloneof>renegade</cloneof>
+	<crc/>
+	<manufacturer>Technos Japan</manufacturer>
+	<year>1986</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kuniokunb" index="" image="">
+	<description>Nekketsu Kouha Kunio-kun (Japan bootleg)</description>
+	<cloneof>renegade</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1986</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kyros" index="" image="">
+	<description>Kyros</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Alpha Denshi Co. (World Games Inc. license)</manufacturer>
+	<year>1987</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kyrosj" index="" image="">
+	<description>Kyros No Yakata (Japan)</description>
+	<cloneof>kyros</cloneof>
+	<crc/>
+	<manufacturer>Alpha Denshi Co.</manufacturer>
+	<year>1986</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="legend" index="" image="">
+	<description>Legend</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kyugo / Sega</manufacturer>
+	<year>1986</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="legendb" index="" image="">
+	<description>Legion (bootleg of Legend)</description>
+	<cloneof>legend</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1986</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="legendos" index="" image="">
+	<description>Legend of Success Joe / Ashita no Joe Densetsu</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lkage" index="" image="">
+	<description>The Legend of Kage</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lkageb" index="" image="">
+	<description>The Legend of Kage (bootleg set 1)</description>
+	<cloneof>lkage</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1984</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lkageb2" index="" image="">
+	<description>The Legend of Kage (bootleg set 2)</description>
+	<cloneof>lkage</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1984</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lkageb3" index="" image="">
+	<description>The Legend of Kage (bootleg set 3)</description>
+	<cloneof>lkage</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1984</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lkageo" index="" image="">
+	<description>The Legend of Kage (older)</description>
+	<cloneof>lkage</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lkageoo" index="" image="">
+	<description>The Legend of Kage (oldest)</description>
+	<cloneof>lkage</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="loht" index="" image="">
+	<description>Legend of Hero Tonma</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lohtb2" index="" image="">
+	<description>Legend of Hero Tonma (Japan, bootleg with i8751)</description>
+	<cloneof>loht</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lohtj" index="" image="">
+	<description>Legend of Hero Tonma (Japan)</description>
+	<cloneof>loht</cloneof>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lomakai" index="" image="">
+	<description>Legend of Makai (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1988</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="makaiden" index="" image="">
+	<description>Makai Densetsu (Japan)</description>
+	<cloneof>lomakai</cloneof>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1988</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mightguy" index="" image="">
+	<description>Mighty Guy</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1986</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="myhero" index="" image="">
+	<description>My Hero (US, not encrypted)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Coreland / Sega</manufacturer>
+	<year>1985</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="myherok" index="" image="">
+	<description>My Hero (Korea)</description>
+	<cloneof>myhero</cloneof>
+	<crc/>
+	<manufacturer>Coreland / Sega</manufacturer>
+	<year>1985</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nspirit" index="" image="">
+	<description>Ninja Spirit</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1988</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nspiritj" index="" image="">
+	<description>Saigo no Nindou (Japan)</description>
+	<cloneof>nspirit</cloneof>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1988</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ogonsiro" index="" image="">
+	<description>Ougon no Shiro (Japan)</description>
+	<cloneof>gladiatr</cloneof>
+	<crc/>
+	<manufacturer>Allumer / Taito Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="onna34ro" index="" image="">
+	<description>Onna Sansirou - Typhoon Gal (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1985</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="onna34roa" index="" image="">
+	<description>Onna Sansirou - Typhoon Gal (set 2)</description>
+	<cloneof>onna34ro</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1985</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_kngfu" index="" image="">
+	<description>Kung Fu (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem (Nintendo license)</manufacturer>
+	<year>1985</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="reikaids" index="" image="">
+	<description>Reikai Doushi (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Home Data</manufacturer>
+	<year>1988</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="renegade" index="" image="">
+	<description>Renegade (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Technos Japan (Taito America license)</manufacturer>
+	<year>1986</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rjammer" index="" image="">
+	<description>Roller Jammer</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu / Alice</manufacturer>
+	<year>1984</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rollace" index="" image="">
+	<description>Roller Aces (set 1)</description>
+	<cloneof>fightrol</cloneof>
+	<crc/>
+	<manufacturer>Kaneko (Williams license)</manufacturer>
+	<year>1983</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rollace2" index="" image="">
+	<description>Roller Aces (set 2)</description>
+	<cloneof>fightrol</cloneof>
+	<crc/>
+	<manufacturer>Kaneko (Williams license)</manufacturer>
+	<year>1983</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="samurai" index="" image="">
+	<description>Samurai</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1980</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shangkid" index="" image="">
+	<description>Shanghai Kid</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taiyo (Data East license)</manufacturer>
+	<year>1985</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="snakepit" index="" image="">
+	<description>Snake Pit</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally/Sente</manufacturer>
+	<year>1984</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="snakepit2" index="" image="">
+	<description>Snake Pit (9/14/84)</description>
+	<cloneof>snakepit</cloneof>
+	<crc/>
+	<manufacturer>Sente Technologies Inc.</manufacturer>
+	<year>1984</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spartanx" index="" image="">
+	<description>Spartan X (Japan)</description>
+	<cloneof>kungfum</cloneof>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1984</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="splatter" index="" image="">
+	<description>Splatter House (World, new version (SH3))</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1988</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="splatter2" index="" image="">
+	<description>Splatter House (World, old version (SH2))</description>
+	<cloneof>splatter</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1988</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="splatterj" index="" image="">
+	<description>Splatter House (Japan, SH1)</description>
+	<cloneof>splatter</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1988</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sscandal" index="" image="">
+	<description>Seishun Scandal (315-5132, Japan)</description>
+	<cloneof>myhero</cloneof>
+	<crc/>
+	<manufacturer>Coreland / Sega</manufacturer>
+	<year>1985</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tsamurai" index="" image="">
+	<description>Samurai Nihon-Ichi (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko / Taito</manufacturer>
+	<year>1985</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tsamurai2" index="" image="">
+	<description>Samurai Nihon-Ichi (set 2)</description>
+	<cloneof>tsamurai</cloneof>
+	<crc/>
+	<manufacturer>Kaneko / Taito</manufacturer>
+	<year>1985</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tsamuraih" index="" image="">
+	<description>Samurai Nihon-Ichi (bootleg, harder)</description>
+	<cloneof>tsamurai</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1985</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ultraman" index="" image="">
+	<description>Ultraman (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Banpresto / Bandai</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wndrmomo" index="" image="">
+	<description>Wonder Momo</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1987</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="yiear" index="" image="">
+	<description>Yie Ar Kung-Fu (program code I)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1985</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="yiear2" index="" image="">
+	<description>Yie Ar Kung-Fu (program code G)</description>
+	<cloneof>yiear</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1985</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="yieartf" index="" image="">
+	<description>Yie Ar Kung-Fu (GX361 conversion)</description>
+	<cloneof>yiear</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1985</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

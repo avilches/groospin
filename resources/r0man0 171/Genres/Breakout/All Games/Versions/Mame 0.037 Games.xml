@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Breakout / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="arkatour" index="" image="">
+	<description>Tournament Arkanoid (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito America Corporation (Romstar license)</manufacturer>
+	<year>1987</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arkretrnj" index="" image="">
+	<description>Arkanoid Returns (Ver 2.02J 1997/02/10)</description>
+	<cloneof>arkretrn</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1997</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="balcube" index="" image="">
+	<description>Bal Cube</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Metro</manufacturer>
+	<year>1996</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blockcar" index="" image="">
+	<description>Block Carnival / Thunder &amp; Lightning 2</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Visco</manufacturer>
+	<year>1992</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blocken" index="" image="">
+	<description>Blocken (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Visco / KID</manufacturer>
+	<year>1994</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blockr2" index="" image="">
+	<description>Block Block (World 910910)</description>
+	<cloneof>block</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cgraplop" index="" image="">
+	<description>Cluster Buster (DECO Cassette)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cubybop" index="" image="">
+	<description>Cuby Bop (location test)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Hot-B</manufacturer>
+	<year>199?</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="puchicarj" index="" image="">
+	<description>Puchi Carat (Ver 2.02J 1997/10/29)</description>
+	<cloneof>puchicar</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1997</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ridleofp" index="" image="">
+	<description>Riddle of Pythagoras (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / Nasco</manufacturer>
+	<year>1986</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thunderl" index="" image="">
+	<description>Thunder &amp; Lightning</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Seta</manufacturer>
+	<year>1990</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

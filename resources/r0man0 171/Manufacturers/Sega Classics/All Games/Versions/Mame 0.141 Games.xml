@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Sega / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="braveff" index="" image="">
+	<description>Brave Fire Fighters</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1999</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ctcheese" index="" image="">
+	<description>Cut The Cheese (Redemption)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1996</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ctchzdlx" index="" image="">
+	<description>Cut The Cheese Deluxe (Redemption)</description>
+	<cloneof>ctcheese</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1998</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="initdv2e" index="" image="">
+	<description>Initial D Arcade Stage Ver. 2 (Export) (GDS-0027)</description>
+	<cloneof>initdv2j</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2002</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="initdv2j" index="" image="">
+	<description>Initial D Arcade Stage Ver. 2 (Japan) (Rev B) (GDS-0026B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2002</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="initdv3j" index="" image="">
+	<description>Initial D Arcade Stage Ver. 3 (Japan) (Rev C) (GDS-0032C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2004</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mslug6" index="" image="">
+	<description>Metal Slug 6</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / SNK Playmore</manufacturer>
+	<year>2006</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mt_calga" index="" image="">
+	<description>California Games (Mega-Tech)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mt_fz" index="" image="">
+	<description>Fantasy Zone (Mega-Tech, SMS based)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="oinori" index="" image="">
+	<description>Oinori-daimyoujin Matsuri</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sgnascar" index="" image="">
+	<description>NASCAR Racing</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / Electronic Arts</manufacturer>
+	<year>2000</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stcc" index="" image="">
+	<description>Sega Touring Car Championship</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stccb" index="" image="">
+	<description>Sega Touring Car Championship (Revision B)</description>
+	<cloneof>stcc</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="topskatrj" index="" image="">
+	<description>Top Skater (Japan)</description>
+	<cloneof>topskatr</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1997</year>
+	<genre>Skateboarding</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wackadoo" index="" image="">
+	<description>Wack-A-Doodle-Doo (Redemption)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1998</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

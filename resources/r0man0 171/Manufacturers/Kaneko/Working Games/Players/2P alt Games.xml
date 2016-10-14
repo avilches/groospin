@@ -1,0 +1,369 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Kaneko / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="boggy84" index="" image="">
+	<description>Boggy &apos;84</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drtoppel" index="" image="">
+	<description>Dr. Toppel&apos;s Adventure (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko / Taito Corporation Japan</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drtoppelj" index="" image="">
+	<description>Dr. Toppel&apos;s Tankentai (Japan)</description>
+	<cloneof>drtoppel</cloneof>
+	<crc/>
+	<manufacturer>Kaneko / Taito Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drtoppelu" index="" image="">
+	<description>Dr. Toppel&apos;s Adventure (US)</description>
+	<cloneof>drtoppel</cloneof>
+	<crc/>
+	<manufacturer>Kaneko / Taito America Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fastfred" index="" image="">
+	<description>Fast Freddie</description>
+	<cloneof>flyboy</cloneof>
+	<crc/>
+	<manufacturer>Kaneko (Atari license)</manufacturer>
+	<year>1982</year>
+	<genre>Sports</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fightrol" index="" image="">
+	<description>Fighting Roller</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko (Taito license)</manufacturer>
+	<year>1983</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="flyboy" index="" image="">
+	<description>Fly-Boy</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1982</year>
+	<genre>Sports</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtmr" index="" image="">
+	<description>1000 Miglia: Great 1000 Miles Rally (94/07/18)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtmra" index="" image="">
+	<description>1000 Miglia: Great 1000 Miles Rally (94/06/13)</description>
+	<cloneof>gtmr</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtmrb" index="" image="">
+	<description>1000 Miglia: Great 1000 Miles Rally (94/05/26)</description>
+	<cloneof>gtmr</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtmre" index="" image="">
+	<description>Great 1000 Miles Rally: Evolution Model!!! (94/09/06)</description>
+	<cloneof>gtmr</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtmro" index="" image="">
+	<description>1000 Miglia: Great 1000 Miles Rally (94/05/10)</description>
+	<cloneof>gtmr</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtmrusa" index="" image="">
+	<description>Great 1000 Miles Rally: U.S.A Version! (94/09/06)</description>
+	<cloneof>gtmr</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hvyunit" index="" image="">
+	<description>Heavy Unit (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko / Taito</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hvyunitj" index="" image="">
+	<description>Heavy Unit (Japan, Newer)</description>
+	<cloneof>hvyunit</cloneof>
+	<crc/>
+	<manufacturer>Kaneko / Taito</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hvyunitjo" index="" image="">
+	<description>Heavy Unit (Japan, Older)</description>
+	<cloneof>hvyunit</cloneof>
+	<crc/>
+	<manufacturer>Kaneko / Taito</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hvyunitu" index="" image="">
+	<description>Heavy Unit -U.S.A. Version- (US)</description>
+	<cloneof>hvyunit</cloneof>
+	<crc/>
+	<manufacturer>Kaneko / Taito</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jumpcoas" index="" image="">
+	<description>Jump Coaster</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jumpcoast" index="" image="">
+	<description>Jump Coaster (Taito)</description>
+	<cloneof>jumpcoas</cloneof>
+	<crc/>
+	<manufacturer>Kaneko (Taito license)</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kabukiz" index="" image="">
+	<description>Kabuki-Z (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko / Taito Corporation Japan</manufacturer>
+	<year>1988</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kabukizj" index="" image="">
+	<description>Kabuki-Z (Japan)</description>
+	<cloneof>kabukiz</cloneof>
+	<crc/>
+	<manufacturer>Kaneko / Taito Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kagekij" index="" image="">
+	<description>Kageki (Japan)</description>
+	<cloneof>kageki</cloneof>
+	<crc/>
+	<manufacturer>Kaneko / Taito Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ladymstr" index="" image="">
+	<description>Lady Master of Kung Fu</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko / Taito</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nunchaku" index="" image="">
+	<description>Nunchackun</description>
+	<cloneof>ladymstr</cloneof>
+	<crc/>
+	<manufacturer>Kaneko / Taito</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pbillian" index="" image="">
+	<description>Prebillian</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko / Taito</manufacturer>
+	<year>1986</year>
+	<genre>Pool and Darts</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="redclashk" index="" image="">
+	<description>Red Clash (Kaneko)</description>
+	<cloneof>redclash</cloneof>
+	<crc/>
+	<manufacturer>Tehkan (Kaneko license)</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ringfgt" index="" image="">
+	<description>Ring Fighter (set 1)</description>
+	<cloneof>vsgongf</cloneof>
+	<crc/>
+	<manufacturer>Kaneko (Taito license)</manufacturer>
+	<year>1984</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ringfgt2" index="" image="">
+	<description>Ring Fighter (set 2)</description>
+	<cloneof>vsgongf</cloneof>
+	<crc/>
+	<manufacturer>Kaneko (Taito license)</manufacturer>
+	<year>1984</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rollace" index="" image="">
+	<description>Roller Aces (set 1)</description>
+	<cloneof>fightrol</cloneof>
+	<crc/>
+	<manufacturer>Kaneko (Williams license)</manufacturer>
+	<year>1983</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rollace2" index="" image="">
+	<description>Roller Aces (set 2)</description>
+	<cloneof>fightrol</cloneof>
+	<crc/>
+	<manufacturer>Kaneko (Williams license)</manufacturer>
+	<year>1983</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sqix" index="" image="">
+	<description>Super Qix (World, Rev 2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko / Taito</manufacturer>
+	<year>1987</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sqixr1" index="" image="">
+	<description>Super Qix (World, Rev 1)</description>
+	<cloneof>sqix</cloneof>
+	<crc/>
+	<manufacturer>Kaneko / Taito</manufacturer>
+	<year>1987</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sqixu" index="" image="">
+	<description>Super Qix (US)</description>
+	<cloneof>sqix</cloneof>
+	<crc/>
+	<manufacturer>Kaneko / Taito (Romstar License)</manufacturer>
+	<year>1987</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tsamurai" index="" image="">
+	<description>Samurai Nihon-Ichi (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko / Taito</manufacturer>
+	<year>1985</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tsamurai2" index="" image="">
+	<description>Samurai Nihon-Ichi (set 2)</description>
+	<cloneof>tsamurai</cloneof>
+	<crc/>
+	<manufacturer>Kaneko / Taito</manufacturer>
+	<year>1985</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="yamagchi" index="" image="">
+	<description>Go Go Mr. Yamaguchi / Yuke Yuke Yamaguchi-kun</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko / Taito</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

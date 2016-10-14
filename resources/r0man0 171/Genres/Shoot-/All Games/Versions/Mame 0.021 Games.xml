@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Shoot- / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="galagamf" index="" image="">
+	<description>Galaga (Midway set 1 with fast shoot hack)</description>
+	<cloneof>galaga</cloneof>
+	<crc/>
+	<manufacturer>Namco (Midway license)</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="invrvngeb" index="" image="">
+	<description>Invader&apos;s Revenge (set 3)</description>
+	<cloneof>invrvnge</cloneof>
+	<crc/>
+	<manufacturer>Zenitone-Microsec Ltd.</manufacturer>
+	<year>1980?</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

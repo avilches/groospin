@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2000-2009 / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="fantzn2x" index="" image="">
+	<description>Fantasy Zone II - The Tears of Opa-Opa (System 16C version)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / M2</manufacturer>
+	<year>2008</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fantzn2xp" index="" image="">
+	<description>Fantasy Zone II - The Tears of Opa-Opa (System 16C version, prototype)</description>
+	<cloneof>fantzn2x</cloneof>
+	<crc/>
+	<manufacturer>Sega / M2</manufacturer>
+	<year>2008</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wbmlvc" index="" image="">
+	<description>Wonder Boy in Monster Land (English, Virtual Console)</description>
+	<cloneof>wbml</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2009</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

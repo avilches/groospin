@@ -1,0 +1,679 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Fighter / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="avsp" index="" image="">
+	<description>Alien vs. Predator (Euro 940520)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="avspa" index="" image="">
+	<description>Alien vs. Predator (Asia 940520)</description>
+	<cloneof>avsp</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="avspd" index="" image="">
+	<description>Alien vs. Predator (Euro 940520 Phoenix Edition) (bootleg)</description>
+	<cloneof>avsp</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="avsph" index="" image="">
+	<description>Alien vs. Predator (Hispanic 940520)</description>
+	<cloneof>avsp</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="avspj" index="" image="">
+	<description>Alien vs. Predator (Japan 940520)</description>
+	<cloneof>avsp</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="avspu" index="" image="">
+	<description>Alien vs. Predator (USA 940520)</description>
+	<cloneof>avsp</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="brapboys" index="" image="">
+	<description>B.Rap Boys (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="brapboysj" index="" image="">
+	<description>B.Rap Boys Special (Japan)</description>
+	<cloneof>brapboys</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="brapboysu" index="" image="">
+	<description>B.Rap Boys Special (US)</description>
+	<cloneof>brapboys</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="brutforc" index="" image="">
+	<description>Brute Force</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Leland Corp.</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="btoads" index="" image="">
+	<description>Battletoads</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Rare / Electronic Arts</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ctribe" index="" image="">
+	<description>The Combatribes (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Technos Japan</manufacturer>
+	<year>1990</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ctribe1" index="" image="">
+	<description>The Combatribes (US set 1?)</description>
+	<cloneof>ctribe</cloneof>
+	<crc/>
+	<manufacturer>Technos Japan</manufacturer>
+	<year>1990</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ctribeb" index="" image="">
+	<description>The Combatribes (bootleg set 1)</description>
+	<cloneof>ctribe</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1990</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ctribeb2" index="" image="">
+	<description>The Combatribes (bootleg set 2)</description>
+	<cloneof>ctribe</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1990</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ctribej" index="" image="">
+	<description>The Combatribes (Japan)</description>
+	<cloneof>ctribe</cloneof>
+	<crc/>
+	<manufacturer>Technos Japan</manufacturer>
+	<year>1990</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ctribeo" index="" image="">
+	<description>The Combatribes (US, older)</description>
+	<cloneof>ctribe</cloneof>
+	<crc/>
+	<manufacturer>Technos Japan</manufacturer>
+	<year>1990</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddcrewd" index="" image="">
+	<description>D. D. Crew (World, 3 Players) (bootleg of FD1094 317-0190 set)</description>
+	<cloneof>ddcrew</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddragon3" index="" image="">
+	<description>Double Dragon 3 - The Rosetta Stone (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Technos Japan</manufacturer>
+	<year>1990</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddragon3b" index="" image="">
+	<description>Double Dragon 3 - The Rosetta Stone (bootleg)</description>
+	<cloneof>ddragon3</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1990</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddragon3j" index="" image="">
+	<description>Double Dragon 3 - The Rosetta Stone (Japan)</description>
+	<cloneof>ddragon3</cloneof>
+	<crc/>
+	<manufacturer>Technos Japan</manufacturer>
+	<year>1990</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddragon3p" index="" image="">
+	<description>Double Dragon 3 - The Rosetta Stone (prototype)</description>
+	<cloneof>ddragon3</cloneof>
+	<crc/>
+	<manufacturer>Technos Japan</manufacturer>
+	<year>1990</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dino" index="" image="">
+	<description>Cadillacs and Dinosaurs (World 930201)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dinohunt" index="" image="">
+	<description>Dinosaur Hunter (Chinese bootleg of Cadillacs and Dinosaurs)</description>
+	<cloneof>dino</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dinoj" index="" image="">
+	<description>Cadillacs: Kyouryuu Shin Seiki (Japan 930201)</description>
+	<cloneof>dino</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dinou" index="" image="">
+	<description>Cadillacs and Dinosaurs (USA 930201)</description>
+	<cloneof>dino</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="guardian" index="" image="">
+	<description>Guardians of the &apos;Hood</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jdreddp" index="" image="">
+	<description>Judge Dredd (rev LA1, prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="knights" index="" image="">
+	<description>Knights of the Round (World 911127)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="knightsj" index="" image="">
+	<description>Knights of the Round (Japan 911127, B-Board 91634B-2)</description>
+	<cloneof>knights</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="knightsja" index="" image="">
+	<description>Knights of the Round (Japan 911127, B-Board 89625B-1)</description>
+	<cloneof>knights</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="knightsu" index="" image="">
+	<description>Knights of the Round (USA 911127)</description>
+	<cloneof>knights</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kod" index="" image="">
+	<description>The King of Dragons (World 910805)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kodb" index="" image="">
+	<description>The King of Dragons (bootleg)</description>
+	<cloneof>kod</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Playmark)</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kodj" index="" image="">
+	<description>The King of Dragons (Japan 910805, B-Board 90629B-3)</description>
+	<cloneof>kod</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kodja" index="" image="">
+	<description>The King of Dragons (Japan 910805, B-Board 89625B-1)</description>
+	<cloneof>kod</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kodr1" index="" image="">
+	<description>The King of Dragons (World 910711)</description>
+	<cloneof>kod</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kodu" index="" image="">
+	<description>The King of Dragons (USA 910910)</description>
+	<cloneof>kod</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nslasher" index="" image="">
+	<description>Night Slashers (Korea Rev 1.3, DE-0397-0 PCB)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nslasherj" index="" image="">
+	<description>Night Slashers (Japan Rev 1.2, DE-0397-0 PCB)</description>
+	<cloneof>nslasher</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nslashers" index="" image="">
+	<description>Night Slashers (Over Sea Rev 1.2, DE-0397-0 PCB)</description>
+	<cloneof>nslasher</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nslasheru" index="" image="">
+	<description>Night Slashers (US Rev 1.2, DE-0395-1 PCB)</description>
+	<cloneof>nslasher</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pitfight" index="" image="">
+	<description>Pit Fighter (rev 9)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pitfight3" index="" image="">
+	<description>Pit Fighter (rev 3)</description>
+	<cloneof>pitfight</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pitfight4" index="" image="">
+	<description>Pit Fighter (rev 4)</description>
+	<cloneof>pitfight</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pitfight5" index="" image="">
+	<description>Pit Fighter (rev 5)</description>
+	<cloneof>pitfight</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pitfight6" index="" image="">
+	<description>Pit Fighter (rev 6)</description>
+	<cloneof>pitfight</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pitfight7" index="" image="">
+	<description>Pit Fighter (rev 7)</description>
+	<cloneof>pitfight</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pitfightb" index="" image="">
+	<description>Pit Fighter (bootleg)</description>
+	<cloneof>pitfight</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1990</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sgyxz" index="" image="">
+	<description>Warriors of Fate (&apos;sgyxz&apos; bootleg)</description>
+	<cloneof>wof</cloneof>
+	<crc/>
+	<manufacturer>bootleg (All-In Electronic)</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="uccops" index="" image="">
+	<description>Undercover Cops (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="uccopsar" index="" image="">
+	<description>Undercover Cops - Alpha Renewal Version</description>
+	<cloneof>uccops</cloneof>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="uccopsj" index="" image="">
+	<description>Undercover Cops (Japan)</description>
+	<cloneof>uccops</cloneof>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="uccopsu" index="" image="">
+	<description>Undercover Cops (US)</description>
+	<cloneof>uccops</cloneof>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="viostorm" index="" image="">
+	<description>Violent Storm (ver EAC)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="viostorma" index="" image="">
+	<description>Violent Storm (ver AAC)</description>
+	<cloneof>viostorm</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="viostormab" index="" image="">
+	<description>Violent Storm (ver AAB)</description>
+	<cloneof>viostorm</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="viostormeb" index="" image="">
+	<description>Violent Storm (ver EAB)</description>
+	<cloneof>viostorm</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="viostormj" index="" image="">
+	<description>Violent Storm (ver JAC)</description>
+	<cloneof>viostorm</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="viostormu" index="" image="">
+	<description>Violent Storm (ver UAC)</description>
+	<cloneof>viostorm</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="viostormub" index="" image="">
+	<description>Violent Storm (ver UAB)</description>
+	<cloneof>viostorm</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wof" index="" image="">
+	<description>Warriors of Fate (World 921031)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wofa" index="" image="">
+	<description>Sangokushi II (Asia 921005)</description>
+	<cloneof>wof</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wofhfh" index="" image="">
+	<description>Huo Feng Huang (Chinese bootleg of Sangokushi II)</description>
+	<cloneof>wof</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wofj" index="" image="">
+	<description>Tenchi wo Kurau II: Sekiheki no Tatakai (Japan 921031)</description>
+	<cloneof>wof</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wofr1" index="" image="">
+	<description>Warriors of Fate (World 921002)</description>
+	<cloneof>wof</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wofu" index="" image="">
+	<description>Warriors of Fate (USA 921031)</description>
+	<cloneof>wof</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

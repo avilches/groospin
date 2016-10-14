@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1P / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="bikkuric" index="" image="">
+	<description>Bikkuri Card (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Peni</manufacturer>
+	<year>1987</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="carrera" index="" image="">
+	<description>Carrera (Version 6.7)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BS Electronics</manufacturer>
+	<year>19??</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cecmatch" index="" image="">
+	<description>ChuckECheese&apos;s Match Game</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Coastal Amusements</manufacturer>
+	<year>1993</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drgw2" index="" image="">
+	<description>Dragon World II (ver. 110X, Export)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1997</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drgw2c" index="" image="">
+	<description>Zhong Guo Long II (ver. 100C, China)</description>
+	<cloneof>drgw2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1997</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drgw2j" index="" image="">
+	<description>Chuugokuryuu II (ver. 100J, Japan)</description>
+	<cloneof>drgw2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1997</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dw2001" index="" image="">
+	<description>Chuugokuryuu 2001 [Dragon World 2001] (V100?, Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dw2v100x" index="" image="">
+	<description>Dragon World II (ver. 100X, Export)</description>
+	<cloneof>drgw2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1997</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fredmem" index="" image="">
+	<description>Fred Flintstones&apos; Memory Match (World?, Ticket version, 3/17/95)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Coastal Amusements</manufacturer>
+	<year>1994</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fredmemc" index="" image="">
+	<description>Fred Flintstones&apos; Memory Match (Mandarin Chinese, 3/17/95)</description>
+	<cloneof>fredmem</cloneof>
+	<crc/>
+	<manufacturer>Coastal Amusements</manufacturer>
+	<year>1994</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fredmemj" index="" image="">
+	<description>Fred Flintstones&apos; Memory Match (Japan, High Score version, 3/20/95)</description>
+	<cloneof>fredmem</cloneof>
+	<crc/>
+	<manufacturer>Coastal Amusements</manufacturer>
+	<year>1994</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fredmemuk" index="" image="">
+	<description>Fred Flintstones&apos; Memory Match (UK, 3/17/95)</description>
+	<cloneof>fredmem</cloneof>
+	<crc/>
+	<manufacturer>Coastal Amusements</manufacturer>
+	<year>1994</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fredmemus" index="" image="">
+	<description>Fred Flintstones&apos; Memory Match (US, High Score version, 3/10/95)</description>
+	<cloneof>fredmem</cloneof>
+	<crc/>
+	<manufacturer>Coastal Amusements</manufacturer>
+	<year>1994</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fredmesp" index="" image="">
+	<description>Fred Flintstones&apos; Memory Match (Spanish, 3/17/95)</description>
+	<cloneof>fredmem</cloneof>
+	<crc/>
+	<manufacturer>Coastal Amusements</manufacturer>
+	<year>1994</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="orbs" index="" image="">
+	<description>Orbs (10/7/94 prototype?)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>American Sammy</manufacturer>
+	<year>1994</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pairsred" index="" image="">
+	<description>Pairs Redemption (V1.0, 10/25/94)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Strata/Incredible Technologies</manufacturer>
+	<year>1994</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="phtetris" index="" image="">
+	<description>Tetris (Photon System)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>19??</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pipeline" index="" image="">
+	<description>Pipeline</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Daehyun Electronics</manufacturer>
+	<year>1990</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="watrball" index="" image="">
+	<description>Water Balls</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>ABM</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wtrnymph" index="" image="">
+	<description>Water-Nymph (Ver. 1.4)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Subsino</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

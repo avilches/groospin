@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Mature / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="hapytour" index="" image="">
+	<description>Happy Tour</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>GAV Company</manufacturer>
+	<year>2005</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ss2005o" index="" image="">
+	<description>Super Shanghai 2005 (GDL-0031)</description>
+	<cloneof>ss2005</cloneof>
+	<crc/>
+	<manufacturer>Starfish</manufacturer>
+	<year>2005</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

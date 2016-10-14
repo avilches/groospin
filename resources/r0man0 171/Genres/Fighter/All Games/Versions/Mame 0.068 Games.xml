@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Fighter / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="bbprot" index="" image="">
+	<description>unknown fighting game &apos;BB&apos; (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>199?</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dragoonj" index="" image="">
+	<description>Dragoon Might (ver JAA)</description>
+	<cloneof>dragoona</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kof97h" index="" image="">
+	<description>The King of Fighters &apos;97 (NGH-2320)</description>
+	<cloneof>kof97</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lastblad" index="" image="">
+	<description>The Last Blade / Bakumatsu Roman - Gekka no Kenshi (NGM-2340)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rbff2" index="" image="">
+	<description>Real Bout Fatal Fury 2 - The Newcomers / Real Bout Garou Densetsu 2 - the newcomers (NGM-2400)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssf2r1" index="" image="">
+	<description>Super Street Fighter II: The New Challengers (World 930911)</description>
+	<cloneof>ssf2</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vandykejal" index="" image="">
+	<description>Vandyke (Jaleco, set 1)</description>
+	<cloneof>vandyke</cloneof>
+	<crc/>
+	<manufacturer>UPL (Jaleco license)</manufacturer>
+	<year>1990</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="viostormeb" index="" image="">
+	<description>Violent Storm (ver EAB)</description>
+	<cloneof>viostorm</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wh1ha" index="" image="">
+	<description>World Heroes (set 3)</description>
+	<cloneof>wh1</cloneof>
+	<crc/>
+	<manufacturer>Alpha Denshi Co.</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

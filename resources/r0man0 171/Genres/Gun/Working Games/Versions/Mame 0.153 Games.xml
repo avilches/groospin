@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Gun / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="lethalenub" index="" image="">
+	<description>Lethal Enforcers (ver UAB, 09/01/92 11:12)</description>
+	<cloneof>lethalen</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ohbakyuun" index="" image="">
+	<description>Oh! Bakyuuun (Japan, OB1/VER.A)</description>
+	<cloneof>ghlpanic</cloneof>
+	<crc/>
+	<manufacturer>Eighting / Raizing / Namco</manufacturer>
+	<year>1999</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

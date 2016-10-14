@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2000-2009 / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="gt2k" index="" image="">
+	<description>Golden Tee 2K (v1.00)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>2000</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt2ks100" index="" image="">
+	<description>Golden Tee 2K (v1.00S)</description>
+	<cloneof>gt2k</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>2000</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt2kt500" index="" image="">
+	<description>Golden Tee 2K Tournament (v5.00)</description>
+	<cloneof>gt2k</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>2000</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtclassc" index="" image="">
+	<description>Golden Tee Classic (v1.00)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>2001</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtclasscp" index="" image="">
+	<description>Golden Tee Classic (v1.00) (alt protection)</description>
+	<cloneof>gtclassc</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>2001</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtclasscs" index="" image="">
+	<description>Golden Tee Classic (v1.00S)</description>
+	<cloneof>gtclassc</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>2001</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jockeygp" index="" image="">
+	<description>Jockey Grand Prix (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sun Amusement / BrezzaSoft</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kof2002" index="" image="">
+	<description>The King of Fighters 2002 (NGM-2650)(NGH-2650)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Eolith / Playmore</manufacturer>
+	<year>2002</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="matrim" index="" image="">
+	<description>Matrimelee / Shin Gouketsuji Ichizoku Toukon (NGM-2660) (NGH-2660)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Noise Factory / Atlus</manufacturer>
+	<year>2002</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ms4plus" index="" image="">
+	<description>Metal Slug 4 Plus (bootleg)</description>
+	<cloneof>mslug4</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2002</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rotd" index="" image="">
+	<description>Rage of the Dragons (NGM-264?)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Evoga / Playmore</manufacturer>
+	<year>2002</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vliner" index="" image="">
+	<description>V-Liner (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dyna / BrezzaSoft</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vlinero" index="" image="">
+	<description>V-Liner (set 2)</description>
+	<cloneof>vliner</cloneof>
+	<crc/>
+	<manufacturer>Dyna / BrezzaSoft</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

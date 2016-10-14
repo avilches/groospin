@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Data East / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="svolleyu" index="" image="">
+	<description>Super Volleyball (US)</description>
+	<cloneof>svolley</cloneof>
+	<crc/>
+	<manufacturer>V-System Co. (Data East license)</manufacturer>
+	<year>1989</year>
+	<genre>Volleyball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wcvol95" index="" image="">
+	<description>World Cup Volley &apos;95 (Japan v1.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1995</year>
+	<genre>Volleyball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wcvol95x" index="" image="">
+	<description>World Cup Volley &apos;95 Extra Version (Asia v2.0B)</description>
+	<cloneof>wcvol95</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1995</year>
+	<genre>Volleyball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

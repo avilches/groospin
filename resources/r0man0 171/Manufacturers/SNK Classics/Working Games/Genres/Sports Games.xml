@@ -1,0 +1,329 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>SNK / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="2020bb" index="" image="">
+	<description>2020 Super Baseball (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK / Pallas</manufacturer>
+	<year>1991</year>
+	<genre>Sports / Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="2020bba" index="" image="">
+	<description>2020 Super Baseball (set 2)</description>
+	<cloneof>2020bb</cloneof>
+	<crc/>
+	<manufacturer>SNK / Pallas</manufacturer>
+	<year>1991</year>
+	<genre>Sports / Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="2020bbh" index="" image="">
+	<description>2020 Super Baseball (set 3)</description>
+	<cloneof>2020bb</cloneof>
+	<crc/>
+	<manufacturer>SNK / Pallas</manufacturer>
+	<year>1991</year>
+	<genre>Sports / Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="3countb" index="" image="">
+	<description>3 Count Bout / Fire Suplex (NGM-043)(NGH-043)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1993</year>
+	<genre>Sports / Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bstars" index="" image="">
+	<description>Baseball Stars Professional (NGM-002)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1990</year>
+	<genre>Sports / Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bstars2" index="" image="">
+	<description>Baseball Stars 2</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1992</year>
+	<genre>Sports / Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bstarsh" index="" image="">
+	<description>Baseball Stars Professional (NGH-002)</description>
+	<cloneof>bstars</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1990</year>
+	<genre>Sports / Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="countryc" index="" image="">
+	<description>Country Club</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1988</year>
+	<genre>Sports / Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fbfrenzy" index="" image="">
+	<description>Football Frenzy (NGM-034)(NGH-034)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1992</year>
+	<genre>Sports / Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fitegolf" index="" image="">
+	<description>Fighting Golf (World?)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1988</year>
+	<genre>Sports / Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fitegolf2" index="" image="">
+	<description>Fighting Golf (US, Ver 2)</description>
+	<cloneof>fitegolf</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1988</year>
+	<genre>Sports / Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fitegolfu" index="" image="">
+	<description>Fighting Golf (US)</description>
+	<cloneof>fitegolf</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1988</year>
+	<genre>Sports / Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fsoccer" index="" image="">
+	<description>Fighting Soccer (version 4)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1988</year>
+	<genre>Sports / Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fsoccerj" index="" image="">
+	<description>Fighting Soccer (Japan)</description>
+	<cloneof>fsoccer</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1988</year>
+	<genre>Sports / Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="goldmedl" index="" image="">
+	<description>Gold Medalist (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1988</year>
+	<genre>Sports / Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="goldmedla" index="" image="">
+	<description>Gold Medalist (set 2)</description>
+	<cloneof>goldmedl</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1988</year>
+	<genre>Sports / Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lbowling" index="" image="">
+	<description>League Bowling (NGM-019)(NGH-019)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1990</year>
+	<genre>Sports / Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mainsnk" index="" image="">
+	<description>Main Event (1984)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1984</year>
+	<genre>Sports / Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="neocup98" index="" image="">
+	<description>Neo-Geo Cup &apos;98 - The Road to the Victory</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1998</year>
+	<genre>Sports / Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="paddlema" index="" image="">
+	<description>Paddle Mania</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1988</year>
+	<genre>Sports / Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_bstar" index="" image="">
+	<description>Baseball Stars: Be a Champ! (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK (Nintendo of America license)</manufacturer>
+	<year>1989</year>
+	<genre>Sports / Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbasebal" index="" image="">
+	<description>Super Champion Baseball (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Alpha Denshi Co. (SNK of America license)</manufacturer>
+	<year>1989</year>
+	<genre>Sports / Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="socbrawl" index="" image="">
+	<description>Soccer Brawl (NGM-031)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1991</year>
+	<genre>Sports / Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="socbrawlh" index="" image="">
+	<description>Soccer Brawl (NGH-031)</description>
+	<cloneof>socbrawl</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1991</year>
+	<genre>Sports / Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssideki" index="" image="">
+	<description>Super Sidekicks / Tokuten Ou</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1992</year>
+	<genre>Sports / Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssideki2" index="" image="">
+	<description>Super Sidekicks 2 - The World Championship / Tokuten Ou 2 - real fight football (NGM-061)(NGH-061)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1994</year>
+	<genre>Sports / Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssideki3" index="" image="">
+	<description>Super Sidekicks 3 - The Next Glory / Tokuten Ou 3 - eikou e no michi</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1995</year>
+	<genre>Sports / Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssideki4" index="" image="">
+	<description>The Ultimate 11 - The SNK Football Championship / Tokuten Ou - Honoo no Libero</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1996</year>
+	<genre>Sports / Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tdfever" index="" image="">
+	<description>TouchDown Fever (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1987</year>
+	<genre>Sports / Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tdfever2" index="" image="">
+	<description>TouchDown Fever 2</description>
+	<cloneof>tdfever</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1988</year>
+	<genre>Sports / Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tdfeverj" index="" image="">
+	<description>TouchDown Fever (Japan)</description>
+	<cloneof>tdfever</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1987</year>
+	<genre>Sports / Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tpgolf" index="" image="">
+	<description>Top Player&apos;s Golf (NGM-003)(NGH-003)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1990</year>
+	<genre>Sports / Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

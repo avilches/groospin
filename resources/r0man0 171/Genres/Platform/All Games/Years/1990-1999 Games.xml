@@ -1,0 +1,2759 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Platform / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="aladmdb" index="" image="">
+	<description>Aladdin (bootleg of Japanese Megadrive version)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>bootleg / Sega</manufacturer>
+	<year>1993</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aliens" index="" image="">
+	<description>Aliens (World set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aliens2" index="" image="">
+	<description>Aliens (World set 2)</description>
+	<cloneof>aliens</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aliens3" index="" image="">
+	<description>Aliens (World set 3)</description>
+	<cloneof>aliens</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aliensa" index="" image="">
+	<description>Aliens (Asia)</description>
+	<cloneof>aliens</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aliensj" index="" image="">
+	<description>Aliens (Japan set 1)</description>
+	<cloneof>aliens</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aliensj2" index="" image="">
+	<description>Aliens (Japan set 2)</description>
+	<cloneof>aliens</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aliensu" index="" image="">
+	<description>Aliens (US)</description>
+	<cloneof>aliens</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="armwar" index="" image="">
+	<description>Armored Warriors (Euro 941024)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="armwar1d" index="" image="">
+	<description>Armored Warriors (Euro 941011 Phoenix Edition) (bootleg)</description>
+	<cloneof>armwar</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="armwara" index="" image="">
+	<description>Armored Warriors (Asia 941024)</description>
+	<cloneof>armwar</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="armwarar1" index="" image="">
+	<description>Armored Warriors (Asia 940920)</description>
+	<cloneof>armwar</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="armwarr1" index="" image="">
+	<description>Armored Warriors (Euro 941011)</description>
+	<cloneof>armwar</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="armwaru" index="" image="">
+	<description>Armored Warriors (USA 941024)</description>
+	<cloneof>armwar</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="armwaru1" index="" image="">
+	<description>Armored Warriors (USA 940920)</description>
+	<cloneof>armwar</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="astorm" index="" image="">
+	<description>Alien Storm (World, 2 Players) (FD1094 317-0154)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="astorm3" index="" image="">
+	<description>Alien Storm (World, 3 Players) (FD1094 317-0148)</description>
+	<cloneof>astorm</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="astorm3d" index="" image="">
+	<description>Alien Storm (World, 3 Players) (bootleg of FD1094 317-0148 set)</description>
+	<cloneof>astorm</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="astormb2" index="" image="">
+	<description>Alien Storm (bootleg, set 2)</description>
+	<cloneof>astorm</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="astormbl" index="" image="">
+	<description>Alien Storm (bootleg, set 1)</description>
+	<cloneof>astorm</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="astormj" index="" image="">
+	<description>Alien Storm (Japan, 2 Players) (FD1094 317-0146)</description>
+	<cloneof>astorm</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="astormjd" index="" image="">
+	<description>Alien Storm (Japan, 2 Players) (bootleg of FD1094 317-0146 set)</description>
+	<cloneof>astorm</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="astormu" index="" image="">
+	<description>Alien Storm (US, 3 Players) (FD1094 317-0147)</description>
+	<cloneof>astorm</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="astormud" index="" image="">
+	<description>Alien Storm (US, 3 Players) (bootleg of FD1094 317-0147 set)</description>
+	<cloneof>astorm</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="atombjt" index="" image="">
+	<description>Atom (bootleg of Bombjack Twin)</description>
+	<cloneof>bjtwin</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1993</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="avspirit" index="" image="">
+	<description>Avenging Spirit</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="batman" index="" image="">
+	<description>Batman</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="beathead" index="" image="">
+	<description>BeatHead (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1993</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="berlwall" index="" image="">
+	<description>The Berlin Wall</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="berlwallk" index="" image="">
+	<description>The Berlin Wall (Korea)</description>
+	<cloneof>berlwall</cloneof>
+	<crc/>
+	<manufacturer>Kaneko (Inter license)</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="berlwallt" index="" image="">
+	<description>The Berlin Wall (bootleg?)</description>
+	<cloneof>berlwall</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bigkarnk" index="" image="">
+	<description>Big Karnak</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="biomtoy" index="" image="">
+	<description>Biomechanical Toy (Ver. 1.0.1885)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1995</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="biomtoya" index="" image="">
+	<description>Biomechanical Toy (Ver. 1.0.1884)</description>
+	<cloneof>biomtoy</cloneof>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1995</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bjourney" index="" image="">
+	<description>Blue&apos;s Journey / Raguy (ALM-001)(ALH-001)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Alpha Denshi Co.</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bjtwin" index="" image="">
+	<description>Bombjack Twin (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>NMK</manufacturer>
+	<year>1993</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bjtwina" index="" image="">
+	<description>Bombjack Twin (set 2)</description>
+	<cloneof>bjtwin</cloneof>
+	<crc/>
+	<manufacturer>NMK</manufacturer>
+	<year>1993</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bjtwinp" index="" image="">
+	<description>Bombjack Twin (prototype? with adult pictures)</description>
+	<cloneof>bjtwin</cloneof>
+	<crc/>
+	<manufacturer>NMK</manufacturer>
+	<year>1993</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bnzabros" index="" image="">
+	<description>Bonanza Bros (US, Floppy DS3-5000-07d? Based)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bnzabrosj" index="" image="">
+	<description>Bonanza Bros (Japan, Floppy DS3-5000-07b Based)</description>
+	<cloneof>bnzabros</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bombkick" index="" image="">
+	<description>Bomb Kick (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Yun Sung</manufacturer>
+	<year>1998</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bombkicka" index="" image="">
+	<description>Bomb Kick (set 2)</description>
+	<cloneof>bombkick</cloneof>
+	<crc/>
+	<manufacturer>Yun Sung</manufacturer>
+	<year>1998</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bonkadv" index="" image="">
+	<description>B.C. Kid / Bonk&apos;s Adventure / Kyukyoku!! PC Genjin</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bubblem" index="" image="">
+	<description>Bubble Memories: The Story Of Bubble Bobble III (Ver 2.4O 1996/02/15)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1995</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bubblemj" index="" image="">
+	<description>Bubble Memories: The Story Of Bubble Bobble III (Ver 2.3J 1996/02/07)</description>
+	<cloneof>bubblem</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1995</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bublbob2" index="" image="">
+	<description>Bubble Bobble II (Ver 2.6O 1994/12/16)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bublbob2o" index="" image="">
+	<description>Bubble Bobble II (Ver 2.5O 1994/10/05)</description>
+	<cloneof>bublbob2</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bublbob2p" index="" image="">
+	<description>Bubble Bobble II (Ver 0.0J 1993/12/13, prototype)</description>
+	<cloneof>bublbob2</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bubsymphb" index="" image="">
+	<description>Bubble Symphony (bootleg with OKI6295)</description>
+	<cloneof>bublbob2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bubsymphe" index="" image="">
+	<description>Bubble Symphony (Ver 2.5O 1994/10/05)</description>
+	<cloneof>bublbob2</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bubsymphj" index="" image="">
+	<description>Bubble Symphony (Ver 2.5J 1994/10/05)</description>
+	<cloneof>bublbob2</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bubsymphu" index="" image="">
+	<description>Bubble Symphony (Ver 2.5A 1994/10/05)</description>
+	<cloneof>bublbob2</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cactus" index="" image="">
+	<description>Cactus (bootleg of Saboten Bombers)</description>
+	<cloneof>sabotenb</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1992</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="candance" index="" image="">
+	<description>Cannon Dancer (Japan)</description>
+	<cloneof>osman</cloneof>
+	<crc/>
+	<manufacturer>Mitchell (Atlus license)</manufacturer>
+	<year>1996</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="catt" index="" image="">
+	<description>Catt (Japan)</description>
+	<cloneof>mcatadv</cloneof>
+	<crc/>
+	<manufacturer>Wintechno</manufacturer>
+	<year>1993</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cbuster" index="" image="">
+	<description>Crude Buster (World FX version)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cbusterj" index="" image="">
+	<description>Crude Buster (Japan FR revision 1)</description>
+	<cloneof>cbuster</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cbusterw" index="" image="">
+	<description>Crude Buster (World FU version)</description>
+	<cloneof>cbuster</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chaoshea" index="" image="">
+	<description>Chaos Heat (V2.09O)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1998</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chaosheaj" index="" image="">
+	<description>Chaos Heat (V2.08J)</description>
+	<cloneof>chaoshea</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1998</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="charlien" index="" image="">
+	<description>Charlie Ninja</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Mitchell</manufacturer>
+	<year>1995</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chikij" index="" image="">
+	<description>Chiki Chiki Boys (Japan 900619)</description>
+	<cloneof>mtwins</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cninja" index="" image="">
+	<description>Caveman Ninja (World ver 4)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cninja1" index="" image="">
+	<description>Caveman Ninja (World ver 1)</description>
+	<cloneof>cninja</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cninjabl" index="" image="">
+	<description>Caveman Ninja (bootleg)</description>
+	<cloneof>cninja</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cninjabl2" index="" image="">
+	<description>Caveman Ninja (bootleg, alt)</description>
+	<cloneof>cninja</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cninjau" index="" image="">
+	<description>Caveman Ninja (US ver 4)</description>
+	<cloneof>cninja</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crazyfgt" index="" image="">
+	<description>Crazy Fight</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Subsino</manufacturer>
+	<year>1996</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cyberlip" index="" image="">
+	<description>Cyber-Lip (NGM-010)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="darktowr" index="" image="">
+	<description>Dark Tower</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>The Game Room</manufacturer>
+	<year>1992</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="demonwld" index="" image="">
+	<description>Demon&apos;s World / Horror Story (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Toaplan</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dietgo" index="" image="">
+	<description>Diet Go Go (Euro v1.1 1992.09.26)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1992</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dietgoe" index="" image="">
+	<description>Diet Go Go (Euro v1.1 1992.08.04)</description>
+	<cloneof>dietgo</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1992</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dietgoj" index="" image="">
+	<description>Diet Go Go (Japan v1.1 1992.09.26)</description>
+	<cloneof>dietgo</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1992</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dietgou" index="" image="">
+	<description>Diet Go Go (USA v1.1 1992.09.26)</description>
+	<cloneof>dietgo</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1992</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="diverboy" index="" image="">
+	<description>Diver Boy</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gamart (Electronic Devices Italy license)</manufacturer>
+	<year>1992</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dkgensan" index="" image="">
+	<description>Daiku no Gensan (Japan, M84)</description>
+	<cloneof>hharry</cloneof>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dkgensanm72" index="" image="">
+	<description>Daiku no Gensan (Japan, M72)</description>
+	<cloneof>hharry</cloneof>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dlair2" index="" image="">
+	<description>Dragon&apos;s Lair 2: Time Warp (US v3.19)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Leland</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dlair2_200" index="" image="">
+	<description>Dragon&apos;s Lair 2: Time Warp (US v2.00, AMOA prototype)</description>
+	<cloneof>dlair2</cloneof>
+	<crc/>
+	<manufacturer>Leland</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dlair2_211" index="" image="">
+	<description>Dragon&apos;s Lair 2: Time Warp (US v2.11)</description>
+	<cloneof>dlair2</cloneof>
+	<crc/>
+	<manufacturer>Leland</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dlair2_300" index="" image="">
+	<description>Dragon&apos;s Lair 2: Time Warp (US v3.00)</description>
+	<cloneof>dlair2</cloneof>
+	<crc/>
+	<manufacturer>Leland</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dlair2_312" index="" image="">
+	<description>Dragon&apos;s Lair 2: Time Warp (Euro v3.12)</description>
+	<cloneof>dlair2</cloneof>
+	<crc/>
+	<manufacturer>Leland</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dlair2_314" index="" image="">
+	<description>Dragon&apos;s Lair 2: Time Warp (US v3.14)</description>
+	<cloneof>dlair2</cloneof>
+	<crc/>
+	<manufacturer>Leland</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dlair2_315" index="" image="">
+	<description>Dragon&apos;s Lair 2: Time Warp (US v3.15)</description>
+	<cloneof>dlair2</cloneof>
+	<crc/>
+	<manufacturer>Leland</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dlair2_315s" index="" image="">
+	<description>Dragon&apos;s Lair 2: Time Warp (Spanish v3.15)</description>
+	<cloneof>dlair2</cloneof>
+	<crc/>
+	<manufacturer>Leland</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dlair2_316e" index="" image="">
+	<description>Dragon&apos;s Lair 2: Time Warp (Euro v3.16)</description>
+	<cloneof>dlair2</cloneof>
+	<crc/>
+	<manufacturer>Leland</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dlair2_317e" index="" image="">
+	<description>Dragon&apos;s Lair 2: Time Warp (Euro v3.17)</description>
+	<cloneof>dlair2</cloneof>
+	<crc/>
+	<manufacturer>Leland</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dlair2_318" index="" image="">
+	<description>Dragon&apos;s Lair 2: Time Warp (US v3.18)</description>
+	<cloneof>dlair2</cloneof>
+	<crc/>
+	<manufacturer>Leland</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dlair2_319e" index="" image="">
+	<description>Dragon&apos;s Lair 2: Time Warp (Euro v3.19)</description>
+	<cloneof>dlair2</cloneof>
+	<crc/>
+	<manufacturer>Leland</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dlair2_319s" index="" image="">
+	<description>Dragon&apos;s Lair 2: Time Warp (Spanish v3.19)</description>
+	<cloneof>dlair2</cloneof>
+	<crc/>
+	<manufacturer>Leland</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dynagear" index="" image="">
+	<description>Dyna Gear</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy</manufacturer>
+	<year>1993</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="eightman" index="" image="">
+	<description>Eight Man (NGM-025)(NGH-025)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK / Pallas</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="elvact2u" index="" image="">
+	<description>Elevator Action II (Ver 2.2A 1995/02/20)</description>
+	<cloneof>elvactr</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="elvactr" index="" image="">
+	<description>Elevator Action Returns (Ver 2.2O 1995/02/20)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="elvactrj" index="" image="">
+	<description>Elevator Action Returns (Ver 2.2J 1995/02/20)</description>
+	<cloneof>elvactr</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="evilston" index="" image="">
+	<description>Evil Stone</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Spacy Industrial, Ltd.</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fncywld" index="" image="">
+	<description>Fancy World - Earth of Crisis</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Unico</manufacturer>
+	<year>1996</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="franticf" index="" image="">
+	<description>Frantic Fred</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>The Game Room</manufacturer>
+	<year>1996</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="funkyjet" index="" image="">
+	<description>Funky Jet (World, rev 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East (Mitchell license)</manufacturer>
+	<year>1992</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="funkyjeta" index="" image="">
+	<description>Funky Jet (World)</description>
+	<cloneof>funkyjet</cloneof>
+	<crc/>
+	<manufacturer>Data East (Mitchell license)</manufacturer>
+	<year>1992</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="funkyjetj" index="" image="">
+	<description>Funky Jet (Japan, rev 2)</description>
+	<cloneof>funkyjet</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1992</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ganryu" index="" image="">
+	<description>Ganryu / Musashi Ganryuki</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Visco</manufacturer>
+	<year>1999</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="geostorm" index="" image="">
+	<description>Geo Storm (Japan)</description>
+	<cloneof>gunforc2</cloneof>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="grainbow" index="" image="">
+	<description>SD Gundam Sangokushi Rainbow Tairiku Senki</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Banpresto</manufacturer>
+	<year>1993</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gunforc2" index="" image="">
+	<description>Gun Force II (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gunforce" index="" image="">
+	<description>Gunforce - Battle Fire Engulfed Terror Island (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gunforcej" index="" image="">
+	<description>Gunforce - Battle Fire Engulfed Terror Island (Japan)</description>
+	<cloneof>gunforce</cloneof>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gunforceu" index="" image="">
+	<description>Gunforce - Battle Fire Engulfed Terror Island (US)</description>
+	<cloneof>gunforce</cloneof>
+	<crc/>
+	<manufacturer>Irem America</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hardhea2" index="" image="">
+	<description>Hard Head 2 (v2.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SunA</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hardhea2b" index="" image="">
+	<description>Hard Head 2 (v2.0, bootleg)</description>
+	<cloneof>hardhea2</cloneof>
+	<crc/>
+	<manufacturer>SunA</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hedpanico" index="" image="">
+	<description>Head Panic (ver. 0615, 15/06/1999)</description>
+	<cloneof>hedpanic</cloneof>
+	<crc/>
+	<manufacturer>ESD</manufacturer>
+	<year>1999</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hharry" index="" image="">
+	<description>Hammerin&apos; Harry (World, M81)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hharryu" index="" image="">
+	<description>Hammerin&apos; Harry (US, M84)</description>
+	<cloneof>hharry</cloneof>
+	<crc/>
+	<manufacturer>Irem America</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hshavoc" index="" image="">
+	<description>High Seas Havoc</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East</manufacturer>
+	<year>1993</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jjsquawk" index="" image="">
+	<description>J. J. Squawkers</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Athena / Able</manufacturer>
+	<year>1993</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jjsquawkb" index="" image="">
+	<description>J. J. Squawkers (bootleg)</description>
+	<cloneof>jjsquawk</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1993</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jjsquawkb2" index="" image="">
+	<description>J. J. Squawkers (bootleg, Blandia Conversion)</description>
+	<cloneof>jjsquawk</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1993</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jjsquawko" index="" image="">
+	<description>J. J. Squawkers (older)</description>
+	<cloneof>jjsquawk</cloneof>
+	<crc/>
+	<manufacturer>Athena / Able</manufacturer>
+	<year>1993</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="joemac" index="" image="">
+	<description>Tatakae Genshizin Joe &amp; Mac (Japan ver 1)</description>
+	<cloneof>cninja</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="joemacr" index="" image="">
+	<description>Joe &amp; Mac Returns (World, Version 1.1, 1994.05.27)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="joemacra" index="" image="">
+	<description>Joe &amp; Mac Returns (World, Version 1.0, 1994.05.19)</description>
+	<cloneof>joemacr</cloneof>
+	<crc/>
+	<manufacturer>Data East</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="joemacrj" index="" image="">
+	<description>Joe &amp; Mac Returns (Japan, Version 1.2, 1994.06.06)</description>
+	<cloneof>joemacr</cloneof>
+	<crc/>
+	<manufacturer>Data East</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jujub" index="" image="">
+	<description>JuJu Densetsu (Playmark bootleg)</description>
+	<cloneof>toki</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Playmark)</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jumpkids" index="" image="">
+	<description>Jump Kids</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Comad</manufacturer>
+	<year>1993</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kdynastg" index="" image="">
+	<description>King of Dynast Gear (version 1.8)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>EZ Graphics</manufacturer>
+	<year>1999</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="keroppi" index="" image="">
+	<description>Kero Kero Keroppi&apos;s Let&apos;s Play Together (USA, Version 2.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>American Sammy</manufacturer>
+	<year>1995</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="keroppij" index="" image="">
+	<description>Kero Kero Keroppi no Issyoni Asobou (Japan)</description>
+	<cloneof>keroppi</cloneof>
+	<crc/>
+	<manufacturer>Sammy Industries</manufacturer>
+	<year>1993</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="liquidk" index="" image="">
+	<description>Liquid Kids (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="liquidku" index="" image="">
+	<description>Liquid Kids (US)</description>
+	<cloneof>liquidk</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="littlerb" index="" image="">
+	<description>Little Robin</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>TCH</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="maglord" index="" image="">
+	<description>Magician Lord (NGM-005)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Alpha Denshi Co.</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="maglordh" index="" image="">
+	<description>Magician Lord (NGH-005)</description>
+	<cloneof>maglord</cloneof>
+	<crc/>
+	<manufacturer>Alpha Denshi Co.</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="magtruck" index="" image="">
+	<description>Magical Truck Adventure (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1998</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mcatadv" index="" image="">
+	<description>Magical Cat Adventure</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Wintechno</manufacturer>
+	<year>1993</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mcatadvj" index="" image="">
+	<description>Magical Cat Adventure (Japan)</description>
+	<cloneof>mcatadv</cloneof>
+	<crc/>
+	<manufacturer>Wintechno</manufacturer>
+	<year>1993</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="metlsavr" index="" image="">
+	<description>Metal Saver</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>First Amusement</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mizubaku" index="" image="">
+	<description>Mizubaku Daibouken (Japan)</description>
+	<cloneof>liquidk</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="monkelf" index="" image="">
+	<description>Monky Elf (Korean bootleg of Avenging Spirit)</description>
+	<cloneof>avspirit</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="moomesa" index="" image="">
+	<description>Wild West C.O.W.-Boys of Moo Mesa (ver EAB)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="moomesaaab" index="" image="">
+	<description>Wild West C.O.W.-Boys of Moo Mesa (ver AAB)</description>
+	<cloneof>moomesa</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="moomesabl" index="" image="">
+	<description>Wild West C.O.W.-Boys of Moo Mesa (bootleg)</description>
+	<cloneof>moomesa</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1992</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="moomesauab" index="" image="">
+	<description>Wild West C.O.W.-Boys of Moo Mesa (ver UAB)</description>
+	<cloneof>moomesa</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="moomesauac" index="" image="">
+	<description>Wild West C.O.W.-Boys of Moo Mesa (ver UAC)</description>
+	<cloneof>moomesa</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mp_shnb3" index="" image="">
+	<description>Shinobi III (Mega Play)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mp_soni2" index="" image="">
+	<description>Sonic The Hedgehog 2 (Mega Play)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mp_sonic" index="" image="">
+	<description>Sonic The Hedgehog (Mega Play)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mslug" index="" image="">
+	<description>Metal Slug - Super Vehicle-001</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nazca</manufacturer>
+	<year>1996</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mslug2" index="" image="">
+	<description>Metal Slug 2 - Super Vehicle-001/II (NGM-2410)(NGH-2410)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1998</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mslugx" index="" image="">
+	<description>Metal Slug X - Super Vehicle-001 (NGM-2500)(NGH-2500)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1999</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="msword" index="" image="">
+	<description>Magic Sword: Heroic Fantasy (World 900725)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mswordj" index="" image="">
+	<description>Magic Sword: Heroic Fantasy (Japan 900623)</description>
+	<cloneof>msword</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mswordr1" index="" image="">
+	<description>Magic Sword: Heroic Fantasy (World 900623)</description>
+	<cloneof>msword</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mswordu" index="" image="">
+	<description>Magic Sword: Heroic Fantasy (USA 900725)</description>
+	<cloneof>msword</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mt_astrm" index="" image="">
+	<description>Alien Storm (Mega-Tech)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mt_bbros" index="" image="">
+	<description>Bonanza Bros. (Mega-Tech)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mt_eswat" index="" image="">
+	<description>Cyber Police ESWAT: Enhanced Special Weapons and Tactics (Mega-Tech)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mt_kcham" index="" image="">
+	<description>Kid Chameleon (Mega-Tech)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mt_mwalk" index="" image="">
+	<description>Michael Jackson&apos;s Moonwalker (Mega-Tech)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mt_shado" index="" image="">
+	<description>Shadow Dancer (Mega-Tech)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mt_soni2" index="" image="">
+	<description>Sonic The Hedgehog 2 (Mega-Tech)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mt_sonia" index="" image="">
+	<description>Sonic The Hedgehog (Mega-Tech, set 2)</description>
+	<cloneof>mt_sonic</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mt_sonic" index="" image="">
+	<description>Sonic The Hedgehog (Mega-Tech, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mtwins" index="" image="">
+	<description>Mega Twins (World 900619)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nemo" index="" image="">
+	<description>Nemo (World 901130)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nemoj" index="" image="">
+	<description>Nemo (Japan 901120)</description>
+	<cloneof>nemo</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nemor1" index="" image="">
+	<description>Nemo (World 901109)</description>
+	<cloneof>nemo</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nss_actr" index="" image="">
+	<description>Act Raiser (Nintendo Super System)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Enix</manufacturer>
+	<year>1992</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nss_adam" index="" image="">
+	<description>The Addams Family (Nintendo Super System)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Ocean</manufacturer>
+	<year>1992</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nss_con3" index="" image="">
+	<description>Contra 3: The Alien Wars (Nintendo Super System)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nss_lwep" index="" image="">
+	<description>Lethal Weapon (Nintendo Super System)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Ocean</manufacturer>
+	<year>1992</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nss_rob3" index="" image="">
+	<description>Robocop 3 (Nintendo Super System)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Ocean</manufacturer>
+	<year>1992</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nss_smw" index="" image="">
+	<description>Super Mario World (Nintendo Super System)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="osman" index="" image="">
+	<description>Osman (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Mitchell</manufacturer>
+	<year>1996</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="outfxies" index="" image="">
+	<description>The Outfoxies (World, OU2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="outfxiesj" index="" image="">
+	<description>The Outfoxies (Japan, OU1)</description>
+	<cloneof>outfxies</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pangpang" index="" image="">
+	<description>Pang Pang</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dong Gue La Mi Ltd.</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pangpoms" index="" image="">
+	<description>Pang Pom&apos;s</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Metro</manufacturer>
+	<year>1992</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pangpomsm" index="" image="">
+	<description>Pang Pom&apos;s (Mitchell)</description>
+	<cloneof>pangpoms</cloneof>
+	<crc/>
+	<manufacturer>Metro (Mitchell license)</manufacturer>
+	<year>1992</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_mman3" index="" image="">
+	<description>Mega Man III (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom USA (Nintendo of America license)</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_ngai2" index="" image="">
+	<description>Ninja Gaiden Episode II: The Dark Sword of Chaos (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Tecmo (Nintendo of America license)</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_ngai3" index="" image="">
+	<description>Ninja Gaiden Episode III: The Ancient Ship of Doom (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Tecmo (Nintendo of America license)</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_pwbld" index="" image="">
+	<description>Power Blade (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito (Nintendo of America license)</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_rkats" index="" image="">
+	<description>Rockin&apos; Kats (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atlus (Nintendo of America license)</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_suprc" index="" image="">
+	<description>Super C (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami (Nintendo of America license)</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_ynoid" index="" image="">
+	<description>Yo! Noid (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom USA (Nintendo of America license)</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pgear" index="" image="">
+	<description>Powered Gear: Strategic Variant Armor Equipment (Japan 941024)</description>
+	<cloneof>armwar</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pgearr1" index="" image="">
+	<description>Powered Gear: Strategic Variant Armor Equipment (Japan 940916)</description>
+	<cloneof>armwar</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="phantasm" index="" image="">
+	<description>Phantasm (Japan)</description>
+	<cloneof>avspirit</cloneof>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pigout" index="" image="">
+	<description>Pig Out: Dine Like a Swine! (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Leland Corp.</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pigouta" index="" image="">
+	<description>Pig Out: Dine Like a Swine! (set 2)</description>
+	<cloneof>pigout</cloneof>
+	<crc/>
+	<manufacturer>Leland Corp.</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="raccoon" index="" image="">
+	<description>Raccoon World</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Eolith</manufacturer>
+	<year>1998</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="recalh" index="" image="">
+	<description>Recalhorn (Ver 1.42J 1994/5/11, prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rittam" index="" image="">
+	<description>R&amp;T (Rod-Land prototype?)</description>
+	<cloneof>rodland</cloneof>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rmpgwt" index="" image="">
+	<description>Rampage: World Tour (rev 1.3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1997</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rmpgwt11" index="" image="">
+	<description>Rampage: World Tour (rev 1.1)</description>
+	<cloneof>rmpgwt</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1997</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rodland" index="" image="">
+	<description>Rod-Land (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rodlandj" index="" image="">
+	<description>Rod-Land (Japan)</description>
+	<cloneof>rodland</cloneof>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rodlandjb" index="" image="">
+	<description>Rod-Land (Japan bootleg)</description>
+	<cloneof>rodland</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rohga" index="" image="">
+	<description>Rohga Armor Force (Asia/Europe v5.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rohga1" index="" image="">
+	<description>Rohga Armor Force (Asia/Europe v3.0 set 1)</description>
+	<cloneof>rohga</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rohga2" index="" image="">
+	<description>Rohga Armor Force (Asia/Europe v3.0 set 2)</description>
+	<cloneof>rohga</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rohgah" index="" image="">
+	<description>Rohga Armor Force (Hong Kong v3.0)</description>
+	<cloneof>rohga</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rohgau" index="" image="">
+	<description>Rohga Armor Force (US v1.0)</description>
+	<cloneof>rohga</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rthun2" index="" image="">
+	<description>Rolling Thunder 2</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rthun2j" index="" image="">
+	<description>Rolling Thunder 2 (Japan)</description>
+	<cloneof>rthun2</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sabotenb" index="" image="">
+	<description>Saboten Bombers (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>NMK / Tecmo</manufacturer>
+	<year>1992</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sabotenba" index="" image="">
+	<description>Saboten Bombers (set 2)</description>
+	<cloneof>sabotenb</cloneof>
+	<crc/>
+	<manufacturer>NMK / Tecmo</manufacturer>
+	<year>1992</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shiryu2" index="" image="">
+	<description>Strider Hiryu 2 (Japan 991213)</description>
+	<cloneof>strider2</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1999</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shpeng" index="" image="">
+	<description>Sea Hunter Penguin</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>WSAC Systems?</manufacturer>
+	<year>1995</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="snowbro2" index="" image="">
+	<description>Snow Bros. 2 - With New Elves / Otenki Paradise</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Hanafram</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="snowbro2b" index="" image="">
+	<description>Snow Bros. 2 - With New Elves / Otenki Paradise (bootleg)</description>
+	<cloneof>snowbro2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1998</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="snowbros" index="" image="">
+	<description>Snow Bros. - Nick &amp; Tom (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Toaplan</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="snowbrosa" index="" image="">
+	<description>Snow Bros. - Nick &amp; Tom (set 2)</description>
+	<cloneof>snowbros</cloneof>
+	<crc/>
+	<manufacturer>Toaplan</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="snowbrosb" index="" image="">
+	<description>Snow Bros. - Nick &amp; Tom (set 3)</description>
+	<cloneof>snowbros</cloneof>
+	<crc/>
+	<manufacturer>Toaplan</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="snowbrosc" index="" image="">
+	<description>Snow Bros. - Nick &amp; Tom (set 4)</description>
+	<cloneof>snowbros</cloneof>
+	<crc/>
+	<manufacturer>Toaplan</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="snowbrosd" index="" image="">
+	<description>Snow Bros. - Nick &amp; Tom (Dooyong license)</description>
+	<cloneof>snowbros</cloneof>
+	<crc/>
+	<manufacturer>Toaplan (Dooyong license)</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="snowbrosj" index="" image="">
+	<description>Snow Bros. - Nick &amp; Tom (Japan)</description>
+	<cloneof>snowbros</cloneof>
+	<crc/>
+	<manufacturer>Toaplan</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="snowbroswb" index="" image="">
+	<description>Snow Bros. - Nick &amp; Tom (The Winter Bobble hardware bootleg)</description>
+	<cloneof>snowbros</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sokonuke" index="" image="">
+	<description>Sokonuke Taisen Game (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy Industries</manufacturer>
+	<year>1995</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sonic" index="" image="">
+	<description>SegaSonic The Hedgehog (Japan, rev. C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sonic2mb" index="" image="">
+	<description>Sonic The Hedgehog 2 (bootleg of Megadrive version)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>bootleg / Sega</manufacturer>
+	<year>1993</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sonicp" index="" image="">
+	<description>SegaSonic The Hedgehog (Japan, prototype)</description>
+	<cloneof>sonic</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spacea91" index="" image="">
+	<description>Space Ace (DL2 Conversion) (US v1.3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Leland</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spacea91_13e" index="" image="">
+	<description>Space Ace (DL2 Conversion) (Euro v1.3)</description>
+	<cloneof>spacea91</cloneof>
+	<crc/>
+	<manufacturer>Leland</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spidman" index="" image="">
+	<description>Spider-Man: The Videogame (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spidmanj" index="" image="">
+	<description>Spider-Man: The Videogame (Japan)</description>
+	<cloneof>spidman</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spidmanu" index="" image="">
+	<description>Spider-Man: The Videogame (US)</description>
+	<cloneof>spidman</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spinmast" index="" image="">
+	<description>Spin Master / Miracle Adventure</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssriders" index="" image="">
+	<description>Sunset Riders (4 Players ver EAC)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssriders2" index="" image="">
+	<description>Sunset Riders 2 (bootleg 4 Players ver ADD)</description>
+	<cloneof>ssriders</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssridersabd" index="" image="">
+	<description>Sunset Riders (2 Players ver ABD)</description>
+	<cloneof>ssriders</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssridersadd" index="" image="">
+	<description>Sunset Riders (4 Players ver ADD)</description>
+	<cloneof>ssriders</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssridersb" index="" image="">
+	<description>Sunset Riders (bootleg 4 Players ver ADD)</description>
+	<cloneof>ssriders</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssriderseaa" index="" image="">
+	<description>Sunset Riders (4 Players ver EAA)</description>
+	<cloneof>ssriders</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssridersebc" index="" image="">
+	<description>Sunset Riders (2 Players ver EBC)</description>
+	<cloneof>ssriders</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssridersebd" index="" image="">
+	<description>Sunset Riders (2 Players ver EBD)</description>
+	<cloneof>ssriders</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssridersjac" index="" image="">
+	<description>Sunset Riders (4 Players ver JAC)</description>
+	<cloneof>ssriders</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssridersjad" index="" image="">
+	<description>Sunset Riders (4 Players ver JAD)</description>
+	<cloneof>ssriders</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssridersjbd" index="" image="">
+	<description>Sunset Riders (2 Players ver JBD)</description>
+	<cloneof>ssriders</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssridersuab" index="" image="">
+	<description>Sunset Riders (4 Players ver UAB)</description>
+	<cloneof>ssriders</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssridersuac" index="" image="">
+	<description>Sunset Riders (4 Players ver UAC)</description>
+	<cloneof>ssriders</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssridersubc" index="" image="">
+	<description>Sunset Riders (2 Players ver UBC)</description>
+	<cloneof>ssriders</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssridersuda" index="" image="">
+	<description>Sunset Riders (4 Players ver UDA)</description>
+	<cloneof>ssriders</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stoneage" index="" image="">
+	<description>Stoneage (bootleg of Caveman Ninja)</description>
+	<cloneof>cninja</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="strider2" index="" image="">
+	<description>Strider 2 (USA 991213)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1999</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="strider2a" index="" image="">
+	<description>Strider 2 (Asia 991213)</description>
+	<cloneof>strider2</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1999</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="supbtime" index="" image="">
+	<description>Super Burger Time (World, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="supbtimea" index="" image="">
+	<description>Super Burger Time (World, set 2)</description>
+	<cloneof>supbtime</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="supbtimej" index="" image="">
+	<description>Super Burger Time (Japan)</description>
+	<cloneof>supbtime</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="suprtrio" index="" image="">
+	<description>Super Trio</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gameace</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="suratk" index="" image="">
+	<description>Surprise Attack (World ver. K)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="suratka" index="" image="">
+	<description>Surprise Attack (Asia ver. L)</description>
+	<cloneof>suratk</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="suratkj" index="" image="">
+	<description>Surprise Attack (Japan ver. M)</description>
+	<cloneof>suratk</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thoop" index="" image="">
+	<description>Thunder Hoop (Ver. 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1992</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thoop2" index="" image="">
+	<description>TH Strikes Back</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thundfox" index="" image="">
+	<description>Thunder Fox (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thundfoxj" index="" image="">
+	<description>Thunder Fox (Japan)</description>
+	<cloneof>thundfox</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thundfoxu" index="" image="">
+	<description>Thunder Fox (US)</description>
+	<cloneof>thundfox</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="timetrv" index="" image="">
+	<description>Time Traveler</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Virtual Image Productions (Sega license)</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tokib" index="" image="">
+	<description>Toki (Datsu bootleg)</description>
+	<cloneof>toki</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Datsu)</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tophuntr" index="" image="">
+	<description>Top Hunter - Roddy &amp; Cathy (NGM-046)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tophuntrh" index="" image="">
+	<description>Top Hunter - Roddy &amp; Cathy (NGH-046)</description>
+	<cloneof>tophuntr</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="toppyrap" index="" image="">
+	<description>Toppy &amp; Rappy</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SemiCom</manufacturer>
+	<year>1996</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="toto" index="" image="">
+	<description>Come Back Toto</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SoftClub</manufacturer>
+	<year>1996</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tumbleb" index="" image="">
+	<description>Tumble Pop (bootleg)</description>
+	<cloneof>tumblep</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tumbleb2" index="" image="">
+	<description>Tumble Pop (bootleg with PIC)</description>
+	<cloneof>tumblep</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tumblep" index="" image="">
+	<description>Tumble Pop (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tumblepba" index="" image="">
+	<description>Tumble Pop (Playmark bootleg)</description>
+	<cloneof>tumblep</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Playmark)</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tumblepj" index="" image="">
+	<description>Tumble Pop (Japan)</description>
+	<cloneof>tumblep</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="twocrude" index="" image="">
+	<description>Two Crude (US FT revision 1)</description>
+	<cloneof>cbuster</cloneof>
+	<crc/>
+	<manufacturer>Data East USA</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="twocrudea" index="" image="">
+	<description>Two Crude (US FT version)</description>
+	<cloneof>cbuster</cloneof>
+	<crc/>
+	<manufacturer>Data East USA</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="uballoon" index="" image="">
+	<description>Ultra Balloon</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SunA (Unico license)</manufacturer>
+	<year>1996</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wintbob" index="" image="">
+	<description>The Winter Bobble (bootleg of Snow Bros.)</description>
+	<cloneof>snowbros</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Sakowa Project Korea)</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wolffang" index="" image="">
+	<description>Wolf Fang -Kuhga 2001- (Japan)</description>
+	<cloneof>rohga</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

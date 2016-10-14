@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Platform / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="ar_argh" index="" image="">
+	<description>Aaargh (Arcadia)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Arcadia Systems</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dkonghrd" index="" image="">
+	<description>Donkey Kong (hard kit)</description>
+	<cloneof>dkong</cloneof>
+	<crc/>
+	<manufacturer>Nintendo of America</manufacturer>
+	<year>1981</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="funkyjet" index="" image="">
+	<description>Funky Jet (World, rev 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East (Mitchell license)</manufacturer>
+	<year>1992</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hunchbks2" index="" image="">
+	<description>Hunchback (Scramble hardware, bootleg)</description>
+	<cloneof>hunchbak</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Sig)</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="keroppi" index="" image="">
+	<description>Kero Kero Keroppi&apos;s Let&apos;s Play Together (USA, Version 2.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>American Sammy</manufacturer>
+	<year>1995</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rranger" index="" image="">
+	<description>Rough Ranger (v2.0)</description>
+	<cloneof>sranger</cloneof>
+	<crc/>
+	<manufacturer>SunA (Sharp Image license)</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="snowbro2b" index="" image="">
+	<description>Snow Bros. 2 - With New Elves / Otenki Paradise (bootleg)</description>
+	<cloneof>snowbro2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1998</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spidmanj" index="" image="">
+	<description>Spider-Man: The Videogame (Japan)</description>
+	<cloneof>spidman</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trojanb" index="" image="">
+	<description>Trojan (bootleg)</description>
+	<cloneof>trojan</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

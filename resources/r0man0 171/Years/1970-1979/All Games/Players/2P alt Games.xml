@@ -1,0 +1,1709 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1970-1979 / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="abattle" index="" image="">
+	<description>Astro Battle (set 1)</description>
+	<cloneof>astrof</cloneof>
+	<crc/>
+	<manufacturer>bootleg? (Sidam)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="abattle2" index="" image="">
+	<description>Astro Battle (set 2)</description>
+	<cloneof>astrof</cloneof>
+	<crc/>
+	<manufacturer>bootleg? (Sidam)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="acombat" index="" image="">
+	<description>Astro Combat (newer, CB)</description>
+	<cloneof>astrof</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="acombat3" index="" image="">
+	<description>Astro Combat (unencrypted)</description>
+	<cloneof>astrof</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Proel)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="acombato" index="" image="">
+	<description>Astro Combat (older, PZ)</description>
+	<cloneof>astrof</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="afire" index="" image="">
+	<description>Astro Fire</description>
+	<cloneof>astrof</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Rene Pierre)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="asterock" index="" image="">
+	<description>Asterock (Sidam bootleg of Asteroids)</description>
+	<cloneof>asteroid</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Sidam)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="asterockv" index="" image="">
+	<description>Asterock (Videotron bootleg of Asteroids)</description>
+	<cloneof>asteroid</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Videotron)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="asteroid" index="" image="">
+	<description>Asteroids (rev 4)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="asteroid1" index="" image="">
+	<description>Asteroids (rev 1)</description>
+	<cloneof>asteroid</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="asteroid2" index="" image="">
+	<description>Asteroids (rev 2)</description>
+	<cloneof>asteroid</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="asteroidb" index="" image="">
+	<description>Asteroids (bootleg on Lunar Lander hardware)</description>
+	<cloneof>asteroid</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="astrof" index="" image="">
+	<description>Astro Fighter (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="astrof2" index="" image="">
+	<description>Astro Fighter (set 2)</description>
+	<cloneof>astrof</cloneof>
+	<crc/>
+	<manufacturer>Data East</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="astrof3" index="" image="">
+	<description>Astro Fighter (set 3)</description>
+	<cloneof>astrof</cloneof>
+	<crc/>
+	<manufacturer>Data East</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="barrier" index="" image="">
+	<description>Barrier</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Cinematronics (Vectorbeam license)</manufacturer>
+	<year>1979</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="beaminv" index="" image="">
+	<description>Beam Invader</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Teknon Kogyo</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bombbee" index="" image="">
+	<description>Bomb Bee</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1979</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bowl3d" index="" image="">
+	<description>3-D Bowling</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Meadows Games, Inc.</manufacturer>
+	<year>1978</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="breakout" index="" image="">
+	<description>Breakout [TTL]</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1976</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="car2" index="" image="">
+	<description>Car 2 (bootleg of Head On 2)</description>
+	<cloneof>headon2</cloneof>
+	<crc/>
+	<manufacturer>bootleg (RZ Bologna)</manufacturer>
+	<year>1979</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="carhntds" index="" image="">
+	<description>Car Hunt / Deep Scan (France)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1979</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="clayshoo" index="" image="">
+	<description>Clay Shoot</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Allied Leisure</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cosmica" index="" image="">
+	<description>Cosmic Alien (version II)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Universal</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cosmica1" index="" image="">
+	<description>Cosmic Alien (first version)</description>
+	<cloneof>cosmica</cloneof>
+	<crc/>
+	<manufacturer>Universal</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cosmica2" index="" image="">
+	<description>Cosmic Alien (early version II?)</description>
+	<cloneof>cosmica</cloneof>
+	<crc/>
+	<manufacturer>Universal</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cosmicg" index="" image="">
+	<description>Cosmic Guerilla</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Universal</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cosmicgi" index="" image="">
+	<description>Cosmic Guerilla (Spanish bootleg)</description>
+	<cloneof>cosmicg</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Inder)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cosmicm2" index="" image="">
+	<description>Cosmic Monsters 2</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>Taito / Universal</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cosmicmo" index="" image="">
+	<description>Cosmic Monsters (version II)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>Taito / Universal</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cosmo" index="" image="">
+	<description>Cosmo</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>TDS &amp; MINTS</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crash" index="" image="">
+	<description>Crash</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Exidy</manufacturer>
+	<year>1979</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cutieq" index="" image="">
+	<description>Cutie Q</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1979</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="darthvdr" index="" image="">
+	<description>Darth Vader (bootleg of Space Invaders)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="desterth" index="" image="">
+	<description>Destination Earth (bootleg of Lunar Rescue)</description>
+	<cloneof>lrescue</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dodgem" index="" image="">
+	<description>Dodgem</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Zaccaria</manufacturer>
+	<year>1979</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dplay" index="" image="">
+	<description>Double Play</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1977</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="einning" index="" image="">
+	<description>Extra Inning / Ball Park II</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway / Taito</manufacturer>
+	<year>1978</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fgoal" index="" image="">
+	<description>Field Goal (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1979</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fgoala" index="" image="">
+	<description>Field Goal (set 2)</description>
+	<cloneof>fgoal</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1979</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galap1" index="" image="">
+	<description>Space Invaders Galactica (galaxiana hack)</description>
+	<cloneof>galaxian</cloneof>
+	<crc/>
+	<manufacturer>hack</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galap4" index="" image="">
+	<description>Galaxian Part 4 (hack)</description>
+	<cloneof>galaxian</cloneof>
+	<crc/>
+	<manufacturer>hack (G.G.I)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galapx" index="" image="">
+	<description>Galaxian Part X (moonaln hack)</description>
+	<cloneof>galaxian</cloneof>
+	<crc/>
+	<manufacturer>hack</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galaxbsf2" index="" image="">
+	<description>Galaxian (bootleg, set 3)</description>
+	<cloneof>galaxian</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galaxia" index="" image="">
+	<description>Galaxia (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Zaccaria / Zelco</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galaxiaa" index="" image="">
+	<description>Galaxia (set 2)</description>
+	<cloneof>galaxia</cloneof>
+	<crc/>
+	<manufacturer>Zaccaria / Zelco</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galaxiab" index="" image="">
+	<description>Galaxia (set 3)</description>
+	<cloneof>galaxia</cloneof>
+	<crc/>
+	<manufacturer>Zaccaria / Zelco</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galaxiac" index="" image="">
+	<description>Galaxia (set 4)</description>
+	<cloneof>galaxia</cloneof>
+	<crc/>
+	<manufacturer>Zaccaria / Zelco</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galaxian" index="" image="">
+	<description>Galaxian (Namco set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galaxiana" index="" image="">
+	<description>Galaxian (Namco set 2)</description>
+	<cloneof>galaxian</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galaxianbl" index="" image="">
+	<description>Galaxian (bootleg, set 2)</description>
+	<cloneof>galaxian</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galaxiani" index="" image="">
+	<description>Galaxian (Irem)</description>
+	<cloneof>galaxian</cloneof>
+	<crc/>
+	<manufacturer>bootleg? (Irem)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galaxianm" index="" image="">
+	<description>Galaxian (Midway set 1)</description>
+	<cloneof>galaxian</cloneof>
+	<crc/>
+	<manufacturer>Namco (Midway license)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galaxianmo" index="" image="">
+	<description>Galaxian (Midway set 2)</description>
+	<cloneof>galaxian</cloneof>
+	<crc/>
+	<manufacturer>Namco (Midway license)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galaxiant" index="" image="">
+	<description>Galaxian (Taito)</description>
+	<cloneof>galaxian</cloneof>
+	<crc/>
+	<manufacturer>Namco (Taito license)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galmonst" index="" image="">
+	<description>Galaxy Monsters (Laguna S.A. Spanish bootleg of Space Invaders)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Laguna S.A.)</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galturbo" index="" image="">
+	<description>Galaxian Turbo (superg hack)</description>
+	<cloneof>galaxian</cloneof>
+	<crc/>
+	<manufacturer>hack</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galxwars" index="" image="">
+	<description>Galaxy Wars (Universal set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Universal</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galxwars2" index="" image="">
+	<description>Galaxy Wars (Universal set 2)</description>
+	<cloneof>galxwars</cloneof>
+	<crc/>
+	<manufacturer>Universal</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galxwarst" index="" image="">
+	<description>Galaxy Wars (Taito?)</description>
+	<cloneof>galxwars</cloneof>
+	<crc/>
+	<manufacturer>Universal (Taito license?)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="geebee" index="" image="">
+	<description>Gee Bee (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1978</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="geebeeb" index="" image="">
+	<description>Gee Bee (Europe)</description>
+	<cloneof>geebee</cloneof>
+	<crc/>
+	<manufacturer>Namco (F.lli Bertolino license)</manufacturer>
+	<year>1978</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="geebeeg" index="" image="">
+	<description>Gee Bee (US)</description>
+	<cloneof>geebee</cloneof>
+	<crc/>
+	<manufacturer>Namco (Gremlin license)</manufacturer>
+	<year>1978</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="grescue" index="" image="">
+	<description>Galaxy Rescue</description>
+	<cloneof>lrescue</cloneof>
+	<crc/>
+	<manufacturer>Taito (Universal license?)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="headon" index="" image="">
+	<description>Head On (2 players)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gremlin</manufacturer>
+	<year>1979</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="headon2" index="" image="">
+	<description>Head On 2</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1979</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="headoni" index="" image="">
+	<description>Head On (Irem, M-15 Hardware)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1979</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="highsplt" index="" image="">
+	<description>Space Fever High Splitter (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="highsplta" index="" image="">
+	<description>Space Fever High Splitter (set 2)</description>
+	<cloneof>highsplt</cloneof>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="highspltb" index="" image="">
+	<description>Space Fever High Splitter (alt Sound)</description>
+	<cloneof>highsplt</cloneof>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hyperspc" index="" image="">
+	<description>Hyperspace (bootleg of Asteroids)</description>
+	<cloneof>asteroid</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Rumiano)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="invader4" index="" image="">
+	<description>Space Invaders Part Four</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="invaderl" index="" image="">
+	<description>Space Invaders (Logitec)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>Taito / Logitec</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="invaders" index="" image="">
+	<description>Space Invaders / Space Invaders M</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito / Midway</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="invadpt2" index="" image="">
+	<description>Space Invaders Part II (Taito)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="invadpt2br" index="" image="">
+	<description>Space Invaders Part II (Brazil)</description>
+	<cloneof>invadpt2</cloneof>
+	<crc/>
+	<manufacturer>Taito do Brasil</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="invadrmr" index="" image="">
+	<description>Space Invaders (Model Racing)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>Taito / Model Racing</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="invds" index="" image="">
+	<description>Invinco / Deep Scan</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1979</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="invho2" index="" image="">
+	<description>Invinco / Head On 2</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1979</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="invinco" index="" image="">
+	<description>Invinco</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ipminvad" index="" image="">
+	<description>IPM Invader</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IPM</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jspecter" index="" image="">
+	<description>Jatre Specter (set 1)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Jatre)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jspecter2" index="" image="">
+	<description>Jatre Specter (set 2)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Jatre)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kamakazi3" index="" image="">
+	<description>Kamakazi III (superg hack)</description>
+	<cloneof>galaxian</cloneof>
+	<crc/>
+	<manufacturer>hack</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lrescue" index="" image="">
+	<description>Lunar Rescue</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lrescuem" index="" image="">
+	<description>Lunar Rescue (Model Racing bootleg, set 1)</description>
+	<cloneof>lrescue</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Model Racing)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lrescuem2" index="" image="">
+	<description>Lunar Rescue (Model Racing bootleg, set 2)</description>
+	<cloneof>lrescue</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Model Racing)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="medlanes" index="" image="">
+	<description>Meadows Lanes</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Meadows Games, Inc.</manufacturer>
+	<year>1977</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="meteorho" index="" image="">
+	<description>Meteor (bootleg of Asteroids)</description>
+	<cloneof>asteroid</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Hoei)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="meteorts" index="" image="">
+	<description>Meteorites (bootleg of Asteroids)</description>
+	<cloneof>asteroid</cloneof>
+	<crc/>
+	<manufacturer>bootleg (VGG)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mmagic" index="" image="">
+	<description>Monkey Magic</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1979</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="moonaln" index="" image="">
+	<description>Moon Alien</description>
+	<cloneof>galaxian</cloneof>
+	<crc/>
+	<manufacturer>Namco / Nichibutsu (Karateco license?)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="moonbase" index="" image="">
+	<description>Moon Base (set 1)</description>
+	<cloneof>invadpt2</cloneof>
+	<crc/>
+	<manufacturer>Taito / Nichibutsu</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="moonbasea" index="" image="">
+	<description>Moon Base (set 2)</description>
+	<cloneof>invadpt2</cloneof>
+	<crc/>
+	<manufacturer>Taito / Nichibutsu</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ozmawars" index="" image="">
+	<description>Ozma Wars (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ozmawars2" index="" image="">
+	<description>Ozma Wars (set 2)</description>
+	<cloneof>ozmawars</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pacominv" index="" image="">
+	<description>Pacom Invader</description>
+	<cloneof>beaminv</cloneof>
+	<crc/>
+	<manufacturer>Pacom Corporation</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="poolshrk" index="" image="">
+	<description>Poolshark</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1977</year>
+	<genre>Pool and Darts</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ripcord" index="" image="">
+	<description>Rip Cord</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Exidy</manufacturer>
+	<year>1979</year>
+	<genre>Sports</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="robotbwl" index="" image="">
+	<description>Robot Bowl</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Exidy</manufacturer>
+	<year>1977</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rollingc" index="" image="">
+	<description>Rolling Crash / Moon Base</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1979</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rotaryf" index="" image="">
+	<description>Rotary Fighter</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kasco</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="safarir" index="" image="">
+	<description>Safari Rally (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK (Taito license)</manufacturer>
+	<year>1979</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="safarirj" index="" image="">
+	<description>Safari Rally (Japan)</description>
+	<cloneof>safarir</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1979</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbrkout" index="" image="">
+	<description>Super Breakout (rev 04)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1978</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbrkout3" index="" image="">
+	<description>Super Breakout (rev 03)</description>
+	<cloneof>sbrkout</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1978</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbrkoutc" index="" image="">
+	<description>Super Breakout (Canyon and Vertical Breakout, prototype)</description>
+	<cloneof>sbrkout</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1978</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbrkoutct" index="" image="">
+	<description>Super Breakout (Cocktail, prototype)</description>
+	<cloneof>sbrkout</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1978</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="schaser" index="" image="">
+	<description>Space Chaser (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1979</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="schasera" index="" image="">
+	<description>Space Chaser (set 2)</description>
+	<cloneof>schaser</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1979</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="schaserb" index="" image="">
+	<description>Space Chaser (set 3)</description>
+	<cloneof>schaser</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1979</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="schaserc" index="" image="">
+	<description>Space Chaser (set 4)</description>
+	<cloneof>schaser</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1979</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="schasercv" index="" image="">
+	<description>Space Chaser (CV version - set 1)</description>
+	<cloneof>schaser</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1979</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="schaserm" index="" image="">
+	<description>Space Chaser (Model Racing bootleg)</description>
+	<cloneof>schaser</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Model Racing)</manufacturer>
+	<year>1979</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sflush" index="" image="">
+	<description>Straight Flush</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1979</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sheriff" index="" image="">
+	<description>Sheriff</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shuffle" index="" image="">
+	<description>Shuffleboard</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1978</year>
+	<genre>Sports</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shuttlei" index="" image="">
+	<description>Shuttle Invader</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Omori Electric Co., Ltd.</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sicv" index="" image="">
+	<description>Space Invaders (CV Version)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sidetrac" index="" image="">
+	<description>Side Trak</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Exidy</manufacturer>
+	<year>1979</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sinvemag" index="" image="">
+	<description>Super Invaders (bootleg set 2)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Emag)</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sisv" index="" image="">
+	<description>Space Invaders (SV Version rev 4)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sisv1" index="" image="">
+	<description>Space Invaders (SV Version rev 1)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sisv2" index="" image="">
+	<description>Space Invaders (SV Version rev 2)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sisv3" index="" image="">
+	<description>Space Invaders (SV Version rev 3)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sitv" index="" image="">
+	<description>Space Invaders (TV Version rev 2)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sitv1" index="" image="">
+	<description>Space Invaders (TV Version rev 1)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="skylove" index="" image="">
+	<description>Sky Love</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Omori Electric Co., Ltd.</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smash" index="" image="">
+	<description>Smash (Crash bootleg)</description>
+	<cloneof>crash</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1979</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="solfight" index="" image="">
+	<description>Solar Fight (bootleg of Ozma Wars)</description>
+	<cloneof>ozmawars</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spacbeam" index="" image="">
+	<description>Space Beam</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spaceatt" index="" image="">
+	<description>Space Attack (bootleg of Space Invaders)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Video Games GmbH)</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spaceatt2k" index="" image="">
+	<description>Space Attack (2k roms)(bootleg of Space Invaders)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Video Games GmbH)</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spaceattbp" index="" image="">
+	<description>Space Attack (bproms)(bootleg of Space Invaders)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Video Games GmbH)</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spacecom" index="" image="">
+	<description>Space Combat (bootleg of Space Invaders)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spacefev" index="" image="">
+	<description>Space Fever (New Ver.)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spacefevo" index="" image="">
+	<description>Space Fever (Old Ver.)</description>
+	<cloneof>spacefev</cloneof>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spacefevo2" index="" image="">
+	<description>Space Fever (Older Ver.)</description>
+	<cloneof>spacefev</cloneof>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spaceg" index="" image="">
+	<description>Space Guerrilla</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Omori Electric Co., Ltd.</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spacelnc" index="" image="">
+	<description>Space Launcher</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1979</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spaceph" index="" image="">
+	<description>Space Phantoms (bootleg of Ozma Wars)</description>
+	<cloneof>ozmawars</cloneof>
+	<crc/>
+	<manufacturer>bootleg? (Zilec Games)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spacerng" index="" image="">
+	<description>Space Ranger (bootleg of Space Invaders)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Leisure Time Electronics)</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spacewr3" index="" image="">
+	<description>Space War Part 3</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spceking" index="" image="">
+	<description>Space King</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>Taito / Leijac Corporation</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spcewars" index="" image="">
+	<description>Space War (Sanritsu)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>Taito / Sanritsu</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spcking2" index="" image="">
+	<description>Space King 2</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spfghmk2" index="" image="">
+	<description>Space Fighter Mark II (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spfghmk22" index="" image="">
+	<description>Space Fighter Mark II (set 2)</description>
+	<cloneof>spfghmk2</cloneof>
+	<crc/>
+	<manufacturer>Data East</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sspacaho" index="" image="">
+	<description>Space Attack / Head On</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1979</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sspaceat" index="" image="">
+	<description>Space Attack (upright set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sspaceat2" index="" image="">
+	<description>Space Attack (upright set 2)</description>
+	<cloneof>sspaceat</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sspaceat3" index="" image="">
+	<description>Space Attack (upright set 3)</description>
+	<cloneof>sspaceat</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sspaceatc" index="" image="">
+	<description>Space Attack (cocktail)</description>
+	<cloneof>sspaceat</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sstarbtl" index="" image="">
+	<description>Super Star Battle</description>
+	<cloneof>astrof</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sstrangr" index="" image="">
+	<description>Space Stranger</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Yachiyo Electronics, Ltd.</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sstrangr2" index="" image="">
+	<description>Space Stranger 2</description>
+	<cloneof>sstrangr</cloneof>
+	<crc/>
+	<manufacturer>Yachiyo Electronics, Ltd.</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="starfght" index="" image="">
+	<description>Star Fighter</description>
+	<cloneof>galaxian</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Jeutel)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="starw" index="" image="">
+	<description>Star Wars (bootleg of Galaxy Wars, set 1)</description>
+	<cloneof>galxwars</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="starw1" index="" image="">
+	<description>Star Wars (bootleg of Galaxy Wars, set 2)</description>
+	<cloneof>galxwars</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Yamashita)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="supcrash" index="" image="">
+	<description>Super Crash (bootleg of Head On)</description>
+	<cloneof>headon</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1979</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="superg" index="" image="">
+	<description>Super Galaxians (galaxiana hack)</description>
+	<cloneof>galaxian</cloneof>
+	<crc/>
+	<manufacturer>hack</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="supergs" index="" image="">
+	<description>Super Galaxians (Silver Systems)</description>
+	<cloneof>galaxian</cloneof>
+	<crc/>
+	<manufacturer>hack</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="superinv" index="" image="">
+	<description>Super Invaders (bootleg set 1)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="swarm" index="" image="">
+	<description>Swarm (bootleg?)</description>
+	<cloneof>galaxian</cloneof>
+	<crc/>
+	<manufacturer>bootleg? (Subelectro)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tourtab2" index="" image="">
+	<description>Tournament Table (set 2)</description>
+	<cloneof>tourtabl</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1978</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tourtabl" index="" image="">
+	<description>Tournament Table (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1978</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="yosakdon" index="" image="">
+	<description>Yosaku To Donbei (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Wing</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="yosakdona" index="" image="">
+	<description>Yosaku To Donbei (set 2)</description>
+	<cloneof>yosakdon</cloneof>
+	<crc/>
+	<manufacturer>Wing</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zerotime" index="" image="">
+	<description>Zero Time</description>
+	<cloneof>galaxian</cloneof>
+	<crc/>
+	<manufacturer>bootleg? (Petaco S.A.)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zerotimed" index="" image="">
+	<description>Zero Time (Datamat)</description>
+	<cloneof>galaxian</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Datamat)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

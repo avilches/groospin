@@ -1,0 +1,479 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Maze / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="alibaba" index="" image="">
+	<description>Ali Baba and 40 Thieves</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="amidaro" index="" image="">
+	<description>Amidar (Olympia)</description>
+	<cloneof>amidar</cloneof>
+	<crc/>
+	<manufacturer>Konami (Olympia license)</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bouldash" index="" image="">
+	<description>Boulder Dash / Boulder Dash Part 2 (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation (licensed from First Star)</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="changes" index="" image="">
+	<description>Changes</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Orca</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crush2" index="" image="">
+	<description>Crush Roller (set 2)</description>
+	<cloneof>crush</cloneof>
+	<crc/>
+	<manufacturer>Alpha Denshi Co. / Kural Esco Electric, Ltd.</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crush3" index="" image="">
+	<description>Crush Roller (set 3)</description>
+	<cloneof>crush</cloneof>
+	<crc/>
+	<manufacturer>Alpha Denshi Co. / Kural Electric, Ltd.</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="darkseal" index="" image="">
+	<description>Dark Seal (World revision 3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="devilfsg" index="" image="">
+	<description>Devil Fish (Galaxian hardware, bootleg?)</description>
+	<cloneof>devilfsh</cloneof>
+	<crc/>
+	<manufacturer>Vision / Artic</manufacturer>
+	<year>1984</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="devilfsh" index="" image="">
+	<description>Devil Fish</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Artic</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="digdug" index="" image="">
+	<description>Dig Dug (rev 2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="digdug2" index="" image="">
+	<description>Dig Dug II (New Ver.)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1985</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="digger" index="" image="">
+	<description>Digger</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1980</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="disco" index="" image="">
+	<description>Disco No.1</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dorunrun2" index="" image="">
+	<description>Do! Run Run (set 2)</description>
+	<cloneof>dorunrun</cloneof>
+	<crc/>
+	<manufacturer>Universal</manufacturer>
+	<year>1984</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dorunrunc" index="" image="">
+	<description>Do! Run Run (Do&apos;s Castle hardware, set 1)</description>
+	<cloneof>dorunrun</cloneof>
+	<crc/>
+	<manufacturer>Universal</manufacturer>
+	<year>1984</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dzigzag" index="" image="">
+	<description>Zig Zag (Dig Dug hardware)</description>
+	<cloneof>digdug</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="eyes2" index="" image="">
+	<description>Eyes (US set 2)</description>
+	<cloneof>eyes</cloneof>
+	<crc/>
+	<manufacturer>Techstar (Rock-Ola license)</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fitter" index="" image="">
+	<description>Fitter</description>
+	<cloneof>roundup</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gatedoom" index="" image="">
+	<description>Gate of Doom (US revision 4)</description>
+	<cloneof>darkseal</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gatedoom1" index="" image="">
+	<description>Gate of Doom (US revision 1)</description>
+	<cloneof>darkseal</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hangly2" index="" image="">
+	<description>Hangly-Man (set 2)</description>
+	<cloneof>puckman</cloneof>
+	<crc/>
+	<manufacturer>hack</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="headon1" index="" image="">
+	<description>Head On (1 player)</description>
+	<cloneof>headon</cloneof>
+	<crc/>
+	<manufacturer>Gremlin</manufacturer>
+	<year>1979</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="headon2" index="" image="">
+	<description>Head On 2</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1979</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hotshockb" index="" image="">
+	<description>Hot Shocker (early revision?)</description>
+	<cloneof>hotshock</cloneof>
+	<crc/>
+	<manufacturer>E.G. Felaco</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="indytemp2" index="" image="">
+	<description>Indiana Jones and the Temple of Doom (set 2)</description>
+	<cloneof>indytemp</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1985</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="indytemp3" index="" image="">
+	<description>Indiana Jones and the Temple of Doom (set 3)</description>
+	<cloneof>indytemp</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1985</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="intrepid2" index="" image="">
+	<description>Intrepid (set 2)</description>
+	<cloneof>intrepid</cloneof>
+	<crc/>
+	<manufacturer>Nova Games Ltd.</manufacturer>
+	<year>1983</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="irrmaze" index="" image="">
+	<description>The Irritating Maze / Ultra Denryu Iraira Bou</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK / Saurus</manufacturer>
+	<year>1997</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="machomou" index="" image="">
+	<description>Macho Mouse</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Techstar</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mbrush" index="" image="">
+	<description>Magic Brush (bootleg of Crush Roller)</description>
+	<cloneof>crush</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="moguchan" index="" image="">
+	<description>Mogu Chan (bootleg?)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Orca (Eastern Commerce Inc. license)</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mtrap3" index="" image="">
+	<description>Mouse Trap (version 3)</description>
+	<cloneof>mtrap</cloneof>
+	<crc/>
+	<manufacturer>Exidy</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mtrap4" index="" image="">
+	<description>Mouse Trap (version 4)</description>
+	<cloneof>mtrap</cloneof>
+	<crc/>
+	<manufacturer>Exidy</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pacgal" index="" image="">
+	<description>Pac-Gal</description>
+	<cloneof>mspacman</cloneof>
+	<crc/>
+	<manufacturer>hack</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pacheart" index="" image="">
+	<description>Pac-Man (Hearts)</description>
+	<cloneof>puckman</cloneof>
+	<crc/>
+	<manufacturer>hack</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pacmod" index="" image="">
+	<description>Pac-Man (Midway, harder)</description>
+	<cloneof>puckman</cloneof>
+	<crc/>
+	<manufacturer>Namco (Midway license)</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="puckmod" index="" image="">
+	<description>Puck Man (Japan set 2)</description>
+	<cloneof>puckman</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rallyx" index="" image="">
+	<description>Rally X (32k Ver.?)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1980</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="roishtar" index="" image="">
+	<description>The Return of Ishtar</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1986</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="route16c" index="" image="">
+	<description>Route 16 (set 3, bootleg?)</description>
+	<cloneof>route16</cloneof>
+	<crc/>
+	<manufacturer>Tehkan / Sun Electronics (Centuri license)</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rugrats" index="" image="">
+	<description>Rug Rats</description>
+	<cloneof>wiping</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1983</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sindbadm" index="" image="">
+	<description>Sindbad Mystery</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1983</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="suprlocoo" index="" image="">
+	<description>Super Locomotive</description>
+	<cloneof>suprloco</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="todruaga" index="" image="">
+	<description>The Tower of Druaga (New Ver.)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1984</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vanvank" index="" image="">
+	<description>Van-Van Car (Karateco set 1)</description>
+	<cloneof>vanvan</cloneof>
+	<crc/>
+	<manufacturer>Sanritsu (Karateco license?)</manufacturer>
+	<year>1983</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wiping" index="" image="">
+	<description>Wiping</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zzyzzyxx2" index="" image="">
+	<description>Zzyzzyxx (set 2)</description>
+	<cloneof>zzyzzyxx</cloneof>
+	<crc/>
+	<manufacturer>Cinematronics / Advanced Microcomputer Systems</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

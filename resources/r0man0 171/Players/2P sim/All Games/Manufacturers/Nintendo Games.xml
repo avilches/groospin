@@ -1,0 +1,359 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2P sim / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="balonfgt" index="" image="">
+	<description>Vs. Balloon Fight (set BF4 A-3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cluclu" index="" image="">
+	<description>Vs. Clu Clu Land</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1984</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dkonghrd" index="" image="">
+	<description>Donkey Kong (hard kit)</description>
+	<cloneof>dkong</cloneof>
+	<crc/>
+	<manufacturer>Nintendo of America</manufacturer>
+	<year>1981</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drmario" index="" image="">
+	<description>Vs. Dr. Mario</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1990</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="famibox" index="" image="">
+	<description>FamicomBox</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1986</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="iceclimb" index="" image="">
+	<description>Vs. Ice Climber (set IC4-4 B-1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="iceclimba" index="" image="">
+	<description>Vs. Ice Climber (set IC4-4 ?)</description>
+	<cloneof>iceclimb</cloneof>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mario" index="" image="">
+	<description>Mario Bros. (US, Revision F)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo of America</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="marioe" index="" image="">
+	<description>Mario Bros. (US, Revision E)</description>
+	<cloneof>mario</cloneof>
+	<crc/>
+	<manufacturer>Nintendo of America</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="marioj" index="" image="">
+	<description>Mario Bros. (Japan)</description>
+	<cloneof>mario</cloneof>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="marioo" index="" image="">
+	<description>Mario Bros. (US, Unknown Rev)</description>
+	<cloneof>mario</cloneof>
+	<crc/>
+	<manufacturer>Nintendo of America</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nss_aten" index="" image="">
+	<description>David Crane&apos;s Amazing Tennis (Nintendo Super System)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Absolute Entertainment Inc.</manufacturer>
+	<year>1992</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nss_ncaa" index="" image="">
+	<description>NCAA Basketball (Nintendo Super System)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sculptured Software Inc.</manufacturer>
+	<year>1992</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nss_ssoc" index="" image="">
+	<description>Super Soccer (Nintendo Super System)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Human Inc.</manufacturer>
+	<year>1992</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nss_sten" index="" image="">
+	<description>Super Tennis (Nintendo Super System)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1991</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_bball" index="" image="">
+	<description>Baseball (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo of America</manufacturer>
+	<year>1984</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_bfght" index="" image="">
+	<description>Balloon Fight (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_drmro" index="" image="">
+	<description>Dr. Mario (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1990</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_gntlt" index="" image="">
+	<description>Gauntlet (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari / Tengen (Nintendo of America license)</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_mario" index="" image="">
+	<description>Mario Bros. (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_pwrst" index="" image="">
+	<description>Pro Wrestling (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1986</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_rrngr" index="" image="">
+	<description>Chip&apos;n Dale: Rescue Rangers (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom USA (Nintendo of America license)</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_smb3" index="" image="">
+	<description>Super Mario Bros. 3 (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_tbowl" index="" image="">
+	<description>Tecmo Bowl (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Tecmo (Nintendo of America license)</manufacturer>
+	<year>1989</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_tenis" index="" image="">
+	<description>Tennis (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1983</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_trjan" index="" image="">
+	<description>Trojan (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom USA (Nintendo of America license)</manufacturer>
+	<year>1986</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_vball" index="" image="">
+	<description>Volley Ball (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1986</year>
+	<genre>Volleyball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_virus" index="" image="">
+	<description>Virus (Dr. Mario prototype, PlayChoice-10)</description>
+	<cloneof>pc_drmro</cloneof>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1990</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_wcup" index="" image="">
+	<description>Nintendo World Cup (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Technos Japan (Nintendo license)</manufacturer>
+	<year>1990</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pss61" index="" image="">
+	<description>Super Mario Kart / Super Mario Collection / Star Fox (Super Famicom Box)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1994</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pss63" index="" image="">
+	<description>Super Donkey Kong / Super Tetris 2 + Bombliss (Super Famicom Box)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo / BPS</manufacturer>
+	<year>1994</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vsmahjng" index="" image="">
+	<description>Vs. Mahjong (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo Co., Ltd.</manufacturer>
+	<year>1984</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vssoccer" index="" image="">
+	<description>Vs. Soccer (set SC4-2 A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1985</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vssoccera" index="" image="">
+	<description>Vs. Soccer (set SC4-3 ?)</description>
+	<cloneof>vssoccer</cloneof>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1985</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wrecking" index="" image="">
+	<description>Vs. Wrecking Crew</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

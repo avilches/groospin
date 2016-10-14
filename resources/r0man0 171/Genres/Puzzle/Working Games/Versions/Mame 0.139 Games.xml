@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Puzzle / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="spf2td" index="" image="">
+	<description>Super Puzzle Fighter II Turbo (USA 960620 Phoenix Edition) (bootleg)</description>
+	<cloneof>spf2t</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tetrbx" index="" image="">
+	<description>Tetris / Bloxeed (Korean System 16 bootleg) (ISG Selection Master Type 2006)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>bootleg (ISG)</manufacturer>
+	<year>2006</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

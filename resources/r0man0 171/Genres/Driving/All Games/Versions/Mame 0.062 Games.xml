@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Driving / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="crusnusa" index="" image="">
+	<description>Cruis&apos;n USA (rev L4.1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crusnusa21" index="" image="">
+	<description>Cruis&apos;n USA (rev L2.1)</description>
+	<cloneof>crusnusa</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crusnusa40" index="" image="">
+	<description>Cruis&apos;n USA (rev L4.0)</description>
+	<cloneof>crusnusa</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crusnwld13" index="" image="">
+	<description>Cruis&apos;n World (rev L1.3)</description>
+	<cloneof>crusnwld</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crusnwld23" index="" image="">
+	<description>Cruis&apos;n World (rev L2.3)</description>
+	<cloneof>crusnwld</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="harddrivc" index="" image="">
+	<description>Hard Drivin&apos; (compact, rev 2)</description>
+	<cloneof>harddriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hdrivair" index="" image="">
+	<description>Hard Drivin&apos;s Airborne (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hdrivairp" index="" image="">
+	<description>Hard Drivin&apos;s Airborne (prototype, early rev)</description>
+	<cloneof>hdrivair</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kamenrid" index="" image="">
+	<description>Masked Riders Club Battle Race</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Banpresto / Toei</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="luckywld" index="" image="">
+	<description>Lucky &amp; Wild</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedriv" index="" image="">
+	<description>Race Drivin&apos; (cockpit, rev 5)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedriv3" index="" image="">
+	<description>Race Drivin&apos; (cockpit, rev 3)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivc" index="" image="">
+	<description>Race Drivin&apos; (compact, rev 5)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

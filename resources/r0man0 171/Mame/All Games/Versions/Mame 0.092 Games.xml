@@ -1,0 +1,699 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Mame / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="acombat" index="" image="">
+	<description>Astro Combat (newer, CB)</description>
+	<cloneof>astrof</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bronx" index="" image="">
+	<description>Bronx</description>
+	<cloneof>cyclshtg</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1986</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="champbb2a" index="" image="">
+	<description>Champion Base Ball Part-2 (set 2)</description>
+	<cloneof>champbb2</cloneof>
+	<crc/>
+	<manufacturer>Alpha Denshi Co.</manufacturer>
+	<year>1983</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="champbwl" index="" image="">
+	<description>Championship Bowling</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Seta / Romstar Inc.</manufacturer>
+	<year>1989</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="colt" index="" image="">
+	<description>Colt</description>
+	<cloneof>nycaptor</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1986</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dambustr" index="" image="">
+	<description>Dambusters (US, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>South West Research</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dambustruk" index="" image="">
+	<description>Dambusters (UK)</description>
+	<cloneof>dambustr</cloneof>
+	<crc/>
+	<manufacturer>South West Research</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="eggventr7" index="" image="">
+	<description>Egg Venture (Release 7)</description>
+	<cloneof>eggventr</cloneof>
+	<crc/>
+	<manufacturer>The Game Room</manufacturer>
+	<year>1997</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="futflash" index="" image="">
+	<description>Future Flash</description>
+	<cloneof>laserbas</cloneof>
+	<crc/>
+	<manufacturer>Hoei</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt2k" index="" image="">
+	<description>Golden Tee 2K (v1.00)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>2000</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt2ks100" index="" image="">
+	<description>Golden Tee 2K (v1.00S)</description>
+	<cloneof>gt2k</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>2000</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt2kt500" index="" image="">
+	<description>Golden Tee 2K Tournament (v5.00)</description>
+	<cloneof>gt2k</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>2000</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt3d" index="" image="">
+	<description>Golden Tee 3D Golf (v1.93N)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1995</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt3dl191" index="" image="">
+	<description>Golden Tee 3D Golf (v1.91L)</description>
+	<cloneof>gt3d</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1995</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt3dl192" index="" image="">
+	<description>Golden Tee 3D Golf (v1.92L)</description>
+	<cloneof>gt3d</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1995</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt3ds192" index="" image="">
+	<description>Golden Tee 3D Golf (v1.92S)</description>
+	<cloneof>gt3d</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1995</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt3dt231" index="" image="">
+	<description>Golden Tee 3D Golf Tournament (v2.31)</description>
+	<cloneof>gt3d</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1995</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt3dv14" index="" image="">
+	<description>Golden Tee 3D Golf (v1.4)</description>
+	<cloneof>gt3d</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1995</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt3dv15" index="" image="">
+	<description>Golden Tee 3D Golf (v1.5)</description>
+	<cloneof>gt3d</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1995</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt3dv16" index="" image="">
+	<description>Golden Tee 3D Golf (v1.6)</description>
+	<cloneof>gt3d</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1995</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt3dv17" index="" image="">
+	<description>Golden Tee 3D Golf (v1.7)</description>
+	<cloneof>gt3d</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1995</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt3dv18" index="" image="">
+	<description>Golden Tee 3D Golf (v1.8)</description>
+	<cloneof>gt3d</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1995</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt97" index="" image="">
+	<description>Golden Tee &apos;97 (v1.30)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1997</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt97s121" index="" image="">
+	<description>Golden Tee &apos;97 (v1.21S)</description>
+	<cloneof>gt97</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1997</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt97t240" index="" image="">
+	<description>Golden Tee &apos;97 Tournament (v2.40)</description>
+	<cloneof>gt97</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1997</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt97v120" index="" image="">
+	<description>Golden Tee &apos;97 (v1.20)</description>
+	<cloneof>gt97</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1997</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt97v121" index="" image="">
+	<description>Golden Tee &apos;97 (v1.21)</description>
+	<cloneof>gt97</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1997</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt97v122" index="" image="">
+	<description>Golden Tee &apos;97 (v1.22)</description>
+	<cloneof>gt97</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1997</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt98" index="" image="">
+	<description>Golden Tee &apos;98 (v1.10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1998</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt98s100" index="" image="">
+	<description>Golden Tee &apos;98 (v1.00S)</description>
+	<cloneof>gt98</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1998</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt98t303" index="" image="">
+	<description>Golden Tee &apos;98 Tournament (v3.03)</description>
+	<cloneof>gt98</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1998</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt98v100" index="" image="">
+	<description>Golden Tee &apos;98 (v1.00)</description>
+	<cloneof>gt98</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1998</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt99" index="" image="">
+	<description>Golden Tee &apos;99 (v1.00)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1999</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt99s100" index="" image="">
+	<description>Golden Tee &apos;99 (v1.00S)</description>
+	<cloneof>gt99</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1999</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt99t400" index="" image="">
+	<description>Golden Tee &apos;99 Tournament (v4.00)</description>
+	<cloneof>gt99</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1999</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtclassc" index="" image="">
+	<description>Golden Tee Classic (v1.00)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>2001</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtclasscp" index="" image="">
+	<description>Golden Tee Classic (v1.00) (alt protection)</description>
+	<cloneof>gtclassc</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>2001</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtclasscs" index="" image="">
+	<description>Golden Tee Classic (v1.00S)</description>
+	<cloneof>gtclassc</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>2001</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gunpey" index="" image="">
+	<description>Gunpey (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Banpresto</manufacturer>
+	<year>2000</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jockeygp" index="" image="">
+	<description>Jockey Grand Prix (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sun Amusement / BrezzaSoft</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kof2002" index="" image="">
+	<description>The King of Fighters 2002 (NGM-2650)(NGH-2650)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Eolith / Playmore</manufacturer>
+	<year>2002</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kof97pls" index="" image="">
+	<description>The King of Fighters &apos;97 Plus (bootleg)</description>
+	<cloneof>kof97</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kothello" index="" image="">
+	<description>Kyuukyoku no Othello</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Success</manufacturer>
+	<year>1990</year>
+	<genre>Board Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="landbrka" index="" image="">
+	<description>Land Breaker (World) / Miss Tang Ja Ru Gi (Korea) (pcb ver 3.03) (AT89c52 protected)</description>
+	<cloneof>landbrk</cloneof>
+	<crc/>
+	<manufacturer>Eolith</manufacturer>
+	<year>1999</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="laserbas" index="" image="">
+	<description>Laser Base (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Hoei (Amstar license)</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="laserbasa" index="" image="">
+	<description>Laser Base (set 2)</description>
+	<cloneof>laserbas</cloneof>
+	<crc/>
+	<manufacturer>Hoei (Amstar license)</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lgtnfght" index="" image="">
+	<description>Lightning Fighters (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lithero" index="" image="">
+	<description>Little Hero</description>
+	<cloneof>kidniki</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="matrim" index="" image="">
+	<description>Matrimelee / Shin Gouketsuji Ichizoku Toukon (NGM-2660) (NGH-2660)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Noise Factory / Atlus</manufacturer>
+	<year>2002</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mineswpr4" index="" image="">
+	<description>Minesweeper (4-Player)</description>
+	<cloneof>mineswpr</cloneof>
+	<crc/>
+	<manufacturer>Amutech</manufacturer>
+	<year>1977</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ms4plus" index="" image="">
+	<description>Metal Slug 4 Plus (bootleg)</description>
+	<cloneof>mslug4</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2002</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ppking" index="" image="">
+	<description>Ping-Pong King</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1985</year>
+	<genre>Sports</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ptblank2ua" index="" image="">
+	<description>Point Blank 2 (US, GNB3/VER.A)</description>
+	<cloneof>ptblank2</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1999</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="puckmanh" index="" image="">
+	<description>Puck Man (bootleg set 2)</description>
+	<cloneof>puckman</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Falcom?)</manufacturer>
+	<year>1980</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pushmana" index="" image="">
+	<description>Pushman (Korea, set 2)</description>
+	<cloneof>pushman</cloneof>
+	<crc/>
+	<manufacturer>Comad</manufacturer>
+	<year>1990</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racknrol" index="" image="">
+	<description>Rack + Roll</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Senko Industries (Status license from Shinkai Inc.)</manufacturer>
+	<year>1986</year>
+	<genre>Pool and Darts</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rezont" index="" image="">
+	<description>Rezon (Taito)</description>
+	<cloneof>rezon</cloneof>
+	<crc/>
+	<manufacturer>Allumer (Taito license)</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rotd" index="" image="">
+	<description>Rage of the Dragons (NGM-264?)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Evoga / Playmore</manufacturer>
+	<year>2002</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spaceg" index="" image="">
+	<description>Space Guerrilla</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Omori Electric Co., Ltd.</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="suprmatk" index="" image="">
+	<description>Super Missile Attack (for rev 1)</description>
+	<cloneof>missile</cloneof>
+	<crc/>
+	<manufacturer>Atari / General Computer Corporation</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trvchlng" index="" image="">
+	<description>Trivia Challenge</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Joyland (Senko license)</manufacturer>
+	<year>1985</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="turbosub" index="" image="">
+	<description>Turbo Sub (prototype rev. TSCA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Entertainment Sciences</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="twinkle" index="" image="">
+	<description>Twinkle</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SemiCom / Tirano</manufacturer>
+	<year>1997</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vliner" index="" image="">
+	<description>V-Liner (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dyna / BrezzaSoft</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vlinero" index="" image="">
+	<description>V-Liner (set 2)</description>
+	<cloneof>vliner</cloneof>
+	<crc/>
+	<manufacturer>Dyna / BrezzaSoft</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wallca" index="" image="">
+	<description>Wall Crash (set 2)</description>
+	<cloneof>wallc</cloneof>
+	<crc/>
+	<manufacturer>Midcoin</manufacturer>
+	<year>1984</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wcbowl140" index="" image="">
+	<description>World Class Bowling Tournament (v1.40)</description>
+	<cloneof>wcbowldx</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1997</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wcbowldx" index="" image="">
+	<description>World Class Bowling Deluxe (v2.00)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1999</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wldarrow" index="" image="">
+	<description>Wild Arrow (color, Standard V4.8)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Meyco Games, Inc.</manufacturer>
+	<year>1982</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,3309 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Sega / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="aceattac" index="" image="">
+	<description>Ace Attacker (FD1094 317-0059)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Volleyball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aceattaca" index="" image="">
+	<description>Ace Attacker (Japan, System 16A, FD1094 317-0060)</description>
+	<cloneof>aceattac</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Volleyball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="alexkidd" index="" image="">
+	<description>Alex Kidd: The Lost Stars (set 2, unprotected)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="alexkidd1" index="" image="">
+	<description>Alex Kidd: The Lost Stars (set 1, FD1089A 317-0021)</description>
+	<cloneof>alexkidd</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="alien3" index="" image="">
+	<description>Alien3: The Gun (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="alien3u" index="" image="">
+	<description>Alien3: The Gun (US)</description>
+	<cloneof>alien3</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aliensyn" index="" image="">
+	<description>Alien Syndrome (set 4, System 16B, unprotected)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aliensyn2" index="" image="">
+	<description>Alien Syndrome (set 2, System 16A, FD1089A 317-0033)</description>
+	<cloneof>aliensyn</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aliensyn3" index="" image="">
+	<description>Alien Syndrome (set 3, System 16B, FD1089A 317-0033)</description>
+	<cloneof>aliensyn</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aliensyn5" index="" image="">
+	<description>Alien Syndrome (set 5, System 16A, FD1089B 317-0037)</description>
+	<cloneof>aliensyn</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aliensyn7" index="" image="">
+	<description>Alien Syndrome (set 7, System 16B, MC-8123B 317-00xx)</description>
+	<cloneof>aliensyn</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aliensynj" index="" image="">
+	<description>Alien Syndrome (set 6, Japan, new, System 16B, FD1089A 317-0033)</description>
+	<cloneof>aliensyn</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aliensynjo" index="" image="">
+	<description>Alien Syndrome (set 1, Japan, old, System 16A, FD1089A 317-0033)</description>
+	<cloneof>aliensyn</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="altbeast" index="" image="">
+	<description>Altered Beast (set 8) (8751 317-0078)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="altbeast2" index="" image="">
+	<description>Altered Beast (set 2) (MC-8123B 317-0066)</description>
+	<cloneof>altbeast</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="altbeast4" index="" image="">
+	<description>Altered Beast (set 4) (MC-8123B 317-0066)</description>
+	<cloneof>altbeast</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="altbeast5" index="" image="">
+	<description>Altered Beast (set 5) (FD1094 317-0069)</description>
+	<cloneof>altbeast</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="altbeast6" index="" image="">
+	<description>Altered Beast (set 6) (8751 317-0076)</description>
+	<cloneof>altbeast</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="altbeastj" index="" image="">
+	<description>Juuouki (set 7, Japan) (8751 317-0077)</description>
+	<cloneof>altbeast</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="altbeastj1" index="" image="">
+	<description>Juuouki (set 1, Japan) (FD1094 317-0065)</description>
+	<cloneof>altbeast</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="altbeastj3" index="" image="">
+	<description>Juuouki (set 3, Japan) (FD1094 317-0068)</description>
+	<cloneof>altbeast</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="astorm" index="" image="">
+	<description>Alien Storm (World, 2 Players) (FD1094 317-0154)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="astormj" index="" image="">
+	<description>Alien Storm (Japan, 2 Players) (FD1094 317-0146)</description>
+	<cloneof>astorm</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bakubaku" index="" image="">
+	<description>Baku Baku Animal (J 950407 V1.000)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1995</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bayroute" index="" image="">
+	<description>Bay Route (set 3, World) (FD1094 317-0116)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sunsoft / Sega</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bayroute1" index="" image="">
+	<description>Bay Route (set 1, US) (unprotected)</description>
+	<cloneof>bayroute</cloneof>
+	<crc/>
+	<manufacturer>Sunsoft / Sega</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bayroutej" index="" image="">
+	<description>Bay Route (set 2, Japan) (FD1094 317-0115)</description>
+	<cloneof>bayroute</cloneof>
+	<crc/>
+	<manufacturer>Sunsoft / Sega</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bloxeed" index="" image="">
+	<description>Bloxeed (Japan) (FD1094 317-0139)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bloxeedc" index="" image="">
+	<description>Bloxeed (World, C System)</description>
+	<cloneof>bloxeed</cloneof>
+	<crc/>
+	<manufacturer>Sega / Elorg</manufacturer>
+	<year>1989</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bloxeedu" index="" image="">
+	<description>Bloxeed (US, C System, Rev A)</description>
+	<cloneof>bloxeed</cloneof>
+	<crc/>
+	<manufacturer>Sega / Elorg</manufacturer>
+	<year>1989</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bnzabros" index="" image="">
+	<description>Bonanza Bros (US, Floppy DS3-5000-07d? Based)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bnzabrosj" index="" image="">
+	<description>Bonanza Bros (Japan, Floppy DS3-5000-07b Based)</description>
+	<cloneof>bnzabros</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bodyslam" index="" image="">
+	<description>Body Slam (8751 317-0015)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="borench" index="" image="">
+	<description>Borench (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="borencha" index="" image="">
+	<description>Borench (set 2)</description>
+	<cloneof>borench</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="braveff" index="" image="">
+	<description>Brave Fire Fighters</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1999</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="brival" index="" image="">
+	<description>Burning Rival (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="brivalj" index="" image="">
+	<description>Burning Rival (Japan)</description>
+	<cloneof>brival</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bullfgtrs" index="" image="">
+	<description>Bull Fighter (Sega)</description>
+	<cloneof>bullfgtr</cloneof>
+	<crc/>
+	<manufacturer>Alpha Denshi Co. (Sega license)</manufacturer>
+	<year>1984</year>
+	<genre>Hockey</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="champbb2" index="" image="">
+	<description>Champion Base Ball Part-2 (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Alpha Denshi Co. (Sega license)</manufacturer>
+	<year>1983</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chboxing" index="" image="">
+	<description>Champion Boxing</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1984</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chwrestl" index="" image="">
+	<description>Champion Pro Wrestling</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1985</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="claychal" index="" image="">
+	<description>Sega Clay Challenge</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2008</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cltchitr" index="" image="">
+	<description>Clutch Hitter (US) (FD1094 317-0176)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cltchitrj" index="" image="">
+	<description>Clutch Hitter (Japan) (FD1094 317-0175)</description>
+	<cloneof>cltchitr</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="colmns97" index="" image="">
+	<description>Columns &apos;97 (JET 961209 V1.000)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="column2j" index="" image="">
+	<description>Columns II: The Voyage Through Time (Japan)</description>
+	<cloneof>columns2</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="columns" index="" image="">
+	<description>Columns (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="columns2" index="" image="">
+	<description>Columns II: The Voyage Through Time (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="columnsj" index="" image="">
+	<description>Columns (Japan)</description>
+	<cloneof>columns</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="columnsu" index="" image="">
+	<description>Columns (US, cocktail, Rev A)</description>
+	<cloneof>columns</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="confmiss" index="" image="">
+	<description>Confidential Mission (GDS-0001)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2000</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="coolridr" index="" image="">
+	<description>Cool Riders</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1995</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crkdown" index="" image="">
+	<description>Crack Down (World, Floppy Based, FD1094 317-0058-04c)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crkdownj" index="" image="">
+	<description>Crack Down (Japan, Floppy Based, FD1094 317-0058-04b Rev A)</description>
+	<cloneof>crkdown</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crkdownu" index="" image="">
+	<description>Crack Down (US, Floppy Based, FD1094 317-0058-04d)</description>
+	<cloneof>crkdown</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="darkedge" index="" image="">
+	<description>Dark Edge (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="darkedgej" index="" image="">
+	<description>Dark Edge (Japan)</description>
+	<cloneof>darkedge</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dbzvrvs" index="" image="">
+	<description>Dragon Ball Z V.R.V.S. (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / Banpresto</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddcrew2" index="" image="">
+	<description>D. D. Crew (World, 2 Players) (FD1094 317-0184)</description>
+	<cloneof>ddcrew</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddcrewj2" index="" image="">
+	<description>D. D. Crew (Japan, 2 Players) (FD1094 317-0182)</description>
+	<cloneof>ddcrew</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddux" index="" image="">
+	<description>Dynamite Dux (set 3, World) (FD1094 317-0096)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddux1" index="" image="">
+	<description>Dynamite Dux (set 1) (8751 317-0095)</description>
+	<cloneof>ddux</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dduxj" index="" image="">
+	<description>Dynamite Dux (set 2, Japan) (FD1094 317-0094)</description>
+	<cloneof>ddux</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="decathlt" index="" image="">
+	<description>Decathlete (JUET 960709 V1.001)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1996</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="decathlto" index="" image="">
+	<description>Decathlete (JUET 960424 V1.000)</description>
+	<cloneof>decathlt</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1996</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="defense" index="" image="">
+	<description>Defense (System 16B, FD1089A 317-0028)</description>
+	<cloneof>sdi</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="diehard" index="" image="">
+	<description>Die Hard Arcade (UET 960515 V1.000)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dinoki25" index="" image="">
+	<description>Dinosaur King - D-Team VS. the Alpha Fortress (Export, Ver 2.500) (MDA-C0047)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2008</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dinoking" index="" image="">
+	<description>Dinosaur King (USA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2005</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dinokior" index="" image="">
+	<description>Dinosaur King - Operation: Dinosaur Rescue (USA, Export)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2006</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="djboyj" index="" image="">
+	<description>DJ Boy (Japan)</description>
+	<cloneof>djboy</cloneof>
+	<crc/>
+	<manufacturer>Kaneko (Sega license)</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dnmtdeka" index="" image="">
+	<description>Dynamite Deka (J 960515 V1.000)</description>
+	<cloneof>diehard</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="doa" index="" image="">
+	<description>Dead or Alive (Model 2B, Revision B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="doaa" index="" image="">
+	<description>Dead or Alive (Model 2A, Revision A)</description>
+	<cloneof>doa</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dumpmtmt" index="" image="">
+	<description>Dump Matsumoto (Japan, 8751 317-0011a)</description>
+	<cloneof>bodyslam</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dybb99" index="" image="">
+	<description>Dynamite Baseball &apos;99 (JPN) / World Series &apos;99 (USA, EXP, KOR, AUS) (Rev B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1999</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dybbnao" index="" image="">
+	<description>Dynamite Baseball NAOMI (JPN)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1998</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dynabb" index="" image="">
+	<description>Dynamite Baseball</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1996</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dynamcopb" index="" image="">
+	<description>Dynamite Cop (Export, Model 2B)</description>
+	<cloneof>dynamcop</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dynamcopc" index="" image="">
+	<description>Dynamite Cop (USA, Model 2C)</description>
+	<cloneof>dynamcop</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dyndeka2b" index="" image="">
+	<description>Dynamite Deka 2 (Japan, Model 2B)</description>
+	<cloneof>dynamcop</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ejihon" index="" image="">
+	<description>Ejihon Tantei Jimusyo (J 950613 V1.000)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1995</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="eswat" index="" image="">
+	<description>E-Swat - Cyber Police (set 4, World) (FD1094 317-0130)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="eswatj" index="" image="">
+	<description>E-Swat - Cyber Police (set 2, Japan) (FD1094 317-0128)</description>
+	<cloneof>eswat</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="eswatj1" index="" image="">
+	<description>E-Swat - Cyber Police (set 1, Japan) (FD1094 317-0131)</description>
+	<cloneof>eswat</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="eswatu" index="" image="">
+	<description>E-Swat - Cyber Police (set 3, US) (FD1094 317-0129)</description>
+	<cloneof>eswat</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="exctleag" index="" image="">
+	<description>Excite League (FD1094 317-0079)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="finlarch" index="" image="">
+	<description>Final Arch (J 950714 V1.001)</description>
+	<cloneof>smleague</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1995</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fotns" index="" image="">
+	<description>Fist Of The North Star</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Arc System Works / Sega</manufacturer>
+	<year>2005</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fpoint" index="" image="">
+	<description>Flash Point (set 2, Japan) (FD1094 317-0127A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fpoint1" index="" image="">
+	<description>Flash Point (set 1, Japan) (FD1094 317-0127A)</description>
+	<cloneof>fpoint</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gaxeduel" index="" image="">
+	<description>Golden Axe - The Duel (JUETL 950117 V1.000)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gekpurya" index="" image="">
+	<description>Gekitou Pro Yakyuu Mizushima Shinji All Stars vs. Pro Yakyuu (Rev C) (GDT-0008C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / Wow Entertainment</manufacturer>
+	<year>2003</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gekpuryb" index="" image="">
+	<description>Gekitou Pro Yakyuu Mizushima Shinji All Stars vs. Pro Yakyuu (Rev B) (GDT-0008B)</description>
+	<cloneof>gekpurya</cloneof>
+	<crc/>
+	<manufacturer>Sega / Wow Entertainment</manufacturer>
+	<year>2003</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ggram2" index="" image="">
+	<description>Giant Gram: All Japan Pro Wrestling 2 (JPN, USA, EXP, KOR, AUS)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1999</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ggroundj" index="" image="">
+	<description>Gain Ground (Japan, 2 Players, Floppy Based, FD1094 317-0058-03b)</description>
+	<cloneof>gground</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ghostsev" index="" image="">
+	<description>Ghost Squad Evolution</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2007</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ghostsqo" index="" image="">
+	<description>Ghost Squad (GDX-0012)</description>
+	<cloneof>ghostsqu</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2004</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ghostsqu" index="" image="">
+	<description>Ghost Squad (Rev A) (GDX-0012A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2004</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="goldnaxe" index="" image="">
+	<description>Golden Axe (set 6, US) (8751 317-123A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="goldnaxe1" index="" image="">
+	<description>Golden Axe (set 1, World) (FD1094 317-0110)</description>
+	<cloneof>goldnaxe</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="goldnaxe2" index="" image="">
+	<description>Golden Axe (set 2, US) (8751 317-0112)</description>
+	<cloneof>goldnaxe</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="goldnaxe3" index="" image="">
+	<description>Golden Axe (set 3, World) (FD1094 317-0120)</description>
+	<cloneof>goldnaxe</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="goldnaxej" index="" image="">
+	<description>Golden Axe (set 4, Japan) (FD1094 317-0121)</description>
+	<cloneof>goldnaxe</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="goldnaxeu" index="" image="">
+	<description>Golden Axe (set 5, US) (FD1094 317-0122)</description>
+	<cloneof>goldnaxe</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gram2000" index="" image="">
+	<description>Giant Gram 2000 (JPN, USA, EXP, KOR, AUS)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2000</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hamaway" index="" image="">
+	<description>Hammer Away (Japan, prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / Santos</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hanagumi" index="" image="">
+	<description>Sakura Taisen - Hanagumi Taisen Columns (J 971007 V1.010)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1997</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="holo" index="" image="">
+	<description>Holosseum (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hotd" index="" image="">
+	<description>House of the Dead</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1997</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hotd2" index="" image="">
+	<description>House of the Dead 2</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1998</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hotd2o" index="" image="">
+	<description>House of the Dead 2 (original)</description>
+	<cloneof>hotd2</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1998</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hotd2p" index="" image="">
+	<description>House of the Dead 2 (prototype)</description>
+	<cloneof>hotd2</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1998</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hotd3" index="" image="">
+	<description>The House of the Dead III (GDX-0001)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / Wow Entertainment</manufacturer>
+	<year>2002</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hotd4" index="" image="">
+	<description>House of the Dead 4 (Export)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2005</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hotdex" index="" image="">
+	<description>House of the Dead EX (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2008</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ichir" index="" image="">
+	<description>Puzzle &amp; Action: Ichidant-R (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1994</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ichirj" index="" image="">
+	<description>Puzzle &amp; Action: Ichidant-R (Japan)</description>
+	<cloneof>ichir</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1994</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ichirk" index="" image="">
+	<description>Puzzle &amp; Action: Ichidant-R (Korea)</description>
+	<cloneof>ichir</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1994</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jleague" index="" image="">
+	<description>The J.League 1994 (Japan)</description>
+	<cloneof>svf</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1994</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jpark" index="" image="">
+	<description>Jurassic Park (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jparkj" index="" image="">
+	<description>Jurassic Park (Japan, Rev A, Deluxe)</description>
+	<cloneof>jpark</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jparkja" index="" image="">
+	<description>Jurassic Park (Japan, Deluxe)</description>
+	<cloneof>jpark</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jparkjc" index="" image="">
+	<description>Jurassic Park (Japan, Rev A, Conversion)</description>
+	<cloneof>jpark</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="keyboard" index="" image="">
+	<description>La Keyboard (GDS-0017)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2001</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lastsurv" index="" image="">
+	<description>Last Survivor (Japan) (FD1094 317-0083)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="letsgoju" index="" image="">
+	<description>Let&apos;s Go Jungle (Export)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2006</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="loffire" index="" image="">
+	<description>Line of Fire / Bakudan Yarou (World) (FD1094 317-0136)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="loffirej" index="" image="">
+	<description>Line of Fire / Bakudan Yarou (Japan) (FD1094 317-0134)</description>
+	<cloneof>loffire</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="loffireu" index="" image="">
+	<description>Line of Fire / Bakudan Yarou (US) (FD1094 317-0135)</description>
+	<cloneof>loffire</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lupinsho" index="" image="">
+	<description>Lupin The Third - The Shooting (GDS-0018)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / Eighting</manufacturer>
+	<year>2001</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="luptype" index="" image="">
+	<description>Lupin The Third - The Typing (Rev A) (GDS-0021A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2002</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="magtruck" index="" image="">
+	<description>Magical Truck Adventure (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1998</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="manicpnc" index="" image="">
+	<description>Manic Panic Ghosts!</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2007</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="maruchan" index="" image="">
+	<description>Maru-Chan de Goo! (J 971216 V1.000)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / Toyosuisan</manufacturer>
+	<year>1997</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjleague" index="" image="">
+	<description>Major League</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1985</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mok" index="" image="">
+	<description>The Maze of the Kings (GDS-0022)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2002</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mp_bio" index="" image="">
+	<description>Bio-hazard Battle (Mega Play)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mp_col3" index="" image="">
+	<description>Columns III (Mega Play)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mp_gaxe2" index="" image="">
+	<description>Golden Axe II (Mega Play) (Rev B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mp_gaxe2a" index="" image="">
+	<description>Golden Axe II (Mega Play)</description>
+	<cloneof>mp_gaxe2</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mp_gslam" index="" image="">
+	<description>Grand Slam (Mega Play)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mp_soni2" index="" image="">
+	<description>Sonic The Hedgehog 2 (Mega Play)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mp_sor2" index="" image="">
+	<description>Streets of Rage II (Mega Play)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mp_twc" index="" image="">
+	<description>Tecmo World Cup (Mega Play)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mslug6" index="" image="">
+	<description>Metal Slug 6</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / SNK Playmore</manufacturer>
+	<year>2006</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mt_astrm" index="" image="">
+	<description>Alien Storm (Mega-Tech)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mt_bbros" index="" image="">
+	<description>Bonanza Bros. (Mega-Tech)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mt_beast" index="" image="">
+	<description>Altered Beast (Mega-Tech)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mt_cols" index="" image="">
+	<description>Columns (Mega-Tech)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mt_crack" index="" image="">
+	<description>Crack Down (Mega-Tech)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mt_fwrld" index="" image="">
+	<description>Forgotten Worlds (Mega-Tech)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mt_gaxe" index="" image="">
+	<description>Golden Axe (Mega-Tech)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mt_gaxe2" index="" image="">
+	<description>Golden Axe II (Mega-Tech)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mt_mlh" index="" image="">
+	<description>Mario Lemieux Hockey (Mega-Tech)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Hockey</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mt_soni2" index="" image="">
+	<description>Sonic The Hedgehog 2 (Mega-Tech)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mt_srbb" index="" image="">
+	<description>Super Real Basketball (Mega-Tech)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mt_stf" index="" image="">
+	<description>Joe Montana II: Sports Talk Football (Mega-Tech)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mt_tlbba" index="" image="">
+	<description>Tommy Lasorda Baseball (Mega-Tech)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mt_wcsoc" index="" image="">
+	<description>World Championship Soccer (Mega-Tech)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mt_wwar" index="" image="">
+	<description>Wrestle War (Mega-Tech)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mtkob2" index="" image="">
+	<description>Mushiking The King Of Beetle 2K3 2nd</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2003</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mushi2eo" index="" image="">
+	<description>MushiKing II - The King Of Beetle II ENG (Ver. 1.001)</description>
+	<cloneof>mushik2e</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2005</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mushi2k5" index="" image="">
+	<description>Mushiking The King Of Beetle 2K5 1st</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2005</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mushik2e" index="" image="">
+	<description>MushiKing II - The King Of Beetle II ENG (Ver. 2.001)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2005</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mvp" index="" image="">
+	<description>MVP (set 2, US) (FD1094 317-0143)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mvpj" index="" image="">
+	<description>MVP (set 1, Japan) (FD1094 317-0142)</description>
+	<cloneof>mvp</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="newufo" index="" image="">
+	<description>New UFO Catcher (standard)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="newufo_nfl" index="" image="">
+	<description>New UFO Catcher (Team NFL)</description>
+	<cloneof>newufo</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="newufo_sonic" index="" image="">
+	<description>New UFO Catcher (Sonic The Hedgehog)</description>
+	<cloneof>newufo</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="newufo_xmas" index="" image="">
+	<description>New UFO Catcher (Christmas season ROM kit)</description>
+	<cloneof>newufo</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="opaopa" index="" image="">
+	<description>Opa Opa (MC-8123, 317-0042)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="orunnersj" index="" image="">
+	<description>OutRunners (Japan)</description>
+	<cloneof>orunners</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="passsht" index="" image="">
+	<description>Passing Shot (World, 2 Players) (FD1094 317-0080)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pokasuka" index="" image="">
+	<description>Pokasuka Ghost!</description>
+	<cloneof>manicpnc</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2007</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="potopoto" index="" image="">
+	<description>Poto Poto (Japan, Rev A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1994</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="primevah" index="" image="">
+	<description>Primeval Hunt</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2008</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="psmash3" index="" image="">
+	<description>Power Smash 3 / Virtua Tennis 3 (Export)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2006</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="puyo" index="" image="">
+	<description>Puyo Puyo (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Compile / Sega</manufacturer>
+	<year>1992</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="puyofev" index="" image="">
+	<description>Puyo Puyo Fever (GDS-0031)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2003</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="puyofevp" index="" image="">
+	<description>Puyo Puyo Fever (prototype ver 0.01)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2003</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="puyoj" index="" image="">
+	<description>Puyo Puyo (Japan, Rev B)</description>
+	<cloneof>puyo</cloneof>
+	<crc/>
+	<manufacturer>Compile / Sega</manufacturer>
+	<year>1992</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="puyoja" index="" image="">
+	<description>Puyo Puyo (Japan, Rev A)</description>
+	<cloneof>puyo</cloneof>
+	<crc/>
+	<manufacturer>Compile / Sega</manufacturer>
+	<year>1992</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="puyopuy2" index="" image="">
+	<description>Puyo Puyo 2 (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Compile (Sega license)</manufacturer>
+	<year>1994</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qgh" index="" image="">
+	<description>Quiz Ghost Hunter (Japan, ROM Based)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1994</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qmegamis" index="" image="">
+	<description>Quiz Ah Megamisama (JPN, USA, EXP, KOR, AUS)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2000</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qrouka" index="" image="">
+	<description>Quiz Rouka Ni Tattenasai (Japan, ROM Based)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qsww" index="" image="">
+	<description>Quiz Syukudai wo Wasuremashita (Japan, Floppy Based, FD1094 317-0058-08b)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quartet2" index="" image="">
+	<description>Quartet 2 (8751 317-0010)</description>
+	<cloneof>quartet</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quartet2a" index="" image="">
+	<description>Quartet 2 (unprotected)</description>
+	<cloneof>quartet</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rambo" index="" image="">
+	<description>Rambo (Export)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2008</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="razmataz" index="" image="">
+	<description>Razzmatazz</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rchase" index="" image="">
+	<description>Rail Chase (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rchase2" index="" image="">
+	<description>Rail Chase 2 (Revision A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1995</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rchasej" index="" image="">
+	<description>Rail Chase (Japan)</description>
+	<cloneof>rchase</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ribbit" index="" image="">
+	<description>Ribbit!</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="riotcity" index="" image="">
+	<description>Riot City (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / Westone</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="robowres" index="" image="">
+	<description>Robo Wres 2001</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sanritsu / Sega</manufacturer>
+	<year>1986</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="roughrac" index="" image="">
+	<description>Rough Racer (Japan, Floppy Based, FD1094 317-0058-06b)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="samba" index="" image="">
+	<description>Samba De Amigo (Rev B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="samba2k" index="" image="">
+	<description>Samba de Amigo ver. 2000</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2000</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sambap" index="" image="">
+	<description>Samba De Amigo (USA, prototype)</description>
+	<cloneof>samba</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sandor" index="" image="">
+	<description>Puzzle &amp; Action: Sando-R (J 951114 V1.000)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1995</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sanjeon" index="" image="">
+	<description>DaeJeon! SanJeon SuJeon (AJTUE 990412 V1.000)</description>
+	<cloneof>sasissu</cloneof>
+	<crc/>
+	<manufacturer>Sega / Deniam</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sasissu" index="" image="">
+	<description>Taisen Tanto-R Sashissu!! (J 980216 V1.000)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="schamp" index="" image="">
+	<description>Sonic Championship (USA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scross" index="" image="">
+	<description>Stadium Cross (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scrossa" index="" image="">
+	<description>Stadium Cross (World, alt)</description>
+	<cloneof>scross</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scrossu" index="" image="">
+	<description>Stadium Cross (US)</description>
+	<cloneof>scross</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sdi" index="" image="">
+	<description>SDI - Strategic Defense Initiative (Japan, newer, System 16A, FD1089B 317-0027)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sdia" index="" image="">
+	<description>SDI - Strategic Defense Initiative (Japan, old, System 16A, FD1089B 317-0027)</description>
+	<cloneof>sdi</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sdib" index="" image="">
+	<description>SDI - Strategic Defense Initiative (System 16B, FD1089A 317-0028)</description>
+	<cloneof>sdi</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfight" index="" image="">
+	<description>Sonic the Fighters (Japan)</description>
+	<cloneof>schamp</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sgtetris" index="" image="">
+	<description>Sega Tetris</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1999</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shaktamb" index="" image="">
+	<description>Shakatto Tambourine Cho Powerup Chu (2K1 AUT) (GDS-0016)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2001</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shaktmsp" index="" image="">
+	<description>Shakatto Tambourine Motto Norinori Shinkyoku Tsuika (2K1 SPR) (GDS-0013)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2001</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smleague" index="" image="">
+	<description>Super Major League (U 960108 V1.000)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1995</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smlg99" index="" image="">
+	<description>Super Major League &apos;99</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1999</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spaceshp" index="" image="">
+	<description>Space Ship</description>
+	<cloneof>spacewar</cloneof>
+	<crc/>
+	<manufacturer>Cinematronics (Sega license)</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spcpostn" index="" image="">
+	<description>Space Position (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / Nasco</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sprtjam" index="" image="">
+	<description>Sports Jam (GDS-0003)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2000</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sspiritj" index="" image="">
+	<description>Scramble Spirits (Japan, Floppy DS3-5000-02-REV-A Based)</description>
+	<cloneof>sspirits</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sspirits" index="" image="">
+	<description>Scramble Spirits (World, Floppy Based)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sspirtfc" index="" image="">
+	<description>Scramble Spirits (World, Floppy Based, FD1094 317-0058-02c)</description>
+	<cloneof>sspirits</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stkclmns" index="" image="">
+	<description>Stack Columns (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1994</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stkclmnsj" index="" image="">
+	<description>Stack Columns (Japan)</description>
+	<cloneof>stkclmns</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1994</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="suprleag" index="" image="">
+	<description>Super League (FD1094 317-0045)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="svf" index="" image="">
+	<description>Super Visual Football: European Sega Cup</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1994</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="svs" index="" image="">
+	<description>Super Visual Soccer: Sega Cup (US)</description>
+	<cloneof>svf</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1994</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="swa" index="" image="">
+	<description>Star Wars Arcade</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tantr" index="" image="">
+	<description>Puzzle &amp; Action: Tant-R (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tantrkor" index="" image="">
+	<description>Puzzle &amp; Action: Tant-R (Korea)</description>
+	<cloneof>tantr</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tetgiano" index="" image="">
+	<description>Tetris Giant / Tetris Dekaris (MDA-C0076)</description>
+	<cloneof>tetgiant</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2009</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tetgiant" index="" image="">
+	<description>Tetris Giant / Tetris Dekaris (Ver.2.000)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2009</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tetris" index="" image="">
+	<description>Tetris (set 4, Japan, System 16A) (FD1094 317-0093)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tetris1" index="" image="">
+	<description>Tetris (set 1, Japan, System 16B) (FD1094 317-0091)</description>
+	<cloneof>tetris</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tetris2" index="" image="">
+	<description>Tetris (set 2, Japan, System 16B) (FD1094 317-0092)</description>
+	<cloneof>tetris</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tetris3" index="" image="">
+	<description>Tetris (set 3, Japan, System 16A) (FD1094 317-0093a)</description>
+	<cloneof>tetris</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tetrisse" index="" image="">
+	<description>Tetris (Japan, System E)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tetrist" index="" image="">
+	<description>Tetris (Japan, Taito B-System, Nastar Conversion Kit)</description>
+	<cloneof>tetris</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tetrista" index="" image="">
+	<description>Tetris (Japan, Taito B-System, Master of Weapon Conversion Kit)</description>
+	<cloneof>tetris</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tetristh" index="" image="">
+	<description>Tetris (Japan, Taito H-System)</description>
+	<cloneof>tetris</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thunt" index="" image="">
+	<description>Puzzle &amp; Action: Treasure Hunt (JUET 970901 V2.00E)</description>
+	<cloneof>sandor</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1997</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thuntk" index="" image="">
+	<description>Puzzle &amp; Action: BoMulEul Chajara (JUET 970125 V2.00K)</description>
+	<cloneof>sandor</cloneof>
+	<crc/>
+	<manufacturer>Sega / Deniam</manufacturer>
+	<year>1997</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="titlef" index="" image="">
+	<description>Title Fight (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="titlefj" index="" image="">
+	<description>Title Fight (Japan)</description>
+	<cloneof>titlef</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="titlefu" index="" image="">
+	<description>Title Fight (US)</description>
+	<cloneof>titlef</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="toryumon" index="" image="">
+	<description>Toryumon</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1994</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="totd" index="" image="">
+	<description>The Typing of the Dead (JPN, USA, EXP, KOR, AUS) (Rev A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2000</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="totdo" index="" image="">
+	<description>The Typing of the Dead (JPN, USA, EXP, KOR, AUS)</description>
+	<cloneof>totd</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2000</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="toyfight" index="" image="">
+	<description>Toy Fighter</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tturf" index="" image="">
+	<description>Tough Turf (set 2, Japan) (8751 317-0104)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / Sunsoft</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tturfu" index="" image="">
+	<description>Tough Turf (set 1, US) (8751 317-0099)</description>
+	<cloneof>tturf</cloneof>
+	<crc/>
+	<manufacturer>Sega / Sunsoft</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="twinsqua" index="" image="">
+	<description>Twin Squash</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ufo21" index="" image="">
+	<description>UFO Catcher 21</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1996</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vathlete" index="" image="">
+	<description>Virtua Athletics / Virtua Athlete (GDS-0019)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2002</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vcop" index="" image="">
+	<description>Virtua Cop (Revision B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1994</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vcop2" index="" image="">
+	<description>Virtua Cop 2</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1995</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vcop3" index="" image="">
+	<description>Virtua Cop 3 (Rev A) (GDX-0003A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2003</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vcopa" index="" image="">
+	<description>Virtua Cop (Revision A)</description>
+	<cloneof>vcop</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1994</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vf" index="" image="">
+	<description>Virtua Fighter</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vf2" index="" image="">
+	<description>Virtua Fighter 2 (Version 2.1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vf2a" index="" image="">
+	<description>Virtua Fighter 2 (Revision A)</description>
+	<cloneof>vf2</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vf2b" index="" image="">
+	<description>Virtua Fighter 2 (Revision B)</description>
+	<cloneof>vf2</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vf2o" index="" image="">
+	<description>Virtua Fighter 2</description>
+	<cloneof>vf2</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vf3" index="" image="">
+	<description>Virtua Fighter 3 (Revision C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vf3a" index="" image="">
+	<description>Virtua Fighter 3 (Revision A)</description>
+	<cloneof>vf3</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vf3tb" index="" image="">
+	<description>Virtua Fighter 3 Team Battle</description>
+	<cloneof>vf3</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vf4" index="" image="">
+	<description>Virtua Fighter 4 (Rev C) (GDS-0012C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2001</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vf4b" index="" image="">
+	<description>Virtua Fighter 4 (Rev B) (GDS-0012B)</description>
+	<cloneof>vf4</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2001</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vf4cart" index="" image="">
+	<description>Virtua Fighter 4 (Cartridge)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2002</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vf4evo" index="" image="">
+	<description>Virtua Fighter 4 Evolution (Rev B) (GDS-0024B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2002</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vf4evoa" index="" image="">
+	<description>Virtua Fighter 4 Evolution (Rev A) (GDS-0024A)</description>
+	<cloneof>vf4evo</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2002</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vf4evoct" index="" image="">
+	<description>Virtua Fighter 4 Evolution (Cartridge)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2002</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vf4o" index="" image="">
+	<description>Virtua Fighter 4 (GDS-0012)</description>
+	<cloneof>vf4</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2001</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vf4tuned" index="" image="">
+	<description>Virtua Fighter 4 Final Tuned (Rev F) (GDS-0036F)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2004</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vf4tuneda" index="" image="">
+	<description>Virtua Fighter 4 Final Tuned (Rev A) (GDS-0036A)</description>
+	<cloneof>vf4tuned</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2004</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vf4tunedd" index="" image="">
+	<description>Virtua Fighter 4 Final Tuned (Rev D) (GDS-0036D)</description>
+	<cloneof>vf4tuned</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2004</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vf5" index="" image="">
+	<description>Virtua Fighter 5 (Export)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2005</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vfkids" index="" image="">
+	<description>Virtua Fighter Kids (JUET 960319 V0.000)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vfremix" index="" image="">
+	<description>Virtua Fighter Remix (JUETBKAL 950428 V1.000)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="virnba" index="" image="">
+	<description>Virtua NBA (JPN, USA, EXP, KOR, AUS)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2000</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="virnbao" index="" image="">
+	<description>Virtua NBA (JPN, USA, EXP, KOR, AUS) (original)</description>
+	<cloneof>virnba</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2000</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vnight" index="" image="">
+	<description>Vampire Night (VPN3 Ver. B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / Namco</manufacturer>
+	<year>2001</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vs2" index="" image="">
+	<description>Virtua Striker 2 (Step 2.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1997</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vs2002ex" index="" image="">
+	<description>Virtua Striker 2002 (GDT-0002)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / Amusement Vision</manufacturer>
+	<year>2002</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vs2002j" index="" image="">
+	<description>Virtua Striker 2002 (GDT-0001)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / Amusement Vision</manufacturer>
+	<year>2002</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vs215" index="" image="">
+	<description>Virtua Striker 2 (Step 1.5)</description>
+	<cloneof>vs2</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1997</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vs215o" index="" image="">
+	<description>Virtua Striker 2 (Step 1.5, older)</description>
+	<cloneof>vs2</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1997</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vs298" index="" image="">
+	<description>Virtua Striker 2 &apos;98 (Step 2.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1998</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vs29815" index="" image="">
+	<description>Virtua Striker 2 &apos;98 (Step 1.5)</description>
+	<cloneof>vs298</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1998</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vs299" index="" image="">
+	<description>Virtua Striker 2 &apos;99</description>
+	<cloneof>vs2v991</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1999</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vs299a" index="" image="">
+	<description>Virtua Striker 2 &apos;99 (Revision A)</description>
+	<cloneof>vs2v991</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1999</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vs299b" index="" image="">
+	<description>Virtua Striker 2 &apos;99 (Revision B)</description>
+	<cloneof>vs2v991</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1999</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vs2_2k" index="" image="">
+	<description>Virtua Striker 2 Ver. 2000 (JPN, USA, EXP, KOR, AUS) (Rev C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1999</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vs2v991" index="" image="">
+	<description>Virtua Striker 2 &apos;99.1 (Revision B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1999</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vs4" index="" image="">
+	<description>Virtua Striker 4 (Export) (GDT-0015)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2004</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vs42006" index="" image="">
+	<description>Virtua Striker 4 Ver.2006 (Japan) (Rev D) (GDT-0020D)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2006</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vs42k6ex" index="" image="">
+	<description>Virtua Striker 4 Ver.2006 (Export) (GDT-0021)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2006</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vs4j" index="" image="">
+	<description>Virtua Striker 4 (Japan) (Rev E) (GDT-0013E)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2005</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vstrik3" index="" image="">
+	<description>Virtua Striker 3 Ver. 2002 (GDS-0006)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2001</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vstrik3c" index="" image="">
+	<description>Virtua Striker 3 (USA, EXP, KOR, AUS) (Rev B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2001</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vstrik3co" index="" image="">
+	<description>Virtua Striker 3 (USA, EXP, KOR, AUS)</description>
+	<cloneof>vstrik3c</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2001</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vstriker" index="" image="">
+	<description>Virtua Striker (Revision A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1994</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vstrikero" index="" image="">
+	<description>Virtua Striker</description>
+	<cloneof>vstriker</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1994</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vtenis2c" index="" image="">
+	<description>Virtua Tennis 2 / Power Smash 2 (JPN) (USA, EXP, KOR, AUS) (Cart, Rev A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2001</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vtennis" index="" image="">
+	<description>Virtua Tennis (USA, EXP, KOR, AUS) / Power Smash (JPN)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1999</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vtennis2" index="" image="">
+	<description>Virtua Tennis 2 / Power Smash 2 (Rev A) (GDS-0015A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2001</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vtennis3" index="" image="">
+	<description>Virtua Tennis 3 (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2006</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vtennisg" index="" image="">
+	<description>Virtua Tennis / Power Smash (GDS-0011)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1999</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wb3" index="" image="">
+	<description>Wonder Boy III - Monster Lair (set 6, World, System 16B) (8751 317-0098)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / Westone</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wb31" index="" image="">
+	<description>Wonder Boy III - Monster Lair (set 1, Japan, System 16A) (FD1094 317-0084)</description>
+	<cloneof>wb3</cloneof>
+	<crc/>
+	<manufacturer>Sega / Westone</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wb32" index="" image="">
+	<description>Wonder Boy III - Monster Lair (set 2, Japan, System 16B) (FD1094 317-0085)</description>
+	<cloneof>wb3</cloneof>
+	<crc/>
+	<manufacturer>Sega / Westone</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wb33" index="" image="">
+	<description>Wonder Boy III - Monster Lair (set 3, World, System 16B) (FD1094 317-0089)</description>
+	<cloneof>wb3</cloneof>
+	<crc/>
+	<manufacturer>Sega / Westone</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wb34" index="" image="">
+	<description>Wonder Boy III - Monster Lair (set 4, Japan, System 16B) (FD1094 317-0087)</description>
+	<cloneof>wb3</cloneof>
+	<crc/>
+	<manufacturer>Sega / Westone</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wb35" index="" image="">
+	<description>Wonder Boy III - Monster Lair (set 5, Japan, System 16A) (FD1089A 317-0086)</description>
+	<cloneof>wb3</cloneof>
+	<crc/>
+	<manufacturer>Sega / Westone</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="winterht" index="" image="">
+	<description>Winter Heat (JUET 971012 V1.000)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1997</year>
+	<genre>Skiing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wrestwar" index="" image="">
+	<description>Wrestle War (set 3, World) (8751 317-0103)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wrestwar1" index="" image="">
+	<description>Wrestle War (set 1, Japan) (FD1094 317-0090)</description>
+	<cloneof>wrestwar</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wrestwar2" index="" image="">
+	<description>Wrestle War (set 2, World) (FD1094 317-0102)</description>
+	<cloneof>wrestwar</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wsbbgd" index="" image="">
+	<description>Super Major League / World Series Baseball (GDS-0010)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2001</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wwallyj" index="" image="">
+	<description>Wally wo Sagase! (rev B, Japan) (FD1094 317-0197B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wwallyja" index="" image="">
+	<description>Wally wo Sagase! (rev A, Japan) (FD1094 317-0197A)</description>
+	<cloneof>wwallyj</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wwfroyal" index="" image="">
+	<description>WWF Royal Rumble (JPN, USA, EXP, KOR, AUS)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2000</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xtrmhnt2" index="" image="">
+	<description>Extreme Hunting 2</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2006</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="znpwfv" index="" image="">
+	<description>Zen Nippon Pro-Wrestling Featuring Virtua (J 971123 V1.000)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1997</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zombrvn" index="" image="">
+	<description>Zombie Revenge (Rev A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zombrvno" index="" image="">
+	<description>Zombie Revenge</description>
+	<cloneof>zombrvn</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zunkyou" index="" image="">
+	<description>Zunzunkyou No Yabou (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1994</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

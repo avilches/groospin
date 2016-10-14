@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Taito / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="dendego" index="" image="">
+	<description>Densha de GO! (Ver 2.2 J)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dendego2" index="" image="">
+	<description>Densha de GO! 2 Kousoku-hen (Ver 2.5 J)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1998</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dendego23k" index="" image="">
+	<description>Densha de GO! 2 Kousoku-hen 3000-bandai (Ver 2.20 J)</description>
+	<cloneof>dendego2</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1998</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dendegox" index="" image="">
+	<description>Densha de GO! EX (Ver 2.4 J)</description>
+	<cloneof>dendego</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="landgear" index="" image="">
+	<description>Landing Gear (Ver 4.2 O)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1995</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sidebs2" index="" image="">
+	<description>Side by Side 2 (Ver 2.6 A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1997</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sidebsja" index="" image="">
+	<description>Side by Side (Ver 2.5 J)</description>
+	<cloneof>sidebs</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="suprridr" index="" image="">
+	<description>Super Rider</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation (Venture Line license)</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

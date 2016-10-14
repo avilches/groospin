@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Miscellaneous / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="avalnc12" index="" image="">
+	<description>The Key Of Avalon 1.2 - Summon The New Monsters (client) (Rev A) (GDT-0010A)</description>
+	<cloneof>avalnc13</cloneof>
+	<crc/>
+	<manufacturer>Sega / Hitmaker</manufacturer>
+	<year>2004</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="avalns12" index="" image="">
+	<description>The Key Of Avalon 1.2 - Summon The New Monsters (server) (Rev A) (GDT-0009A)</description>
+	<cloneof>avalns13</cloneof>
+	<crc/>
+	<manufacturer>Sega / Hitmaker</manufacturer>
+	<year>2004</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="avalns13" index="" image="">
+	<description>The Key Of Avalon 1.3 - Chaotic Sabbat (server) (Rev C) (GDT-0009C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / Hitmaker</manufacturer>
+	<year>2004</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="avalonc" index="" image="">
+	<description>The Key Of Avalon - The Wizard Master (client) (Rev G) (GDT-0006G)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / Hitmaker</manufacturer>
+	<year>2003</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="avalonce" index="" image="">
+	<description>The Key Of Avalon - The Wizard Master (client) (Rev E) (GDT-0006E)</description>
+	<cloneof>avalonc</cloneof>
+	<crc/>
+	<manufacturer>Sega / Hitmaker</manufacturer>
+	<year>2003</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="avaloncf" index="" image="">
+	<description>The Key Of Avalon - The Wizard Master (client) (Rev F) (GDT-0006F)</description>
+	<cloneof>avalonc</cloneof>
+	<crc/>
+	<manufacturer>Sega / Hitmaker</manufacturer>
+	<year>2003</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="avalons" index="" image="">
+	<description>The Key Of Avalon - The Wizard Master (server) (Rev G) (GDT-0005G)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / Hitmaker</manufacturer>
+	<year>2003</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="avalonse" index="" image="">
+	<description>The Key Of Avalon - The Wizard Master (server) (Rev E) (GDT-0005E)</description>
+	<cloneof>avalons</cloneof>
+	<crc/>
+	<manufacturer>Sega / Hitmaker</manufacturer>
+	<year>2003</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="avalonsf" index="" image="">
+	<description>The Key Of Avalon - The Wizard Master (server) (Rev F) (GDT-0005F)</description>
+	<cloneof>avalons</cloneof>
+	<crc/>
+	<manufacturer>Sega / Hitmaker</manufacturer>
+	<year>2003</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="srockbwl" index="" image="">
+	<description>Super Rock and Bowl (V1.1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bromley</manufacturer>
+	<year>1994</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

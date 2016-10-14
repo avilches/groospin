@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Mini-Games / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="cscluba" index="" image="">
+	<description>Capcom Sports Club (Asia 970722)</description>
+	<cloneof>csclub</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1997</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="csclubj" index="" image="">
+	<description>Capcom Sports Club (Japan 970722)</description>
+	<cloneof>csclub</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1997</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sotsugyo" index="" image="">
+	<description>Sotsugyo Shousho</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Mitchell (Atlus license)</manufacturer>
+	<year>1995</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Sega / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="abcop" index="" image="">
+	<description>A.B. Cop (World) (FD1094 317-0169b)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arabfgtj" index="" image="">
+	<description>Arabian Fight (Japan)</description>
+	<cloneof>arabfgt</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="astormu" index="" image="">
+	<description>Alien Storm (US, 3 Players) (FD1094 317-0147)</description>
+	<cloneof>astorm</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bayroutej" index="" image="">
+	<description>Bay Route (set 2, Japan) (FD1094 317-0115)</description>
+	<cloneof>bayroute</cloneof>
+	<crc/>
+	<manufacturer>Sunsoft / Sega</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cottonu" index="" image="">
+	<description>Cotton (set 3, US) (FD1094 317-0180)</description>
+	<cloneof>cotton</cloneof>
+	<crc/>
+	<manufacturer>Success / Sega</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="desertbr" index="" image="">
+	<description>Desert Breaker (World) (FD1094 317-0196)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="eswatj" index="" image="">
+	<description>E-Swat - Cyber Police (set 2, Japan) (FD1094 317-0128)</description>
+	<cloneof>eswat</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="loffirej" index="" image="">
+	<description>Line of Fire / Bakudan Yarou (Japan) (FD1094 317-0134)</description>
+	<cloneof>loffire</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rachero" index="" image="">
+	<description>Racing Hero (FD1094 317-0144)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shinobi" index="" image="">
+	<description>Shinobi (set 6, System 16A) (unprotected)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shinobi4" index="" image="">
+	<description>Shinobi (set 4, System 16B) (MC-8123B 317-0054)</description>
+	<cloneof>shinobi</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smgp" index="" image="">
+	<description>Super Monaco GP (World, Rev B) (FD1094 317-0126a)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smgp5" index="" image="">
+	<description>Super Monaco GP (World) (FD1094 317-0126)</description>
+	<cloneof>smgp</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smgpu" index="" image="">
+	<description>Super Monaco GP (US, Rev C) (FD1094 317-0125a)</description>
+	<cloneof>smgp</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tetris3" index="" image="">
+	<description>Tetris (set 3, Japan, System 16A) (FD1094 317-0093a)</description>
+	<cloneof>tetris</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wrestwar2" index="" image="">
+	<description>Wrestle War (set 2, World) (FD1094 317-0102)</description>
+	<cloneof>wrestwar</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wwallyj" index="" image="">
+	<description>Wally wo Sagase! (rev B, Japan) (FD1094 317-0197B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

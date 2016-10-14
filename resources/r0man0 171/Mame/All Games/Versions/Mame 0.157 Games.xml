@@ -1,0 +1,579 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Mame / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="2spicy" index="" image="">
+	<description>2 Spicy</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2007</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="abclimax" index="" image="">
+	<description>After Burner Climax (Export)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2006</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="amaztron" index="" image="">
+	<description>Amaze-A-Tron</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Coleco</manufacturer>
+	<year>1978</year>
+	<genre>Handheld Game</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="atarifb2" index="" image="">
+	<description>Atari Football II</description>
+	<cloneof>atarifb</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1978</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="barata" index="" image="">
+	<description>Dona Barata (early prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Eletro Matic Equipamentos Eletromec??nicos</manufacturer>
+	<year>2002</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="brkblast" index="" image="">
+	<description>Brick Blast (bootleg of Wall Crash)</description>
+	<cloneof>wallc</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Fadesa)</manufacturer>
+	<year>1984</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cnsector" index="" image="">
+	<description>Code Name: Sector</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Parker Brothers</manufacturer>
+	<year>1977</year>
+	<genre>Handheld Game</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddaydoo" index="" image="">
+	<description>Chulgyeok D-Day (Korea)</description>
+	<cloneof>lastday</cloneof>
+	<crc/>
+	<manufacturer>Dooyong</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dharma" index="" image="">
+	<description>Dharma Doujou</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Metro</manufacturer>
+	<year>1994</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dominos4" index="" image="">
+	<description>Dominos 4 (Cocktail)</description>
+	<cloneof>dominos</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1977</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="f1enj" index="" image="">
+	<description>F1 Exhaust Note (Japan)</description>
+	<cloneof>f1en</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fantzoneta" index="" image="">
+	<description>Fantasy Zone (Time Attack, bootleg)</description>
+	<cloneof>fantzone</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2008</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ggxxrlo" index="" image="">
+	<description>Guilty Gear XX #Reload (GDL-0019)</description>
+	<cloneof>ggxxrl</cloneof>
+	<crc/>
+	<manufacturer>Arc System Works</manufacturer>
+	<year>2003</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ghostsev" index="" image="">
+	<description>Ghost Squad Evolution</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2007</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hotd4" index="" image="">
+	<description>House of the Dead 4 (Export)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2005</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hotdex" index="" image="">
+	<description>House of the Dead EX (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2008</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hummerxt" index="" image="">
+	<description>Hummer Extreme</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2009</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="initiad4" index="" image="">
+	<description>Initial D4 (Rev D)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2007</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="initiad4c" index="" image="">
+	<description>Initial D4 (Rev C)</description>
+	<cloneof>initiad4</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2007</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="letsgoju" index="" image="">
+	<description>Let&apos;s Go Jungle (Export)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2006</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mathmagi" index="" image="">
+	<description>Mathemagician</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>APF Electronics Inc.</manufacturer>
+	<year>1980</year>
+	<genre>Calculator / Pocket Computer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="meltyblo" index="" image="">
+	<description>Melty Blood Act Cadenza (GDL-0028)</description>
+	<cloneof>meltybld</cloneof>
+	<crc/>
+	<manufacturer>Ecole Software</manufacturer>
+	<year>2005</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mkyawdim3" index="" image="">
+	<description>Mortal Kombat (Yawdim bootleg, set 3)</description>
+	<cloneof>mk</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Yawdim)</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="outr2sdx" index="" image="">
+	<description>OutRun 2 SP SDX</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2006</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pemg0183" index="" image="">
+	<description>Montana Choice (MG0183) Multi-Game</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1994</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2478p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002478P+XP000154) Joker Poker - French</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2479p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002479P+XP000154) Joker Poker - French</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2480p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002480P+XP000154) Joker Poker (Aces or Better) - French</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2485p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002485P+XP000154) Standard Draw Poker - French</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="prdgp03" index="" image="">
+	<description>Pride GP 2003 (PR21 Ver. A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2003</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="primevah" index="" image="">
+	<description>Primeval Hunt</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2008</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="psmash3" index="" image="">
+	<description>Power Smash 3 / Virtua Tennis 3 (Export)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2006</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qgundam" index="" image="">
+	<description>Quiz Mobile Suit Gundam: Monsenshi (QG1 Ver. A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2006</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="radikalb" index="" image="">
+	<description>Radikal Bikers (Version 2.02)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1998</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rambo" index="" image="">
+	<description>Rambo (Export)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2008</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rrvac2" index="" image="">
+	<description>Ridge Racer V Arcade Battle (RRV2 Ver. A)</description>
+	<cloneof>rrvac</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2001</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbrkoutct" index="" image="">
+	<description>Super Breakout (Cocktail, prototype)</description>
+	<cloneof>sbrkout</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1978</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="segartv" index="" image="">
+	<description>Sega Race-TV (Export)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2007</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spacduel0" index="" image="">
+	<description>Space Duel (prototype)</description>
+	<cloneof>spacduel</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spacduel1" index="" image="">
+	<description>Space Duel (version 1)</description>
+	<cloneof>spacduel</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssf2tad" index="" image="">
+	<description>Super Street Fighter II Turbo (Asia 940223 Phoenix Edition) (bootleg)</description>
+	<cloneof>ssf2t</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="starhrpr" index="" image="">
+	<description>Star Horse Progress Returns (satellite)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2009</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="starwarso" index="" image="">
+	<description>Star Wars (set 3)</description>
+	<cloneof>starwars</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="starwbc" index="" image="">
+	<description>Star Wars - Electronic Battle Command</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kenner</manufacturer>
+	<year>1979</year>
+	<genre>Handheld Game</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="starwbcp" index="" image="">
+	<description>Star Wars - Electronic Battle Command (patent)</description>
+	<cloneof>starwbc</cloneof>
+	<crc/>
+	<manufacturer>Kenner</manufacturer>
+	<year>1979</year>
+	<genre>Handheld Game</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stopthiep" index="" image="">
+	<description>Stop Thief (Electronic Crime Scanner) (patent)</description>
+	<cloneof>stopthie</cloneof>
+	<crc/>
+	<manufacturer>Parker Brothers</manufacturer>
+	<year>1979</year>
+	<genre>Handheld Game</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tandy12" index="" image="">
+	<description>Tandy-12: Computerized Arcade</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Tandy Radio Shack</manufacturer>
+	<year>1981</year>
+	<genre>Handheld Game</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tekken5d" index="" image="">
+	<description>Tekken 5 Dark Resurrection (TED1 Ver. A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2005</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ti1270" index="" image="">
+	<description>TI-1270</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Texas Instruments</manufacturer>
+	<year>1976</year>
+	<genre>Calculator / Pocket Computer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ti30" index="" image="">
+	<description>TI-30</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Texas Instruments</manufacturer>
+	<year>1976</year>
+	<genre>Calculator / Pocket Computer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tibusan" index="" image="">
+	<description>TI Business Analyst</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Texas Instruments</manufacturer>
+	<year>1976</year>
+	<genre>Calculator / Pocket Computer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="timecrs4" index="" image="">
+	<description>Time Crisis 4</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2006</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tiprog" index="" image="">
+	<description>TI Programmer</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Texas Instruments</manufacturer>
+	<year>1977</year>
+	<genre>Calculator / Pocket Computer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tisr16" index="" image="">
+	<description>SR-16</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Texas Instruments</manufacturer>
+	<year>1974</year>
+	<genre>Calculator / Pocket Computer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vf5" index="" image="">
+	<description>Virtua Fighter 5 (Export)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2005</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vtennis3" index="" image="">
+	<description>Virtua Tennis 3 (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2006</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="yamyamk" index="" image="">
+	<description>Yam! Yam!? (Korea)</description>
+	<cloneof>yamyam</cloneof>
+	<crc/>
+	<manufacturer>Dooyong</manufacturer>
+	<year>1990</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

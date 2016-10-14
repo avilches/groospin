@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Casino / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="cgold" index="" image="">
+	<description>Caribbean Gold (3VXEC449, USA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Ainsworth Nominees P.L.</manufacturer>
+	<year>1986</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="czmon_13" index="" image="">
+	<description>Crazy Monkey (100311 World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="czmon_15" index="" image="">
+	<description>Crazy Monkey (100311 Entertainment)</description>
+	<cloneof>czmon_13</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="czmon_16" index="" image="">
+	<description>Crazy Monkey (100312 Russia)</description>
+	<cloneof>czmon_13</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fruitpc" index="" image="">
+	<description>Fruit Land</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnome_10" index="" image="">
+	<description>Gnome (100326 Lottery)</description>
+	<cloneof>gnome_9</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnome_11" index="" image="">
+	<description>Gnome (100326 Entertainment)</description>
+	<cloneof>gnome_9</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnome_12" index="" image="">
+	<description>Gnome (100326 Russia)</description>
+	<cloneof>gnome_9</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnome_9" index="" image="">
+	<description>Gnome (100326 World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kingdrbb2" index="" image="">
+	<description>King Derby (bootleg set 2)</description>
+	<cloneof>kingdrby</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>198?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lhaunt_11" index="" image="">
+	<description>Lucky Haunter (100331 Entertainment)</description>
+	<cloneof>lhaunt_6</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="resdnt_6" index="" image="">
+	<description>Resident (100311 World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="resdnt_8" index="" image="">
+	<description>Resident (100311 Entertainment)</description>
+	<cloneof>resdnt_6</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="resdnt_9" index="" image="">
+	<description>Resident (100316 Russia)</description>
+	<cloneof>resdnt_6</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spookyo" index="" image="">
+	<description>Spooky Night (Version 1.0.1)</description>
+	<cloneof>spooky</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tesorone" index="" image="">
+	<description>Tesorone Dell&apos;Isola (Italy, v2.41)</description>
+	<cloneof>stbsub</cloneof>
+	<crc/>
+	<manufacturer>Subsino</manufacturer>
+	<year>1995</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tesorone240" index="" image="">
+	<description>Tesorone Dell&apos;Isola (Italy, v2.40)</description>
+	<cloneof>stbsub</cloneof>
+	<crc/>
+	<manufacturer>Subsino</manufacturer>
+	<year>1995</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

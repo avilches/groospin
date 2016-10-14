@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Casino / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="butrfly" index="" image="">
+	<description>Butterfly Video Game (version U350C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bordun International</manufacturer>
+	<year>1995</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cb3" index="" image="">
+	<description>Cherry Bonus III (ver.1.40, encrypted)</description>
+	<cloneof>ncb3</cloneof>
+	<crc/>
+	<manufacturer>Dyna</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chry10" index="" image="">
+	<description>Cherry 10 (bootleg with PIC16F84)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chrygld" index="" image="">
+	<description>Cherry Gold I (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cmast91" index="" image="">
+	<description>Cherry Master &apos;91 (ver.1.30)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dyna</manufacturer>
+	<year>1991</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cmaster" index="" image="">
+	<description>Cherry Master I (ver.1.01, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dyna</manufacturer>
+	<year>1991</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jackie" index="" image="">
+	<description>Happy Jackie (v110U)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1993</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="leader" index="" image="">
+	<description>Leader (version Z 2E, Greece)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1995</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ncb3" index="" image="">
+	<description>Cherry Bonus III (ver.1.40, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dyna</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="re900" index="" image="">
+	<description>Ruleta RE-900</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Entretenimientos GEMINIS</manufacturer>
+	<year>1993</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

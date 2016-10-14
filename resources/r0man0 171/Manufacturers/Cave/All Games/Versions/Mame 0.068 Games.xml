@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Cave / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="ddonpach" index="" image="">
+	<description>DoDonPachi (International, Master Ver. 97/02/05)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Cave (Atlus license)</manufacturer>
+	<year>1997</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="donpachi" index="" image="">
+	<description>DonPachi (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Cave (Atlus license)</manufacturer>
+	<year>1995</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

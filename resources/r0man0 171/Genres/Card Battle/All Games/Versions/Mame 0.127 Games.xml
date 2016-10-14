@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Card Battle / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="babypkr" index="" image="">
+	<description>Baby Poker</description>
+	<cloneof>videopkr</cloneof>
+	<crc/>
+	<manufacturer>Recreativos Franco</manufacturer>
+	<year>1987</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blckjack" index="" image="">
+	<description>Black Jack</description>
+	<cloneof>videopkr</cloneof>
+	<crc/>
+	<manufacturer>InterFlip</manufacturer>
+	<year>1984</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bsuertea" index="" image="">
+	<description>Buena Suerte (Spanish, set 2)</description>
+	<cloneof>bsuerte</cloneof>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1991</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bsuertec" index="" image="">
+	<description>Buena Suerte (Spanish, set 4)</description>
+	<cloneof>bsuerte</cloneof>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1991</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="goodluck" index="" image="">
+	<description>Good Luck</description>
+	<cloneof>bsuerte</cloneof>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1991</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="magic10c" index="" image="">
+	<description>Magic&apos;s 10 (ver. 16.15)</description>
+	<cloneof>magic10</cloneof>
+	<crc/>
+	<manufacturer>A.W.P. Games</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="magjoker" index="" image="">
+	<description>Magic Joker (v1.25.10.2000)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>B.R.L.</manufacturer>
+	<year>2000</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mcolors" index="" image="">
+	<description>Magic Colors (ver. 1.7a)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1999</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pool10d" index="" image="">
+	<description>Pool 10 (Italian, set 4)</description>
+	<cloneof>pool10</cloneof>
+	<crc/>
+	<manufacturer>C.M.C.</manufacturer>
+	<year>1997</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="potnpkrd" index="" image="">
+	<description>Jack Potten&apos;s Poker (set 5)</description>
+	<cloneof>pottnpkr</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>198?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="potnpkre" index="" image="">
+	<description>Jack Potten&apos;s Poker (set 6)</description>
+	<cloneof>pottnpkr</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>198?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="royale" index="" image="">
+	<description>Royale (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>198?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sgsafari" index="" image="">
+	<description>Super Gran Safari (ver 3.11)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>New Impeuropex Corp.</manufacturer>
+	<year>1996</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sloco93" index="" image="">
+	<description>Super Loco 93 (Spanish, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1993</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sloco93a" index="" image="">
+	<description>Super Loco 93 (Spanish, set 2)</description>
+	<cloneof>sloco93</cloneof>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1993</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spacewin" index="" image="">
+	<description>Scacco Matto / Space Win</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Playmark</manufacturer>
+	<year>1996</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="videopkr" index="" image="">
+	<description>Video Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>InterFlip</manufacturer>
+	<year>1984</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="witchcda" index="" image="">
+	<description>Witch Card (Spanish, witch game, set 1)</description>
+	<cloneof>witchcrd</cloneof>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1991</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="witchcdb" index="" image="">
+	<description>Witch Card (Spanish, witch game, set 2)</description>
+	<cloneof>witchcrd</cloneof>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1991</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="witchcdc" index="" image="">
+	<description>Witch Card (English, no witch game)</description>
+	<cloneof>witchcrd</cloneof>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1991</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Konami / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="amidars" index="" image="">
+	<description>Amidar (Scramble hardware)</description>
+	<cloneof>amidar</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="circusc" index="" image="">
+	<description>Circus Charlie (level select, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="circusc4" index="" image="">
+	<description>Circus Charlie (no level select)</description>
+	<cloneof>circusc</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hyperspt" index="" image="">
+	<description>Hyper Sports</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami (Centuri license)</manufacturer>
+	<year>1984</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ironhors" index="" image="">
+	<description>Iron Horse</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mikie" index="" image="">
+	<description>Mikie</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1984</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rocnropek" index="" image="">
+	<description>Roc&apos;n Rope (Kosuka)</description>
+	<cloneof>rocnrope</cloneof>
+	<crc/>
+	<manufacturer>Konami (Kosuka license)</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shaolins" index="" image="">
+	<description>Shao-lin&apos;s Road (set 1)</description>
+	<cloneof>kicker</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trackfld" index="" image="">
+	<description>Track &amp; Field</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1983</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

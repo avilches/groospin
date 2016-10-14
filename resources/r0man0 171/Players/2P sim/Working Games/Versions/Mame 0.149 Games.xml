@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2P sim / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="3wondersb" index="" image="">
+	<description>Three Wonders (bootleg)</description>
+	<cloneof>3wonders</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1991</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arcadian" index="" image="">
+	<description>Arcadia (NMK)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>NMK</manufacturer>
+	<year>1994</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="contrabj" index="" image="">
+	<description>Contra (Japan bootleg, set 1)</description>
+	<cloneof>contra</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="contraj1" index="" image="">
+	<description>Contra (Japan, set 2)</description>
+	<cloneof>contra</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dragngunj" index="" image="">
+	<description>Dragon Gun (Japan)</description>
+	<cloneof>dragngun</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fghthistj" index="" image="">
+	<description>Fighter&apos;s History (Japan ver 41-07, DE-0395-1 PCB)</description>
+	<cloneof>fghthist</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="grdnstrmg" index="" image="">
+	<description>Guardian Storm (Germany)</description>
+	<cloneof>grdnstrm</cloneof>
+	<crc/>
+	<manufacturer>Afega</manufacturer>
+	<year>1998</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hidnc2k" index="" image="">
+	<description>Hidden Catch 2000 (AT89c52 protected)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Eolith</manufacturer>
+	<year>1999</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jackalr" index="" image="">
+	<description>Jackal (World, Rotary Joystick)</description>
+	<cloneof>jackal</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="misncrft" index="" image="">
+	<description>Mission Craft (version 2.7)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sun</manufacturer>
+	<year>2000</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="p47je" index="" image="">
+	<description>P-47 - The Freedom Fighter (Japan, Export)</description>
+	<cloneof>p47</cloneof>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pbss330" index="" image="">
+	<description>Pit Boss Superstar III 30 (9233-00-01)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1993</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfzar1" index="" image="">
+	<description>Street Fighter Zero (Asia 950605)</description>
+	<cloneof>sfa</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shangha3u" index="" image="">
+	<description>Shanghai III (US)</description>
+	<cloneof>shangha3</cloneof>
+	<crc/>
+	<manufacturer>Sunsoft</manufacturer>
+	<year>1993</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="skysoldrbl" index="" image="">
+	<description>Sky Soldiers (bootleg)</description>
+	<cloneof>skysoldr</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="snowbroswb" index="" image="">
+	<description>Snow Bros. - Nick &amp; Tom (The Winter Bobble hardware bootleg)</description>
+	<cloneof>snowbros</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tetristh" index="" image="">
+	<description>Tetris (Japan, Taito H-System)</description>
+	<cloneof>tetris</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thunderj" index="" image="">
+	<description>ThunderJaws (rev 3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wwfmaniac" index="" image="">
+	<description>WWF: Wrestlemania (rev 1.1 07/11/95)</description>
+	<cloneof>wwfmania</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1995</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zombraidp" index="" image="">
+	<description>Zombie Raid (9/28/95, US, prototype PCB)</description>
+	<cloneof>zombraid</cloneof>
+	<crc/>
+	<manufacturer>American Sammy</manufacturer>
+	<year>1995</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zombraidpj" index="" image="">
+	<description>Zombie Raid (9/28/95, Japan, prototype PCB)</description>
+	<cloneof>zombraid</cloneof>
+	<crc/>
+	<manufacturer>Sammy Industries Co.,Ltd.</manufacturer>
+	<year>1995</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

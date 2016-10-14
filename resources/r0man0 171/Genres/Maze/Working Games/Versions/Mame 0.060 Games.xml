@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Maze / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="barricad" index="" image="">
+	<description>Barricade</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Ramtek</manufacturer>
+	<year>1976</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="brickyrd" index="" image="">
+	<description>Brickyard</description>
+	<cloneof>barricad</cloneof>
+	<crc/>
+	<manufacturer>Ramtek</manufacturer>
+	<year>1976</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="herodk" index="" image="">
+	<description>Hero in the Castle of Doom (DK conversion)</description>
+	<cloneof>hero</cloneof>
+	<crc/>
+	<manufacturer>Seatongrove Ltd (Crown license)</manufacturer>
+	<year>1984</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="herodku" index="" image="">
+	<description>Hero in the Castle of Doom (DK conversion not encrypted)</description>
+	<cloneof>hero</cloneof>
+	<crc/>
+	<manufacturer>Seatongrove Ltd (Crown license)</manufacturer>
+	<year>1984</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hyperpac" index="" image="">
+	<description>Hyper Pacman</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SemiCom</manufacturer>
+	<year>1995</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hyperpacb" index="" image="">
+	<description>Hyper Pacman (bootleg)</description>
+	<cloneof>hyperpac</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1995</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pengob" index="" image="">
+	<description>Pengo (bootleg)</description>
+	<cloneof>pengo</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="taxidriv" index="" image="">
+	<description>Taxi Driver</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Graphic Techno</manufacturer>
+	<year>1984</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

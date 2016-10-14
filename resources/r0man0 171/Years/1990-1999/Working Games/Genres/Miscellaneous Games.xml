@@ -1,0 +1,999 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1990-1999 / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="30test" index="" image="">
+	<description>30 Test (Remake)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1997</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="animaljr" index="" image="">
+	<description>Exciting Animal Land Jr. (USA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nakanihon / East Technology (Taito license)</manufacturer>
+	<year>1993</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="animaljrj" index="" image="">
+	<description>Waiwai Animal Land Jr. (Japan)</description>
+	<cloneof>animaljr</cloneof>
+	<crc/>
+	<manufacturer>Nakanihon / East Technology (Taito license)</manufacturer>
+	<year>1993</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="animaljrs" index="" image="">
+	<description>Animalandia Jr. (Spanish)</description>
+	<cloneof>animaljr</cloneof>
+	<crc/>
+	<manufacturer>Nakanihon / East Technology (Taito license)</manufacturer>
+	<year>1993</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aquarush" index="" image="">
+	<description>Aqua Rush (Japan, AQ1/VER.A1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1999</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ar_spot" index="" image="">
+	<description>Spot (Arcadia, V 2.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Arcadia Systems</manufacturer>
+	<year>1990</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ataxx" index="" image="">
+	<description>Ataxx (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Leland Corp.</manufacturer>
+	<year>1990</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ataxxa" index="" image="">
+	<description>Ataxx (set 2)</description>
+	<cloneof>ataxx</cloneof>
+	<crc/>
+	<manufacturer>Leland Corp.</manufacturer>
+	<year>1990</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ataxxe" index="" image="">
+	<description>Ataxx (Europe)</description>
+	<cloneof>ataxx</cloneof>
+	<crc/>
+	<manufacturer>Leland Corp.</manufacturer>
+	<year>1990</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ataxxj" index="" image="">
+	<description>Ataxx (Japan)</description>
+	<cloneof>ataxx</cloneof>
+	<crc/>
+	<manufacturer>Leland Corp. (Capcom license)</manufacturer>
+	<year>1990</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="boxyboy" index="" image="">
+	<description>Boxy Boy (SB?)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1990</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="brixian" index="" image="">
+	<description>Brixian</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Cheil Computer System</manufacturer>
+	<year>1993</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="critcrsh" index="" image="">
+	<description>Critter Crusher (EA 951204 V1.000)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1995</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="croquis" index="" image="">
+	<description>Croquis (Germany)</description>
+	<cloneof>logicpro</cloneof>
+	<crc/>
+	<manufacturer>Deniam</manufacturer>
+	<year>1996</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crospang" index="" image="">
+	<description>Cross Pang</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>F2 System</manufacturer>
+	<year>1998</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crsword" index="" image="">
+	<description>Crossed Swords (ALM-002)(ALH-002)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Alpha Denshi Co.</manufacturer>
+	<year>1991</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cyclwarr" index="" image="">
+	<description>Cycle Warriors (rev C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Tatsumi</manufacturer>
+	<year>1991</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cyclwarra" index="" image="">
+	<description>Cycle Warriors (rev B)</description>
+	<cloneof>cyclwarr</cloneof>
+	<crc/>
+	<manufacturer>Tatsumi</manufacturer>
+	<year>1991</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dharma" index="" image="">
+	<description>Dharma Doujou</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Metro</manufacturer>
+	<year>1994</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dharmaj" index="" image="">
+	<description>Dharma Doujou (Japan)</description>
+	<cloneof>dharma</cloneof>
+	<crc/>
+	<manufacturer>Metro</manufacturer>
+	<year>1994</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dharmak" index="" image="">
+	<description>Dharma Doujou (Korea)</description>
+	<cloneof>dharma</cloneof>
+	<crc/>
+	<manufacturer>Metro</manufacturer>
+	<year>1994</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dynobop" index="" image="">
+	<description>Dyno Bop</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Grand Products/Incredible Technologies</manufacturer>
+	<year>1990</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ejihon" index="" image="">
+	<description>Ejihon Tantei Jimusyo (J 950613 V1.000)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1995</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="flipshot" index="" image="">
+	<description>Battle Flip Shot</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Visco</manufacturer>
+	<year>1998</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="funkyfig" index="" image="">
+	<description>The First Funky Fighter (North America, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nakanihon / East Technology (Taito license)</manufacturer>
+	<year>1993</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="funkyfiga" index="" image="">
+	<description>The First Funky Fighter (North America, set 2)</description>
+	<cloneof>funkyfig</cloneof>
+	<crc/>
+	<manufacturer>Nakanihon / East Technology (Taito license)</manufacturer>
+	<year>1993</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hidctch2" index="" image="">
+	<description>Hidden Catch 2 (pcb ver 3.03) (Kor/Eng) (AT89c52 protected)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Eolith</manufacturer>
+	<year>1999</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hidctch2a" index="" image="">
+	<description>Hidden Catch 2 (pcb ver 1.00) (Kor/Eng/Jpn/Chi)</description>
+	<cloneof>hidctch2</cloneof>
+	<crc/>
+	<manufacturer>Eolith</manufacturer>
+	<year>1999</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hidnc2k" index="" image="">
+	<description>Hidden Catch 2000 (AT89c52 protected)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Eolith</manufacturer>
+	<year>1999</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hidnctch" index="" image="">
+	<description>Hidden Catch (World) / Tul Lin Gu Lim Chat Ki &apos;98 (Korea) (pcb ver 3.03)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Eolith</manufacturer>
+	<year>1998</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hotmind" index="" image="">
+	<description>Hot Mind (Hard Times hardware)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Playmark</manufacturer>
+	<year>1995</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hotminda" index="" image="">
+	<description>Hot Mind (adjustable prize)</description>
+	<cloneof>hotmind</cloneof>
+	<crc/>
+	<manufacturer>Playmark</manufacturer>
+	<year>1995</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jankenmn" index="" image="">
+	<description>Janken Man Kattara Ageru</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sunwise</manufacturer>
+	<year>1991</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kenseim" index="" image="">
+	<description>Ken Sei Mogura: Street Fighter II (Japan 940418, Ver 1.00)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom / Togo / Sigma</manufacturer>
+	<year>1994</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="korokoro" index="" image="">
+	<description>Koro Koro Quest (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Takumi</manufacturer>
+	<year>1999</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lemmings" index="" image="">
+	<description>Lemmings (US prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East USA</manufacturer>
+	<year>1991</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="logicpr2" index="" image="">
+	<description>Logic Pro 2 (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Deniam</manufacturer>
+	<year>1997</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="logicpro" index="" image="">
+	<description>Logic Pro (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Deniam</manufacturer>
+	<year>1996</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lpadv" index="" image="">
+	<description>Logic Pro Adventure (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amuse World</manufacturer>
+	<year>1999</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="magerror" index="" image="">
+	<description>Magical Error wo Sagase</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Technosoft / Jaleco</manufacturer>
+	<year>1994</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mmpanic" index="" image="">
+	<description>Monkey Mole Panic (USA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nakanihon / East Technology (Taito license)</manufacturer>
+	<year>1992</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mrdrillr" index="" image="">
+	<description>Mr. Driller (US, DRI3/VER.A2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1999</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mrdrillrj" index="" image="">
+	<description>Mr. Driller (Japan, DRI1/VER.A2)</description>
+	<cloneof>mrdrillr</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1999</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="newufo" index="" image="">
+	<description>New UFO Catcher (standard)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="newufo_nfl" index="" image="">
+	<description>New UFO Catcher (Team NFL)</description>
+	<cloneof>newufo</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="newufo_sonic" index="" image="">
+	<description>New UFO Catcher (Sonic The Hedgehog)</description>
+	<cloneof>newufo</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="newufo_xmas" index="" image="">
+	<description>New UFO Catcher (Christmas season ROM kit)</description>
+	<cloneof>newufo</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nhidctch" index="" image="">
+	<description>New Hidden Catch (World) / New Tul Lin Gu Lim Chat Ki &apos;98 (Korea) (pcb ver 3.02)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Eolith</manufacturer>
+	<year>1999</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="oisipuzl" index="" image="">
+	<description>Oishii Puzzle Ha Irimasenka</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sunsoft / Atlus</manufacturer>
+	<year>1993</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pacapp" index="" image="">
+	<description>Paca Paca Passion (Japan, PPP1/VER.A2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Produce / Namco</manufacturer>
+	<year>1999</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pacapp2" index="" image="">
+	<description>Paca Paca Passion 2 (Japan, PKS1/VER.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Produce / Namco</manufacturer>
+	<year>1999</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pacappsp" index="" image="">
+	<description>Paca Paca Passion Special (Japan, PSP1/VER.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Produce / Namco</manufacturer>
+	<year>1999</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="photoy2k" index="" image="">
+	<description>Photo Y2K (ver. 105)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1999</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="photoy2k102" index="" image="">
+	<description>Photo Y2K (ver. 102, Japanese Board)</description>
+	<cloneof>photoy2k</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1999</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="photoy2k104" index="" image="">
+	<description>Photo Y2K (ver. 104)</description>
+	<cloneof>photoy2k</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1999</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="popn1" index="" image="">
+	<description>Pop&apos;n Music 1 (ver AA-A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="popn2" index="" image="">
+	<description>Pop&apos;n Music 2 (ver JA-A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="popn3" index="" image="">
+	<description>Pop&apos;n Music 3 (ver JA-A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ppj" index="" image="">
+	<description>Pyon Pyon Jump (V1.40, Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Success / Taiyo Jidoki</manufacturer>
+	<year>199?</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ppsatan" index="" image="">
+	<description>Poka Poka Satan (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kato Seisakujo Co., Ltd.</manufacturer>
+	<year>1996</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pururun" index="" image="">
+	<description>Pururun</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Metro / Banpresto</manufacturer>
+	<year>1995</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pushmans" index="" image="">
+	<description>Pushman (American Sammy license)</description>
+	<cloneof>pushman</cloneof>
+	<crc/>
+	<manufacturer>Comad (American Sammy license)</manufacturer>
+	<year>1990</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pzlbreak" index="" image="">
+	<description>Puzzle Break</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SemiCom / Tirano</manufacturer>
+	<year>1997</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="realpunc" index="" image="">
+	<description>Real Puncher</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1994</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rockn" index="" image="">
+	<description>Rock&apos;n Tread (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1999</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rockn2" index="" image="">
+	<description>Rock&apos;n Tread 2 (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1999</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rockn3" index="" image="">
+	<description>Rock&apos;n 3 (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1999</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rockna" index="" image="">
+	<description>Rock&apos;n Tread (Japan, alternate)</description>
+	<cloneof>rockn</cloneof>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1999</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rocknms" index="" image="">
+	<description>Rock&apos;n MegaSession (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1999</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rollerg" index="" image="">
+	<description>Rollergames (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1991</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rollergj" index="" image="">
+	<description>Rollergames (Japan)</description>
+	<cloneof>rollerg</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1991</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbm" index="" image="">
+	<description>Sonic Blast Man (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scudhamm" index="" image="">
+	<description>Scud Hammer</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1994</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="searchey" index="" image="">
+	<description>Search Eye (English / Korean / Japanese / Italian)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Yun Sung</manufacturer>
+	<year>1999</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="searcheya" index="" image="">
+	<description>Search Eye (English / Korean)</description>
+	<cloneof>searchey</cloneof>
+	<crc/>
+	<manufacturer>Yun Sung</manufacturer>
+	<year>1999</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="searchp2" index="" image="">
+	<description>Search Eye Plus V2.0</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Yun Sung</manufacturer>
+	<year>1999</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="slikshot" index="" image="">
+	<description>Slick Shot (V2.2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Grand Products/Incredible Technologies</manufacturer>
+	<year>1990</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="slikshot16" index="" image="">
+	<description>Slick Shot (V1.6)</description>
+	<cloneof>slikshot</cloneof>
+	<crc/>
+	<manufacturer>Grand Products/Incredible Technologies</manufacturer>
+	<year>1990</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="slikshot17" index="" image="">
+	<description>Slick Shot (V1.7)</description>
+	<cloneof>slikshot</cloneof>
+	<crc/>
+	<manufacturer>Grand Products/Incredible Technologies</manufacturer>
+	<year>1990</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sonicpop" index="" image="">
+	<description>SegaSonic Popcorn Shop (Rev B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="soukobdx" index="" image="">
+	<description>Souko Ban Deluxe (Japan, SB1)</description>
+	<cloneof>boxyboy</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1990</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sstrike" index="" image="">
+	<description>Super Strike Bowling</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Strata/Incredible Technologies</manufacturer>
+	<year>1990</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="starswep" index="" image="">
+	<description>Star Sweep (Japan, STP1/VER.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Axela / Namco</manufacturer>
+	<year>1997</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="superspy" index="" image="">
+	<description>The Super Spy (NGM-011)(NGH-011)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1990</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tapatune" index="" image="">
+	<description>Tap a Tune</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Moloney Manufacturing Inc. / Creative Electronics and Software</manufacturer>
+	<year>1994</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tgtpanic" index="" image="">
+	<description>Target Panic</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tjsb" index="" image="">
+	<description>Mahjong Tian Jiang Shen Bing (V137C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1997</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tokkae" index="" image="">
+	<description>Taisen Tokkae-dama (ver JAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="triplfun" index="" image="">
+	<description>Triple Fun</description>
+	<cloneof>oisipuzl</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1993</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ufo21" index="" image="">
+	<description>UFO Catcher 21</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1996</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ufo800" index="" image="">
+	<description>UFO Catcher 800</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1998</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ufomini" index="" image="">
+	<description>UFO Catcher Mini</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wiseguy" index="" image="">
+	<description>Wise Guy</description>
+	<cloneof>yamyam</cloneof>
+	<crc/>
+	<manufacturer>Dooyong</manufacturer>
+	<year>1990</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wjammers" index="" image="">
+	<description>Windjammers / Flying Power Disc</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1994</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wpksocv2" index="" image="">
+	<description>World PK Soccer V2 (ver 1.1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1996</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wwmarine" index="" image="">
+	<description>Waku Waku Marine</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xorworld" index="" image="">
+	<description>Xor World (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1990</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="yamyam" index="" image="">
+	<description>Yam! Yam!?</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dooyong</manufacturer>
+	<year>1990</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="yamyamk" index="" image="">
+	<description>Yam! Yam!? (Korea)</description>
+	<cloneof>yamyam</cloneof>
+	<crc/>
+	<manufacturer>Dooyong</manufacturer>
+	<year>1990</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

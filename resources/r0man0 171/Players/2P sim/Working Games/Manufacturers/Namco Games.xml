@@ -1,0 +1,1309 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2P sim / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="aquarush" index="" image="">
+	<description>Aqua Rush (Japan, AQ1/VER.A1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1999</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bkrtmaq" index="" image="">
+	<description>Bakuretsu Quiz Ma-Q Dai Bouken (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="btlecity" index="" image="">
+	<description>Vs. Battle City</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bubbletr" index="" image="">
+	<description>Bubble Trouble (Japan, Rev C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cgangpzl" index="" image="">
+	<description>Cosmo Gang the Puzzle (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cgangpzlj" index="" image="">
+	<description>Cosmo Gang the Puzzle (Japan)</description>
+	<cloneof>cgangpzl</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cosmogng" index="" image="">
+	<description>Cosmo Gang the Video (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cosmogngj" index="" image="">
+	<description>Cosmo Gang the Video (Japan)</description>
+	<cloneof>cosmogng</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dsaber" index="" image="">
+	<description>Dragon Saber</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dsaberj" index="" image="">
+	<description>Dragon Saber (Japan, Rev B)</description>
+	<cloneof>dsaber</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ehrgeiz" index="" image="">
+	<description>Ehrgeiz (US, EG3/VER.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Square / Namco</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ehrgeizaa" index="" image="">
+	<description>Ehrgeiz (Asia, EG2/VER.A)</description>
+	<cloneof>ehrgeiz</cloneof>
+	<crc/>
+	<manufacturer>Square / Namco</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ehrgeizja" index="" image="">
+	<description>Ehrgeiz (Japan, EG1/VER.A)</description>
+	<cloneof>ehrgeiz</cloneof>
+	<crc/>
+	<manufacturer>Square / Namco</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="emeralda" index="" image="">
+	<description>Emeraldia (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1993</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="emeraldaj" index="" image="">
+	<description>Emeraldia (Japan Version B)</description>
+	<cloneof>emeralda</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1993</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="emeraldaja" index="" image="">
+	<description>Emeraldia (Japan)</description>
+	<cloneof>emeralda</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1993</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fa" index="" image="">
+	<description>F/A (Japan)</description>
+	<cloneof>fghtatck</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="faceoff" index="" image="">
+	<description>Face Off (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1988</year>
+	<genre>Hockey</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fghtatck" index="" image="">
+	<description>Fighter &amp; Attacker (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fgtlayer" index="" image="">
+	<description>Fighting Layer (Japan, FTL1/VER.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Arika / Namco</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galgame2" index="" image="">
+	<description>Galaxy Games StarPak 2</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Creative Electronics &amp; Software / Namco</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ghlpanic" index="" image="">
+	<description>Ghoul Panic (Asia, OB2/VER.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Eighting / Raizing / Namco</manufacturer>
+	<year>1999</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gollygho" index="" image="">
+	<description>Golly! Ghost!</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1990</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gslgr94j" index="" image="">
+	<description>Great Sluggers &apos;94 (Japan)</description>
+	<cloneof>gslgr94u</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1994</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gslgr94u" index="" image="">
+	<description>Great Sluggers &apos;94</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1994</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gslugrsj" index="" image="">
+	<description>Great Sluggers (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1993</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gunbarl" index="" image="">
+	<description>Gunbarl (Japan, GNB4/VER.A)</description>
+	<cloneof>ptblank2</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1999</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gunbuletj" index="" image="">
+	<description>Gun Bullet (Japan, GN1)</description>
+	<cloneof>ptblank</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1994</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gunbuletw" index="" image="">
+	<description>Gun Bullet (World, GN3 Rev B)</description>
+	<cloneof>ptblank</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1994</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kyukaidk" index="" image="">
+	<description>Kyuukai Douchuuki (Japan, new version (Rev B))</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1990</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kyukaidko" index="" image="">
+	<description>Kyuukai Douchuuki (Japan, old version)</description>
+	<cloneof>kyukaidk</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1990</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="luckywld" index="" image="">
+	<description>Lucky &amp; Wild</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="luckywldj" index="" image="">
+	<description>Lucky &amp; Wild (Japan)</description>
+	<cloneof>luckywld</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="myangel" index="" image="">
+	<description>Kosodate Quiz My Angel (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>MOSS / Namco</manufacturer>
+	<year>1996</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="myangel2" index="" image="">
+	<description>Kosodate Quiz My Angel 2 (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>MOSS / Namco</manufacturer>
+	<year>1997</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="myangel3" index="" image="">
+	<description>Kosodate Quiz My Angel 3 (Japan, KQT1/VER.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>MOSS / Namco</manufacturer>
+	<year>1998</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ncv1" index="" image="">
+	<description>Namco Classic Collection Vol.1</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1995</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ncv1j" index="" image="">
+	<description>Namco Classic Collection Vol.1 (Japan, v1.00)</description>
+	<cloneof>ncv1</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1995</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ncv1j2" index="" image="">
+	<description>Namco Classic Collection Vol.1 (Japan, v1.03)</description>
+	<cloneof>ncv1</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1995</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ncv2" index="" image="">
+	<description>Namco Classic Collection Vol.2</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1996</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ncv2j" index="" image="">
+	<description>Namco Classic Collection Vol.2 (Japan)</description>
+	<cloneof>ncv2</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1996</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nebulray" index="" image="">
+	<description>Nebulas Ray (World, NR2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1994</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nebulrayj" index="" image="">
+	<description>Nebulas Ray (Japan, NR1)</description>
+	<cloneof>nebulray</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1994</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ohbakyuun" index="" image="">
+	<description>Oh! Bakyuuun (Japan, OB1/VER.A)</description>
+	<cloneof>ghlpanic</cloneof>
+	<crc/>
+	<manufacturer>Eighting / Raizing / Namco</manufacturer>
+	<year>1999</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ordyne" index="" image="">
+	<description>Ordyne (Japan, English Version)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ordynej" index="" image="">
+	<description>Ordyne (Japan)</description>
+	<cloneof>ordyne</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="outfxies" index="" image="">
+	<description>The Outfoxies (World, OU2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="outfxiesj" index="" image="">
+	<description>The Outfoxies (Japan, OU1)</description>
+	<cloneof>outfxies</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pacapp" index="" image="">
+	<description>Paca Paca Passion (Japan, PPP1/VER.A2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Produce / Namco</manufacturer>
+	<year>1999</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pacapp2" index="" image="">
+	<description>Paca Paca Passion 2 (Japan, PKS1/VER.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Produce / Namco</manufacturer>
+	<year>1999</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pacappsp" index="" image="">
+	<description>Paca Paca Passion Special (Japan, PSP1/VER.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Produce / Namco</manufacturer>
+	<year>1999</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="primglex" index="" image="">
+	<description>Prime Goal EX (Japan, PG1/VER.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1996</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ptblank" index="" image="">
+	<description>Point Blank (World, GN2 Rev B, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1994</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ptblank2" index="" image="">
+	<description>Point Blank 2 (GNB5/VER.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1999</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ptblank2ua" index="" image="">
+	<description>Point Blank 2 (US, GNB3/VER.A)</description>
+	<cloneof>ptblank2</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1999</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ptblanka" index="" image="">
+	<description>Point Blank (World, GN2 Rev B, set 2)</description>
+	<cloneof>ptblank</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1994</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quiztou" index="" image="">
+	<description>Nettou! Gekitou! Quiztou!! (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1993</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rbibb" index="" image="">
+	<description>Vs. Atari R.B.I. Baseball (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1986</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rbibba" index="" image="">
+	<description>Vs. Atari R.B.I. Baseball (set 2)</description>
+	<cloneof>rbibb</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1986</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="roishtar" index="" image="">
+	<description>The Return of Ishtar</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1986</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rthun2" index="" image="">
+	<description>Rolling Thunder 2</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rthun2j" index="" image="">
+	<description>Rolling Thunder 2 (Japan)</description>
+	<cloneof>rthun2</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sgunner" index="" image="">
+	<description>Steel Gunner (Rev B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1990</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sgunner2" index="" image="">
+	<description>Steel Gunner 2 (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1991</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sgunner2j" index="" image="">
+	<description>Steel Gunner 2 (Japan, Rev A)</description>
+	<cloneof>sgunner2</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1991</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sgunnerj" index="" image="">
+	<description>Steel Gunner (Japan)</description>
+	<cloneof>sgunner</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1990</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="skykid" index="" image="">
+	<description>Sky Kid (new version)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="skykidd" index="" image="">
+	<description>Sky Kid (CUS60 version)</description>
+	<cloneof>skykid</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="skykiddx" index="" image="">
+	<description>Sky Kid Deluxe (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="skykiddxo" index="" image="">
+	<description>Sky Kid Deluxe (set 2)</description>
+	<cloneof>skykiddx</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="skykido" index="" image="">
+	<description>Sky Kid (old version)</description>
+	<cloneof>skykid</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="skykids" index="" image="">
+	<description>Sky Kid (Sipem)</description>
+	<cloneof>skykid</cloneof>
+	<crc/>
+	<manufacturer>Namco (Sipem license)</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="soulclbr" index="" image="">
+	<description>Soul Calibur (World, SOC14/VER.C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="soulclbrja" index="" image="">
+	<description>Soul Calibur (Japan, SOC11/VER.A2)</description>
+	<cloneof>soulclbr</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="soulclbrjb" index="" image="">
+	<description>Soul Calibur (Japan, SOC11/VER.B)</description>
+	<cloneof>soulclbr</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="soulclbrjc" index="" image="">
+	<description>Soul Calibur (Japan, SOC11/VER.C)</description>
+	<cloneof>soulclbr</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="soulclbrub" index="" image="">
+	<description>Soul Calibur (US, SOC13/VER.B)</description>
+	<cloneof>soulclbr</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="soulclbruc" index="" image="">
+	<description>Soul Calibur (US, SOC13/VER.C)</description>
+	<cloneof>soulclbr</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="soulclbrwb" index="" image="">
+	<description>Soul Calibur (World, SOC14/VER.B)</description>
+	<cloneof>soulclbr</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="souledge" index="" image="">
+	<description>Soul Edge Ver. II (World, SO4/VER.C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="souledgeaa" index="" image="">
+	<description>Soul Edge (Asia, SO2/VER.A)</description>
+	<cloneof>souledge</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="souledgeja" index="" image="">
+	<description>Soul Edge (Japan, SO1/VER.A)</description>
+	<cloneof>souledge</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="souledgeua" index="" image="">
+	<description>Soul Edge (US, SO3/VER.A)</description>
+	<cloneof>souledge</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="souledgeuc" index="" image="">
+	<description>Soul Edge Ver. II (US, SO3/VER.C)</description>
+	<cloneof>souledge</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="starswep" index="" image="">
+	<description>Star Sweep (Japan, STP1/VER.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Axela / Namco</manufacturer>
+	<year>1997</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sws" index="" image="">
+	<description>Super World Stadium (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sws92" index="" image="">
+	<description>Super World Stadium &apos;92 (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sws92g" index="" image="">
+	<description>Super World Stadium &apos;92 Gekitouban (Japan)</description>
+	<cloneof>sws92</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sws93" index="" image="">
+	<description>Super World Stadium &apos;93 (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1993</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sws95" index="" image="">
+	<description>Super World Stadium &apos;95 (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1995</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sws96" index="" image="">
+	<description>Super World Stadium &apos;96 (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1996</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sws97" index="" image="">
+	<description>Super World Stadium &apos;97 (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1997</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sws98" index="" image="">
+	<description>Super World Stadium &apos;98 (Japan, SS81/VER.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1998</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sws99" index="" image="">
+	<description>Super World Stadium &apos;99 (Japan, SS91/VER.A3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1999</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tankfrce" index="" image="">
+	<description>Tank Force (US, 2 Player)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tankfrcej" index="" image="">
+	<description>Tank Force (Japan)</description>
+	<cloneof>tankfrce</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tekken" index="" image="">
+	<description>Tekken (World, TE4/VER.C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tekken2" index="" image="">
+	<description>Tekken 2 Ver.B (US, TES3/VER.D)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tekken2aa" index="" image="">
+	<description>Tekken 2 (Asia, TES2/VER.A)</description>
+	<cloneof>tekken2</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tekken2ab" index="" image="">
+	<description>Tekken 2 Ver.B (Asia, TES2/VER.B)</description>
+	<cloneof>tekken2</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tekken2jb" index="" image="">
+	<description>Tekken 2 Ver.B (Japan, TES1/VER.B)</description>
+	<cloneof>tekken2</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tekken2jc" index="" image="">
+	<description>Tekken 2 Ver.B (Japan, TES1/VER.C)</description>
+	<cloneof>tekken2</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tekken2ub" index="" image="">
+	<description>Tekken 2 Ver.B (US, TES3/VER.B)</description>
+	<cloneof>tekken2</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tekken3" index="" image="">
+	<description>Tekken 3 (Japan, TET1/VER.E1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tekken3aa" index="" image="">
+	<description>Tekken 3 (Asia, TET2/VER.A)</description>
+	<cloneof>tekken3</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tekken3ab" index="" image="">
+	<description>Tekken 3 (Asia, TET2/VER.B)</description>
+	<cloneof>tekken3</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tekken3ae" index="" image="">
+	<description>Tekken 3 (Asia, TET2/VER.E1)</description>
+	<cloneof>tekken3</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tekken3ja" index="" image="">
+	<description>Tekken 3 (Japan, TET1/VER.A)</description>
+	<cloneof>tekken3</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tekken3ua" index="" image="">
+	<description>Tekken 3 (US, TET3/VER.A)</description>
+	<cloneof>tekken3</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tekken3ud" index="" image="">
+	<description>Tekken 3 (US, TET3/VER.D)</description>
+	<cloneof>tekken3</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tekkenab" index="" image="">
+	<description>Tekken (Asia, TE2/VER.B)</description>
+	<cloneof>tekken</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tekkenac" index="" image="">
+	<description>Tekken (Asia, TE2/VER.C)</description>
+	<cloneof>tekken</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tekkenjb" index="" image="">
+	<description>Tekken (Japan, TE1/VER.B)</description>
+	<cloneof>tekken</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tektagt" index="" image="">
+	<description>Tekken Tag Tournament (US, TEG3/VER.C1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tektagtac" index="" image="">
+	<description>Tekken Tag Tournament (Asia, TEG2/VER.C1, set 1)</description>
+	<cloneof>tektagt</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tektagtac1" index="" image="">
+	<description>Tekken Tag Tournament (Asia, TEG2/VER.C1, set 2)</description>
+	<cloneof>tektagt</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tektagtub" index="" image="">
+	<description>Tekken Tag Tournament (US, TEG3/VER.B)</description>
+	<cloneof>tektagt</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tenkomor" index="" image="">
+	<description>Tenkomori Shooting (Asia, TKM2/VER.A1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tenkomorja" index="" image="">
+	<description>Tenkomori Shooting (Japan, TKM1/VER.A1)</description>
+	<cloneof>tenkomor</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tinklpit" index="" image="">
+	<description>Tinkle Pit (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1993</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="toukon3" index="" image="">
+	<description>Shin Nihon Pro Wrestling Toukon Retsuden 3 Arcade Edition (Japan, TR1/VER.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco / Tomy</manufacturer>
+	<year>1997</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="toypop" index="" image="">
+	<description>Toypop</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1986</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="valkyrie" index="" image="">
+	<description>Valkyrie No Densetsu (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vsskykid" index="" image="">
+	<description>Vs. Super SkyKid</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wldcourt" index="" image="">
+	<description>World Court (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1988</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ws" index="" image="">
+	<description>World Stadium (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1988</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ws89" index="" image="">
+	<description>World Stadium &apos;89 (Japan)</description>
+	<cloneof>ws</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1989</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ws90" index="" image="">
+	<description>World Stadium &apos;90 (Japan)</description>
+	<cloneof>ws</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1990</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xday2" index="" image="">
+	<description>X-Day 2 (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1995</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xevi3dg" index="" image="">
+	<description>Xevious 3D/G (Japan, XV31/VER.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1995</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

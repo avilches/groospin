@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Sega / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="aliensyn7" index="" image="">
+	<description>Alien Syndrome (set 7, System 16B, MC-8123B 317-00xx)</description>
+	<cloneof>aliensyn</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddcrewj" index="" image="">
+	<description>D. D. Crew (Japan, 4 Players) (FD1094 317-0185)</description>
+	<cloneof>ddcrew</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hangon2" index="" image="">
+	<description>Hang-On (ride-on)</description>
+	<cloneof>hangon</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1985</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wbmlvc" index="" image="">
+	<description>Wonder Boy in Monster Land (English, Virtual Console)</description>
+	<cloneof>wbml</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2009</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

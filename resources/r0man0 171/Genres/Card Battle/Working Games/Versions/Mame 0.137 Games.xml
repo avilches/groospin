@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Card Battle / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="5clown" index="" image="">
+	<description>Five Clown (English, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1993</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="5clowna" index="" image="">
+	<description>Five Clown (English, set 2)</description>
+	<cloneof>5clown</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1993</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="5clownsp" index="" image="">
+	<description>Five Clown (Spanish hack)</description>
+	<cloneof>5clown</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1993</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jolycmzs" index="" image="">
+	<description>Jolly Card Professional 2.0 (MZS Tech)</description>
+	<cloneof>jollycrd</cloneof>
+	<crc/>
+	<manufacturer>MZS Tech</manufacturer>
+	<year>1993</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jolyjokrb" index="" image="">
+	<description>Jolly Joker (40bet, Croatian hack)</description>
+	<cloneof>jolyjokr</cloneof>
+	<crc/>
+	<manufacturer>Impera</manufacturer>
+	<year>198?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mdrawpkra" index="" image="">
+	<description>Draw Poker - Joker&apos;s Wild (02-11)</description>
+	<cloneof>mdrawpkr</cloneof>
+	<crc/>
+	<manufacturer>Meyco Games, Inc.</manufacturer>
+	<year>1984</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="royalcrd" index="" image="">
+	<description>Royal Card (Austrian, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>TAB Austria</manufacturer>
+	<year>1991</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="royalcrda" index="" image="">
+	<description>Royal Card (Austrian, set 2)</description>
+	<cloneof>royalcrd</cloneof>
+	<crc/>
+	<manufacturer>TAB Austria</manufacturer>
+	<year>1991</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="royalcrdb" index="" image="">
+	<description>Royal Card (Austrian/Polish, set 3)</description>
+	<cloneof>royalcrd</cloneof>
+	<crc/>
+	<manufacturer>TAB Austria</manufacturer>
+	<year>1991</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="royalcrdc" index="" image="">
+	<description>Royal Card (Austrian, set 4)</description>
+	<cloneof>royalcrd</cloneof>
+	<crc/>
+	<manufacturer>TAB Austria</manufacturer>
+	<year>1991</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sharkpye" index="" image="">
+	<description>Shark Party (English, Alpha license)</description>
+	<cloneof>sharkpy</cloneof>
+	<crc/>
+	<manufacturer>American Alpha</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="supdrapoa" index="" image="">
+	<description>Super Draw Poker (set 2)</description>
+	<cloneof>supdrapo</cloneof>
+	<crc/>
+	<manufacturer>Valadon Automation / Jeutel</manufacturer>
+	<year>1983</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vegasmil" index="" image="">
+	<description>Royal Vegas Joker Card (fast deal, Mile)</description>
+	<cloneof>vegasslw</cloneof>
+	<crc/>
+	<manufacturer>Mile</manufacturer>
+	<year>1993</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

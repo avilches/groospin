@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Mahjong / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="daireika" index="" image="">
+	<description>Mahjong Daireikai (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco / NMK</manufacturer>
+	<year>1989</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kiwames" index="" image="">
+	<description>Pro Mahjong Kiwame S (J 951020 V1.208)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Athena</manufacturer>
+	<year>1995</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjifb" index="" image="">
+	<description>Mahjong If...? [BET]</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dynax</manufacturer>
+	<year>1990</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="urashima" index="" image="">
+	<description>Otogizoushi Urashima Mahjong (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>UPL</manufacturer>
+	<year>1989</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wlcc" index="" image="">
+	<description>Wan Li Chang Cheng (China, V638C)</description>
+	<cloneof>xymg</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1996</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Platform / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="armwar1d" index="" image="">
+	<description>Armored Warriors (Euro 941011 Phoenix Edition) (bootleg)</description>
+	<cloneof>armwar</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="automat" index="" image="">
+	<description>Automat (bootleg of Robocop)</description>
+	<cloneof>robocop</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dkongf" index="" image="">
+	<description>Donkey Kong Foundry (hack)</description>
+	<cloneof>dkong</cloneof>
+	<crc/>
+	<manufacturer>hack (Jeff Kulczycki)</manufacturer>
+	<year>2004</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hedpanico" index="" image="">
+	<description>Head Panic (ver. 0615, 15/06/1999)</description>
+	<cloneof>hedpanic</cloneof>
+	<crc/>
+	<manufacturer>ESD</manufacturer>
+	<year>1999</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="psychic5" index="" image="">
+	<description>Psychic 5 (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco / NMK</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tnzso" index="" image="">
+	<description>The NewZealand Story (World, old version) (older PCB)</description>
+	<cloneof>tnzs</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,309 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Mame / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="8ballact" index="" image="">
+	<description>Eight Ball Action (DK conversion)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Seatongrove Ltd (Magic Electronics USA license)</manufacturer>
+	<year>1984</year>
+	<genre>Pool and Darts</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="8ballact2" index="" image="">
+	<description>Eight Ball Action (DKJr conversion)</description>
+	<cloneof>8ballact</cloneof>
+	<crc/>
+	<manufacturer>Seatongrove Ltd (Magic Electronics USA license)</manufacturer>
+	<year>1984</year>
+	<genre>Pool and Darts</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="asurabld" index="" image="">
+	<description>Asura Blade - Sword of Dynasty (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Fuuki</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dogfgt" index="" image="">
+	<description>Acrobatic Dog-Fight</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Technos Japan</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ecofghtra" index="" image="">
+	<description>Eco Fighters (Asia 931203)</description>
+	<cloneof>ecofghtr</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1993</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gaia" index="" image="">
+	<description>Gaia Crusaders</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Noise Factory</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="harddunk" index="" image="">
+	<description>Hard Dunk (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1994</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="imagoa" index="" image="">
+	<description>Imago (no cocktail set)</description>
+	<cloneof>imago</cloneof>
+	<crc/>
+	<manufacturer>Acom</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mogura" index="" image="">
+	<description>Mogura Desse (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mp_gaxe2" index="" image="">
+	<description>Golden Axe II (Mega Play) (Rev B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nmaster" index="" image="">
+	<description>Oni - The Ninja Master (Japan)</description>
+	<cloneof>metmqstr</cloneof>
+	<crc/>
+	<manufacturer>Banpresto / Pandorabox</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="parodius" index="" image="">
+	<description>Parodius DA! (World, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pitfightj" index="" image="">
+	<description>Pit Fighter (Japan, 2 players)</description>
+	<cloneof>pitfight</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pitnrun" index="" image="">
+	<description>Pit &amp; Run - F-1 Race (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pwrinst2" index="" image="">
+	<description>Power Instinct 2 (US, Ver. 94/04/08)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atlus</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbdk" index="" image="">
+	<description>Super Bike (DK conversion)</description>
+	<cloneof>superbik</cloneof>
+	<crc/>
+	<manufacturer>Century Electronics</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sengokmj" index="" image="">
+	<description>Sengoku Mahjong [BET] (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sigma</manufacturer>
+	<year>1991</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shufshot137" index="" image="">
+	<description>Shuffleshot (v1.37)</description>
+	<cloneof>shufshot</cloneof>
+	<crc/>
+	<manufacturer>Strata/Incredible Technologies</manufacturer>
+	<year>1997</year>
+	<genre>Sports</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spcfrcii" index="" image="">
+	<description>Special Forces II</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Senko Industries (Magic Electronics Inc. license)</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spclforc" index="" image="">
+	<description>Special Forces</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Senko Industries (Magic Electronics Inc. license)</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="speedatk" index="" image="">
+	<description>Speed Attack! (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Seta Kikaku Corp.</manufacturer>
+	<year>1984</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sprint2a" index="" image="">
+	<description>Sprint 2 (set 2)</description>
+	<cloneof>sprint1</cloneof>
+	<crc/>
+	<manufacturer>Atari (Kee Games)</manufacturer>
+	<year>1976</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sprint4" index="" image="">
+	<description>Sprint 4 (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1977</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sprint4a" index="" image="">
+	<description>Sprint 4 (set 2)</description>
+	<cloneof>sprint4</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1977</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="strtheat" index="" image="">
+	<description>Street Heat</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Epos Corporation</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wc90t" index="" image="">
+	<description>Tecmo World Cup &apos;90 (trackball set 1)</description>
+	<cloneof>wc90</cloneof>
+	<crc/>
+	<manufacturer>Tecmo</manufacturer>
+	<year>1989</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wcbowl161" index="" image="">
+	<description>World Class Bowling (v1.61)</description>
+	<cloneof>wcbowl</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1995</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xmvsfj" index="" image="">
+	<description>X-Men Vs. Street Fighter (Japan 961004)</description>
+	<cloneof>xmvsf</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xmvsfu" index="" image="">
+	<description>X-Men Vs. Street Fighter (USA 961023)</description>
+	<cloneof>xmvsf</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zeropnta" index="" image="">
+	<description>Zero Point (set 2)</description>
+	<cloneof>zeropnt</cloneof>
+	<crc/>
+	<manufacturer>Unico</manufacturer>
+	<year>1998</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1970-1979 / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="asteroidb" index="" image="">
+	<description>Asteroids (bootleg on Lunar Lander hardware)</description>
+	<cloneof>asteroid</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bombbee" index="" image="">
+	<description>Bomb Bee</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1979</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cosmica2" index="" image="">
+	<description>Cosmic Alien (early version II?)</description>
+	<cloneof>cosmica</cloneof>
+	<crc/>
+	<manufacturer>Universal</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cutieq" index="" image="">
+	<description>Cutie Q</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1979</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="desertgu" index="" image="">
+	<description>Desert Gun</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dave Nutting Associates / Midway</manufacturer>
+	<year>1977</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="geebee" index="" image="">
+	<description>Gee Bee (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1978</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="geebeeg" index="" image="">
+	<description>Gee Bee (US)</description>
+	<cloneof>geebee</cloneof>
+	<crc/>
+	<manufacturer>Namco (Gremlin license)</manufacturer>
+	<year>1978</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="invaderl" index="" image="">
+	<description>Space Invaders (Logitec)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>Taito / Logitec</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jspecter" index="" image="">
+	<description>Jatre Specter (set 1)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Jatre)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shuffle" index="" image="">
+	<description>Shuffleboard</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1978</year>
+	<genre>Sports</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sicv" index="" image="">
+	<description>Space Invaders (CV Version)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sisv" index="" image="">
+	<description>Space Invaders (SV Version rev 4)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spacewr3" index="" image="">
+	<description>Space War Part 3</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spceking" index="" image="">
+	<description>Space King</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>Taito / Leijac Corporation</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spcewarl" index="" image="">
+	<description>Space War (Leijac Corporation)</description>
+	<cloneof>spclaser</cloneof>
+	<crc/>
+	<manufacturer>Leijac Corporation</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spcewars" index="" image="">
+	<description>Space War (Sanritsu)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>Taito / Sanritsu</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="starw" index="" image="">
+	<description>Star Wars (bootleg of Galaxy Wars, set 1)</description>
+	<cloneof>galxwars</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="swarm" index="" image="">
+	<description>Swarm (bootleg?)</description>
+	<cloneof>galaxian</cloneof>
+	<crc/>
+	<manufacturer>bootleg? (Subelectro)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="yosakdon" index="" image="">
+	<description>Yosaku To Donbei (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Wing</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

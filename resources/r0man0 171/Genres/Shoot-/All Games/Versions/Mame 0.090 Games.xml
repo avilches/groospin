@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Shoot- / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="afire" index="" image="">
+	<description>Astro Fire</description>
+	<cloneof>astrof</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Rene Pierre)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2100j" index="" image="">
+	<description>DoDonPachi II - Bee Storm (Japan, ver. 100)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mt_arrow" index="" image="">
+	<description>Arrow Flash (Mega-Tech)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="progear" index="" image="">
+	<description>Progear (USA 010117)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Cave (Capcom license)</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="progeara" index="" image="">
+	<description>Progear (Asia 010117)</description>
+	<cloneof>progear</cloneof>
+	<crc/>
+	<manufacturer>Cave (Capcom license)</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="progearj" index="" image="">
+	<description>Progear no Arashi (Japan 010117)</description>
+	<cloneof>progear</cloneof>
+	<crc/>
+	<manufacturer>Cave (Capcom license)</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="riot" index="" image="">
+	<description>Riot</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>NMK</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tazzmang" index="" image="">
+	<description>Tazz-Mania (bootleg on Galaxian hardware)</description>
+	<cloneof>tazmania</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,379 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Shoot- / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="astinvad" index="" image="">
+	<description>Astro Invader</description>
+	<cloneof>kamikaze</cloneof>
+	<crc/>
+	<manufacturer>Leijac Corporation (Stern Electronics license)</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bandido" index="" image="">
+	<description>Bandido</description>
+	<cloneof>sheriff</cloneof>
+	<crc/>
+	<manufacturer>Nintendo (Exidy license)</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="boothill" index="" image="">
+	<description>Boot Hill</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dave Nutting Associates / Midway</manufacturer>
+	<year>1977</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="choplift" index="" image="">
+	<description>Choplifter (8751 315-5151)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega (licensed from Dan Gorlin)</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chopliftbl" index="" image="">
+	<description>Choplifter (bootleg)</description>
+	<cloneof>choplift</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chopliftu" index="" image="">
+	<description>Choplifter (unprotected)</description>
+	<cloneof>choplift</cloneof>
+	<crc/>
+	<manufacturer>Sega (licensed from Dan Gorlin)</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="commsega" index="" image="">
+	<description>Commando (Sega)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="copsnrob" index="" image="">
+	<description>Cops&apos;n Robbers</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1976</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crater" index="" image="">
+	<description>Crater Raider</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="darkplnt" index="" image="">
+	<description>Dark Planet</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Stern Electronics</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dday" index="" image="">
+	<description>D-Day</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Olympia</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="eagle" index="" image="">
+	<description>Eagle (set 1)</description>
+	<cloneof>mooncrst</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu (Centuri license)</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="espial" index="" image="">
+	<description>Espial (Europe)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Orca / Thunderbolt</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gauntlet2p" index="" image="">
+	<description>Gauntlet (2 Players, rev 6)</description>
+	<cloneof>gauntlet</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gauntletr5" index="" image="">
+	<description>Gauntlet (rev 5)</description>
+	<cloneof>gauntlet</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gauntletr7" index="" image="">
+	<description>Gauntlet (rev 7)</description>
+	<cloneof>gauntlet</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gemini" index="" image="">
+	<description>Gemini Wing (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Tecmo</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gorfpgm1" index="" image="">
+	<description>Gorf (program 1)</description>
+	<cloneof>gorf</cloneof>
+	<crc/>
+	<manufacturer>Dave Nutting Associates / Midway</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jedi" index="" image="">
+	<description>Return of the Jedi</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jungler" index="" image="">
+	<description>Jungler</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="killcom" index="" image="">
+	<description>Killer Comet</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Game Plan (Centuri license)</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="liberatr" index="" image="">
+	<description>Liberator (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megatack" index="" image="">
+	<description>Megatack</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Game Plan (Centuri license)</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mpatrol" index="" image="">
+	<description>Moon Patrol</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pleiads" index="" image="">
+	<description>Pleiads (Tehkan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Tehkan</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="roadblst" index="" image="">
+	<description>Road Blasters (upright, rev 4)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="savgbees" index="" image="">
+	<description>Savage Bees</description>
+	<cloneof>exedexes</cloneof>
+	<crc/>
+	<manufacturer>Capcom (Memetron license)</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="srumbler" index="" image="">
+	<description>The Speed Rumbler (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="srumbler2" index="" image="">
+	<description>The Speed Rumbler (set 2)</description>
+	<cloneof>srumbler</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="starfire" index="" image="">
+	<description>Star Fire (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Exidy</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stratgys" index="" image="">
+	<description>Strategy X (Stern Electronics)</description>
+	<cloneof>stratgyx</cloneof>
+	<crc/>
+	<manufacturer>Konami (Stern Electronics license)</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stratvox" index="" image="">
+	<description>Stratovox</description>
+	<cloneof>speakres</cloneof>
+	<crc/>
+	<manufacturer>Sun Electronics (Taito license)</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="suprmatkd" index="" image="">
+	<description>Super Missile Attack (not encrypted)</description>
+	<cloneof>missile</cloneof>
+	<crc/>
+	<manufacturer>Atari / General Computer Corporation</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tankbatt" index="" image="">
+	<description>Tank Battalion</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tazmania" index="" image="">
+	<description>Tazz-Mania (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Stern Electronics</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="unsquad" index="" image="">
+	<description>U.N. Squadron (USA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom / Daipro</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="venture2" index="" image="">
+	<description>Venture (version 5 set 2)</description>
+	<cloneof>venture</cloneof>
+	<crc/>
+	<manufacturer>Exidy</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

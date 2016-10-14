@@ -1,0 +1,989 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1980-1989 / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="alphamis" index="" image="">
+	<description>Alpha Mission</description>
+	<cloneof>aso</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arian" index="" image="">
+	<description>Arian Mission</description>
+	<cloneof>aso</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aso" index="" image="">
+	<description>ASO - Armored Scrum Object</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="athena" index="" image="">
+	<description>Athena</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bbusters" index="" image="">
+	<description>Beast Busters (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1989</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bbustersu" index="" image="">
+	<description>Beast Busters (US, Version 3)</description>
+	<cloneof>bbusters</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1989</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bbustersua" index="" image="">
+	<description>Beast Busters (US, Version 2)</description>
+	<cloneof>bbusters</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1989</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bermudat" index="" image="">
+	<description>Bermuda Triangle (World?)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bermudata" index="" image="">
+	<description>Bermuda Triangle (World Wars) (US)</description>
+	<cloneof>worldwar</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bermudatj" index="" image="">
+	<description>Bermuda Triangle (Japan)</description>
+	<cloneof>bermudat</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="btlfield" index="" image="">
+	<description>Battle Field (Japan)</description>
+	<cloneof>timesold</cloneof>
+	<crc/>
+	<manufacturer>Alpha Denshi Co. (SNK license)</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="canvas" index="" image="">
+	<description>Canvas Croquis</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1985</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chopper" index="" image="">
+	<description>Chopper I (US set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="choppera" index="" image="">
+	<description>Chopper I (US set 2)</description>
+	<cloneof>chopper</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chopperb" index="" image="">
+	<description>Chopper I (US set 3)</description>
+	<cloneof>chopper</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="countryc" index="" image="">
+	<description>Country Club</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1988</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dogosoke" index="" image="">
+	<description>Dogou Souken</description>
+	<cloneof>victroad</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fantasy" index="" image="">
+	<description>Fantasy (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fantasyj" index="" image="">
+	<description>Fantasy (Japan)</description>
+	<cloneof>fantasy</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fantasyu" index="" image="">
+	<description>Fantasy (US)</description>
+	<cloneof>fantasy</cloneof>
+	<crc/>
+	<manufacturer>SNK (Rock-Ola license)</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fitegolf" index="" image="">
+	<description>Fighting Golf (World?)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1988</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fitegolf2" index="" image="">
+	<description>Fighting Golf (US, Ver 2)</description>
+	<cloneof>fitegolf</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1988</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fitegolfu" index="" image="">
+	<description>Fighting Golf (US)</description>
+	<cloneof>fitegolf</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1988</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fsoccer" index="" image="">
+	<description>Fighting Soccer (version 4)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1988</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fsoccerj" index="" image="">
+	<description>Fighting Soccer (Japan)</description>
+	<cloneof>fsoccer</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1988</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gensitou" index="" image="">
+	<description>Genshi-Tou 1930&apos;s</description>
+	<cloneof>prehisle</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="goldmedl" index="" image="">
+	<description>Gold Medalist (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1988</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="goldmedla" index="" image="">
+	<description>Gold Medalist (set 2)</description>
+	<cloneof>goldmedl</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1988</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gwar" index="" image="">
+	<description>Guerrilla War (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gwara" index="" image="">
+	<description>Guerrilla War (Version 1)</description>
+	<cloneof>gwar</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gwarj" index="" image="">
+	<description>Guevara (Japan)</description>
+	<cloneof>gwar</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hal21" index="" image="">
+	<description>HAL21</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hal21j" index="" image="">
+	<description>HAL21 (Japan)</description>
+	<cloneof>hal21</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ikari" index="" image="">
+	<description>Ikari Warriors (US JAMMA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ikari3" index="" image="">
+	<description>Ikari III - The Rescue (World, 8-Way Joystick)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ikari3j" index="" image="">
+	<description>Ikari Three (Japan, Rotary Joystick)</description>
+	<cloneof>ikari3</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ikari3k" index="" image="">
+	<description>Ikari Three (Korea, 8-Way Joystick)</description>
+	<cloneof>ikari3</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ikari3u" index="" image="">
+	<description>Ikari III - The Rescue (US, Rotary Joystick)</description>
+	<cloneof>ikari3</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ikaria" index="" image="">
+	<description>Ikari Warriors (US)</description>
+	<cloneof>ikari</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ikarijp" index="" image="">
+	<description>Ikari (Japan No Continues)</description>
+	<cloneof>ikari</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ikarinc" index="" image="">
+	<description>Ikari Warriors (US No Continues)</description>
+	<cloneof>ikari</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jcross" index="" image="">
+	<description>Jumping Cross</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1984</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jongbou" index="" image="">
+	<description>Mahjong Block Jongbou (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1987</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="joyfulr" index="" image="">
+	<description>Joyful Road (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1983</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lasso" index="" image="">
+	<description>Lasso</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="legofair" index="" image="">
+	<description>Koukuu Kihei Monogatari - The Legend of Air Cavalry (Japan)</description>
+	<cloneof>chopper</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="madcrash" index="" image="">
+	<description>Mad Crasher</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="madcrush" index="" image="">
+	<description>Mad Crusher (Japan)</description>
+	<cloneof>madcrash</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mainsnk" index="" image="">
+	<description>Main Event (1984)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1984</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="marvins" index="" image="">
+	<description>Marvin&apos;s Maze</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1983</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mechatt" index="" image="">
+	<description>Mechanized Attack (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1989</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mechattj" index="" image="">
+	<description>Mechanized Attack (Japan)</description>
+	<cloneof>mechatt</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1989</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mechattu" index="" image="">
+	<description>Mechanized Attack (US)</description>
+	<cloneof>mechatt</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1989</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mechattu1" index="" image="">
+	<description>Mechanized Attack (US, Version 1, Single Player)</description>
+	<cloneof>mechatt</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1989</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="meijinsn" index="" image="">
+	<description>Meijinsen</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1986</year>
+	<genre>Board Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mnchmobl" index="" image="">
+	<description>Munch Mobile (US)</description>
+	<cloneof>joyfulr</cloneof>
+	<crc/>
+	<manufacturer>SNK (Centuri license)</manufacturer>
+	<year>1983</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="paddlema" index="" image="">
+	<description>Paddle Mania</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1988</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pballoon" index="" image="">
+	<description>Pioneer Balloon</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pballoonr" index="" image="">
+	<description>Pioneer Balloon (Rock-Ola license)</description>
+	<cloneof>pballoon</cloneof>
+	<crc/>
+	<manufacturer>SNK (Rock-Ola license)</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_bstar" index="" image="">
+	<description>Baseball Stars: Be a Champ! (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK (Nintendo of America license)</manufacturer>
+	<year>1989</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pow" index="" image="">
+	<description>P.O.W. - Prisoners of War (US version 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1988</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="powj" index="" image="">
+	<description>Datsugoku - Prisoners of War (Japan)</description>
+	<cloneof>pow</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1988</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="prehisle" index="" image="">
+	<description>Prehistoric Isle in 1930 (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="prehislek" index="" image="">
+	<description>Prehistoric Isle in 1930 (Korea)</description>
+	<cloneof>prehisle</cloneof>
+	<crc/>
+	<manufacturer>SNK (Victor license)</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="prehisleu" index="" image="">
+	<description>Prehistoric Isle in 1930 (US)</description>
+	<cloneof>prehisle</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="psychos" index="" image="">
+	<description>Psycho Soldier (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="psychosj" index="" image="">
+	<description>Psycho Soldier (Japan)</description>
+	<cloneof>psychos</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sasuke" index="" image="">
+	<description>Sasuke vs. Commander</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="satansat" index="" image="">
+	<description>Satan of Saturn (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="satansata" index="" image="">
+	<description>Satan of Saturn (set 2)</description>
+	<cloneof>satansat</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbasebal" index="" image="">
+	<description>Super Champion Baseball (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Alpha Denshi Co. (SNK of America license)</manufacturer>
+	<year>1989</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="searchar" index="" image="">
+	<description>SAR - Search And Rescue (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="searcharj" index="" image="">
+	<description>SAR - Search And Rescue (Japan)</description>
+	<cloneof>searchar</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="searcharu" index="" image="">
+	<description>SAR - Search And Rescue (US)</description>
+	<cloneof>searchar</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sgladiat" index="" image="">
+	<description>Gladiator 1984</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="skyadvntu" index="" image="">
+	<description>Sky Adventure (US)</description>
+	<cloneof>skyadvnt</cloneof>
+	<crc/>
+	<manufacturer>Alpha Denshi Co. (SNK of America license)</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="skysoldr" index="" image="">
+	<description>Sky Soldiers (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Alpha Denshi Co. (SNK of America/Romstar license)</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="streetsm" index="" image="">
+	<description>Street Smart (US version 2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="streetsm1" index="" image="">
+	<description>Street Smart (US version 1)</description>
+	<cloneof>streetsm</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="streetsmj" index="" image="">
+	<description>Street Smart (Japan version 1)</description>
+	<cloneof>streetsm</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="streetsmw" index="" image="">
+	<description>Street Smart (World version 1)</description>
+	<cloneof>streetsm</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tdfever" index="" image="">
+	<description>TouchDown Fever (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1987</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tdfever2" index="" image="">
+	<description>TouchDown Fever 2</description>
+	<cloneof>tdfever</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1988</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tdfeverj" index="" image="">
+	<description>TouchDown Fever (Japan)</description>
+	<cloneof>tdfever</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1987</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="timesold" index="" image="">
+	<description>Time Soldiers (US Rev 3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Alpha Denshi Co. (SNK/Romstar license)</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="timesold1" index="" image="">
+	<description>Time Soldiers (US Rev 1)</description>
+	<cloneof>timesold</cloneof>
+	<crc/>
+	<manufacturer>Alpha Denshi Co. (SNK/Romstar license)</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tnextspc" index="" image="">
+	<description>The Next Space (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tnextspc2" index="" image="">
+	<description>The Next Space (set 2)</description>
+	<cloneof>tnextspc</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tnextspcj" index="" image="">
+	<description>The Next Space (Japan)</description>
+	<cloneof>tnextspc</cloneof>
+	<crc/>
+	<manufacturer>SNK (Pasadena International Corp. license)</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tnk3" index="" image="">
+	<description>T.N.K III (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tnk3j" index="" image="">
+	<description>T.A.N.K (Japan)</description>
+	<cloneof>tnk3</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vangrd2" index="" image="">
+	<description>Vanguard II</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vanguard" index="" image="">
+	<description>Vanguard (SNK)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vanguardc" index="" image="">
+	<description>Vanguard (Centuri)</description>
+	<cloneof>vanguard</cloneof>
+	<crc/>
+	<manufacturer>SNK (Centuri license)</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vanguardj" index="" image="">
+	<description>Vanguard (Japan)</description>
+	<cloneof>vanguard</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="victroad" index="" image="">
+	<description>Victory Road</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="worldwar" index="" image="">
+	<description>World Wars (World?)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zarzon" index="" image="">
+	<description>Zarzon</description>
+	<cloneof>satansat</cloneof>
+	<crc/>
+	<manufacturer>SNK (Taito America license)</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

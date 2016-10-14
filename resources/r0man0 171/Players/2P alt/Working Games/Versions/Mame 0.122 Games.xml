@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2P alt / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="drktnjr" index="" image="">
+	<description>Drakton (DKJr conversion)</description>
+	<cloneof>drakton</cloneof>
+	<crc/>
+	<manufacturer>Epos Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dspirit2" index="" image="">
+	<description>Dragon Spirit (DS2)</description>
+	<cloneof>dspirit</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="geebeeb" index="" image="">
+	<description>Gee Bee (Europe)</description>
+	<cloneof>geebee</cloneof>
+	<crc/>
+	<manufacturer>Namco (F.lli Bertolino license)</manufacturer>
+	<year>1978</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="leadang" index="" image="">
+	<description>Lead Angle (Japan)</description>
+	<cloneof>deadang</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spfghmk2" index="" image="">
+	<description>Space Fighter Mark II (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spfghmk22" index="" image="">
+	<description>Space Fighter Mark II (set 2)</description>
+	<cloneof>spfghmk2</cloneof>
+	<crc/>
+	<manufacturer>Data East</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

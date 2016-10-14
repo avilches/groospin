@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Soccer / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="goal92" index="" image="">
+	<description>Goal! &apos;92</description>
+	<cloneof>cupsoc</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1992</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gstrik2j" index="" image="">
+	<description>Grand Striker 2 (Japan)</description>
+	<cloneof>gstrik2</cloneof>
+	<crc/>
+	<manufacturer>Human Amusement</manufacturer>
+	<year>1996</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kyustrkr" index="" image="">
+	<description>Last Striker / Kyuukyoku no Striker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>East Technology</manufacturer>
+	<year>1989</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

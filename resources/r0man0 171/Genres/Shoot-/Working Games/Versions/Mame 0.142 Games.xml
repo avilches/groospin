@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Shoot- / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="baryona" index="" image="">
+	<description>Baryon - Future Assault (set 2)</description>
+	<cloneof>baryon</cloneof>
+	<crc/>
+	<manufacturer>SemiCom / Tirano</manufacturer>
+	<year>1997</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dogfgtu" index="" image="">
+	<description>Acrobatic Dog-Fight (USA)</description>
+	<cloneof>dogfgt</cloneof>
+	<crc/>
+	<manufacturer>Technos Japan (Data East USA, Inc. license)</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stdragona" index="" image="">
+	<description>Saint Dragon (set 2)</description>
+	<cloneof>stdragon</cloneof>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

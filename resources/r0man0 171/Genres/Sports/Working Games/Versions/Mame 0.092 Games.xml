@@ -1,0 +1,339 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Sports / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="champbwl" index="" image="">
+	<description>Championship Bowling</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Seta / Romstar Inc.</manufacturer>
+	<year>1989</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt2k" index="" image="">
+	<description>Golden Tee 2K (v1.00)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>2000</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt2ks100" index="" image="">
+	<description>Golden Tee 2K (v1.00S)</description>
+	<cloneof>gt2k</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>2000</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt2kt500" index="" image="">
+	<description>Golden Tee 2K Tournament (v5.00)</description>
+	<cloneof>gt2k</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>2000</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt3d" index="" image="">
+	<description>Golden Tee 3D Golf (v1.93N)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1995</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt3dl191" index="" image="">
+	<description>Golden Tee 3D Golf (v1.91L)</description>
+	<cloneof>gt3d</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1995</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt3dl192" index="" image="">
+	<description>Golden Tee 3D Golf (v1.92L)</description>
+	<cloneof>gt3d</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1995</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt3ds192" index="" image="">
+	<description>Golden Tee 3D Golf (v1.92S)</description>
+	<cloneof>gt3d</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1995</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt3dt231" index="" image="">
+	<description>Golden Tee 3D Golf Tournament (v2.31)</description>
+	<cloneof>gt3d</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1995</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt3dv14" index="" image="">
+	<description>Golden Tee 3D Golf (v1.4)</description>
+	<cloneof>gt3d</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1995</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt3dv15" index="" image="">
+	<description>Golden Tee 3D Golf (v1.5)</description>
+	<cloneof>gt3d</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1995</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt3dv16" index="" image="">
+	<description>Golden Tee 3D Golf (v1.6)</description>
+	<cloneof>gt3d</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1995</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt3dv17" index="" image="">
+	<description>Golden Tee 3D Golf (v1.7)</description>
+	<cloneof>gt3d</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1995</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt3dv18" index="" image="">
+	<description>Golden Tee 3D Golf (v1.8)</description>
+	<cloneof>gt3d</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1995</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt97" index="" image="">
+	<description>Golden Tee &apos;97 (v1.30)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1997</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt97s121" index="" image="">
+	<description>Golden Tee &apos;97 (v1.21S)</description>
+	<cloneof>gt97</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1997</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt97t240" index="" image="">
+	<description>Golden Tee &apos;97 Tournament (v2.40)</description>
+	<cloneof>gt97</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1997</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt97v120" index="" image="">
+	<description>Golden Tee &apos;97 (v1.20)</description>
+	<cloneof>gt97</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1997</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt97v121" index="" image="">
+	<description>Golden Tee &apos;97 (v1.21)</description>
+	<cloneof>gt97</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1997</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt97v122" index="" image="">
+	<description>Golden Tee &apos;97 (v1.22)</description>
+	<cloneof>gt97</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1997</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt98" index="" image="">
+	<description>Golden Tee &apos;98 (v1.10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1998</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt98s100" index="" image="">
+	<description>Golden Tee &apos;98 (v1.00S)</description>
+	<cloneof>gt98</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1998</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt98t303" index="" image="">
+	<description>Golden Tee &apos;98 Tournament (v3.03)</description>
+	<cloneof>gt98</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1998</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt98v100" index="" image="">
+	<description>Golden Tee &apos;98 (v1.00)</description>
+	<cloneof>gt98</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1998</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt99" index="" image="">
+	<description>Golden Tee &apos;99 (v1.00)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1999</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt99s100" index="" image="">
+	<description>Golden Tee &apos;99 (v1.00S)</description>
+	<cloneof>gt99</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1999</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt99t400" index="" image="">
+	<description>Golden Tee &apos;99 Tournament (v4.00)</description>
+	<cloneof>gt99</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1999</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtclassc" index="" image="">
+	<description>Golden Tee Classic (v1.00)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>2001</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtclasscp" index="" image="">
+	<description>Golden Tee Classic (v1.00) (alt protection)</description>
+	<cloneof>gtclassc</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>2001</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtclasscs" index="" image="">
+	<description>Golden Tee Classic (v1.00S)</description>
+	<cloneof>gtclassc</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>2001</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racknrol" index="" image="">
+	<description>Rack + Roll</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Senko Industries (Status license from Shinkai Inc.)</manufacturer>
+	<year>1986</year>
+	<genre>Pool and Darts</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wcbowl140" index="" image="">
+	<description>World Class Bowling Tournament (v1.40)</description>
+	<cloneof>wcbowldx</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1997</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wcbowldx" index="" image="">
+	<description>World Class Bowling Deluxe (v2.00)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1999</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

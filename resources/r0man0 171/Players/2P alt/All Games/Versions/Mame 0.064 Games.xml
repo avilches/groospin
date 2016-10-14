@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2P alt / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="cheesech" index="" image="">
+	<description>Cheese Chase</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Art &amp; Magic</manufacturer>
+	<year>1994</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crgolfa" index="" image="">
+	<description>Crowns Golf (834-5419-03)</description>
+	<cloneof>crgolf</cloneof>
+	<crc/>
+	<manufacturer>Nasco Japan</manufacturer>
+	<year>1984</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crgolfb" index="" image="">
+	<description>Crowns Golf (set 3)</description>
+	<cloneof>crgolf</cloneof>
+	<crc/>
+	<manufacturer>Nasco Japan</manufacturer>
+	<year>1984</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crgolfbt" index="" image="">
+	<description>Champion Golf (bootleg)</description>
+	<cloneof>crgolf</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1984</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kram3" index="" image="">
+	<description>Kram (encrypted)</description>
+	<cloneof>kram</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shtrider" index="" image="">
+	<description>Shot Rider</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>1985</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="willowu" index="" image="">
+	<description>Willow (USA)</description>
+	<cloneof>willow</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

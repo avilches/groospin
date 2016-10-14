@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2P alt / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="cloakfr" index="" image="">
+	<description>Cloak &amp; Dagger (French)</description>
+	<cloneof>cloak</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cloakgr" index="" image="">
+	<description>Cloak &amp; Dagger (German)</description>
+	<cloneof>cloak</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cloaksp" index="" image="">
+	<description>Cloak &amp; Dagger (Spanish)</description>
+	<cloneof>cloak</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="digdugat" index="" image="">
+	<description>Dig Dug (Atari, rev 2)</description>
+	<cloneof>digdug</cloneof>
+	<crc/>
+	<manufacturer>Namco (Atari license)</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dodgem" index="" image="">
+	<description>Dodgem</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Zaccaria</manufacturer>
+	<year>1979</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gorkans" index="" image="">
+	<description>Gorkans</description>
+	<cloneof>mrtnt</cloneof>
+	<crc/>
+	<manufacturer>Techstar</manufacturer>
+	<year>1983</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ladyfrog" index="" image="">
+	<description>Lady Frog</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Mondial Games</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lunarbat" index="" image="">
+	<description>Lunar Battle (prototype, later)</description>
+	<cloneof>gravitar</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="marinedt" index="" image="">
+	<description>Marine Date</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="routex" index="" image="">
+	<description>Route X (bootleg)</description>
+	<cloneof>route16</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tempest" index="" image="">
+	<description>Tempest (rev 3, Revised Hardware)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tryout" index="" image="">
+	<description>Pro Baseball Skill Tryout (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1985</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

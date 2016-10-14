@@ -1,0 +1,959 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1990-1999 / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="a51mxr3k" index="" image="">
+	<description>Area 51 / Maximum Force Duo (R3000)</description>
+	<cloneof>area51mx</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1998</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arcadecl" index="" image="">
+	<description>Arcade Classics (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1992</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="area51" index="" image="">
+	<description>Area 51 (R3000)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1996</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="area51a" index="" image="">
+	<description>Area 51 (Atari Games license, Oct 25, 1995)</description>
+	<cloneof>area51</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1995</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="area51mx" index="" image="">
+	<description>Area 51 / Maximum Force Duo v2.0</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1998</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="area51t" index="" image="">
+	<description>Area 51 (Time Warner license, Oct 17, 1996)</description>
+	<cloneof>area51</cloneof>
+	<crc/>
+	<manufacturer>Atari Games (Time Warner license)</manufacturer>
+	<year>1995</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="area51ta" index="" image="">
+	<description>Area 51 (Time Warner license, Nov 15, 1995)</description>
+	<cloneof>area51</cloneof>
+	<crc/>
+	<manufacturer>Atari Games (Time Warner license)</manufacturer>
+	<year>1995</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="batman" index="" image="">
+	<description>Batman</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="beathead" index="" image="">
+	<description>BeatHead (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1993</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="calspeed" index="" image="">
+	<description>California Speed (Version 2.1a Apr 17 1998, GUTS 1.25 Apr 17 1998 / MAIN Apr 17 1998)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1998</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="calspeeda" index="" image="">
+	<description>California Speed (Version 1.0r8 Mar 10 1998, GUTS Mar 10 1998 / MAIN Mar 10 1998)</description>
+	<cloneof>calspeed</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1998</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="calspeedb" index="" image="">
+	<description>California Speed (Version 1.0r7a Mar 4 1998, GUTS Mar 3 1998 / MAIN Jan 19 1998)</description>
+	<cloneof>calspeed</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1998</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="freezeat" index="" image="">
+	<description>Freeze (Atari) (prototype, English voice, 96/10/25)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="freezeat2" index="" image="">
+	<description>Freeze (Atari) (prototype, 96/10/18)</description>
+	<cloneof>freezeat</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="freezeat3" index="" image="">
+	<description>Freeze (Atari) (prototype, 96/10/07)</description>
+	<cloneof>freezeat</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="freezeat4" index="" image="">
+	<description>Freeze (Atari) (prototype, 96/10/03)</description>
+	<cloneof>freezeat</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="freezeat5" index="" image="">
+	<description>Freeze (Atari) (prototype, 96/09/20, AMOA-96)</description>
+	<cloneof>freezeat</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="freezeat6" index="" image="">
+	<description>Freeze (Atari) (prototype, 96/09/07, Jamma-96)</description>
+	<cloneof>freezeat</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="freezeatjp" index="" image="">
+	<description>Freeze (Atari) (prototype, Japanese voice, 96/10/25)</description>
+	<cloneof>freezeat</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gauntleg" index="" image="">
+	<description>Gauntlet Legends (version 1.6)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1998</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gauntleg12" index="" image="">
+	<description>Gauntlet Legends (version 1.2)</description>
+	<cloneof>gauntleg</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1998</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="guardian" index="" image="">
+	<description>Guardians of the &apos;Hood</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="harddrivc" index="" image="">
+	<description>Hard Drivin&apos; (compact, rev 2)</description>
+	<cloneof>harddriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="harddrivc1" index="" image="">
+	<description>Hard Drivin&apos; (compact, rev 1)</description>
+	<cloneof>harddriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="harddrivcb" index="" image="">
+	<description>Hard Drivin&apos; (compact, British, rev 2)</description>
+	<cloneof>harddriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="harddrivcg" index="" image="">
+	<description>Hard Drivin&apos; (compact, German, rev 2)</description>
+	<cloneof>harddriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hdrivair" index="" image="">
+	<description>Hard Drivin&apos;s Airborne (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hydra" index="" image="">
+	<description>Hydra</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hydrap" index="" image="">
+	<description>Hydra (prototype 5/14/90)</description>
+	<cloneof>hydra</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hydrap2" index="" image="">
+	<description>Hydra (prototype 5/25/90)</description>
+	<cloneof>hydra</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kbash" index="" image="">
+	<description>Knuckle Bash</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Toaplan / Atari</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mace" index="" image="">
+	<description>Mace: The Dark Age (boot ROM 1.0ce, HDD 1.0b)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="macea" index="" image="">
+	<description>Mace: The Dark Age (HDD 1.0a)</description>
+	<cloneof>mace</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="maxf_102" index="" image="">
+	<description>Maximum Force v1.02</description>
+	<cloneof>maxforce</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1996</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="maxf_ng" index="" image="">
+	<description>Maximum Force (No Gore version)</description>
+	<cloneof>maxforce</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1996</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="maxforce" index="" image="">
+	<description>Maximum Force v1.05</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1996</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="offtwall" index="" image="">
+	<description>Off the Wall (2/3-player upright)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1991</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="offtwallc" index="" image="">
+	<description>Off the Wall (2-player cocktail)</description>
+	<cloneof>offtwall</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1991</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pitfight" index="" image="">
+	<description>Pit Fighter (rev 9)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pitfight3" index="" image="">
+	<description>Pit Fighter (rev 3)</description>
+	<cloneof>pitfight</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pitfight4" index="" image="">
+	<description>Pit Fighter (rev 4)</description>
+	<cloneof>pitfight</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pitfight5" index="" image="">
+	<description>Pit Fighter (rev 5)</description>
+	<cloneof>pitfight</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pitfight6" index="" image="">
+	<description>Pit Fighter (rev 6)</description>
+	<cloneof>pitfight</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pitfight7" index="" image="">
+	<description>Pit Fighter (rev 7)</description>
+	<cloneof>pitfight</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pitfightj" index="" image="">
+	<description>Pit Fighter (Japan, 2 players)</description>
+	<cloneof>pitfight</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="primrage" index="" image="">
+	<description>Primal Rage (version 2.3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="primrage20" index="" image="">
+	<description>Primal Rage (version 2.0)</description>
+	<cloneof>primrage</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedriv" index="" image="">
+	<description>Race Drivin&apos; (cockpit, rev 5)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedriv1" index="" image="">
+	<description>Race Drivin&apos; (cockpit, rev 1)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedriv2" index="" image="">
+	<description>Race Drivin&apos; (cockpit, rev 2)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedriv3" index="" image="">
+	<description>Race Drivin&apos; (cockpit, rev 3)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedriv4" index="" image="">
+	<description>Race Drivin&apos; (cockpit, rev 4)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivb" index="" image="">
+	<description>Race Drivin&apos; (cockpit, British, rev 5)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivb1" index="" image="">
+	<description>Race Drivin&apos; (cockpit, British, rev 1)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivb4" index="" image="">
+	<description>Race Drivin&apos; (cockpit, British, rev 4)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivc" index="" image="">
+	<description>Race Drivin&apos; (compact, rev 5)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivc1" index="" image="">
+	<description>Race Drivin&apos; (compact, rev 1)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivc2" index="" image="">
+	<description>Race Drivin&apos; (compact, rev 2)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivc4" index="" image="">
+	<description>Race Drivin&apos; (compact, rev 4)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivcb" index="" image="">
+	<description>Race Drivin&apos; (compact, British, rev 5)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivcb4" index="" image="">
+	<description>Race Drivin&apos; (compact, British, rev 4)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivcg" index="" image="">
+	<description>Race Drivin&apos; (compact, German, rev 5)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivcg4" index="" image="">
+	<description>Race Drivin&apos; (compact, German, rev 4)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivg" index="" image="">
+	<description>Race Drivin&apos; (cockpit, German, rev 5)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivg1" index="" image="">
+	<description>Race Drivin&apos; (cockpit, German, rev 2)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivg4" index="" image="">
+	<description>Race Drivin&apos; (cockpit, German, rev 4)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivpan" index="" image="">
+	<description>Race Drivin&apos; Panorama (prototype, rev 2.1)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rampart" index="" image="">
+	<description>Rampart (Trackball)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rampart2p" index="" image="">
+	<description>Rampart (Joystick)</description>
+	<cloneof>rampart</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rampartj" index="" image="">
+	<description>Rampart (Japan, Joystick)</description>
+	<cloneof>rampart</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="relief" index="" image="">
+	<description>Relief Pitcher (set 1, 07 Jun 1992 / 28 May 1992)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1992</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="relief2" index="" image="">
+	<description>Relief Pitcher (set 2, 26 Apr 1992 / 08 Apr 1992)</description>
+	<cloneof>relief</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1992</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="relief3" index="" image="">
+	<description>Relief Pitcher (set 3, 10 Apr 1992 / 08 Apr 1992)</description>
+	<cloneof>relief</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1992</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="roadriot" index="" image="">
+	<description>Road Riot 4WD (set 1, 13 Nov 1991)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1991</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="roadrioto" index="" image="">
+	<description>Road Riot 4WD (set 2, 04 Jun 1991)</description>
+	<cloneof>roadriot</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1991</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfrush" index="" image="">
+	<description>San Francisco Rush</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shuuz" index="" image="">
+	<description>Shuuz (version 8.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Sports</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shuuz2" index="" image="">
+	<description>Shuuz (version 7.1)</description>
+	<cloneof>shuuz</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Sports</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sparkz" index="" image="">
+	<description>Sparkz (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1992</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="steeltal" index="" image="">
+	<description>Steel Talons (rev 2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="steeltal1" index="" image="">
+	<description>Steel Talons (rev 1)</description>
+	<cloneof>steeltal</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="steeltalg" index="" image="">
+	<description>Steel Talons (German, rev 2)</description>
+	<cloneof>steeltal</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="strtdriv" index="" image="">
+	<description>Street Drivin&apos; (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tenthdeg" index="" image="">
+	<description>Tenth Degree (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thunderj" index="" image="">
+	<description>ThunderJaws (rev 3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thunderja" index="" image="">
+	<description>ThunderJaws (rev 2)</description>
+	<cloneof>thunderj</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tmek" index="" image="">
+	<description>T-MEK (v5.1, The Warlords)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1994</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tmek20" index="" image="">
+	<description>T-MEK (v2.0, prototype)</description>
+	<cloneof>tmek</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1994</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tmek44" index="" image="">
+	<description>T-MEK (v4.4)</description>
+	<cloneof>tmek</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1994</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tmek45" index="" image="">
+	<description>T-MEK (v4.5)</description>
+	<cloneof>tmek</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1994</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tmek51p" index="" image="">
+	<description>T-MEK (v5.1, prototype)</description>
+	<cloneof>tmek</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1994</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vaportrx" index="" image="">
+	<description>Vapor TRX</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1998</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vaportrxp" index="" image="">
+	<description>Vapor TRX (prototype)</description>
+	<cloneof>vaportrx</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1998</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vcircle" index="" image="">
+	<description>Vicious Circle (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wg3dh" index="" image="">
+	<description>Wayne Gretzky&apos;s 3D Hockey</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1996</year>
+	<genre>Hockey</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

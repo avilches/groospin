@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Sega / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="cencourt" index="" image="">
+	<description>Center Court (World, 4 Players, prototype) (MC-8123B)</description>
+	<cloneof>passsht</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mp_gslam" index="" image="">
+	<description>Grand Slam (Mega Play)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="passsht" index="" image="">
+	<description>Passing Shot (World, 2 Players) (FD1094 317-0080)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="passsht16a" index="" image="">
+	<description>Passing Shot (Japan, 4 Players, System 16A) (FD1094 317-0071)</description>
+	<cloneof>passsht</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="passshta" index="" image="">
+	<description>Passing Shot (World, 4 Players) (FD1094 317-0074)</description>
+	<cloneof>passsht</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="passshtj" index="" image="">
+	<description>Passing Shot (Japan, 4 Players) (FD1094 317-0070)</description>
+	<cloneof>passsht</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

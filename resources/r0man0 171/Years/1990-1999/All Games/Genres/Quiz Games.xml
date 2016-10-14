@@ -1,0 +1,1259 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1990-1999 / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="akamaru" index="" image="">
+	<description>Panel &amp; Variety Akamaru Q Jousyou Dont-R</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dynax (Nakanihon license)</manufacturer>
+	<year>1996</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="atehate" index="" image="">
+	<description>Athena no Hatena ?</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Athena</manufacturer>
+	<year>1993</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="beeline" index="" image="">
+	<description>Beeline (39-360-075)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>1991</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bkrtmaq" index="" image="">
+	<description>Bakuretsu Quiz Ma-Q Dai Bouken (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cluedo" index="" image="">
+	<description>Cluedo (prod. 2D)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>JPM</manufacturer>
+	<year>1995</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cluedo2" index="" image="">
+	<description>Cluedo (prod. 2)</description>
+	<cloneof>cluedo</cloneof>
+	<crc/>
+	<manufacturer>JPM</manufacturer>
+	<year>1995</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cluedo2c" index="" image="">
+	<description>Cluedo (prod. 2C)</description>
+	<cloneof>cluedo</cloneof>
+	<crc/>
+	<manufacturer>JPM</manufacturer>
+	<year>1995</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cluedod" index="" image="">
+	<description>Cluedo (prod. 2D) (Protocol)</description>
+	<cloneof>cluedo</cloneof>
+	<crc/>
+	<manufacturer>JPM</manufacturer>
+	<year>1995</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="coronatn" index="" image="">
+	<description>Coronation Street Quiz Game</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>JPM</manufacturer>
+	<year>1999</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="coronatnd" index="" image="">
+	<description>Coronation Street Quiz Game (Protocol)</description>
+	<cloneof>coronatn</cloneof>
+	<crc/>
+	<manufacturer>JPM</manufacturer>
+	<year>1999</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cworld2j" index="" image="">
+	<description>Adventure Quiz Capcom World 2 (Japan 920611)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1992</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cworld2ja" index="" image="">
+	<description>Adventure Quiz Capcom World 2 (Japan 920611, B-Board 90629B-3, no battery)</description>
+	<cloneof>cworld2j</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1992</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cworld2jb" index="" image="">
+	<description>Adventure Quiz Capcom World 2 (Japan 920611, B-Board 91634B-2)</description>
+	<cloneof>cworld2j</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1992</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dquizgo" index="" image="">
+	<description>Date Quiz Go Go (Korea)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SemiCom / AceVer</manufacturer>
+	<year>1998</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="escounts" index="" image="">
+	<description>Every Second Counts (39-360-053)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>1990</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fbcrazy" index="" image="">
+	<description>Football Crazy (Video Quiz)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>1997</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gakupara" index="" image="">
+	<description>Quiz Gakuen Paradise (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>NMK</manufacturer>
+	<year>1991</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gekiretu" index="" image="">
+	<description>Quiz Gekiretsu Scramble (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Face</manufacturer>
+	<year>1992</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hatena" index="" image="">
+	<description>Adventure Quiz 2 - Hatena? no Daibouken (Japan 900228)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1990</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hayaosi1" index="" image="">
+	<description>Hayaoshi Quiz Ouza Ketteisen - The King Of Quiz</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1993</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hayaosi2" index="" image="">
+	<description>Hayaoshi Quiz Grand Champion Taikai</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1994</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hayaosi3" index="" image="">
+	<description>Hayaoshi Quiz Nettou Namahousou</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1994</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hngmnjpm" index="" image="">
+	<description>Hangman (JPM)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>JPM</manufacturer>
+	<year>1998</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hngmnjpmd" index="" image="">
+	<description>Hangman (JPM) (Protocol)</description>
+	<cloneof>hngmnjpm</cloneof>
+	<crc/>
+	<manufacturer>JPM</manufacturer>
+	<year>1998</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="introdon" index="" image="">
+	<description>Karaoke Quiz Intro Don Don! (J 960213 V1.000)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sunsoft / Success</manufacturer>
+	<year>1996</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="inufuku" index="" image="">
+	<description>Quiz &amp; Variety Sukusuku Inufuku (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Video System Co.</manufacturer>
+	<year>1998</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kaiunqz" index="" image="">
+	<description>Kaiun Quiz (Japan, KW1/VER.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1999</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="keithlcy" index="" image="">
+	<description>Dramatic Adventure Quiz Keith &amp; Lucy (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Visco</manufacturer>
+	<year>1993</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kirameki" index="" image="">
+	<description>Kirameki Star Road (Ver 2.10J 1997/08/29)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1997</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kokoroj2" index="" image="">
+	<description>Kokoroji 2</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1994</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="livequiz" index="" image="">
+	<description>Live Quiz Show</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Andamiro</manufacturer>
+	<year>1999</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lsrquiz" index="" image="">
+	<description>Laser Quiz Italy</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>CD Express</manufacturer>
+	<year>1995</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lsrquiz2" index="" image="">
+	<description>Laser Quiz 2 Italy (v1.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>CD Express</manufacturer>
+	<year>1995</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="magzun" index="" image="">
+	<description>Magical Zunou Power (J 961031 V1.000)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1996</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="marstv" index="" image="">
+	<description>Mars TV (JPN)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1999</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="marukodq" index="" image="">
+	<description>Chibi Marukochan Deluxe Quiz</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Takara</manufacturer>
+	<year>1995</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mastboy" index="" image="">
+	<description>Master Boy (Spanish, PCB Rev A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1991</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mastboyi" index="" image="">
+	<description>Master Boy (Italian, PCB Rev A, set 1)</description>
+	<cloneof>mastboy</cloneof>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1991</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mastboyia" index="" image="">
+	<description>Master Boy (Italian, PCB Rev A, set 2)</description>
+	<cloneof>mastboy</cloneof>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1991</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mdhorse" index="" image="">
+	<description>Derby Quiz My Dream Horse (Japan, MDH1/VER.A2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>MOSS / Namco</manufacturer>
+	<year>1998</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="monoplcl" index="" image="">
+	<description>Monopoly Classic (JPM) (SYSTEM5 VIDEO)</description>
+	<cloneof>monopoly</cloneof>
+	<crc/>
+	<manufacturer>JPM</manufacturer>
+	<year>1995</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="monopldx" index="" image="">
+	<description>Monopoly Deluxe (JPM) (SYSTEM5 VIDEO)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>JPM</manufacturer>
+	<year>1995</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="monopoly" index="" image="">
+	<description>Monopoly (JPM) (SYSTEM5 VIDEO, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>JPM</manufacturer>
+	<year>1994</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="monopolya" index="" image="">
+	<description>Monopoly (JPM) (SYSTEM5 VIDEO, set 2)</description>
+	<cloneof>monopoly</cloneof>
+	<crc/>
+	<manufacturer>JPM</manufacturer>
+	<year>1994</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="myangel" index="" image="">
+	<description>Kosodate Quiz My Angel (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>MOSS / Namco</manufacturer>
+	<year>1996</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="myangel2" index="" image="">
+	<description>Kosodate Quiz My Angel 2 (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>MOSS / Namco</manufacturer>
+	<year>1997</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="myangel3" index="" image="">
+	<description>Kosodate Quiz My Angel 3 (Japan, KQT1/VER.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>MOSS / Namco</manufacturer>
+	<year>1998</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nettoqc" index="" image="">
+	<description>Nettoh Quiz Champion (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nakanihon</manufacturer>
+	<year>1995</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nouryoku" index="" image="">
+	<description>Nouryoku Koujou Iinkai</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Tecmo</manufacturer>
+	<year>1995</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nouryokup" index="" image="">
+	<description>Nouryoku Koujou Iinkai (prototype)</description>
+	<cloneof>nouryoku</cloneof>
+	<crc/>
+	<manufacturer>Tecmo</manufacturer>
+	<year>1995</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="popspops" index="" image="">
+	<description>Pop&apos;s Pop&apos;s</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Afega</manufacturer>
+	<year>1999</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qad" index="" image="">
+	<description>Quiz &amp; Dragons: Capcom Quiz Game (USA 920701)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1992</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qadjr" index="" image="">
+	<description>Quiz &amp; Dragons: Capcom Quiz Game (Japan Resale Ver. 940921)</description>
+	<cloneof>qad</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qcrayon" index="" image="">
+	<description>Quiz Crayon Shinchan (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qdrmfgp" index="" image="">
+	<description>Quiz Do Re Mi Fa Grand Prix (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1994</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qdrmfgp2" index="" image="">
+	<description>Quiz Do Re Mi Fa Grand Prix 2 - Shin-Kyoku Nyuukadayo (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1995</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qgakumon" index="" image="">
+	<description>Quiz Gakumon no Susume (Japan ver. JA2 Type L)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1993</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qgh" index="" image="">
+	<description>Quiz Ghost Hunter (Japan, ROM Based)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1994</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qjinsei" index="" image="">
+	<description>Quiz Jinsei Gekijoh (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1992</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qndream" index="" image="">
+	<description>Quiz Nanairo Dreams: Nijiirochou no Kiseki (Japan 960826)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qos" index="" image="">
+	<description>A Question of Sport (set 1, 39-960-107)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>1992</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qosa" index="" image="">
+	<description>A Question of Sport (set 2, 39-960-099)</description>
+	<cloneof>qos</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>1992</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qosb" index="" image="">
+	<description>A Question of Sport (set 3, 39-960-089)</description>
+	<cloneof>qos</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>1992</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qrouka" index="" image="">
+	<description>Quiz Rouka Ni Tattenasai (Japan, ROM Based)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qsangoku" index="" image="">
+	<description>Quiz Sangokushi (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qsww" index="" image="">
+	<description>Quiz Syukudai wo Wasuremashita (Japan, Floppy Based, FD1094 317-0058-08b)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qtheater" index="" image="">
+	<description>Quiz Theater - 3tsu no Monogatari (Ver 2.3J 1994/11/10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1994</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qtono1" index="" image="">
+	<description>Quiz Tonosama no Yabou (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qtono2j" index="" image="">
+	<description>Quiz Tonosama no Yabou 2: Zenkoku-ban (Japan 950123)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1995</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qtorimon" index="" image="">
+	<description>Quiz Torimonochou (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quiz211" index="" image="">
+	<description>Quiz (Revision 2.11)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Elettronolo</manufacturer>
+	<year>1991</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quiz365" index="" image="">
+	<description>Quiz 365 (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nakanihon</manufacturer>
+	<year>1994</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quiz365t" index="" image="">
+	<description>Quiz 365 (Hong Kong &amp; Taiwan)</description>
+	<cloneof>quiz365</cloneof>
+	<crc/>
+	<manufacturer>Nakanihon / Taito</manufacturer>
+	<year>1994</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quizard" index="" image="">
+	<description>Quizard (v1.8)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>TAB Austria</manufacturer>
+	<year>1995</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quizard2" index="" image="">
+	<description>Quizard 2 (v2.3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>TAB Austria</manufacturer>
+	<year>1995</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quizard2_22" index="" image="">
+	<description>Quizard 2 (v2.2)</description>
+	<cloneof>quizard2</cloneof>
+	<crc/>
+	<manufacturer>TAB Austria</manufacturer>
+	<year>1995</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quizard3" index="" image="">
+	<description>Quizard 3 (v3.4)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>TAB Austria</manufacturer>
+	<year>1995</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quizard3_32" index="" image="">
+	<description>Quizard 3 (v3.2)</description>
+	<cloneof>quizard3</cloneof>
+	<crc/>
+	<manufacturer>TAB Austria</manufacturer>
+	<year>1996</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quizard4" index="" image="">
+	<description>Quizard 4 Rainbow (v4.2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>TAB Austria</manufacturer>
+	<year>1998</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quizard4_40" index="" image="">
+	<description>Quizard 4 Rainbow (v4.0)</description>
+	<cloneof>quizard4</cloneof>
+	<crc/>
+	<manufacturer>TAB Austria</manufacturer>
+	<year>1997</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quizard4_41" index="" image="">
+	<description>Quizard 4 Rainbow (v4.1)</description>
+	<cloneof>quizard4</cloneof>
+	<crc/>
+	<manufacturer>TAB Austria</manufacturer>
+	<year>1998</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quizard_10" index="" image="">
+	<description>Quizard (v1.0)</description>
+	<cloneof>quizard</cloneof>
+	<crc/>
+	<manufacturer>TAB Austria</manufacturer>
+	<year>1995</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quizard_12" index="" image="">
+	<description>Quizard (v1.2)</description>
+	<cloneof>quizard</cloneof>
+	<crc/>
+	<manufacturer>TAB Austria</manufacturer>
+	<year>1995</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quizard_17" index="" image="">
+	<description>Quizard (v1.7)</description>
+	<cloneof>quizard</cloneof>
+	<crc/>
+	<manufacturer>TAB Austria</manufacturer>
+	<year>1995</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quizchq" index="" image="">
+	<description>Quiz Channel Question (Ver 1.00) (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nakanihon</manufacturer>
+	<year>1993</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quizchql" index="" image="">
+	<description>Quiz Channel Question (Ver 1.23) (Taiwan?)</description>
+	<cloneof>quizchq</cloneof>
+	<crc/>
+	<manufacturer>Nakanihon (Laxan license)</manufacturer>
+	<year>1993</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quizdai2" index="" image="">
+	<description>Quiz Meitantei Neo &amp; Geo - Quiz Daisousa Sen part 2 (NGM-042)(NGH-042)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1992</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quizdais" index="" image="">
+	<description>Quiz Daisousa Sen - The Last Count Down (NGM-023)(NGH-023)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1991</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quizdaisk" index="" image="">
+	<description>Quiz Daisousa Sen - The Last Count Down (Korean release)</description>
+	<cloneof>quizdais</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1991</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quizdna" index="" image="">
+	<description>Quiz DNA no Hanran (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Face</manufacturer>
+	<year>1992</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quizf1" index="" image="">
+	<description>Quiz F1 1-2 Finish (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1992</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quizhq" index="" image="">
+	<description>Quiz H.Q. (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quizhuhu" index="" image="">
+	<description>Moriguchi Hiroko no Quiz de Hyuu!Hyuu! (Ver 2.2J 1995/05/25)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1995</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quizkof" index="" image="">
+	<description>Quiz King of Fighters (SAM-080)(SAH-080)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Saurus</manufacturer>
+	<year>1995</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quizkofk" index="" image="">
+	<description>Quiz King of Fighters (Korean release)</description>
+	<cloneof>quizkof</cloneof>
+	<crc/>
+	<manufacturer>Saurus</manufacturer>
+	<year>1995</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quizmeku" index="" image="">
+	<description>Quiz Mekurumeku Story (Japan, ROM Based)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quizmoon" index="" image="">
+	<description>Quiz Bisyoujo Senshi Sailor Moon - Chiryoku Tairyoku Toki no Un</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Banpresto</manufacturer>
+	<year>1997</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quizpani" index="" image="">
+	<description>Quiz Panicuru Fantasy</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>NMK</manufacturer>
+	<year>1993</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quiztou" index="" image="">
+	<description>Nettou! Gekitou! Quiztou!! (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1993</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quiztvqq" index="" image="">
+	<description>Quiz TV Gassyuukoku Q&amp;Q (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dynax</manufacturer>
+	<year>1992</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quizvadr" index="" image="">
+	<description>Quizvaders (39-360-078)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>1991</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qzchikyu" index="" image="">
+	<description>Quiz Chikyu Bouei Gun (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1991</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qzkklgy2" index="" image="">
+	<description>Quiz Kokology 2</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Tecmo</manufacturer>
+	<year>1993</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qzkklogy" index="" image="">
+	<description>Quiz Kokology</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Tecmo</manufacturer>
+	<year>1992</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qzquest" index="" image="">
+	<description>Quiz Quest - Hime to Yuusha no Monogatari (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1991</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qzshowby" index="" image="">
+	<description>Quiz Sekai wa SHOW by shobai (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="revlatns" index="" image="">
+	<description>Revelations</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nova Productions</manufacturer>
+	<year>1994</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ryorioh" index="" image="">
+	<description>Gourmet Battle Quiz Ryohrioh CooKing (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Visco</manufacturer>
+	<year>1998</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scrabble" index="" image="">
+	<description>Scrabble (rev. F)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>JPM</manufacturer>
+	<year>1997</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scrabbled" index="" image="">
+	<description>Scrabble (rev. F) (Protocol)</description>
+	<cloneof>scrabble</cloneof>
+	<crc/>
+	<manufacturer>JPM</manufacturer>
+	<year>1997</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sprtauth" index="" image="">
+	<description>Sports Authority</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Classic Games</manufacturer>
+	<year>1992</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sunaq" index="" image="">
+	<description>SunA Quiz 6000 Academy (940620-6)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SunA</manufacturer>
+	<year>1994</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trebltop" index="" image="">
+	<description>Treble Top (39-360-070)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>1991</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trivialp" index="" image="">
+	<description>Trivial Pursuit (New Edition) (prod. 1D)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>JPM</manufacturer>
+	<year>1996</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trivialpd" index="" image="">
+	<description>Trivial Pursuit (New Edition) (prod. 1D) (Protocol)</description>
+	<cloneof>trivialp</cloneof>
+	<crc/>
+	<manufacturer>JPM</manufacturer>
+	<year>1996</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trivialpo" index="" image="">
+	<description>Trivial Pursuit</description>
+	<cloneof>trivialp</cloneof>
+	<crc/>
+	<manufacturer>JPM</manufacturer>
+	<year>1996</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ultrchmp" index="" image="">
+	<description>Se Gye Hweng Dan Ultra Champion (Korea)</description>
+	<cloneof>nettoqc</cloneof>
+	<crc/>
+	<manufacturer>Nakanihon</manufacturer>
+	<year>1995</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ultrchmph" index="" image="">
+	<description>Cheng Ba Shi Jie - Chao Shi Kong Guan Jun (Taiwan)</description>
+	<cloneof>nettoqc</cloneof>
+	<crc/>
+	<manufacturer>Nakanihon</manufacturer>
+	<year>1995</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4skltrk" index="" image="">
+	<description>Skill Trek (v1.1) (MPU4 Video, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Barcrest</manufacturer>
+	<year>1990</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4skltrka" index="" image="">
+	<description>Skill Trek (v1.1) (MPU4 Video, set 2)</description>
+	<cloneof>v4skltrk</cloneof>
+	<crc/>
+	<manufacturer>Barcrest</manufacturer>
+	<year>1990</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="weddingr" index="" image="">
+	<description>Wedding Rhapsody (GX624 JAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1997</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xday2" index="" image="">
+	<description>X-Day 2 (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1995</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xsedae" index="" image="">
+	<description>X Se Dae Quiz (Korea)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dream Island</manufacturer>
+	<year>1995</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="yesnoj" index="" image="">
+	<description>Yes/No Sinri Tokimeki Chart</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1992</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="yuyugogo" index="" image="">
+	<description>Yuuyu no Quiz de GO!GO! (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

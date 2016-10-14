@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Fighter / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="burningfp" index="" image="">
+	<description>Burning Fight (prototype)</description>
+	<cloneof>burningf</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ffightu1" index="" image="">
+	<description>Final Fight (USA, set 2)</description>
+	<cloneof>ffight</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kof97k" index="" image="">
+	<description>The King of Fighters &apos;97 (Korean release)</description>
+	<cloneof>kof97</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mknifty" index="" image="">
+	<description>Mortal Kombat (Nifty Kombo, hack)</description>
+	<cloneof>mk</cloneof>
+	<crc/>
+	<manufacturer>hack</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mknifty666" index="" image="">
+	<description>Mortal Kombat (Nifty Kombo 666, hack)</description>
+	<cloneof>mk</cloneof>
+	<crc/>
+	<manufacturer>hack</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sf2uc" index="" image="">
+	<description>Street Fighter II: The World Warrior (USA 910306)</description>
+	<cloneof>sf2</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

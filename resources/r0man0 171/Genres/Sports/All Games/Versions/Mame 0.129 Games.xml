@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Sports / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="9ballshtc" index="" image="">
+	<description>9-Ball Shootout Championship</description>
+	<cloneof>9ballsht</cloneof>
+	<crc/>
+	<manufacturer>E-Scape EnterMedia (Bundra license)</manufacturer>
+	<year>1993</year>
+	<genre>Pool and Darts</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gslgr94j" index="" image="">
+	<description>Great Sluggers &apos;94 (Japan)</description>
+	<cloneof>gslgr94u</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1994</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hiticej" index="" image="">
+	<description>Hit the Ice (Japan)</description>
+	<cloneof>hitice</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation (licensed from Midway)</manufacturer>
+	<year>1990</year>
+	<genre>Hockey</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hvysmsh" index="" image="">
+	<description>Heavy Smash (Europe version -2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Handball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="segawski" index="" image="">
+	<description>Sega Water Ski (Japan, Revision A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1997</year>
+	<genre>Skiing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vball" index="" image="">
+	<description>U.S. Championship V&apos;ball (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Technos Japan</manufacturer>
+	<year>1988</year>
+	<genre>Volleyball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vstrik3co" index="" image="">
+	<description>Virtua Striker 3 (USA, EXP, KOR, AUS)</description>
+	<cloneof>vstrik3c</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2001</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wc90b" index="" image="">
+	<description>Tecmo World Cup &apos;90 (Euro set 2)</description>
+	<cloneof>wc90</cloneof>
+	<crc/>
+	<manufacturer>Tecmo</manufacturer>
+	<year>1989</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

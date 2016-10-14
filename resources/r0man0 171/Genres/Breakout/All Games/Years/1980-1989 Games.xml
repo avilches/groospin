@@ -1,0 +1,599 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Breakout / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="ark1ball" index="" image="">
+	<description>Arkanoid (bootleg with MCU, harder)</description>
+	<cloneof>arkanoid</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1986</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arkangc" index="" image="">
+	<description>Arkanoid (Game Corporation bootleg, set 1)</description>
+	<cloneof>arkanoid</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Game Corporation)</manufacturer>
+	<year>1986</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arkangc2" index="" image="">
+	<description>Arkanoid (Game Corporation bootleg, set 2)</description>
+	<cloneof>arkanoid</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Game Corporation)</manufacturer>
+	<year>1986</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arkanoid" index="" image="">
+	<description>Arkanoid (World, older)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1986</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arkanoidj" index="" image="">
+	<description>Arkanoid (Japan, newer)</description>
+	<cloneof>arkanoid</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arkanoidja" index="" image="">
+	<description>Arkanoid (Japan, newer w/level select)</description>
+	<cloneof>arkanoid</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arkanoidjb" index="" image="">
+	<description>Arkanoid (Japan, older)</description>
+	<cloneof>arkanoid</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arkanoidjbl" index="" image="">
+	<description>Arkanoid (bootleg with MCU, set 1)</description>
+	<cloneof>arkanoid</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1986</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arkanoidjbl2" index="" image="">
+	<description>Arkanoid (bootleg with MCU, set 2)</description>
+	<cloneof>arkanoid</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Beta)</manufacturer>
+	<year>1986</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arkanoidu" index="" image="">
+	<description>Arkanoid (US, newer)</description>
+	<cloneof>arkanoid</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation (Romstar license)</manufacturer>
+	<year>1986</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arkanoiduo" index="" image="">
+	<description>Arkanoid (US, older)</description>
+	<cloneof>arkanoid</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation (Romstar license)</manufacturer>
+	<year>1986</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arkatayt" index="" image="">
+	<description>Arkanoid (Tayto bootleg)</description>
+	<cloneof>arkanoid</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Tayto)</manufacturer>
+	<year>1986</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arkatour" index="" image="">
+	<description>Tournament Arkanoid (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito America Corporation (Romstar license)</manufacturer>
+	<year>1987</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arkbloc2" index="" image="">
+	<description>Block (Game Corporation bootleg, set 2)</description>
+	<cloneof>arkanoid</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Game Corporation)</manufacturer>
+	<year>1986</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arkbloc3" index="" image="">
+	<description>Block (Game Corporation bootleg, set 3)</description>
+	<cloneof>arkanoid</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Game Corporation)</manufacturer>
+	<year>1986</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arkblock" index="" image="">
+	<description>Block (Game Corporation bootleg, set 1)</description>
+	<cloneof>arkanoid</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Game Corporation)</manufacturer>
+	<year>1986</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arkgcbl" index="" image="">
+	<description>Arkanoid (bootleg on Block hardware, set 1)</description>
+	<cloneof>arkanoid</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1986</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arkgcbla" index="" image="">
+	<description>Arkanoid (bootleg on Block hardware, set 2)</description>
+	<cloneof>arkanoid</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1986</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arknoid2" index="" image="">
+	<description>Arkanoid - Revenge of DOH (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1987</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arknoid2b" index="" image="">
+	<description>Arkanoid - Revenge of DOH (Japan bootleg)</description>
+	<cloneof>arknoid2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1987</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arknoid2j" index="" image="">
+	<description>Arkanoid - Revenge of DOH (Japan)</description>
+	<cloneof>arknoid2</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arknoid2u" index="" image="">
+	<description>Arkanoid - Revenge of DOH (US)</description>
+	<cloneof>arknoid2</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation (Romstar license)</manufacturer>
+	<year>1987</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arktayt2" index="" image="">
+	<description>Arkanoid (Tayto bootleg, harder)</description>
+	<cloneof>arkanoid</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Tayto)</manufacturer>
+	<year>1986</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="block2" index="" image="">
+	<description>Block 2 (S.P.A. Co. bootleg)</description>
+	<cloneof>arkanoid</cloneof>
+	<crc/>
+	<manufacturer>bootleg (S.P.A. Co.)</manufacturer>
+	<year>1986</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="brkblast" index="" image="">
+	<description>Brick Blast (bootleg of Wall Crash)</description>
+	<cloneof>wallc</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Fadesa)</manufacturer>
+	<year>1984</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cannonb" index="" image="">
+	<description>Cannon Ball (bootleg on Crazy Kong hardware) (set 1, buggy)</description>
+	<cloneof>cannonbp</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Soft)</manufacturer>
+	<year>1985</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cannonb2" index="" image="">
+	<description>Cannon Ball (bootleg on Crazy Kong hardware) (set 2, buggy)</description>
+	<cloneof>cannonbp</cloneof>
+	<crc/>
+	<manufacturer>bootleg (TV Game Gruenberg)</manufacturer>
+	<year>1985</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cannonb3" index="" image="">
+	<description>Cannon Ball (bootleg on Crazy Kong hardware) (set 3, no bonus game)</description>
+	<cloneof>cannonbp</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Soft)</manufacturer>
+	<year>1985</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cannonbp" index="" image="">
+	<description>Cannon Ball (Pac-Man Hardware)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Novomatic</manufacturer>
+	<year>1985</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cflyball" index="" image="">
+	<description>Flying Ball (DECO Cassette)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1985</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cgraplop" index="" image="">
+	<description>Cluster Buster (DECO Cassette)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cgraplop2" index="" image="">
+	<description>Graplop (no title screen) (DECO Cassette)</description>
+	<cloneof>cgraplop</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="freekick" index="" image="">
+	<description>Free Kick (NS6201-A 1987.10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nihon System (Merit license)</manufacturer>
+	<year>1987</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="freekicka" index="" image="">
+	<description>Free Kick (NS6201-A 1987.9)</description>
+	<cloneof>freekick</cloneof>
+	<crc/>
+	<manufacturer>Nihon System</manufacturer>
+	<year>1987</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="freekickb1" index="" image="">
+	<description>Free Kick (bootleg set 1)</description>
+	<cloneof>freekick</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1987</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="freekickb2" index="" image="">
+	<description>Free Kick (bootleg set 2)</description>
+	<cloneof>freekick</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1987</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="freekickb3" index="" image="">
+	<description>Free Kick (bootleg set 3)</description>
+	<cloneof>freekick</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1987</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gigas" index="" image="">
+	<description>Gigas (MC-8123, 317-5002)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gigasb" index="" image="">
+	<description>Gigas (bootleg)</description>
+	<cloneof>gigas</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1986</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gigasm2b" index="" image="">
+	<description>Gigas Mark II (bootleg)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1986</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="goindol" index="" image="">
+	<description>Goindol (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SunA</manufacturer>
+	<year>1987</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="goindolk" index="" image="">
+	<description>Goindol (Korea)</description>
+	<cloneof>goindol</cloneof>
+	<crc/>
+	<manufacturer>SunA</manufacturer>
+	<year>1987</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="goindolu" index="" image="">
+	<description>Goindol (US)</description>
+	<cloneof>goindol</cloneof>
+	<crc/>
+	<manufacturer>SunA</manufacturer>
+	<year>1987</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="homo" index="" image="">
+	<description>Homo</description>
+	<cloneof>goindol</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1987</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="oigas" index="" image="">
+	<description>Oigas (bootleg)</description>
+	<cloneof>gigas</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1986</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="paddle2" index="" image="">
+	<description>Paddle 2 (bootleg on Block hardware)</description>
+	<cloneof>arkanoid</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1988</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quester" index="" image="">
+	<description>Quester (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1987</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="questers" index="" image="">
+	<description>Quester Special Edition (Japan)</description>
+	<cloneof>quester</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1987</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="reaktor" index="" image="">
+	<description>Reaktor (Track &amp; Field conversion)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Zilec</manufacturer>
+	<year>1987</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ridleofp" index="" image="">
+	<description>Riddle of Pythagoras (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / Nasco</manufacturer>
+	<year>1986</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfkick" index="" image="">
+	<description>Super Free Kick (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Haesung/HJ Corp</manufacturer>
+	<year>1988</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfkicka" index="" image="">
+	<description>Super Free Kick (set 2)</description>
+	<cloneof>sfkick</cloneof>
+	<crc/>
+	<manufacturer>Haesung</manufacturer>
+	<year>198?</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spinkick" index="" image="">
+	<description>Hec&apos;s Spinkick</description>
+	<cloneof>sfkick</cloneof>
+	<crc/>
+	<manufacturer>Haesung/Seojin</manufacturer>
+	<year>1988</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tattack" index="" image="">
+	<description>Time Attacker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Shonan</manufacturer>
+	<year>198?</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wallc" index="" image="">
+	<description>Wall Crash (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midcoin</manufacturer>
+	<year>1984</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wallca" index="" image="">
+	<description>Wall Crash (set 2)</description>
+	<cloneof>wallc</cloneof>
+	<crc/>
+	<manufacturer>Midcoin</manufacturer>
+	<year>1984</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="warlords" index="" image="">
+	<description>Warlords</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1980</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wink" index="" image="">
+	<description>Wink (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midcoin</manufacturer>
+	<year>1985</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="winka" index="" image="">
+	<description>Wink (set 2)</description>
+	<cloneof>wink</cloneof>
+	<crc/>
+	<manufacturer>Midcoin</manufacturer>
+	<year>1985</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

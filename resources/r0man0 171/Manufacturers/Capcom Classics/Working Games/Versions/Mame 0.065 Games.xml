@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Capcom / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="mmatrix" index="" image="">
+	<description>Mars Matrix: Hyper Solid Shooting (USA 000412)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Takumi (Capcom license)</manufacturer>
+	<year>2000</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mmatrixj" index="" image="">
+	<description>Mars Matrix: Hyper Solid Shooting (Japan 000412)</description>
+	<cloneof>mmatrix</cloneof>
+	<crc/>
+	<manufacturer>Takumi (Capcom license)</manufacturer>
+	<year>2000</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

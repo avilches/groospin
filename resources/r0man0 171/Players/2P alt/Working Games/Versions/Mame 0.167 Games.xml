@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2P alt / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="dkongpe" index="" image="">
+	<description>Donkey Kong: Pauline Edition Rev 5 (2013-04-22)</description>
+	<cloneof>dkong</cloneof>
+	<crc/>
+	<manufacturer>hack (Clay Cowgill and Mike Mika)</manufacturer>
+	<year>2013</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gardiaj" index="" image="">
+	<description>Gardia (Japan, 317-0006)</description>
+	<cloneof>gardia</cloneof>
+	<crc/>
+	<manufacturer>Coreland / Sega</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="leds2011" index="" image="">
+	<description>Led Storm Rally 2011 (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sboblboblc" index="" image="">
+	<description>Super Bubble Bobble (bootleg)</description>
+	<cloneof>bublbobl</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="slivera" index="" image="">
+	<description>Sliver (set 2)</description>
+	<cloneof>sliver</cloneof>
+	<crc/>
+	<manufacturer>Hollow Corp</manufacturer>
+	<year>1996</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

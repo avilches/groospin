@@ -1,0 +1,2209 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Mini-Games / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="3in1semi" index="" image="">
+	<description>New HyperMan (3-in-1 with Cookie &amp; Bibi &amp; HyperMan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SemiCom / XESS</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="3wonders" index="" image="">
+	<description>Three Wonders (World 910520)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="3wondersb" index="" image="">
+	<description>Three Wonders (bootleg)</description>
+	<cloneof>3wonders</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1991</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="3wondersh" index="" image="">
+	<description>Three Wonders (hack)</description>
+	<cloneof>3wonders</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1991</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="3wondersr1" index="" image="">
+	<description>Three Wonders (World 910513)</description>
+	<cloneof>3wonders</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="3wondersu" index="" image="">
+	<description>Three Wonders (USA 910520)</description>
+	<cloneof>3wonders</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="99bottles" index="" image="">
+	<description>99 Bottles of Beer</description>
+	<cloneof>gammagic</cloneof>
+	<crc/>
+	<manufacturer>Bally Gaming Co.</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="act2000" index="" image="">
+	<description>Action 2000 (Version 3.5E Dual)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="act2000b1" index="" image="">
+	<description>Action 2000 (Version 3.5R, set 2)</description>
+	<cloneof>act2000</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="act2000bx" index="" image="">
+	<description>Action 2000 (Version 3.30XT, set 2)</description>
+	<cloneof>act2000</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="act2000d1" index="" image="">
+	<description>Action 2000 (Version 3.5R, set 1)</description>
+	<cloneof>act2000</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="act2000dx" index="" image="">
+	<description>Action 2000 (Version 3.30XT, set 1)</description>
+	<cloneof>act2000</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="act2000o" index="" image="">
+	<description>Action 2000 (Version 3.3)</description>
+	<cloneof>act2000</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="act2000o2" index="" image="">
+	<description>Action 2000 (Version 3.10XT)</description>
+	<cloneof>act2000</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="act2000o3" index="" image="">
+	<description>Action 2000 (Version 1.2)</description>
+	<cloneof>act2000</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="act2000v1" index="" image="">
+	<description>Action 2000 (Version 3.5R Dual)</description>
+	<cloneof>act2000</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="act2000vx" index="" image="">
+	<description>Action 2000 (Version 3.30XT Dual)</description>
+	<cloneof>act2000</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arcadecl" index="" image="">
+	<description>Arcade Classics (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1992</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bcstry" index="" image="">
+	<description>B.C. Story (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SemiCom / Tirano</manufacturer>
+	<year>1997</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bcstrya" index="" image="">
+	<description>B.C. Story (set 2)</description>
+	<cloneof>bcstry</cloneof>
+	<crc/>
+	<manufacturer>SemiCom / Tirano</manufacturer>
+	<year>1997</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bestri" index="" image="">
+	<description>Bestri (Korea)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>F2 System</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bingoman" index="" image="">
+	<description>Bingo Mania (P03-P07-P14)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>HP Automaten</manufacturer>
+	<year>1993</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bingomana" index="" image="">
+	<description>Bingo Mania (A03)</description>
+	<cloneof>bingoman</cloneof>
+	<crc/>
+	<manufacturer>HP Automaten</manufacturer>
+	<year>1993</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bishi" index="" image="">
+	<description>Bishi Bashi Championship Mini Game Senshuken (ver JAA, 3 Players)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bonanza" index="" image="">
+	<description>Touchstar Bonanza (Revision 3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>New Image Technologies</manufacturer>
+	<year>1994</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bonanzar2" index="" image="">
+	<description>Touchstar Bonanza (Revision 2)</description>
+	<cloneof>bonanza</cloneof>
+	<crc/>
+	<manufacturer>New Image Technologies</manufacturer>
+	<year>1994</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="btchamp" index="" image="">
+	<description>Beat the Champ (GV053 UAA01)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="coolmini" index="" image="">
+	<description>Cool Minigame Collection</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SemiCom</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cps3boot" index="" image="">
+	<description>CPS3 Multi-game bootleg for HD6417095 type SH2 (V4)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cps3boota" index="" image="">
+	<description>CPS3 Multi-game bootleg for dead security cart (V5)</description>
+	<cloneof>cps3boot</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cps3bootao" index="" image="">
+	<description>CPS3 Multi-game bootleg for dead security cart (older)</description>
+	<cloneof>cps3boot</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cps3bootao2" index="" image="">
+	<description>CPS3 Multi-game bootleg for dead security cart (oldest) (New Generation, 2nd Impact and 3rd Strike only)</description>
+	<cloneof>cps3boot</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cps3booto" index="" image="">
+	<description>CPS3 Multi-game bootleg for HD6417095 type SH2 (older)</description>
+	<cloneof>cps3boot</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cps3booto2" index="" image="">
+	<description>CPS3 Multi-game bootleg for HD6417095 type SH2 (oldest) (New Generation, 3rd Strike, JoJo&apos;s Venture, JoJo&apos;s Bizarre Adventure and Red Earth only)</description>
+	<cloneof>cps3boot</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="csclub" index="" image="">
+	<description>Capcom Sports Club (Euro 971017)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1997</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="csclub1" index="" image="">
+	<description>Capcom Sports Club (Euro 970722)</description>
+	<cloneof>csclub</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1997</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="csclub1d" index="" image="">
+	<description>Capcom Sports Club (Euro 970722 Phoenix Edition) (bootleg)</description>
+	<cloneof>csclub</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1997</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cscluba" index="" image="">
+	<description>Capcom Sports Club (Asia 970722)</description>
+	<cloneof>csclub</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1997</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="csclubh" index="" image="">
+	<description>Capcom Sports Club (Hispanic 970722)</description>
+	<cloneof>csclub</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1997</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="csclubj" index="" image="">
+	<description>Capcom Sports Club (Japan 970722)</description>
+	<cloneof>csclub</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1997</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="csclubjy" index="" image="">
+	<description>Capcom Sports Club (Japan 970722, yellow case)</description>
+	<cloneof>csclub</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1997</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="csplayh1" index="" image="">
+	<description>Super CD Dai8dan Mahjong Hanafuda Cosplay Tengoku (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sphinx/AV Japan/Astro System Japan</manufacturer>
+	<year>1995</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="csplayh5" index="" image="">
+	<description>Mahjong Hanafuda Cosplay Tengoku 5 (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="csplayh7" index="" image="">
+	<description>Cosplay Tengoku 7 - Super Kogal Grandprix (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu/eic</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="daiskiss" index="" image="">
+	<description>Daisu-Kiss (ver JAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galgame2" index="" image="">
+	<description>Galaxy Games StarPak 2</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Creative Electronics &amp; Software / Namco</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gammagic" index="" image="">
+	<description>Game Magic</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally Gaming Co.</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gchgchmp" index="" image="">
+	<description>Gachaga Champ (GE877 VER. JAB)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="geimulti" index="" image="">
+	<description>GEI Multi Game</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Grayhound Electronics</manufacturer>
+	<year>1992</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ginkun" index="" image="">
+	<description>Ganbare Ginkun</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Tecmo</manufacturer>
+	<year>1995</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gotcha" index="" image="">
+	<description>Got-cha Mini Game Festival</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dongsung / Para</manufacturer>
+	<year>1997</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hypbbc2p" index="" image="">
+	<description>Hyper Bishi Bashi Champ - 2 Player (GX908 1999/08/24 VER. JAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hypbbc2pk" index="" image="">
+	<description>Hyper Bishi Bashi Champ - 2 Player (GX908 1999/08/24 VER. KAA)</description>
+	<cloneof>hypbbc2p</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hyperbbc" index="" image="">
+	<description>Hyper Bishi Bashi Champ (GQ876 VER. EAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hyperbbca" index="" image="">
+	<description>Hyper Bishi Bashi Champ (GQ876 VER. AAA)</description>
+	<cloneof>hyperbbc</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ichir" index="" image="">
+	<description>Puzzle &amp; Action: Ichidant-R (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1994</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ichirj" index="" image="">
+	<description>Puzzle &amp; Action: Ichidant-R (Japan)</description>
+	<cloneof>ichir</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1994</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ichirjbl" index="" image="">
+	<description>Puzzle &amp; Action: Ichidant-R (Japan) (bootleg)</description>
+	<cloneof>ichir</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1994</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ichirk" index="" image="">
+	<description>Puzzle &amp; Action: Ichidant-R (Korea)</description>
+	<cloneof>ichir</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1994</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="konam80a" index="" image="">
+	<description>Konami 80&apos;s AC Special (GC826 VER. AAA)</description>
+	<cloneof>konam80s</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="konam80j" index="" image="">
+	<description>Konami 80&apos;s Gallery (GC826 VER. JAA)</description>
+	<cloneof>konam80s</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="konam80k" index="" image="">
+	<description>Konami 80&apos;s AC Special (GC826 VER. KAA)</description>
+	<cloneof>konam80s</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="konam80s" index="" image="">
+	<description>Konami 80&apos;s AC Special (GC826 VER. EAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="konam80u" index="" image="">
+	<description>Konami 80&apos;s AC Special (GC826 VER. UAA)</description>
+	<cloneof>konam80s</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kotm" index="" image="">
+	<description>King of the Monsters (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1991</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kotm2" index="" image="">
+	<description>King of the Monsters 2 - The Next Thing (NGM-039)(NGH-039)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1992</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kotm2p" index="" image="">
+	<description>King of the Monsters 2 - The Next Thing (prototype)</description>
+	<cloneof>kotm2</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1992</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kotmh" index="" image="">
+	<description>King of the Monsters (set 2)</description>
+	<cloneof>kotm</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1991</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="maruchan" index="" image="">
+	<description>Maru-Chan de Goo! (J 971216 V1.000)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / Toyosuisan</manufacturer>
+	<year>1997</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mcheonru" index="" image="">
+	<description>Ma Cheon Ru</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SemiCom / AceVer</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat" index="" image="">
+	<description>Pit Boss Megatouch (9234-20-01)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1994</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat2" index="" image="">
+	<description>Pit Boss Megatouch II (9255-10-01 ROG, Standard version)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1994</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat2a" index="" image="">
+	<description>Pit Boss Megatouch II (9255-10-01 ROE, Standard version)</description>
+	<cloneof>megat2</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1994</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat2b" index="" image="">
+	<description>Pit Boss Megatouch II (9255-10-01 ROD, Standard version)</description>
+	<cloneof>megat2</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1994</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat2ca" index="" image="">
+	<description>Pit Boss Megatouch II (9255-10-06 ROG, California version)</description>
+	<cloneof>megat2</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1994</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat2caa" index="" image="">
+	<description>Pit Boss Megatouch II (9255-10-06 ROE, California version)</description>
+	<cloneof>megat2</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1994</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat2mn" index="" image="">
+	<description>Pit Boss Megatouch II (9255-10-02 ROG, Minnesota version)</description>
+	<cloneof>megat2</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1994</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat3" index="" image="">
+	<description>Megatouch III (9255-20-01 RON, Standard version)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1996</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat3a" index="" image="">
+	<description>Megatouch III (9255-20-01 ROK, Standard version)</description>
+	<cloneof>megat3</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1995</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat3b" index="" image="">
+	<description>Megatouch III (9255-20-01 ROF, Standard version)</description>
+	<cloneof>megat3</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1995</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat3c" index="" image="">
+	<description>Megatouch III (9255-20-01 ROB, Standard version)</description>
+	<cloneof>megat3</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1995</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat3ca" index="" image="">
+	<description>Megatouch III (9255-20-06 RON, California version)</description>
+	<cloneof>megat3</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1996</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat3caa" index="" image="">
+	<description>Megatouch III (9255-20-06 ROD, California version)</description>
+	<cloneof>megat3</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1995</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat3d" index="" image="">
+	<description>Megatouch III (9255-20-01 ROA, Standard version)</description>
+	<cloneof>megat3</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1995</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat3nj" index="" image="">
+	<description>Megatouch III (9255-20-07 ROG, New Jersey version)</description>
+	<cloneof>megat3</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1995</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat3te" index="" image="">
+	<description>Megatouch III Tournament Edition (9255-30-01 ROE, Standard version)</description>
+	<cloneof>megat3</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1996</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat4" index="" image="">
+	<description>Megatouch IV (9255-40-01 ROE, Standard version)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1996</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat4a" index="" image="">
+	<description>Megatouch IV (9255-40-01 ROD, Standard version)</description>
+	<cloneof>megat4</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1996</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat4b" index="" image="">
+	<description>Megatouch IV (9255-40-01 ROB, Standard version)</description>
+	<cloneof>megat4</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1996</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat4c" index="" image="">
+	<description>Megatouch IV (9255-40-01 ROA, Standard version)</description>
+	<cloneof>megat4</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1996</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat4d" index="" image="">
+	<description>Megatouch IV (9255-40-01 RO, Standard version)</description>
+	<cloneof>megat4</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1996</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat4s" index="" image="">
+	<description>Super Megatouch IV (9255-41-01 ROG, Standard version)</description>
+	<cloneof>megat4</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1996</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat4sa" index="" image="">
+	<description>Super Megatouch IV (9255-41-01 ROE, Standard version)</description>
+	<cloneof>megat4</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1996</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat4sb" index="" image="">
+	<description>Super Megatouch IV (9255-41-01 ROC, Standard version)</description>
+	<cloneof>megat4</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1996</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat4smn" index="" image="">
+	<description>Super Megatouch IV (9255-41-02 ROC, Minnesota version)</description>
+	<cloneof>megat4</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1996</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat4snj" index="" image="">
+	<description>Super Megatouch IV (9255-41-07 ROG, New Jersey version)</description>
+	<cloneof>megat4</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1996</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat4st" index="" image="">
+	<description>Super Megatouch IV Tournament Edition (9255-51-01 ROB, Standard version)</description>
+	<cloneof>megat4</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1996</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat4stg" index="" image="">
+	<description>Super Megatouch IV Turnier Version (9255-51-50 ROA, Bi-Lingual GER/ENG version)</description>
+	<cloneof>megat4</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1996</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat4te" index="" image="">
+	<description>Megatouch IV Tournament Edition (9255-50-01 ROD, Standard version)</description>
+	<cloneof>megat4</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1996</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat4tea" index="" image="">
+	<description>Megatouch IV Tournament Edition (9255-50-01 ROA, Standard version)</description>
+	<cloneof>megat4</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1996</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat5" index="" image="">
+	<description>Megatouch 5 (9255-60-01 ROI, Standard version)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1997</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat5a" index="" image="">
+	<description>Megatouch 5 (9255-60-01 ROC, Standard version)</description>
+	<cloneof>megat5</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1997</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat5nj" index="" image="">
+	<description>Megatouch 5 (9255-60-07 RON, New Jersey version)</description>
+	<cloneof>megat5</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat5t" index="" image="">
+	<description>Megatouch 5 Tournament Edition (9255-70-01 ROC, Standard version)</description>
+	<cloneof>megat5</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat5tg" index="" image="">
+	<description>Megatouch 5 Turnier Version (9255-70-50 ROD, Bi-Lingual GER/ENG version)</description>
+	<cloneof>megat5</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat6" index="" image="">
+	<description>Megatouch 6 (9255-80-01 ROA, Standard version)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mgcldate" index="" image="">
+	<description>Magical Date / Magical Date - dokidoki kokuhaku daisakusen (Ver 2.02J)</description>
+	<cloneof>mgcldtex</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1996</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mgcldtex" index="" image="">
+	<description>Magical Date EX / Magical Date - sotsugyou kokuhaku daisakusen (Ver 2.01J)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1997</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="moremore" index="" image="">
+	<description>More More</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SemiCom / Exit</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="moremorp" index="" image="">
+	<description>More More Plus</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SemiCom / Exit</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mt_calga" index="" image="">
+	<description>California Games (Mega-Tech)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="multchmp" index="" image="">
+	<description>Multi Champ (World, ver. 2.5)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>ESD</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="multchmpa" index="" image="">
+	<description>Multi Champ (World, older)</description>
+	<cloneof>multchmp</cloneof>
+	<crc/>
+	<manufacturer>ESD</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="multchmpk" index="" image="">
+	<description>Multi Champ (Korea, older)</description>
+	<cloneof>multchmp</cloneof>
+	<crc/>
+	<manufacturer>ESD</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="multi96" index="" image="">
+	<description>Multi Game &apos;96 (Italy)</description>
+	<cloneof>twinadv</cloneof>
+	<crc/>
+	<manufacturer>Barko Corp.</manufacturer>
+	<year>1996</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="multigam" index="" image="">
+	<description>Multi Game (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1992</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="multigm2" index="" image="">
+	<description>Multi Game 2</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Seo Jin</manufacturer>
+	<year>1992</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="multigm3" index="" image="">
+	<description>Multi Game III</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Seo Jin</manufacturer>
+	<year>1992</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="multigmb" index="" image="">
+	<description>Multi Game (set 2)</description>
+	<cloneof>multigam</cloneof>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1992</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="multigmt" index="" image="">
+	<description>Multi Game (Tung Sheng Electronics)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Tung Sheng Electronics</manufacturer>
+	<year>1992</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ncv1" index="" image="">
+	<description>Namco Classic Collection Vol.1</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1995</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ncv1j" index="" image="">
+	<description>Namco Classic Collection Vol.1 (Japan, v1.00)</description>
+	<cloneof>ncv1</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1995</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ncv1j2" index="" image="">
+	<description>Namco Classic Collection Vol.1 (Japan, v1.03)</description>
+	<cloneof>ncv1</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1995</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ncv2" index="" image="">
+	<description>Namco Classic Collection Vol.2</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1996</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ncv2j" index="" image="">
+	<description>Namco Classic Collection Vol.2 (Japan)</description>
+	<cloneof>ncv2</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1996</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="otenamih" index="" image="">
+	<description>Otenami Haiken (V2.04J)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Success</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="panicprk" index="" image="">
+	<description>Panic Park (PNP2 Ver. A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="panicprkj" index="" image="">
+	<description>Panic Park (PNP1 Ver. B)</description>
+	<cloneof>panicprk</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pasha2" index="" image="">
+	<description>Pasha Pasha 2</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dong Sung</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pbss330" index="" image="">
+	<description>Pit Boss Superstar III 30 (9233-00-01)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1993</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pbst30" index="" image="">
+	<description>Pit Boss Supertouch 30 (9234-10-01)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1994</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pbst30a" index="" image="">
+	<description>Pit Boss Supertouch 30 (9234-00-01)</description>
+	<cloneof>pbst30</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1993</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pepsiman" index="" image="">
+	<description>PEPSI Man</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sigma</manufacturer>
+	<year>1997</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="photoply" index="" image="">
+	<description>Photo Play 2000 (v2.01)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Funworld</manufacturer>
+	<year>199?</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pitbossm" index="" image="">
+	<description>Pit Boss Megastar (9244-00-01)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1994</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pitbossma" index="" image="">
+	<description>Pit Boss Megastar (9243-00-01)</description>
+	<cloneof>pitbossm</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1994</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pitbosss" index="" image="">
+	<description>Pit Boss Superstar (9221-10-00B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1990</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pitbosssa" index="" image="">
+	<description>Pit Boss Superstar (9221-10-00A)</description>
+	<cloneof>pitbosss</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1990</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pitbosssc" index="" image="">
+	<description>Pit Boss Superstar (9221-12-01)</description>
+	<cloneof>pitbosss</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1992</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ppchamp" index="" image="">
+	<description>Pasha Pasha Champ Mini Game Festival (Korea)</description>
+	<cloneof>gotcha</cloneof>
+	<crc/>
+	<manufacturer>Dongsung / Para</manufacturer>
+	<year>1997</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pss61" index="" image="">
+	<description>Super Mario Kart / Super Mario Collection / Star Fox (Super Famicom Box)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1994</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pss62" index="" image="">
+	<description>New Super 3D Golf Simulation - Waialae No Kiseki / Super Mahjong 2 (Super Famicom Box)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>T&amp;E Soft / I&apos;Max</manufacturer>
+	<year>1994</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pss63" index="" image="">
+	<description>Super Donkey Kong / Super Tetris 2 + Bombliss (Super Famicom Box)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo / BPS</manufacturer>
+	<year>1994</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pss64" index="" image="">
+	<description>Super Donkey Kong / Super Bomberman 2 (Super Famicom Box)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo / Hudson Soft</manufacturer>
+	<year>199?</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="puzzlove" index="" image="">
+	<description>PuzzLove</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Para</manufacturer>
+	<year>1994</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="puzzlovek" index="" image="">
+	<description>PuzzLove (Korea)</description>
+	<cloneof>puzzlove</cloneof>
+	<crc/>
+	<manufacturer>Para</manufacturer>
+	<year>1994</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qcrayon2" index="" image="">
+	<description>Crayon Shinchan Orato Asobo (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sandor" index="" image="">
+	<description>Puzzle &amp; Action: Sando-R (J 951114 V1.000)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1995</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sanjeon" index="" image="">
+	<description>DaeJeon! SanJeon SuJeon (AJTUE 990412 V1.000)</description>
+	<cloneof>sasissu</cloneof>
+	<crc/>
+	<manufacturer>Sega / Deniam</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sasissu" index="" image="">
+	<description>Taisen Tanto-R Sashissu!! (J 980216 V1.000)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbishi" index="" image="">
+	<description>Super Bishi Bashi Championship (ver JAA, 2 Players)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbishik" index="" image="">
+	<description>Super Bishi Bashi Championship (ver KAA, 3 Players)</description>
+	<cloneof>sbishi</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sgmt1" index="" image="">
+	<description>Super Game Mega Type 1</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1994</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sotsugyo" index="" image="">
+	<description>Sotsugyo Shousho</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Mitchell (Atlus license)</manufacturer>
+	<year>1995</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stepchmp" index="" image="">
+	<description>Step Champ (GQ930 VER. JA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="streetg" index="" image="">
+	<description>Street Games (Revision 4)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>New Image Technologies</manufacturer>
+	<year>1993</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="streetg2" index="" image="">
+	<description>Street Games II (Revision 7C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>New Image Technologies</manufacturer>
+	<year>1993</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="streetg2r5" index="" image="">
+	<description>Street Games II (Revision 5)</description>
+	<cloneof>streetg2</cloneof>
+	<crc/>
+	<manufacturer>New Image Technologies</manufacturer>
+	<year>1993</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="streetgr3" index="" image="">
+	<description>Street Games (Revision 3)</description>
+	<cloneof>streetg</cloneof>
+	<crc/>
+	<manufacturer>New Image Technologies</manufacturer>
+	<year>1993</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="superabc" index="" image="">
+	<description>Super ABC (Pac-Man multigame kit, Sep. 03 1999)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>hack (Two-Bit Score)</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="superabco" index="" image="">
+	<description>Super ABC (Pac-Man multigame kit, Mar. 08 1999)</description>
+	<cloneof>superabc</cloneof>
+	<crc/>
+	<manufacturer>hack (Two-Bit Score)</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="supergm3" index="" image="">
+	<description>Super Game III</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1996</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tantr" index="" image="">
+	<description>Puzzle &amp; Action: Tant-R (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tantrbl" index="" image="">
+	<description>Puzzle &amp; Action: Tant-R (Japan) (bootleg set 1)</description>
+	<cloneof>tantr</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1992</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tantrbl2" index="" image="">
+	<description>Puzzle &amp; Action: Tant-R (Japan) (bootleg set 2)</description>
+	<cloneof>tantr</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1994</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tantrbl3" index="" image="">
+	<description>Puzzle &amp; Action: Tant-R (Japan) (bootleg set 3)</description>
+	<cloneof>tantr</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1994</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tantrkor" index="" image="">
+	<description>Puzzle &amp; Action: Tant-R (Korea)</description>
+	<cloneof>tantr</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tduno" index="" image="">
+	<description>Touch de Uno! / Unou Nouryoku Check Machine</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tenkomor" index="" image="">
+	<description>Tenkomori Shooting (Asia, TKM2/VER.A1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tenkomorja" index="" image="">
+	<description>Tenkomori Shooting (Japan, TKM1/VER.A1)</description>
+	<cloneof>tenkomor</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thunt" index="" image="">
+	<description>Puzzle &amp; Action: Treasure Hunt (JUET 970901 V2.00E)</description>
+	<cloneof>sandor</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1997</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thuntk" index="" image="">
+	<description>Puzzle &amp; Action: BoMulEul Chajara (JUET 970125 V2.00K)</description>
+	<cloneof>sandor</cloneof>
+	<crc/>
+	<manufacturer>Sega / Deniam</manufacturer>
+	<year>1997</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tm" index="" image="">
+	<description>Touchmaster (v3.00 Euro)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway Games Inc. / CES Inc.</manufacturer>
+	<year>1996</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tm2k" index="" image="">
+	<description>Touchmaster 2000 Plus (v4.63 Standard)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway Games Inc.</manufacturer>
+	<year>1996</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tm2ka" index="" image="">
+	<description>Touchmaster 2000 (v4.02 Standard)</description>
+	<cloneof>tm2k</cloneof>
+	<crc/>
+	<manufacturer>Midway Games Inc.</manufacturer>
+	<year>1996</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tm2kb" index="" image="">
+	<description>Touchmaster 2000 (v4.00 Standard)</description>
+	<cloneof>tm2k</cloneof>
+	<crc/>
+	<manufacturer>Midway Games Inc.</manufacturer>
+	<year>1996</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tm3k" index="" image="">
+	<description>Touchmaster 3000 (v5.02 Standard)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway Games Inc.</manufacturer>
+	<year>1997</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tm3ka" index="" image="">
+	<description>Touchmaster 3000 (v5.01 Standard)</description>
+	<cloneof>tm3k</cloneof>
+	<crc/>
+	<manufacturer>Midway Games Inc.</manufacturer>
+	<year>1997</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tm4k" index="" image="">
+	<description>Touchmaster 4000 (v6.03 Standard)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway Games Inc.</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tm4ka" index="" image="">
+	<description>Touchmaster 4000 (v6.02 Standard)</description>
+	<cloneof>tm4k</cloneof>
+	<crc/>
+	<manufacturer>Midway Games Inc.</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tm4kb" index="" image="">
+	<description>Touchmaster 4000 (v6.01 Standard)</description>
+	<cloneof>tm4k</cloneof>
+	<crc/>
+	<manufacturer>Midway Games Inc.</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tm4kca" index="" image="">
+	<description>Touchmaster 4000 (v6.02 California)</description>
+	<cloneof>tm4k</cloneof>
+	<crc/>
+	<manufacturer>Midway Games Inc.</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tm4kmn" index="" image="">
+	<description>Touchmaster 4000 (v6.01 Minnesota)</description>
+	<cloneof>tm4k</cloneof>
+	<crc/>
+	<manufacturer>Midway Games Inc.</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tm4knj" index="" image="">
+	<description>Touchmaster 4000 (v6.03 New Jersey)</description>
+	<cloneof>tm4k</cloneof>
+	<crc/>
+	<manufacturer>Midway Games Inc.</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tm5k" index="" image="">
+	<description>Touchmaster 5000 (v7.10 Standard)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway Games Inc.</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tm5ka" index="" image="">
+	<description>Touchmaster 5000 (v7.01 Standard)</description>
+	<cloneof>tm5k</cloneof>
+	<crc/>
+	<manufacturer>Midway Games Inc.</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tm5kca" index="" image="">
+	<description>Touchmaster 5000 (v7.10 California)</description>
+	<cloneof>tm5k</cloneof>
+	<crc/>
+	<manufacturer>Midway Games Inc.</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tm5kmn" index="" image="">
+	<description>Touchmaster 5000 (v7.10 Minnesota)</description>
+	<cloneof>tm5k</cloneof>
+	<crc/>
+	<manufacturer>Midway Games Inc.</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tm7k" index="" image="">
+	<description>Touchmaster 7000 (v8.04 Standard)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway Games Inc.</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tm7ka" index="" image="">
+	<description>Touchmaster 7000 (v8.00 Standard)</description>
+	<cloneof>tm7k</cloneof>
+	<crc/>
+	<manufacturer>Midway Games Inc.</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tm7keval" index="" image="">
+	<description>Touchmaster 7000 (v8.1X Evaluation)</description>
+	<cloneof>tm7k</cloneof>
+	<crc/>
+	<manufacturer>Midway Games Inc.</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tm7kmn" index="" image="">
+	<description>Touchmaster 7000 (v8.04 Minnesota)</description>
+	<cloneof>tm7k</cloneof>
+	<crc/>
+	<manufacturer>Midway Games Inc.</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tm7kmna" index="" image="">
+	<description>Touchmaster 7000 (v8.00 Minnesota)</description>
+	<cloneof>tm7k</cloneof>
+	<crc/>
+	<manufacturer>Midway Games Inc.</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tm7knj" index="" image="">
+	<description>Touchmaster 7000 (v8.05 New Jersey)</description>
+	<cloneof>tm7k</cloneof>
+	<crc/>
+	<manufacturer>Midway Games Inc.</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tmdo" index="" image="">
+	<description>Touchmaster (v2.2-01 Standard)</description>
+	<cloneof>tm</cloneof>
+	<crc/>
+	<manufacturer>Midway Games Inc. / CES Inc.</manufacturer>
+	<year>1996</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tondemo" index="" image="">
+	<description>Tondemo Crisis (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Tecmo</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="twinadv" index="" image="">
+	<description>Twin Adventure (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Barko Corp.</manufacturer>
+	<year>1995</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="twinadvk" index="" image="">
+	<description>Twin Adventure (Korea)</description>
+	<cloneof>twinadv</cloneof>
+	<crc/>
+	<manufacturer>Barko Corp.</manufacturer>
+	<year>1995</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4cmaze" index="" image="">
+	<description>The Crystal Maze (v1.3) (MPU4 Video)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Barcrest</manufacturer>
+	<year>1993</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4cmaze2" index="" image="">
+	<description>The New Crystal Maze Featuring Ocean Zone (v2.2) (MPU4 Video)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Barcrest</manufacturer>
+	<year>1993</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4cmaze2a" index="" image="">
+	<description>The New Crystal Maze Featuring Ocean Zone (v0.1, AMLD) (MPU4 Video)</description>
+	<cloneof>v4cmaze2</cloneof>
+	<crc/>
+	<manufacturer>Barcrest</manufacturer>
+	<year>1993</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4cmaze2b" index="" image="">
+	<description>The New Crystal Maze Featuring Ocean Zone (v2.0) (MPU4 Video)</description>
+	<cloneof>v4cmaze2</cloneof>
+	<crc/>
+	<manufacturer>Barcrest</manufacturer>
+	<year>1993</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4cmaze2c" index="" image="">
+	<description>The New Crystal Maze Featuring Ocean Zone (v?.?) (MPU4 Video)</description>
+	<cloneof>v4cmaze2</cloneof>
+	<crc/>
+	<manufacturer>Barcrest</manufacturer>
+	<year>1993</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4cmaze2d" index="" image="">
+	<description>The New Crystal Maze Featuring Ocean Zone (v2.2, Datapak) (MPU4 Video)</description>
+	<cloneof>v4cmaze2</cloneof>
+	<crc/>
+	<manufacturer>Barcrest</manufacturer>
+	<year>1993</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4cmaze3" index="" image="">
+	<description>The Crystal Maze Team Challenge (v0.9) (MPU4 Video)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Barcrest</manufacturer>
+	<year>1994</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4cmaze3a" index="" image="">
+	<description>The Crystal Maze Team Challenge (v1.2, AMLD) (MPU4 Video)</description>
+	<cloneof>v4cmaze3</cloneof>
+	<crc/>
+	<manufacturer>Barcrest</manufacturer>
+	<year>1994</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4cmaze3b" index="" image="">
+	<description>The Crystal Maze Team Challenge (v0.8) (MPU4 Video)</description>
+	<cloneof>v4cmaze3</cloneof>
+	<crc/>
+	<manufacturer>Barcrest</manufacturer>
+	<year>1994</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4cmaze3c" index="" image="">
+	<description>The Crystal Maze Team Challenge (v?.?) (MPU4 Video)</description>
+	<cloneof>v4cmaze3</cloneof>
+	<crc/>
+	<manufacturer>Barcrest</manufacturer>
+	<year>1994</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4cmaze3d" index="" image="">
+	<description>The Crystal Maze Team Challenge (v0.9, Datapak) (MPU4 Video)</description>
+	<cloneof>v4cmaze3</cloneof>
+	<crc/>
+	<manufacturer>Barcrest</manufacturer>
+	<year>1994</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4cmazea" index="" image="">
+	<description>The Crystal Maze (v0.1, AMLD) (MPU4 Video)</description>
+	<cloneof>v4cmaze</cloneof>
+	<crc/>
+	<manufacturer>Barcrest</manufacturer>
+	<year>1993</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4cmazeb" index="" image="">
+	<description>The Crystal Maze (v1.2) (MPU4 Video)</description>
+	<cloneof>v4cmaze</cloneof>
+	<crc/>
+	<manufacturer>Barcrest</manufacturer>
+	<year>1993</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4cmazec" index="" image="">
+	<description>The Crystal Maze (v1.3 alt) (MPU4 Video)</description>
+	<cloneof>v4cmaze</cloneof>
+	<crc/>
+	<manufacturer>Barcrest</manufacturer>
+	<year>1993</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4cmazed" index="" image="">
+	<description>The Crystal Maze (v1.1) (MPU4 Video)</description>
+	<cloneof>v4cmaze</cloneof>
+	<crc/>
+	<manufacturer>Barcrest</manufacturer>
+	<year>1993</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4cmazedat" index="" image="">
+	<description>The Crystal Maze (v1.3, Datapak) (MPU4 Video)</description>
+	<cloneof>v4cmaze</cloneof>
+	<crc/>
+	<manufacturer>Barcrest</manufacturer>
+	<year>1993</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wonder3" index="" image="">
+	<description>Wonder 3 (Japan 910520)</description>
+	<cloneof>3wonders</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wwallyj" index="" image="">
+	<description>Wally wo Sagase! (rev B, Japan) (FD1094 317-0197B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wwallyja" index="" image="">
+	<description>Wally wo Sagase! (rev A, Japan) (FD1094 317-0197A)</description>
+	<cloneof>wwallyj</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wwallyjad" index="" image="">
+	<description>Wally wo Sagase! (rev A, Japan) (bootleg of FD1094 317-0197A set)</description>
+	<cloneof>wwallyj</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1992</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wwallyjd" index="" image="">
+	<description>Wally wo Sagase! (rev B, Japan) (bootleg of FD1094 317-0197B set)</description>
+	<cloneof>wwallyj</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1992</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="yorijori" index="" image="">
+	<description>Yori Jori Kuk Kuk</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Golden Bell Entertainment</manufacturer>
+	<year>199?</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

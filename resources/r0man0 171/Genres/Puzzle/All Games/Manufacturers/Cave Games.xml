@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Puzzle / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="mushitam" index="" image="">
+	<description>Puzzle! Mushihime-Tama (2005/09/09.MASTER VER)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Cave (AMI license)</manufacturer>
+	<year>2005</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mushitama" index="" image="">
+	<description>Puzzle! Mushihime-Tama (2005/09/09 MASTER VER)</description>
+	<cloneof>mushitam</cloneof>
+	<crc/>
+	<manufacturer>Cave (AMI license)</manufacturer>
+	<year>2005</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

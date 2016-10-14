@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Platform / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="bongo" index="" image="">
+	<description>Bongo</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jetsoft</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hunchbkg" index="" image="">
+	<description>Hunchback (Galaxian hardware)</description>
+	<cloneof>hunchbak</cloneof>
+	<crc/>
+	<manufacturer>Century Electronics</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kungfuta" index="" image="">
+	<description>Kung-Fu Taikun (set 2)</description>
+	<cloneof>kungfut</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

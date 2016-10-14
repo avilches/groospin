@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2P alt / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="arknoid2b" index="" image="">
+	<description>Arkanoid - Revenge of DOH (Japan bootleg)</description>
+	<cloneof>arknoid2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1987</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="congoa" index="" image="">
+	<description>Congo Bongo (Rev C, 3 board stack)</description>
+	<cloneof>congo</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="coozumou" index="" image="">
+	<description>Oozumou - The Grand Sumo (DECO Cassette, Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Sports</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="csdtenis" index="" image="">
+	<description>Super Doubles Tennis (DECO Cassette, Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Tennis</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cskater" index="" image="">
+	<description>Skater (DECO Cassette, Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Skateboarding</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="eyesb" index="" image="">
+	<description>Eyes (bootleg set 1)</description>
+	<cloneof>eyes</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fantastc" index="" image="">
+	<description>Fantastic (Galaga conversion on Galaxian hardware)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito do Brasil</manufacturer>
+	<year>198?</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galemp" index="" image="">
+	<description>Galaxy Empire (bootleg?)</description>
+	<cloneof>uniwars</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Taito do Brasil)</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hyperspc" index="" image="">
+	<description>Hyperspace (bootleg of Asteroids)</description>
+	<cloneof>asteroid</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Rumiano)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="intrepidb" index="" image="">
+	<description>Intrepid (Elsys bootleg, set 1)</description>
+	<cloneof>intrepid</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Elsys)</manufacturer>
+	<year>1984</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="invadpt2br" index="" image="">
+	<description>Space Invaders Part II (Brazil)</description>
+	<cloneof>invadpt2</cloneof>
+	<crc/>
+	<manufacturer>Taito do Brasil</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kong" index="" image="">
+	<description>Kong (Donkey Kong conversion on Galaxian hardware)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito do Brasil</manufacturer>
+	<year>198?</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat2caa" index="" image="">
+	<description>Pit Boss Megatouch II (9255-10-06 ROE, California version)</description>
+	<cloneof>megat2</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1994</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat4d" index="" image="">
+	<description>Megatouch IV (9255-40-01 RO, Standard version)</description>
+	<cloneof>megat4</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1996</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mooncrstuku" index="" image="">
+	<description>Moon Cresta (Nichibutsu UK, unencrypted)</description>
+	<cloneof>mooncrst</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu UK</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nibbler6" index="" image="">
+	<description>Nibbler (rev 6)</description>
+	<cloneof>nibbler</cloneof>
+	<crc/>
+	<manufacturer>Rock-Ola</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="polarisbr" index="" image="">
+	<description>Polaris (Brazil)</description>
+	<cloneof>polaris</cloneof>
+	<crc/>
+	<manufacturer>Taito do Brasil</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rastan" index="" image="">
+	<description>Rastan (World Rev 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rastanua" index="" image="">
+	<description>Rastan (US)</description>
+	<cloneof>rastan</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spacefba" index="" image="">
+	<description>Space Firebird (rev. 02-a)</description>
+	<cloneof>spacefb</cloneof>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wboy5" index="" image="">
+	<description>Wonder Boy (set 5, bootleg)</description>
+	<cloneof>wboy</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wboyub" index="" image="">
+	<description>Wonder Boy (US bootleg)</description>
+	<cloneof>wboy</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

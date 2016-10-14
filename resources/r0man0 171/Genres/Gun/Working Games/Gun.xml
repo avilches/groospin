@@ -1,0 +1,1809 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Gun / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="a51mxr3k" index="" image="">
+	<description>Area 51 / Maximum Force Duo (R3000)</description>
+	<cloneof>area51mx</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1998</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="alien3" index="" image="">
+	<description>Alien3: The Gun (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="alien3u" index="" image="">
+	<description>Alien3: The Gun (US)</description>
+	<cloneof>alien3</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="area51" index="" image="">
+	<description>Area 51 (R3000)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1996</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="area51a" index="" image="">
+	<description>Area 51 (Atari Games license, Oct 25, 1995)</description>
+	<cloneof>area51</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1995</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="area51mx" index="" image="">
+	<description>Area 51 / Maximum Force Duo v2.0</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1998</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="area51t" index="" image="">
+	<description>Area 51 (Time Warner license, Oct 17, 1996)</description>
+	<cloneof>area51</cloneof>
+	<crc/>
+	<manufacturer>Atari Games (Time Warner license)</manufacturer>
+	<year>1995</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="area51ta" index="" image="">
+	<description>Area 51 (Time Warner license, Nov 15, 1995)</description>
+	<cloneof>area51</cloneof>
+	<crc/>
+	<manufacturer>Atari Games (Time Warner license)</manufacturer>
+	<year>1995</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bang" index="" image="">
+	<description>Bang!</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1998</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bangj" index="" image="">
+	<description>Gun Gabacho (Japan)</description>
+	<cloneof>bang</cloneof>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1998</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bbusters" index="" image="">
+	<description>Beast Busters (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1989</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bbustersu" index="" image="">
+	<description>Beast Busters (US, Version 3)</description>
+	<cloneof>bbusters</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1989</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bbustersua" index="" image="">
+	<description>Beast Busters (US, Version 2)</description>
+	<cloneof>bbusters</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1989</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="borntofi" index="" image="">
+	<description>Born To Fight</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>International Games</manufacturer>
+	<year>19??</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bronx" index="" image="">
+	<description>Bronx</description>
+	<cloneof>cyclshtg</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1986</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bubbletr" index="" image="">
+	<description>Bubble Trouble (Japan, Rev C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="carnevil" index="" image="">
+	<description>CarnEvil (v1.0.3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway Games</manufacturer>
+	<year>1998</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="carnevil1" index="" image="">
+	<description>CarnEvil (v1.0.1)</description>
+	<cloneof>carnevil</cloneof>
+	<crc/>
+	<manufacturer>Midway Games</manufacturer>
+	<year>1998</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="carnking" index="" image="">
+	<description>Carnival King (v1.00.11)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>2002</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="catch22" index="" image="">
+	<description>Catch-22 (version 8.0)</description>
+	<cloneof>combat</cloneof>
+	<crc/>
+	<manufacturer>Exidy</manufacturer>
+	<year>1985</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cheyenne" index="" image="">
+	<description>Cheyenne (version 1.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Exidy</manufacturer>
+	<year>1984</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chiller" index="" image="">
+	<description>Chiller (version 3.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Exidy</manufacturer>
+	<year>1986</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="claybust" index="" image="">
+	<description>Claybuster</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Model Racing</manufacturer>
+	<year>1978</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="claypign" index="" image="">
+	<description>Clay Pigeon (version 2.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Exidy</manufacturer>
+	<year>1986</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="colt" index="" image="">
+	<description>Colt</description>
+	<cloneof>nycaptor</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1986</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="combat" index="" image="">
+	<description>Combat (version 3.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Exidy</manufacturer>
+	<year>1985</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cracksht" index="" image="">
+	<description>Crackshot (version 2.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Exidy</manufacturer>
+	<year>1985</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crossbow" index="" image="">
+	<description>Crossbow (version 2.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Exidy</manufacturer>
+	<year>1983</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cryptklr" index="" image="">
+	<description>Crypt Killer (GQ420 UAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1995</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="deerhunt" index="" image="">
+	<description>Deer Hunting USA V4.3</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy USA Corporation</manufacturer>
+	<year>2000</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="deerhunta" index="" image="">
+	<description>Deer Hunting USA V4.2</description>
+	<cloneof>deerhunt</cloneof>
+	<crc/>
+	<manufacturer>Sammy USA Corporation</manufacturer>
+	<year>2000</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="deerhuntb" index="" image="">
+	<description>Deer Hunting USA V4.0</description>
+	<cloneof>deerhunt</cloneof>
+	<crc/>
+	<manufacturer>Sammy USA Corporation</manufacturer>
+	<year>2000</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="deerhuntc" index="" image="">
+	<description>Deer Hunting USA V3</description>
+	<cloneof>deerhunt</cloneof>
+	<crc/>
+	<manufacturer>Sammy USA Corporation</manufacturer>
+	<year>2000</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="deerhuntd" index="" image="">
+	<description>Deer Hunting USA V2</description>
+	<cloneof>deerhunt</cloneof>
+	<crc/>
+	<manufacturer>Sammy USA Corporation</manufacturer>
+	<year>2000</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="deerhunte" index="" image="">
+	<description>Deer Hunting USA V1</description>
+	<cloneof>deerhunt</cloneof>
+	<crc/>
+	<manufacturer>Sammy USA Corporation</manufacturer>
+	<year>2000</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="desertgu" index="" image="">
+	<description>Desert Gun</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dave Nutting Associates / Midway</manufacturer>
+	<year>1977</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dragngun" index="" image="">
+	<description>Dragon Gun (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dragngunj" index="" image="">
+	<description>Dragon Gun (Japan)</description>
+	<cloneof>dragngun</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="duckhunt" index="" image="">
+	<description>Vs. Duck Hunt (set DH3 E)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1985</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="eggventr" index="" image="">
+	<description>Egg Venture (Release 10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>The Game Room</manufacturer>
+	<year>1997</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="eggventr2" index="" image="">
+	<description>Egg Venture (Release 2)</description>
+	<cloneof>eggventr</cloneof>
+	<crc/>
+	<manufacturer>The Game Room</manufacturer>
+	<year>1997</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="eggventr7" index="" image="">
+	<description>Egg Venture (Release 7)</description>
+	<cloneof>eggventr</cloneof>
+	<crc/>
+	<manufacturer>The Game Room</manufacturer>
+	<year>1997</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="eggventr8" index="" image="">
+	<description>Egg Venture (Release 8)</description>
+	<cloneof>eggventr</cloneof>
+	<crc/>
+	<manufacturer>The Game Room</manufacturer>
+	<year>1997</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="eggventra" index="" image="">
+	<description>Egg Venture (A.L. Release)</description>
+	<cloneof>eggventr</cloneof>
+	<crc/>
+	<manufacturer>The Game Room (A.L. Australia license)</manufacturer>
+	<year>1997</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="eggventrd" index="" image="">
+	<description>Egg Venture Deluxe</description>
+	<cloneof>eggventr</cloneof>
+	<crc/>
+	<manufacturer>The Game Room</manufacturer>
+	<year>1997</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="g13knd" index="" image="">
+	<description>Golgo 13 Kiseki no Dandou (Japan, GLS1/VER.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Eighting / Raizing / Namco</manufacturer>
+	<year>1999</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gdfs" index="" image="">
+	<description>Mobil Suit Gundam Final Shooting (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Banpresto</manufacturer>
+	<year>1995</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ghlpanic" index="" image="">
+	<description>Ghoul Panic (Asia, OB2/VER.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Eighting / Raizing / Namco</manufacturer>
+	<year>1999</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ghoshunt" index="" image="">
+	<description>Ghost Hunter</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Hanaho Games</manufacturer>
+	<year>1996</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="golgo13" index="" image="">
+	<description>Golgo 13 (Japan, GLG1/VER.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Eighting / Raizing / Namco</manufacturer>
+	<year>1999</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gollygho" index="" image="">
+	<description>Golly! Ghost!</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1990</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gunbarl" index="" image="">
+	<description>Gunbarl (Japan, GNB4/VER.A)</description>
+	<cloneof>ptblank2</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1999</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gunbuletj" index="" image="">
+	<description>Gun Bullet (Japan, GN1)</description>
+	<cloneof>ptblank</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1994</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gunbuletw" index="" image="">
+	<description>Gun Bullet (World, GN3 Rev B)</description>
+	<cloneof>ptblank</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1994</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gunbustr" index="" image="">
+	<description>Gunbuster (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1992</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gunbustrj" index="" image="">
+	<description>Gunbuster (Japan)</description>
+	<cloneof>gunbustr</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1992</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gunbustru" index="" image="">
+	<description>Gunbuster (US)</description>
+	<cloneof>gunbustr</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1992</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gunchamp" index="" image="">
+	<description>Gun Champ</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Model Racing</manufacturer>
+	<year>1980</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hitnmiss" index="" image="">
+	<description>Hit &apos;n Miss (version 3.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Exidy</manufacturer>
+	<year>1987</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hitnmiss2" index="" image="">
+	<description>Hit &apos;n Miss (version 2.0)</description>
+	<cloneof>hitnmiss</cloneof>
+	<crc/>
+	<manufacturer>Exidy</manufacturer>
+	<year>1987</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hogalley" index="" image="">
+	<description>Vs. Hogan&apos;s Alley (set HA4-1 E-1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1985</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="invasnab" index="" image="">
+	<description>Invasion - The Abductors (version 5.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1999</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="invasnab3" index="" image="">
+	<description>Invasion - The Abductors (version 3.0)</description>
+	<cloneof>invasnab</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1999</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="invasnab4" index="" image="">
+	<description>Invasion - The Abductors (version 4.0)</description>
+	<cloneof>invasnab</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1999</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jdredd" index="" image="">
+	<description>Judge Dredd (Rev C Dec. 17 1997)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Acclaim</manufacturer>
+	<year>1996</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jdreddb" index="" image="">
+	<description>Judge Dredd (Rev B Nov. 26 1997)</description>
+	<cloneof>jdredd</cloneof>
+	<crc/>
+	<manufacturer>Acclaim</manufacturer>
+	<year>1996</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jpark" index="" image="">
+	<description>Jurassic Park (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jparkj" index="" image="">
+	<description>Jurassic Park (Japan, Rev A, Deluxe)</description>
+	<cloneof>jpark</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jparkja" index="" image="">
+	<description>Jurassic Park (Japan, Deluxe)</description>
+	<cloneof>jpark</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jparkjc" index="" image="">
+	<description>Jurassic Park (Japan, Rev A, Conversion)</description>
+	<cloneof>jpark</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="le2" index="" image="">
+	<description>Lethal Enforcers II: Gun Fighters (ver EAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1994</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="le2j" index="" image="">
+	<description>Lethal Enforcers II: The Western (ver JAA)</description>
+	<cloneof>le2</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1994</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="le2u" index="" image="">
+	<description>Lethal Enforcers II: Gun Fighters (ver UAA)</description>
+	<cloneof>le2</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1994</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lethalen" index="" image="">
+	<description>Lethal Enforcers (ver UAE, 11/19/92 15:04)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lethaleneaa" index="" image="">
+	<description>Lethal Enforcers (ver EAA, 09/09/92 09:44)</description>
+	<cloneof>lethalen</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lethaleneab" index="" image="">
+	<description>Lethal Enforcers (ver EAB, 10/14/92 19:53)</description>
+	<cloneof>lethalen</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lethaleneae" index="" image="">
+	<description>Lethal Enforcers (ver EAE, 11/19/92 16:24)</description>
+	<cloneof>lethalen</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lethalenj" index="" image="">
+	<description>Lethal Enforcers (ver JAD, 12/04/92 17:16)</description>
+	<cloneof>lethalen</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lethalenua" index="" image="">
+	<description>Lethal Enforcers (ver UAA, 08/17/92 21:38)</description>
+	<cloneof>lethalen</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lethalenub" index="" image="">
+	<description>Lethal Enforcers (ver UAB, 09/01/92 11:12)</description>
+	<cloneof>lethalen</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lethalenux" index="" image="">
+	<description>Lethal Enforcers (ver unknown, US, 08/06/92 15:11, hacked/proto?)</description>
+	<cloneof>lethalen</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lethalj" index="" image="">
+	<description>Lethal Justice (Version 2.3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>The Game Room</manufacturer>
+	<year>1996</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lghost" index="" image="">
+	<description>Laser Ghost (World) (FD1094 317-0166)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lghostd" index="" image="">
+	<description>Laser Ghost (World) (bootleg of FD1094 317-0166 set)</description>
+	<cloneof>lghost</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1990</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lghostj" index="" image="">
+	<description>Laser Ghost (Japan) (FD1094 317-0164)</description>
+	<cloneof>lghost</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lghostu" index="" image="">
+	<description>Laser Ghost (US) (FD1094 317-0165)</description>
+	<cloneof>lghost</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lghostud" index="" image="">
+	<description>Laser Ghost (US) (bootleg of FD1094 317-0165 set)</description>
+	<cloneof>lghost</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1990</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="loffire" index="" image="">
+	<description>Line of Fire / Bakudan Yarou (World) (FD1094 317-0136)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="loffired" index="" image="">
+	<description>Line of Fire / Bakudan Yarou (World) (bootleg of FD1094 317-0136 set)</description>
+	<cloneof>loffire</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1989</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="loffirej" index="" image="">
+	<description>Line of Fire / Bakudan Yarou (Japan) (FD1094 317-0134)</description>
+	<cloneof>loffire</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="loffirejd" index="" image="">
+	<description>Line of Fire / Bakudan Yarou (Japan) (bootleg of FD1094 317-0134 set)</description>
+	<cloneof>loffire</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1989</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="loffireu" index="" image="">
+	<description>Line of Fire / Bakudan Yarou (US) (FD1094 317-0135)</description>
+	<cloneof>loffire</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="loffireud" index="" image="">
+	<description>Line of Fire / Bakudan Yarou (US) (bootleg of FD1094 317-0135 set)</description>
+	<cloneof>loffire</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1989</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lordgun" index="" image="">
+	<description>Lord of Gun (USA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1994</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="maletmad" index="" image="">
+	<description>Mallet Madness v2.1</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Hanaho Games</manufacturer>
+	<year>1999</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="maxf_102" index="" image="">
+	<description>Maximum Force v1.02</description>
+	<cloneof>maxforce</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1996</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="maxf_ng" index="" image="">
+	<description>Maximum Force (No Gore version)</description>
+	<cloneof>maxforce</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1996</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="maxforce" index="" image="">
+	<description>Maximum Force v1.05</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1996</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mechatt" index="" image="">
+	<description>Mechanized Attack (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1989</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mechattj" index="" image="">
+	<description>Mechanized Attack (Japan)</description>
+	<cloneof>mechatt</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1989</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mechattu" index="" image="">
+	<description>Mechanized Attack (US)</description>
+	<cloneof>mechatt</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1989</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mechattu1" index="" image="">
+	<description>Mechanized Attack (US, Version 1, Single Player)</description>
+	<cloneof>mechatt</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1989</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nycaptor" index="" image="">
+	<description>N.Y. Captor</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1985</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ohbakyuun" index="" image="">
+	<description>Oh! Bakyuuun (Japan, OB1/VER.A)</description>
+	<cloneof>ghlpanic</cloneof>
+	<crc/>
+	<manufacturer>Eighting / Raizing / Namco</manufacturer>
+	<year>1999</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="oneshot" index="" image="">
+	<description>One Shot One Kill</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Promat</manufacturer>
+	<year>1996</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="opwolf" index="" image="">
+	<description>Operation Wolf (World, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1987</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="opwolf3" index="" image="">
+	<description>Operation Wolf 3 (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1994</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="opwolf3u" index="" image="">
+	<description>Operation Wolf 3 (US)</description>
+	<cloneof>opwolf3</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1994</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="opwolfa" index="" image="">
+	<description>Operation Wolf (World, set 2)</description>
+	<cloneof>opwolf</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1987</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="opwolfb" index="" image="">
+	<description>Operation Bear (bootleg of Operation Wolf)</description>
+	<cloneof>opwolf</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Bear Corporation Korea)</manufacturer>
+	<year>1987</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="opwolfj" index="" image="">
+	<description>Operation Wolf (Japan)</description>
+	<cloneof>opwolf</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="opwolfu" index="" image="">
+	<description>Operation Wolf (US)</description>
+	<cloneof>opwolf</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="othunder" index="" image="">
+	<description>Operation Thunderbolt (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1988</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="othunderj" index="" image="">
+	<description>Operation Thunderbolt (Japan)</description>
+	<cloneof>othunder</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="othunderu" index="" image="">
+	<description>Operation Thunderbolt (US)</description>
+	<cloneof>othunder</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="othunderuo" index="" image="">
+	<description>Operation Thunderbolt (US, older)</description>
+	<cloneof>othunder</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_duckh" index="" image="">
+	<description>Duck Hunt (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1984</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_hgaly" index="" image="">
+	<description>Hogan&apos;s Alley (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1984</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_wgnmn" index="" image="">
+	<description>Wild Gunman (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1984</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="policetr" index="" image="">
+	<description>Police Trainer (Rev 1.3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>P&amp;P Marketing</manufacturer>
+	<year>1996</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="policetr10" index="" image="">
+	<description>Police Trainer (Rev 1.0)</description>
+	<cloneof>policetr</cloneof>
+	<crc/>
+	<manufacturer>P&amp;P Marketing</manufacturer>
+	<year>1996</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="policetr11" index="" image="">
+	<description>Police Trainer (Rev 1.1)</description>
+	<cloneof>policetr</cloneof>
+	<crc/>
+	<manufacturer>P&amp;P Marketing</manufacturer>
+	<year>1996</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="policetr13a" index="" image="">
+	<description>Police Trainer (Rev 1.3B Newer)</description>
+	<cloneof>policetr</cloneof>
+	<crc/>
+	<manufacturer>P&amp;P Marketing</manufacturer>
+	<year>1996</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="policetr13b" index="" image="">
+	<description>Police Trainer (Rev 1.3B)</description>
+	<cloneof>policetr</cloneof>
+	<crc/>
+	<manufacturer>P&amp;P Marketing</manufacturer>
+	<year>1996</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ptblank" index="" image="">
+	<description>Point Blank (World, GN2 Rev B, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1994</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ptblank2" index="" image="">
+	<description>Point Blank 2 (GNB5/VER.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1999</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ptblank2ua" index="" image="">
+	<description>Point Blank 2 (US, GNB3/VER.A)</description>
+	<cloneof>ptblank2</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1999</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ptblanka" index="" image="">
+	<description>Point Blank (World, GN2 Rev B, set 2)</description>
+	<cloneof>ptblank</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1994</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rapidfir" index="" image="">
+	<description>Rapid Fire v1.1 (Build 239)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Hanaho Games</manufacturer>
+	<year>1998</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rapidfira" index="" image="">
+	<description>Rapid Fire v1.1 (Build 238)</description>
+	<cloneof>rapidfir</cloneof>
+	<crc/>
+	<manufacturer>Hanaho Games</manufacturer>
+	<year>1998</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rapidfire" index="" image="">
+	<description>Rapid Fire v1.0 (Build 236)</description>
+	<cloneof>rapidfir</cloneof>
+	<crc/>
+	<manufacturer>Hanaho Games</manufacturer>
+	<year>1998</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rchase" index="" image="">
+	<description>Rail Chase (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rchasej" index="" image="">
+	<description>Rail Chase (Japan)</description>
+	<cloneof>rchase</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="revx" index="" image="">
+	<description>Revolution X (rev 1.0 6/16/94)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1994</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="revxp5" index="" image="">
+	<description>Revolution X (prototype, rev 5.0 5/23/94)</description>
+	<cloneof>revx</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1994</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="roadrunm" index="" image="">
+	<description>Road Runner (Midway)</description>
+	<cloneof>desertgu</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1977</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sgunner" index="" image="">
+	<description>Steel Gunner (Rev B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1990</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sgunner2" index="" image="">
+	<description>Steel Gunner 2 (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1991</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sgunner2j" index="" image="">
+	<description>Steel Gunner 2 (Japan, Rev A)</description>
+	<cloneof>sgunner2</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1991</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sgunnerj" index="" image="">
+	<description>Steel Gunner (Japan)</description>
+	<cloneof>sgunner</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1990</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shootgal" index="" image="">
+	<description>Shooting Gallery</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Seatongrove Ltd (Zaccaria license)</manufacturer>
+	<year>1984</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shtngmste" index="" image="">
+	<description>Shooting Master (EVG, 8751 315-5159a)</description>
+	<cloneof>shtngmst</cloneof>
+	<crc/>
+	<manufacturer>Sega / EVG</manufacturer>
+	<year>1985</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spacegun" index="" image="">
+	<description>Space Gun (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1990</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spacegunj" index="" image="">
+	<description>Space Gun (Japan)</description>
+	<cloneof>spacegun</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spacegunu" index="" image="">
+	<description>Space Gun (US)</description>
+	<cloneof>spacegun</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sshooter" index="" image="">
+	<description>Sharpshooter (Rev 1.9)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>P&amp;P Marketing</manufacturer>
+	<year>1998</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sshooter11" index="" image="">
+	<description>Sharpshooter (Rev 1.1)</description>
+	<cloneof>sshooter</cloneof>
+	<crc/>
+	<manufacturer>P&amp;P Marketing</manufacturer>
+	<year>1998</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sshooter12" index="" image="">
+	<description>Sharpshooter (Rev 1.2)</description>
+	<cloneof>sshooter</cloneof>
+	<crc/>
+	<manufacturer>P&amp;P Marketing</manufacturer>
+	<year>1998</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sshooter17" index="" image="">
+	<description>Sharpshooter (Rev 1.7)</description>
+	<cloneof>sshooter</cloneof>
+	<crc/>
+	<manufacturer>P&amp;P Marketing</manufacturer>
+	<year>1998</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="targeth" index="" image="">
+	<description>Target Hits (ver 1.1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1994</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="targetha" index="" image="">
+	<description>Target Hits (ver 1.0)</description>
+	<cloneof>targeth</cloneof>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1994</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="term2" index="" image="">
+	<description>Terminator 2 - Judgment Day (rev LA4 08/03/92)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1991</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="term2la1" index="" image="">
+	<description>Terminator 2 - Judgment Day (rev LA1 11/01/91)</description>
+	<cloneof>term2</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1991</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="term2la2" index="" image="">
+	<description>Terminator 2 - Judgment Day (rev LA2 12/09/91)</description>
+	<cloneof>term2</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1991</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="term2la3" index="" image="">
+	<description>Terminator 2 - Judgment Day (rev LA3 03/27/92)</description>
+	<cloneof>term2</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1991</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tickee" index="" image="">
+	<description>Tickee Tickats</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Raster Elite</manufacturer>
+	<year>1994</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="timecris" index="" image="">
+	<description>Time Crisis (Rev. TS2 Ver.B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1995</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="timecrisa" index="" image="">
+	<description>Time Crisis (Rev. TS2 Ver.A)</description>
+	<cloneof>timecris</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1995</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="triplhnt" index="" image="">
+	<description>Triple Hunt</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1977</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trophyh" index="" image="">
+	<description>Trophy Hunting - Bear &amp; Moose V1.0</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy USA Corporation</manufacturer>
+	<year>2002</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tshoot" index="" image="">
+	<description>Turkey Shoot</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1984</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="turkhunt" index="" image="">
+	<description>Turkey Hunting USA V1.0</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy USA Corporation</manufacturer>
+	<year>2001</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tutstomb" index="" image="">
+	<description>Tut&apos;s Tomb</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Island Design</manufacturer>
+	<year>1996</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="undrfire" index="" image="">
+	<description>Under Fire (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1993</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="undrfirej" index="" image="">
+	<description>Under Fire (Japan)</description>
+	<cloneof>undrfire</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="undrfireu" index="" image="">
+	<description>Under Fire (US)</description>
+	<cloneof>undrfire</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vsfdf" index="" image="">
+	<description>Vs. Freedom Force</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sunsoft</manufacturer>
+	<year>1988</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="whodunit" index="" image="">
+	<description>Who Dunit (version 9.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Exidy</manufacturer>
+	<year>1988</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="whodunit8" index="" image="">
+	<description>Who Dunit (version 8.0)</description>
+	<cloneof>whodunit</cloneof>
+	<crc/>
+	<manufacturer>Exidy</manufacturer>
+	<year>1988</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wildplt" index="" image="">
+	<description>Wild Pilot</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1992</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wschamp" index="" image="">
+	<description>Wing Shooting Championship V2.00</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy USA Corporation</manufacturer>
+	<year>2001</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wschampa" index="" image="">
+	<description>Wing Shooting Championship V1.01</description>
+	<cloneof>wschamp</cloneof>
+	<crc/>
+	<manufacturer>Sammy USA Corporation</manufacturer>
+	<year>2001</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wschampb" index="" image="">
+	<description>Wing Shooting Championship V1.00</description>
+	<cloneof>wschamp</cloneof>
+	<crc/>
+	<manufacturer>Sammy USA Corporation</manufacturer>
+	<year>2001</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zeropnt" index="" image="">
+	<description>Zero Point (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Unico</manufacturer>
+	<year>1998</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zeropnt2" index="" image="">
+	<description>Zero Point 2</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Unico</manufacturer>
+	<year>1999</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zeropnta" index="" image="">
+	<description>Zero Point (set 2)</description>
+	<cloneof>zeropnt</cloneof>
+	<crc/>
+	<manufacturer>Unico</manufacturer>
+	<year>1998</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zeropntj" index="" image="">
+	<description>Zero Point (Japan)</description>
+	<cloneof>zeropnt</cloneof>
+	<crc/>
+	<manufacturer>Unico</manufacturer>
+	<year>1998</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zombraid" index="" image="">
+	<description>Zombie Raid (9/28/95, US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>American Sammy</manufacturer>
+	<year>1995</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zombraidp" index="" image="">
+	<description>Zombie Raid (9/28/95, US, prototype PCB)</description>
+	<cloneof>zombraid</cloneof>
+	<crc/>
+	<manufacturer>American Sammy</manufacturer>
+	<year>1995</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zombraidpj" index="" image="">
+	<description>Zombie Raid (9/28/95, Japan, prototype PCB)</description>
+	<cloneof>zombraid</cloneof>
+	<crc/>
+	<manufacturer>Sammy Industries Co.,Ltd.</manufacturer>
+	<year>1995</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

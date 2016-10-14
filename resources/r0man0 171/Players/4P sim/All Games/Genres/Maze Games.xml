@@ -1,0 +1,279 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>4P sim / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="atompunk" index="" image="">
+	<description>Atomic Punk (US)</description>
+	<cloneof>dynablst</cloneof>
+	<crc/>
+	<manufacturer>Irem America (licensed from Hudson Soft)</manufacturer>
+	<year>1991</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="barricad" index="" image="">
+	<description>Barricade</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Ramtek</manufacturer>
+	<year>1976</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bbmanw" index="" image="">
+	<description>Bomber Man World / New Dyna Blaster - Global Quest</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1992</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bbmanwj" index="" image="">
+	<description>Bomber Man World (Japan)</description>
+	<cloneof>bbmanw</cloneof>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1992</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bbmanwja" index="" image="">
+	<description>Bomber Man World (Japan, revised sound hardware)</description>
+	<cloneof>bbmanw</cloneof>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1992</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bomblord" index="" image="">
+	<description>Bomber Lord (bootleg)</description>
+	<cloneof>bbmanw</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1992</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="brickyrd" index="" image="">
+	<description>Brickyard</description>
+	<cloneof>barricad</cloneof>
+	<crc/>
+	<manufacturer>Ramtek</manufacturer>
+	<year>1976</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="checkmat" index="" image="">
+	<description>Checkmate</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dave Nutting Associates / Midway</manufacturer>
+	<year>1977</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="comotion" index="" image="">
+	<description>Comotion</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gremlin</manufacturer>
+	<year>1976</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dominos4" index="" image="">
+	<description>Dominos 4 (Cocktail)</description>
+	<cloneof>dominos</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1977</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dungeonm" index="" image="">
+	<description>Dungeon Magic (Ver 2.1O 1994/02/18)</description>
+	<cloneof>lightbr</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1993</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dungeonmu" index="" image="">
+	<description>Dungeon Magic (Ver 2.1A 1994/02/18)</description>
+	<cloneof>lightbr</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dynablst" index="" image="">
+	<description>Dynablaster / Bomber Man</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem (licensed from Hudson Soft)</manufacturer>
+	<year>1991</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dynablstb" index="" image="">
+	<description>Dynablaster / Bomber Man (bootleg)</description>
+	<cloneof>dynablst</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Seitu)</manufacturer>
+	<year>1991</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dynablstb2" index="" image="">
+	<description>Dynablaster / Bomber Man (bootleg, alt)</description>
+	<cloneof>dynablst</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Seitu)</manufacturer>
+	<year>1991</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="embargo" index="" image="">
+	<description>Embargo</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Cinematronics</manufacturer>
+	<year>1977</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="exvania" index="" image="">
+	<description>Exvania (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="exvaniaj" index="" image="">
+	<description>Exvania (Japan)</description>
+	<cloneof>exvania</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lightbr" index="" image="">
+	<description>Light Bringer (Ver 2.2O 1994/04/08)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1993</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lightbrj" index="" image="">
+	<description>Light Bringer (Ver 2.1J 1994/02/18)</description>
+	<cloneof>lightbr</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mineswpr4" index="" image="">
+	<description>Minesweeper (4-Player)</description>
+	<cloneof>mineswpr</cloneof>
+	<crc/>
+	<manufacturer>Amutech</manufacturer>
+	<year>1977</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="newapunk" index="" image="">
+	<description>New Atomic Punk - Global Quest (US)</description>
+	<cloneof>bbmanw</cloneof>
+	<crc/>
+	<manufacturer>Irem America</manufacturer>
+	<year>1992</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trog" index="" image="">
+	<description>Trog (rev LA5 03/29/91)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trog3" index="" image="">
+	<description>Trog (rev LA3 02/14/91)</description>
+	<cloneof>trog</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trog4" index="" image="">
+	<description>Trog (rev LA4 03/11/91)</description>
+	<cloneof>trog</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trogpa4" index="" image="">
+	<description>Trog (prototype, rev 4.00 07/27/90)</description>
+	<cloneof>trog</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trogpa6" index="" image="">
+	<description>Trog (prototype, rev PA6-PAC 09/09/90)</description>
+	<cloneof>trog</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

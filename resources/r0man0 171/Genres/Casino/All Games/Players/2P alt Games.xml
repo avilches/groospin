@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Casino / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="miniboy7" index="" image="">
+	<description>Mini-Boy 7 (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bonanza Enterprises, Ltd</manufacturer>
+	<year>1983</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="miniboy7a" index="" image="">
+	<description>Mini-Boy 7 (set 2)</description>
+	<cloneof>miniboy7</cloneof>
+	<crc/>
+	<manufacturer>Bonanza Enterprises, Ltd</manufacturer>
+	<year>1983</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="paradice" index="" image="">
+	<description>Paradice (Dutch, Game Card 95-750-615)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM/ELAM</manufacturer>
+	<year>1995</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pokio" index="" image="">
+	<description>Pokio (Dutch, Game Card 95-750-278)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM/ELAM</manufacturer>
+	<year>1994</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="slotsnl" index="" image="">
+	<description>Slots (Dutch, Game Card 95-750-368)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM/ELAM</manufacturer>
+	<year>1995</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

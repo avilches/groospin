@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Shoot- / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="battlntsa" index="" image="">
+	<description>Battlantis (program code F)</description>
+	<cloneof>battlnts</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="daioh" index="" image="">
+	<description>Daioh</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Athena</manufacturer>
+	<year>1993</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dynduke" index="" image="">
+	<description>Dynamite Duke (Europe set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dyndukea" index="" image="">
+	<description>Dynamite Duke (Europe set 2)</description>
+	<cloneof>dynduke</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fantzn2x" index="" image="">
+	<description>Fantasy Zone II - The Tears of Opa-Opa (System 16C version)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / M2</manufacturer>
+	<year>2008</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fantzn2xp" index="" image="">
+	<description>Fantasy Zone II - The Tears of Opa-Opa (System 16C version, prototype)</description>
+	<cloneof>fantzn2x</cloneof>
+	<crc/>
+	<manufacturer>Sega / M2</manufacturer>
+	<year>2008</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lastsurv" index="" image="">
+	<description>Last Survivor (Japan) (FD1094 317-0083)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="parodiusa" index="" image="">
+	<description>Parodius DA! (Asia)</description>
+	<cloneof>parodius</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="raiden" index="" image="">
+	<description>Raiden (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="raystormo" index="" image="">
+	<description>Ray Storm (Ver 2.05O)</description>
+	<cloneof>raystorm</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1996</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="raystormu" index="" image="">
+	<description>Ray Storm (Ver 2.05A)</description>
+	<cloneof>raystorm</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1996</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="redbarona" index="" image="">
+	<description>Red Baron</description>
+	<cloneof>redbaron</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="skydest" index="" image="">
+	<description>Sky Destroyer (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spacerng" index="" image="">
+	<description>Space Ranger (bootleg of Space Invaders)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Leisure Time Electronics)</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tankbattb" index="" image="">
+	<description>Tank Battalion (bootleg)</description>
+	<cloneof>tankbatt</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thndzone" index="" image="">
+	<description>Thunder Zone (World, Rev 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thndzonej" index="" image="">
+	<description>Thunder Zone (Japan)</description>
+	<cloneof>thndzone</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="warofbugu" index="" image="">
+	<description>War of the Bugs or Monsterous Manouvers in a Mushroom Maze (US)</description>
+	<cloneof>warofbug</cloneof>
+	<crc/>
+	<manufacturer>Armenia / Super Video Games</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

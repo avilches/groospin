@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Namco / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="skykids" index="" image="">
+	<description>Sky Kid (Sipem)</description>
+	<cloneof>skykid</cloneof>
+	<crc/>
+	<manufacturer>Namco (Sipem license)</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sws98" index="" image="">
+	<description>Super World Stadium &apos;98 (Japan, SS81/VER.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1998</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="toukon3" index="" image="">
+	<description>Shin Nihon Pro Wrestling Toukon Retsuden 3 Arcade Edition (Japan, TR1/VER.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco / Tomy</manufacturer>
+	<year>1997</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

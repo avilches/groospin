@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Gaelco / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="atvtrack" index="" image="">
+	<description>ATV Track (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>2002</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="atvtracka" index="" image="">
+	<description>ATV Track (set 2)</description>
+	<cloneof>atvtrack</cloneof>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>2002</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="radikalb" index="" image="">
+	<description>Radikal Bikers (Version 2.02)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1998</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="radikalba" index="" image="">
+	<description>Radikal Bikers (Version 2.02, Atari license)</description>
+	<cloneof>radikalb</cloneof>
+	<crc/>
+	<manufacturer>Gaelco (Atari license)</manufacturer>
+	<year>1998</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rollext" index="" image="">
+	<description>ROLLing eX.tre.me</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1999</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smashdrv" index="" image="">
+	<description>Smashing Drive</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>2000</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="speedup" index="" image="">
+	<description>Speed Up (Version 1.20)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="speedup10" index="" image="">
+	<description>Speed Up (Version 1.00)</description>
+	<cloneof>speedup</cloneof>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tokyocop" index="" image="">
+	<description>Tokyo Cop (Italy)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>2003</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wrally" index="" image="">
+	<description>World Rally (Version 1.0, Checksum 0E56)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wrally2" index="" image="">
+	<description>World Rally 2: Twin Racing</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1995</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wrallya" index="" image="">
+	<description>World Rally (Version 1.0, Checksum 3873)</description>
+	<cloneof>wrally</cloneof>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wrallyat" index="" image="">
+	<description>World Rally (US, 930217)</description>
+	<cloneof>wrally</cloneof>
+	<crc/>
+	<manufacturer>Gaelco (Atari license)</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wrallyb" index="" image="">
+	<description>World Rally (Version 1.0, Checksum 8AA2)</description>
+	<cloneof>wrally</cloneof>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

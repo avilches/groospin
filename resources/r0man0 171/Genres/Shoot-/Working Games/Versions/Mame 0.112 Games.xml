@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Shoot- / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="destryera" index="" image="">
+	<description>Destroyer (Cidelsa) (set 2)</description>
+	<cloneof>destryer</cloneof>
+	<crc/>
+	<manufacturer>Cidelsa</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="meikyuha" index="" image="">
+	<description>Meikyuu Hunter G (Japan, set 2)</description>
+	<cloneof>ghostb</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mpangu" index="" image="">
+	<description>Mighty! Pang (USA 001010)</description>
+	<cloneof>mpang</cloneof>
+	<crc/>
+	<manufacturer>Mitchell (Capcom license)</manufacturer>
+	<year>2000</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbsgomo" index="" image="">
+	<description>Space Battle Ship Gomorrah</description>
+	<cloneof>bioship</cloneof>
+	<crc/>
+	<manufacturer>UPL</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="teetert" index="" image="">
+	<description>Teeter Torture (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Exidy</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wyvernwg" index="" image="">
+	<description>Wyvern Wings (set 1)</description>
+	<cloneof>wivernwg</cloneof>
+	<crc/>
+	<manufacturer>SemiCom (Game Vision license)</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

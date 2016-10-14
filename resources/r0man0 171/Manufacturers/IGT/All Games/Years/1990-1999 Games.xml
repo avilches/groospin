@@ -1,0 +1,2479 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>IGT / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="ms72c" index="" image="">
+	<description>Multistar 7 2c</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT</manufacturer>
+	<year>1994</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pebe0014" index="" image="">
+	<description>Player&apos;s Edge Plus (BE0014) Blackjack</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1994</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pebe0014a" index="" image="">
+	<description>Player&apos;s Edge Plus (BE0014) Blackjack (International English/Spanish)</description>
+	<cloneof>pebe0014</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1994</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peke0004" index="" image="">
+	<description>Player&apos;s Edge Plus (KE0004) Keno</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1994</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peke0017" index="" image="">
+	<description>Player&apos;s Edge Plus (KE0017) Keno</description>
+	<cloneof>peke0004</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1994</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peke1001" index="" image="">
+	<description>Player&apos;s Edge Plus (KE1001) Keno</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1994</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peke1006" index="" image="">
+	<description>Player&apos;s Edge Plus (KE1006) Keno</description>
+	<cloneof>peke1001</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1994</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peke1012" index="" image="">
+	<description>Player&apos;s Edge Plus (KE1012) Keno (set 1)</description>
+	<cloneof>peke1001</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1994</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peke1012a" index="" image="">
+	<description>Player&apos;s Edge Plus (KE1012) Keno (set 2)</description>
+	<cloneof>peke1001</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1994</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peke1012b" index="" image="">
+	<description>Player&apos;s Edge Plus (KE1012) Keno (set 3)</description>
+	<cloneof>peke1001</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1994</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peke1013" index="" image="">
+	<description>Player&apos;s Edge Plus (KE1013) Keno (set 1)</description>
+	<cloneof>peke1001</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1994</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peke1013a" index="" image="">
+	<description>Player&apos;s Edge Plus (KE1013) Keno (set 2)</description>
+	<cloneof>peke1001</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1994</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pekoc766" index="" image="">
+	<description>Player&apos;s Edge Plus (PP0766 A5W-A6F) Standard Draw Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pekoc801" index="" image="">
+	<description>Player&apos;s Edge Plus (PP0801 A5W-A6F) 10&apos;s or Better</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pekoc802" index="" image="">
+	<description>Player&apos;s Edge Plus (PP0802 A5W-A6F) Standard Draw Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pekoc803" index="" image="">
+	<description>Player&apos;s Edge Plus (PP0803 A5W-A6F) Joker Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pekoc803a" index="" image="">
+	<description>Player&apos;s Edge Plus (PP0803 A50-A6N) Joker Poker</description>
+	<cloneof>pekoc803</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pekoc804" index="" image="">
+	<description>Player&apos;s Edge Plus (PP0804 A5W-A6F) Bonus Poker Deluxe</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pekoc806" index="" image="">
+	<description>Player&apos;s Edge Plus (PP0806 A5W-A6F) Standard Draw Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pekoc818" index="" image="">
+	<description>Player&apos;s Edge Plus (PP0818 A5W-A6F) Joker Poker (Aces or Better)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pekoc819" index="" image="">
+	<description>Player&apos;s Edge Plus (PP0819 A5W-A6F) Bonus Poker Deluxe</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pekoc822" index="" image="">
+	<description>Player&apos;s Edge Plus (PP0822 A5W-A6F) Standard Draw Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pekoc825" index="" image="">
+	<description>Player&apos;s Edge Plus (PP0825 A59-A7C) White Hot Aces</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pemg0183" index="" image="">
+	<description>Montana Choice (MG0183) Multi-Game</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1994</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pemg0252" index="" image="">
+	<description>Player&apos;s Choice (MG0252) Multi-Game</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1994</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0014" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0014) Super Joker Slots</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0021" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0021) Red White &amp; Blue Slots</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0022" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0022) Red White &amp; Blue Slots</description>
+	<cloneof>peps0021</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0042" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0042) Double Diamond Slots</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0043" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0043) Double Diamond Slots</description>
+	<cloneof>peps0042</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0045" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0045) Red White &amp; Blue Slots</description>
+	<cloneof>peps0021</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0047" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0047) Wild Cherry Slots</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0090" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0090) Gold, Silver &amp; Bronze Slots</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0092" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0092) Wild Cherry Slots</description>
+	<cloneof>peps0047</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0206" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0206) Red White &amp; Blue Slots</description>
+	<cloneof>peps0021</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0207" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0207) Red White &amp; Blue Slots</description>
+	<cloneof>peps0021</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0296" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0296) Haywire Slots</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0298" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0298) Double Diamond Slots</description>
+	<cloneof>peps0042</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0308" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0308) Double Jackpot Slots</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0358" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0358) Wild Star Red White &amp; Blue Slots</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0364" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0364) Wild Star Red White &amp; Blue Slots</description>
+	<cloneof>peps0358</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0366" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0366) Double Diamond Deluxe Slots</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0372" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0372) Double Diamond Deluxe Slots</description>
+	<cloneof>peps0366</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0373" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0373) Double Diamond Deluxe Slots</description>
+	<cloneof>peps0366</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0425" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0425) Sizzling Sevens Slots</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0426" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0426) Sizzling Sevens Slots</description>
+	<cloneof>peps0425</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0470" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0470) Triple Diamond Slots</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0581" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0581) Red White &amp; Blue Slots</description>
+	<cloneof>peps0021</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0615" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0615) Chaos Slots</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0628" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0628) Double Black Jack Slots</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0631" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0631) Wild Star Red White &amp; Blue Slots</description>
+	<cloneof>peps0358</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0708" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0708) Double Cherry Bar Slots</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0716" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0716) River Gambler Slots</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0722" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0722) River Gambler Slots</description>
+	<cloneof>peps0716</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0002p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000002P+XP000038) Standard Draw Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0002pa" index="" image="">
+	<description>Player&apos;s Edge Plus (X000002P+XP000006) Standard Draw Poker</description>
+	<cloneof>pex0002p</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0006k" index="" image="">
+	<description>Player&apos;s Edge Plus (X000006K+XK000001) Keno</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0006p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000006P+XP000038) Standard Draw Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0013k" index="" image="">
+	<description>Player&apos;s Edge Plus (X000013K+XK000011) Keno</description>
+	<cloneof>pex0006k</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0040p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000040P+XP000038) Standard Draw Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0042p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000042P+XP000038) 10&apos;s or Better</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0045p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000045P+XP000038) 10&apos;s or Better</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0046p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000046P+XP000038) 10&apos;s or Better</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0053p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000053P+XP000038) Joker Poker (Aces or Better)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0054p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000054P+XP000038) Deuces Wild Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0055p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000055P+XP000019) Deuces Wild Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0055pa" index="" image="">
+	<description>Player&apos;s Edge Plus (X000055P+XP000022) Deuces Wild Poker</description>
+	<cloneof>pex0055p</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0055pb" index="" image="">
+	<description>Player&apos;s Edge Plus (X000055P+XP000023) Deuces Wild Poker</description>
+	<cloneof>pex0055p</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0055pc" index="" image="">
+	<description>Player&apos;s Edge Plus (X000055P+XP000028) Deuces Wild Poker</description>
+	<cloneof>pex0055p</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0055pd" index="" image="">
+	<description>Player&apos;s Edge Plus (X000055P+XP000035) Deuces Wild Poker</description>
+	<cloneof>pex0055p</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0055pe" index="" image="">
+	<description>Player&apos;s Edge Plus (X000055P+XP000038) Deuces Wild Poker</description>
+	<cloneof>pex0055p</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0055pf" index="" image="">
+	<description>Player&apos;s Edge Plus (X000055P+XP000040) Deuces Wild Poker</description>
+	<cloneof>pex0055p</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0055pg" index="" image="">
+	<description>Player&apos;s Edge Plus (X000055P+XP000048) Deuces Wild Poker</description>
+	<cloneof>pex0055p</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0055ph" index="" image="">
+	<description>Player&apos;s Edge Plus (X000055P+XP000055) Deuces Wild Poker</description>
+	<cloneof>pex0055p</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0055pi" index="" image="">
+	<description>Player&apos;s Edge Plus (X000055P+XP000063) Deuces Wild Poker</description>
+	<cloneof>pex0055p</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0055pj" index="" image="">
+	<description>Player&apos;s Edge Plus (X000055P+XP000075) Deuces Wild Poker</description>
+	<cloneof>pex0055p</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0055pk" index="" image="">
+	<description>Player&apos;s Edge Plus (X000055P+XP000079) Deuces Wild Poker</description>
+	<cloneof>pex0055p</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0055pl" index="" image="">
+	<description>Player&apos;s Edge Plus (X000055P+XP000094) Deuces Wild Poker</description>
+	<cloneof>pex0055p</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0055pm" index="" image="">
+	<description>Player&apos;s Edge Plus (X000055P+XP000095) Deuces Wild Poker</description>
+	<cloneof>pex0055p</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0055pn" index="" image="">
+	<description>Player&apos;s Edge Plus (X000055P+XP000098) Deuces Wild Poker</description>
+	<cloneof>pex0055p</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0055po" index="" image="">
+	<description>Player&apos;s Edge Plus (X000055P+XP000102) Deuces Wild Poker</description>
+	<cloneof>pex0055p</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0055pp" index="" image="">
+	<description>Player&apos;s Edge Plus (X000055P+XP000104) Deuces Wild Poker</description>
+	<cloneof>pex0055p</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0055pq" index="" image="">
+	<description>Player&apos;s Edge Plus (X000055P+XP000109) Deuces Wild Poker</description>
+	<cloneof>pex0055p</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0055pr" index="" image="">
+	<description>Player&apos;s Edge Plus (X000055P+XP000126) Deuces Wild Poker</description>
+	<cloneof>pex0055p</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0055ps" index="" image="">
+	<description>Player&apos;s Edge Plus (X000055P+XP000132) Deuces Wild Poker</description>
+	<cloneof>pex0055p</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0055pt" index="" image="">
+	<description>Player&apos;s Edge Plus (X000055P+XP000137) Deuces Wild Poker</description>
+	<cloneof>pex0055p</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0057p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000057P+XP000038) Deuces Wild Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0057pa" index="" image="">
+	<description>Player&apos;s Edge Plus (X000057P+XP000038) Deuces Wild Poker (The Orleans)</description>
+	<cloneof>pex0057p</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0057pb" index="" image="">
+	<description>Player&apos;s Edge Plus (X000057P+XP000038) Deuces Wild Poker (The Fun Ships)</description>
+	<cloneof>pex0057p</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0057pc" index="" image="">
+	<description>Player&apos;s Edge Plus (X000057P+XP000038) Deuces Wild Poker (Horseshoe)</description>
+	<cloneof>pex0057p</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0057pd" index="" image="">
+	<description>Player&apos;s Edge Plus (X000057P+XP000038) Deuces Wild Poker (The Wild Wild West Casino)</description>
+	<cloneof>pex0057p</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0057pe" index="" image="">
+	<description>Player&apos;s Edge Plus (X000057P+XP000038) Deuces Wild Poker (Sunset Station Hotel-Casino)</description>
+	<cloneof>pex0057p</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0060p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000060P+XP000038) Standard Draw Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0124p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000124P+XP000038) Deuces Wild Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0150p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000150P+XP000038) Standard Draw Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0158p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000158P+XP000038) 4 of a Kind Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0171p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000171P+XP000038) Joker Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0188p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000188P+XP000038) Standard Draw Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0190p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000190P+XP000038) Deuces Wild Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0197p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000197P+XP000038) Standard Draw Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0203p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000203P+XP000038) 4 of a Kind Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0224p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000224P+XP000038) Deuces Wild Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0225p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000225P+XP000079) Dueces Joker Wild Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0242p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000242P+XP000038) Deuces Wild Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0265p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000265P+XP000038) 4 of a Kind Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0291p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000291P+XP000038) Deuces Wild Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0417p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000417P+XP000038) Deuces Wild Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0426p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000426P+XP000038) Joker Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0430p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000430P+XP000079) Dueces Joker Wild Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0434p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000434P+XP000038) Bonus Poker Deluxe</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0447p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000447P+XP000038) Standard Draw Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0449p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000449P+XP000038) Standard Draw Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0451p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000451P+XP000038) Bonus Poker Deluxe</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0452p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000452P+XP000038) Double Deuces Wild Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0454p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000454P+XP000038) Bonus Poker Deluxe</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0455p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000455P+XP000038) Joker Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0458p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000458P+XP000038) Joker Poker (Aces or Better)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0459p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000459P+XP000038) Joker Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0459pa" index="" image="">
+	<description>Player&apos;s Edge Plus (X000459P+XP000155) Joker Poker</description>
+	<cloneof>pex0459p</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0489p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000489P+XP000038) Double Down Stud Deuces Wild Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0508p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000508P+XP000038) Loose Deuce Deuces Wild! Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0514p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000514P+XP000038) Double Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0515p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000515P+XP000038) Double Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0516p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000516P+XP000038) Double Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0536p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000536P+XP000038) Joker Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0537p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000537P+XP000038) Standard Draw Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0550p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000550P+XP000119) Joker Poker (Two Pair or Better)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0557p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000557P+XP000119) Standard Draw Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0568p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000568P+XP000038) Joker Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0578p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000578P+XP000038) Standard Draw Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0581p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000581P+XP000038) 4 of a Kind Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0588p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000588P+XP000038) Joker Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0725p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000725P+XP000038) Double Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0726p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000726P+XP000038) Double Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0727p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000727P+XP000038) Double Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0763p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000763P+XP000038) 4 of a Kind Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0764p" index="" image="">
+	<description>Player&apos;s Edge Plus (X000764P+XP000038) 4 of a Kind Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0838s" index="" image="">
+	<description>Player&apos;s Edge Plus (X000838S+XS000002) Five Times Pay Slots</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1997</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0841s" index="" image="">
+	<description>Player&apos;s Edge Plus (X000841S+XS000002) Five Times Pay Slots</description>
+	<cloneof>pex0838s</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1997</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0998s" index="" image="">
+	<description>Player&apos;s Edge Plus (X000998S+XS000006) Triple Triple Diamond Slots</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1997</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex1087s" index="" image="">
+	<description>Player&apos;s Edge Plus (X001087S+XS000006) Double Double Diamond Slots</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1997</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2010p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002010P+XP000038) Nevada Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2016p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002016P+XP000038) Full House Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2017p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002017P+XP000038) Full House Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2018p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002018P+XP000038) Full House Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2021p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002021P+XP000038) Lucky Deal Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2024p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002024P+XP000119) Double Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2025p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002025P+XP000019) Deuces Wild Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2026p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002026P+XP000019) Deuces Wild Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2027p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002027P+XP000019) Deuces Wild Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2028p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002028P+XP000019) Deuces Wild Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2029p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002029P+XP000019) Deuces Wild Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2031p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002031P+XP000038) Lucky Deal Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2033p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002033P+XP000038) White Hot Aces Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2034p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002034P+XP000038) White Hot Aces Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2035p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002035P+XP000038) White Hot Aces Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2036p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002036P+XP000038) White Hot Aces Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2037p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002037P+XP000038) Nevada Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2038p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002038P+XP000038) Nevada Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2039p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002039P+XP000038) Nevada Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2040p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002040P+XP000038) Nevada Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2042p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002042P+XP000038) Triple Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2043p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002043P+XP000038) Triple Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2044p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002044P+XP000038) Triple Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2045p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002045P+XP000038) Triple Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2066p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002066P+XP000038) Double Double Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2067p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002067P+XP000038) Double Double Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2068p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002068P+XP000038) Double Double Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2069p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002069P+XP000038) Double Double Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2070p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002070P+XP000038) Double Double Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2111p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002111P+XP000038) 4 of a Kind Bonus Poker (with Seq Royal Flush)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2121p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002121P+XP000038) Standard Draw Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2121pa" index="" image="">
+	<description>Player&apos;s Edge Plus (X002121P+XP000037) Standard Draw Poker</description>
+	<cloneof>pex2121p</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2127p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002127P+XP000043) Double Bonus Poker featuring &apos;Your Property&apos; Royals</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2134p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002134P+XP000043) Faces &apos;n&apos; Deuces Double Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2150p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002150P+XP000038) 4 of a Kind Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2152p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002152P+XP000043) Blackjack Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2172p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002172P+XP000038) Ace$ Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2172pa" index="" image="">
+	<description>Player&apos;s Edge Plus (X002172P+XP000038) Ace$ Bonus Poker (The Fun Ships)</description>
+	<cloneof>pex2172p</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2173p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002173P+XP000038) Ace$ Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2178p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002178P+XP000119) Double Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2179p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002179P+XP000119) Double Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2180p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002180P+XP000119) Double Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2211p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002211P+XP000043) Double Double Bonus with 3 Jacks Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2236p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002236P+XP000043) Double Double Bonus with 3 Aces Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2241p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002241P+XP000079) 4 of a Kind Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2244p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002244P+XP000079) Double Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2245p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002245P+XP000055) Standard Draw Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2245pa" index="" image="">
+	<description>Player&apos;s Edge Plus (X002245P+XP000079) Standard Draw Poker</description>
+	<cloneof>pex2245p</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2247p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002247P+XP000038) Standard Draw Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2250p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002250P+XP000050) Shockwave Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2251p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002251P+XP000050) Shockwave Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2270p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002270P+XP000053) Jackpot Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2272p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002272P+XP000055) Black Jack Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2275p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002275P+XP000055) Black Jack Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2276p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002276P+XP000055) Black Jack Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2279p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002279P+XP000057) Ace$ Bonus</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2283p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002283P+XP000057) Barbaric Decues Wild Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2284p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002284P+XP000057) Barbaric Decues Wild Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2287p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002287P+XP000057) No Faces Pay the Aces Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2297p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002297P+XP000053) Jackpot Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2297pa" index="" image="">
+	<description>Player&apos;s Edge Plus (X002297P+XP000112) Jackpot Poker</description>
+	<cloneof>pex2297p</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2302p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002302P+XP000038) Bonus Poker Deluxe</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2303p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002303P+XP000038) White Hot Aces Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2306p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002306P+XP000038) Triple Double Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2307p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002307P+XP000038) Triple Double Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2308p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002308P+XP000038) Triple Double Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2310p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002310P+XP000038) Triple Double Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2312p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002312P+XP000038) Triple Bonus Poker Plus</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2314p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002314P+XP000038) Triple Bonus Poker Plus</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2315p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002315P+XP000038) Triple Bonus Poker Plus</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2374p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002374P+XP000038) Super Aces Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2376p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002376P+XP000038) Super Double Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2377p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002377P+XP000038) Super Double Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2386p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002386P+XP000038) 4 of a Kind Bonus Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2412p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002412P+XP000096) Standard Draw with 5 decks (Two Pair or Better)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2419p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002419P+XP000064) Deuces Wild Bonus Poker - French</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2420p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002420P+XP000064) Deuces Wild Bonus Poker - French</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2421p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002421P+XP000064) Deuces Wild Bonus Poker - French</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2440p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002440P+XP000053) Deuces Wild Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2461p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002461P+XP000055) Joker Poker (Two Pair or Better)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2474p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002474P+XP000038) Double Double Bonus Plus</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2478p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002478P+XP000154) Joker Poker - French</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2479p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002479P+XP000154) Joker Poker - French</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2480p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002480P+XP000154) Joker Poker (Aces or Better) - French</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex2485p" index="" image="">
+	<description>Player&apos;s Edge Plus (X002485P+XP000154) Standard Draw Poker - French</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pexm001p" index="" image="">
+	<description>Player&apos;s Edge Plus (XM00001P+XMP00003) Multi-Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pexm002p" index="" image="">
+	<description>Player&apos;s Edge Plus (XM00002P+XMP00006) Multi-Poker</description>
+	<cloneof>pexm001p</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pexm002pa" index="" image="">
+	<description>Player&apos;s Edge Plus (XM00002P+XMP00006) Multi-Poker (MGM Grand Detroit Casino)</description>
+	<cloneof>pexm001p</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pexm003p" index="" image="">
+	<description>Player&apos;s Edge Plus (XM00003P+XMP00024) Multi-Poker</description>
+	<cloneof>pexm001p</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pexm004p" index="" image="">
+	<description>Player&apos;s Edge Plus (XM00004P+XMP00002) Multi-Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pexm005p" index="" image="">
+	<description>Player&apos;s Edge Plus (XM00005P+XMP00004) Multi-Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pexm006p" index="" image="">
+	<description>Player&apos;s Edge Plus (XM00006P+XMP00020) Multi-Poker</description>
+	<cloneof>pexm001p</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pexm006pa" index="" image="">
+	<description>Player&apos;s Edge Plus (XM00006P+XMP00002) Multi-Poker (The Orleans)</description>
+	<cloneof>pexm001p</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pexm007p" index="" image="">
+	<description>Player&apos;s Edge Plus (XM00007P+XMP00006) Multi-Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pexm008p" index="" image="">
+	<description>Player&apos;s Edge Plus (XM00008P+XMP00006) Multi-Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pexm009p" index="" image="">
+	<description>Player&apos;s Edge Plus (XM00009P+XMP00002) Multi-Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pexm013p" index="" image="">
+	<description>Player&apos;s Edge Plus (XM00013P+XMP00025) Multi-Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pexmp013" index="" image="">
+	<description>Player&apos;s Edge Plus (XMP00013) 5-in-1 Wingboard (CG2346) - Spanish</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pexmp017" index="" image="">
+	<description>Player&apos;s Edge Plus (XMP00017) 5-in-1 Wingboard (CG2298)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pexmp017a" index="" image="">
+	<description>Player&apos;s Edge Plus (XMP00017) 5-in-1 Wingboard (CG2352)</description>
+	<cloneof>pexmp017</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pexmp017b" index="" image="">
+	<description>Player&apos;s Edge Plus (XMP00017) 5-in-1 Wingboard (CG2426)</description>
+	<cloneof>pexmp017</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pexmp022" index="" image="">
+	<description>Player&apos;s Edge Plus (XMP00022) 5-in-1 Wingboard (CG2346) - Spanish</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pexmp026" index="" image="">
+	<description>Player&apos;s Edge Plus (XMP00026) 5-in-1 Wingboard (CG2346) - Spanish</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pexmp030" index="" image="">
+	<description>Player&apos;s Edge Plus (XMP00030) 5-in-1 Wingboard (CG2451)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pexmp030a" index="" image="">
+	<description>Player&apos;s Edge Plus (XMP00030) 5-in-1 Wingboard (CG2426)</description>
+	<cloneof>pexmp030</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1995</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spss4240" index="" image="">
+	<description>S-Plus (SS4240) Coral Reef</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1994</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Card Battle / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="goldnpkb" index="" image="">
+	<description>Golden Poker Double Up (Mini Boy)</description>
+	<cloneof>goldnpkr</cloneof>
+	<crc/>
+	<manufacturer>Bonanza Enterprises, Ltd</manufacturer>
+	<year>1981</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mgprem11" index="" image="">
+	<description>Magic Premium (v1.1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>CD Express</manufacturer>
+	<year>1996</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pool10b" index="" image="">
+	<description>Pool 10 (Italian, set 2)</description>
+	<cloneof>pool10</cloneof>
+	<crc/>
+	<manufacturer>C.M.C.</manufacturer>
+	<year>1996</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4dealem" index="" image="">
+	<description>Deal &apos;Em (MPU4 Conversion Kit, v7.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Zenitone</manufacturer>
+	<year>1987</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

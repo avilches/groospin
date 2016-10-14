@@ -1,0 +1,2029 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1990-1999 / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="abcop" index="" image="">
+	<description>A.B. Cop (World) (FD1094 317-0169b)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="abcopd" index="" image="">
+	<description>A.B. Cop (World) (bootleg of FD1094 317-0169b set)</description>
+	<cloneof>abcop</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="abcopj" index="" image="">
+	<description>A.B. Cop (Japan) (FD1094 317-0169b)</description>
+	<cloneof>abcop</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="abcopjd" index="" image="">
+	<description>A.B. Cop (Japan) (bootleg of FD1094 317-0169b set)</description>
+	<cloneof>abcop</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="acedrvrw" index="" image="">
+	<description>Ace Driver: Racing Evolution (Rev. AD2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="adillor" index="" image="">
+	<description>Armadillo Racing (Rev. AM1 Ver.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aplarail" index="" image="">
+	<description>Attack Pla Rail (Japan, AP1/VER.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco / Tomy</manufacturer>
+	<year>1998</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aquajet" index="" image="">
+	<description>Aqua Jet (Rev. AJ2 Ver.B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="backfire" index="" image="">
+	<description>Backfire! (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1995</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="backfirea" index="" image="">
+	<description>Backfire! (set 2)</description>
+	<cloneof>backfire</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1995</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blmbycar" index="" image="">
+	<description>Blomby Car</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>ABM &amp; Gecas</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blmbycaru" index="" image="">
+	<description>Blomby Car (not encrypted)</description>
+	<cloneof>blmbycar</cloneof>
+	<crc/>
+	<manufacturer>ABM &amp; Gecas</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="calspeed" index="" image="">
+	<description>California Speed (Version 2.1a Apr 17 1998, GUTS 1.25 Apr 17 1998 / MAIN Apr 17 1998)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1998</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="calspeeda" index="" image="">
+	<description>California Speed (Version 1.0r8 Mar 10 1998, GUTS Mar 10 1998 / MAIN Mar 10 1998)</description>
+	<cloneof>calspeed</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1998</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="calspeedb" index="" image="">
+	<description>California Speed (Version 1.0r7a Mar 4 1998, GUTS Mar 3 1998 / MAIN Jan 19 1998)</description>
+	<cloneof>calspeed</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1998</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cbombers" index="" image="">
+	<description>Chase Bombers (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cbombersj" index="" image="">
+	<description>Chase Bombers (Japan)</description>
+	<cloneof>cbombers</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cbombersp" index="" image="">
+	<description>Chase Bombers (Japan Prototype)</description>
+	<cloneof>cbombers</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cischeat" index="" image="">
+	<description>Cisco Heat</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="coolridr" index="" image="">
+	<description>Cool Riders</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1995</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crshrace" index="" image="">
+	<description>Lethal Crash Race (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Video System Co.</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crshrace2" index="" image="">
+	<description>Lethal Crash Race (set 2)</description>
+	<cloneof>crshrace</cloneof>
+	<crc/>
+	<manufacturer>Video System Co.</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crusnusa" index="" image="">
+	<description>Cruis&apos;n USA (rev L4.1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crusnusa21" index="" image="">
+	<description>Cruis&apos;n USA (rev L2.1)</description>
+	<cloneof>crusnusa</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crusnusa40" index="" image="">
+	<description>Cruis&apos;n USA (rev L4.0)</description>
+	<cloneof>crusnusa</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crusnwld" index="" image="">
+	<description>Cruis&apos;n World (rev L2.5)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crusnwld13" index="" image="">
+	<description>Cruis&apos;n World (rev L1.3)</description>
+	<cloneof>crusnwld</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crusnwld17" index="" image="">
+	<description>Cruis&apos;n World (rev L1.7)</description>
+	<cloneof>crusnwld</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crusnwld19" index="" image="">
+	<description>Cruis&apos;n World (rev L1.9)</description>
+	<cloneof>crusnwld</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crusnwld20" index="" image="">
+	<description>Cruis&apos;n World (rev L2.0)</description>
+	<cloneof>crusnwld</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crusnwld23" index="" image="">
+	<description>Cruis&apos;n World (rev L2.3)</description>
+	<cloneof>crusnwld</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crusnwld24" index="" image="">
+	<description>Cruis&apos;n World (rev L2.4)</description>
+	<cloneof>crusnwld</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cybrcycc" index="" image="">
+	<description>Cyber Cycles (Rev. CB2 Ver.C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1995</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dblaxle" index="" image="">
+	<description>Double Axle (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1991</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dblaxleu" index="" image="">
+	<description>Double Axle (US, earlier)</description>
+	<cloneof>dblaxle</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1991</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dendego" index="" image="">
+	<description>Densha de GO! (Ver 2.2 J)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dendego2" index="" image="">
+	<description>Densha de GO! 2 Kousoku-hen (Ver 2.5 J)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1998</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dendego23k" index="" image="">
+	<description>Densha de GO! 2 Kousoku-hen 3000-bandai (Ver 2.20 J)</description>
+	<cloneof>dendego2</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1998</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dendegox" index="" image="">
+	<description>Densha de GO! EX (Ver 2.4 J)</description>
+	<cloneof>dendego</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dirtdash" index="" image="">
+	<description>Dirt Dash (Rev. DT2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1995</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drifto94" index="" image="">
+	<description>Drift Out &apos;94 - The Hard Order (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Visco</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="driftout" index="" image="">
+	<description>Drift Out (Europe)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Visco</manufacturer>
+	<year>1991</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="driftoutj" index="" image="">
+	<description>Drift Out (Japan)</description>
+	<cloneof>driftout</cloneof>
+	<crc/>
+	<manufacturer>Visco</manufacturer>
+	<year>1991</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drivedge" index="" image="">
+	<description>Driver&apos;s Edge</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Strata/Incredible Technologies</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="driveout" index="" image="">
+	<description>Drive Out (bootleg)</description>
+	<cloneof>driftout</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1991</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="f1en" index="" image="">
+	<description>F1 Exhaust Note (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="f1enj" index="" image="">
+	<description>F1 Exhaust Note (Japan)</description>
+	<cloneof>f1en</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="f1enu" index="" image="">
+	<description>F1 Exhaust Note (US)</description>
+	<cloneof>f1en</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="f1gp" index="" image="">
+	<description>F-1 Grand Prix</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Video System Co.</manufacturer>
+	<year>1991</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="f1gp2" index="" image="">
+	<description>F-1 Grand Prix Part II</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Video System Co.</manufacturer>
+	<year>1992</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="f1gpstar" index="" image="">
+	<description>Grand Prix Star</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1991</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="f1gpstr2" index="" image="">
+	<description>F-1 Grand Prix Star II</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="f1lap" index="" image="">
+	<description>F1 Super Lap (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="f1lapj" index="" image="">
+	<description>F1 Super Lap (Japan)</description>
+	<cloneof>f1lap</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="finalap2" index="" image="">
+	<description>Final Lap 2</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="finalap2j" index="" image="">
+	<description>Final Lap 2 (Japan)</description>
+	<cloneof>finalap2</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="finalap3" index="" image="">
+	<description>Final Lap 3 (World, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="finalap3a" index="" image="">
+	<description>Final Lap 3 (World, set 2)</description>
+	<cloneof>finalap3</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="finalap3j" index="" image="">
+	<description>Final Lap 3 (Japan)</description>
+	<cloneof>finalap3</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="finalap3jc" index="" image="">
+	<description>Final Lap 3 (Japan - Rev C)</description>
+	<cloneof>finalap3</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="finalapr" index="" image="">
+	<description>Final Lap R (Rev. B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1995</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="finalaprj" index="" image="">
+	<description>Final Lap R (Japan Rev. C)</description>
+	<cloneof>finalapr</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1995</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="finalapro" index="" image="">
+	<description>Final Lap R</description>
+	<cloneof>finalapr</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1995</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gprider" index="" image="">
+	<description>GP Rider (World, FD1094 317-0163) (Twin setup)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gpriderj" index="" image="">
+	<description>GP Rider (Japan, FD1094 317-0161) (Twin setup)</description>
+	<cloneof>gprider</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gpriderjs" index="" image="">
+	<description>GP Rider (Japan, FD1094 317-0161)</description>
+	<cloneof>gprider</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gpriders" index="" image="">
+	<description>GP Rider (World, FD1094 317-0163)</description>
+	<cloneof>gprider</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gprideru" index="" image="">
+	<description>GP Rider (US, FD1094 317-0162) (Twin setup)</description>
+	<cloneof>gprider</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gpriderus" index="" image="">
+	<description>GP Rider (US, FD1094 317-0162)</description>
+	<cloneof>gprider</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="groundfx" index="" image="">
+	<description>Ground Effects / Super Ground Effects (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1992</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gticlub" index="" image="">
+	<description>GTI Club (ver EAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gticluba" index="" image="">
+	<description>GTI Club (ver AAA)</description>
+	<cloneof>gticlub</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gticlubj" index="" image="">
+	<description>GTI Club (ver JAA)</description>
+	<cloneof>gticlub</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gticlubu" index="" image="">
+	<description>GTI Club (ver UAA)</description>
+	<cloneof>gticlub</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtmr" index="" image="">
+	<description>1000 Miglia: Great 1000 Miles Rally (94/07/18)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtmr2" index="" image="">
+	<description>Mille Miglia 2: Great 1000 Miles Rally (95/05/24)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1995</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtmr2a" index="" image="">
+	<description>Mille Miglia 2: Great 1000 Miles Rally (95/04/04)</description>
+	<cloneof>gtmr2</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1995</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtmr2u" index="" image="">
+	<description>Great 1000 Miles Rally 2 USA (95/05/18)</description>
+	<cloneof>gtmr2</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1995</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtmra" index="" image="">
+	<description>1000 Miglia: Great 1000 Miles Rally (94/06/13)</description>
+	<cloneof>gtmr</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtmrb" index="" image="">
+	<description>1000 Miglia: Great 1000 Miles Rally (94/05/26)</description>
+	<cloneof>gtmr</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtmre" index="" image="">
+	<description>Great 1000 Miles Rally: Evolution Model!!! (94/09/06)</description>
+	<cloneof>gtmr</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtmro" index="" image="">
+	<description>1000 Miglia: Great 1000 Miles Rally (94/05/10)</description>
+	<cloneof>gtmr</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtmrusa" index="" image="">
+	<description>Great 1000 Miles Rally: U.S.A Version! (94/09/06)</description>
+	<cloneof>gtmr</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="harddrivc" index="" image="">
+	<description>Hard Drivin&apos; (compact, rev 2)</description>
+	<cloneof>harddriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="harddrivc1" index="" image="">
+	<description>Hard Drivin&apos; (compact, rev 1)</description>
+	<cloneof>harddriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="harddrivcb" index="" image="">
+	<description>Hard Drivin&apos; (compact, British, rev 2)</description>
+	<cloneof>harddriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="harddrivcg" index="" image="">
+	<description>Hard Drivin&apos; (compact, German, rev 2)</description>
+	<cloneof>harddriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hdrivair" index="" image="">
+	<description>Hard Drivin&apos;s Airborne (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hndlchmp" index="" image="">
+	<description>Handle Champ (GQ710 VER. JAB)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1997</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hyprdriv" index="" image="">
+	<description>Hyperdrive</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway Games</manufacturer>
+	<year>1998</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="indyheat" index="" image="">
+	<description>Danny Sullivan&apos;s Indy Heat</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Leland Corp.</manufacturer>
+	<year>1991</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jetwave" index="" image="">
+	<description>Jet Wave (EAB, Euro v1.04)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jetwavej" index="" image="">
+	<description>Jet Wave (JAB, Japan v1.04)</description>
+	<cloneof>jetwave</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kamenrid" index="" image="">
+	<description>Masked Riders Club Battle Race</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Banpresto / Toei</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="landgear" index="" image="">
+	<description>Landing Gear (Ver 4.2 O)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1995</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="landgeara" index="" image="">
+	<description>Landing Gear (Ver 3.1 O)</description>
+	<cloneof>landgear</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1995</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="landgearj" index="" image="">
+	<description>Landing Gear (Ver 4.2 J)</description>
+	<cloneof>landgear</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1995</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="landgearja" index="" image="">
+	<description>Landing Gear (Ver 3.0 J)</description>
+	<cloneof>landgear</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1995</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="luckywld" index="" image="">
+	<description>Lucky &amp; Wild</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="luckywldj" index="" image="">
+	<description>Lucky &amp; Wild (Japan)</description>
+	<cloneof>luckywld</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="midnrun" index="" image="">
+	<description>Midnight Run: Road Fighters 2 (EAA, Euro v1.11)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1995</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="midnruna" index="" image="">
+	<description>Midnight Run: Road Fighters 2 (AAA, Asia v1.10)</description>
+	<cloneof>midnrun</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1995</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="neodrift" index="" image="">
+	<description>Neo Drift Out - New Technology</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Visco</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="offroadc" index="" image="">
+	<description>Off Road Challenge (v1.63)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1997</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="offroadc1" index="" image="">
+	<description>Off Road Challenge (v1.10)</description>
+	<cloneof>offroadc</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1997</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="offroadc3" index="" image="">
+	<description>Off Road Challenge (v1.30)</description>
+	<cloneof>offroadc</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1997</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="offroadc4" index="" image="">
+	<description>Off Road Challenge (v1.40)</description>
+	<cloneof>offroadc</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1997</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="offroadc5" index="" image="">
+	<description>Off Road Challenge (v1.50)</description>
+	<cloneof>offroadc</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1997</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="orunners" index="" image="">
+	<description>OutRunners (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="orunnersj" index="" image="">
+	<description>OutRunners (Japan)</description>
+	<cloneof>orunners</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="orunnersu" index="" image="">
+	<description>OutRunners (US)</description>
+	<cloneof>orunners</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="overtop" index="" image="">
+	<description>Over Top</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>ADK</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_radr2" index="" image="">
+	<description>Rad Racer II (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Square (Nintendo of America license)</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pocketrc" index="" image="">
+	<description>Pocket Racer (Japan, PKR1/VER.B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pwheelsj" index="" image="">
+	<description>Power Wheels (Japan)</description>
+	<cloneof>dblaxle</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1991</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedriv" index="" image="">
+	<description>Race Drivin&apos; (cockpit, rev 5)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedriv1" index="" image="">
+	<description>Race Drivin&apos; (cockpit, rev 1)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedriv2" index="" image="">
+	<description>Race Drivin&apos; (cockpit, rev 2)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedriv3" index="" image="">
+	<description>Race Drivin&apos; (cockpit, rev 3)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedriv4" index="" image="">
+	<description>Race Drivin&apos; (cockpit, rev 4)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivb" index="" image="">
+	<description>Race Drivin&apos; (cockpit, British, rev 5)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivb1" index="" image="">
+	<description>Race Drivin&apos; (cockpit, British, rev 1)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivb4" index="" image="">
+	<description>Race Drivin&apos; (cockpit, British, rev 4)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivc" index="" image="">
+	<description>Race Drivin&apos; (compact, rev 5)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivc1" index="" image="">
+	<description>Race Drivin&apos; (compact, rev 1)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivc2" index="" image="">
+	<description>Race Drivin&apos; (compact, rev 2)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivc4" index="" image="">
+	<description>Race Drivin&apos; (compact, rev 4)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivcb" index="" image="">
+	<description>Race Drivin&apos; (compact, British, rev 5)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivcb4" index="" image="">
+	<description>Race Drivin&apos; (compact, British, rev 4)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivcg" index="" image="">
+	<description>Race Drivin&apos; (compact, German, rev 5)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivcg4" index="" image="">
+	<description>Race Drivin&apos; (compact, German, rev 4)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivg" index="" image="">
+	<description>Race Drivin&apos; (cockpit, German, rev 5)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivg1" index="" image="">
+	<description>Race Drivin&apos; (cockpit, German, rev 2)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivg4" index="" image="">
+	<description>Race Drivin&apos; (cockpit, German, rev 4)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racedrivpan" index="" image="">
+	<description>Race Drivin&apos; Panorama (prototype, rev 2.1)</description>
+	<cloneof>racedriv</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racingb" index="" image="">
+	<description>Racing Beat (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1991</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="racingbj" index="" image="">
+	<description>Racing Beat (Japan)</description>
+	<cloneof>racingb</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1991</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="radikalb" index="" image="">
+	<description>Radikal Bikers (Version 2.02)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1998</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="radikalba" index="" image="">
+	<description>Radikal Bikers (Version 2.02, Atari license)</description>
+	<cloneof>radikalb</cloneof>
+	<crc/>
+	<manufacturer>Gaelco (Atari license)</manufacturer>
+	<year>1998</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="radm" index="" image="">
+	<description>Rad Mobile (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="radmu" index="" image="">
+	<description>Rad Mobile (US)</description>
+	<cloneof>radm</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="radr" index="" image="">
+	<description>Rad Rally (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="radrj" index="" image="">
+	<description>Rad Rally (Japan)</description>
+	<cloneof>radr</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="radru" index="" image="">
+	<description>Rad Rally (US)</description>
+	<cloneof>radr</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="raveracj" index="" image="">
+	<description>Rave Racer (Rev. RV1 Ver.B, Japan)</description>
+	<cloneof>raveracw</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1995</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="raveracja" index="" image="">
+	<description>Rave Racer (Rev. RV1, Japan)</description>
+	<cloneof>raveracw</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1995</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="raveracw" index="" image="">
+	<description>Rave Racer (Rev. RV2, World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1995</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ridgera2" index="" image="">
+	<description>Ridge Racer 2 (Rev. RRS2, World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ridgera2j" index="" image="">
+	<description>Ridge Racer 2 (Rev. RRS1 Ver.B, Japan)</description>
+	<cloneof>ridgera2</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ridgera2ja" index="" image="">
+	<description>Ridge Racer 2 (Rev. RRS1, Japan)</description>
+	<cloneof>ridgera2</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ridgerac" index="" image="">
+	<description>Ridge Racer (Rev. RR3, World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ridgerac3" index="" image="">
+	<description>Ridge Racer (Rev. RR2 Ver.B, World, 3-screen?)</description>
+	<cloneof>ridgerac</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ridgeracb" index="" image="">
+	<description>Ridge Racer (Rev. RR2, World)</description>
+	<cloneof>ridgerac</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ridgeracj" index="" image="">
+	<description>Ridge Racer (Rev. RR1, Japan)</description>
+	<cloneof>ridgerac</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ridhero" index="" image="">
+	<description>Riding Hero (NGM-006)(NGH-006)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ridheroh" index="" image="">
+	<description>Riding Hero (set 2)</description>
+	<cloneof>ridhero</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="roadriot" index="" image="">
+	<description>Road Riot 4WD (set 1, 13 Nov 1991)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1991</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="roadrioto" index="" image="">
+	<description>Road Riot 4WD (set 2, 04 Jun 1991)</description>
+	<cloneof>roadriot</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1991</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="roughrac" index="" image="">
+	<description>Rough Racer (Japan, Floppy Based, FD1094 317-0058-06b)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scross" index="" image="">
+	<description>Stadium Cross (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scrossa" index="" image="">
+	<description>Stadium Cross (World, alt)</description>
+	<cloneof>scross</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scrossu" index="" image="">
+	<description>Stadium Cross (US)</description>
+	<cloneof>scross</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfrush" index="" image="">
+	<description>San Francisco Rush</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shangonle" index="" image="">
+	<description>Limited Edition Hang-On</description>
+	<cloneof>shangon</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shangonrb" index="" image="">
+	<description>Super Hang-On (bootleg)</description>
+	<cloneof>shangon</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1992</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sidebs" index="" image="">
+	<description>Side by Side (Ver 2.7 J)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sidebs2" index="" image="">
+	<description>Side by Side 2 (Ver 2.6 A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1997</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sidebs2j" index="" image="">
+	<description>Side by Side 2 Evoluzione (Ver 2.4 J)</description>
+	<cloneof>sidebs2</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1997</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sidebsja" index="" image="">
+	<description>Side by Side (Ver 2.5 J)</description>
+	<cloneof>sidebs</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="slipstrm" index="" image="">
+	<description>Slip Stream (Brazil 950515)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1995</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="slipstrmh" index="" image="">
+	<description>Slip Stream (Hispanic 950515)</description>
+	<cloneof>slipstrm</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1995</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="soniccar" index="" image="">
+	<description>Waku Waku Sonic Patrol Car</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="speedrcr" index="" image="">
+	<description>Speed Racer</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1995</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="speedup" index="" image="">
+	<description>Speed Up (Version 1.20)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="speedup10" index="" image="">
+	<description>Speed Up (Version 1.00)</description>
+	<cloneof>speedup</cloneof>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="strtdriv" index="" image="">
+	<description>Street Drivin&apos; (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="superchs" index="" image="">
+	<description>Super Chase - Criminal Termination (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1992</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="superchsj" index="" image="">
+	<description>Super Chase - Criminal Termination (Japan)</description>
+	<cloneof>superchs</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1992</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="superchsp" index="" image="">
+	<description>Super Chase - Criminal Termination (1992/10/26 20:24:29 CHASE 3 VER 1.1, prototype)</description>
+	<cloneof>superchs</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1992</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="superchsu" index="" image="">
+	<description>Super Chase - Criminal Termination (US)</description>
+	<cloneof>superchs</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1992</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="suzuk8h2" index="" image="">
+	<description>Suzuka 8 Hours 2 (World, Rev B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="suzuk8h2j" index="" image="">
+	<description>Suzuka 8 Hours 2 (Japan, Rev B)</description>
+	<cloneof>suzuk8h2</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="suzuka8h" index="" image="">
+	<description>Suzuka 8 Hours (World, Rev C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="suzuka8hj" index="" image="">
+	<description>Suzuka 8 Hours (Japan, Rev B)</description>
+	<cloneof>suzuka8h</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thrilld" index="" image="">
+	<description>Thrill Drive (JAE)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thrilldb" index="" image="">
+	<description>Thrill Drive (JAB)</description>
+	<cloneof>thrilld</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trally" index="" image="">
+	<description>Thrash Rally (ALM-003)(ALH-003)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Alpha Denshi Co.</manufacturer>
+	<year>1991</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vaportrx" index="" image="">
+	<description>Vapor TRX</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1998</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vaportrxp" index="" image="">
+	<description>Vapor TRX (prototype)</description>
+	<cloneof>vaportrx</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1998</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vformula" index="" image="">
+	<description>Virtua Formula</description>
+	<cloneof>vr</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="victlapw" index="" image="">
+	<description>Ace Driver: Victory Lap (Rev. ADV2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vr" index="" image="">
+	<description>Virtua Racing</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="waveshrk" index="" image="">
+	<description>Wave Shark (UAB, USA v1.04)</description>
+	<cloneof>jetwave</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="windheat" index="" image="">
+	<description>Winding Heat (EAA, Euro v2.11)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="windheata" index="" image="">
+	<description>Winding Heat (AAA, Asia v2.11)</description>
+	<cloneof>windheat</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="windheatj" index="" image="">
+	<description>Winding Heat (JAA, Japan v2.11)</description>
+	<cloneof>windheat</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="windheatu" index="" image="">
+	<description>Winding Heat (UBC, USA v2.22)</description>
+	<cloneof>windheat</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="winrun91" index="" image="">
+	<description>Winning Run &apos;91 (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1991</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wrally" index="" image="">
+	<description>World Rally (Version 1.0, Checksum 0E56)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wrallya" index="" image="">
+	<description>World Rally (Version 1.0, Checksum 3873)</description>
+	<cloneof>wrally</cloneof>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wrallyat" index="" image="">
+	<description>World Rally (US, 930217)</description>
+	<cloneof>wrally</cloneof>
+	<crc/>
+	<manufacturer>Gaelco (Atari license)</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wrallyb" index="" image="">
+	<description>World Rally (Version 1.0, Checksum 8AA2)</description>
+	<cloneof>wrally</cloneof>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

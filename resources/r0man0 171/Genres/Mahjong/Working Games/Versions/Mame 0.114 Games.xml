@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Mahjong / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="mjmyornt" index="" image="">
+	<description>Mahjong The Mysterious Orient</description>
+	<cloneof>mjmyorn2</cloneof>
+	<crc/>
+	<manufacturer>Dynax</manufacturer>
+	<year>1992</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjmyuniv" index="" image="">
+	<description>Mahjong The Mysterious Universe (Japan, D85)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dynax</manufacturer>
+	<year>1994</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjmywrld" index="" image="">
+	<description>Mahjong The Mysterious World (set 2)</description>
+	<cloneof>mjmyster</cloneof>
+	<crc/>
+	<manufacturer>Dynax</manufacturer>
+	<year>1994</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

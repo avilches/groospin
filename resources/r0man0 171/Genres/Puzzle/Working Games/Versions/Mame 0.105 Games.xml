@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Puzzle / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="batlbubl" index="" image="">
+	<description>Battle Bubble (v2.00)</description>
+	<cloneof>bangball</cloneof>
+	<crc/>
+	<manufacturer>Banpresto (Limenko license?)</manufacturer>
+	<year>1999</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mangchi" index="" image="">
+	<description>Mang-Chi</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Afega</manufacturer>
+	<year>2000</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="puzzlekg" index="" image="">
+	<description>Puzzle King (Dance &amp; Puzzle)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Eolith</manufacturer>
+	<year>1998</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tetrsark" index="" image="">
+	<description>Tetris (D.R. Korea)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>D.R. Korea</manufacturer>
+	<year>19??</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

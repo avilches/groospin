@@ -1,0 +1,239 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2000-2009 / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="evosocc" index="" image="">
+	<description>Evolution Soccer</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Evoga</manufacturer>
+	<year>2001</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kick4csh" index="" image="">
+	<description>Kick &apos;4&apos; Cash</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2004</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tecmowcm" index="" image="">
+	<description>Tecmo World Cup Millennium (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Tecmo</manufacturer>
+	<year>2000</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vs2002ex" index="" image="">
+	<description>Virtua Striker 2002 (GDT-0002)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / Amusement Vision</manufacturer>
+	<year>2002</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vs2002j" index="" image="">
+	<description>Virtua Striker 2002 (GDT-0001)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / Amusement Vision</manufacturer>
+	<year>2002</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vs4" index="" image="">
+	<description>Virtua Striker 4 (Export) (GDT-0015)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2004</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vs42006" index="" image="">
+	<description>Virtua Striker 4 Ver.2006 (Japan) (Rev D) (GDT-0020D)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2006</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vs42k6ex" index="" image="">
+	<description>Virtua Striker 4 Ver.2006 (Export) (GDT-0021)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2006</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vs4j" index="" image="">
+	<description>Virtua Striker 4 (Japan) (Rev E) (GDT-0013E)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2005</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vstrik3" index="" image="">
+	<description>Virtua Striker 3 Ver. 2002 (GDS-0006)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2001</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vstrik3c" index="" image="">
+	<description>Virtua Striker 3 (USA, EXP, KOR, AUS) (Rev B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2001</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vstrik3co" index="" image="">
+	<description>Virtua Striker 3 (USA, EXP, KOR, AUS)</description>
+	<cloneof>vstrik3c</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2001</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wccf212e" index="" image="">
+	<description>World Club Champion Football Serie A 2002-2003 Ver.2.12 (CDV-10002)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2004</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wccf234j" index="" image="">
+	<description>World Club Champion Football Serie A 2002-2003 Ver.2.34 (CDV-10008)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2004</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wccf310j" index="" image="">
+	<description>World Club Champion Football European Clubs 2004-2005 (CDV-10013)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2005</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wccf322e" index="" image="">
+	<description>World Club Champion Football European Clubs 2004-2005 Ver.3.22 (CDV-10015P)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2005</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wccf331e" index="" image="">
+	<description>World Club Champion Football European Clubs 2004-2005 Ver.1.1 (CDV-10015)</description>
+	<cloneof>wccf322e</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2005</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wccf420e" index="" image="">
+	<description>World Club Champion Football European Clubs 2005-2006 (CDV-10027)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2006</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wldkicks" index="" image="">
+	<description>World Kicks (US, WK3 Ver.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2000</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wldkicksa" index="" image="">
+	<description>World Kicks (Asia, WK2 Ver.A)</description>
+	<cloneof>wldkicks</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2000</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wldkicksj" index="" image="">
+	<description>World Kicks PCB (Japan, WKC1 Ver.A)</description>
+	<cloneof>wldkicks</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2000</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wswe" index="" image="">
+	<description>World Soccer Winning Eleven Arcade Game Style</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2002</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wswe2k3" index="" image="">
+	<description>World Soccer Winning Eleven Arcade Game 2003</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2003</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Breakout / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="arkgcbla" index="" image="">
+	<description>Arkanoid (bootleg on Block hardware, set 2)</description>
+	<cloneof>arkanoid</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1986</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cannonb3" index="" image="">
+	<description>Cannon Ball (bootleg on Crazy Kong hardware) (set 3, no bonus game)</description>
+	<cloneof>cannonbp</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Soft)</manufacturer>
+	<year>1985</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dominobv2" index="" image="">
+	<description>Domino Block ver.2</description>
+	<cloneof>dominob</cloneof>
+	<crc/>
+	<manufacturer>Wonwoo Systems</manufacturer>
+	<year>1996</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbrkout3" index="" image="">
+	<description>Super Breakout (rev 03)</description>
+	<cloneof>sbrkout</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1978</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

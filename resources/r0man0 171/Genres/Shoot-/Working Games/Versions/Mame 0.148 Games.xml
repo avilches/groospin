@@ -1,0 +1,429 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Shoot- / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="aliensyn7" index="" image="">
+	<description>Alien Syndrome (set 7, System 16B, MC-8123B 317-00xx)</description>
+	<cloneof>aliensyn</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="asideral" index="" image="">
+	<description>Ataque Sideral (Spanish bootleg of UniWar S)</description>
+	<cloneof>uniwars</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Electrogame S.A.)</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2" index="" image="">
+	<description>DoDonPachi II - Bee Storm (World, ver. 102)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2100" index="" image="">
+	<description>DoDonPachi II - Bee Storm (World, ver. 100)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2100c" index="" image="">
+	<description>DoDonPachi II - Bee Storm (China, ver. 100)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2100hk" index="" image="">
+	<description>DoDonPachi II - Bee Storm (Hong Kong, ver. 100)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2100k" index="" image="">
+	<description>DoDonPachi II - Bee Storm (Korea, ver. 100)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2100t" index="" image="">
+	<description>DoDonPachi II - Bee Storm (Taiwan, ver. 100)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2101" index="" image="">
+	<description>DoDonPachi II - Bee Storm (World, ver. 101)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2101c" index="" image="">
+	<description>DoDonPachi II - Bee Storm (China, ver. 101)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2101hk" index="" image="">
+	<description>DoDonPachi II - Bee Storm (Hong Kong, ver. 101)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2101k" index="" image="">
+	<description>DoDonPachi II - Bee Storm (Korea, ver. 101)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2101t" index="" image="">
+	<description>DoDonPachi II - Bee Storm (Taiwan, ver. 101)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2c" index="" image="">
+	<description>DoDonPachi II - Bee Storm (China, ver. 102)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2hk" index="" image="">
+	<description>DoDonPachi II - Bee Storm (Hong Kong, ver. 102)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2k" index="" image="">
+	<description>DoDonPachi II - Bee Storm (Korea, ver. 102)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddp2t" index="" image="">
+	<description>DoDonPachi II - Bee Storm (Taiwan, ver. 102)</description>
+	<cloneof>ddp2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="forgottnuaa" index="" image="">
+	<description>Forgotten Worlds (USA, B-Board 88618B-2, Rev. AA)</description>
+	<cloneof>forgottn</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galaga3b" index="" image="">
+	<description>Galaga 3 (GP3)</description>
+	<cloneof>gaplus</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galaxrf" index="" image="">
+	<description>Galaxian (Recreativos Franco S.A. Spanish bootleg)</description>
+	<cloneof>galaxian</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Recreativos Franco S.A.)</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gaplusa" index="" image="">
+	<description>Gaplus (GP2)</description>
+	<cloneof>gaplus</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="grdnstrmv" index="" image="">
+	<description>Guardian Storm (vertical)</description>
+	<cloneof>grdnstrm</cloneof>
+	<crc/>
+	<manufacturer>Afega (Apples Industries license)</manufacturer>
+	<year>1998</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="indianbtbr" index="" image="">
+	<description>Indian Battle (Brazil)</description>
+	<cloneof>indianbt</cloneof>
+	<crc/>
+	<manufacturer>Taito do Brasil</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jackler" index="" image="">
+	<description>Jackler (Jungler bootleg)</description>
+	<cloneof>jungler</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lrescuem2" index="" image="">
+	<description>Lunar Rescue (Model Racing bootleg, set 2)</description>
+	<cloneof>lrescue</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Model Racing)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="luckboomh" index="" image="">
+	<description>Lucky Boom (Hard Times hardware)</description>
+	<cloneof>luckboom</cloneof>
+	<crc/>
+	<manufacturer>Playmark</manufacturer>
+	<year>1996</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mooncptc" index="" image="">
+	<description>Moon Cresta (Petaco S.A. Spanish bootleg)</description>
+	<cloneof>mooncrst</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Petaco S.A.)</manufacturer>
+	<year>1980?</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mooncreg" index="" image="">
+	<description>Moon Cresta (Electrogame S.A. Spanish bootleg)</description>
+	<cloneof>mooncrst</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Electrogame S.A.)</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pangb2" index="" image="">
+	<description>Pang (bootleg, set 4)</description>
+	<cloneof>pang</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="phoenixs" index="" image="">
+	<description>Phoenix (Sonic, Spanish bootleg)</description>
+	<cloneof>phoenix</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Sonic)</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rdfts" index="" image="">
+	<description>Raiden Fighters (Taiwan, single board)</description>
+	<cloneof>rdft</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Explorer System Corp. license)</manufacturer>
+	<year>1996</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="redfoxwp2a" index="" image="">
+	<description>Red Fox War Planes II (China, set 2)</description>
+	<cloneof>grdnstrm</cloneof>
+	<crc/>
+	<manufacturer>Afega</manufacturer>
+	<year>1998</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rfjetsa" index="" image="">
+	<description>Raiden Fighters Jet (US, single board, test version?)</description>
+	<cloneof>rfjet</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>1999</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="seabattl" index="" image="">
+	<description>Sea Battle (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Zaccaria</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="starblad" index="" image="">
+	<description>Starblade (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="starfgmc" index="" image="">
+	<description>Starfighter (Moon Cresta bootleg)</description>
+	<cloneof>mooncrst</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Samyra Engineering)</manufacturer>
+	<year>198?</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="starwarr" index="" image="">
+	<description>Star Warrior</description>
+	<cloneof>spacefb</cloneof>
+	<crc/>
+	<manufacturer>bootleg? (Potomac Mortgage)</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stuntair" index="" image="">
+	<description>Stunt Air</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nuova Videotron</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="timefgtr" index="" image="">
+	<description>Time Fighter (Time Pilot conversion on Galaxian hardware)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito do Brasil</manufacturer>
+	<year>198?</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tnextspc2" index="" image="">
+	<description>The Next Space (set 2)</description>
+	<cloneof>tnextspc</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vastar3" index="" image="">
+	<description>Vastar (set 3)</description>
+	<cloneof>vastar</cloneof>
+	<crc/>
+	<manufacturer>Orca (Sesame Japan license)</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vastar4" index="" image="">
+	<description>Vastar (set 4)</description>
+	<cloneof>vastar</cloneof>
+	<crc/>
+	<manufacturer>Orca (Sesame Japan license)</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

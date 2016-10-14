@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Midway / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="blitz11" index="" image="">
+	<description>NFL Blitz (boot ROM 1.1)</description>
+	<cloneof>blitz</cloneof>
+	<crc/>
+	<manufacturer>Midway Games</manufacturer>
+	<year>1997</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gauntdl24" index="" image="">
+	<description>Gauntlet Dark Legacy (version DL 2.4)</description>
+	<cloneof>gauntdl</cloneof>
+	<crc/>
+	<manufacturer>Midway Games</manufacturer>
+	<year>1999</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

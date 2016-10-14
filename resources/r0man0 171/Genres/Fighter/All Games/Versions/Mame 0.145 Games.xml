@@ -1,0 +1,259 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Fighter / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="ffighta" index="" image="">
+	<description>Final Fight (World, set 2)</description>
+	<cloneof>ffight</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jojo" index="" image="">
+	<description>JoJo&apos;s Venture (USA 990128)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jojoba" index="" image="">
+	<description>JoJo no Kimyou na Bouken: Mirai e no Isan (Japan 990927)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jojoban" index="" image="">
+	<description>JoJo no Kimyou na Bouken: Mirai e no Isan (Japan 990927, NO CD)</description>
+	<cloneof>jojoba</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jojobane" index="" image="">
+	<description>JoJo&apos;s Bizarre Adventure (Euro 990927, NO CD)</description>
+	<cloneof>jojoba</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jojoj" index="" image="">
+	<description>JoJo no Kimyou na Bouken (Japan 990128)</description>
+	<cloneof>jojo</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jojon" index="" image="">
+	<description>JoJo&apos;s Venture (Asia 990128, NO CD)</description>
+	<cloneof>jojo</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jzth" index="" image="">
+	<description>Jue Zhan Tian Huang</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kovshxas" index="" image="">
+	<description>Knights of Valour: Aoshi Sanguo / Sangoku Senki: Aoshi Sanguo (ver. 202CN)</description>
+	<cloneof>kovshp</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2004</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mazana" index="" image="">
+	<description>Mazan: Flash of the Blade (Asia, MAZ2 Ver.A)</description>
+	<cloneof>mazan</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2002</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mkyawdim2" index="" image="">
+	<description>Mortal Kombat (Yawdim bootleg, set 2)</description>
+	<cloneof>mk</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Yawdim)</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mkyturboe" index="" image="">
+	<description>Mortal Kombat (Turbo 3.0 08/31/92, hack)</description>
+	<cloneof>mk</cloneof>
+	<crc/>
+	<manufacturer>hack</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sf2ceja" index="" image="">
+	<description>Street Fighter II&apos;: Champion Edition (Japan 920322)</description>
+	<cloneof>sf2ce</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sf2cejc" index="" image="">
+	<description>Street Fighter II&apos;: Champion Edition (Japan 920803)</description>
+	<cloneof>sf2ce</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sf2ug" index="" image="">
+	<description>Street Fighter II: The World Warrior (USA 910522, Rev. G)</description>
+	<cloneof>sf2</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfex2ph" index="" image="">
+	<description>Street Fighter EX2 Plus (Hispanic 990611)</description>
+	<cloneof>sfex2p</cloneof>
+	<crc/>
+	<manufacturer>Capcom / Arika</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sgyxz" index="" image="">
+	<description>Warriors of Fate (&apos;sgyxz&apos; bootleg)</description>
+	<cloneof>wof</cloneof>
+	<crc/>
+	<manufacturer>bootleg (All-In Electronic)</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="soulclb3a" index="" image="">
+	<description>Soul Calibur III (SC31002-NA-A key, NA-B disc)</description>
+	<cloneof>soulclb3</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2005</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssf2xjr" index="" image="">
+	<description>Super Street Fighter II X: Grand Master Challenge (Japan 940223 rent version)</description>
+	<cloneof>ssf2t</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="svgpcb" index="" image="">
+	<description>S.V.G. - Spectral vs Generation (M68k label V100JP) (ARM label V100JP, ROM 05/12/05 S.V.G V100) (Japan, JAMMA PCB)</description>
+	<cloneof>svg</cloneof>
+	<crc/>
+	<manufacturer>IGS / Idea Factory</manufacturer>
+	<year>2005</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tekken4c" index="" image="">
+	<description>Tekken 4 (TEF1 Ver. C)</description>
+	<cloneof>tekken4</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2002</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tektagtac" index="" image="">
+	<description>Tekken Tag Tournament (Asia, TEG2/VER.C1, set 1)</description>
+	<cloneof>tektagt</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thegladpcb" index="" image="">
+	<description>The Gladiator / Road of the Sword / Shen Jian (M68k label V100) (ARM label V100, ROM 02/25/03 SHEN JIAN) (Japan, JAMMA PCB)</description>
+	<cloneof>theglad</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2003</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vhuntjr1s" index="" image="">
+	<description>Vampire Hunter: Darkstalkers&apos; Revenge (Japan 950307 stop version)</description>
+	<cloneof>nwarr</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xmenaa" index="" image="">
+	<description>X-Men (4 Players ver ADA)</description>
+	<cloneof>xmen</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Fighter / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="kchampvs2" index="" image="">
+	<description>Karate Champ (US VS version, set 2)</description>
+	<cloneof>kchamp</cloneof>
+	<crc/>
+	<manufacturer>Data East USA</manufacturer>
+	<year>1984</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mktturbo" index="" image="">
+	<description>Mortal Kombat (Turbo Ninja T-Unit 03/19/93, hack)</description>
+	<cloneof>mk</cloneof>
+	<crc/>
+	<manufacturer>hack</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mkyturbo" index="" image="">
+	<description>Mortal Kombat (Turbo 3.1 09/09/93, hack)</description>
+	<cloneof>mk</cloneof>
+	<crc/>
+	<manufacturer>hack</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="samsho2k" index="" image="">
+	<description>Saulabi Spirits / Jin Saulabi Tu Hon (Korean release of Samurai Shodown II)</description>
+	<cloneof>samsho2</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

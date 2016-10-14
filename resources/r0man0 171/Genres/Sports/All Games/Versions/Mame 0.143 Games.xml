@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Sports / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="anmlbskt" index="" image="">
+	<description>Animal Basket</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>MOSS / Sammy</manufacturer>
+	<year>2005</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ar_ldrbb" index="" image="">
+	<description>Leader Board (Arcadia, set 3)</description>
+	<cloneof>ar_ldrb</cloneof>
+	<crc/>
+	<manufacturer>Arcadia Systems</manufacturer>
+	<year>1988</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="flyball" index="" image="">
+	<description>Flyball (rev 2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1976</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nbajamten" index="" image="">
+	<description>NBA Jam T.E. Nani Edition (rev 5.2 8/11/95, prototype)</description>
+	<cloneof>nbajamte</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1995</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

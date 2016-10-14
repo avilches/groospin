@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1980-1989 / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="ddayjlc" index="" image="">
+	<description>D-Day (Jaleco set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drivfrcb" index="" image="">
+	<description>Driving Force (Galaxian conversion bootleg)</description>
+	<cloneof>drivfrcp</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Elsys Software)</manufacturer>
+	<year>1985</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="leprechp" index="" image="">
+	<description>Leprechaun (Pacific)</description>
+	<cloneof>leprechn</cloneof>
+	<crc/>
+	<manufacturer>Tong Electronic (Pacific Polytechnical license)</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="monsterb2" index="" image="">
+	<description>Monster Bash (2 board version)</description>
+	<cloneof>monsterb</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ninja" index="" image="">
+	<description>Ninja (315-5102)</description>
+	<cloneof>seganinj</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="piratetr" index="" image="">
+	<description>Pirate Treasure</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Tong Electronic</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="suprridr" index="" image="">
+	<description>Super Rider</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation (Venture Line license)</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

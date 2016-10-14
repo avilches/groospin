@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Capcom / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="ddsoma" index="" image="">
+	<description>Dungeons &amp; Dragons: Shadow over Mystara (Asia 960619)</description>
+	<cloneof>ddsom</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddsomr1" index="" image="">
+	<description>Dungeons &amp; Dragons: Shadow over Mystara (Euro 960223)</description>
+	<cloneof>ddsom</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dstlkur1" index="" image="">
+	<description>Darkstalkers: The Night Warriors (USA 940705)</description>
+	<cloneof>dstlk</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfar3" index="" image="">
+	<description>Street Fighter Alpha: Warriors&apos; Dreams (Euro 950605)</description>
+	<cloneof>sfa</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

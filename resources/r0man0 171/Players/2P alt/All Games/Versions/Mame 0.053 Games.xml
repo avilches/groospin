@@ -1,0 +1,329 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2P alt / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="bouldashj" index="" image="">
+	<description>Boulder Dash / Boulder Dash Part 2 (Japan)</description>
+	<cloneof>bouldash</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation (licensed from First Star)</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bubblesp" index="" image="">
+	<description>Bubbles (prototype version)</description>
+	<cloneof>bubbles</cloneof>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cameltryau" index="" image="">
+	<description>Cameltry (US, YM2203 + M6295)</description>
+	<cloneof>cameltry</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1989</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cburnrub2" index="" image="">
+	<description>Burnin&apos; Rubber (DECO Cassette, set 2)</description>
+	<cloneof>cburnrub</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cgraplop2" index="" image="">
+	<description>Graplop (no title screen) (DECO Cassette)</description>
+	<cloneof>cgraplop</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chelnov" index="" image="">
+	<description>Chelnov - Atomic Runner (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="clapapa2" index="" image="">
+	<description>Rootin&apos; Tootin&apos; (DECO Cassette)</description>
+	<cloneof>clapapa</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cnightst2" index="" image="">
+	<description>Night Star (DECO Cassette, set 2)</description>
+	<cloneof>cnightst</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cppicf2" index="" image="">
+	<description>Peter Pepper&apos;s Ice Cream Factory (DECO Cassette, set 2)</description>
+	<cloneof>cppicf</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cscrtry2" index="" image="">
+	<description>Scrum Try (DECO Cassette, set 2)</description>
+	<cloneof>cscrtry</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="csweetht" index="" image="">
+	<description>Sweet Heart (DECO Cassette)</description>
+	<cloneof>cdiscon1</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ctisland2" index="" image="">
+	<description>Treasure Island (DECO Cassette, set 2)</description>
+	<cloneof>ctisland</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ctisland3" index="" image="">
+	<description>Treasure Island (DECO Cassette, set 3)</description>
+	<cloneof>ctisland</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dkongjo" index="" image="">
+	<description>Donkey Kong (Japan set 2)</description>
+	<cloneof>dkong</cloneof>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1981</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dkongjrj" index="" image="">
+	<description>Donkey Kong Jr. (Japan)</description>
+	<cloneof>dkongjr</cloneof>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galxwars" index="" image="">
+	<description>Galaxy Wars (Universal set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Universal</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galxwars2" index="" image="">
+	<description>Galaxy Wars (Universal set 2)</description>
+	<cloneof>galxwars</cloneof>
+	<crc/>
+	<manufacturer>Universal</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gteikob2" index="" image="">
+	<description>Gingateikoku No Gyakushu (bootleg set 2)</description>
+	<cloneof>uniwars</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtmrusa" index="" image="">
+	<description>Great 1000 Miles Rally: U.S.A Version! (94/09/06)</description>
+	<cloneof>gtmr</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hasamu" index="" image="">
+	<description>Hasamu (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1991</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jspecter2" index="" image="">
+	<description>Jatre Specter (set 2)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Jatre)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="m660j" index="" image="">
+	<description>Mission 660 (Japan)</description>
+	<cloneof>m660</cloneof>
+	<crc/>
+	<manufacturer>Wood Place Inc. (Taito Corporation license)</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mightguy" index="" image="">
+	<description>Mighty Guy</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1986</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="omega" index="" image="">
+	<description>Omega</description>
+	<cloneof>theend</cloneof>
+	<crc/>
+	<manufacturer>bootleg?</manufacturer>
+	<year>19??</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ozmawars2" index="" image="">
+	<description>Ozma Wars (set 2)</description>
+	<cloneof>ozmawars</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="robocop" index="" image="">
+	<description>Robocop (World revision 4)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="robocopj" index="" image="">
+	<description>Robocop (Japan)</description>
+	<cloneof>robocop</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="srdarwin" index="" image="">
+	<description>Super Real Darwin (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sstrangr" index="" image="">
+	<description>Space Stranger</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Yachiyo Electronics, Ltd.</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sstrangr2" index="" image="">
+	<description>Space Stranger 2</description>
+	<cloneof>sstrangr</cloneof>
+	<crc/>
+	<manufacturer>Yachiyo Electronics, Ltd.</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="swimmerb" index="" image="">
+	<description>Swimmer (set 3)</description>
+	<cloneof>swimmer</cloneof>
+	<crc/>
+	<manufacturer>Tehkan</manufacturer>
+	<year>1982</year>
+	<genre>Water</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="upndown" index="" image="">
+	<description>Up&apos;n Down (315-5030)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1983</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

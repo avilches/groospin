@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Puzzle / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="drgw3" index="" image="">
+	<description>Dragon World 3 / Chuugokuryuu 3 Special (ver. 106)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1998</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drgw3100" index="" image="">
+	<description>Chuugokuryuu 3 Special (Japan, ver. 100)</description>
+	<cloneof>drgw3</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1998</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shngmtkb" index="" image="">
+	<description>Shanghai Matekibuyuu</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sunsoft / Activision</manufacturer>
+	<year>1998</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spf2ta" index="" image="">
+	<description>Super Puzzle Fighter II Turbo (Asia 960529)</description>
+	<cloneof>spf2t</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="susume" index="" image="">
+	<description>Susume! Taisen Puzzle-Dama (GV027 Japan 1.20)</description>
+	<cloneof>lacrazyc</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zintrckb" index="" image="">
+	<description>Zintrick / Oshidashi Zentrix (hack)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>hack</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

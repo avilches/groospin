@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Nichibutsu / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="armedff" index="" image="">
+	<description>Armed Formation (Fillmore license)</description>
+	<cloneof>armedf</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu (Fillmore license)</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dangar" index="" image="">
+	<description>Ufo Robo Dangar (12/1/1986)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dangar2" index="" image="">
+	<description>Ufo Robo Dangar (9/26/1986)</description>
+	<cloneof>dangar</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="eagle2" index="" image="">
+	<description>Eagle (set 2)</description>
+	<cloneof>mooncrst</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu (Centuri license)</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galivan3" index="" image="">
+	<description>Cosmo Police Galivan (12/11/1985)</description>
+	<cloneof>galivan</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="radrad" index="" image="">
+	<description>Radical Radial</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu USA</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rugrats" index="" image="">
+	<description>Rug Rats</description>
+	<cloneof>wiping</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1983</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sectrzon" index="" image="">
+	<description>Sector Zone</description>
+	<cloneof>seicross</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu / Alice</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smooncrs" index="" image="">
+	<description>Super Moon Cresta</description>
+	<cloneof>mooncrst</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu (Gremlin license)</manufacturer>
+	<year>1980?</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="terracrea" index="" image="">
+	<description>Terra Cresta (YM3526 set 3)</description>
+	<cloneof>terracre</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="terrafu" index="" image="">
+	<description>Terra Force (US)</description>
+	<cloneof>terraf</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu USA</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wiping" index="" image="">
+	<description>Wiping</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

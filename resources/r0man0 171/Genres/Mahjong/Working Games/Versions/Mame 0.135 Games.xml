@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Mahjong / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="daimyojn" index="" image="">
+	<description>Mahjong Daimyojin (Japan, T017-PB-00)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dynax / Techno-Top / Techno-Planning</manufacturer>
+	<year>2002</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mgdha" index="" image="">
+	<description>Mahjong Man Guan Da Heng (Taiwan, V123T1)</description>
+	<cloneof>mgdh</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1997</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nkishusp" index="" image="">
+	<description>Mahjong Nenrikishu SP (Japan, V250J)</description>
+	<cloneof>lhb2</cloneof>
+	<crc/>
+	<manufacturer>IGS / Alta</manufacturer>
+	<year>1998</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ryukobou" index="" image="">
+	<description>Mahjong Ryukobou (Japan, V030J)</description>
+	<cloneof>lhb</cloneof>
+	<crc/>
+	<manufacturer>IGS / Alta</manufacturer>
+	<year>1995</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sryudens" index="" image="">
+	<description>Mahjong Seiryu Densetsu (Japan, NM502)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dynax / Face</manufacturer>
+	<year>1996</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

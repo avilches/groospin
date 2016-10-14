@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Psikyo / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="dragnblz" index="" image="">
+	<description>Dragon Blaze</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Psikyo</manufacturer>
+	<year>2000</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnbarich" index="" image="">
+	<description>Gunbarich</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Psikyo</manufacturer>
+	<year>2001</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hotdebut" index="" image="">
+	<description>Quiz de Idol! Hot Debut (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>MOSS / Psikyo</manufacturer>
+	<year>2000</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hotgm4ev" index="" image="">
+	<description>Taisen Hot Gimmick 4 Ever (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Psikyo</manufacturer>
+	<year>2000</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hotgmcki" index="" image="">
+	<description>Mahjong Hot Gimmick Integral (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Psikyo</manufacturer>
+	<year>2001</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="loderndf" index="" image="">
+	<description>Lode Runner - The Dig Fight (ver. B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Psikyo</manufacturer>
+	<year>2000</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="loderndfa" index="" image="">
+	<description>Lode Runner - The Dig Fight (ver. A)</description>
+	<cloneof>loderndf</cloneof>
+	<crc/>
+	<manufacturer>Psikyo</manufacturer>
+	<year>2000</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjgtaste" index="" image="">
+	<description>Mahjong G-Taste</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Psikyo</manufacturer>
+	<year>2002</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

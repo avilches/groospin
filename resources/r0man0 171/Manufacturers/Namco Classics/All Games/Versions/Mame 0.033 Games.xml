@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Namco / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="moonal2" index="" image="">
+	<description>Moon Alien Part 2</description>
+	<cloneof>galaxian</cloneof>
+	<crc/>
+	<manufacturer>Namco / Nichibutsu</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="moonal2b" index="" image="">
+	<description>Moon Alien Part 2 (older version)</description>
+	<cloneof>galaxian</cloneof>
+	<crc/>
+	<manufacturer>Namco / Nichibutsu</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="paclandj" index="" image="">
+	<description>Pac-Land (Japan new)</description>
+	<cloneof>pacland</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="paclandjo" index="" image="">
+	<description>Pac-Land (Japan old)</description>
+	<cloneof>pacland</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="paclandm" index="" image="">
+	<description>Pac-Land (Midway)</description>
+	<cloneof>pacland</cloneof>
+	<crc/>
+	<manufacturer>Namco (Bally Midway license)</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

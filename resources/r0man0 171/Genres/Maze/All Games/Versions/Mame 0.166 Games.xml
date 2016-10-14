@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Maze / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="mwalkd" index="" image="">
+	<description>Michael Jackson&apos;s Moonwalker (World) (bootleg of FD1094/8751 317-0159)</description>
+	<cloneof>mwalk</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mwalkjd" index="" image="">
+	<description>Michael Jackson&apos;s Moonwalker (Japan) (bootleg of FD1094/8751 317-0157 set)</description>
+	<cloneof>mwalk</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mwalkud" index="" image="">
+	<description>Michael Jackson&apos;s Moonwalker (US) (bootleg of FD1094/8751 317-0158)</description>
+	<cloneof>mwalk</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pac90" index="" image="">
+	<description>Pac-Man (bootleg on World Cup &apos;90 hardware)</description>
+	<cloneof>puckman</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Macro)</manufacturer>
+	<year>199?</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="route16" index="" image="">
+	<description>Route 16 (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Tehkan / Sun Electronics (Centuri license)</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shockingko" index="" image="">
+	<description>Shocking (Korea, set 2)</description>
+	<cloneof>shocking</cloneof>
+	<crc/>
+	<manufacturer>Yun Sung</manufacturer>
+	<year>1997</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

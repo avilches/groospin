@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Sports / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="gogostrk" index="" image="">
+	<description>Go Go Strike</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>American Alpha / Paokai</manufacturer>
+	<year>2007</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pbillrdsa" index="" image="">
+	<description>Perfect Billiard (MC-8123, 317-5008)</description>
+	<cloneof>pbillrd</cloneof>
+	<crc/>
+	<manufacturer>Nihon System</manufacturer>
+	<year>1987</year>
+	<genre>Pool and Darts</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbasebalj" index="" image="">
+	<description>Super Champion Baseball (Japan)</description>
+	<cloneof>sbasebal</cloneof>
+	<crc/>
+	<manufacturer>Alpha Denshi Co.</manufacturer>
+	<year>1989</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

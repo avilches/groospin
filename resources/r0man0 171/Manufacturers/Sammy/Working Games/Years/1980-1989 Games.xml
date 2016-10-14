@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Sammy / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="djboy" index="" image="">
+	<description>DJ Boy (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko (American Sammy license)</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="djboya" index="" image="">
+	<description>DJ Boy (set 2)</description>
+	<cloneof>djboy</cloneof>
+	<crc/>
+	<manufacturer>Kaneko (American Sammy license)</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tharrieru" index="" image="">
+	<description>Task Force Harrier (US?)</description>
+	<cloneof>tharrier</cloneof>
+	<crc/>
+	<manufacturer>UPL (American Sammy license)</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

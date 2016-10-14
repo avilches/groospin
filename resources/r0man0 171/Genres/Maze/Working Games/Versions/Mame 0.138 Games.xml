@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Maze / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="berenstn" index="" image="">
+	<description>The Berenstain Bears in Big Paw&apos;s Cave</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Enter-Tech, Ltd.</manufacturer>
+	<year>1984</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mschamp" index="" image="">
+	<description>Ms. Pacman Champion Edition / Zola-Puc Gal</description>
+	<cloneof>mspacman</cloneof>
+	<crc/>
+	<manufacturer>hack</manufacturer>
+	<year>1992</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

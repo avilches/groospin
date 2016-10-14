@@ -1,0 +1,299 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Shoot- / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="1943j" index="" image="">
+	<description>1943: Midway Kaisen (Japan, Rev B)</description>
+	<cloneof>1943</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="alienfnta" index="" image="">
+	<description>Alien Front (Rev A)</description>
+	<cloneof>alienfnt</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="alpham2p" index="" image="">
+	<description>Alpha Mission II / ASO II - Last Guardian (prototype)</description>
+	<cloneof>alpham2</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aquajacku" index="" image="">
+	<description>Aqua Jack (US)</description>
+	<cloneof>aquajack</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bshark" index="" image="">
+	<description>Battle Shark (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bsharkjjs" index="" image="">
+	<description>Battle Shark (Japan, Joystick)</description>
+	<cloneof>bshark</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="butasan" index="" image="">
+	<description>Butasan - Pig&apos;s &amp; Bomber&apos;s (Japan, English)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>NMK (Jaleco license)</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ghostb" index="" image="">
+	<description>The Real Ghostbusters (US 2 Players, revision 2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East USA</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="guwanges" index="" image="">
+	<description>Guwange (Japan, Special Ver. 00/07/07)</description>
+	<cloneof>guwange</cloneof>
+	<crc/>
+	<manufacturer>Cave (Atlus license)</manufacturer>
+	<year>1999</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ikari3j" index="" image="">
+	<description>Ikari Three (Japan, Rotary Joystick)</description>
+	<cloneof>ikari3</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="illvelo" index="" image="">
+	<description>Illvelo (Illmatic Envelope)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Milestone</manufacturer>
+	<year>2008</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ironclad" index="" image="">
+	<description>Choutetsu Brikin&apos;ger - Iron clad (Prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Saurus</manufacturer>
+	<year>1996</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ironclado" index="" image="">
+	<description>Choutetsu Brikin&apos;ger - Iron clad (Prototype, bootleg)</description>
+	<cloneof>ironclad</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1996</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mcombats" index="" image="">
+	<description>Missile Combat (Sidam bootleg)</description>
+	<cloneof>missile</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Sidam)</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="missile" index="" image="">
+	<description>Missile Command (rev 3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="phoenixc2" index="" image="">
+	<description>Phoenix (Irecsa / G.G.I Corp, set 2)</description>
+	<cloneof>phoenix</cloneof>
+	<crc/>
+	<manufacturer>bootleg? (Irecsa / G.G.I Corp)</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="raiden2eua" index="" image="">
+	<description>Raiden II (easy version, US set 1)</description>
+	<cloneof>raiden2</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Fabtek license)</manufacturer>
+	<year>1993</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="raidersr3" index="" image="">
+	<description>Raiders (Rev.3)</description>
+	<cloneof>raiders</cloneof>
+	<crc/>
+	<manufacturer>Century Electronics</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rescueb" index="" image="">
+	<description>Tuono Blu (bootleg of Rescue)</description>
+	<cloneof>rescue</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Videl Games)</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sagaia" index="" image="">
+	<description>Sagaia (dual screen) (World)</description>
+	<cloneof>darius2</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="saurop" index="" image="">
+	<description>Sauro (Philko license)</description>
+	<cloneof>sauro</cloneof>
+	<crc/>
+	<manufacturer>Tecfri (Philko license)</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="savanna" index="" image="">
+	<description>Savanna (Jungler bootleg)</description>
+	<cloneof>jungler</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Olympia)</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sl2007" index="" image="">
+	<description>Shooting Love 2007</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Triangle Service</manufacturer>
+	<year>2007</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sshot" index="" image="">
+	<description>Super Shot</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Model Racing</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tempest1r" index="" image="">
+	<description>Tempest (rev 1, Revised Hardware)</description>
+	<cloneof>tempest</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="terrafj" index="" image="">
+	<description>Terra Force (Japan)</description>
+	<cloneof>terraf</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu Japan</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="theendb" index="" image="">
+	<description>The End (bootleg?)</description>
+	<cloneof>theend</cloneof>
+	<crc/>
+	<manufacturer>bootleg?</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="viprp1ua" index="" image="">
+	<description>Viper Phase 1 (New Version, US set 2)</description>
+	<cloneof>viprp1</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Fabtek license)</manufacturer>
+	<year>1995</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zerogunaj" index="" image="">
+	<description>Zero Gunner (Japan, Model 2A)</description>
+	<cloneof>zerogun</cloneof>
+	<crc/>
+	<manufacturer>Psikyo</manufacturer>
+	<year>1997</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Quiz / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="cluedod" index="" image="">
+	<description>Cluedo (prod. 2D) (Protocol)</description>
+	<cloneof>cluedo</cloneof>
+	<crc/>
+	<manufacturer>JPM</manufacturer>
+	<year>1995</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="coronatnd" index="" image="">
+	<description>Coronation Street Quiz Game (Protocol)</description>
+	<cloneof>coronatn</cloneof>
+	<crc/>
+	<manufacturer>JPM</manufacturer>
+	<year>1999</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hngmnjpmd" index="" image="">
+	<description>Hangman (JPM) (Protocol)</description>
+	<cloneof>hngmnjpm</cloneof>
+	<crc/>
+	<manufacturer>JPM</manufacturer>
+	<year>1998</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="monopolya" index="" image="">
+	<description>Monopoly (JPM) (SYSTEM5 VIDEO, set 2)</description>
+	<cloneof>monopoly</cloneof>
+	<crc/>
+	<manufacturer>JPM</manufacturer>
+	<year>1994</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scrabbled" index="" image="">
+	<description>Scrabble (rev. F) (Protocol)</description>
+	<cloneof>scrabble</cloneof>
+	<crc/>
+	<manufacturer>JPM</manufacturer>
+	<year>1997</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trivialpd" index="" image="">
+	<description>Trivial Pursuit (New Edition) (prod. 1D) (Protocol)</description>
+	<cloneof>trivialp</cloneof>
+	<crc/>
+	<manufacturer>JPM</manufacturer>
+	<year>1996</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trivialpo" index="" image="">
+	<description>Trivial Pursuit</description>
+	<cloneof>trivialp</cloneof>
+	<crc/>
+	<manufacturer>JPM</manufacturer>
+	<year>1996</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

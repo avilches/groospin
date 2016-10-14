@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Capcom / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="1944" index="" image="">
+	<description>1944: The Loop Master (USA 000620)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Eighting / Raizing (Capcom license)</manufacturer>
+	<year>2000</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="1944j" index="" image="">
+	<description>1944: The Loop Master (Japan 000620)</description>
+	<cloneof>1944</cloneof>
+	<crc/>
+	<manufacturer>Eighting / Raizing (Capcom license)</manufacturer>
+	<year>2000</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="choko" index="" image="">
+	<description>Janpai Puzzle Choukou (Japan 010820)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Mitchell (Capcom license)</manufacturer>
+	<year>2001</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dimahoo" index="" image="">
+	<description>Dimahoo (Euro 000121)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Eighting / Raizing (Capcom license)</manufacturer>
+	<year>2000</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dimahoou" index="" image="">
+	<description>Dimahoo (USA 000121)</description>
+	<cloneof>dimahoo</cloneof>
+	<crc/>
+	<manufacturer>Eighting / Raizing (Capcom license)</manufacturer>
+	<year>2000</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ganbare" index="" image="">
+	<description>Ganbare! Marine Kun (Japan 2K0411)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>2000</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gmahou" index="" image="">
+	<description>Great Mahou Daisakusen (Japan 000121)</description>
+	<cloneof>dimahoo</cloneof>
+	<crc/>
+	<manufacturer>Eighting / Raizing (Capcom license)</manufacturer>
+	<year>2000</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hsf2" index="" image="">
+	<description>Hyper Street Fighter II: The Anniversary Edition (USA 040202)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>2004</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hsf2a" index="" image="">
+	<description>Hyper Street Fighter II: The Anniversary Edition (Asia 040202)</description>
+	<cloneof>hsf2</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>2004</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hsf2j" index="" image="">
+	<description>Hyper Street Fighter II: The Anniversary Edition (Japan 031222)</description>
+	<cloneof>hsf2</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>2004</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mmatrix" index="" image="">
+	<description>Mars Matrix: Hyper Solid Shooting (USA 000412)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Takumi (Capcom license)</manufacturer>
+	<year>2000</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mmatrixj" index="" image="">
+	<description>Mars Matrix: Hyper Solid Shooting (Japan 000412)</description>
+	<cloneof>mmatrix</cloneof>
+	<crc/>
+	<manufacturer>Takumi (Capcom license)</manufacturer>
+	<year>2000</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mpang" index="" image="">
+	<description>Mighty! Pang (Euro 001010)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Mitchell (Capcom license)</manufacturer>
+	<year>2000</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mpangj" index="" image="">
+	<description>Mighty! Pang (Japan 001011)</description>
+	<cloneof>mpang</cloneof>
+	<crc/>
+	<manufacturer>Mitchell (Capcom license)</manufacturer>
+	<year>2000</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mpangr1" index="" image="">
+	<description>Mighty! Pang (Euro 000925)</description>
+	<cloneof>mpang</cloneof>
+	<crc/>
+	<manufacturer>Mitchell (Capcom license)</manufacturer>
+	<year>2000</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mpangu" index="" image="">
+	<description>Mighty! Pang (USA 001010)</description>
+	<cloneof>mpang</cloneof>
+	<crc/>
+	<manufacturer>Mitchell (Capcom license)</manufacturer>
+	<year>2000</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="progear" index="" image="">
+	<description>Progear (USA 010117)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Cave (Capcom license)</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="progeara" index="" image="">
+	<description>Progear (Asia 010117)</description>
+	<cloneof>progear</cloneof>
+	<crc/>
+	<manufacturer>Cave (Capcom license)</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="progearj" index="" image="">
+	<description>Progear no Arashi (Japan 010117)</description>
+	<cloneof>progear</cloneof>
+	<crc/>
+	<manufacturer>Cave (Capcom license)</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pzloop2" index="" image="">
+	<description>Puzz Loop 2 (Euro 010302)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Mitchell (Capcom license)</manufacturer>
+	<year>2001</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pzloop2j" index="" image="">
+	<description>Puzz Loop 2 (Japan 010226)</description>
+	<cloneof>pzloop2</cloneof>
+	<crc/>
+	<manufacturer>Mitchell (Capcom license)</manufacturer>
+	<year>2001</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pzloop2jr1" index="" image="">
+	<description>Puzz Loop 2 (Japan 010205)</description>
+	<cloneof>pzloop2</cloneof>
+	<crc/>
+	<manufacturer>Mitchell (Capcom license)</manufacturer>
+	<year>2001</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,289 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Casino / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="atworld" index="" image="">
+	<description>Around The World (Version 1.4R CGA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dcrowna" index="" image="">
+	<description>Dream Crown (Set 2)</description>
+	<cloneof>dcrown</cloneof>
+	<crc/>
+	<manufacturer>Nippon Data Kiki</manufacturer>
+	<year>1994</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="doraemon" index="" image="">
+	<description>Doraemon no Eawase Montage (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sunsoft / Epoch</manufacturer>
+	<year>1993?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fashiong2" index="" image="">
+	<description>Fashion Gambler (set 2)</description>
+	<cloneof>fashiong</cloneof>
+	<crc/>
+	<manufacturer>ADP</manufacturer>
+	<year>1997</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb3g" index="" image="">
+	<description>Fruit Bonus 3G (Version 1.0.3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fbdeluxe" index="" image="">
+	<description>Fruit Bonus Deluxe (Version 1.0.9)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="getrich" index="" image="">
+	<description>Get Rich (Version 1.0.1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnome_3" index="" image="">
+	<description>Gnome (080303 World)</description>
+	<cloneof>gnome_9</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnome_3a" index="" image="">
+	<description>Gnome (bootleg, 080303, banking address hack)</description>
+	<cloneof>gnome_9</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnome_3b" index="" image="">
+	<description>Gnome (bootleg, 080303, banking address hack, payout percentage 45)</description>
+	<cloneof>gnome_9</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnome_3c" index="" image="">
+	<description>Gnome (bootleg, 080303, banking address hack, payout percentage 60)</description>
+	<cloneof>gnome_9</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="goldfish" index="" image="">
+	<description>Gold Fish (020903, prototype)</description>
+	<cloneof>mfish_13</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mfish_8" index="" image="">
+	<description>Multi Fish (030522)</description>
+	<cloneof>mfish_13</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rollfr_3" index="" image="">
+	<description>Roll Fruit (080327)</description>
+	<cloneof>rollfr_4</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rollfr_4" index="" image="">
+	<description>Roll Fruit (080331)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spooky" index="" image="">
+	<description>Spooky Night 2nd Edition (Version 2.0.4)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="suprball" index="" image="">
+	<description>Super Ball (Version 1.3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sweetl2_2" index="" image="">
+	<description>Sweet Life 2 (080320 World)</description>
+	<cloneof>sweetl2</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sweetl2_2a" index="" image="">
+	<description>Sweet Life 2 (bootleg, 080320, banking address hack set 1)</description>
+	<cloneof>sweetl2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sweetl2_2b" index="" image="">
+	<description>Sweet Life 2 (bootleg, 080320, banking address hack set 2)</description>
+	<cloneof>sweetl2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sweetl2_2c" index="" image="">
+	<description>Sweet Life 2 (bootleg, 080320, VIDEO GAME-1 MD01)</description>
+	<cloneof>sweetl2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sweetl2_2d" index="" image="">
+	<description>Sweet Life 2 (bootleg, 080320, LOTTOGAME (I))</description>
+	<cloneof>sweetl2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="version4" index="" image="">
+	<description>Version 4 (Version 4.3R CGA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="version4d2" index="" image="">
+	<description>Version 4 (Version 4.3E CGA)</description>
+	<cloneof>version4</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="version4d3" index="" image="">
+	<description>Version 4 (Version 4.3LT CGA)</description>
+	<cloneof>version4</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="version4v" index="" image="">
+	<description>Version 4 (Version 4.3R Dual)</description>
+	<cloneof>version4</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="version4v2" index="" image="">
+	<description>Version 4 (Version 4.3E Dual)</description>
+	<cloneof>version4</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="version4v3" index="" image="">
+	<description>Version 4 (Version 4.3LT Dual)</description>
+	<cloneof>version4</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2P alt / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="bionicc" index="" image="">
+	<description>Bionic Commando (Euro)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dlaira" index="" image="">
+	<description>Dragon&apos;s Lair (US Rev. A, Pioneer PR-7820)</description>
+	<cloneof>dlair</cloneof>
+	<crc/>
+	<manufacturer>Cinematronics</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dlairb" index="" image="">
+	<description>Dragon&apos;s Lair (US Rev. B, Pioneer PR-7820)</description>
+	<cloneof>dlair</cloneof>
+	<crc/>
+	<manufacturer>Cinematronics</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dlairc" index="" image="">
+	<description>Dragon&apos;s Lair (US Rev. C, Pioneer PR-7820)</description>
+	<cloneof>dlair</cloneof>
+	<crc/>
+	<manufacturer>Cinematronics</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dlaird" index="" image="">
+	<description>Dragon&apos;s Lair (US Rev. D, Pioneer LD-V1000)</description>
+	<cloneof>dlair</cloneof>
+	<crc/>
+	<manufacturer>Cinematronics</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dlaire" index="" image="">
+	<description>Dragon&apos;s Lair (US Rev. E)</description>
+	<cloneof>dlair</cloneof>
+	<crc/>
+	<manufacturer>Cinematronics</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dlairf" index="" image="">
+	<description>Dragon&apos;s Lair (US Rev. F)</description>
+	<cloneof>dlair</cloneof>
+	<crc/>
+	<manufacturer>Cinematronics</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fenix" index="" image="">
+	<description>Fenix (bootleg of Phoenix)</description>
+	<cloneof>phoenix</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="konam80a" index="" image="">
+	<description>Konami 80&apos;s AC Special (GC826 VER. AAA)</description>
+	<cloneof>konam80s</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="konam80k" index="" image="">
+	<description>Konami 80&apos;s AC Special (GC826 VER. KAA)</description>
+	<cloneof>konam80s</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="konam80u" index="" image="">
+	<description>Konami 80&apos;s AC Special (GC826 VER. UAA)</description>
+	<cloneof>konam80s</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="phoenixa" index="" image="">
+	<description>Phoenix (Centuri, set 1)</description>
+	<cloneof>phoenix</cloneof>
+	<crc/>
+	<manufacturer>Amstar (Centuri license)</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stratvoxb" index="" image="">
+	<description>Stratovox (bootleg)</description>
+	<cloneof>speakres</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trvhang" index="" image="">
+	<description>Trivia Hangup (question set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SMS Manufacturing Corp.</manufacturer>
+	<year>1984</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="twinsa" index="" image="">
+	<description>Twins (set 2)</description>
+	<cloneof>twins</cloneof>
+	<crc/>
+	<manufacturer>Electronic Devices</manufacturer>
+	<year>1994</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wrallyat" index="" image="">
+	<description>World Rally (US, 930217)</description>
+	<cloneof>wrally</cloneof>
+	<crc/>
+	<manufacturer>Gaelco (Atari license)</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

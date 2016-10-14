@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Maze / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="crbaloon" index="" image="">
+	<description>Crazy Balloon (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1980</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crbaloon2" index="" image="">
+	<description>Crazy Balloon (set 2)</description>
+	<cloneof>crbaloon</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1980</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="darkseal1" index="" image="">
+	<description>Dark Seal (World revision 1)</description>
+	<cloneof>darkseal</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="eyes" index="" image="">
+	<description>Eyes (US set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Techstar (Rock-Ola license)</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="headon" index="" image="">
+	<description>Head On (2 players)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gremlin</manufacturer>
+	<year>1979</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lnc" index="" image="">
+	<description>Lock&apos;n&apos;Chase</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lupin3a" index="" image="">
+	<description>Lupin III (set 2)</description>
+	<cloneof>lupin3</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1980</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mikiej" index="" image="">
+	<description>Shinnyuushain Tooru-kun</description>
+	<cloneof>mikie</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1984</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="monymony" index="" image="">
+	<description>Money Money</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Zaccaria</manufacturer>
+	<year>1983</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nibbler" index="" image="">
+	<description>Nibbler (rev 9)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Rock-Ola</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="paperboy" index="" image="">
+	<description>Paperboy (rev 3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1984</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="roundup" index="" image="">
+	<description>Round-Up</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation (Amenip/Centuri license)</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="solomonj" index="" image="">
+	<description>Solomon no Kagi (Japan)</description>
+	<cloneof>solomon</cloneof>
+	<crc/>
+	<manufacturer>Tecmo</manufacturer>
+	<year>1986</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="upndownu" index="" image="">
+	<description>Up&apos;n Down (not encrypted)</description>
+	<cloneof>upndown</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1983</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zzyzzyxx" index="" image="">
+	<description>Zzyzzyxx (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Cinematronics / Advanced Microcomputer Systems</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

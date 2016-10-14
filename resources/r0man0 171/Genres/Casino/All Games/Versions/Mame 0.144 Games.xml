@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Casino / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="7smash" index="" image="">
+	<description>7 Smash</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sovic</manufacturer>
+	<year>1993</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt2_3" index="" image="">
+	<description>Fruit Cocktail 2 (080909 World)</description>
+	<cloneof>fcockt2</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2008</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt2_4" index="" image="">
+	<description>Fruit Cocktail 2 (081105 World)</description>
+	<cloneof>fcockt2</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2008</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt2_4a" index="" image="">
+	<description>Fruit Cocktail 2 (bootleg, 081105, banking address hack)</description>
+	<cloneof>fcockt2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2008</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt2_4b" index="" image="">
+	<description>Fruit Cocktail 2 (bootleg, 081105, banking address hack, no credit limit)</description>
+	<cloneof>fcockt2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2008</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt2_4d" index="" image="">
+	<description>Fruit Cocktail 2 (bootleg, 081105, banking address hack, payout percentage 70)</description>
+	<cloneof>fcockt2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2008</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt2_4f" index="" image="">
+	<description>Fruit Cocktail 2 (bootleg, 081105, LOTOS FR02)</description>
+	<cloneof>fcockt2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2008</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt2_5" index="" image="">
+	<description>Fruit Cocktail 2 (081106 Russia)</description>
+	<cloneof>fcockt2</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2008</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

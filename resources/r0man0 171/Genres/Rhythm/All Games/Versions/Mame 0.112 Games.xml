@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Rhythm / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="ddr3ma" index="" image="">
+	<description>Dance Dance Revolution 3rd Mix (GN887 VER. AAA)</description>
+	<cloneof>ddr3mk</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddr3mj" index="" image="">
+	<description>Dance Dance Revolution 3rd Mix (GN887 VER. JAA)</description>
+	<cloneof>ddr3mk</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddr3mk" index="" image="">
+	<description>Dance Dance Revolution 3rd Mix - Ver.Korea2 (GN887 VER. KBA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddr3mka" index="" image="">
+	<description>Dance Dance Revolution 3rd Mix - Ver.Korea (GN887 VER. KAA)</description>
+	<cloneof>ddr3mk</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddr3mp" index="" image="">
+	<description>Dance Dance Revolution 3rd Mix Plus (G*A22 VER. JAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddr4m" index="" image="">
+	<description>Dance Dance Revolution 4th Mix (G*A33 VER. AAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddr4mp" index="" image="">
+	<description>Dance Dance Revolution 4th Mix Plus (G*A34 VER. JAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddr4mps" index="" image="">
+	<description>Dance Dance Revolution 4th Mix Plus Solo (G*A34 VER. JBA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddr4ms" index="" image="">
+	<description>Dance Dance Revolution 4th Mix Solo (G*A33 VER. ABA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddr5m" index="" image="">
+	<description>Dance Dance Revolution 5th Mix (G*A27 VER. JAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2001</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddrja" index="" image="">
+	<description>Dance Dance Revolution (GC845 VER. JAA)</description>
+	<cloneof>dstage</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddrmax" index="" image="">
+	<description>DDR Max - Dance Dance Revolution 6th Mix (G*B19 VER. JAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2001</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddrmax2" index="" image="">
+	<description>DDR Max 2 - Dance Dance Revolution 7th Mix (G*B20 VER. JAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2002</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddrs2k" index="" image="">
+	<description>Dance Dance Revolution Solo 2000 (GC905 VER. AAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddrs2kj" index="" image="">
+	<description>Dance Dance Revolution Solo 2000 (GC905 VER. JAA)</description>
+	<cloneof>ddrs2k</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddrsbm" index="" image="">
+	<description>Dance Dance Revolution Solo Bass Mix (GQ894 VER. JAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddrusa" index="" image="">
+	<description>Dance Dance Revolution USA (G*A44 VER. UAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dmx2m" index="" image="">
+	<description>Dance Maniax 2nd Mix (G*A39 VER. JAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dmx2majp" index="" image="">
+	<description>Dance Maniax 2nd Mix Append J-Paradise (G*A38 VER. JAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2001</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dncfrks" index="" image="">
+	<description>Dance Freaks (G*874 VER. KAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drmn2m" index="" image="">
+	<description>DrumMania 2nd Mix (GE912 VER. JAB)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dsftkd" index="" image="">
+	<description>Dancing Stage featuring TRUE KiSS DESTiNATiON (G*884 VER. JAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1999</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

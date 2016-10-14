@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Mature / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="hotbubl" index="" image="">
+	<description>Hot Bubble (Korea, with adult pictures)</description>
+	<cloneof>bubl2000</cloneof>
+	<crc/>
+	<manufacturer>Afega (Pandora license)</manufacturer>
+	<year>1998</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sjryuko" index="" image="">
+	<description>Sukeban Jansi Ryuko (set 2, System 16B, FD1089B 317-5021)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>White Board</manufacturer>
+	<year>1988</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sjryuko1" index="" image="">
+	<description>Sukeban Jansi Ryuko (set 1, System 16A, FD1089B 317-5021)</description>
+	<cloneof>sjryuko</cloneof>
+	<crc/>
+	<manufacturer>White Board</manufacturer>
+	<year>1987</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="suplup" index="" image="">
+	<description>Super Lup Lup Puzzle / Zhuan Zhuan Puzzle (version 4.0 / 990518)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Omega System</manufacturer>
+	<year>1999</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

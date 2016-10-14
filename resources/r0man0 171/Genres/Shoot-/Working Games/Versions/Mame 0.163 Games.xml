@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Shoot- / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="blswhstla" index="" image="">
+	<description>Bells &amp; Whistles (Asia, version M)</description>
+	<cloneof>blswhstl</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gloc" index="" image="">
+	<description>G-LOC Air Battle (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gradius3js" index="" image="">
+	<description>Gradius III (Japan, program code S, split)</description>
+	<cloneof>gradius3</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gundharac" index="" image="">
+	<description>Gundhara (Chinese, bootleg?)</description>
+	<cloneof>gundhara</cloneof>
+	<crc/>
+	<manufacturer>Banpresto</manufacturer>
+	<year>1995</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spaceatt2k" index="" image="">
+	<description>Space Attack (2k roms)(bootleg of Space Invaders)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Video Games GmbH)</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spaceattbp" index="" image="">
+	<description>Space Attack (bproms)(bootleg of Space Invaders)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Video Games GmbH)</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="turtshipkn" index="" image="">
+	<description>Turtle Ship (Korea, 88/9)</description>
+	<cloneof>turtship</cloneof>
+	<crc/>
+	<manufacturer>Philko</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="turtshipko" index="" image="">
+	<description>Turtle Ship (Korea, older)</description>
+	<cloneof>turtship</cloneof>
+	<crc/>
+	<manufacturer>Philko</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

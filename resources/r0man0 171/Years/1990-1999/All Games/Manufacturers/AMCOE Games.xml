@@ -1,0 +1,309 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1990-1999 / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="act2000" index="" image="">
+	<description>Action 2000 (Version 3.5E Dual)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="act2000b1" index="" image="">
+	<description>Action 2000 (Version 3.5R, set 2)</description>
+	<cloneof>act2000</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="act2000bx" index="" image="">
+	<description>Action 2000 (Version 3.30XT, set 2)</description>
+	<cloneof>act2000</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="act2000d1" index="" image="">
+	<description>Action 2000 (Version 3.5R, set 1)</description>
+	<cloneof>act2000</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="act2000dx" index="" image="">
+	<description>Action 2000 (Version 3.30XT, set 1)</description>
+	<cloneof>act2000</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="act2000o" index="" image="">
+	<description>Action 2000 (Version 3.3)</description>
+	<cloneof>act2000</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="act2000o2" index="" image="">
+	<description>Action 2000 (Version 3.10XT)</description>
+	<cloneof>act2000</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="act2000o3" index="" image="">
+	<description>Action 2000 (Version 1.2)</description>
+	<cloneof>act2000</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="act2000v1" index="" image="">
+	<description>Action 2000 (Version 3.5R Dual)</description>
+	<cloneof>act2000</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="act2000vx" index="" image="">
+	<description>Action 2000 (Version 3.30XT Dual)</description>
+	<cloneof>act2000</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1999</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="match98" index="" image="">
+	<description>Match &apos;98 (ver. 1.33)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1998</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nc96" index="" image="">
+	<description>New Cherry &apos;96 Special Edition (v3.63, C1 PCB)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nc96a" index="" image="">
+	<description>New Cherry &apos;96 Special Edition (v3.62, C1 PCB)</description>
+	<cloneof>nc96</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nc96b" index="" image="">
+	<description>New Cherry &apos;96 Special Edition (v3.61, C1 PCB)</description>
+	<cloneof>nc96</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nc96c" index="" image="">
+	<description>New Cherry &apos;96 Special Edition (v3.54, D PCB)</description>
+	<cloneof>nc96</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nc96d" index="" image="">
+	<description>New Cherry &apos;96 Special Edition (v3.53, D PCB)</description>
+	<cloneof>nc96</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nc96e" index="" image="">
+	<description>New Cherry &apos;96 Special Edition (v3.40, D PCB)</description>
+	<cloneof>nc96</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nc96f" index="" image="">
+	<description>New Cherry &apos;96 Special Edition (v3.62, DK PCB)</description>
+	<cloneof>nc96</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nfb96" index="" image="">
+	<description>New Fruit Bonus &apos;96 Special Edition (v3.63, C1 PCB)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nfb96a" index="" image="">
+	<description>New Fruit Bonus &apos;96 Special Edition (v3.62, C1 PCB)</description>
+	<cloneof>nfb96</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nfb96b" index="" image="">
+	<description>New Fruit Bonus &apos;96 Special Edition (v3.54, D PCB)</description>
+	<cloneof>nfb96</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nfb96c" index="" image="">
+	<description>New Fruit Bonus &apos;96 Special Edition (v3.62, DK PCB)</description>
+	<cloneof>nfb96</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pokonl97" index="" image="">
+	<description>Poker Only &apos;97 (Talking ver. 3.3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1997</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="roypok96" index="" image="">
+	<description>Royal Poker &apos;96 (set 1, v97-3.5)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="roypok96a" index="" image="">
+	<description>Royal Poker &apos;96 (set 2, v98-3.6)</description>
+	<cloneof>roypok96</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="roypok96b" index="" image="">
+	<description>Royal Poker &apos;96 (set 3, v98-3.6?)</description>
+	<cloneof>roypok96</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="roypok96c" index="" image="">
+	<description>Royal Poker &apos;96 (set 4, C3 board)</description>
+	<cloneof>roypok96</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="schery97" index="" image="">
+	<description>Skill Cherry &apos;97 (Talking ver. sc3.52)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1997</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="schery97a" index="" image="">
+	<description>Skill Cherry &apos;97 (Talking ver. sc3.52c4)</description>
+	<cloneof>schery97</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1997</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="skill98" index="" image="">
+	<description>Skill &apos;98 (Talking ver. s98-1.33)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1998</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2P alt / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="blktigera" index="" image="">
+	<description>Black Tiger (older)</description>
+	<cloneof>blktiger</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="empcityi" index="" image="">
+	<description>Empire City: 1931 (Italy)</description>
+	<cloneof>empcity</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Eurobed license)</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galactic" index="" image="">
+	<description>Galactica - Batalha Espacial</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito do Brasil</manufacturer>
+	<year>1980?</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hotmemry11" index="" image="">
+	<description>Hot Memory (V1.1, Germany, 11/30/94)</description>
+	<cloneof>pairs</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies (Tuning license)</manufacturer>
+	<year>1994</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hustlerd" index="" image="">
+	<description>Video Hustler (Dynamo Games)</description>
+	<cloneof>hustler</cloneof>
+	<crc/>
+	<manufacturer>Konami (Dynamo Games license)</manufacturer>
+	<year>1981</year>
+	<genre>Pool and Darts</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hvyunitu" index="" image="">
+	<description>Heavy Unit -U.S.A. Version- (US)</description>
+	<cloneof>hvyunit</cloneof>
+	<crc/>
+	<manufacturer>Kaneko / Taito</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ladygolfe" index="" image="">
+	<description>Vs. Stroke &amp; Match Golf (Ladies Version, set LG4 E)</description>
+	<cloneof>smgolf</cloneof>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1984</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mt_fz" index="" image="">
+	<description>Fantasy Zone (Mega-Tech, SMS based)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ropeman" index="" image="">
+	<description>Ropeman (bootleg of Roc&apos;n Rope)</description>
+	<cloneof>rocnrope</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scramblebb" index="" image="">
+	<description>Scramble (bootleg?)</description>
+	<cloneof>scramble</cloneof>
+	<crc/>
+	<manufacturer>bootleg?</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spacefb" index="" image="">
+	<description>Space Firebird (rev. 04-u)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spacefbe" index="" image="">
+	<description>Space Firebird (rev. 03-e set 1)</description>
+	<cloneof>spacefb</cloneof>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spacmiss" index="" image="">
+	<description>Space Missile - Space Fighting Game</description>
+	<cloneof>galactic</cloneof>
+	<crc/>
+	<manufacturer>bootleg?</manufacturer>
+	<year>1980?</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="speakresb" index="" image="">
+	<description>Speak &amp; Rescue (bootleg)</description>
+	<cloneof>speakres</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sstarcrs" index="" image="">
+	<description>Super Star Crest</description>
+	<cloneof>mooncrst</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu (Taito do Brasil license)</manufacturer>
+	<year>1980?</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="terracre" index="" image="">
+	<description>Terra Cresta (YM3526 set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thepitu2" index="" image="">
+	<description>The Pit (US set 2)</description>
+	<cloneof>thepit</cloneof>
+	<crc/>
+	<manufacturer>Zilec Electronics (Centuri license)</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thunderlbl" index="" image="">
+	<description>Thunder &amp; Lightning (bootleg with Tetris sound)</description>
+	<cloneof>thunderl</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1990</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zerohoura" index="" image="">
+	<description>Zero Hour (set 2)</description>
+	<cloneof>zerohour</cloneof>
+	<crc/>
+	<manufacturer>Universal</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zerotrgt" index="" image="">
+	<description>Zero Target (World, CW)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

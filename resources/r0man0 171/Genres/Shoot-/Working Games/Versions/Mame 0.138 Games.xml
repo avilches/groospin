@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Shoot- / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="1943" index="" image="">
+	<description>1943: The Battle of Midway (Euro)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="armedf" index="" image="">
+	<description>Armed Formation</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="brvblade" index="" image="">
+	<description>Brave Blade (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Eighting / Raizing</manufacturer>
+	<year>2000</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="brvbladea" index="" image="">
+	<description>Brave Blade (Asia)</description>
+	<cloneof>brvblade</cloneof>
+	<crc/>
+	<manufacturer>Eighting / Raizing</manufacturer>
+	<year>2000</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="brvbladeu" index="" image="">
+	<description>Brave Blade (USA)</description>
+	<cloneof>brvblade</cloneof>
+	<crc/>
+	<manufacturer>Eighting / Raizing</manufacturer>
+	<year>2000</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="desertbrj" index="" image="">
+	<description>Desert Breaker (Japan) (FD1094 317-0194)</description>
+	<cloneof>desertbr</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ecofghtrh" index="" image="">
+	<description>Eco Fighters (Hispanic 931203)</description>
+	<cloneof>ecofghtr</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1993</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="enigma2b" index="" image="">
+	<description>Phantoms II (Space Invaders hardware)</description>
+	<cloneof>enigma2</cloneof>
+	<crc/>
+	<manufacturer>Zilec Electronics</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="exerizer" index="" image="">
+	<description>Exerizer (Japan)</description>
+	<cloneof>skyfox</cloneof>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fantzonep" index="" image="">
+	<description>Fantasy Zone (317-5000)</description>
+	<cloneof>fantzone</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gigawingh" index="" image="">
+	<description>Giga Wing (Hispanic 990222)</description>
+	<cloneof>gigawing</cloneof>
+	<crc/>
+	<manufacturer>Takumi (Capcom license)</manufacturer>
+	<year>1999</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="intlaser" index="" image="">
+	<description>International Team Laser (prototype)</description>
+	<cloneof>blasted</cloneof>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="looping" index="" image="">
+	<description>Looping</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Video Games GmbH</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mysticrib" index="" image="">
+	<description>Mystic Riders (bootleg?)</description>
+	<cloneof>mysticri</cloneof>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="raidendx" index="" image="">
+	<description>Raiden DX (UK)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>1994</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="redufo" index="" image="">
+	<description>Defend the Terra Attack on the Red UFO</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Artic</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rfjet2kc" index="" image="">
+	<description>Raiden Fighters Jet 2000 (China, SYS386I)</description>
+	<cloneof>rfjet</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>2000</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spaceshp" index="" image="">
+	<description>Space Ship</description>
+	<cloneof>spacewar</cloneof>
+	<crc/>
+	<manufacturer>Cinematronics (Sega license)</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xmultipl" index="" image="">
+	<description>X Multiply (World, M81)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="youma2" index="" image="">
+	<description>Youma Ninpou Chou (Japan, alt)</description>
+	<cloneof>ninjemak</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

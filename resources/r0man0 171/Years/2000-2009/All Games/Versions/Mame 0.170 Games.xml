@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2000-2009 / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="basschal" index="" image="">
+	<description>Sega Bass Fishing Challenge Version A</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2009</year>
+	<genre>Fishing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dragntr3" index="" image="">
+	<description>Dragon Treasure 3 (Rev A) (GDS-0041A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2005</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galeone" index="" image="">
+	<description>Il Galeone</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>San Remo Games</manufacturer>
+	<year>2000</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gkigt4" index="" image="">
+	<description>Game King (v4.x)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gkigt43" index="" image="">
+	<description>Game King (v4.3)</description>
+	<cloneof>gkigt4</cloneof>
+	<crc/>
+	<manufacturer>IGT</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gkigt43n" index="" image="">
+	<description>Game King (v4.3, NJ)</description>
+	<cloneof>gkigt4</cloneof>
+	<crc/>
+	<manufacturer>IGT</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gkigt4ms" index="" image="">
+	<description>Game King (v4.x, MS)</description>
+	<cloneof>gkigt4</cloneof>
+	<crc/>
+	<manufacturer>IGT</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gkigt5p" index="" image="">
+	<description>Game King (Triple-Five Play)</description>
+	<cloneof>gkigt4</cloneof>
+	<crc/>
+	<manufacturer>IGT</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gkigtez" index="" image="">
+	<description>Game King (EZ Pay, v4.0, MS)</description>
+	<cloneof>gkigt4</cloneof>
+	<crc/>
+	<manufacturer>IGT</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="igtsc" index="" image="">
+	<description>Super Cherry</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lastfour" index="" image="">
+	<description>Last Four (09:12 16/01/2001)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>B.R.L.</manufacturer>
+	<year>2001</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="raizpinj" index="" image="">
+	<description>Raizin Ping Pong (V2.01J)</description>
+	<cloneof>raizpin</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>2002</year>
+	<genre>Sports</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sanremmg" index="" image="">
+	<description>unknown San Remo / Elsy Multigame</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>San Remo Games</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

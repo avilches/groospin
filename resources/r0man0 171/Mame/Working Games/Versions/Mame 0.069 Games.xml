@@ -1,0 +1,509 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Mame / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="19xxar1" index="" image="">
+	<description>19XX: The War Against Destiny (Asia 951207)</description>
+	<cloneof>19xx</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="acitya" index="" image="">
+	<description>Atlantic City Action</description>
+	<cloneof>bwcasino</cloneof>
+	<crc/>
+	<manufacturer>Epos Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ambushh" index="" image="">
+	<description>Ambush (hack?)</description>
+	<cloneof>ambush</cloneof>
+	<crc/>
+	<manufacturer>Tecfri</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arkanoiduo" index="" image="">
+	<description>Arkanoid (US, older)</description>
+	<cloneof>arkanoid</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation (Romstar license)</manufacturer>
+	<year>1986</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bwcasino" index="" image="">
+	<description>Boardwalk Casino</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Epos Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="choppera" index="" image="">
+	<description>Chopper I (US set 2)</description>
+	<cloneof>chopper</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chopperb" index="" image="">
+	<description>Chopper I (US set 3)</description>
+	<cloneof>chopper</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="csclubh" index="" image="">
+	<description>Capcom Sports Club (Hispanic 970722)</description>
+	<cloneof>csclub</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1997</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dbza" index="" image="">
+	<description>Dragonball Z (rev A)</description>
+	<cloneof>dbz</cloneof>
+	<crc/>
+	<manufacturer>Banpresto</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="docastleo" index="" image="">
+	<description>Mr. Do&apos;s Castle (older)</description>
+	<cloneof>docastle</cloneof>
+	<crc/>
+	<manufacturer>Universal</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="evilston" index="" image="">
+	<description>Evil Stone</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Spacy Industrial, Ltd.</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="falcon" index="" image="">
+	<description>Falcon (bootleg of Phoenix) (8085A CPU)</description>
+	<cloneof>phoenix</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ffightj2" index="" image="">
+	<description>Final Fight (Japan 900305)</description>
+	<cloneof>ffight</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fieldday" index="" image="">
+	<description>Field Day</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="friskyta" index="" image="">
+	<description>Frisky Tom (set 2)</description>
+	<cloneof>friskyt</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gijoej" index="" image="">
+	<description>G.I. Joe (Japan, JAA)</description>
+	<cloneof>gijoe</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gutsn" index="" image="">
+	<description>Guts&apos;n (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko / Kouyousha</manufacturer>
+	<year>2000</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ichirjbl" index="" image="">
+	<description>Puzzle &amp; Action: Ichidant-R (Japan) (bootleg)</description>
+	<cloneof>ichir</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1994</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kof95" index="" image="">
+	<description>The King of Fighters &apos;95 (NGM-084)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kotmh" index="" image="">
+	<description>King of the Monsters (set 2)</description>
+	<cloneof>kotm</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1991</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kyrosj" index="" image="">
+	<description>Kyros No Yakata (Japan)</description>
+	<cloneof>kyros</cloneof>
+	<crc/>
+	<manufacturer>Alpha Denshi Co.</manufacturer>
+	<year>1986</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="labyrunrk" index="" image="">
+	<description>Labyrinth Runner (World Ver. K)</description>
+	<cloneof>tricktrp</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mainevt2p" index="" image="">
+	<description>The Main Event (2 Players ver. X)</description>
+	<cloneof>mainevt</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1988</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="maketrxb" index="" image="">
+	<description>Make Trax (US set 2)</description>
+	<cloneof>crush</cloneof>
+	<crc/>
+	<manufacturer>Alpha Denshi Co. / Kural (Williams license)</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megaman2a" index="" image="">
+	<description>Mega Man 2: The Power Fighters (Asia 960708)</description>
+	<cloneof>megaman2</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="metamrphj" index="" image="">
+	<description>Metamorphic Force (ver JAA)</description>
+	<cloneof>metamrph</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mshb" index="" image="">
+	<description>Marvel Super Heroes (Brazil 951117)</description>
+	<cloneof>msh</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mshvsfj2" index="" image="">
+	<description>Marvel Super Heroes Vs. Street Fighter (Japan 970625)</description>
+	<cloneof>mshvsf</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mustache" index="" image="">
+	<description>Mustache Boy</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (March license)</manufacturer>
+	<year>1987</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="newpuc2" index="" image="">
+	<description>Newpuc2 (set 1)</description>
+	<cloneof>puckman</cloneof>
+	<crc/>
+	<manufacturer>hack</manufacturer>
+	<year>1980</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="newpuc2b" index="" image="">
+	<description>Newpuc2 (set 2)</description>
+	<cloneof>puckman</cloneof>
+	<crc/>
+	<manufacturer>hack</manufacturer>
+	<year>1980</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nmouse" index="" image="">
+	<description>Naughty Mouse (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amenip (Palcom Queen River)</manufacturer>
+	<year>1981</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nmouseb" index="" image="">
+	<description>Naughty Mouse (set 2)</description>
+	<cloneof>nmouse</cloneof>
+	<crc/>
+	<manufacturer>Amenip Nova Games Ltd.</manufacturer>
+	<year>1981</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nwarrb" index="" image="">
+	<description>Night Warriors: Darkstalkers&apos; Revenge (Brazil 950403)</description>
+	<cloneof>nwarr</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ozon1" index="" image="">
+	<description>Ozon I</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Proma</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="paradise" index="" image="">
+	<description>Paradise (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Yun Sung</manufacturer>
+	<year>1994</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="policetr13b" index="" image="">
+	<description>Police Trainer (Rev 1.3B)</description>
+	<cloneof>policetr</cloneof>
+	<crc/>
+	<manufacturer>P&amp;P Marketing</manufacturer>
+	<year>1996</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quartet2a" index="" image="">
+	<description>Quartet 2 (unprotected)</description>
+	<cloneof>quartet</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rallys" index="" image="">
+	<description>Rallys (bootleg of Spectar, set 1)</description>
+	<cloneof>spectar</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Novar)</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="route16a" index="" image="">
+	<description>Route 16 (set 2)</description>
+	<cloneof>route16</cloneof>
+	<crc/>
+	<manufacturer>Tehkan / Sun Electronics (Centuri license)</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sf2uk" index="" image="">
+	<description>Street Fighter II: The World Warrior (USA 911101)</description>
+	<cloneof>sf2</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfzb" index="" image="">
+	<description>Street Fighter Zero (Brazil 951109)</description>
+	<cloneof>sfa</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spacecr" index="" image="">
+	<description>Space Cruiser</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="targc" index="" image="">
+	<description>Targ (cocktail?)</description>
+	<cloneof>targ</cloneof>
+	<crc/>
+	<manufacturer>Exidy</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tripool" index="" image="">
+	<description>Tri-Pool (Casino Tech)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Noma (Casino Tech license)</manufacturer>
+	<year>1981</year>
+	<genre>Pool and Darts</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tripoola" index="" image="">
+	<description>Tri-Pool (Costal Games)</description>
+	<cloneof>tripool</cloneof>
+	<crc/>
+	<manufacturer>Noma (Costal Games license)</manufacturer>
+	<year>1981</year>
+	<genre>Pool and Darts</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tunhunt" index="" image="">
+	<description>Tunnel Hunt</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wcbowl" index="" image="">
+	<description>World Class Bowling (v1.66)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1995</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wcbowl165" index="" image="">
+	<description>World Class Bowling (v1.65)</description>
+	<cloneof>wcbowl</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1995</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wolfpack" index="" image="">
+	<description>Wolf Pack (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1978</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Sports / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="amerdart3" index="" image="">
+	<description>AmeriDarts (set 3)</description>
+	<cloneof>amerdart</cloneof>
+	<crc/>
+	<manufacturer>Ameri</manufacturer>
+	<year>1989</year>
+	<genre>Pool and Darts</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="csclub1d" index="" image="">
+	<description>Capcom Sports Club (Euro 970722 Phoenix Edition) (bootleg)</description>
+	<cloneof>csclub</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1997</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

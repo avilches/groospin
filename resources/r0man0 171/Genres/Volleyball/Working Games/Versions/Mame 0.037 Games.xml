@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Volleyball / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="pc_vball" index="" image="">
+	<description>Volley Ball (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1986</year>
+	<genre>Volleyball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="svolley" index="" image="">
+	<description>Super Volleyball (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>V-System Co.</manufacturer>
+	<year>1989</year>
+	<genre>Volleyball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="svolleyk" index="" image="">
+	<description>Super Volleyball (Korea)</description>
+	<cloneof>svolley</cloneof>
+	<crc/>
+	<manufacturer>V-System Co.</manufacturer>
+	<year>1989</year>
+	<genre>Volleyball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vball2pj" index="" image="">
+	<description>U.S. Championship V&apos;ball (Japan)</description>
+	<cloneof>vball</cloneof>
+	<crc/>
+	<manufacturer>Technos Japan</manufacturer>
+	<year>1988</year>
+	<genre>Volleyball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vballb" index="" image="">
+	<description>U.S. Championship V&apos;ball (bootleg of US set)</description>
+	<cloneof>vball</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1988</year>
+	<genre>Volleyball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wbeachvl" index="" image="">
+	<description>World Beach Volley (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Playmark</manufacturer>
+	<year>1995</year>
+	<genre>Volleyball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,639 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1P / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="3bagflnz" index="" image="">
+	<description>3 Bags Full (3VXFC5345, New Zealand)</description>
+	<cloneof>3bagflvt</cloneof>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bilyard" index="" image="">
+	<description>Billiard</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Terminal</manufacturer>
+	<year>1988</year>
+	<genre>Pool and Darts</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blkrhino" index="" image="">
+	<description>Black Rhino (3VXFC5344, New Zealand)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="clubkrto" index="" image="">
+	<description>Club Kart: European Session</description>
+	<cloneof>clubkrt</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2001</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="comg074" index="" image="">
+	<description>Cal Omega - Game 7.4 (Gaming Poker, W.Export)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Cal Omega Inc.</manufacturer>
+	<year>1981</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="coralr2" index="" image="">
+	<description>Coral Riches II (1VXFC5472, New Zealand)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>2000</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crusnexoa" index="" image="">
+	<description>Cruis&apos;n Exotica (version 2.0)</description>
+	<cloneof>crusnexo</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1999</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="czmon_7a" index="" image="">
+	<description>Crazy Monkey (bootleg, 031110, backdoor set 1)</description>
+	<cloneof>czmon_13</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="czmon_7b" index="" image="">
+	<description>Crazy Monkey (bootleg, 031110, backdoor set 2)</description>
+	<cloneof>czmon_13</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="czmon_8" index="" image="">
+	<description>Crazy Monkey (050120 World)</description>
+	<cloneof>czmon_13</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="czmon_8a" index="" image="">
+	<description>Crazy Monkey (bootleg, 050120, backdoor)</description>
+	<cloneof>czmon_13</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dirtdash" index="" image="">
+	<description>Dirt Dash (Rev. DT2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1995</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="eforesta" index="" image="">
+	<description>Enchanted Forest (4VXFC818, NSW)</description>
+	<cloneof>eforest</cloneof>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>1995</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="eforestb" index="" image="">
+	<description>Enchanted Forest (3VXFC5343, New Zealand)</description>
+	<cloneof>eforest</cloneof>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt_6a" index="" image="">
+	<description>Fruit Cocktail (bootleg, 040216, banking address hack)</description>
+	<cloneof>fcockt_8</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt_6b" index="" image="">
+	<description>Fruit Cocktail (bootleg, 040216, backdoor)</description>
+	<cloneof>fcockt_8</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt_7" index="" image="">
+	<description>Fruit Cocktail (050118 World)</description>
+	<cloneof>fcockt_8</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt_7a" index="" image="">
+	<description>Fruit Cocktail (bootleg, 050118, backdoor)</description>
+	<cloneof>fcockt_8</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt_8" index="" image="">
+	<description>Fruit Cocktail (060111 World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="garage_4a" index="" image="">
+	<description>Garage (bootleg, 040219, backdoor)</description>
+	<cloneof>garage_5</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="garage_5" index="" image="">
+	<description>Garage (050311 World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="garage_5a" index="" image="">
+	<description>Garage (bootleg, 050311, backdoor)</description>
+	<cloneof>garage_5</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="goldenc" index="" image="">
+	<description>Golden Canaries (1VXFC5462, New Zealand)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gunsur2j" index="" image="">
+	<description>Gun Survivor 2 Biohazard Code: Veronica (Japan, BHF1 Ver.E)</description>
+	<cloneof>gunsur2</cloneof>
+	<crc/>
+	<manufacturer>Capcom / Namco</manufacturer>
+	<year>2001</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="island2" index="" image="">
+	<description>Island 2 (060529 World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="island2a" index="" image="">
+	<description>Island 2 (bootleg, 060529, banking address hack)</description>
+	<cloneof>island2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="islanda" index="" image="">
+	<description>Island (bootleg, 050713, backdoor)</description>
+	<cloneof>island</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2005</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="keks" index="" image="">
+	<description>Keks (060328 World)</description>
+	<cloneof>keks_2</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="keks_2" index="" image="">
+	<description>Keks (060403 World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="keks_2a" index="" image="">
+	<description>Keks (bootleg, 060403, banking address hack)</description>
+	<cloneof>keks_2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="keksa" index="" image="">
+	<description>Keks (bootleg, 060328, banking address hack)</description>
+	<cloneof>keks_2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="keksb" index="" image="">
+	<description>Keks (bootleg, 060328, backdoor)</description>
+	<cloneof>keks_2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="keroppij" index="" image="">
+	<description>Kero Kero Keroppi no Issyoni Asobou (Japan)</description>
+	<cloneof>keroppi</cloneof>
+	<crc/>
+	<manufacturer>Sammy Industries</manufacturer>
+	<year>1993</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kgbird" index="" image="">
+	<description>K.G. Bird (4VXFC5341, New Zealand, 5c)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kgbirda" index="" image="">
+	<description>K.G. Bird (4VXFC5341, New Zealand, 10c)</description>
+	<cloneof>kgbird</cloneof>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lhaunt_4a" index="" image="">
+	<description>Lucky Haunter (bootleg, 031111, backdoor)</description>
+	<cloneof>lhaunt_6</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lhaunt_5a" index="" image="">
+	<description>Lucky Haunter (bootleg, 040216, backdoor)</description>
+	<cloneof>lhaunt_6</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lhaunt_6a" index="" image="">
+	<description>Lucky Haunter (bootleg, 040825, backdoor)</description>
+	<cloneof>lhaunt_6</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mfish_3" index="" image="">
+	<description>Multi Fish (021124)</description>
+	<cloneof>mfish_13</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mfish_3a" index="" image="">
+	<description>Multi Fish (bootleg, 021124, banking address hack)</description>
+	<cloneof>mfish_13</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="noraut3a" index="" image="">
+	<description>Noraut Joker Poker (V3.010a)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Noraut Ltd.</manufacturer>
+	<year>2002</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="norautrh" index="" image="">
+	<description>Noraut Red Hot Joker Poker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Noraut Ltd.</manufacturer>
+	<year>1988</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="norautu" index="" image="">
+	<description>Noraut Poker (NTX10A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Noraut Ltd.</manufacturer>
+	<year>1988</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="outrundx" index="" image="">
+	<description>Out Run (deluxe sitdown)</description>
+	<cloneof>outrun</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="panther" index="" image="">
+	<description>Panther</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="phantomp" index="" image="">
+	<description>Phantom Pays (4VXFC5431, New Zealand)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>1998</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="phpython" index="" image="">
+	<description>Python (Photon System)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1989?</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="phtetris" index="" image="">
+	<description>Tetris (Photon System)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>19??</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pirate_2" index="" image="">
+	<description>Pirate (060210 World)</description>
+	<cloneof>pirate_3</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2005</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="popn2" index="" image="">
+	<description>Pop&apos;n Music 2 (ver JA-A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rabbitpk" index="" image="">
+	<description>Rabbit Poker (Arizona Poker v1.1?)</description>
+	<cloneof>ampoker2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1990</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rclimb_3a" index="" image="">
+	<description>Rock Climber (bootleg, 040827, backdoor)</description>
+	<cloneof>rclimb_3</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rclimb_3b" index="" image="">
+	<description>Rock Climber (bootleg, 040827, new service menu)</description>
+	<cloneof>rclimb_3</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="resdnt_2a" index="" image="">
+	<description>Resident (bootleg, 040513, backdoor)</description>
+	<cloneof>resdnt_6</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ridgerac3" index="" image="">
+	<description>Ridge Racer (Rev. RR2 Ver.B, World, 3-screen?)</description>
+	<cloneof>ridgerac</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1993</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rollfr_2" index="" image="">
+	<description>Roll Fruit (040318)</description>
+	<cloneof>rollfr_4</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="royalcrdp" index="" image="">
+	<description>Royal Card v2.0 Professional</description>
+	<cloneof>royalcrd</cloneof>
+	<crc/>
+	<manufacturer>Digital Dreams</manufacturer>
+	<year>1993</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sweetla" index="" image="">
+	<description>Sweet Life (bootleg, 041220, backdoor)</description>
+	<cloneof>sweetl</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="swtht2nz" index="" image="">
+	<description>Sweet Hearts II (1VXFC5461, New Zealand)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>1998</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="topgear" index="" image="">
+	<description>Top Gear (4VXFC969, New Zealand)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="windheatj" index="" image="">
+	<description>Winding Heat (JAA, Japan v2.11)</description>
+	<cloneof>windheat</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1996</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="witchcdf" index="" image="">
+	<description>Witch Card (English, witch game, lamps)</description>
+	<cloneof>witchcrd</cloneof>
+	<crc/>
+	<manufacturer>PM / Beck Elektronik</manufacturer>
+	<year>1985</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="witchjol" index="" image="">
+	<description>Jolli Witch (Export, 6T/12T ver 1.57D)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Video Klein</manufacturer>
+	<year>1994</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

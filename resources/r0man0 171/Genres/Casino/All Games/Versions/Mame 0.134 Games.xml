@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Casino / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="bingor5" index="" image="">
+	<description>Bingo Roll / Bell Star V3? (set 5)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="garage_4b" index="" image="">
+	<description>Garage (bootleg, 040219, changed version text)</description>
+	<cloneof>garage_5</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="keks_2b" index="" image="">
+	<description>Keks (bootleg, 060403, banking address hack, changed version text)</description>
+	<cloneof>keks_2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="keksc" index="" image="">
+	<description>Keks (bootleg, 060328, banking address hack, changed version text)</description>
+	<cloneof>keks_2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mfish_11" index="" image="">
+	<description>Multi Fish (031124)</description>
+	<cloneof>mfish_13</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ns8lines" index="" image="">
+	<description>New Lucky 8 Lines / New Super 8 Lines (W-4)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>198?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pirate2" index="" image="">
+	<description>Pirate 2 (061005 World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pirate2a" index="" image="">
+	<description>Pirate 2 (bootleg, 061005, banking address hack set 1)</description>
+	<cloneof>pirate2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pirate2b" index="" image="">
+	<description>Pirate 2 (bootleg, 061005, banking address hack set 2)</description>
+	<cloneof>pirate2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pirate2c" index="" image="">
+	<description>Pirate 2 (bootleg, 061005, banking address hack, changed version text set 1)</description>
+	<cloneof>pirate2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pirate2d" index="" image="">
+	<description>Pirate 2 (bootleg, 061005, banking address hack, changed version text set 2)</description>
+	<cloneof>pirate2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pirate2e" index="" image="">
+	<description>Pirate 2 (bootleg, 061005, banking address hack, changed version text set 3)</description>
+	<cloneof>pirate2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pirate_3" index="" image="">
+	<description>Pirate (060803 World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2005</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="setaroul" index="" image="">
+	<description>Visco Roulette</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Visco</manufacturer>
+	<year>198?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="suprstar" index="" image="">
+	<description>Super Stars</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amatic Trading GmbH</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sweetlb" index="" image="">
+	<description>Sweet Life (bootleg, 041220, banking address hack, changed version text)</description>
+	<cloneof>sweetl</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

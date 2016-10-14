@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Nintendo / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="excitebk" index="" image="">
+	<description>Vs. Excitebike (set EB4-4 A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1984</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fzeroax" index="" image="">
+	<description>F-Zero AX (Rev E) (GDT-0004E)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / Amusement Vision / Nintendo</manufacturer>
+	<year>2003</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fzeroaxc" index="" image="">
+	<description>F-Zero AX (Rev C) (GDT-0004C)</description>
+	<cloneof>fzeroax</cloneof>
+	<crc/>
+	<manufacturer>Sega / Amusement Vision / Nintendo</manufacturer>
+	<year>2003</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mkartag2" index="" image="">
+	<description>Mario Kart Arcade GP 2 (Japan, MK21 Ver.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco / Nintendo</manufacturer>
+	<year>2007</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mkartag2a" index="" image="">
+	<description>Mario Kart Arcade GP 2 (Japan, MK21 Ver.A, alt dump)</description>
+	<cloneof>mkartag2</cloneof>
+	<crc/>
+	<manufacturer>Namco / Nintendo</manufacturer>
+	<year>2007</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mkartagp" index="" image="">
+	<description>Mario Kart Arcade GP (Japan, MKA1 Ver.A1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco / Nintendo</manufacturer>
+	<year>2005</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nss_fzer" index="" image="">
+	<description>F-Zero (Nintendo Super System)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1991</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_ebike" index="" image="">
+	<description>Excite Bike (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1984</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_radr2" index="" image="">
+	<description>Rad Racer II (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Square (Nintendo of America license)</manufacturer>
+	<year>1990</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2P sim / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="cworld2ja" index="" image="">
+	<description>Adventure Quiz Capcom World 2 (Japan 920611, B-Board 90629B-3, no battery)</description>
+	<cloneof>cworld2j</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1992</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="toto" index="" image="">
+	<description>Come Back Toto</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SoftClub</manufacturer>
+	<year>1996</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

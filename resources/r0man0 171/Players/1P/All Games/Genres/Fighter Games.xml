@@ -1,0 +1,259 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1P / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="ar_ninj" index="" image="">
+	<description>Ninja Mission (Arcadia, set 1, V 2.5)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Arcadia Systems</manufacturer>
+	<year>1987</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ar_ninj2" index="" image="">
+	<description>Ninja Mission (Arcadia, set 2)</description>
+	<cloneof>ar_ninj</cloneof>
+	<crc/>
+	<manufacturer>Arcadia Systems</manufacturer>
+	<year>1987</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bbprot" index="" image="">
+	<description>unknown fighting game &apos;BB&apos; (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>199?</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chanbara" index="" image="">
+	<description>Chanbara</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East</manufacturer>
+	<year>1985</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crusherm" index="" image="">
+	<description>Crusher Makochan (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Takumi</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fearless" index="" image="">
+	<description>Fearless Pinocchio (V101US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2006</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ganjaja" index="" image="">
+	<description>Ganbare Jajamaru Saisho wa Goo / Ganbare Jajamaru Hop Step &amp; Jump</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1990</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gdvsgd" index="" image="">
+	<description>Gundam vs. Gundam (GVS1 Ver. A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom / Bandai</manufacturer>
+	<year>2008</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mazan" index="" image="">
+	<description>Mazan: Flash of the Blade (US, MAZ3 Ver.A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2002</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mazana" index="" image="">
+	<description>Mazan: Flash of the Blade (Asia, MAZ2 Ver.A)</description>
+	<cloneof>mazan</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2002</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mouseatk" index="" image="">
+	<description>Mouse Attack</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>ICE</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mp_mazin" index="" image="">
+	<description>Mazin Wars / Mazin Saga (Mega Play)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mt_lastb" index="" image="">
+	<description>Last Battle (Mega-Tech)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mt_spman" index="" image="">
+	<description>Spider-Man vs The Kingpin (Mega-Tech)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / Marvel</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="savquest" index="" image="">
+	<description>Savage Quest</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Interactive Light</manufacturer>
+	<year>1999</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfp" index="" image="">
+	<description>Street Fighter (prototype)</description>
+	<cloneof>sf</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1987</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="slasho" index="" image="">
+	<description>Slashout (JPN, USA, EXP, KOR, AUS)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="slashout" index="" image="">
+	<description>Slashout (GDS-0004)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spikeofe" index="" image="">
+	<description>Spikeout Final Edition</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spikeout" index="" image="">
+	<description>Spikeout (Revision C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spkrbtl" index="" image="">
+	<description>Spikers Battle (GDS-0005)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2001</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tbeastw2" index="" image="">
+	<description>Transformers Beast Wars II</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sigma / Transformer Production Company / Takara</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tsurugi" index="" image="">
+	<description>Tsurugi (ver EAB)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2002</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tsurugie" index="" image="">
+	<description>Tsurugi (ver EAB, alt)</description>
+	<cloneof>tsurugi</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2002</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tsurugij" index="" image="">
+	<description>Tsurugi (ver JAC)</description>
+	<cloneof>tsurugi</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2002</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

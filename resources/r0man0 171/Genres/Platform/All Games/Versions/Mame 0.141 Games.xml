@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Platform / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="bjtwinp" index="" image="">
+	<description>Bombjack Twin (prototype? with adult pictures)</description>
+	<cloneof>bjtwin</cloneof>
+	<crc/>
+	<manufacturer>NMK</manufacturer>
+	<year>1993</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blktigera" index="" image="">
+	<description>Black Tiger (older)</description>
+	<cloneof>blktiger</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="moomesauac" index="" image="">
+	<description>Wild West C.O.W.-Boys of Moo Mesa (ver UAC)</description>
+	<cloneof>moomesa</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mslug6" index="" image="">
+	<description>Metal Slug 6</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / SNK Playmore</manufacturer>
+	<year>2006</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ropeman" index="" image="">
+	<description>Ropeman (bootleg of Roc&apos;n Rope)</description>
+	<cloneof>rocnrope</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

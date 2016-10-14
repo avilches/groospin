@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Maze / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="alibabab" index="" image="">
+	<description>Mustafa and 40 Thieves (bootleg)</description>
+	<cloneof>alibaba</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="exvania" index="" image="">
+	<description>Exvania (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hocrash" index="" image="">
+	<description>Crash (bootleg of Head On)</description>
+	<cloneof>headon</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Fraber)</manufacturer>
+	<year>1979</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="penky" index="" image="">
+	<description>Penky</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Yun Sung</manufacturer>
+	<year>1996</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shockingk" index="" image="">
+	<description>Shocking (Korea, set 1)</description>
+	<cloneof>shocking</cloneof>
+	<crc/>
+	<manufacturer>Yun Sung</manufacturer>
+	<year>1997</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ucytokyu" index="" image="">
+	<description>Uchuu Tokkyuu Medalian</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sigma</manufacturer>
+	<year>1997</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,609 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Platform / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="alexkidd1" index="" image="">
+	<description>Alex Kidd: The Lost Stars (set 1, FD1089A 317-0021)</description>
+	<cloneof>alexkidd</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="astormbl" index="" image="">
+	<description>Alien Storm (bootleg, set 1)</description>
+	<cloneof>astorm</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bagmans2" index="" image="">
+	<description>Bagman (Stern Electronics, set 2)</description>
+	<cloneof>bagman</cloneof>
+	<crc/>
+	<manufacturer>Valadon Automation (Stern Electronics license)</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="beastf" index="" image="">
+	<description>Beastie Feastie</description>
+	<cloneof>suprglob</cloneof>
+	<crc/>
+	<manufacturer>Epos Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bionicc1" index="" image="">
+	<description>Bionic Commando (US set 1)</description>
+	<cloneof>bionicc</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bionicc2" index="" image="">
+	<description>Bionic Commando (US set 2)</description>
+	<cloneof>bionicc</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bjourney" index="" image="">
+	<description>Blue&apos;s Journey / Raguy (ALM-001)(ALH-001)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Alpha Denshi Co.</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blktigerb1" index="" image="">
+	<description>Black Tiger (bootleg set 1)</description>
+	<cloneof>blktiger</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cookrace" index="" image="">
+	<description>Cook Race</description>
+	<cloneof>btime</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cop01" index="" image="">
+	<description>Cop 01 (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cop01a" index="" image="">
+	<description>Cop 01 (set 2)</description>
+	<cloneof>cop01</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cyberlip" index="" image="">
+	<description>Cyber-Lip (NGM-010)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="eightman" index="" image="">
+	<description>Eight Man (NGM-025)(NGH-025)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK / Pallas</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="exprraidu" index="" image="">
+	<description>Express Raider (US, rev 5)</description>
+	<cloneof>exprraid</cloneof>
+	<crc/>
+	<manufacturer>Data East USA</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="flicky" index="" image="">
+	<description>Flicky (128k Version, System 2, 315-5051)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="flickyo" index="" image="">
+	<description>Flicky (64k Version, System 1, 315-5051, set 1)</description>
+	<cloneof>flicky</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="frogs" index="" image="">
+	<description>Frogs</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gremlin</manufacturer>
+	<year>1978</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galivan2" index="" image="">
+	<description>Cosmo Police Galivan (12/16/1985)</description>
+	<cloneof>galivan</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jackrabt2" index="" image="">
+	<description>Jack Rabbit (set 2)</description>
+	<cloneof>jackrabt</cloneof>
+	<crc/>
+	<manufacturer>Zaccaria</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jackrabts" index="" image="">
+	<description>Jack Rabbit (special)</description>
+	<cloneof>jackrabt</cloneof>
+	<crc/>
+	<manufacturer>Zaccaria</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jailbrek" index="" image="">
+	<description>Jail Break</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jumping" index="" image="">
+	<description>Jumping (set 1)</description>
+	<cloneof>rbisland</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kangaroob" index="" image="">
+	<description>Kangaroo (bootleg)</description>
+	<cloneof>kangaroo</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kidnikiu" index="" image="">
+	<description>Kid Niki - Radical Ninja (US)</description>
+	<cloneof>kidniki</cloneof>
+	<crc/>
+	<manufacturer>Irem (Data East USA license)</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ldrun" index="" image="">
+	<description>Lode Runner (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem (licensed from Broderbund)</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ldrun4" index="" image="">
+	<description>Lode Runner IV - Teikoku Karano Dasshutsu (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem (licensed from Broderbund)</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="liquidk" index="" image="">
+	<description>Liquid Kids (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="maglordh" index="" image="">
+	<description>Magician Lord (NGH-005)</description>
+	<cloneof>maglord</cloneof>
+	<crc/>
+	<manufacturer>Alpha Denshi Co.</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="midres" index="" image="">
+	<description>Midnight Resistance (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mslug" index="" image="">
+	<description>Metal Slug - Super Vehicle-001</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nazca</manufacturer>
+	<year>1996</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mslug2" index="" image="">
+	<description>Metal Slug 2 - Super Vehicle-001/II (NGM-2410)(NGH-2410)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1998</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mswordu" index="" image="">
+	<description>Magic Sword: Heroic Fantasy (USA 900725)</description>
+	<cloneof>msword</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="narc" index="" image="">
+	<description>Narc (rev 7.00)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="oscar" index="" image="">
+	<description>Psycho-Nics Oscar (World revision 0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="oscaru" index="" image="">
+	<description>Psycho-Nics Oscar (US)</description>
+	<cloneof>oscar</cloneof>
+	<crc/>
+	<manufacturer>Data East USA</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pacland" index="" image="">
+	<description>Pac-Land (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="panicger" index="" image="">
+	<description>Space Panic (German)</description>
+	<cloneof>panic</cloneof>
+	<crc/>
+	<manufacturer>Universal (ADP Automaten license)</manufacturer>
+	<year>1980</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pitfall2u" index="" image="">
+	<description>Pitfall II (not encrypted)</description>
+	<cloneof>pitfall2</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="portman" index="" image="">
+	<description>Port Man</description>
+	<cloneof>dockman</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation (Nova Games Ltd. license)</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="potogold" index="" image="">
+	<description>Pot of Gold</description>
+	<cloneof>leprechn</cloneof>
+	<crc/>
+	<manufacturer>Tong Electronic (Game Plan license)</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="psychic5j" index="" image="">
+	<description>Psychic 5 (Japan)</description>
+	<cloneof>psychic5</cloneof>
+	<crc/>
+	<manufacturer>Jaleco / NMK</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rygar3" index="" image="">
+	<description>Rygar (US set 3 Old Version)</description>
+	<cloneof>rygar</cloneof>
+	<crc/>
+	<manufacturer>Tecmo</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbagman" index="" image="">
+	<description>Super Bagman</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Valadon Automation</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="snowbros" index="" image="">
+	<description>Snow Bros. - Nick &amp; Tom (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Toaplan</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spelunk2" index="" image="">
+	<description>Spelunker II</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem (licensed from Broderbund)</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spinmast" index="" image="">
+	<description>Spin Master / Miracle Adventure</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="suprmous" index="" image="">
+	<description>Super Mouse</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="teddybb" index="" image="">
+	<description>TeddyBoy Blues (315-5115, New Ver.)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tknight" index="" image="">
+	<description>Tecmo Knight</description>
+	<cloneof>wildfang</cloneof>
+	<crc/>
+	<manufacturer>Tecmo</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tophuntr" index="" image="">
+	<description>Top Hunter - Roddy &amp; Cathy (NGM-046)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vigilantbl" index="" image="">
+	<description>Vigilante (bootleg)</description>
+	<cloneof>vigilant</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vigilantd" index="" image="">
+	<description>Vigilante (Japan, Rev D)</description>
+	<cloneof>vigilant</cloneof>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wboy" index="" image="">
+	<description>Wonder Boy (set 1, 315-5177)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Escape (Sega license)</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wboy2" index="" image="">
+	<description>Wonder Boy (set 2, 315-5178)</description>
+	<cloneof>wboy</cloneof>
+	<crc/>
+	<manufacturer>Escape (Sega license)</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wboy2u" index="" image="">
+	<description>Wonder Boy (set 2, not encrypted)</description>
+	<cloneof>wboy</cloneof>
+	<crc/>
+	<manufacturer>Escape (Sega license)</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wboy3" index="" image="">
+	<description>Wonder Boy (set 3, 315-5135)</description>
+	<cloneof>wboy</cloneof>
+	<crc/>
+	<manufacturer>Escape (Sega license)</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wboyo" index="" image="">
+	<description>Wonder Boy (set 1, 315-5135)</description>
+	<cloneof>wboy</cloneof>
+	<crc/>
+	<manufacturer>Escape (Sega license)</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wboyu" index="" image="">
+	<description>Wonder Boy (prototype?)</description>
+	<cloneof>wboy</cloneof>
+	<crc/>
+	<manufacturer>Escape (Sega license)</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wexpressb1" index="" image="">
+	<description>Western Express (bootleg set 1)</description>
+	<cloneof>exprraid</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wexpressb2" index="" image="">
+	<description>Western Express (bootleg set 2)</description>
+	<cloneof>exprraid</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>4P alt / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="capbowl4" index="" image="">
+	<description>Capcom Bowling (set 4)</description>
+	<cloneof>capbowl</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies / Capcom</manufacturer>
+	<year>1988</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtsers15" index="" image="">
+	<description>Trivia (Questions Series 15)</description>
+	<cloneof>gtsers8</cloneof>
+	<crc/>
+	<manufacturer>Greyhound Electronics</manufacturer>
+	<year>1986</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trvgns" index="" image="">
+	<description>Trivia Genius</description>
+	<cloneof>trvmstr</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1985</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vbowl" index="" image="">
+	<description>Virtua Bowling (World, V101XCM)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1996</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

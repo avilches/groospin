@@ -1,0 +1,1689 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Nichibutsu / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="amatelas" index="" image="">
+	<description>Sei Senshi Amatelass</description>
+	<cloneof>amazon</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="amazon" index="" image="">
+	<description>Soldier Girl Amazon</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="armedf" index="" image="">
+	<description>Armed Formation</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="armedff" index="" image="">
+	<description>Armed Formation (Fillmore license)</description>
+	<cloneof>armedf</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu (Fillmore license)</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bakuhatu" index="" image="">
+	<description>Mahjong Bakuhatsu Junjouden (Japan)</description>
+	<cloneof>mjgottsu</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1991</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="barline" index="" image="">
+	<description>Barline (Japan?)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1988</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bijokkog" index="" image="">
+	<description>Bijokko Gakuen (Japan 880116)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1988</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bijokkoy" index="" image="">
+	<description>Bijokko Yume Monogatari (Japan 870925)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1987</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cclimber" index="" image="">
+	<description>Crazy Climber (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1980</year>
+	<genre>Climbing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cclimberj" index="" image="">
+	<description>Crazy Climber (Japan)</description>
+	<cloneof>cclimber</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1980</year>
+	<genre>Climbing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cclimbr2" index="" image="">
+	<description>Crazy Climber 2 (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1988</year>
+	<genre>Climbing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cclimbr2a" index="" image="">
+	<description>Crazy Climber 2 (Japan, Harder)</description>
+	<cloneof>cclimbr2</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1988</year>
+	<genre>Climbing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chinmoku" index="" image="">
+	<description>Mahjong Chinmoku no Hentai (Japan 900511)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1990</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="citylove" index="" image="">
+	<description>City Love (Japan 860908)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1986</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="club90s" index="" image="">
+	<description>Mahjong CLUB 90&apos;s (set 1) (Japan 900919)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1990</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="club90sa" index="" image="">
+	<description>Mahjong CLUB 90&apos;s (set 2) (Japan 900919)</description>
+	<cloneof>club90s</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1990</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cmehyou" index="" image="">
+	<description>Mahjong Circuit no Mehyou (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu / Kawakusu</manufacturer>
+	<year>1992</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cntrygrla" index="" image="">
+	<description>Country Girl (Japan set 2)</description>
+	<cloneof>cntrygrl</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1984</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cop01" index="" image="">
+	<description>Cop 01 (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cop01a" index="" image="">
+	<description>Cop 01 (set 2)</description>
+	<cloneof>cop01</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crystal2" index="" image="">
+	<description>Crystal Gal 2 (Japan 860620)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1986</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crystalg" index="" image="">
+	<description>Crystal Gal (Japan 860512)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1986</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dacholer" index="" image="">
+	<description>Dacholer</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dangar" index="" image="">
+	<description>Ufo Robo Dangar (12/1/1986)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dangar2" index="" image="">
+	<description>Ufo Robo Dangar (9/26/1986)</description>
+	<cloneof>dangar</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="eagle" index="" image="">
+	<description>Eagle (set 1)</description>
+	<cloneof>mooncrst</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu (Centuri license)</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="eagle2" index="" image="">
+	<description>Eagle (set 2)</description>
+	<cloneof>mooncrst</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu (Centuri license)</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="eagle3" index="" image="">
+	<description>Eagle (set 3)</description>
+	<cloneof>mooncrst</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu (Centuri license)</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="finalbny" index="" image="">
+	<description>Mahjong Final Bunny [BET] (Japan)</description>
+	<cloneof>vanilla</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1991</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="friskyt" index="" image="">
+	<description>Frisky Tom (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="friskyta" index="" image="">
+	<description>Frisky Tom (set 2)</description>
+	<cloneof>friskyt</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="friskytb" index="" image="">
+	<description>Frisky Tom (set 3, encrypted)</description>
+	<cloneof>friskyt</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fruitbun" index="" image="">
+	<description>Fruits &amp; Bunny (World?)</description>
+	<cloneof>cntrygrl</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1984</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galivan" index="" image="">
+	<description>Cosmo Police Galivan (12/26/1985)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galivan2" index="" image="">
+	<description>Cosmo Police Galivan (12/16/1985)</description>
+	<cloneof>galivan</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galivan3" index="" image="">
+	<description>Cosmo Police Galivan (12/11/1985)</description>
+	<cloneof>galivan</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galkaika" index="" image="">
+	<description>Mahjong Gal no Kaika (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu / T.R.Tec</manufacturer>
+	<year>1989</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galkoku" index="" image="">
+	<description>Mahjong Gal no Kokuhaku (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu / T.R.Tec</manufacturer>
+	<year>1989</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gionbana" index="" image="">
+	<description>Gionbana (Japan 890120)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1989</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gomoku" index="" image="">
+	<description>Gomoku Narabe Renju</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1981</year>
+	<genre>Board Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hanamomb" index="" image="">
+	<description>Mahjong Hana no Momoko gumi (Japan 881125)</description>
+	<cloneof>hanamomo</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1988</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hanamomo" index="" image="">
+	<description>Mahjong Hana no Momoko gumi (Japan 881201)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1988</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hanaoji" index="" image="">
+	<description>Hana to Ojisan [BET] (ver 1.01, 1991/12/09)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1991</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hanaojia" index="" image="">
+	<description>Hana to Ojisan [BET] (ver 1.00, 1991/08/23)</description>
+	<cloneof>hanaoji</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1991</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="horekid" index="" image="">
+	<description>Kid no Hore Hore Daisakusen</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1987</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="housemn2" index="" image="">
+	<description>House Mannequin Roppongi Live hen (Japan 870418)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1987</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="housemnq" index="" image="">
+	<description>House Mannequin (Japan 870217)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1987</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hyhoo" index="" image="">
+	<description>Hayaoshi Taisen Quiz Hyhoo (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1987</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hyhoo2" index="" image="">
+	<description>Hayaoshi Taisen Quiz Hyhoo 2 (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1987</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hyouban" index="" image="">
+	<description>Mahjong Hyouban Musume [BET] (Japan)</description>
+	<cloneof>galkoku</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu / T.R.Tec</manufacturer>
+	<year>1989</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="iemoto" index="" image="">
+	<description>Iemoto (Japan 871020)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1987</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="iemotom" index="" image="">
+	<description>Iemoto [BET] (Japan 871118)</description>
+	<cloneof>iemoto</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1987</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="itaten" index="" image="">
+	<description>Itazura Tenshi (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu / Alice</manufacturer>
+	<year>1984</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="janbari" index="" image="">
+	<description>Mahjong Janjan Baribari (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu / Yubis / AV Japan</manufacturer>
+	<year>1992</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jangou" index="" image="">
+	<description>Jangou [BET] (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1983</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jngolady" index="" image="">
+	<description>Jangou Lady (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1984</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kickboy" index="" image="">
+	<description>Kick Boy</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="koinomp" index="" image="">
+	<description>Mahjong Koi no Magic Potion (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1992</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="korinai" index="" image="">
+	<description>Mahjong-zukino Korinai Menmen (Japan 880425)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1988</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="korinaim" index="" image="">
+	<description>Mahjong-zukino Korinai Menmen [BET] (Japan 880920)</description>
+	<cloneof>korinai</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1988</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kozure" index="" image="">
+	<description>Kozure Ookami (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1987</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="legion" index="" image="">
+	<description>Legion - Spinner-87 (World ver 2.03)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="legionj" index="" image="">
+	<description>Chouji Meikyuu Legion (Japan ver 1.05)</description>
+	<cloneof>legion</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lovehous" index="" image="">
+	<description>Mahjong Love House [BET] (Japan 901024)</description>
+	<cloneof>club90s</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1990</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="magmax" index="" image="">
+	<description>Mag Max</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="maiko" index="" image="">
+	<description>Maikobana (Japan 900802)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1990</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mcitylov" index="" image="">
+	<description>City Love [BET] (Japan 860904)</description>
+	<cloneof>citylove</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1986</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mcontest" index="" image="">
+	<description>Miss Mahjong Contest (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1989</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mgion" index="" image="">
+	<description>Gionbana [BET] (Japan 890207)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1989</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mgmen89" index="" image="">
+	<description>Mahjong G-MEN&apos;89 (Japan 890425)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1989</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mhhonban" index="" image="">
+	<description>Mahjong Housoukyoku Honbanchuu (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu?</manufacturer>
+	<year>199?</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mightguy" index="" image="">
+	<description>Mighty Guy</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1986</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjanbari" index="" image="">
+	<description>Medal Mahjong Janjan Baribari [BET] (Japan)</description>
+	<cloneof>janbari</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu / Yubis / AV Japan</manufacturer>
+	<year>1992</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjfocus" index="" image="">
+	<description>Mahjong Focus (Japan 890313)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1989</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjfocusm" index="" image="">
+	<description>Mahjong Focus [BET] (Japan 890510)</description>
+	<cloneof>mjfocus</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1989</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjgottsu" index="" image="">
+	<description>Mahjong Gottsu ee-kanji (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1991</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjgottub" index="" image="">
+	<description>Medal Mahjong Gottsu ee-kanji [BET] (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1991</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjkoiura" index="" image="">
+	<description>Mahjong Koi Uranai (Japan set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1992</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjlaman" index="" image="">
+	<description>Mahjong La Man (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu / AV Japan</manufacturer>
+	<year>1993</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjlstory" index="" image="">
+	<description>Mahjong Jikken Love Story (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1991</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjsikakb" index="" image="">
+	<description>Mahjong Shikaku (Japan 880722)</description>
+	<cloneof>mjsikaku</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1988</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjsikakc" index="" image="">
+	<description>Mahjong Shikaku (Japan 880806)</description>
+	<cloneof>mjsikaku</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1988</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjsikakd" index="" image="">
+	<description>Mahjong Shikaku (Japan 880802)</description>
+	<cloneof>mjsikaku</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1988</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjsikaku" index="" image="">
+	<description>Mahjong Shikaku (Japan 880908)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1988</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjuraden" index="" image="">
+	<description>Mahjong Uranai Densetsu (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu / Yubis</manufacturer>
+	<year>1992</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mkeibaou" index="" image="">
+	<description>Mahjong Keibaou (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1993</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mkoiuraa" index="" image="">
+	<description>Mahjong Koi Uranai (Japan set 2)</description>
+	<cloneof>mjkoiura</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1992</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mladyhtr" index="" image="">
+	<description>Mahjong The Lady Hunter (Japan 900509)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1990</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mmaiko" index="" image="">
+	<description>Maikobana [BET] (Japan 900911)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1990</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mmehyou" index="" image="">
+	<description>Medal Mahjong Circuit no Mehyou [BET] (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu / Kawakusu</manufacturer>
+	<year>1992</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mmsikaku" index="" image="">
+	<description>Mahjong Shikaku [BET] (Japan 880929)</description>
+	<cloneof>mjsikaku</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1988</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="moonal2" index="" image="">
+	<description>Moon Alien Part 2</description>
+	<cloneof>galaxian</cloneof>
+	<crc/>
+	<manufacturer>Namco / Nichibutsu</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="moonal2b" index="" image="">
+	<description>Moon Alien Part 2 (older version)</description>
+	<cloneof>galaxian</cloneof>
+	<crc/>
+	<manufacturer>Namco / Nichibutsu</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="moonaln" index="" image="">
+	<description>Moon Alien</description>
+	<cloneof>galaxian</cloneof>
+	<crc/>
+	<manufacturer>Namco / Nichibutsu (Karateco license?)</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="moonbase" index="" image="">
+	<description>Moon Base (set 1)</description>
+	<cloneof>invadpt2</cloneof>
+	<crc/>
+	<manufacturer>Taito / Nichibutsu</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="moonbasea" index="" image="">
+	<description>Moon Base (set 2)</description>
+	<cloneof>invadpt2</cloneof>
+	<crc/>
+	<manufacturer>Taito / Nichibutsu</manufacturer>
+	<year>1979</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mooncrst" index="" image="">
+	<description>Moon Cresta (Nichibutsu)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mooncrstg" index="" image="">
+	<description>Moon Cresta (Gremlin)</description>
+	<cloneof>mooncrst</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu (Gremlin license)</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mooncrsto" index="" image="">
+	<description>Moon Cresta (Nichibutsu, old rev)</description>
+	<cloneof>mooncrst</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mooncrstu" index="" image="">
+	<description>Moon Cresta (Nichibutsu USA, unencrypted)</description>
+	<cloneof>mooncrst</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu USA</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mooncrstuk" index="" image="">
+	<description>Moon Cresta (Nichibutsu UK)</description>
+	<cloneof>mooncrst</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu UK</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mooncrstuku" index="" image="">
+	<description>Moon Cresta (Nichibutsu UK, unencrypted)</description>
+	<cloneof>mooncrst</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu UK</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="moonqsr" index="" image="">
+	<description>Moon Quasar</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mshuttle" index="" image="">
+	<description>Moon Shuttle (US? set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mshuttle2" index="" image="">
+	<description>Moon Shuttle (US? set 2)</description>
+	<cloneof>mshuttle</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mshuttlej" index="" image="">
+	<description>Moon Shuttle (Japan set 1)</description>
+	<cloneof>mshuttle</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mshuttlej2" index="" image="">
+	<description>Moon Shuttle (Japan set 2)</description>
+	<cloneof>mshuttle</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="msjiken" index="" image="">
+	<description>Mahjong Satsujin Jiken (Japan 881017)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1988</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="musobana" index="" image="">
+	<description>Musoubana (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu / Yubis</manufacturer>
+	<year>1995</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ngpgal" index="" image="">
+	<description>Nekketsu Grand-Prix Gal (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1991</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ngtbunny" index="" image="">
+	<description>Night Bunny (Japan 840601 MRN 2-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1984</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nightgal" index="" image="">
+	<description>Night Gal (Japan 840920 AG 1-00)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1984</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ninjemak" index="" image="">
+	<description>Ninja Emaki (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="niyanpai" index="" image="">
+	<description>Niyanpai (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1996</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ntopstar" index="" image="">
+	<description>Mahjong Nerae! Top Star (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1990</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ohpaipee" index="" image="">
+	<description>Oh! Paipee (Japan 890227)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1989</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ojousan" index="" image="">
+	<description>Ojousan (Japan 871204)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1987</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ojousanm" index="" image="">
+	<description>Ojousan [BET] (Japan 870108)</description>
+	<cloneof>ojousan</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1987</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pachiten" index="" image="">
+	<description>Medal Mahjong Pachi-Slot Tengoku [BET] (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu / AV Japan / Miki Syouji</manufacturer>
+	<year>1993</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pairsnb" index="" image="">
+	<description>Pairs (Nichibutsu) (Japan 890822)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1989</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pastelg" index="" image="">
+	<description>Pastel Gal (Japan 851224)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1985</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="patimono" index="" image="">
+	<description>Mahjong Pachinko Monogatari (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1992</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pstadium" index="" image="">
+	<description>Mahjong Panic Stadium (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1990</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qmhayaku" index="" image="">
+	<description>Quiz-Mahjong Hayaku Yatteyo! (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1991</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="radrad" index="" image="">
+	<description>Radical Radial</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu USA</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rjammer" index="" image="">
+	<description>Roller Jammer</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu / Alice</manufacturer>
+	<year>1984</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rollingc" index="" image="">
+	<description>Rolling Crash / Moon Base</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1979</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="royalmj" index="" image="">
+	<description>Royal Mahjong (Japan, v1.13)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1981</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="roylcrdn" index="" image="">
+	<description>Royal Card (Nichibutsu)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1985</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rugrats" index="" image="">
+	<description>Rug Rats</description>
+	<cloneof>wiping</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1983</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sailorwa" index="" image="">
+	<description>Mahjong Sailor Wars (Japan set 2)</description>
+	<cloneof>sailorws</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1993</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sailorwr" index="" image="">
+	<description>Mahjong Sailor Wars-R [BET] (Japan)</description>
+	<cloneof>sailorws</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1993</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sailorws" index="" image="">
+	<description>Mahjong Sailor Wars (Japan set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1993</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scandal" index="" image="">
+	<description>Scandal Mahjong (Japan 890213)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1989</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scandalm" index="" image="">
+	<description>Scandal Mahjong [BET] (Japan 890217)</description>
+	<cloneof>scandal</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1989</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="secolove" index="" image="">
+	<description>Second Love (Japan 861201)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1986</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sectrzon" index="" image="">
+	<description>Sector Zone</description>
+	<cloneof>seicross</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu / Alice</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="seicross" index="" image="">
+	<description>Seicross</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu / Alice</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="seiha" index="" image="">
+	<description>Seiha (Japan 870725)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1987</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="seiham" index="" image="">
+	<description>Seiha [BET] (Japan 870723)</description>
+	<cloneof>seiha</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1987</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfx" index="" image="">
+	<description>SF-X</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="skyfox" index="" image="">
+	<description>Sky Fox</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco (Nichibutsu USA license)</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smooncrs" index="" image="">
+	<description>Super Moon Cresta</description>
+	<cloneof>mooncrst</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu (Gremlin license)</manufacturer>
+	<year>1980?</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sstarcrs" index="" image="">
+	<description>Super Star Crest</description>
+	<cloneof>mooncrst</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu (Taito do Brasil license)</manufacturer>
+	<year>1980?</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="telmahjn" index="" image="">
+	<description>Telephone Mahjong (Japan 890111)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1988</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="terracre" index="" image="">
+	<description>Terra Cresta (YM3526 set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="terracrea" index="" image="">
+	<description>Terra Cresta (YM3526 set 3)</description>
+	<cloneof>terracre</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="terracren" index="" image="">
+	<description>Terra Cresta (YM2203)</description>
+	<cloneof>terracre</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="terracreo" index="" image="">
+	<description>Terra Cresta (YM3526 set 2)</description>
+	<cloneof>terracre</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="terraf" index="" image="">
+	<description>Terra Force</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="terrafj" index="" image="">
+	<description>Terra Force (Japan)</description>
+	<cloneof>terraf</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu Japan</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="terrafu" index="" image="">
+	<description>Terra Force (US)</description>
+	<cloneof>terraf</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu USA</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="threeds" index="" image="">
+	<description>Three Ds - Three Dealers Casino House</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1985</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="togenkyo" index="" image="">
+	<description>Tougenkyou (Japan 890418)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1989</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tokimbsj" index="" image="">
+	<description>Tokimeki Bishoujo [BET] (Japan)</description>
+	<cloneof>tokyogal</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1989</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tokyogal" index="" image="">
+	<description>Tokyo Gal Zukan (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1989</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="triplew1" index="" image="">
+	<description>Mahjong Triple Wars (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1989</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="triplew2" index="" image="">
+	<description>Mahjong Triple Wars 2 (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1990</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tubep" index="" image="">
+	<description>Tube Panic</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu / Fujitek</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="uchuuai" index="" image="">
+	<description>Mahjong Uchuu yori Ai wo komete (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1989</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vanilla" index="" image="">
+	<description>Mahjong Vanilla Syndrome (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1991</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wcatcher" index="" image="">
+	<description>Mahjong Wakuwaku Catcher (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1993</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wiping" index="" image="">
+	<description>Wiping</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="yosimotm" index="" image="">
+	<description>Mahjong Yoshimoto Gekijou [BET] (Japan)</description>
+	<cloneof>yosimoto</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu / Yoshimoto Kougyou</manufacturer>
+	<year>1994</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="yosimoto" index="" image="">
+	<description>Mahjong Yoshimoto Gekijou (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu / Yoshimoto Kougyou</manufacturer>
+	<year>1994</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="youma" index="" image="">
+	<description>Youma Ninpou Chou (Japan)</description>
+	<cloneof>ninjemak</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="youma2" index="" image="">
+	<description>Youma Ninpou Chou (Japan, alt)</description>
+	<cloneof>ninjemak</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zokumahj" index="" image="">
+	<description>Zoku Mahjong Housoukyoku (Japan)</description>
+	<cloneof>mhhonban</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu?</manufacturer>
+	<year>199?</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

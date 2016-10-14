@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Puzzle / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="blockout2" index="" image="">
+	<description>Block Out (set 2)</description>
+	<cloneof>blockout</cloneof>
+	<crc/>
+	<manufacturer>Technos Japan / California Dreams</manufacturer>
+	<year>1989</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cottong" index="" image="">
+	<description>Cotocoto Cottong</description>
+	<cloneof>locomotn</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1982</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="klaxj" index="" image="">
+	<description>Klax (Japan)</description>
+	<cloneof>klax</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1989</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="puzzldpr" index="" image="">
+	<description>Puzzle De Pon! R!</description>
+	<cloneof>puzzledp</cloneof>
+	<crc/>
+	<manufacturer>Taito (Visco license)</manufacturer>
+	<year>1997</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qixa" index="" image="">
+	<description>Qix (set 2, smaller roms)</description>
+	<cloneof>qix</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1981</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qixb" index="" image="">
+	<description>Qix (set 2, larger roms)</description>
+	<cloneof>qix</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1981</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quantump" index="" image="">
+	<description>Quantum (prototype)</description>
+	<cloneof>quantum</cloneof>
+	<crc/>
+	<manufacturer>General Computer Corporation (Atari license)</manufacturer>
+	<year>1982</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

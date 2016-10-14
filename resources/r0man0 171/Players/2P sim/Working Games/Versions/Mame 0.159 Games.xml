@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2P sim / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="asurabusa" index="" image="">
+	<description>Asura Buster - Eternal Warriors (Japan) (ARCADIA review build)</description>
+	<cloneof>asurabus</cloneof>
+	<crc/>
+	<manufacturer>Fuuki</manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="macross2g" index="" image="">
+	<description>Super Spacefortress Macross II / Chou-Jikuu Yousai Macross II (GAMEST review build)</description>
+	<cloneof>macross2</cloneof>
+	<crc/>
+	<manufacturer>Banpresto</manufacturer>
+	<year>1993</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="puzzlove" index="" image="">
+	<description>PuzzLove</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Para</manufacturer>
+	<year>1994</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sidearmsu" index="" image="">
+	<description>Side Arms - Hyper Dyne (US, 861202)</description>
+	<cloneof>sidearms</cloneof>
+	<crc/>
+	<manufacturer>Capcom (Romstar license)</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smissw" index="" image="">
+	<description>Super Miss World</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Comad</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ultraxg" index="" image="">
+	<description>Ultra X Weapons / Ultra Keibitai (GAMEST review build)</description>
+	<cloneof>ultrax</cloneof>
+	<crc/>
+	<manufacturer>Banpresto / Tsuburaya Productions</manufacturer>
+	<year>1995</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

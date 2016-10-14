@@ -1,0 +1,889 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1990-1999 / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="19xxd" index="" image="">
+	<description>19XX: The War Against Destiny (USA 951207 Phoenix Edition) (bootleg)</description>
+	<cloneof>19xx</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1996</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="4roses" index="" image="">
+	<description>Four Roses (encrypted, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1999</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="4rosesa" index="" image="">
+	<description>Four Roses (encrypted, set 2)</description>
+	<cloneof>4roses</cloneof>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1999</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="avspd" index="" image="">
+	<description>Alien vs. Predator (Euro 940520 Phoenix Edition) (bootleg)</description>
+	<cloneof>avsp</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="batcird" index="" image="">
+	<description>Battle Circuit (Euro 970319 Phoenix Edition) (bootleg)</description>
+	<cloneof>batcir</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bs94" index="" image="">
+	<description>Buena Suerte &apos;94</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Entretenimientos GEMINIS</manufacturer>
+	<year>1994</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bsuerte" index="" image="">
+	<description>Buena Suerte (Spanish, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1990</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bsuerteb" index="" image="">
+	<description>Buena Suerte (Spanish, set 3)</description>
+	<cloneof>bsuerte</cloneof>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1991</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bsuerted" index="" image="">
+	<description>Buena Suerte (Spanish, set 5)</description>
+	<cloneof>bsuerte</cloneof>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1991</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bsuertee" index="" image="">
+	<description>Buena Suerte (Spanish, set 6)</description>
+	<cloneof>bsuerte</cloneof>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1991</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bsuertef" index="" image="">
+	<description>Buena Suerte (Spanish, set 7)</description>
+	<cloneof>bsuerte</cloneof>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1991</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bsuerteg" index="" image="">
+	<description>Buena Suerte (Spanish, set 8)</description>
+	<cloneof>bsuerte</cloneof>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1991</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bsuerteh" index="" image="">
+	<description>Buena Suerte (Spanish, set 9)</description>
+	<cloneof>bsuerte</cloneof>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1991</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bsuertei" index="" image="">
+	<description>Buena Suerte (Spanish, set 10)</description>
+	<cloneof>bsuerte</cloneof>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1991</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bsuertej" index="" image="">
+	<description>Buena Suerte (Spanish, set 11)</description>
+	<cloneof>bsuerte</cloneof>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1991</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bsuertek" index="" image="">
+	<description>Buena Suerte (Spanish, set 12)</description>
+	<cloneof>bsuerte</cloneof>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1991</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bsuertel" index="" image="">
+	<description>Buena Suerte (Spanish, set 13)</description>
+	<cloneof>bsuerte</cloneof>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1991</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bsuertem" index="" image="">
+	<description>Buena Suerte (Spanish, set 14)</description>
+	<cloneof>bsuerte</cloneof>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1991</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bsuerten" index="" image="">
+	<description>Buena Suerte (Spanish, set 15)</description>
+	<cloneof>bsuerte</cloneof>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1991</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bsuerteo" index="" image="">
+	<description>Buena Suerte (Spanish, set 16)</description>
+	<cloneof>bsuerte</cloneof>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1991</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bsuertep" index="" image="">
+	<description>Buena Suerte (Spanish, set 17)</description>
+	<cloneof>bsuerte</cloneof>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1991</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bsuerteq" index="" image="">
+	<description>Buena Suerte (Spanish, set 18)</description>
+	<cloneof>bsuerte</cloneof>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1991</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bsuerter" index="" image="">
+	<description>Buena Suerte (Spanish, set 19)</description>
+	<cloneof>bsuerte</cloneof>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1991</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bsuertes" index="" image="">
+	<description>Buena Suerte (Spanish, set 20)</description>
+	<cloneof>bsuerte</cloneof>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1991</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bsuertet" index="" image="">
+	<description>Buena Suerte (Spanish, set 21)</description>
+	<cloneof>bsuerte</cloneof>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1991</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bsuerteu" index="" image="">
+	<description>Buena Suerte (Spanish, set 22)</description>
+	<cloneof>bsuerte</cloneof>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1991</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="butrfly" index="" image="">
+	<description>Butterfly Video Game (version U350C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bordun International</manufacturer>
+	<year>1995</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="carnevil1" index="" image="">
+	<description>CarnEvil (v1.0.1)</description>
+	<cloneof>carnevil</cloneof>
+	<crc/>
+	<manufacturer>Midway Games</manufacturer>
+	<year>1998</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cb3" index="" image="">
+	<description>Cherry Bonus III (ver.1.40, encrypted)</description>
+	<cloneof>ncb3</cloneof>
+	<crc/>
+	<manufacturer>Dyna</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chry10" index="" image="">
+	<description>Cherry 10 (bootleg with PIC16F84)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chrygld" index="" image="">
+	<description>Cherry Gold I (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cmast91" index="" image="">
+	<description>Cherry Master &apos;91 (ver.1.30)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dyna</manufacturer>
+	<year>1991</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cmaster" index="" image="">
+	<description>Cherry Master I (ver.1.01, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dyna</manufacturer>
+	<year>1991</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cupsoca" index="" image="">
+	<description>Seibu Cup Soccer (set 2)</description>
+	<cloneof>cupsoc</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>1992</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="daitorida" index="" image="">
+	<description>Daitoride (YMF278B version)</description>
+	<cloneof>daitorid</cloneof>
+	<crc/>
+	<manufacturer>Metro</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddragon3p" index="" image="">
+	<description>Double Dragon 3 - The Rosetta Stone (prototype)</description>
+	<cloneof>ddragon3</cloneof>
+	<crc/>
+	<manufacturer>Technos Japan</manufacturer>
+	<year>1990</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddsomud" index="" image="">
+	<description>Dungeons &amp; Dragons: Shadow over Mystara (USA 960619 Phoenix Edition) (bootleg)</description>
+	<cloneof>ddsom</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddtodd" index="" image="">
+	<description>Dungeons &amp; Dragons: Tower of Doom (Euro 940412 Phoenix Edition) (bootleg)</description>
+	<cloneof>ddtod</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dstlku1d" index="" image="">
+	<description>Darkstalkers: The Night Warriors (USA 940705 Phoenix Edition) (bootleg)</description>
+	<cloneof>dstlk</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="eggventr8" index="" image="">
+	<description>Egg Venture (Release 8)</description>
+	<cloneof>eggventr</cloneof>
+	<crc/>
+	<manufacturer>The Game Room</manufacturer>
+	<year>1997</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fireshrkd" index="" image="">
+	<description>Fire Shark (Korea, set 1, easier)</description>
+	<cloneof>fireshrk</cloneof>
+	<crc/>
+	<manufacturer>Toaplan (Dooyong license)</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fireshrkdh" index="" image="">
+	<description>Fire Shark (Korea, set 2, harder)</description>
+	<cloneof>fireshrk</cloneof>
+	<crc/>
+	<manufacturer>Toaplan (Dooyong license)</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gal3" index="" image="">
+	<description>Galaxian 3 - Theater 6 : Project Dragoon</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>199?</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gigaman2" index="" image="">
+	<description>Giga Man 2: The Power Fighters (bootleg of Mega Man 2: The Power Fighters)</description>
+	<cloneof>megaman2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gigawingb" index="" image="">
+	<description>Giga Wing (Brazil 990222)</description>
+	<cloneof>gigawing</cloneof>
+	<crc/>
+	<manufacturer>Takumi (Capcom license)</manufacturer>
+	<year>1999</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gigawingjd" index="" image="">
+	<description>Giga Wing (Japan 990223 Phoenix Edition) (bootleg)</description>
+	<cloneof>gigawing</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1999</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gp98" index="" image="">
+	<description>Grand Prix &apos;98 (V100K)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Romtec Co. Ltd</manufacturer>
+	<year>1998</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ilpag" index="" image="">
+	<description>Il Pagliaccio (Italy, Ver. 2.7C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>199?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jackie" index="" image="">
+	<description>Happy Jackie (v110U)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1993</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="janshi" index="" image="">
+	<description>Janshi</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Eagle</manufacturer>
+	<year>1992</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jjsquawkb" index="" image="">
+	<description>J. J. Squawkers (bootleg)</description>
+	<cloneof>jjsquawk</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1993</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jolycdib" index="" image="">
+	<description>Jolly Card (Italian, encrypted bootleg, set 1)</description>
+	<cloneof>jollycrd</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1990</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kftgoal" index="" image="">
+	<description>Kick for the Goal</description>
+	<cloneof>wpksoc</cloneof>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1994</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="leader" index="" image="">
+	<description>Leader (version Z 2E, Greece)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1995</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="magictg" index="" image="">
+	<description>Magic the Gathering: Armageddon (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Acclaim</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="magictga" index="" image="">
+	<description>Magic the Gathering: Armageddon (set 2)</description>
+	<cloneof>magictg</cloneof>
+	<crc/>
+	<manufacturer>Acclaim</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megamn2d" index="" image="">
+	<description>Mega Man 2: The Power Fighters (USA 960708 Phoenix Edition) (bootleg)</description>
+	<cloneof>megaman2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="motoxgo" index="" image="">
+	<description>Motocross Go! (MG3 Ver. A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1997</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mshud" index="" image="">
+	<description>Marvel Super Heroes (US 951024 Phoenix Edition) (bootleg)</description>
+	<cloneof>msh</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mvscud" index="" image="">
+	<description>Marvel Vs. Capcom: Clash of Super Heroes (USA 980123 Phoenix Edition) (bootleg)</description>
+	<cloneof>mvsc</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ncb3" index="" image="">
+	<description>Cherry Bonus III (ver.1.40, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dyna</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nwarrud" index="" image="">
+	<description>Night Warriors: Darkstalkers&apos; Revenge (USA 950406 Phoenix Edition) (bootleg)</description>
+	<cloneof>nwarr</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pbobble2" index="" image="">
+	<description>Puzzle Bobble 2 (Ver 2.3O 1995/07/31)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1995</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="poker91" index="" image="">
+	<description>Poker 91</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1991</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="policetr13a" index="" image="">
+	<description>Police Trainer (Rev 1.3B Newer)</description>
+	<cloneof>policetr</cloneof>
+	<crc/>
+	<manufacturer>P&amp;P Marketing</manufacturer>
+	<year>1996</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="powerins" index="" image="">
+	<description>Power Instinct (USA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atlus</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="re900" index="" image="">
+	<description>Ruleta RE-900</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Entretenimientos GEMINIS</manufacturer>
+	<year>1993</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ringdstd" index="" image="">
+	<description>Ring of Destruction: Slammasters II (Euro 940902 Phoenix Edition) (bootleg)</description>
+	<cloneof>ringdest</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1994</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sf2rb3" index="" image="">
+	<description>Street Fighter II&apos;: Champion Edition (Rainbow, bootleg, set 3)</description>
+	<cloneof>sf2ce</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfa3ud" index="" image="">
+	<description>Street Fighter Alpha 3 (USA 980904 Phoenix Edition) (bootleg)</description>
+	<cloneof>sfa3</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfad" index="" image="">
+	<description>Street Fighter Alpha: Warriors&apos; Dreams (Euro 950727 Phoenix Edition) (bootleg)</description>
+	<cloneof>sfa</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfz2ad" index="" image="">
+	<description>Street Fighter Zero 2 (Asia 960227 Phoenix Edition) (bootleg)</description>
+	<cloneof>sfa2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfz2ald" index="" image="">
+	<description>Street Fighter Zero 2 Alpha (Asia 960826 Phoenix Edition) (bootleg)</description>
+	<cloneof>sfz2al</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sgemfd" index="" image="">
+	<description>Super Gem Fighter Mini Mix (USA 970904 Phoenix Edition) (bootleg)</description>
+	<cloneof>sgemf</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shimpactp6" index="" image="">
+	<description>Super High Impact (prototype, rev 6.0 09/23/91)</description>
+	<cloneof>shimpact</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1991</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="soldam" index="" image="">
+	<description>Soldam</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1992</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spf2xjd" index="" image="">
+	<description>Super Puzzle Fighter II X (Japan 960531 Phoenix Edition) (bootleg)</description>
+	<cloneof>spf2t</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spool99" index="" image="">
+	<description>Super Pool 99 (Version 0.36)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Electronic Projects</manufacturer>
+	<year>1998</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spool99b" index="" image="">
+	<description>Super Pool 99 (Version 0.31)</description>
+	<cloneof>spool99</cloneof>
+	<crc/>
+	<manufacturer>Electronic Projects</manufacturer>
+	<year>1998</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssf2tbd" index="" image="">
+	<description>Super Street Fighter II: The Tournament Battle (World 931119 Phoenix Edition) (bootleg)</description>
+	<cloneof>ssf2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssf2ud" index="" image="">
+	<description>Super Street Fighter II: The New Challengers (USA 930911 Phoenix Edition) (bootleg)</description>
+	<cloneof>ssf2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ssf2xjd" index="" image="">
+	<description>Super Street Fighter II X: Grand Master Challenge (Japan 940223 Phoenix Edition) (bootleg)</description>
+	<cloneof>ssf2t</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="surfplnt40" index="" image="">
+	<description>Surf Planet (Version 4.0)</description>
+	<cloneof>surfplnt</cloneof>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1997</year>
+	<genre>Skiing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="viostormu" index="" image="">
+	<description>Violent Storm (ver UAC)</description>
+	<cloneof>viostorm</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vsavd" index="" image="">
+	<description>Vampire Savior: The Lord of Vampire (Euro 970519 Phoenix Edition) (bootleg)</description>
+	<cloneof>vsav</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="witchcrd" index="" image="">
+	<description>Witch Card (Video Klein CPU box, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Video Klein?</manufacturer>
+	<year>1991</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xmcotar1d" index="" image="">
+	<description>X-Men: Children of the Atom (Euro 950105 Phoenix Edition) (bootleg)</description>
+	<cloneof>xmcota</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xmvsfu1d" index="" image="">
+	<description>X-Men Vs. Street Fighter (USA 961004 Phoenix Edition) (bootleg)</description>
+	<cloneof>xmvsf</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

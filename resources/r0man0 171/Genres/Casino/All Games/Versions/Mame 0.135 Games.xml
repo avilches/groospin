@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Casino / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="d9final" index="" image="">
+	<description>Dream 9 Final (v2.24)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Excellent System</manufacturer>
+	<year>1992</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="geishanz" index="" image="">
+	<description>Geisha (0101408V, New Zealand)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="magicle" index="" image="">
+	<description>Magic Lotto Export (5.03)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Impera</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="magicmsk" index="" image="">
+	<description>Magic Mask (MV4115, Export, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>2000</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="starzan" index="" image="">
+	<description>Super Tarzan (Italy, V100I)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS / G.F. Gioca</manufacturer>
+	<year>2000?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tarzana" index="" image="">
+	<description>Tarzan (V107)</description>
+	<cloneof>tarzan</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1999?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="toursol" index="" image="">
+	<description>Tournament Solitaire (V1.06, 08/03/95)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dynamo</manufacturer>
+	<year>1995</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="toursol1" index="" image="">
+	<description>Tournament Solitaire (V1.04, 06/22/95)</description>
+	<cloneof>toursol</cloneof>
+	<crc/>
+	<manufacturer>Dynamo</manufacturer>
+	<year>1995</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wtigernz" index="" image="">
+	<description>White Tiger (3VXFC5342, New Zealand)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

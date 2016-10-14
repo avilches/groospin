@@ -1,0 +1,359 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Miscellaneous / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="18w" index="" image="">
+	<description>18 Wheeler (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1979</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="18w2" index="" image="">
+	<description>18 Wheeler (set 2)</description>
+	<cloneof>18w</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1979</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="alcat_l7" index="" image="">
+	<description>Alley Cats (Shuffle) (L-7)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1985</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="animalc" index="" image="">
+	<description>Animal Catch</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy</manufacturer>
+	<year>2000</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arist_l1" index="" image="">
+	<description>Aristocrat (Shuffle) (L-1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1978</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="babypac2" index="" image="">
+	<description>Baby Pac-Man (set 2)</description>
+	<cloneof>babypac</cloneof>
+	<crc/>
+	<manufacturer>Dave Nutting Associates / Bally</manufacturer>
+	<year>1982</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bbbowlin" index="" image="">
+	<description>Big Ball Bowling (Bowler)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>United</manufacturer>
+	<year>1988</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blbeauty" index="" image="">
+	<description>Black Beauty (Shuffle)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Stern</manufacturer>
+	<year>1988</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bstrk_l1" index="" image="">
+	<description>Big Strike (Shuffle) (L-1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1983</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="caveman" index="" image="">
+	<description>Caveman (Pinball/Video Combo, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Gottlieb</manufacturer>
+	<year>1981</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cavemana" index="" image="">
+	<description>Caveman (Pinball/Video Combo, set 2)</description>
+	<cloneof>caveman</cloneof>
+	<crc/>
+	<manufacturer>Gottlieb</manufacturer>
+	<year>1981</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cntinntl" index="" image="">
+	<description>Continental (Bingo)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally</manufacturer>
+	<year>1980</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ctcheese" index="" image="">
+	<description>Cut The Cheese (Redemption)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1996</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ctchzdlx" index="" image="">
+	<description>Cut The Cheese Deluxe (Redemption)</description>
+	<cloneof>ctcheese</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1998</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="funkball" index="" image="">
+	<description>Funky Ball</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>dgPIX Entertainment Inc.</manufacturer>
+	<year>1998</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gmine_l2" index="" image="">
+	<description>Gold Mine (Shuffle) (L-2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1987</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="goldgame" index="" image="">
+	<description>Golden Game (Bingo)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Splin</manufacturer>
+	<year>19??</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="goldgkitb" index="" image="">
+	<description>Golden Game Kit Bingo Stake 6/10 (Bingo)</description>
+	<cloneof>goldgame</cloneof>
+	<crc/>
+	<manufacturer>Splin</manufacturer>
+	<year>19??</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="granny" index="" image="">
+	<description>Granny and the Gators</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally</manufacturer>
+	<year>1984</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hidctch2a" index="" image="">
+	<description>Hidden Catch 2 (pcb ver 1.00) (Kor/Eng/Jpn/Chi)</description>
+	<cloneof>hidctch2</cloneof>
+	<crc/>
+	<manufacturer>Eolith</manufacturer>
+	<year>1999</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="icecold" index="" image="">
+	<description>Ice Cold Beer</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1983</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kingt_l1" index="" image="">
+	<description>King Tut (Shuffle) (L-1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1979</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mdntmrdr" index="" image="">
+	<description>Midnight Marauders (Gun game)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1984</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="monrobwl" index="" image="">
+	<description>Stars &amp; Strikes (Bowler)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Monroe Bowling Co.</manufacturer>
+	<year>1988</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="omni_l1" index="" image="">
+	<description>Omni (Shuffle) (L-1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1980</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pomp_l1" index="" image="">
+	<description>Pompeii (Shuffle) (L-1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1978</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shfin_l1" index="" image="">
+	<description>Shuffle Inn (Shuffle) (L-1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1987</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="szone_l2" index="" image="">
+	<description>Strike Zone (Shuffle) (L-2)</description>
+	<cloneof>szone_l5</cloneof>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1984</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="szone_l5" index="" image="">
+	<description>Strike Zone (Shuffle) (L-5)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1984</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="taurs_l1" index="" image="">
+	<description>Taurus (Shuffle) (L-1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1979</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tdawg_l1" index="" image="">
+	<description>Top Dawg (Shuffle) (L-1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1987</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tetfight" index="" image="">
+	<description>Tetris Fighters</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sego</manufacturer>
+	<year>2001</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="topaz_l1" index="" image="">
+	<description>Topaz (Shuffle) (L-1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1978</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tstrk_l1" index="" image="">
+	<description>Triple Strike (Shuffle) (L-1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1983</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wackadoo" index="" image="">
+	<description>Wack-A-Doodle-Doo (Redemption)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1998</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

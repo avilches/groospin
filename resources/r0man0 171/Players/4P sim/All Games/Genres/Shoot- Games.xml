@@ -1,0 +1,439 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>4P sim / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="bucky" index="" image="">
+	<description>Bucky O&apos;Hare (ver EAB)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="buckyaab" index="" image="">
+	<description>Bucky O&apos;Hare (ver AAB)</description>
+	<cloneof>bucky</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="buckyea" index="" image="">
+	<description>Bucky O&apos;Hare (ver EA)</description>
+	<cloneof>bucky</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="buckyuab" index="" image="">
+	<description>Bucky O&apos;Hare (ver UAB)</description>
+	<cloneof>bucky</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="copsnrob" index="" image="">
+	<description>Cops&apos;n Robbers</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1976</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dassault4" index="" image="">
+	<description>Desert Assault (US 4 Players)</description>
+	<cloneof>thndzone</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="elim4" index="" image="">
+	<description>Eliminator (4 Players)</description>
+	<cloneof>elim2</cloneof>
+	<crc/>
+	<manufacturer>Gremlin</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="elim4p" index="" image="">
+	<description>Eliminator (4 Players, prototype)</description>
+	<cloneof>elim2</cloneof>
+	<crc/>
+	<manufacturer>Gremlin</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gaunt2" index="" image="">
+	<description>Gauntlet II</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gaunt2g" index="" image="">
+	<description>Gauntlet II (German)</description>
+	<cloneof>gaunt2</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gauntdl" index="" image="">
+	<description>Gauntlet Dark Legacy (version DL 2.52)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway Games</manufacturer>
+	<year>1999</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gauntdl24" index="" image="">
+	<description>Gauntlet Dark Legacy (version DL 2.4)</description>
+	<cloneof>gauntdl</cloneof>
+	<crc/>
+	<manufacturer>Midway Games</manufacturer>
+	<year>1999</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gauntleg" index="" image="">
+	<description>Gauntlet Legends (version 1.6)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1998</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gauntleg12" index="" image="">
+	<description>Gauntlet Legends (version 1.2)</description>
+	<cloneof>gauntleg</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1998</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gauntlet" index="" image="">
+	<description>Gauntlet (rev 14)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gauntletg" index="" image="">
+	<description>Gauntlet (German, rev 10)</description>
+	<cloneof>gauntlet</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gauntletgr3" index="" image="">
+	<description>Gauntlet (German, rev 3)</description>
+	<cloneof>gauntlet</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gauntletgr6" index="" image="">
+	<description>Gauntlet (German, rev 6)</description>
+	<cloneof>gauntlet</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gauntletgr8" index="" image="">
+	<description>Gauntlet (German, rev 8)</description>
+	<cloneof>gauntlet</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gauntletj" index="" image="">
+	<description>Gauntlet (Japanese, rev 13)</description>
+	<cloneof>gauntlet</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gauntletj12" index="" image="">
+	<description>Gauntlet (Japanese, rev 12)</description>
+	<cloneof>gauntlet</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gauntletr1" index="" image="">
+	<description>Gauntlet (rev 1)</description>
+	<cloneof>gauntlet</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gauntletr2" index="" image="">
+	<description>Gauntlet (rev 2)</description>
+	<cloneof>gauntlet</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gauntletr4" index="" image="">
+	<description>Gauntlet (rev 4)</description>
+	<cloneof>gauntlet</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gauntletr5" index="" image="">
+	<description>Gauntlet (rev 5)</description>
+	<cloneof>gauntlet</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gauntletr7" index="" image="">
+	<description>Gauntlet (rev 7)</description>
+	<cloneof>gauntlet</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gauntletr9" index="" image="">
+	<description>Gauntlet (rev 9)</description>
+	<cloneof>gauntlet</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gauntlets" index="" image="">
+	<description>Gauntlet (Spanish, rev 15)</description>
+	<cloneof>gauntlet</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gijoe" index="" image="">
+	<description>G.I. Joe (World, EAB, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gijoea" index="" image="">
+	<description>G.I. Joe (World, EB8, prototype?)</description>
+	<cloneof>gijoe</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gijoej" index="" image="">
+	<description>G.I. Joe (Japan, JAA)</description>
+	<cloneof>gijoe</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gijoeu" index="" image="">
+	<description>G.I. Joe (US, UAB)</description>
+	<cloneof>gijoe</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="heatbrl" index="" image="">
+	<description>Heated Barrel (World version 3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>TAD Corporation</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="heatbrl2" index="" image="">
+	<description>Heated Barrel (World version 2)</description>
+	<cloneof>heatbrl</cloneof>
+	<crc/>
+	<manufacturer>TAD Corporation</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="heatbrle" index="" image="">
+	<description>Heated Barrel (Electronic Devices license)</description>
+	<cloneof>heatbrl</cloneof>
+	<crc/>
+	<manufacturer>TAD Corporation (Electronic Devices license)</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="heatbrlo" index="" image="">
+	<description>Heated Barrel (World old version)</description>
+	<cloneof>heatbrl</cloneof>
+	<crc/>
+	<manufacturer>TAD Corporation</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="heatbrlu" index="" image="">
+	<description>Heated Barrel (US)</description>
+	<cloneof>heatbrl</cloneof>
+	<crc/>
+	<manufacturer>TAD Corporation</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="intlaser" index="" image="">
+	<description>International Team Laser (prototype)</description>
+	<cloneof>blasted</cloneof>
+	<crc/>
+	<manufacturer>Bally Midway</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quartet" index="" image="">
+	<description>Quartet (Rev A, 8751 315-5194)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quarteta" index="" image="">
+	<description>Quartet (8751 315-5194)</description>
+	<cloneof>quartet</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tankfrce4" index="" image="">
+	<description>Tank Force (US, 4 Player)</description>
+	<cloneof>tankfrce</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thndzone4" index="" image="">
+	<description>Thunder Zone (World 4 Players)</description>
+	<cloneof>thndzone</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thndzonea" index="" image="">
+	<description>Thunder Zone (World)</description>
+	<cloneof>thndzone</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

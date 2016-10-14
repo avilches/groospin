@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Capcom / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="pnickj" index="" image="">
+	<description>Pnickies (Japan 940608)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Compile (Capcom license)</manufacturer>
+	<year>1994</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pzloop2" index="" image="">
+	<description>Puzz Loop 2 (Euro 010302)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Mitchell (Capcom license)</manufacturer>
+	<year>2001</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pzloop2j" index="" image="">
+	<description>Puzz Loop 2 (Japan 010226)</description>
+	<cloneof>pzloop2</cloneof>
+	<crc/>
+	<manufacturer>Mitchell (Capcom license)</manufacturer>
+	<year>2001</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pzloop2jr1" index="" image="">
+	<description>Puzz Loop 2 (Japan 010205)</description>
+	<cloneof>pzloop2</cloneof>
+	<crc/>
+	<manufacturer>Mitchell (Capcom license)</manufacturer>
+	<year>2001</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spf2t" index="" image="">
+	<description>Super Puzzle Fighter II Turbo (Euro 960529)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spf2ta" index="" image="">
+	<description>Super Puzzle Fighter II Turbo (Asia 960529)</description>
+	<cloneof>spf2t</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spf2th" index="" image="">
+	<description>Super Puzzle Fighter II Turbo (Hispanic 960531)</description>
+	<cloneof>spf2t</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spf2tu" index="" image="">
+	<description>Super Puzzle Fighter II Turbo (USA 960620)</description>
+	<cloneof>spf2t</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spf2xj" index="" image="">
+	<description>Super Puzzle Fighter II X (Japan 960531)</description>
+	<cloneof>spf2t</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tgmj" index="" image="">
+	<description>Tetris The Grand Master (Japan 980710)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Arika / Capcom</manufacturer>
+	<year>1998</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

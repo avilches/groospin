@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Mini-Games / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="bonanza" index="" image="">
+	<description>Touchstar Bonanza (Revision 3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>New Image Technologies</manufacturer>
+	<year>1994</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bonanzar2" index="" image="">
+	<description>Touchstar Bonanza (Revision 2)</description>
+	<cloneof>bonanza</cloneof>
+	<crc/>
+	<manufacturer>New Image Technologies</manufacturer>
+	<year>1994</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megat4st" index="" image="">
+	<description>Super Megatouch IV Tournament Edition (9255-51-01 ROB, Standard version)</description>
+	<cloneof>megat4</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1996</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="streetg" index="" image="">
+	<description>Street Games (Revision 4)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>New Image Technologies</manufacturer>
+	<year>1993</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="streetg2" index="" image="">
+	<description>Street Games II (Revision 7C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>New Image Technologies</manufacturer>
+	<year>1993</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="streetg2r5" index="" image="">
+	<description>Street Games II (Revision 5)</description>
+	<cloneof>streetg2</cloneof>
+	<crc/>
+	<manufacturer>New Image Technologies</manufacturer>
+	<year>1993</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="streetgr3" index="" image="">
+	<description>Street Games (Revision 3)</description>
+	<cloneof>streetg</cloneof>
+	<crc/>
+	<manufacturer>New Image Technologies</manufacturer>
+	<year>1993</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zokuoten" index="" image="">
+	<description>Zoku Otenamihaiken (V2.03J)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Success</manufacturer>
+	<year>2000</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

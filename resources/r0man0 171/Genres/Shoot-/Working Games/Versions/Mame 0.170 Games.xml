@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Shoot- / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="ikariram" index="" image="">
+	<description>Rambo 3 (bootleg of Ikari, Joystick hack)</description>
+	<cloneof>ikari</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nova2001h" index="" image="">
+	<description>Nova 2001 (Japan, hack?)</description>
+	<cloneof>nova2001</cloneof>
+	<crc/>
+	<manufacturer>UPL</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wingforc" index="" image="">
+	<description>Wing Force (Japan, prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>A.I (Atlus license)</manufacturer>
+	<year>1993</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

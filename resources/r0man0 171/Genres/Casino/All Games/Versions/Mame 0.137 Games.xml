@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Casino / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="cb3c" index="" image="">
+	<description>Cherry Bonus III (alt, set 2)</description>
+	<cloneof>ncb3</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cmezspin" index="" image="">
+	<description>Cherry Master I (E-Z Spin bootleg / hack)</description>
+	<cloneof>cmaster</cloneof>
+	<crc/>
+	<manufacturer>Dyna</manufacturer>
+	<year>1991</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stbsub" index="" image="">
+	<description>Treasure Bonus (Subsino, v1.6)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>American Alpha</manufacturer>
+	<year>1995</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tisuba" index="" image="">
+	<description>Treasure Island (Subsino, set 2)</description>
+	<cloneof>tisub</cloneof>
+	<crc/>
+	<manufacturer>Subsino</manufacturer>
+	<year>1992</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tjumpman" index="" image="">
+	<description>Tobikose! Jumpman</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1999</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4blox" index="" image="">
+	<description>Blox (v2.0) (MPU4 Video)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BwB</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4bloxd" index="" image="">
+	<description>Blox (v2.0, Datapak) (MPU4 Video)</description>
+	<cloneof>v4blox</cloneof>
+	<crc/>
+	<manufacturer>BwB</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4eyedwn" index="" image="">
+	<description>Eyes Down (v1.3) (MPU4 Video)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Barcrest</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4eyedwnd" index="" image="">
+	<description>Eyes Down (v1.3, Datapak) (MPU4 Video)</description>
+	<cloneof>v4eyedwn</cloneof>
+	<crc/>
+	<manufacturer>Barcrest</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4psi" index="" image="">
+	<description>Prize Space Invaders (v1.1) (MPU4 Video)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BwB</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4quidgr" index="" image="">
+	<description>Ten Quid Grid (v1.2) (MPU4 Video)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Barcrest</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4quidgr2" index="" image="">
+	<description>Ten Quid Grid (v2.4) (MPU4 Video)</description>
+	<cloneof>v4quidgr</cloneof>
+	<crc/>
+	<manufacturer>Barcrest</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4quidgr2d" index="" image="">
+	<description>Ten Quid Grid (v2.4, Datapak) (MPU4 Video)</description>
+	<cloneof>v4quidgr</cloneof>
+	<crc/>
+	<manufacturer>Barcrest</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4quidgrd" index="" image="">
+	<description>Ten Quid Grid (v1.2, Datapak) (MPU4 Video)</description>
+	<cloneof>v4quidgr</cloneof>
+	<crc/>
+	<manufacturer>Barcrest</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4strike" index="" image="">
+	<description>Strike it Lucky (v0.5) (MPU4 Video)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Barcrest</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4strike2" index="" image="">
+	<description>Strike it Lucky (v0.53) (MPU4 Video)</description>
+	<cloneof>v4strike</cloneof>
+	<crc/>
+	<manufacturer>Barcrest</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4strike2d" index="" image="">
+	<description>Strike it Lucky (v0.53, Datapak) (MPU4 Video)</description>
+	<cloneof>v4strike</cloneof>
+	<crc/>
+	<manufacturer>Barcrest</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4striked" index="" image="">
+	<description>Strike it Lucky (v0.5, Datapak) (MPU4 Video)</description>
+	<cloneof>v4strike</cloneof>
+	<crc/>
+	<manufacturer>Barcrest</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

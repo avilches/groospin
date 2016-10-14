@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Platform / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="altbeast" index="" image="">
+	<description>Altered Beast (set 8) (8751 317-0078)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="altbeastj3" index="" image="">
+	<description>Juuouki (set 3, Japan) (FD1094 317-0068)</description>
+	<cloneof>altbeast</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="astorm3" index="" image="">
+	<description>Alien Storm (World, 3 Players) (FD1094 317-0148)</description>
+	<cloneof>astorm</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="eswat" index="" image="">
+	<description>E-Swat - Cyber Police (set 4, World) (FD1094 317-0130)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mf_brist" index="" image="">
+	<description>Bristles (Max-A-Flex)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Exidy / First Star Software</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mf_flip" index="" image="">
+	<description>Flip &amp; Flop (Max-A-Flex)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Exidy / First Star Software</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tigeroadb" index="" image="">
+	<description>Tiger Road (US bootleg)</description>
+	<cloneof>tigeroad</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wb31" index="" image="">
+	<description>Wonder Boy III - Monster Lair (set 1, Japan, System 16A) (FD1094 317-0084)</description>
+	<cloneof>wb3</cloneof>
+	<crc/>
+	<manufacturer>Sega / Westone</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wb32" index="" image="">
+	<description>Wonder Boy III - Monster Lair (set 2, Japan, System 16B) (FD1094 317-0085)</description>
+	<cloneof>wb3</cloneof>
+	<crc/>
+	<manufacturer>Sega / Westone</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="woodpeca" index="" image="">
+	<description>Woodpecker (set 2)</description>
+	<cloneof>woodpeck</cloneof>
+	<crc/>
+	<manufacturer>Amenip</manufacturer>
+	<year>1981</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="woodpeck" index="" image="">
+	<description>Woodpecker (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amenip (Palcom Queen River)</manufacturer>
+	<year>1981</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

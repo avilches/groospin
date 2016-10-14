@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2P alt / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="20pacgal" index="" image="">
+	<description>Ms. Pac-Man/Galaga - 20th Anniversary Class of 1981 Reunion (V1.08)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco / Cosmodog</manufacturer>
+	<year>2000</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="20pacgalr2" index="" image="">
+	<description>Ms. Pac-Man/Galaga - 20th Anniversary Class of 1981 Reunion (V1.02)</description>
+	<cloneof>20pacgal</cloneof>
+	<crc/>
+	<manufacturer>Namco / Cosmodog</manufacturer>
+	<year>2000</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="animaljr" index="" image="">
+	<description>Exciting Animal Land Jr. (USA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nakanihon / East Technology (Taito license)</manufacturer>
+	<year>1993</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="animaljrj" index="" image="">
+	<description>Waiwai Animal Land Jr. (Japan)</description>
+	<cloneof>animaljr</cloneof>
+	<crc/>
+	<manufacturer>Nakanihon / East Technology (Taito license)</manufacturer>
+	<year>1993</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="armedf" index="" image="">
+	<description>Armed Formation</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="berenstn" index="" image="">
+	<description>The Berenstain Bears in Big Paw&apos;s Cave</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Enter-Tech, Ltd.</manufacturer>
+	<year>1984</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="boggy84" index="" image="">
+	<description>Boggy &apos;84</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ckong" index="" image="">
+	<description>Crazy Kong</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kyoei / Falcon</manufacturer>
+	<year>1981</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="enigma2b" index="" image="">
+	<description>Phantoms II (Space Invaders hardware)</description>
+	<cloneof>enigma2</cloneof>
+	<crc/>
+	<manufacturer>Zilec Electronics</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="exerizer" index="" image="">
+	<description>Exerizer (Japan)</description>
+	<cloneof>skyfox</cloneof>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fantzonep" index="" image="">
+	<description>Fantasy Zone (317-5000)</description>
+	<cloneof>fantzone</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="firetrapj" index="" image="">
+	<description>Fire Trap (Japan)</description>
+	<cloneof>firetrap</cloneof>
+	<crc/>
+	<manufacturer>Wood Place Inc.</manufacturer>
+	<year>1986</year>
+	<genre>Climbing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="looping" index="" image="">
+	<description>Looping</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Video Games GmbH</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mschamp" index="" image="">
+	<description>Ms. Pacman Champion Edition / Zola-Puc Gal</description>
+	<cloneof>mspacman</cloneof>
+	<crc/>
+	<manufacturer>hack</manufacturer>
+	<year>1992</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="paclandjo2" index="" image="">
+	<description>Pac-Land (Japan older)</description>
+	<cloneof>pacland</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="redufo" index="" image="">
+	<description>Defend the Terra Attack on the Red UFO</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Artic</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tokio" index="" image="">
+	<description>Tokio / Scramble Formation (newer)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4cmaze" index="" image="">
+	<description>The Crystal Maze (v1.3) (MPU4 Video)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Barcrest</manufacturer>
+	<year>1993</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xmultipl" index="" image="">
+	<description>X Multiply (World, M81)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="youma2" index="" image="">
+	<description>Youma Ninpou Chou (Japan, alt)</description>
+	<cloneof>ninjemak</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

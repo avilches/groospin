@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Mahjong / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="mahjngoh" index="" image="">
+	<description>Mahjong Oh (V2.06J)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Warashi / Mahjong Kobo / Taito</manufacturer>
+	<year>1999</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjvegasa" index="" image="">
+	<description>Mahjong Vegas (Japan, unprotected)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dynax</manufacturer>
+	<year>1991</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="usagi" index="" image="">
+	<description>Usagi (V2.02J)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Warashi / Mahjong Kobo / Taito</manufacturer>
+	<year>2001</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

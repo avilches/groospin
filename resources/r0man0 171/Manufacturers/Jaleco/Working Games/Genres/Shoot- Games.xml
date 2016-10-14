@@ -1,0 +1,379 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Jaleco / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="aeroboto" index="" image="">
+	<description>Aeroboto</description>
+	<cloneof>formatz</cloneof>
+	<crc/>
+	<manufacturer>Jaleco (Williams license)</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="argus" index="" image="">
+	<description>Argus</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>NMK (Jaleco license)</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bombsa" index="" image="">
+	<description>Bombs Away (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="butasan" index="" image="">
+	<description>Butasan - Pig&apos;s &amp; Bomber&apos;s (Japan, English)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>NMK (Jaleco license)</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="butasanj" index="" image="">
+	<description>Butasan (Japan, Japanese)</description>
+	<cloneof>butasan</cloneof>
+	<crc/>
+	<manufacturer>NMK (Jaleco license)</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chimerab" index="" image="">
+	<description>Chimera Beast (Japan, prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1993</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cybattlr" index="" image="">
+	<description>Cybattler</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1993</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddayjlc" index="" image="">
+	<description>D-Day (Jaleco set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddayjlca" index="" image="">
+	<description>D-Day (Jaleco set 2)</description>
+	<cloneof>ddayjlc</cloneof>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="desertwr" index="" image="">
+	<description>Desert War / Wangan Sensou</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1995</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="edf" index="" image="">
+	<description>E.D.F. : Earth Defense Force (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="edfa" index="" image="">
+	<description>E.D.F. : Earth Defense Force (set 2)</description>
+	<cloneof>edf</cloneof>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="edfu" index="" image="">
+	<description>E.D.F. : Earth Defense Force (North America)</description>
+	<cloneof>edf</cloneof>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="exerion" index="" image="">
+	<description>Exerion</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="exeriont" index="" image="">
+	<description>Exerion (Taito)</description>
+	<cloneof>exerion</cloneof>
+	<crc/>
+	<manufacturer>Jaleco (Taito America license)</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="exerizer" index="" image="">
+	<description>Exerizer (Japan)</description>
+	<cloneof>skyfox</cloneof>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcombat" index="" image="">
+	<description>Field Combat</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="formatz" index="" image="">
+	<description>Formation Z</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gametngk" index="" image="">
+	<description>The Game Paradise - Master of Shooting! / Game Tengoku - The Game Paradise</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1995</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gratia" index="" image="">
+	<description>Gratia - Second Earth (92047-01 version)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1996</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gratiaa" index="" image="">
+	<description>Gratia - Second Earth (91022-10 version)</description>
+	<cloneof>gratia</cloneof>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1996</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="naughtyb" index="" image="">
+	<description>Naughty Boy</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="naughtybc" index="" image="">
+	<description>Naughty Boy (Cinematronics)</description>
+	<cloneof>naughtyb</cloneof>
+	<crc/>
+	<manufacturer>Jaleco (Cinematronics license)</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="p47" index="" image="">
+	<description>P-47 - The Phantom Fighter (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="p47aces" index="" image="">
+	<description>P-47 Aces</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1995</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="p47j" index="" image="">
+	<description>P-47 - The Freedom Fighter (Japan)</description>
+	<cloneof>p47</cloneof>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="p47je" index="" image="">
+	<description>P-47 - The Freedom Fighter (Japan, Export)</description>
+	<cloneof>p47</cloneof>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="plusalph" index="" image="">
+	<description>Plus Alpha</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="popflame" index="" image="">
+	<description>Pop Flamer (protected)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="popflamea" index="" image="">
+	<description>Pop Flamer (not protected)</description>
+	<cloneof>popflame</cloneof>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="popflameb" index="" image="">
+	<description>Pop Flamer (hack?)</description>
+	<cloneof>popflame</cloneof>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="popflamen" index="" image="">
+	<description>Pop Flamer (bootleg on Naughty Boy PCB)</description>
+	<cloneof>popflame</cloneof>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="saturnzi" index="" image="">
+	<description>Saturn</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Zilec Electronics / Jaleco</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="skyfox" index="" image="">
+	<description>Sky Fox</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco (Nichibutsu USA license)</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stdragon" index="" image="">
+	<description>Saint Dragon (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stdragona" index="" image="">
+	<description>Saint Dragon (set 2)</description>
+	<cloneof>stdragon</cloneof>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="valtric" index="" image="">
+	<description>Valtric</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>NMK (Jaleco license)</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

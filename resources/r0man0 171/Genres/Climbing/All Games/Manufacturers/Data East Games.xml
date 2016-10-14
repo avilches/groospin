@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Climbing / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="firetrap" index="" image="">
+	<description>Fire Trap (US, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Wood Place Inc. (Data East USA license)</manufacturer>
+	<year>1986</year>
+	<genre>Climbing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="firetrapa" index="" image="">
+	<description>Fire Trap (US, set 2)</description>
+	<cloneof>firetrap</cloneof>
+	<crc/>
+	<manufacturer>Wood Place Inc. (Data East USA license)</manufacturer>
+	<year>1986</year>
+	<genre>Climbing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nob" index="" image="">
+	<description>Noboranka (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Coreland / Data East Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Climbing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

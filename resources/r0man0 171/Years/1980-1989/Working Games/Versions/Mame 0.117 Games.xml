@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1980-1989 / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="digsid" index="" image="">
+	<description>Dig Dug (manufactured by Sidam)</description>
+	<cloneof>digdug</cloneof>
+	<crc/>
+	<manufacturer>Namco (Sidam license)</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kingpin" index="" image="">
+	<description>Kingpin</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>ACL Manufacturing</manufacturer>
+	<year>1983</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="maxideal" index="" image="">
+	<description>Maxi-Dealer</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>ACL Manufacturing</manufacturer>
+	<year>1983</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pottnpkr" index="" image="">
+	<description>Jack Potten&apos;s Poker (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>198?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spcdrag" index="" image="">
+	<description>Space Dragon (Moon Cresta bootleg, set 1)</description>
+	<cloneof>mooncrst</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spcdraga" index="" image="">
+	<description>Space Dragon (Moon Cresta bootleg, set 2)</description>
+	<cloneof>mooncrst</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

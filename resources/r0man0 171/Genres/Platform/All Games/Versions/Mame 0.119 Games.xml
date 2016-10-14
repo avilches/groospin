@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Platform / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="astormb2" index="" image="">
+	<description>Alien Storm (bootleg, set 2)</description>
+	<cloneof>astorm</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1990</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ckongmc" index="" image="">
+	<description>Crazy Kong (bootleg on Moon Cresta hardware)</description>
+	<cloneof>ckong</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1981</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="esh" index="" image="">
+	<description>Esh&apos;s Aurunmilla (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Funai/Gakken</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="esha" index="" image="">
+	<description>Esh&apos;s Aurunmilla (set 2)</description>
+	<cloneof>esh</cloneof>
+	<crc/>
+	<manufacturer>Funai/Gakken</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="eshb" index="" image="">
+	<description>Esh&apos;s Aurunmilla (set 3)</description>
+	<cloneof>esh</cloneof>
+	<crc/>
+	<manufacturer>Funai/Gakken</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hunchbaka" index="" image="">
+	<description>Hunchback (set 2)</description>
+	<cloneof>hunchbak</cloneof>
+	<crc/>
+	<manufacturer>Century Electronics</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mario" index="" image="">
+	<description>Mario Bros. (US, Revision F)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo of America</manufacturer>
+	<year>1983</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sboblbobla" index="" image="">
+	<description>Super Bobble Bobble (bootleg, set 2)</description>
+	<cloneof>bublbobl</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shinoblb" index="" image="">
+	<description>Shinobi (Beta bootleg)</description>
+	<cloneof>shinobi</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Beta)</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shinobld" index="" image="">
+	<description>Shinobi (Datsu bootleg, set 1)</description>
+	<cloneof>shinobi</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Datsu)</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shinobls" index="" image="">
+	<description>Shinobi (Star bootleg, System 16A)</description>
+	<cloneof>shinobi</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Star)</manufacturer>
+	<year>1987</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

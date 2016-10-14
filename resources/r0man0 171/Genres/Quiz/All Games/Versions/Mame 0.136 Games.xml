@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Quiz / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="atamanot" index="" image="">
+	<description>Computer Quiz Atama no Taisou (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Yachiyo Denki / Uni Enterprize</manufacturer>
+	<year>1983</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nametune2" index="" image="">
+	<description>Name That Tune (3/23/86)</description>
+	<cloneof>nametune</cloneof>
+	<crc/>
+	<manufacturer>Bally/Sente</manufacturer>
+	<year>1986</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

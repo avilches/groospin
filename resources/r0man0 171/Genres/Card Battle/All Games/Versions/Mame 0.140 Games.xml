@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Card Battle / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="galds" index="" image="">
+	<description>Gals Ds - Three Dealers Casino House (bootleg?)</description>
+	<cloneof>threeds</cloneof>
+	<crc/>
+	<manufacturer>Nihon System Corp.</manufacturer>
+	<year>1985</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="megadpkrb" index="" image="">
+	<description>Mega Double Poker (conversion kit, set 2)</description>
+	<cloneof>megadpkr</cloneof>
+	<crc/>
+	<manufacturer>Blitz System Inc.</manufacturer>
+	<year>1990</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="royalcrdt" index="" image="">
+	<description>Royal Card (TAB original)</description>
+	<cloneof>royalcrd</cloneof>
+	<crc/>
+	<manufacturer>TAB Austria</manufacturer>
+	<year>1991</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="superdbl" index="" image="">
+	<description>Super Double (French)</description>
+	<cloneof>pottnpkr</cloneof>
+	<crc/>
+	<manufacturer>Karateco</manufacturer>
+	<year>198?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

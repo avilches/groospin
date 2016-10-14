@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Sports / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="blitz11" index="" image="">
+	<description>NFL Blitz (boot ROM 1.1)</description>
+	<cloneof>blitz</cloneof>
+	<crc/>
+	<manufacturer>Midway Games</manufacturer>
+	<year>1997</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="realbrk" index="" image="">
+	<description>Billiard Academy Real Break (Europe)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nakanihon</manufacturer>
+	<year>1998</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ttchampa" index="" image="">
+	<description>Table Tennis Champions (Palencia Elektronik license)</description>
+	<cloneof>ttchamp</cloneof>
+	<crc/>
+	<manufacturer>Gamart (Palencia Elektronik license)</manufacturer>
+	<year>1995</year>
+	<genre>Sports</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ttchampa" index="" image="">
+	<description>Table Tennis Champions (Palencia Elektronik license)</description>
+	<cloneof>ttchamp</cloneof>
+	<crc/>
+	<manufacturer>Gamart (Palencia Elektronik license)</manufacturer>
+	<year>1995</year>
+	<genre>Sports</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vbowlj" index="" image="">
+	<description>Virtua Bowling (Japan, V100JCM)</description>
+	<cloneof>vbowl</cloneof>
+	<crc/>
+	<manufacturer>IGS / Alta</manufacturer>
+	<year>1996</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wwfsstaru" index="" image="">
+	<description>WWF Superstars (US, Newer)</description>
+	<cloneof>wwfsstar</cloneof>
+	<crc/>
+	<manufacturer>Technos Japan</manufacturer>
+	<year>1989</year>
+	<genre>Wrestling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

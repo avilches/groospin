@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1970-1979 / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="k1003" index="" image="">
+	<description>K1003</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Robotron</manufacturer>
+	<year>1978</year>
+	<genre>Calculator / Pocket Computer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="safaria" index="" image="">
+	<description>Safari (set 2, bootleg?)</description>
+	<cloneof>safari</cloneof>
+	<crc/>
+	<manufacturer>Gremlin</manufacturer>
+	<year>1977</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smash" index="" image="">
+	<description>Smash (Crash bootleg)</description>
+	<cloneof>crash</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1979</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Maze / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="mwalk" index="" image="">
+	<description>Michael Jackson&apos;s Moonwalker (World) (FD1094/8751 317-0159)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mwalkbl" index="" image="">
+	<description>Michael Jackson&apos;s Moonwalker (bootleg)</description>
+	<cloneof>mwalk</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mwalkd" index="" image="">
+	<description>Michael Jackson&apos;s Moonwalker (World) (bootleg of FD1094/8751 317-0159)</description>
+	<cloneof>mwalk</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mwalkj" index="" image="">
+	<description>Michael Jackson&apos;s Moonwalker (Japan) (FD1094/8751 317-0157)</description>
+	<cloneof>mwalk</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mwalkjd" index="" image="">
+	<description>Michael Jackson&apos;s Moonwalker (Japan) (bootleg of FD1094/8751 317-0157 set)</description>
+	<cloneof>mwalk</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mwalku" index="" image="">
+	<description>Michael Jackson&apos;s Moonwalker (US) (FD1094/8751 317-0158)</description>
+	<cloneof>mwalk</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mwalkud" index="" image="">
+	<description>Michael Jackson&apos;s Moonwalker (US) (bootleg of FD1094/8751 317-0158)</description>
+	<cloneof>mwalk</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>4P alt / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="promutrvc" index="" image="">
+	<description>Progressive Music Trivia (Question set 4)</description>
+	<cloneof>promutrv</cloneof>
+	<crc/>
+	<manufacturer>Enerdyne Technologies Inc.</manufacturer>
+	<year>1985</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trivia12" index="" image="">
+	<description>Trivial Pursuit (Think Tank - Genus Edition) (12/14/84)</description>
+	<cloneof>triviag1</cloneof>
+	<crc/>
+	<manufacturer>Bally/Sente</manufacturer>
+	<year>1984</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wcbowl13" index="" image="">
+	<description>World Class Bowling (v1.3)</description>
+	<cloneof>wcbowl</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>1995</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

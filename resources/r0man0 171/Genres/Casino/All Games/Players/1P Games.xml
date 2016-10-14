@@ -1,0 +1,7279 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Casino / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="3bagflnz" index="" image="">
+	<description>3 Bags Full (3VXFC5345, New Zealand)</description>
+	<cloneof>3bagflvt</cloneof>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="3bagflvt" index="" image="">
+	<description>3 Bags Full (5VXFC790, Victoria)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="7smash" index="" image="">
+	<description>7 Smash</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sovic</manufacturer>
+	<year>1993</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="86lions" index="" image="">
+	<description>86 Lions</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>1985</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="abnudge" index="" image="">
+	<description>Animal Bonus Nudge (Version 2.1 Dual)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="abnudgeb" index="" image="">
+	<description>Animal Bonus Nudge (Version 2.0, set 1)</description>
+	<cloneof>abnudge</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="abnudged" index="" image="">
+	<description>Animal Bonus Nudge (Version 2.0, set 2)</description>
+	<cloneof>abnudge</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="abnudgeo" index="" image="">
+	<description>Animal Bonus Nudge (Version 1.7)</description>
+	<cloneof>abnudge</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dnd" index="" image="">
+	<description>Deal Or No Deal (Bellfruit) (Adder 5) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dnda" index="" image="">
+	<description>Deal Or No Deal (Bellfruit) (Adder 5) (set 2)</description>
+	<cloneof>ad5dnd</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dndb" index="" image="">
+	<description>Deal Or No Deal (Bellfruit) (Adder 5) (set 3)</description>
+	<cloneof>ad5dnd</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dndc" index="" image="">
+	<description>Deal Or No Deal (Bellfruit) (Adder 5) (set 4)</description>
+	<cloneof>ad5dnd</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dndcl" index="" image="">
+	<description>Deal Or No Deal Club (Bellfruit) (Adder 5) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dndcla" index="" image="">
+	<description>Deal Or No Deal Club (Bellfruit) (Adder 5) (set 2)</description>
+	<cloneof>ad5dndcl</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dndclb" index="" image="">
+	<description>Deal Or No Deal Club (Bellfruit) (Adder 5) (set 3)</description>
+	<cloneof>ad5dndcl</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dndclc" index="" image="">
+	<description>Deal Or No Deal Club (Bellfruit) (Adder 5) (set 4)</description>
+	<cloneof>ad5dndcl</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dndcld" index="" image="">
+	<description>Deal Or No Deal Club (Bellfruit) (Adder 5) (set 5)</description>
+	<cloneof>ad5dndcl</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dndcle" index="" image="">
+	<description>Deal Or No Deal Club (Bellfruit) (Adder 5) (set 6)</description>
+	<cloneof>ad5dndcl</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dndclf" index="" image="">
+	<description>Deal Or No Deal Club (Bellfruit) (Adder 5) (set 20)</description>
+	<cloneof>ad5dndcl</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dndclg" index="" image="">
+	<description>Deal Or No Deal Club (Bellfruit) (Adder 5) (set 21)</description>
+	<cloneof>ad5dndcl</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dndd" index="" image="">
+	<description>Deal Or No Deal (Bellfruit) (Adder 5) (set 5)</description>
+	<cloneof>ad5dnd</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dnddd" index="" image="">
+	<description>Deal Or No Deal Double Deal Or No Deal (Bellfruit) (Adder 5) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dnddda" index="" image="">
+	<description>Deal Or No Deal Double Deal Or No Deal (Bellfruit) (Adder 5) (set 2)</description>
+	<cloneof>ad5dnddd</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dnde" index="" image="">
+	<description>Deal Or No Deal (Bellfruit) (Adder 5) (set 6)</description>
+	<cloneof>ad5dnd</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dndf" index="" image="">
+	<description>Deal Or No Deal (Bellfruit) (Adder 5) (set 7)</description>
+	<cloneof>ad5dnd</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dndg" index="" image="">
+	<description>Deal Or No Deal (Bellfruit) (Adder 5) (set 8)</description>
+	<cloneof>ad5dnd</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dndh" index="" image="">
+	<description>Deal Or No Deal (Bellfruit) (Adder 5) (set 9)</description>
+	<cloneof>ad5dnd</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dndi" index="" image="">
+	<description>Deal Or No Deal (Bellfruit) (Adder 5) (set 10)</description>
+	<cloneof>ad5dnd</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dndj" index="" image="">
+	<description>Deal Or No Deal (Bellfruit) (Adder 5) (set 11)</description>
+	<cloneof>ad5dnd</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dndk" index="" image="">
+	<description>Deal Or No Deal (Bellfruit) (Adder 5) (set 12)</description>
+	<cloneof>ad5dnd</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dndl" index="" image="">
+	<description>Deal Or No Deal (Bellfruit) (Adder 5) (set 13)</description>
+	<cloneof>ad5dnd</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dndm" index="" image="">
+	<description>Deal Or No Deal (Bellfruit) (Adder 5) (set 14)</description>
+	<cloneof>ad5dnd</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dndn" index="" image="">
+	<description>Deal Or No Deal (Bellfruit) (Adder 5) (set 15)</description>
+	<cloneof>ad5dnd</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dndo" index="" image="">
+	<description>Deal Or No Deal (Bellfruit) (Adder 5) (set 16)</description>
+	<cloneof>ad5dnd</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dndp" index="" image="">
+	<description>Deal Or No Deal (Bellfruit) (Adder 5) (set 17)</description>
+	<cloneof>ad5dnd</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dndpg" index="" image="">
+	<description>Deal Or No Deal The Perfect Game (Bellfruit) (Adder 5) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dndpga" index="" image="">
+	<description>Deal Or No Deal The Perfect Game (Bellfruit) (Adder 5) (set 2)</description>
+	<cloneof>ad5dndpg</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dndpgb" index="" image="">
+	<description>Deal Or No Deal The Perfect Game (Bellfruit) (Adder 5) (set 3)</description>
+	<cloneof>ad5dndpg</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dndpgc" index="" image="">
+	<description>Deal Or No Deal The Perfect Game (Bellfruit) (Adder 5) (set 4)</description>
+	<cloneof>ad5dndpg</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dndpl" index="" image="">
+	<description>Deal Or No Deal Platinum (Bellfruit) (Adder 5) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dndpla" index="" image="">
+	<description>Deal Or No Deal Platinum (Bellfruit) (Adder 5) (set 2)</description>
+	<cloneof>ad5dndpl</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dndplb" index="" image="">
+	<description>Deal Or No Deal Platinum (Bellfruit) (Adder 5) (set 3)</description>
+	<cloneof>ad5dndpl</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dndplc" index="" image="">
+	<description>Deal Or No Deal Platinum (Bellfruit) (Adder 5) (set 4)</description>
+	<cloneof>ad5dndpl</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dndq" index="" image="">
+	<description>Deal Or No Deal (Bellfruit) (Adder 5) (set 18)</description>
+	<cloneof>ad5dnd</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dndr" index="" image="">
+	<description>Deal Or No Deal (Bellfruit) (Adder 5) (set 19)</description>
+	<cloneof>ad5dnd</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dndu" index="" image="">
+	<description>Deal Or No Deal (Bellfruit) (Adder 5) (set 22)</description>
+	<cloneof>ad5dnd</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dndv" index="" image="">
+	<description>Deal Or No Deal (Bellfruit) (Adder 5) (set 23)</description>
+	<cloneof>ad5dnd</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5pp" index="" image="">
+	<description>Pink Panther (PR2283, QPSNPINK) (Mazooma) (Adder 5) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Mazooma</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5ppa" index="" image="">
+	<description>Pink Panther (PR2283, QPSNPINK) (Mazooma) (Adder 5) (set 2)</description>
+	<cloneof>ad5pp</cloneof>
+	<crc/>
+	<manufacturer>Mazooma</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5ppb" index="" image="">
+	<description>Pink Panther (PR2267, MAZNPINK) (Mazooma) (Adder 5) (set 1)</description>
+	<cloneof>ad5pp</cloneof>
+	<crc/>
+	<manufacturer>Mazooma</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5ppbtb" index="" image="">
+	<description>Pink Panther Break The Bank (PR2304, QPSNPPBB) (Qps) (Adder 5) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Qps</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5ppbtba" index="" image="">
+	<description>Pink Panther Break The Bank (PR2304, QPSNPPBB) (Qps) (Adder 5) (set 2)</description>
+	<cloneof>ad5ppbtb</cloneof>
+	<crc/>
+	<manufacturer>Qps</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5ppbtbb" index="" image="">
+	<description>Pink Panther Break The Bank (PR2304, QPSPPPBB) (Qps) (Adder 5) (set 1)</description>
+	<cloneof>ad5ppbtb</cloneof>
+	<crc/>
+	<manufacturer>Qps</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5ppbtbc" index="" image="">
+	<description>Pink Panther Break The Bank (PR2304, QPSPPPBB) (Qps) (Adder 5) (set 2)</description>
+	<cloneof>ad5ppbtb</cloneof>
+	<crc/>
+	<manufacturer>Qps</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5ppc" index="" image="">
+	<description>Pink Panther (PR2267, MAZNPINK) (Mazooma) (Adder 5) (set 2)</description>
+	<cloneof>ad5pp</cloneof>
+	<crc/>
+	<manufacturer>Mazooma</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5ppd" index="" image="">
+	<description>Pink Panther (MAZNPINK) (Mazooma) (Adder 5) (set 1)</description>
+	<cloneof>ad5pp</cloneof>
+	<crc/>
+	<manufacturer>Mazooma</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5ppe" index="" image="">
+	<description>Pink Panther (MAZNPINK) (Mazooma) (Adder 5) (set 2)</description>
+	<cloneof>ad5pp</cloneof>
+	<crc/>
+	<manufacturer>Mazooma</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5ppf" index="" image="">
+	<description>Pink Panther (PR2283, QPSPPINK) (Mazooma) (Adder 5) (set 1)</description>
+	<cloneof>ad5pp</cloneof>
+	<crc/>
+	<manufacturer>Mazooma</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5ppg" index="" image="">
+	<description>Pink Panther (PR2283, QPSPPINK) (Mazooma) (Adder 5) (set 2)</description>
+	<cloneof>ad5pp</cloneof>
+	<crc/>
+	<manufacturer>Mazooma</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5pph" index="" image="">
+	<description>Pink Panther (PR2267, MAZPPINK) (Mazooma) (Adder 5)</description>
+	<cloneof>ad5pp</cloneof>
+	<crc/>
+	<manufacturer>Mazooma</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5ppi" index="" image="">
+	<description>Pink Panther (MAZPPINK) (Mazooma) (Adder 5) (set 1)</description>
+	<cloneof>ad5pp</cloneof>
+	<crc/>
+	<manufacturer>Mazooma</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5ppj" index="" image="">
+	<description>Pink Panther (MAZPPINK) (Mazooma) (Adder 5) (set 2)</description>
+	<cloneof>ad5pp</cloneof>
+	<crc/>
+	<manufacturer>Mazooma</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="adonis" index="" image="">
+	<description>Adonis (0200751V, NSW/ACT)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>1998</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="anibonus" index="" image="">
+	<description>Animal Bonus (Version 1.8E Dual)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="anibonusb1" index="" image="">
+	<description>Animal Bonus (Version 1.7R, set 1)</description>
+	<cloneof>anibonus</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="anibonusb2" index="" image="">
+	<description>Animal Bonus (Version 1.7LT, set 1)</description>
+	<cloneof>anibonus</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="anibonusd1" index="" image="">
+	<description>Animal Bonus (Version 1.7R, set 2)</description>
+	<cloneof>anibonus</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="anibonusd2" index="" image="">
+	<description>Animal Bonus (Version 1.7LT, set 2)</description>
+	<cloneof>anibonus</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="anibonuso" index="" image="">
+	<description>Animal Bonus (Version 1.5)</description>
+	<cloneof>anibonus</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="anibonuso2" index="" image="">
+	<description>Animal Bonus (Version 1.4, set 1)</description>
+	<cloneof>anibonus</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="anibonuso3" index="" image="">
+	<description>Animal Bonus (Version 1.4, set 2)</description>
+	<cloneof>anibonus</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="anibonusv1" index="" image="">
+	<description>Animal Bonus (Version 1.8R Dual)</description>
+	<cloneof>anibonus</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="anibonusv2" index="" image="">
+	<description>Animal Bonus (Version 1.8LT Dual)</description>
+	<cloneof>anibonus</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="anibonusxo" index="" image="">
+	<description>Animal Bonus (Version 1.50XT)</description>
+	<cloneof>anibonus</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="anibonusxo2" index="" image="">
+	<description>Animal Bonus (Version 1.40XT, set 1)</description>
+	<cloneof>anibonus</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="anibonusxo3" index="" image="">
+	<description>Animal Bonus (Version 1.40XT, set 2)</description>
+	<cloneof>anibonus</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="anithunt" index="" image="">
+	<description>Animal Treasure Hunt (Version 1.9R, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="anithuntd1" index="" image="">
+	<description>Animal Treasure Hunt (Version 1.9R, set 2)</description>
+	<cloneof>anithunt</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="anithunto" index="" image="">
+	<description>Animal Treasure Hunt (Version 1.7)</description>
+	<cloneof>anithunt</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="anithunto2" index="" image="">
+	<description>Animal Treasure Hunt (Version 1.5)</description>
+	<cloneof>anithunt</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="anithuntv1" index="" image="">
+	<description>Animal Treasure Hunt (Version 1.9R Dual)</description>
+	<cloneof>anithunt</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arcwins" index="" image="">
+	<description>Arctic Wins (4XF5227H03, USA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="atronic" index="" image="">
+	<description>Atronic SetUp/Clear Chips (Russia, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atronic</manufacturer>
+	<year>1999</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="atronica" index="" image="">
+	<description>Atronic SetUp/Clear Chips (Russia, set 2)</description>
+	<cloneof>atronic</cloneof>
+	<crc/>
+	<manufacturer>Atronic</manufacturer>
+	<year>1999</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="atworld" index="" image="">
+	<description>Around The World (Version 1.4R CGA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="atworldd1" index="" image="">
+	<description>Around The World (Version 1.3R CGA)</description>
+	<cloneof>atworld</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="atworlde1" index="" image="">
+	<description>Around The World (Version 1.3E CGA)</description>
+	<cloneof>atworld</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="autmoon" index="" image="">
+	<description>Autumn Moon (1VXFC5488, New Zealand)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>1999</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="b3rinsya" index="" image="">
+	<description>Burning Sanrinsya - Burning Tricycle</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sigma</manufacturer>
+	<year>1997</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="babydad" index="" image="">
+	<description>Baby Dado</description>
+	<cloneof>videopkr</cloneof>
+	<crc/>
+	<manufacturer>Recreativos Franco</manufacturer>
+	<year>1987</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="barline" index="" image="">
+	<description>Barline (Japan?)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1988</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="big10" index="" image="">
+	<description>Big 10</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>198?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bingo" index="" image="">
+	<description>Bingo</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Game-A-Tron</manufacturer>
+	<year>1983</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bingowng" index="" image="">
+	<description>Bingo (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Wing Co., Ltd.</manufacturer>
+	<year>1993</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bingownga" index="" image="">
+	<description>Bingo (set 2)</description>
+	<cloneof>bingowng</cloneof>
+	<crc/>
+	<manufacturer>Wing Co., Ltd.</manufacturer>
+	<year>1993</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blkrhino" index="" image="">
+	<description>Black Rhino (3VXFC5344, New Zealand)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bmcpokr" index="" image="">
+	<description>Dongfang Shenlong</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BMC</manufacturer>
+	<year>1999</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bugfever" index="" image="">
+	<description>Bugs Fever (Version 1.7R CGA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bugfeverd" index="" image="">
+	<description>Bugs Fever (Version 1.7E CGA)</description>
+	<cloneof>bugfever</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bugfevero" index="" image="">
+	<description>Bugs Fever (Version 1.6R CGA)</description>
+	<cloneof>bugfever</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bugfeverv" index="" image="">
+	<description>Bugs Fever (Version 1.7R Dual)</description>
+	<cloneof>bugfever</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bugfeverv2" index="" image="">
+	<description>Bugs Fever (Version 1.7E Dual)</description>
+	<cloneof>bugfever</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="butrfly" index="" image="">
+	<description>Butterfly Video Game (version U350C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bordun International</manufacturer>
+	<year>1995</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="carb2002" index="" image="">
+	<description>Carriage Bonus 2002 (bootleg)</description>
+	<cloneof>nfb96</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="carb2003" index="" image="">
+	<description>Carriage Bonus 2003 (bootleg)</description>
+	<cloneof>nfb96</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cb3" index="" image="">
+	<description>Cherry Bonus III (ver.1.40, encrypted)</description>
+	<cloneof>ncb3</cloneof>
+	<crc/>
+	<manufacturer>Dyna</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cb3a" index="" image="">
+	<description>Cherry Bonus III (ver.1.40, set 2)</description>
+	<cloneof>ncb3</cloneof>
+	<crc/>
+	<manufacturer>Dyna</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cb3b" index="" image="">
+	<description>Cherry Bonus III (alt)</description>
+	<cloneof>ncb3</cloneof>
+	<crc/>
+	<manufacturer>Dyna</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cb3c" index="" image="">
+	<description>Cherry Bonus III (alt, set 2)</description>
+	<cloneof>ncb3</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cb3d" index="" image="">
+	<description>Cherry Bonus III (set 3)</description>
+	<cloneof>ncb3</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cb3e" index="" image="">
+	<description>Cherry Bonus III (set 4, encrypted bootleg)</description>
+	<cloneof>ncb3</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cgold" index="" image="">
+	<description>Caribbean Gold (3VXEC449, USA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Ainsworth Nominees P.L.</manufacturer>
+	<year>1986</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cgold2" index="" image="">
+	<description>Caribbean Gold II (3XF5182H04, USA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>1995</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ch2000" index="" image="">
+	<description>Fruit Bonus 2000 / New Cherry 2000 (Version 4.4E Dual)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2000</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ch2000b1" index="" image="">
+	<description>Fruit Bonus 2000 / New Cherry 2000 (Version 4.4R, set 1)</description>
+	<cloneof>ch2000</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2000</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ch2000b2" index="" image="">
+	<description>Fruit Bonus 2000 / New Cherry 2000 (Version 4.1LT, set 1)</description>
+	<cloneof>ch2000</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2000</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ch2000c1" index="" image="">
+	<description>Fruit Bonus 2000 / New Cherry 2000 (Version 4.4R, set 2)</description>
+	<cloneof>ch2000</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2000</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ch2000c2" index="" image="">
+	<description>Fruit Bonus 2000 / New Cherry 2000 (Version 4.1LT, set 2)</description>
+	<cloneof>ch2000</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2000</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ch2000d1" index="" image="">
+	<description>Fruit Bonus 2000 / New Cherry 2000 (Version 4.4R, set 3)</description>
+	<cloneof>ch2000</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2000</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ch2000d2" index="" image="">
+	<description>Fruit Bonus 2000 / New Cherry 2000 (Version 4.1LT, set 3)</description>
+	<cloneof>ch2000</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2000</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ch2000o" index="" image="">
+	<description>Fruit Bonus 2000 / New Cherry 2000 (Version 3.9XT)</description>
+	<cloneof>ch2000</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2000</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ch2000o2" index="" image="">
+	<description>Fruit Bonus 2000 / New Cherry 2000 (Version 3.9D)</description>
+	<cloneof>ch2000</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2000</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ch2000o3" index="" image="">
+	<description>Fruit Bonus 2000 / New Cherry 2000 (Version 3.9)</description>
+	<cloneof>ch2000</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2000</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ch2000v1" index="" image="">
+	<description>Fruit Bonus 2000 / New Cherry 2000 (Version 4.4R Dual)</description>
+	<cloneof>ch2000</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2000</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ch2000v2" index="" image="">
+	<description>Fruit Bonus 2000 / New Cherry 2000 (Version 4.1LT Dual)</description>
+	<cloneof>ch2000</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2000</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cherry96" index="" image="">
+	<description>New Cherry &apos;96 (bootleg of New Fruit Bonus?)</description>
+	<cloneof>scmaster</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chewheel" index="" image="">
+	<description>Cherry Wheel (Version 1.7)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Assogiochi Assago</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chewing" index="" image="">
+	<description>Chewing Gum</description>
+	<cloneof>luctoday</cloneof>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>19??</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chmpnum" index="" image="">
+	<description>Champion Number (V0.74)</description>
+	<cloneof>chsuper3</cloneof>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1999</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chry10" index="" image="">
+	<description>Cherry 10 (bootleg with PIC16F84)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chrygld" index="" image="">
+	<description>Cherry Gold I (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chryglda" index="" image="">
+	<description>Cherry Gold I (set 2, encrypted bootleg)</description>
+	<cloneof>ncb3</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chsuper2" index="" image="">
+	<description>Champion Super 2 (V0.13)</description>
+	<cloneof>chsuper3</cloneof>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1999</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chsuper3" index="" image="">
+	<description>Champion Super 3 (V0.35)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1999</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="classice" index="" image="">
+	<description>Classic Edition (Version 1.6E)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="classice1" index="" image="">
+	<description>Classic Edition (Version 1.6R, set 1)</description>
+	<cloneof>classice</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="classice2" index="" image="">
+	<description>Classic Edition (Version 1.6LT, set 1)</description>
+	<cloneof>classice</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="classiced1" index="" image="">
+	<description>Classic Edition (Version 1.6R, set 2)</description>
+	<cloneof>classice</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="classiced2" index="" image="">
+	<description>Classic Edition (Version 1.6LT, set 2)</description>
+	<cloneof>classice</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="classicev" index="" image="">
+	<description>Classic Edition (Version 1.6E Dual)</description>
+	<cloneof>classice</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="classicev1" index="" image="">
+	<description>Classic Edition (Version 1.6R Dual)</description>
+	<cloneof>classice</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="classicev2" index="" image="">
+	<description>Classic Edition (Version 1.6LT Dual)</description>
+	<cloneof>classice</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cmast91" index="" image="">
+	<description>Cherry Master &apos;91 (ver.1.30)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dyna</manufacturer>
+	<year>1991</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cmaster" index="" image="">
+	<description>Cherry Master I (ver.1.01, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dyna</manufacturer>
+	<year>1991</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cmasterb" index="" image="">
+	<description>Cherry Master I (ver.1.01, set 2)</description>
+	<cloneof>cmaster</cloneof>
+	<crc/>
+	<manufacturer>Dyna</manufacturer>
+	<year>1991</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cmasterc" index="" image="">
+	<description>Cherry Master I (ver.1.01, set 3)</description>
+	<cloneof>cmaster</cloneof>
+	<crc/>
+	<manufacturer>Dyna</manufacturer>
+	<year>1991</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cmasterd" index="" image="">
+	<description>Cherry Master I (ver.1.01, set 5)</description>
+	<cloneof>cmaster</cloneof>
+	<crc/>
+	<manufacturer>Dyna</manufacturer>
+	<year>1991</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cmastere" index="" image="">
+	<description>Cherry Master I (ver.1.01, set 6)</description>
+	<cloneof>cmaster</cloneof>
+	<crc/>
+	<manufacturer>Dyna</manufacturer>
+	<year>1991</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cmasterf" index="" image="">
+	<description>Cherry Master I (ver.1.01, set 7)</description>
+	<cloneof>cmaster</cloneof>
+	<crc/>
+	<manufacturer>Dyna</manufacturer>
+	<year>1991</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cmasterg" index="" image="">
+	<description>Cherry Master I (ver.1.01, set 8, V4-B-)</description>
+	<cloneof>cmaster</cloneof>
+	<crc/>
+	<manufacturer>Dyna</manufacturer>
+	<year>1991</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cmasterh" index="" image="">
+	<description>Cherry Master I (ver.1.10)</description>
+	<cloneof>cmaster</cloneof>
+	<crc/>
+	<manufacturer>Dyna</manufacturer>
+	<year>1991</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cmezspin" index="" image="">
+	<description>Cherry Master I (E-Z Spin bootleg / hack)</description>
+	<cloneof>cmaster</cloneof>
+	<crc/>
+	<manufacturer>Dyna</manufacturer>
+	<year>1991</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cmfun" index="" image="">
+	<description>Cherry Master (Fun USA v2.5 bootleg / hack)</description>
+	<cloneof>cmv4</cloneof>
+	<crc/>
+	<manufacturer>Dyna</manufacturer>
+	<year>1995</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cmpacman" index="" image="">
+	<description>Super Pacman (v1.2) + Cherry Master (Corsica, v8.31)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>198?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cmtetris" index="" image="">
+	<description>Tetris + Cherry Master (Corsica, v8.01, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>198?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cmv4" index="" image="">
+	<description>Cherry Master (ver.4, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dyna</manufacturer>
+	<year>1992</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cmv4a" index="" image="">
+	<description>Cherry Master (ver.4, set 2)</description>
+	<cloneof>cmv4</cloneof>
+	<crc/>
+	<manufacturer>Dyna</manufacturer>
+	<year>1992</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cmv801" index="" image="">
+	<description>Cherry Master (Corsica, ver.8.01)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Corsica</manufacturer>
+	<year>198?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cmwm" index="" image="">
+	<description>Cherry Master (Watermelon bootleg / hack)</description>
+	<cloneof>cmv4</cloneof>
+	<crc/>
+	<manufacturer>Dyna</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="comg094" index="" image="">
+	<description>Cal Omega - Game 9.4 (Keno)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Cal Omega Inc.</manufacturer>
+	<year>1981</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="comg107" index="" image="">
+	<description>Cal Omega - Game 10.7c (Big Game)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Cal Omega Inc.</manufacturer>
+	<year>1982</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="comg125" index="" image="">
+	<description>Cal Omega - Game 12.5 (Bingo)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Cal Omega Inc.</manufacturer>
+	<year>1982</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="comg127" index="" image="">
+	<description>Cal Omega - Game 12.7 (Keno)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Cal Omega Inc.</manufacturer>
+	<year>1982</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="comg134" index="" image="">
+	<description>Cal Omega - Game 13.4 (Nudge Bingo)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Cal Omega Inc.</manufacturer>
+	<year>1982</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="comg145" index="" image="">
+	<description>Cal Omega - Game 14.5 (Pixels)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Cal Omega Inc.</manufacturer>
+	<year>1982</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="comg164" index="" image="">
+	<description>Cal Omega - Game 16.4 (Keno)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Cal Omega Inc.</manufacturer>
+	<year>1983</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="comg168" index="" image="">
+	<description>Cal Omega - Game 16.8 (Keno)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Cal Omega Inc.</manufacturer>
+	<year>1983</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="comg176" index="" image="">
+	<description>Cal Omega - Game 17.6 (Nudge Bingo)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Cal Omega Inc.</manufacturer>
+	<year>1982</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="comg181" index="" image="">
+	<description>Cal Omega - Game 18.1 (Nudge Bingo)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Cal Omega Inc.</manufacturer>
+	<year>1982</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="comg183" index="" image="">
+	<description>Cal Omega - Game 18.3 (Pixels)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Cal Omega Inc.</manufacturer>
+	<year>1983</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="comg185" index="" image="">
+	<description>Cal Omega - Game 18.5 (Pixels)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Cal Omega Inc.</manufacturer>
+	<year>1983</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="comg186" index="" image="">
+	<description>Cal Omega - Game 18.6 (Pixels)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Cal Omega Inc.</manufacturer>
+	<year>1983</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="comg230" index="" image="">
+	<description>Cal Omega - Game 23.0 (FC Bingo (4-card))</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Cal Omega Inc.</manufacturer>
+	<year>1984</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="comg236" index="" image="">
+	<description>Cal Omega - Game 23.6 (Hotline)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Cal Omega Inc.</manufacturer>
+	<year>1984</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="comg246" index="" image="">
+	<description>Cal Omega - Game 24.6 (Hotline)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Cal Omega Inc.</manufacturer>
+	<year>1985</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="comg272a" index="" image="">
+	<description>Cal Omega - Game 27.2 (Keno, amusement)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Cal Omega Inc.</manufacturer>
+	<year>1985</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="comg272b" index="" image="">
+	<description>Cal Omega - Game 27.2 (Keno, gaming)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Cal Omega Inc.</manufacturer>
+	<year>1985</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="coralr2" index="" image="">
+	<description>Coral Riches II (1VXFC5472, New Zealand)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>2000</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crazybon" index="" image="">
+	<description>Crazy Bonus 2002</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>bootleg (Crazy Co.)</manufacturer>
+	<year>1997</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crzmon2" index="" image="">
+	<description>Crazy Monkey 2 (100310)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2010</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crzmon2_2" index="" image="">
+	<description>Crazy Monkey 2 (100311 Lottery)</description>
+	<cloneof>crzmon2</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2010</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crzmon2_3" index="" image="">
+	<description>Crazy Monkey 2 (100315 Entertainment)</description>
+	<cloneof>crzmon2</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2010</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="czmon_13" index="" image="">
+	<description>Crazy Monkey (100311 World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="czmon_15" index="" image="">
+	<description>Crazy Monkey (100311 Entertainment)</description>
+	<cloneof>czmon_13</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="czmon_16" index="" image="">
+	<description>Crazy Monkey (100312 Russia)</description>
+	<cloneof>czmon_13</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="czmon_5" index="" image="">
+	<description>Crazy Monkey (030421 World)</description>
+	<cloneof>czmon_13</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="czmon_7" index="" image="">
+	<description>Crazy Monkey (031110 World)</description>
+	<cloneof>czmon_13</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="czmon_7a" index="" image="">
+	<description>Crazy Monkey (bootleg, 031110, backdoor set 1)</description>
+	<cloneof>czmon_13</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="czmon_7b" index="" image="">
+	<description>Crazy Monkey (bootleg, 031110, backdoor set 2)</description>
+	<cloneof>czmon_13</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="czmon_8" index="" image="">
+	<description>Crazy Monkey (050120 World)</description>
+	<cloneof>czmon_13</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="czmon_8a" index="" image="">
+	<description>Crazy Monkey (bootleg, 050120, backdoor)</description>
+	<cloneof>czmon_13</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="czmon_8b" index="" image="">
+	<description>Crazy Monkey (bootleg, 050120, changed version text)</description>
+	<cloneof>czmon_13</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="czmon_8c" index="" image="">
+	<description>Crazy Monkey (bootleg, 050120, VIDEO GAME-1 CM01)</description>
+	<cloneof>czmon_13</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="czmon_8d" index="" image="">
+	<description>Crazy Monkey (bootleg, 050120, LOTTOGAME (I))</description>
+	<cloneof>czmon_13</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="czmon_8e" index="" image="">
+	<description>Crazy Monkey (bootleg, 050120, LOTO PROGRAM V-CM2)</description>
+	<cloneof>czmon_13</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="czmon_8f" index="" image="">
+	<description>Crazy Monkey (bootleg, 050120, LOTOS CM01)</description>
+	<cloneof>czmon_13</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="czmon_9" index="" image="">
+	<description>Crazy Monkey (070315 Russia)</description>
+	<cloneof>czmon_13</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="czmon_9a" index="" image="">
+	<description>Crazy Monkey (bootleg, 070315, VIDEO GAME-1 O01 set 1)</description>
+	<cloneof>czmon_13</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="czmon_9b" index="" image="">
+	<description>Crazy Monkey (bootleg, 070315, VIDEO GAME-1 O01 set 2)</description>
+	<cloneof>czmon_13</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="czmon_9c" index="" image="">
+	<description>Crazy Monkey (bootleg, 070315, payout percentage 70)</description>
+	<cloneof>czmon_13</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="d9final" index="" image="">
+	<description>Dream 9 Final (v2.24)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Excellent System</manufacturer>
+	<year>1992</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dashhero" index="" image="">
+	<description>Minna Ganbare! Dash Hero</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sigma</manufacturer>
+	<year>2000</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dblchal" index="" image="">
+	<description>Double Challenge (Version 1.5R, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dblchalc1" index="" image="">
+	<description>Double Challenge (Version 1.5R, set 2)</description>
+	<cloneof>dblchal</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dblchald1" index="" image="">
+	<description>Double Challenge (Version 1.5R, set 3)</description>
+	<cloneof>dblchal</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dblchalo" index="" image="">
+	<description>Double Challenge (Version 1.1)</description>
+	<cloneof>dblchal</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dblchalv1" index="" image="">
+	<description>Double Challenge (Version 1.5R Dual)</description>
+	<cloneof>dblchal</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dcheese" index="" image="">
+	<description>Double Cheese</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>HAR</manufacturer>
+	<year>1993</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dcrowna" index="" image="">
+	<description>Dream Crown (Set 2)</description>
+	<cloneof>dcrown</cloneof>
+	<crc/>
+	<manufacturer>Nippon Data Kiki</manufacturer>
+	<year>1994</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dfruit" index="" image="">
+	<description>Fruit Dream (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nippon Data Kiki / Star Fish</manufacturer>
+	<year>1993</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dmdtouch" index="" image="">
+	<description>Diamond Touch (0400433V, Local)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>1997</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dmndrby" index="" image="">
+	<description>Diamond Derby (Newer)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Electrocoin</manufacturer>
+	<year>1994</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dmndrbya" index="" image="">
+	<description>Diamond Derby (Original)</description>
+	<cloneof>dmndrby</cloneof>
+	<crc/>
+	<manufacturer>Electrocoin</manufacturer>
+	<year>1986</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dolphntr" index="" image="">
+	<description>Dolphin Treasure (0200424V, NSW/ACT)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dolphtra" index="" image="">
+	<description>Dolphin Treasure (0100424V, NSW/ACT)</description>
+	<cloneof>dolphntr</cloneof>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="doraemon" index="" image="">
+	<description>Doraemon no Eawase Montage (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sunsoft / Epoch</manufacturer>
+	<year>1993?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dvisland" index="" image="">
+	<description>Devil Island (Version 1.4R CGA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dvislando" index="" image="">
+	<description>Devil Island (Version 1.0R CGA)</description>
+	<cloneof>dvisland</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dynadice" index="" image="">
+	<description>Dynamic Dice</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>19??</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="eforest" index="" image="">
+	<description>Enchanted Forest (12XF528902, US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="eforesta" index="" image="">
+	<description>Enchanted Forest (4VXFC818, NSW)</description>
+	<cloneof>eforest</cloneof>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>1995</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="eforestb" index="" image="">
+	<description>Enchanted Forest (3VXFC5343, New Zealand)</description>
+	<cloneof>eforest</cloneof>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="enchfrst" index="" image="">
+	<description>Enchanted Forest (0400122V, Local)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>1995</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="endrichs" index="" image="">
+	<description>Endless Riches (Ver 1.20)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>E.N.Tiger</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb2gen" index="" image="">
+	<description>Fruit Bonus 2nd Generation (Version 1.8E Dual)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb2genc1" index="" image="">
+	<description>Fruit Bonus 2nd Generation (Version 1.8R, set 1)</description>
+	<cloneof>fb2gen</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb2genc2" index="" image="">
+	<description>Fruit Bonus 2nd Generation (Version 1.8LT, set 1)</description>
+	<cloneof>fb2gen</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb2gend1" index="" image="">
+	<description>Fruit Bonus 2nd Generation (Version 1.8R, set 2)</description>
+	<cloneof>fb2gen</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb2gend2" index="" image="">
+	<description>Fruit Bonus 2nd Generation (Version 1.8LT, set 2)</description>
+	<cloneof>fb2gen</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb2geno" index="" image="">
+	<description>Fruit Bonus 2nd Generation (Version 1.6XT)</description>
+	<cloneof>fb2gen</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb2geno2" index="" image="">
+	<description>Fruit Bonus 2nd Generation (Version 1.5)</description>
+	<cloneof>fb2gen</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb2genv1" index="" image="">
+	<description>Fruit Bonus 2nd Generation (Version 1.8R Dual)</description>
+	<cloneof>fb2gen</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb2genv2" index="" image="">
+	<description>Fruit Bonus 2nd Generation (Version 1.8LT Dual)</description>
+	<cloneof>fb2gen</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb2nd" index="" image="">
+	<description>Fruit Bonus 2nd Edition (Version 1.8R, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb2ndc2" index="" image="">
+	<description>Fruit Bonus 2nd Edition (Version 1.8LT, set 1)</description>
+	<cloneof>fb2nd</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb2ndd1" index="" image="">
+	<description>Fruit Bonus 2nd Edition (Version 1.8R, set 2)</description>
+	<cloneof>fb2nd</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb2ndd2" index="" image="">
+	<description>Fruit Bonus 2nd Edition (Version 1.8LT, set 2)</description>
+	<cloneof>fb2nd</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb2ndo" index="" image="">
+	<description>Fruit Bonus 2nd Edition (Version 1.5)</description>
+	<cloneof>fb2nd</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb2ndv1" index="" image="">
+	<description>Fruit Bonus 2nd Edition (Version 1.8R Dual)</description>
+	<cloneof>fb2nd</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb2ndv2" index="" image="">
+	<description>Fruit Bonus 2nd Edition (Version 1.8LT Dual)</description>
+	<cloneof>fb2nd</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb3g" index="" image="">
+	<description>Fruit Bonus 3G (Version 1.0.3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb4" index="" image="">
+	<description>Fruit Bonus 2004 (Version 1.5R, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb4b2" index="" image="">
+	<description>Fruit Bonus 2004 (Version 1.5LT, set 1)</description>
+	<cloneof>fb4</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb4c1" index="" image="">
+	<description>Fruit Bonus 2004 (Version 1.5R, set 2)</description>
+	<cloneof>fb4</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb4c2" index="" image="">
+	<description>Fruit Bonus 2004 (Version 1.5LT, set 2)</description>
+	<cloneof>fb4</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb4d1" index="" image="">
+	<description>Fruit Bonus 2004 (Version 1.5R, set 3)</description>
+	<cloneof>fb4</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb4d2" index="" image="">
+	<description>Fruit Bonus 2004 (Version 1.5LT, set 3)</description>
+	<cloneof>fb4</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb4exp" index="" image="">
+	<description>Fruit Bonus 2005 (2004 Export - Version 1.5E Dual)</description>
+	<cloneof>fb4</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb4o" index="" image="">
+	<description>Fruit Bonus 2004 (Version 1.3XT)</description>
+	<cloneof>fb4</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb4o2" index="" image="">
+	<description>Fruit Bonus 2004 (Version 1.2)</description>
+	<cloneof>fb4</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb4v1" index="" image="">
+	<description>Fruit Bonus 2004 (Version 1.5R Dual)</description>
+	<cloneof>fb4</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb4v2" index="" image="">
+	<description>Fruit Bonus 2004 (Version 1.5LT Dual)</description>
+	<cloneof>fb4</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb5" index="" image="">
+	<description>Fruit Bonus 2005 (Version 1.5SH, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2005</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb5c" index="" image="">
+	<description>Fruit Bonus 2005 (Version 1.5SH, set 2)</description>
+	<cloneof>fb5</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2005</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb5d" index="" image="">
+	<description>Fruit Bonus 2005 (Version 1.5SH, set 3)</description>
+	<cloneof>fb5</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2005</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb5v" index="" image="">
+	<description>Fruit Bonus 2005 (Version 1.5SH Dual)</description>
+	<cloneof>fb5</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2005</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb6" index="" image="">
+	<description>Fruit Bonus &apos;06 - 10th anniversary (Version 1.7E CGA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb6d1" index="" image="">
+	<description>Fruit Bonus &apos;06 - 10th anniversary (Version 1.7R CGA)</description>
+	<cloneof>fb6</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb6d2" index="" image="">
+	<description>Fruit Bonus &apos;06 - 10th anniversary (Version 1.7LT CGA)</description>
+	<cloneof>fb6</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb6s1" index="" image="">
+	<description>Fruit Bonus &apos;06 - 10th anniversary (Version 1.7R CGA, Compact PCB)</description>
+	<cloneof>fb6</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb6s2" index="" image="">
+	<description>Fruit Bonus &apos;06 - 10th anniversary (Version 1.7LT CGA, Compact PCB)</description>
+	<cloneof>fb6</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb6s3" index="" image="">
+	<description>Fruit Bonus &apos;06 - 10th anniversary (Version 1.3R CGA, Compact PCB)</description>
+	<cloneof>fb6</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb6se" index="" image="">
+	<description>Fruit Bonus 2006 Special Edition (Version 1.4E CGA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb6sed1" index="" image="">
+	<description>Fruit Bonus 2006 Special Edition (Version 1.4R CGA)</description>
+	<cloneof>fb6se</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb6sed2" index="" image="">
+	<description>Fruit Bonus 2006 Special Edition (Version 1.4LT CGA)</description>
+	<cloneof>fb6se</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb6sev" index="" image="">
+	<description>Fruit Bonus 2006 Special Edition (Version 1.4E Dual)</description>
+	<cloneof>fb6se</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb6sev1" index="" image="">
+	<description>Fruit Bonus 2006 Special Edition (Version 1.4R Dual)</description>
+	<cloneof>fb6se</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb6sev2" index="" image="">
+	<description>Fruit Bonus 2006 Special Edition (Version 1.4LT Dual)</description>
+	<cloneof>fb6se</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb6v" index="" image="">
+	<description>Fruit Bonus &apos;06 - 10th anniversary (Version 1.7E Dual)</description>
+	<cloneof>fb6</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb6v1" index="" image="">
+	<description>Fruit Bonus &apos;06 - 10th anniversary (Version 1.7R Dual)</description>
+	<cloneof>fb6</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fb6v2" index="" image="">
+	<description>Fruit Bonus &apos;06 - 10th anniversary (Version 1.7LT Dual)</description>
+	<cloneof>fb6</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fbdeluxe" index="" image="">
+	<description>Fruit Bonus Deluxe (Version 1.0.9)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fbdeluxeo" index="" image="">
+	<description>Fruit Bonus Deluxe (Version 1.0.7)</description>
+	<cloneof>fbdeluxe</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcnudge" index="" image="">
+	<description>Fruit Carnival Nudge (Version 2.1 Dual)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcnudgeo" index="" image="">
+	<description>Fruit Carnival Nudge (Version 2.0, set 1)</description>
+	<cloneof>fcnudge</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcnudgeo2" index="" image="">
+	<description>Fruit Carnival Nudge (Version 2.0, set 2)</description>
+	<cloneof>fcnudge</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcnudgeo3" index="" image="">
+	<description>Fruit Carnival Nudge (Version 1.7)</description>
+	<cloneof>fcnudge</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt2" index="" image="">
+	<description>Fruit Cocktail 2 (080707 Russia)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2008</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt2_3" index="" image="">
+	<description>Fruit Cocktail 2 (080909 World)</description>
+	<cloneof>fcockt2</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2008</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt2_4" index="" image="">
+	<description>Fruit Cocktail 2 (081105 World)</description>
+	<cloneof>fcockt2</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2008</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt2_4a" index="" image="">
+	<description>Fruit Cocktail 2 (bootleg, 081105, banking address hack)</description>
+	<cloneof>fcockt2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2008</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt2_4b" index="" image="">
+	<description>Fruit Cocktail 2 (bootleg, 081105, banking address hack, no credit limit)</description>
+	<cloneof>fcockt2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2008</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt2_4c" index="" image="">
+	<description>Fruit Cocktail 2 (bootleg, 081105, VIDEO GAME-1 FR02)</description>
+	<cloneof>fcockt2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2008</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt2_4d" index="" image="">
+	<description>Fruit Cocktail 2 (bootleg, 081105, banking address hack, payout percentage 70)</description>
+	<cloneof>fcockt2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2008</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt2_4e" index="" image="">
+	<description>Fruit Cocktail 2 (bootleg, 081105, LOTTOGAME (I))</description>
+	<cloneof>fcockt2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2008</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt2_4f" index="" image="">
+	<description>Fruit Cocktail 2 (bootleg, 081105, LOTOS FR02)</description>
+	<cloneof>fcockt2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2008</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt2_5" index="" image="">
+	<description>Fruit Cocktail 2 (081106 Russia)</description>
+	<cloneof>fcockt2</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2008</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt2_6" index="" image="">
+	<description>Fruit Cocktail 2 (090528 Lottery)</description>
+	<cloneof>fcockt2</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2008</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt2_7" index="" image="">
+	<description>Fruit Cocktail 2 (090813 Entertainment)</description>
+	<cloneof>fcockt2</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2008</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt2a" index="" image="">
+	<description>Fruit Cocktail 2 (bootleg, 080707, banking address hack)</description>
+	<cloneof>fcockt2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2008</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt_10" index="" image="">
+	<description>Fruit Cocktail (070517 Russia)</description>
+	<cloneof>fcockt_8</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt_11" index="" image="">
+	<description>Fruit Cocktail (070822 Russia)</description>
+	<cloneof>fcockt_8</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt_12" index="" image="">
+	<description>Fruit Cocktail (070911 Russia)</description>
+	<cloneof>fcockt_8</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt_14" index="" image="">
+	<description>Fruit Cocktail (090708 Entertainment)</description>
+	<cloneof>fcockt_8</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt_3" index="" image="">
+	<description>Fruit Cocktail (030623 World)</description>
+	<cloneof>fcockt_8</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt_5" index="" image="">
+	<description>Fruit Cocktail (031111 World)</description>
+	<cloneof>fcockt_8</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt_6" index="" image="">
+	<description>Fruit Cocktail (040216 World)</description>
+	<cloneof>fcockt_8</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt_6a" index="" image="">
+	<description>Fruit Cocktail (bootleg, 040216, banking address hack)</description>
+	<cloneof>fcockt_8</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt_6b" index="" image="">
+	<description>Fruit Cocktail (bootleg, 040216, backdoor)</description>
+	<cloneof>fcockt_8</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt_6c" index="" image="">
+	<description>Fruit Cocktail (bootleg, 040216, LotoRossy+)</description>
+	<cloneof>fcockt_8</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt_6d" index="" image="">
+	<description>Fruit Cocktail (bootleg, 040216, VIDEO GAME-1 FR01)</description>
+	<cloneof>fcockt_8</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt_7" index="" image="">
+	<description>Fruit Cocktail (050118 World)</description>
+	<cloneof>fcockt_8</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt_7a" index="" image="">
+	<description>Fruit Cocktail (bootleg, 050118, backdoor)</description>
+	<cloneof>fcockt_8</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt_7b" index="" image="">
+	<description>Fruit Cocktail (bootleg, 050118, VIDEO GAME-1 FR01)</description>
+	<cloneof>fcockt_8</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt_7c" index="" image="">
+	<description>Fruit Cocktail (bootleg, 050118, payout percentage 40)</description>
+	<cloneof>fcockt_8</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt_7d" index="" image="">
+	<description>Fruit Cocktail (bootleg, 050118, payout percentage 60)</description>
+	<cloneof>fcockt_8</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt_7e" index="" image="">
+	<description>Fruit Cocktail (bootleg, 050118, payout percentage 70)</description>
+	<cloneof>fcockt_8</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt_7f" index="" image="">
+	<description>Fruit Cocktail (bootleg, 050118, changed version text)</description>
+	<cloneof>fcockt_8</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt_7g" index="" image="">
+	<description>Fruit Cocktail (bootleg, 050118, LOTO PROGRAM V-FC2)</description>
+	<cloneof>fcockt_8</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt_7h" index="" image="">
+	<description>Fruit Cocktail (bootleg, 050118, LOTOS FR01)</description>
+	<cloneof>fcockt_8</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt_8" index="" image="">
+	<description>Fruit Cocktail (060111 World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt_8a" index="" image="">
+	<description>Fruit Cocktail (bootleg, 060111, LOTO COCKTAIL V01-0001)</description>
+	<cloneof>fcockt_8</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt_8b" index="" image="">
+	<description>Fruit Cocktail (bootleg, 060111, LOTTOGAME (I))</description>
+	<cloneof>fcockt_8</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt_9" index="" image="">
+	<description>Fruit Cocktail (070305 Russia)</description>
+	<cloneof>fcockt_8</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="feversoc" index="" image="">
+	<description>Fever Soccer</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ffortune" index="" image="">
+	<description>Fantasy Fortune (1VXFC5460, New Zealand)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>1998</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fhunter" index="" image="">
+	<description>Fortune Hunter (2XF5196I01, USA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fhuntera" index="" image="">
+	<description>Fortune Hunter (2XF5196I02, USA)</description>
+	<cloneof>fhunter</cloneof>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fresh" index="" image="">
+	<description>Fruit Fresh (Italy)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Chain Leisure</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fruitpc" index="" image="">
+	<description>Fruit Land</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="funriver" index="" image="">
+	<description>Fun River (Version 1.4R CGA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2005</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="funriverd1" index="" image="">
+	<description>Fun River (Version 1.3R CGA)</description>
+	<cloneof>funriver</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2005</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="funriverv" index="" image="">
+	<description>Fun River (Version 1.4R Dual)</description>
+	<cloneof>funriver</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2005</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fvrpitch" index="" image="">
+	<description>Fever Pitch? (2VXEC534, NSW, 90.36%)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Ainsworth Nominees P.L.</manufacturer>
+	<year>1986</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gallag50" index="" image="">
+	<description>Gallag Video Game / Petalouda (Butterfly, x50)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="garage_4" index="" image="">
+	<description>Garage (040219 World)</description>
+	<cloneof>garage_5</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="garage_4a" index="" image="">
+	<description>Garage (bootleg, 040219, backdoor)</description>
+	<cloneof>garage_5</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="garage_4b" index="" image="">
+	<description>Garage (bootleg, 040219, changed version text)</description>
+	<cloneof>garage_5</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="garage_4c" index="" image="">
+	<description>Garage (bootleg, 040219, LOTO PROGRAM V-GG2)</description>
+	<cloneof>garage_5</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="garage_5" index="" image="">
+	<description>Garage (050311 World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="garage_5a" index="" image="">
+	<description>Garage (bootleg, 050311, backdoor)</description>
+	<cloneof>garage_5</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="garage_5b" index="" image="">
+	<description>Garage (bootleg, 050311, VIDEO GAME-1 GA01)</description>
+	<cloneof>garage_5</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="garage_5c" index="" image="">
+	<description>Garage (bootleg, 050311, payout percentage 70)</description>
+	<cloneof>garage_5</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="garage_5d" index="" image="">
+	<description>Garage (bootleg, 050311, LOTTOGAME (I))</description>
+	<cloneof>garage_5</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="garage_5e" index="" image="">
+	<description>Garage (bootleg, 050311, LOTOS GA01)</description>
+	<cloneof>garage_5</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="garage_6" index="" image="">
+	<description>Garage (070213 Russia)</description>
+	<cloneof>garage_5</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="garage_7" index="" image="">
+	<description>Garage (070329 Russia)</description>
+	<cloneof>garage_5</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="garage_9" index="" image="">
+	<description>Garage (090715 Entertainment)</description>
+	<cloneof>garage_5</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gegege" index="" image="">
+	<description>GeGeGe no Kitarou Youkai Slot</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sigma / Banpresto</manufacturer>
+	<year>1997</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="geishanz" index="" image="">
+	<description>Geisha (0101408V, New Zealand)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="getrich" index="" image="">
+	<description>Get Rich (Version 1.0.1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gldarrow" index="" image="">
+	<description>Golden Arrow (Standard G8-03)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Meyco Games, Inc.</manufacturer>
+	<year>1984</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gldncrwn" index="" image="">
+	<description>Golden Crown (Dutch, Game Card 95-752-011)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM/ELAM</manufacturer>
+	<year>1997</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnome" index="" image="">
+	<description>Gnome (070906 Russia)</description>
+	<cloneof>gnome_9</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnome_10" index="" image="">
+	<description>Gnome (100326 Lottery)</description>
+	<cloneof>gnome_9</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnome_11" index="" image="">
+	<description>Gnome (100326 Entertainment)</description>
+	<cloneof>gnome_9</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnome_12" index="" image="">
+	<description>Gnome (100326 Russia)</description>
+	<cloneof>gnome_9</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnome_2" index="" image="">
+	<description>Gnome (071115 Russia)</description>
+	<cloneof>gnome_9</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnome_2a" index="" image="">
+	<description>Gnome (bootleg, 071115, banking address hack)</description>
+	<cloneof>gnome_9</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnome_3" index="" image="">
+	<description>Gnome (080303 World)</description>
+	<cloneof>gnome_9</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnome_3a" index="" image="">
+	<description>Gnome (bootleg, 080303, banking address hack)</description>
+	<cloneof>gnome_9</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnome_3b" index="" image="">
+	<description>Gnome (bootleg, 080303, banking address hack, payout percentage 45)</description>
+	<cloneof>gnome_9</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnome_3c" index="" image="">
+	<description>Gnome (bootleg, 080303, banking address hack, payout percentage 60)</description>
+	<cloneof>gnome_9</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnome_4" index="" image="">
+	<description>Gnome (090402 Russia)</description>
+	<cloneof>gnome_9</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnome_5" index="" image="">
+	<description>Gnome (090406 World)</description>
+	<cloneof>gnome_9</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnome_5a" index="" image="">
+	<description>Gnome (bootleg, 090406, banking address hack, payout percentage 70)</description>
+	<cloneof>gnome_9</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnome_5b" index="" image="">
+	<description>Gnome (bootleg, 090406, LOTTOGAME (I))</description>
+	<cloneof>gnome_9</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnome_7" index="" image="">
+	<description>Gnome (090708 Lottery)</description>
+	<cloneof>gnome_9</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnome_9" index="" image="">
+	<description>Gnome (100326 World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnomea" index="" image="">
+	<description>Gnome (bootleg, 070906, banking address hack set 1)</description>
+	<cloneof>gnome_9</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnomeb" index="" image="">
+	<description>Gnome (bootleg, 070906, banking address hack set 2)</description>
+	<cloneof>gnome_9</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnomec" index="" image="">
+	<description>Gnome (bootleg, 070906, banking address hack set 3)</description>
+	<cloneof>gnome_9</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnomed" index="" image="">
+	<description>Gnome (bootleg, 070906, VIDEO GAME-1 GN01)</description>
+	<cloneof>gnome_9</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gnomee" index="" image="">
+	<description>Gnome (bootleg, 070906, LOTOS GN01)</description>
+	<cloneof>gnome_9</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="goldenc" index="" image="">
+	<description>Golden Canaries (1VXFC5462, New Zealand)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="goldfish" index="" image="">
+	<description>Gold Fish (020903, prototype)</description>
+	<cloneof>mfish_13</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="goldfrui" index="" image="">
+	<description>Gold Fruit</description>
+	<cloneof>goldstar</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="goldprmd" index="" image="">
+	<description>Golden Pyramids (MV4091, USA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>1997</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="goldstar" index="" image="">
+	<description>Golden Star</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="goldstbl" index="" image="">
+	<description>Golden Star (Blue version)</description>
+	<cloneof>goldstar</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="good" index="" image="">
+	<description>Good (Korea)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1998</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gp98" index="" image="">
+	<description>Grand Prix &apos;98 (V100K)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Romtec Co. Ltd</manufacturer>
+	<year>1998</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtroppo" index="" image="">
+	<description>Gone Troppo (1VXEC542, New Zealand)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Ainsworth Nominees P.L.</manufacturer>
+	<year>1986</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="haekaka" index="" image="">
+	<description>Hae Hae Ka Ka Ka</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hldspin1" index="" image="">
+	<description>Hold &amp; Spin I (Version 2.7T, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2000</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hldspin1dt" index="" image="">
+	<description>Hold &amp; Spin I (Version 2.7T, set 2)</description>
+	<cloneof>hldspin1</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2000</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hldspin1o" index="" image="">
+	<description>Hold &amp; Spin I (Version 2.5T)</description>
+	<cloneof>hldspin1</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2000</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hldspin1vt" index="" image="">
+	<description>Hold &amp; Spin I (Version 2.7T Dual)</description>
+	<cloneof>hldspin1</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2000</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hldspin2" index="" image="">
+	<description>Hold &amp; Spin II (Version 2.8R, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2000</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hldspin2d1" index="" image="">
+	<description>Hold &amp; Spin II (Version 2.8R, set 2)</description>
+	<cloneof>hldspin2</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2000</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hldspin2o" index="" image="">
+	<description>Hold &amp; Spin II (Version 2.6)</description>
+	<cloneof>hldspin2</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2000</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hldspin2v1" index="" image="">
+	<description>Hold &amp; Spin II (Version 2.8R Dual)</description>
+	<cloneof>hldspin2</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2000</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="indiandr" index="" image="">
+	<description>Indian Dreaming (0100845V, Local)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>1998</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="island" index="" image="">
+	<description>Island (050713 World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2005</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="island2" index="" image="">
+	<description>Island 2 (060529 World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="island2_3" index="" image="">
+	<description>Island 2 (061218 World)</description>
+	<cloneof>island2</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="island2_3a" index="" image="">
+	<description>Island 2 (bootleg, 061218, VIDEO GAME-1 OS2-01)</description>
+	<cloneof>island2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="island2_4" index="" image="">
+	<description>Island 2 (070205 Russia)</description>
+	<cloneof>island2</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="island2_4a" index="" image="">
+	<description>Island 2 (bootleg, 070205, banking address hack)</description>
+	<cloneof>island2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="island2_5" index="" image="">
+	<description>Island 2 (090528 Lottery)</description>
+	<cloneof>island2</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="island2_6" index="" image="">
+	<description>Island 2 (090724 Entertainment)</description>
+	<cloneof>island2</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="island2a" index="" image="">
+	<description>Island 2 (bootleg, 060529, banking address hack)</description>
+	<cloneof>island2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="island2b" index="" image="">
+	<description>Island 2 (bootleg, 060529, banking address hack, changed version text)</description>
+	<cloneof>island2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="island2c" index="" image="">
+	<description>Island 2 (bootleg, 060529, LOTTOGAME (I))</description>
+	<cloneof>island2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="island_2" index="" image="">
+	<description>Island (070409 Russia)</description>
+	<cloneof>island</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2005</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="islanda" index="" image="">
+	<description>Island (bootleg, 050713, backdoor)</description>
+	<cloneof>island</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2005</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="islandb" index="" image="">
+	<description>Island (bootleg, 050713, VIDEO GAME-1 OS01)</description>
+	<cloneof>island</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2005</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="islandc" index="" image="">
+	<description>Island (bootleg, 050713, LOTOS OS01)</description>
+	<cloneof>island</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2005</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jackie" index="" image="">
+	<description>Happy Jackie (v110U)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1993</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="keks" index="" image="">
+	<description>Keks (060328 World)</description>
+	<cloneof>keks_2</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="keks_2" index="" image="">
+	<description>Keks (060403 World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="keks_2a" index="" image="">
+	<description>Keks (bootleg, 060403, banking address hack)</description>
+	<cloneof>keks_2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="keks_2b" index="" image="">
+	<description>Keks (bootleg, 060403, banking address hack, changed version text)</description>
+	<cloneof>keks_2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="keks_2c" index="" image="">
+	<description>Keks (bootleg, 060403, VIDEO GAME-1 KS01 set 1)</description>
+	<cloneof>keks_2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="keks_2d" index="" image="">
+	<description>Keks (bootleg, 060403, VIDEO GAME-1 KS01 set 2)</description>
+	<cloneof>keks_2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="keks_2e" index="" image="">
+	<description>Keks (bootleg, 060403, banking address hack, payout percentage 60)</description>
+	<cloneof>keks_2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="keks_2f" index="" image="">
+	<description>Keks (bootleg, 060403, LOTTOGAME (I))</description>
+	<cloneof>keks_2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="keks_2g" index="" image="">
+	<description>Keks (bootleg, 060403, LOTOS KS01)</description>
+	<cloneof>keks_2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="keks_3" index="" image="">
+	<description>Keks (070119 Russia)</description>
+	<cloneof>keks_2</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="keks_3a" index="" image="">
+	<description>Keks (bootleg, 070119, banking address hack set 1)</description>
+	<cloneof>keks_2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="keks_3b" index="" image="">
+	<description>Keks (bootleg, 070119, banking address hack set 2)</description>
+	<cloneof>keks_2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="keks_4" index="" image="">
+	<description>Keks (090604 Lottery)</description>
+	<cloneof>keks_2</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="keks_5" index="" image="">
+	<description>Keks (090727 Entertainment)</description>
+	<cloneof>keks_2</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="keksa" index="" image="">
+	<description>Keks (bootleg, 060328, banking address hack)</description>
+	<cloneof>keks_2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="keksb" index="" image="">
+	<description>Keks (bootleg, 060328, backdoor)</description>
+	<cloneof>keks_2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="keksc" index="" image="">
+	<description>Keks (bootleg, 060328, banking address hack, changed version text)</description>
+	<cloneof>keks_2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kgbird" index="" image="">
+	<description>K.G. Bird (4VXFC5341, New Zealand, 5c)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kgbirda" index="" image="">
+	<description>K.G. Bird (4VXFC5341, New Zealand, 10c)</description>
+	<cloneof>kgbird</cloneof>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kingdrbb" index="" image="">
+	<description>King Derby (Taiwan bootleg)</description>
+	<cloneof>kingdrby</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Casino Electronics)</manufacturer>
+	<year>1986</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kingdrbb2" index="" image="">
+	<description>King Derby (bootleg set 2)</description>
+	<cloneof>kingdrby</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>198?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kingdrby" index="" image="">
+	<description>King Derby (1981)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Tazmi</manufacturer>
+	<year>1981</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kkotnoli" index="" image="">
+	<description>Kkot No Li (Kill the Bees)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>hack</manufacturer>
+	<year>198?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kurukuru" index="" image="">
+	<description>Kuru Kuru Pyon Pyon (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Success / Taiyo Jidoki</manufacturer>
+	<year>1990</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="leader" index="" image="">
+	<description>Leader (version Z 2E, Greece)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1995</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lhaunt_10" index="" image="">
+	<description>Lucky Haunter (090712 Entertainment)</description>
+	<cloneof>lhaunt_6</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lhaunt_11" index="" image="">
+	<description>Lucky Haunter (100331 Entertainment)</description>
+	<cloneof>lhaunt_6</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lhaunt_2" index="" image="">
+	<description>Lucky Haunter (030804 World)</description>
+	<cloneof>lhaunt_6</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lhaunt_4" index="" image="">
+	<description>Lucky Haunter (031111 World)</description>
+	<cloneof>lhaunt_6</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lhaunt_4a" index="" image="">
+	<description>Lucky Haunter (bootleg, 031111, backdoor)</description>
+	<cloneof>lhaunt_6</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lhaunt_5" index="" image="">
+	<description>Lucky Haunter (040216 World)</description>
+	<cloneof>lhaunt_6</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lhaunt_5a" index="" image="">
+	<description>Lucky Haunter (bootleg, 040216, backdoor)</description>
+	<cloneof>lhaunt_6</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lhaunt_6" index="" image="">
+	<description>Lucky Haunter (040825 World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lhaunt_6a" index="" image="">
+	<description>Lucky Haunter (bootleg, 040825, backdoor)</description>
+	<cloneof>lhaunt_6</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lhaunt_6b" index="" image="">
+	<description>Lucky Haunter (bootleg, 040825, VIDEO GAME-1 PB01)</description>
+	<cloneof>lhaunt_6</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lhaunt_6c" index="" image="">
+	<description>Lucky Haunter (bootleg, 040825, changed version text)</description>
+	<cloneof>lhaunt_6</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lhaunt_6d" index="" image="">
+	<description>Lucky Haunter (bootleg, 040825, LOTTOGAME (I))</description>
+	<cloneof>lhaunt_6</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lhaunt_6e" index="" image="">
+	<description>Lucky Haunter (bootleg, 040825, LOTO PROGRAM V-LH2)</description>
+	<cloneof>lhaunt_6</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lhaunt_6f" index="" image="">
+	<description>Lucky Haunter (bootleg, 040825, LOTOS PB01)</description>
+	<cloneof>lhaunt_6</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lhaunt_7" index="" image="">
+	<description>Lucky Haunter (070402 Russia)</description>
+	<cloneof>lhaunt_6</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lhaunt_8" index="" image="">
+	<description>Lucky Haunter (070604 Russia)</description>
+	<cloneof>lhaunt_6</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lottof2" index="" image="">
+	<description>Lotto Fun 2</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>HAR</manufacturer>
+	<year>1993</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lottofun" index="" image="">
+	<description>Lotto Fun</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>H.A.R. Management</manufacturer>
+	<year>1987</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="luctoday" index="" image="">
+	<description>Lucky Today</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sigma</manufacturer>
+	<year>1980</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="madzoo" index="" image="">
+	<description>Mad Zoo (version U450C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bordun International</manufacturer>
+	<year>1995</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="magicle" index="" image="">
+	<description>Magic Lotto Export (5.03)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Impera</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="magicmsk" index="" image="">
+	<description>Magic Mask (MV4115, Export, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>2000</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="magicstk" index="" image="">
+	<description>Magic Sticks</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Playmark</manufacturer>
+	<year>1995</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="magodds" index="" image="">
+	<description>Magical Odds (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Pal Company / Micro Manufacturing Inc.</manufacturer>
+	<year>1992</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="magoddsa" index="" image="">
+	<description>Magical Odds (set 2)</description>
+	<cloneof>magodds</cloneof>
+	<crc/>
+	<manufacturer>Pal Company / Micro Manufacturing Inc.</manufacturer>
+	<year>1992</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="magoddsb" index="" image="">
+	<description>Magical Odds (set 3)</description>
+	<cloneof>magodds</cloneof>
+	<crc/>
+	<manufacturer>Pal Company / Micro Manufacturing Inc.</manufacturer>
+	<year>1992</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="magoddsc" index="" image="">
+	<description>Magical Odds (set 4, custom encrypted CPU block)</description>
+	<cloneof>magodds</cloneof>
+	<crc/>
+	<manufacturer>Pal Company</manufacturer>
+	<year>1991</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="magoddsd" index="" image="">
+	<description>Magical Odds (set 5, custom encrypted CPU block)</description>
+	<cloneof>magodds</cloneof>
+	<crc/>
+	<manufacturer>Pal Company</manufacturer>
+	<year>1991</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="margmgc" index="" image="">
+	<description>Margarita Magic (01J00101, NSW/ACT)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>2000</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="match98" index="" image="">
+	<description>Match &apos;98 (ver. 1.33)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1998</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="meosism" index="" image="">
+	<description>Meosis Magic (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy</manufacturer>
+	<year>1996?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mfish_11" index="" image="">
+	<description>Multi Fish (031124)</description>
+	<cloneof>mfish_13</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mfish_12" index="" image="">
+	<description>Multi Fish (040308)</description>
+	<cloneof>mfish_13</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mfish_12a" index="" image="">
+	<description>Multi Fish (bootleg, 040308, banking address hack)</description>
+	<cloneof>mfish_13</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mfish_13" index="" image="">
+	<description>Multi Fish (040316)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mfish_3" index="" image="">
+	<description>Multi Fish (021124)</description>
+	<cloneof>mfish_13</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mfish_3a" index="" image="">
+	<description>Multi Fish (bootleg, 021124, banking address hack)</description>
+	<cloneof>mfish_13</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mfish_6" index="" image="">
+	<description>Multi Fish (030124)</description>
+	<cloneof>mfish_13</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mfish_8" index="" image="">
+	<description>Multi Fish (030522)</description>
+	<cloneof>mfish_13</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mgnumber" index="" image="">
+	<description>Magic Number</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>CD Express</manufacturer>
+	<year>1995</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="moneymac" index="" image="">
+	<description>Money Machine (Version 1.7E Dual)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2005</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="moneymacd1" index="" image="">
+	<description>Money Machine (Version 1.7R)</description>
+	<cloneof>moneymac</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2005</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="moneymacd2" index="" image="">
+	<description>Money Machine (Version 1.7LT)</description>
+	<cloneof>moneymac</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2005</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="moneymacv1" index="" image="">
+	<description>Money Machine (Version 1.7R Dual)</description>
+	<cloneof>moneymac</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2005</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="moneymacv2" index="" image="">
+	<description>Money Machine (Version 1.7LT Dual)</description>
+	<cloneof>moneymac</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2005</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="moonlght" index="" image="">
+	<description>Moon Light (v.0629, low program)</description>
+	<cloneof>goldstar</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="moonlghta" index="" image="">
+	<description>Moon Light (v.0629, high program)</description>
+	<cloneof>goldstar</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="moonlghtb" index="" image="">
+	<description>Moon Light (v.02L0A, low program)</description>
+	<cloneof>goldstar</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="moonlghtc" index="" image="">
+	<description>Moon Light (v.02L0A, high program, alt gfx)</description>
+	<cloneof>goldstar</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mtrain" index="" image="">
+	<description>Magic Train (Ver. 1.31)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Subsino</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nc96" index="" image="">
+	<description>New Cherry &apos;96 Special Edition (v3.63, C1 PCB)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nc96a" index="" image="">
+	<description>New Cherry &apos;96 Special Edition (v3.62, C1 PCB)</description>
+	<cloneof>nc96</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nc96b" index="" image="">
+	<description>New Cherry &apos;96 Special Edition (v3.61, C1 PCB)</description>
+	<cloneof>nc96</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nc96c" index="" image="">
+	<description>New Cherry &apos;96 Special Edition (v3.54, D PCB)</description>
+	<cloneof>nc96</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nc96d" index="" image="">
+	<description>New Cherry &apos;96 Special Edition (v3.53, D PCB)</description>
+	<cloneof>nc96</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nc96e" index="" image="">
+	<description>New Cherry &apos;96 Special Edition (v3.40, D PCB)</description>
+	<cloneof>nc96</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nc96f" index="" image="">
+	<description>New Cherry &apos;96 Special Edition (v3.62, DK PCB)</description>
+	<cloneof>nc96</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nc96txt" index="" image="">
+	<description>New Cherry &apos;96 Special Edition (v1.32 Texas XT, C2 PCB)</description>
+	<cloneof>nc96</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2000</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ncb3" index="" image="">
+	<description>Cherry Bonus III (ver.1.40, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dyna</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="neraidou" index="" image="">
+	<description>Neraidoula (Fairy Butterfly)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nfb96" index="" image="">
+	<description>New Fruit Bonus &apos;96 Special Edition (v3.63, C1 PCB)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nfb96a" index="" image="">
+	<description>New Fruit Bonus &apos;96 Special Edition (v3.62, C1 PCB)</description>
+	<cloneof>nfb96</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nfb96b" index="" image="">
+	<description>New Fruit Bonus &apos;96 Special Edition (v3.54, D PCB)</description>
+	<cloneof>nfb96</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nfb96c" index="" image="">
+	<description>New Fruit Bonus &apos;96 Special Edition (v3.62, DK PCB)</description>
+	<cloneof>nfb96</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nfb96se" index="" image="">
+	<description>New Fruit Bonus &apos;96 Special Edition (bootleg set 1, v97-3.3c Portuguese)</description>
+	<cloneof>nfb96</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nfb96sea" index="" image="">
+	<description>New Fruit Bonus &apos;96 Special Edition (bootleg set 2, v97-3.3c English)</description>
+	<cloneof>nfb96</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nfb96seb" index="" image="">
+	<description>New Fruit Bonus &apos;96 Special Edition (bootleg set 3, v97-3.3c Portuguese)</description>
+	<cloneof>nfb96</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nfb96txt" index="" image="">
+	<description>New Fruit Bonus &apos;96 Special Edition (v1.22 Texas XT, C2 PCB)</description>
+	<cloneof>nfb96</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2000</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nfm" index="" image="">
+	<description>New Fruit Machine (Ming-Yang Electronic)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Ming-Yang Electronic</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ns8lines" index="" image="">
+	<description>New Lucky 8 Lines / New Super 8 Lines (W-4)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>198?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pacslot" index="" image="">
+	<description>Pac-Slot</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peke0004" index="" image="">
+	<description>Player&apos;s Edge Plus (KE0004) Keno</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1994</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peke0017" index="" image="">
+	<description>Player&apos;s Edge Plus (KE0017) Keno</description>
+	<cloneof>peke0004</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1994</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peke1001" index="" image="">
+	<description>Player&apos;s Edge Plus (KE1001) Keno</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1994</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peke1006" index="" image="">
+	<description>Player&apos;s Edge Plus (KE1006) Keno</description>
+	<cloneof>peke1001</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1994</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peke1012" index="" image="">
+	<description>Player&apos;s Edge Plus (KE1012) Keno (set 1)</description>
+	<cloneof>peke1001</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1994</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peke1012a" index="" image="">
+	<description>Player&apos;s Edge Plus (KE1012) Keno (set 2)</description>
+	<cloneof>peke1001</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1994</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peke1012b" index="" image="">
+	<description>Player&apos;s Edge Plus (KE1012) Keno (set 3)</description>
+	<cloneof>peke1001</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1994</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peke1013" index="" image="">
+	<description>Player&apos;s Edge Plus (KE1013) Keno (set 1)</description>
+	<cloneof>peke1001</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1994</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peke1013a" index="" image="">
+	<description>Player&apos;s Edge Plus (KE1013) Keno (set 2)</description>
+	<cloneof>peke1001</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1994</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0014" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0014) Super Joker Slots</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0021" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0021) Red White &amp; Blue Slots</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0022" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0022) Red White &amp; Blue Slots</description>
+	<cloneof>peps0021</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0042" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0042) Double Diamond Slots</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0043" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0043) Double Diamond Slots</description>
+	<cloneof>peps0042</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0045" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0045) Red White &amp; Blue Slots</description>
+	<cloneof>peps0021</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0047" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0047) Wild Cherry Slots</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0090" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0090) Gold, Silver &amp; Bronze Slots</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0092" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0092) Wild Cherry Slots</description>
+	<cloneof>peps0047</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0206" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0206) Red White &amp; Blue Slots</description>
+	<cloneof>peps0021</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0207" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0207) Red White &amp; Blue Slots</description>
+	<cloneof>peps0021</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0296" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0296) Haywire Slots</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0298" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0298) Double Diamond Slots</description>
+	<cloneof>peps0042</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0308" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0308) Double Jackpot Slots</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0364" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0364) Wild Star Red White &amp; Blue Slots</description>
+	<cloneof>peps0358</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0366" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0366) Double Diamond Deluxe Slots</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0372" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0372) Double Diamond Deluxe Slots</description>
+	<cloneof>peps0366</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0373" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0373) Double Diamond Deluxe Slots</description>
+	<cloneof>peps0366</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0426" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0426) Sizzling Sevens Slots</description>
+	<cloneof>peps0425</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0581" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0581) Red White &amp; Blue Slots</description>
+	<cloneof>peps0021</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0615" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0615) Chaos Slots</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0631" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0631) Wild Star Red White &amp; Blue Slots</description>
+	<cloneof>peps0358</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="peps0716" index="" image="">
+	<description>Player&apos;s Edge Plus (PS0716) River Gambler Slots</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0838s" index="" image="">
+	<description>Player&apos;s Edge Plus (X000838S+XS000002) Five Times Pay Slots</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1997</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0841s" index="" image="">
+	<description>Player&apos;s Edge Plus (X000841S+XS000002) Five Times Pay Slots</description>
+	<cloneof>pex0838s</cloneof>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1997</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex0998s" index="" image="">
+	<description>Player&apos;s Edge Plus (X000998S+XS000006) Triple Triple Diamond Slots</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1997</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pex1087s" index="" image="">
+	<description>Player&apos;s Edge Plus (X001087S+XS000006) Double Double Diamond Slots</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGT - International Game Technology</manufacturer>
+	<year>1997</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="phantomp" index="" image="">
+	<description>Phantom Pays (4VXFC5431, New Zealand)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>1998</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pickwin" index="" image="">
+	<description>Pick &apos;n Win (Version 2.9E Dual)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pickwinb1" index="" image="">
+	<description>Pick &apos;n Win (Version 2.9R, set 1)</description>
+	<cloneof>pickwin</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pickwinbt" index="" image="">
+	<description>Pick &apos;n Win (Version 2.8T, set 1)</description>
+	<cloneof>pickwin</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pickwind1" index="" image="">
+	<description>Pick &apos;n Win (Version 2.9R, set 2)</description>
+	<cloneof>pickwin</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pickwindt" index="" image="">
+	<description>Pick &apos;n Win (Version 2.8T, set 2)</description>
+	<cloneof>pickwin</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pickwino" index="" image="">
+	<description>Pick &apos;n Win (Version 2.6)</description>
+	<cloneof>pickwin</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pickwino2" index="" image="">
+	<description>Pick &apos;n Win (Version 2.5T)</description>
+	<cloneof>pickwin</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pickwinv1" index="" image="">
+	<description>Pick &apos;n Win (Version 2.9R Dual)</description>
+	<cloneof>pickwin</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pickwinvt" index="" image="">
+	<description>Pick &apos;n Win (Version 2.8T, Dual)</description>
+	<cloneof>pickwin</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pir2001" index="" image="">
+	<description>Pirate 2001 (Version 2.5E Dual)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pir2001b1" index="" image="">
+	<description>Pirate 2001 (Version 2.5R, set 1)</description>
+	<cloneof>pir2001</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pir2001bx" index="" image="">
+	<description>Pirate 2001 (Version 2.40XT, set 1)</description>
+	<cloneof>pir2001</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pir2001d1" index="" image="">
+	<description>Pirate 2001 (Version 2.5R, set 2)</description>
+	<cloneof>pir2001</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pir2001dx" index="" image="">
+	<description>Pirate 2001 (Version 2.40XT, set 2)</description>
+	<cloneof>pir2001</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pir2001o" index="" image="">
+	<description>Pirate 2001 (Version 2.3N)</description>
+	<cloneof>pir2001</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pir2001o2" index="" image="">
+	<description>Pirate 2001 (Version 2.3)</description>
+	<cloneof>pir2001</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pir2001o3" index="" image="">
+	<description>Pirate 2001 (Version 2.20XT)</description>
+	<cloneof>pir2001</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pir2001v1" index="" image="">
+	<description>Pirate 2001 (Version 2.5R Dual)</description>
+	<cloneof>pir2001</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pir2001vx" index="" image="">
+	<description>Pirate 2001 (Version 2.40XT Dual)</description>
+	<cloneof>pir2001</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pir2002" index="" image="">
+	<description>Pirate 2002 (Version 2.0E Dual)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pir2002b1" index="" image="">
+	<description>Pirate 2002 (Version 2.0R, set 1)</description>
+	<cloneof>pir2002</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pir2002bx" index="" image="">
+	<description>Pirate 2002 (Version 1.90XT, set 1)</description>
+	<cloneof>pir2002</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pir2002d1" index="" image="">
+	<description>Pirate 2002 (Version 2.0R, set 2)</description>
+	<cloneof>pir2002</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pir2002dx" index="" image="">
+	<description>Pirate 2002 (Version 1.90XT, set 2)</description>
+	<cloneof>pir2002</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pir2002o" index="" image="">
+	<description>Pirate 2002 (Version 1.8N)</description>
+	<cloneof>pir2002</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pir2002o2" index="" image="">
+	<description>Pirate 2002 (Version 1.8)</description>
+	<cloneof>pir2002</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pir2002o3" index="" image="">
+	<description>Pirate 2002 (Version 1.70XT)</description>
+	<cloneof>pir2002</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pir2002v1" index="" image="">
+	<description>Pirate 2002 (Version 2.0R Dual)</description>
+	<cloneof>pir2002</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pir2002vx" index="" image="">
+	<description>Pirate 2002 (Version 1.90XT Dual)</description>
+	<cloneof>pir2002</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pirate2" index="" image="">
+	<description>Pirate 2 (061005 World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pirate2_2" index="" image="">
+	<description>Pirate 2 (070126 Russia)</description>
+	<cloneof>pirate2</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pirate2_2a" index="" image="">
+	<description>Pirate 2 (bootleg, 070126, banking address hack)</description>
+	<cloneof>pirate2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pirate2_3" index="" image="">
+	<description>Pirate 2 (090528 Lottery)</description>
+	<cloneof>pirate2</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pirate2_4" index="" image="">
+	<description>Pirate 2 (090730 Entertainment)</description>
+	<cloneof>pirate2</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pirate2a" index="" image="">
+	<description>Pirate 2 (bootleg, 061005, banking address hack set 1)</description>
+	<cloneof>pirate2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pirate2b" index="" image="">
+	<description>Pirate 2 (bootleg, 061005, banking address hack set 2)</description>
+	<cloneof>pirate2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pirate2c" index="" image="">
+	<description>Pirate 2 (bootleg, 061005, banking address hack, changed version text set 1)</description>
+	<cloneof>pirate2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pirate2d" index="" image="">
+	<description>Pirate 2 (bootleg, 061005, banking address hack, changed version text set 2)</description>
+	<cloneof>pirate2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pirate2e" index="" image="">
+	<description>Pirate 2 (bootleg, 061005, banking address hack, changed version text set 3)</description>
+	<cloneof>pirate2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pirate2f" index="" image="">
+	<description>Pirate 2 (bootleg, 061005, VIDEO GAME-1 PR01)</description>
+	<cloneof>pirate2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pirate2g" index="" image="">
+	<description>Pirate 2 (bootleg, 061005, LOTTOGAME (I))</description>
+	<cloneof>pirate2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pirate2h" index="" image="">
+	<description>Pirate 2 (bootleg, 061005, LOTOS PR01)</description>
+	<cloneof>pirate2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2006</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pirate_2" index="" image="">
+	<description>Pirate (060210 World)</description>
+	<cloneof>pirate_3</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2005</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pirate_3" index="" image="">
+	<description>Pirate (060803 World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2005</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pirate_4" index="" image="">
+	<description>Pirate (070412 Russia)</description>
+	<cloneof>pirate_3</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2005</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pktet346" index="" image="">
+	<description>PK Tetris (v346I)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1993?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pokrdice" index="" image="">
+	<description>Poker Dice</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Strata/Incredible Technologies</manufacturer>
+	<year>1991</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ptrain" index="" image="">
+	<description>Panda Train (Novamatic 1.7)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Subsino</manufacturer>
+	<year>1999</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pulltabs" index="" image="">
+	<description>Pull Tabs</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Game-A-Tron</manufacturer>
+	<year>1983</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pyramid" index="" image="">
+	<description>Pyramid (Dutch, Game Card 95-750-898)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM/ELAM</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qntoond" index="" image="">
+	<description>Quintoon (Dutch, Game Card 95-750-243)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM/ELAM</manufacturer>
+	<year>1993</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qntoondo" index="" image="">
+	<description>Quintoon (Dutch, Game Card 95-750-136)</description>
+	<cloneof>qntoond</cloneof>
+	<crc/>
+	<manufacturer>BFM/ELAM</manufacturer>
+	<year>1993</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="qotn" index="" image="">
+	<description>Queen of the Nile (0200439V, NSW/ACT)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>1997</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="queen" index="" image="">
+	<description>Queen?</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>STG</manufacturer>
+	<year>2002?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quintond" index="" image="">
+	<description>Quintoon (UK, Game Card 95-751-206, Datapak)</description>
+	<cloneof>quintoon</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>1993</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quintono" index="" image="">
+	<description>Quintoon (UK, Game Card 95-750-203)</description>
+	<cloneof>quintoon</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>1993</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quintoon" index="" image="">
+	<description>Quintoon (UK, Game Card 95-750-206)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>1993</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rclimb" index="" image="">
+	<description>Rock Climber (040815 World)</description>
+	<cloneof>rclimb_3</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rclimb_3" index="" image="">
+	<description>Rock Climber (040827 World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rclimb_3a" index="" image="">
+	<description>Rock Climber (bootleg, 040827, backdoor)</description>
+	<cloneof>rclimb_3</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rclimb_3b" index="" image="">
+	<description>Rock Climber (bootleg, 040827, new service menu)</description>
+	<cloneof>rclimb_3</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rclimb_3c" index="" image="">
+	<description>Rock Climber (bootleg, 040827, VIDEO GAME-1 SK01)</description>
+	<cloneof>rclimb_3</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rclimb_3d" index="" image="">
+	<description>Rock Climber (bootleg, 040827, LOTTOGAME (I))</description>
+	<cloneof>rclimb_3</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rclimb_3e" index="" image="">
+	<description>Rock Climber (bootleg, 040827, LOTOS SK01)</description>
+	<cloneof>rclimb_3</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rclimb_4" index="" image="">
+	<description>Rock Climber (070322 Russia)</description>
+	<cloneof>rclimb_3</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rclimb_5" index="" image="">
+	<description>Rock Climber (070621 Russia)</description>
+	<cloneof>rclimb_3</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rclimb_7" index="" image="">
+	<description>Rock Climber (090716 Entertainment)</description>
+	<cloneof>rclimb_3</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="reelrock" index="" image="">
+	<description>Reelin-n-Rockin (0100779V, Local)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>1998</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="resdnt" index="" image="">
+	<description>Resident (040415 World)</description>
+	<cloneof>resdnt_6</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="resdnt_2" index="" image="">
+	<description>Resident (040513 World)</description>
+	<cloneof>resdnt_6</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="resdnt_2a" index="" image="">
+	<description>Resident (bootleg, 040513, backdoor)</description>
+	<cloneof>resdnt_6</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="resdnt_2b" index="" image="">
+	<description>Resident (bootleg, 040513, VIDEO GAME-1 SE01 set 1)</description>
+	<cloneof>resdnt_6</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="resdnt_2c" index="" image="">
+	<description>Resident (bootleg, 040513, VIDEO GAME-1 SE01 set 2)</description>
+	<cloneof>resdnt_6</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="resdnt_2d" index="" image="">
+	<description>Resident (bootleg, 040513, VIDEO GAME-1 SE01 set 3)</description>
+	<cloneof>resdnt_6</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="resdnt_2e" index="" image="">
+	<description>Resident (bootleg, 040513, LOTTOGAME (I))</description>
+	<cloneof>resdnt_6</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="resdnt_2f" index="" image="">
+	<description>Resident (bootleg, 040513, LOTO PROGRAM V-RS2)</description>
+	<cloneof>resdnt_6</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="resdnt_2g" index="" image="">
+	<description>Resident (bootleg, 040513, LOTOS SE01)</description>
+	<cloneof>resdnt_6</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="resdnt_3" index="" image="">
+	<description>Resident (070222 Russia)</description>
+	<cloneof>resdnt_6</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="resdnt_6" index="" image="">
+	<description>Resident (100311 World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="resdnt_8" index="" image="">
+	<description>Resident (100311 Entertainment)</description>
+	<cloneof>resdnt_6</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="resdnt_9" index="" image="">
+	<description>Resident (100316 Russia)</description>
+	<cloneof>resdnt_6</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="robadv" index="" image="">
+	<description>Robin&apos;s Adventure (Version 1.7E Dual)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="robadv2" index="" image="">
+	<description>Robin&apos;s Adventure 2 (Version 1.7E Dual)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="robadv2c1" index="" image="">
+	<description>Robin&apos;s Adventure 2 (Version 1.7R, set 1)</description>
+	<cloneof>robadv2</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="robadv2c2" index="" image="">
+	<description>Robin&apos;s Adventure 2 (Version 1.7LT, set 1)</description>
+	<cloneof>robadv2</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="robadv2c3" index="" image="">
+	<description>Robin&apos;s Adventure 2 (Version 1.7SH, set 1)</description>
+	<cloneof>robadv2</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="robadv2d1" index="" image="">
+	<description>Robin&apos;s Adventure 2 (Version 1.7R, set 2)</description>
+	<cloneof>robadv2</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="robadv2d2" index="" image="">
+	<description>Robin&apos;s Adventure 2 (Version 1.7LT, set 2)</description>
+	<cloneof>robadv2</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="robadv2d3" index="" image="">
+	<description>Robin&apos;s Adventure 2 (Version 1.7SH, set 2)</description>
+	<cloneof>robadv2</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="robadv2o" index="" image="">
+	<description>Robin&apos;s Adventure 2 (Version 1.5SH)</description>
+	<cloneof>robadv2</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="robadv2o2" index="" image="">
+	<description>Robin&apos;s Adventure 2 (Version 1.5)</description>
+	<cloneof>robadv2</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="robadv2v1" index="" image="">
+	<description>Robin&apos;s Adventure 2 (Version 1.7R Dual)</description>
+	<cloneof>robadv2</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="robadv2v2" index="" image="">
+	<description>Robin&apos;s Adventure 2 (Version 1.7LT Dual)</description>
+	<cloneof>robadv2</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="robadv2v3" index="" image="">
+	<description>Robin&apos;s Adventure 2 (Version 1.7SH Dual)</description>
+	<cloneof>robadv2</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="robadvc1" index="" image="">
+	<description>Robin&apos;s Adventure (Version 1.7R, set 1)</description>
+	<cloneof>robadv</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="robadvd1" index="" image="">
+	<description>Robin&apos;s Adventure (Version 1.7R, set 2)</description>
+	<cloneof>robadv</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="robadvo" index="" image="">
+	<description>Robin&apos;s Adventure (Version 1.5)</description>
+	<cloneof>robadv</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="robadvv1" index="" image="">
+	<description>Robin&apos;s Adventure (Version 1.7R Dual)</description>
+	<cloneof>robadv</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rollfr_2" index="" image="">
+	<description>Roll Fruit (040318)</description>
+	<cloneof>rollfr_4</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rollfr_3" index="" image="">
+	<description>Roll Fruit (080327)</description>
+	<cloneof>rollfr_4</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rollfr_4" index="" image="">
+	<description>Roll Fruit (080331)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="roul" index="" image="">
+	<description>Super Lucky Roulette</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1990</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="roypok96" index="" image="">
+	<description>Royal Poker &apos;96 (set 1, v97-3.5)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="roypok96a" index="" image="">
+	<description>Royal Poker &apos;96 (set 2, v98-3.6)</description>
+	<cloneof>roypok96</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="roypok96b" index="" image="">
+	<description>Royal Poker &apos;96 (set 3, v98-3.6?)</description>
+	<cloneof>roypok96</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="roypok96c" index="" image="">
+	<description>Royal Poker &apos;96 (set 4, C3 board)</description>
+	<cloneof>roypok96</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="saiyukip" index="" image="">
+	<description>Slot Poker Saiyuki (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>World Station Co.,LTD</manufacturer>
+	<year>1998</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scherrym" index="" image="">
+	<description>Super Cherry Master</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dyna</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="schery97" index="" image="">
+	<description>Skill Cherry &apos;97 (Talking ver. sc3.52)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1997</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="schery97a" index="" image="">
+	<description>Skill Cherry &apos;97 (Talking ver. sc3.52c4)</description>
+	<cloneof>schery97</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1997</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scmaster" index="" image="">
+	<description>Super Cherry Master (v1.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1994</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="screenp1" index="" image="">
+	<description>Screen Play (Maygay, MV1 Video, ver. 1.9, set 1)</description>
+	<cloneof>screenpl</cloneof>
+	<crc/>
+	<manufacturer>Maygay</manufacturer>
+	<year>1991</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="screenp2" index="" image="">
+	<description>Screen Play (Maygay, MV1 Video, ver. 1.9, Isle of Man, set 1)</description>
+	<cloneof>screenpl</cloneof>
+	<crc/>
+	<manufacturer>Maygay</manufacturer>
+	<year>1991</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="screenpl" index="" image="">
+	<description>Screen Play (Maygay, MV1 Video, ver. 4.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Maygay</manufacturer>
+	<year>1991</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sderby" index="" image="">
+	<description>Super Derby (v.07.03)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Playmark</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sderbya" index="" image="">
+	<description>Super Derby (v.10.04)</description>
+	<cloneof>sderby</cloneof>
+	<crc/>
+	<manufacturer>Playmark</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="seawld" index="" image="">
+	<description>Sea World (Version 1.6E Dual)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2005</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="seawldd1" index="" image="">
+	<description>Sea World (Version 1.6R CGA)</description>
+	<cloneof>seawld</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2005</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfbonus" index="" image="">
+	<description>Skill Fruit Bonus (Version 1.9R, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfbonusd1" index="" image="">
+	<description>Skill Fruit Bonus (Version 1.9R, set 2)</description>
+	<cloneof>sfbonus</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfbonuso" index="" image="">
+	<description>Skill Fruit Bonus (Version 1.7)</description>
+	<cloneof>sfbonus</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfbonuso2" index="" image="">
+	<description>Skill Fruit Bonus (Version 1.6)</description>
+	<cloneof>sfbonus</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfbonusv1" index="" image="">
+	<description>Skill Fruit Bonus (Version 1.9R Dual)</description>
+	<cloneof>sfbonus</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfruitb" index="" image="">
+	<description>Super Fruit Bonus (Version 2.5E Dual)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfruitbb1" index="" image="">
+	<description>Super Fruit Bonus (Version 2.5R, set 1)</description>
+	<cloneof>sfruitb</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfruitbb2" index="" image="">
+	<description>Super Fruit Bonus (Version 2.0LT, set 1)</description>
+	<cloneof>sfruitb</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfruitbbh" index="" image="">
+	<description>Super Fruit Bonus (Version 2.2B, set 1)</description>
+	<cloneof>sfruitb</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfruitbd1" index="" image="">
+	<description>Super Fruit Bonus (Version 2.5R, set 2)</description>
+	<cloneof>sfruitb</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfruitbd2" index="" image="">
+	<description>Super Fruit Bonus (Version 2.0LT, set 2)</description>
+	<cloneof>sfruitb</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfruitbdh" index="" image="">
+	<description>Super Fruit Bonus (Version 2.2B, set 2)</description>
+	<cloneof>sfruitb</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfruitbh" index="" image="">
+	<description>Super Fruit Bonus (Version 2.2EB Dual)</description>
+	<cloneof>sfruitb</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfruitbo" index="" image="">
+	<description>Super Fruit Bonus (Version 2.0)</description>
+	<cloneof>sfruitb</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfruitbo2" index="" image="">
+	<description>Super Fruit Bonus (Version 1.80XT)</description>
+	<cloneof>sfruitb</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfruitboh" index="" image="">
+	<description>Super Fruit Bonus (Version 2.0B)</description>
+	<cloneof>sfruitb</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfruitbv1" index="" image="">
+	<description>Super Fruit Bonus (Version 2.5R Dual)</description>
+	<cloneof>sfruitb</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfruitbv2" index="" image="">
+	<description>Super Fruit Bonus (Version 2.0LT Dual)</description>
+	<cloneof>sfruitb</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfruitbvh" index="" image="">
+	<description>Super Fruit Bonus (Version 2.2B Dual)</description>
+	<cloneof>sfruitb</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sidewndr" index="" image="">
+	<description>Sidewinder</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>ACE</manufacturer>
+	<year>1981?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="skill98" index="" image="">
+	<description>Skill &apos;98 (Talking ver. s98-1.33)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>1998</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="skilldrp" index="" image="">
+	<description>Skill Drop Georgia (Ver. G1.0S)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Astro Corp.</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="skylncr" index="" image="">
+	<description>Sky Lancer (Bordun, version U450C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bordun International</manufacturer>
+	<year>1995</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sltblgp1" index="" image="">
+	<description>Slots (Belgian Cash, Game Card 95-752-008)</description>
+	<cloneof>sltblgpo</cloneof>
+	<crc/>
+	<manufacturer>BFM/ELAM</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sltblgpo" index="" image="">
+	<description>Slots (Belgian Cash, Game Card 95-750-938)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM/ELAM</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sltblgtk" index="" image="">
+	<description>Slots (Belgian Token, Game Card 95-750-943)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM/ELAM</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="speeddrp" index="" image="">
+	<description>Speed Drop (Ver. 1.06)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Astro Corp.</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spellbnd" index="" image="">
+	<description>Spellbound</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>ACE</manufacturer>
+	<year>1981?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spooky" index="" image="">
+	<description>Spooky Night 2nd Edition (Version 2.0.4)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spookyo" index="" image="">
+	<description>Spooky Night (Version 1.0.1)</description>
+	<cloneof>spooky</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sstar97" index="" image="">
+	<description>Super Star 97 / Ming Xing 97 (version V153B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bordun International</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stbsub" index="" image="">
+	<description>Treasure Bonus (Subsino, v1.6)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>American Alpha</manufacturer>
+	<year>1995</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stisub" index="" image="">
+	<description>Super Treasure Island (Italy, v1.6)</description>
+	<cloneof>stbsub</cloneof>
+	<crc/>
+	<manufacturer>Subsino</manufacturer>
+	<year>1995</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="suprball" index="" image="">
+	<description>Super Ball (Version 1.3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="suprstar" index="" image="">
+	<description>Super Stars</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amatic Trading GmbH</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sushimar" index="" image="">
+	<description>Itazura Daisuki! Sushimaru Kun</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sigma</manufacturer>
+	<year>1997</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sweetl" index="" image="">
+	<description>Sweet Life (041220 World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sweetl2" index="" image="">
+	<description>Sweet Life 2 (071217 Russia)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sweetl2_2" index="" image="">
+	<description>Sweet Life 2 (080320 World)</description>
+	<cloneof>sweetl2</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sweetl2_2a" index="" image="">
+	<description>Sweet Life 2 (bootleg, 080320, banking address hack set 1)</description>
+	<cloneof>sweetl2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sweetl2_2b" index="" image="">
+	<description>Sweet Life 2 (bootleg, 080320, banking address hack set 2)</description>
+	<cloneof>sweetl2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sweetl2_2c" index="" image="">
+	<description>Sweet Life 2 (bootleg, 080320, VIDEO GAME-1 MD01)</description>
+	<cloneof>sweetl2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sweetl2_2d" index="" image="">
+	<description>Sweet Life 2 (bootleg, 080320, LOTTOGAME (I))</description>
+	<cloneof>sweetl2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sweetl2_3" index="" image="">
+	<description>Sweet Life 2 (090525 Lottery)</description>
+	<cloneof>sweetl2</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sweetl2_4" index="" image="">
+	<description>Sweet Life 2 (090812 Entertainment)</description>
+	<cloneof>sweetl2</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2007</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sweetl_2" index="" image="">
+	<description>Sweet Life (070412 Russia)</description>
+	<cloneof>sweetl</cloneof>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sweetla" index="" image="">
+	<description>Sweet Life (bootleg, 041220, backdoor)</description>
+	<cloneof>sweetl</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sweetlb" index="" image="">
+	<description>Sweet Life (bootleg, 041220, banking address hack, changed version text)</description>
+	<cloneof>sweetl</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="swthrt2v" index="" image="">
+	<description>Sweet Hearts II (01J01986, Venezuela)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>1995</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="swtht2nz" index="" image="">
+	<description>Sweet Hearts II (1VXFC5461, New Zealand)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>1998</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tesorone" index="" image="">
+	<description>Tesorone Dell&apos;Isola (Italy, v2.41)</description>
+	<cloneof>stbsub</cloneof>
+	<crc/>
+	<manufacturer>Subsino</manufacturer>
+	<year>1995</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tesorone230" index="" image="">
+	<description>Tesorone Dell&apos;Isola (Italy, v2.30)</description>
+	<cloneof>stbsub</cloneof>
+	<crc/>
+	<manufacturer>Subsino</manufacturer>
+	<year>1995</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tesorone240" index="" image="">
+	<description>Tesorone Dell&apos;Isola (Italy, v2.40)</description>
+	<cloneof>stbsub</cloneof>
+	<crc/>
+	<manufacturer>Subsino</manufacturer>
+	<year>1995</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tighook" index="" image="">
+	<description>Tiger Hook (Version 2.1E Dual)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tighookc1" index="" image="">
+	<description>Tiger Hook (Version 2.1R, set 1)</description>
+	<cloneof>tighook</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tighookc2" index="" image="">
+	<description>Tiger Hook (Version 2.0LT, set 1)</description>
+	<cloneof>tighook</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tighookd1" index="" image="">
+	<description>Tiger Hook (Version 2.1R, set 2)</description>
+	<cloneof>tighook</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tighookd2" index="" image="">
+	<description>Tiger Hook (Version 2.0LT, set 2)</description>
+	<cloneof>tighook</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tighooko" index="" image="">
+	<description>Tiger Hook (Version 1.7XT)</description>
+	<cloneof>tighook</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tighooko2" index="" image="">
+	<description>Tiger Hook (Version 1.7)</description>
+	<cloneof>tighook</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tighookv1" index="" image="">
+	<description>Tiger Hook (Version 2.1R Dual)</description>
+	<cloneof>tighook</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tighookv2" index="" image="">
+	<description>Tiger Hook (Version 2.0LT Dual)</description>
+	<cloneof>tighook</cloneof>
+	<crc/>
+	<manufacturer>Amcoe</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tisub" index="" image="">
+	<description>Treasure Island (Subsino, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Subsino</manufacturer>
+	<year>1992</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tisuba" index="" image="">
+	<description>Treasure Island (Subsino, set 2)</description>
+	<cloneof>tisub</cloneof>
+	<crc/>
+	<manufacturer>Subsino</manufacturer>
+	<year>1992</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tjumpman" index="" image="">
+	<description>Tobikose! Jumpman</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1999</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tonton" index="" image="">
+	<description>Waku Waku Doubutsu Land TonTon (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Success / Taiyo Jidoki</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="topgear" index="" image="">
+	<description>Top Gear (4VXFC969, New Zealand)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="unkhorse" index="" image="">
+	<description>unknown Japanese horse gambling game</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer></manufacturer>
+	<year>1981?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="v4vgpok" index="" image="">
+	<description>Vegas Poker (prototype, release 2) (MPU4 Video)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BwB</manufacturer>
+	<year>199?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="videocba" index="" image="">
+	<description>Video Cordoba</description>
+	<cloneof>videopkr</cloneof>
+	<crc/>
+	<manufacturer>InterFlip</manufacturer>
+	<year>1987</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="videodad" index="" image="">
+	<description>Video Dado</description>
+	<cloneof>videopkr</cloneof>
+	<crc/>
+	<manufacturer>InterFlip</manufacturer>
+	<year>1987</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vliner" index="" image="">
+	<description>V-Liner (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dyna / BrezzaSoft</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vlinero" index="" image="">
+	<description>V-Liner (set 2)</description>
+	<cloneof>vliner</cloneof>
+	<crc/>
+	<manufacturer>Dyna / BrezzaSoft</manufacturer>
+	<year>2001</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vroulet" index="" image="">
+	<description>Vegas Roulette</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>World Game</manufacturer>
+	<year>1989</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wldarrow" index="" image="">
+	<description>Wild Arrow (color, Standard V4.8)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Meyco Games, Inc.</manufacturer>
+	<year>1982</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wtigernz" index="" image="">
+	<description>White Tiger (3VXFC5342, New Zealand)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>1996</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xtrain" index="" image="">
+	<description>X-Train (Ver. 1.3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Subsino</manufacturer>
+	<year>1999</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

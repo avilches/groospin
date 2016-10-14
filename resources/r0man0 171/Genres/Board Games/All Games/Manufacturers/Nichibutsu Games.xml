@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Board Games / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="gomoku" index="" image="">
+	<description>Gomoku Narabe Renju</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1981</year>
+	<genre>Board Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hnxmasev" index="" image="">
+	<description>AV Hanafuda Hana no Christmas Eve (Japan 901204)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu / AV Japan</manufacturer>
+	<year>1990</year>
+	<genre>Board Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

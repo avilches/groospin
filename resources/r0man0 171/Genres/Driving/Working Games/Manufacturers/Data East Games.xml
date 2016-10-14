@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Driving / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="backfire" index="" image="">
+	<description>Backfire! (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1995</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="backfirea" index="" image="">
+	<description>Backfire! (set 2)</description>
+	<cloneof>backfire</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1995</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bnj" index="" image="">
+	<description>Bump &apos;n&apos; Jump</description>
+	<cloneof>brubber</cloneof>
+	<crc/>
+	<manufacturer>Data East USA</manufacturer>
+	<year>1982</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bnjm" index="" image="">
+	<description>Bump &apos;n&apos; Jump (Midway)</description>
+	<cloneof>brubber</cloneof>
+	<crc/>
+	<manufacturer>Data East USA (Bally Midway license)</manufacturer>
+	<year>1982</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="brubber" index="" image="">
+	<description>Burnin&apos; Rubber</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East</manufacturer>
+	<year>1982</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cbnj" index="" image="">
+	<description>Bump &apos;n&apos; Jump (DECO Cassette, Japan)</description>
+	<cloneof>cburnrub</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cburnrub" index="" image="">
+	<description>Burnin&apos; Rubber (DECO Cassette, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cburnrub2" index="" image="">
+	<description>Burnin&apos; Rubber (DECO Cassette, set 2)</description>
+	<cloneof>cburnrub</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="clshroadd" index="" image="">
+	<description>Clash-Road (Data East license)</description>
+	<cloneof>clshroad</cloneof>
+	<crc/>
+	<manufacturer>Wood Place Inc. (Data East license)</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

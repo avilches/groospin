@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Card Battle / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="excitbj" index="" image="">
+	<description>Exciting Black Jack</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="magspeed" index="" image="">
+	<description>Magical Speed</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Allumer</manufacturer>
+	<year>1994</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="suprpokrb" index="" image="">
+	<description>Super Poker (Version 10.10)</description>
+	<cloneof>suprpokr</cloneof>
+	<crc/>
+	<manufacturer>Grayhound Electronics</manufacturer>
+	<year>1986</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

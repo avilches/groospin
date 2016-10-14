@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Sports / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="fmaniac3" index="" image="">
+	<description>Fishing Maniac 3</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Saero Entertainment</manufacturer>
+	<year>2002</year>
+	<genre>Fishing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="realbrkk" index="" image="">
+	<description>Billiard Academy Real Break (Korea)</description>
+	<cloneof>realbrk</cloneof>
+	<crc/>
+	<manufacturer>Nakanihon</manufacturer>
+	<year>1998</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

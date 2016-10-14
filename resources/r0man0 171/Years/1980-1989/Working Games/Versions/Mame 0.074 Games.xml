@@ -1,0 +1,809 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1980-1989 / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="8bpm" index="" image="">
+	<description>Eight Ball Action (Pac-Man conversion)</description>
+	<cloneof>8ballact</cloneof>
+	<crc/>
+	<manufacturer>Seatongrove Ltd (Magic Electronics USA license)</manufacturer>
+	<year>1985</year>
+	<genre>Pool and Darts</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aceattac" index="" image="">
+	<description>Ace Attacker (FD1094 317-0059)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Volleyball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="afighter" index="" image="">
+	<description>Action Fighter (FD1089A 317-0018)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="amerdart" index="" image="">
+	<description>AmeriDarts (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Ameri</manufacturer>
+	<year>1989</year>
+	<genre>Pool and Darts</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aponow" index="" image="">
+	<description>Apocaljpse Now (bootleg of Rescue)</description>
+	<cloneof>rescue</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bigbucks" index="" image="">
+	<description>Big Bucks</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dynasoft Inc.</manufacturer>
+	<year>1986</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="buggyboyjr" index="" image="">
+	<description>Buggy Boy Junior/Speed Buggy (upright)</description>
+	<cloneof>buggyboy</cloneof>
+	<crc/>
+	<manufacturer>Tatsumi</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cflyball" index="" image="">
+	<description>Flying Ball (DECO Cassette)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1985</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="champbb2" index="" image="">
+	<description>Champion Base Ball Part-2 (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Alpha Denshi Co. (Sega license)</manufacturer>
+	<year>1983</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chwy" index="" image="">
+	<description>Highway Chase (DECO Cassette)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="compgolf" index="" image="">
+	<description>Competition Golf Final Round (revision 3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East</manufacturer>
+	<year>1986</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crgolfc" index="" image="">
+	<description>Champion Golf</description>
+	<cloneof>crgolf</cloneof>
+	<crc/>
+	<manufacturer>Nasco Japan</manufacturer>
+	<year>1984</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="czeroize" index="" image="">
+	<description>Zeroize (DECO Cassette)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="daireika" index="" image="">
+	<description>Mahjong Daireikai (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco / NMK</manufacturer>
+	<year>1989</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dakkochn" index="" image="">
+	<description>DakkoChan House (MC-8123B, 317-5014)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>White Board</manufacturer>
+	<year>1987</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dealer" index="" image="">
+	<description>The Dealer</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Epos Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="djboy" index="" image="">
+	<description>DJ Boy (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko (American Sammy license)</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dkong3b" index="" image="">
+	<description>Donkey Kong 3 (bootleg on Donkey Kong Jr. hardware)</description>
+	<cloneof>dkong3</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dorachan" index="" image="">
+	<description>Dora-chan (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Alpha Denshi Co. / Craul Denshi</manufacturer>
+	<year>1980</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drakton" index="" image="">
+	<description>Drakton (DK conversion)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Epos Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drivfrcg" index="" image="">
+	<description>Driving Force (Galaxian conversion)</description>
+	<cloneof>drivfrcp</cloneof>
+	<crc/>
+	<manufacturer>Shinkai Inc. (Magic Electronics USA license)</manufacturer>
+	<year>1984</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drivfrcp" index="" image="">
+	<description>Driving Force (Pac-Man conversion)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Shinkai Inc. (Magic Electronics Inc. license)</manufacturer>
+	<year>1984</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dunkshoto" index="" image="">
+	<description>Dunk Shot (FD1089A 317-0022)</description>
+	<cloneof>dunkshot</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1986</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="exctleag" index="" image="">
+	<description>Excite League (FD1094 317-0079)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="explorer" index="" image="">
+	<description>Explorer (bootleg of Scramble)</description>
+	<cloneof>scramble</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Sidam)</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fantzn2" index="" image="">
+	<description>Fantasy Zone II - The Tears of Opa-Opa (MC-8123, 317-0057)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcombat" index="" image="">
+	<description>Field Combat</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="foodf2" index="" image="">
+	<description>Food Fight (rev 2)</description>
+	<cloneof>foodf</cloneof>
+	<crc/>
+	<manufacturer>General Computer Corporation (Atari license)</manufacturer>
+	<year>1982</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="foodfc" index="" image="">
+	<description>Food Fight (cocktail)</description>
+	<cloneof>foodf</cloneof>
+	<crc/>
+	<manufacturer>General Computer Corporation (Atari license)</manufacturer>
+	<year>1982</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gardia" index="" image="">
+	<description>Gardia (317-0006)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Coreland / Sega</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gardiab" index="" image="">
+	<description>Gardia (317-0007?, bootleg)</description>
+	<cloneof>gardia</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hangly3" index="" image="">
+	<description>Hangly-Man (set 3)</description>
+	<cloneof>puckman</cloneof>
+	<crc/>
+	<manufacturer>hack</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hnoridur" index="" image="">
+	<description>Hana Oriduru (Japan)</description>
+	<cloneof>hjingi</cloneof>
+	<crc/>
+	<manufacturer>Dynax</manufacturer>
+	<year>1989</year>
+	<genre>Board Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="homerun" index="" image="">
+	<description>Moero!! Pro Yakyuu Homerun Kyousou</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco</manufacturer>
+	<year>1988</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hotroda" index="" image="">
+	<description>Hot Rod (World, 3 Players, Turbo set 2, Floppy Based)</description>
+	<cloneof>hotrod</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hotsmash" index="" image="">
+	<description>Vs. Hot Smash</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko / Taito</manufacturer>
+	<year>1987</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jcross" index="" image="">
+	<description>Jumping Cross</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1984</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="josvolly" index="" image="">
+	<description>Joshi Volleyball</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Allumer / Taito Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Volleyball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="liberatr2" index="" image="">
+	<description>Liberator (set 2)</description>
+	<cloneof>liberatr</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="loffire" index="" image="">
+	<description>Line of Fire / Bakudan Yarou (World) (FD1094 317-0136)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ltcasino" index="" image="">
+	<description>Little Casino (older)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Digital Controls Inc.</manufacturer>
+	<year>1982</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mainsnk" index="" image="">
+	<description>Main Event (1984)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1984</year>
+	<genre>Boxing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mimonscr" index="" image="">
+	<description>Mighty Monkey (bootleg on Scramble hardware)</description>
+	<cloneof>mimonkey</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mvp" index="" image="">
+	<description>MVP (set 2, US) (FD1094 317-0143)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="natsuiro" index="" image="">
+	<description>Natsuiro Mahjong (Japan)</description>
+	<cloneof>mjnatsu</cloneof>
+	<crc/>
+	<manufacturer>Video System Co.</manufacturer>
+	<year>1989</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ojankoc" index="" image="">
+	<description>Ojanko Club (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>V-System Co.</manufacturer>
+	<year>1986</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="opaopa" index="" image="">
+	<description>Opa Opa (MC-8123, 317-0042)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pc_pinbt" index="" image="">
+	<description>PinBot (PlayChoice-10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Rare (Nintendo of America license)</manufacturer>
+	<year>1988</year>
+	<genre>Pinball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="phantoma" index="" image="">
+	<description>Phantomas (bootleg of Spectar)</description>
+	<cloneof>spectar</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Jeutel)</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="porky" index="" image="">
+	<description>Porky</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Shinkai Inc. (Magic Electronics Inc. license)</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="portrait" index="" image="">
+	<description>Portraits (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Olympia</manufacturer>
+	<year>1983</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="profpac" index="" image="">
+	<description>Professor Pac-Man</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dave Nutting Associates / Bally Midway</manufacturer>
+	<year>1983</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="prosoccr" index="" image="">
+	<description>Pro Soccer</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="prosport" index="" image="">
+	<description>Pro Sports - Bowling, Tennis, and Golf</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1983</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rougien" index="" image="">
+	<description>Rougien</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sanritsu</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shootgal" index="" image="">
+	<description>Shooting Gallery</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Seatongrove Ltd (Zaccaria license)</manufacturer>
+	<year>1984</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shougi" index="" image="">
+	<description>Shougi</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Alpha Denshi Co. (Tehkan license)</manufacturer>
+	<year>1982</year>
+	<genre>Board Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shougi2" index="" image="">
+	<description>Shougi Part II</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Alpha Denshi Co. (Tehkan license)</manufacturer>
+	<year>1982</year>
+	<genre>Board Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="smgolf" index="" image="">
+	<description>Vs. Stroke &amp; Match Golf (Men Version, set GF4-2 F)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1984</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sparkman" index="" image="">
+	<description>Spark Man (v2.0, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SunA</manufacturer>
+	<year>1989</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spcpostn" index="" image="">
+	<description>Space Position (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega / Nasco</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sranger" index="" image="">
+	<description>Super Ranger (v2.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SunA</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="srangerb" index="" image="">
+	<description>Super Ranger (older, bootleg)</description>
+	<cloneof>sranger</cloneof>
+	<crc/>
+	<manufacturer>bootleg (NYWA)</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="srangerw" index="" image="">
+	<description>Super Ranger (older, WDK license)</description>
+	<cloneof>sranger</cloneof>
+	<crc/>
+	<manufacturer>SunA (WDK license)</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="supdrapo" index="" image="">
+	<description>Super Draw Poker (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Valadon Automation (Stern Electronics license)</manufacturer>
+	<year>1983</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="suprleag" index="" image="">
+	<description>Super League (FD1094 317-0045)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="supxevs" index="" image="">
+	<description>Vs. Super Xevious</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="survival" index="" image="">
+	<description>Survival</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Rock-Ola</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tdfever2" index="" image="">
+	<description>TouchDown Fever 2</description>
+	<cloneof>tdfever</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1988</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tharrieru" index="" image="">
+	<description>Task Force Harrier (US?)</description>
+	<cloneof>tharrier</cloneof>
+	<crc/>
+	<manufacturer>UPL (American Sammy license)</manufacturer>
+	<year>1989</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thndrbld" index="" image="">
+	<description>Thunder Blade (upright) (FD1094 317-0056)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thndrbld1" index="" image="">
+	<description>Thunder Blade (deluxe/standing) (unprotected)</description>
+	<cloneof>thndrbld</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="topland" index="" image="">
+	<description>Top Landing (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1988</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="toutrun2" index="" image="">
+	<description>Turbo Out Run (cockpit) (FD1094 317-0106)</description>
+	<cloneof>toutrun</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="toutrun3" index="" image="">
+	<description>Turbo Out Run (cockpit) (FD1094 317-0107)</description>
+	<cloneof>toutrun</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1989</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ufosensi" index="" image="">
+	<description>Ufo Senshi Yohko Chan (MC-8123, 317-0064)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="urashima" index="" image="">
+	<description>Otogizoushi Urashima Mahjong (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>UPL</manufacturer>
+	<year>1989</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vsbballj" index="" image="">
+	<description>Vs. BaseBall (Japan, set BA A-3)</description>
+	<cloneof>vsbball</cloneof>
+	<crc/>
+	<manufacturer>Nintendo Co., Ltd.</manufacturer>
+	<year>1984</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vsfdf" index="" image="">
+	<description>Vs. Freedom Force</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sunsoft</manufacturer>
+	<year>1988</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wizzquiza" index="" image="">
+	<description>Wizz Quiz (version 4)</description>
+	<cloneof>wizzquiz</cloneof>
+	<crc/>
+	<manufacturer>Zilec-Zenitone</manufacturer>
+	<year>1985</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

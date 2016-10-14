@@ -1,0 +1,249 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2P sim / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="airduel" index="" image="">
+	<description>Air Duel (World, M82-A-A + M82-B-A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bbredux" index="" image="">
+	<description>Bubble Bobble (&apos;bootleg redux&apos; hack for Bobble Bobble PCB)</description>
+	<cloneof>bublbobl</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Punji)</manufacturer>
+	<year>2013</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bm36th" index="" image="">
+	<description>Beatmania III Append 6th Mix</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2001</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bm3core" index="" image="">
+	<description>Beatmania III Append Core Remix</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Rhythm</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="boblcave" index="" image="">
+	<description>Bubble Bobble: Lost Cave V1.2 (for Bobble Bobble PCB)</description>
+	<cloneof>bublbobl</cloneof>
+	<crc/>
+	<manufacturer>hack (Bisboch and Aladar)</manufacturer>
+	<year>2013</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bublboblb" index="" image="">
+	<description>Bubble Bobble (for Bobble Bobble PCB)</description>
+	<cloneof>bublbobl</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Aladar)</manufacturer>
+	<year>2013</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bublcave" index="" image="">
+	<description>Bubble Bobble: Lost Cave V1.2</description>
+	<cloneof>bublbobl</cloneof>
+	<crc/>
+	<manufacturer>hack (Bisboch and Aladar)</manufacturer>
+	<year>2013</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bublcave10" index="" image="">
+	<description>Bubble Bobble: Lost Cave V1.0</description>
+	<cloneof>bublbobl</cloneof>
+	<crc/>
+	<manufacturer>hack (Bisboch and Aladar)</manufacturer>
+	<year>2012</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bublcave11" index="" image="">
+	<description>Bubble Bobble: Lost Cave V1.1</description>
+	<cloneof>bublbobl</cloneof>
+	<crc/>
+	<manufacturer>hack (Bisboch and Aladar)</manufacturer>
+	<year>2012</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ffightub" index="" image="">
+	<description>Final Fight (USA 900424)</description>
+	<cloneof>ffight</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="joemacrj" index="" image="">
+	<description>Joe &amp; Mac Returns (Japan, Version 1.2, 1994.06.06)</description>
+	<cloneof>joemacr</cloneof>
+	<crc/>
+	<manufacturer>Data East</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kengoa" index="" image="">
+	<description>Ken-Go (set 2)</description>
+	<cloneof>ltswords</cloneof>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ket1" index="" image="">
+	<description>Ketsui: Kizuna Jigoku Tachi (2003/01/01. Master Ver.) (alt rom fill)</description>
+	<cloneof>ket</cloneof>
+	<crc/>
+	<manufacturer>Cave (AMI license)</manufacturer>
+	<year>2002</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ketarrf" index="" image="">
+	<description>Ketsui: Kizuna Jigoku Tachi (2012/04/17 FAST. VER) (hack)</description>
+	<cloneof>ket</cloneof>
+	<crc/>
+	<manufacturer>hack (trap15)</manufacturer>
+	<year>2012</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ketarrs15" index="" image="">
+	<description>Ketsui: Kizuna Jigoku Tachi (2012/06/27 MR.STOIC 1.5 VER) (hack)</description>
+	<cloneof>ket</cloneof>
+	<crc/>
+	<manufacturer>hack (trap15)</manufacturer>
+	<year>2012</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ketarrs151" index="" image="">
+	<description>Ketsui: Kizuna Jigoku Tachi (2012/06/27 MR.STOIC 1.51 VER) (hack)</description>
+	<cloneof>ket</cloneof>
+	<crc/>
+	<manufacturer>hack (trap15)</manufacturer>
+	<year>2012</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ltswords" index="" image="">
+	<description>Lightning Swords</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mastboyia" index="" image="">
+	<description>Master Boy (Italian, PCB Rev A, set 2)</description>
+	<cloneof>mastboy</cloneof>
+	<crc/>
+	<manufacturer>Gaelco</manufacturer>
+	<year>1991</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sdibl2" index="" image="">
+	<description>SDI - Strategic Defense Initiative (bootleg, set 1)</description>
+	<cloneof>sdi</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sdibl3" index="" image="">
+	<description>SDI - Strategic Defense Initiative (bootleg, set 2)</description>
+	<cloneof>sdi</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sdibl4" index="" image="">
+	<description>SDI - Strategic Defense Initiative (bootleg, set 3)</description>
+	<cloneof>sdi</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sdibl5" index="" image="">
+	<description>SDI - Strategic Defense Initiative (bootleg, set 4)</description>
+	<cloneof>sdi</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sdibl6" index="" image="">
+	<description>SDI - Strategic Defense Initiative (bootleg, set 5)</description>
+	<cloneof>sdi</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wondstcka" index="" image="">
+	<description>Wonder Stick (set 2, censored)</description>
+	<cloneof>wondstck</cloneof>
+	<crc/>
+	<manufacturer>Yun Sung</manufacturer>
+	<year>????</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Fighter / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="buraikenb" index="" image="">
+	<description>Hissatsu Buraiken (Japan, bootleg?)</description>
+	<cloneof>avengers</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1987</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fghthistb" index="" image="">
+	<description>Fighter&apos;s History (World ver 43-05, DE-0380-2 PCB)</description>
+	<cloneof>fghthist</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fghthistu" index="" image="">
+	<description>Fighter&apos;s History (US ver 42-09, DE-0396-0 PCB)</description>
+	<cloneof>fghthist</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kbashk" index="" image="">
+	<description>Knuckle Bash (Korean PCB)</description>
+	<cloneof>kbash</cloneof>
+	<crc/>
+	<manufacturer>Toaplan / Taito</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfa3us" index="" image="">
+	<description>Street Fighter Alpha 3 (USA 980616, SAMPLE Version)</description>
+	<cloneof>sfa3</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

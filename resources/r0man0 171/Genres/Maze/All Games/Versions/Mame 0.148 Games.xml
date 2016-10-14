@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Maze / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="crushbl3" index="" image="">
+	<description>Crush Roller (bootleg set 3)</description>
+	<cloneof>crush</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="grasspin" index="" image="">
+	<description>Grasspin</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Zilec Electronics / Jaleco</manufacturer>
+	<year>1983</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="headonb" index="" image="">
+	<description>Head On (bootleg on dedicated hardware)</description>
+	<cloneof>headon</cloneof>
+	<crc/>
+	<manufacturer>bootleg (EFG Sanremo)</manufacturer>
+	<year>1979</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="headonmz" index="" image="">
+	<description>Head On (bootleg, alt maze)</description>
+	<cloneof>headon</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1979</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mspacmanbg" index="" image="">
+	<description>Ms. Pac-Man (&apos;Made in Greece&apos; bootleg)</description>
+	<cloneof>mspacman</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>198?</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pacmansp" index="" image="">
+	<description>Puck Man (Spanish, &apos;Made in Greece&apos; bootleg)</description>
+	<cloneof>puckman</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>198?</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pacuman" index="" image="">
+	<description>Pacu-Man (Spanish bootleg of Puck Man)</description>
+	<cloneof>puckman</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Recreativos Franco S.A.)</manufacturer>
+	<year>1980</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rallyxmr" index="" image="">
+	<description>Rally X (Model Racing bootleg)</description>
+	<cloneof>rallyx</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Model Racing)</manufacturer>
+	<year>1980</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ttfitter" index="" image="">
+	<description>T.T. Fitter (Japan)</description>
+	<cloneof>roundup</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

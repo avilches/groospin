@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Handheld Game / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="amaztron" index="" image="">
+	<description>Amaze-A-Tron</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Coleco</manufacturer>
+	<year>1978</year>
+	<genre>Handheld Game</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cnsector" index="" image="">
+	<description>Code Name: Sector</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Parker Brothers</manufacturer>
+	<year>1977</year>
+	<genre>Handheld Game</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="starwbc" index="" image="">
+	<description>Star Wars - Electronic Battle Command</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kenner</manufacturer>
+	<year>1979</year>
+	<genre>Handheld Game</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="starwbcp" index="" image="">
+	<description>Star Wars - Electronic Battle Command (patent)</description>
+	<cloneof>starwbc</cloneof>
+	<crc/>
+	<manufacturer>Kenner</manufacturer>
+	<year>1979</year>
+	<genre>Handheld Game</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tandy12" index="" image="">
+	<description>Tandy-12: Computerized Arcade</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Tandy Radio Shack</manufacturer>
+	<year>1981</year>
+	<genre>Handheld Game</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

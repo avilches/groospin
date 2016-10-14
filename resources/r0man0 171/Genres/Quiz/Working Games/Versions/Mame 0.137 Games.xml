@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Quiz / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="funquiz" index="" image="">
+	<description>Fun World Quiz (Austrian)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Fun World / Oehlinger</manufacturer>
+	<year>198?</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="phrcrazea" index="" image="">
+	<description>Phraze Craze (6221-40, U5-0)</description>
+	<cloneof>phrcraze</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1986</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="phrcrazec" index="" image="">
+	<description>Phraze Craze (6221-40, U5-3 Expanded Questions)</description>
+	<cloneof>phrcraze</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1986</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="quizvid" index="" image="">
+	<description>Video Quiz</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1986</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="reelfun" index="" image="">
+	<description>Reel Fun (Version 7.03)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Grayhound Electronics</manufacturer>
+	<year>1986</year>
+	<genre>Quiz</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

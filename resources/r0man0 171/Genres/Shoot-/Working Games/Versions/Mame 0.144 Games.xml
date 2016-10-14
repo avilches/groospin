@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Shoot- / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="cawingbl" index="" image="">
+	<description>Carrier Air Wing (bootleg with 2xYM2203 + 2xMSM205 set 1)</description>
+	<cloneof>cawing</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="exzisust" index="" image="">
+	<description>Exzisus (TAD license)</description>
+	<cloneof>exzisus</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation (TAD license)</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fnshark" index="" image="">
+	<description>Flyin&apos; Shark (bootleg of Hishou Zame)</description>
+	<cloneof>fshark</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1987</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galgame" index="" image="">
+	<description>Galaxy Game</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Computer Recreations, Inc</manufacturer>
+	<year>1971</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pang3r1" index="" image="">
+	<description>Pang! 3 (Euro 950511)</description>
+	<cloneof>pang3</cloneof>
+	<crc/>
+	<manufacturer>Mitchell</manufacturer>
+	<year>1995</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="westgun2" index="" image="">
+	<description>Western Gun Part II</description>
+	<cloneof>sheriff</cloneof>
+	<crc/>
+	<manufacturer>Nintendo (Taito Corporation license)</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

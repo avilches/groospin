@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Atari / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="antiairc" index="" image="">
+	<description>Anti-Aircraft [TTL]</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1975</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crashnsc" index="" image="">
+	<description>Crash &apos;n Score/Stock Car [TTL]</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1975</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="indy4" index="" image="">
+	<description>Indy 4 [TTL]</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari/Kee</manufacturer>
+	<year>1976</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="indy800" index="" image="">
+	<description>Indy 800 [TTL]</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari/Kee</manufacturer>
+	<year>1975</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jetfight" index="" image="">
+	<description>Jet Fighter/Jet Fighter Cocktail/Launch Aircraft (set 1) [TTL]</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1975</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jetfighta" index="" image="">
+	<description>Jet Fighter/Jet Fighter Cocktail/Launch Aircraft (set 2) [TTL]</description>
+	<cloneof>jetfight</cloneof>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1975</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="outlaw" index="" image="">
+	<description>Outlaw [TTL]</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1976</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sharkjaw" index="" image="">
+	<description>Shark JAWS [TTL]</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari/Horror Games</manufacturer>
+	<year>1975</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="steeplec" index="" image="">
+	<description>Steeplechase [TTL]</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1975</year>
+	<genre>Horse Racing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="stuntcyc" index="" image="">
+	<description>Stunt Cycle [TTL]</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1976</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tank" index="" image="">
+	<description>Tank/Tank Cocktail [TTL]</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari/Kee</manufacturer>
+	<year>1974</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

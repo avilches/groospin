@@ -1,0 +1,339 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Breakout / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="arkretrn" index="" image="">
+	<description>Arkanoid Returns (Ver 2.02O 1997/02/10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1997</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arkretrnj" index="" image="">
+	<description>Arkanoid Returns (Ver 2.02J 1997/02/10)</description>
+	<cloneof>arkretrn</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1997</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="arkretrnu" index="" image="">
+	<description>Arkanoid Returns (Ver 2.02A 1997/02/10)</description>
+	<cloneof>arkretrn</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1997</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="balcube" index="" image="">
+	<description>Bal Cube</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Metro</manufacturer>
+	<year>1996</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="block" index="" image="">
+	<description>Block Block (World 911219 Joystick)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blockbl" index="" image="">
+	<description>Block Block (bootleg)</description>
+	<cloneof>block</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1991</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blockcar" index="" image="">
+	<description>Block Carnival / Thunder &amp; Lightning 2</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Visco</manufacturer>
+	<year>1992</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blockcarb" index="" image="">
+	<description>Block Carnival / Thunder &amp; Lightning 2 (bootleg)</description>
+	<cloneof>blockcar</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1992</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blocken" index="" image="">
+	<description>Blocken (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Visco / KID</manufacturer>
+	<year>1994</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blockj" index="" image="">
+	<description>Block Block (Japan 910910)</description>
+	<cloneof>block</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blockr1" index="" image="">
+	<description>Block Block (World 911106 Joystick)</description>
+	<cloneof>block</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blockr2" index="" image="">
+	<description>Block Block (World 910910)</description>
+	<cloneof>block</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1991</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="brickzn" index="" image="">
+	<description>Brick Zone (v6.0, Joystick)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SunA</manufacturer>
+	<year>1992</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="brickzn11" index="" image="">
+	<description>Brick Zone (v1.1, Spinner)</description>
+	<cloneof>brickzn</cloneof>
+	<crc/>
+	<manufacturer>SunA</manufacturer>
+	<year>1992</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="brickznv4" index="" image="">
+	<description>Brick Zone (v4.0, Spinner)</description>
+	<cloneof>brickzn</cloneof>
+	<crc/>
+	<manufacturer>SunA</manufacturer>
+	<year>1992</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="brickznv5" index="" image="">
+	<description>Brick Zone (v5.0, Joystick)</description>
+	<cloneof>brickzn</cloneof>
+	<crc/>
+	<manufacturer>SunA</manufacturer>
+	<year>1992</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cubybop" index="" image="">
+	<description>Cuby Bop (location test)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Hot-B</manufacturer>
+	<year>199?</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dominob" index="" image="">
+	<description>Domino Block</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Wonwoo Systems</manufacturer>
+	<year>1996</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dominobv2" index="" image="">
+	<description>Domino Block ver.2</description>
+	<cloneof>dominob</cloneof>
+	<crc/>
+	<manufacturer>Wonwoo Systems</manufacturer>
+	<year>1996</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ghox" index="" image="">
+	<description>Ghox (spinner)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Toaplan</manufacturer>
+	<year>1991</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ghoxj" index="" image="">
+	<description>Ghox (joystick)</description>
+	<cloneof>ghox</cloneof>
+	<crc/>
+	<manufacturer>Toaplan</manufacturer>
+	<year>1991</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jmpbreak" index="" image="">
+	<description>Jumping Break</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>F2 System</manufacturer>
+	<year>1999</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="madball" index="" image="">
+	<description>Mad Ball V2.0</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Yun Sung</manufacturer>
+	<year>1998</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="offtwall" index="" image="">
+	<description>Off the Wall (2/3-player upright)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1991</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="offtwallc" index="" image="">
+	<description>Off the Wall (2-player cocktail)</description>
+	<cloneof>offtwall</cloneof>
+	<crc/>
+	<manufacturer>Atari Games</manufacturer>
+	<year>1991</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="popbounc" index="" image="">
+	<description>Pop &apos;n Bounce / Gapporin</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Video System Co.</manufacturer>
+	<year>1997</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="puchicar" index="" image="">
+	<description>Puchi Carat (Ver 2.02O 1997/10/29)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1997</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="puchicarj" index="" image="">
+	<description>Puchi Carat (Ver 2.02J 1997/10/29)</description>
+	<cloneof>puchicar</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1997</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sarukani" index="" image="">
+	<description>Saru-Kani-Hamu-Zou (Japan)</description>
+	<cloneof>vblokbrk</cloneof>
+	<crc/>
+	<manufacturer>Kaneko / Mediaworks</manufacturer>
+	<year>1997</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thunderl" index="" image="">
+	<description>Thunder &amp; Lightning</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Seta</manufacturer>
+	<year>1990</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thunderlbl" index="" image="">
+	<description>Thunder &amp; Lightning (bootleg with Tetris sound)</description>
+	<cloneof>thunderl</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1990</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="twinsqua" index="" image="">
+	<description>Twin Squash</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vblokbrk" index="" image="">
+	<description>VS Block Breaker (Asia)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko / Mediaworks</manufacturer>
+	<year>1997</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

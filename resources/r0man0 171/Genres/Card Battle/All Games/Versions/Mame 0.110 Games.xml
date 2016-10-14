@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Card Battle / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="elephfmb" index="" image="">
+	<description>Elephant Family (Italian, old)</description>
+	<cloneof>elephfam</cloneof>
+	<crc/>
+	<manufacturer>C.M.C.</manufacturer>
+	<year>1996</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jokercrd" index="" image="">
+	<description>Joker Card (Ver.A267BC, encrypted)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Vesely Svet</manufacturer>
+	<year>1993</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jokpoker" index="" image="">
+	<description>Joker Poker (Version 16.03B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Greyhound Electronics</manufacturer>
+	<year>1982</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="royalcrdf" index="" image="">
+	<description>Royal Card (Slovak, encrypted)</description>
+	<cloneof>royalcrd</cloneof>
+	<crc/>
+	<manufacturer>Evona Electronic</manufacturer>
+	<year>1991</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="superbwl" index="" image="">
+	<description>Super Bowl (Version 16.03B)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Greyhound Electronics</manufacturer>
+	<year>1982</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

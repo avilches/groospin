@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Driving / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="outrundxeh" index="" image="">
+	<description>Out Run (deluxe sitdown) (Enhanced Edition v1.0.3)</description>
+	<cloneof>outrun</cloneof>
+	<crc/>
+	<manufacturer>hack (Chris White)</manufacturer>
+	<year>2013</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="outruneh" index="" image="">
+	<description>Out Run (sitdown/upright, Rev B) (Enhanced Edition v1.1.0)</description>
+	<cloneof>outrun</cloneof>
+	<crc/>
+	<manufacturer>hack (Chris White)</manufacturer>
+	<year>2014</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

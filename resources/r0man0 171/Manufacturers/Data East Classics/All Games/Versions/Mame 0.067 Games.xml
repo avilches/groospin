@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Data East / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="captavena" index="" image="">
+	<description>Captain America and The Avengers (Asia Rev 1.0)</description>
+	<cloneof>captaven</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="captavenuu" index="" image="">
+	<description>Captain America and The Avengers (US Rev 1.6)</description>
+	<cloneof>captaven</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1991</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dragngun" index="" image="">
+	<description>Dragon Gun (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lockloadu" index="" image="">
+	<description>Locked &apos;n Loaded (US, Dragon Gun conversion)</description>
+	<cloneof>lockload</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1994</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tattass" index="" image="">
+	<description>Tattoo Assassins (US prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Pinball</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tattassa" index="" image="">
+	<description>Tattoo Assassins (Asia prototype)</description>
+	<cloneof>tattass</cloneof>
+	<crc/>
+	<manufacturer>Data East Pinball</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

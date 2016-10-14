@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Sports / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="bullsdrtg" index="" image="">
+	<description>Bulls Eye Darts (Galaxian conversion)</description>
+	<cloneof>bullsdrt</cloneof>
+	<crc/>
+	<manufacturer>Senko Industries</manufacturer>
+	<year>1985</year>
+	<genre>Pool and Darts</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cfishing" index="" image="">
+	<description>Fishing (DECO Cassette, Japan)</description>
+	<cloneof>cadanglr</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Fishing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cprogolfj" index="" image="">
+	<description>Tournament Pro Golf (DECO Cassette, Japan)</description>
+	<cloneof>cprogolf</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1981</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dleague" index="" image="">
+	<description>Dynamite League (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Baseball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mwskins" index="" image="">
+	<description>Skins Game (1.06)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>2000</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mwskinsa" index="" image="">
+	<description>Skins Game (1.06, alt)</description>
+	<cloneof>mwskins</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>2000</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mwskinso" index="" image="">
+	<description>Skins Game (1.04)</description>
+	<cloneof>mwskins</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>2000</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="naganoj" index="" image="">
+	<description>Hyper Olympic in Nagano (GX720 JAA)</description>
+	<cloneof>nagano98</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1998</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="olysoc92a" index="" image="">
+	<description>Olympic Soccer &apos;92 (set 2)</description>
+	<cloneof>cupsoc</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu</manufacturer>
+	<year>1992</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfchampu" index="" image="">
+	<description>Super Football Champ (Ver 2.4A)</description>
+	<cloneof>sfchamp</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1995</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tbowlp" index="" image="">
+	<description>Tecmo Bowl (World, prototype?)</description>
+	<cloneof>tbowl</cloneof>
+	<crc/>
+	<manufacturer>Tecmo</manufacturer>
+	<year>1987</year>
+	<genre>Football</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vball2pjb" index="" image="">
+	<description>U.S. Championship V&apos;ball (bootleg of Japan set)</description>
+	<cloneof>vball</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1988</year>
+	<genre>Volleyball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vs215o" index="" image="">
+	<description>Virtua Striker 2 (Step 1.5, older)</description>
+	<cloneof>vs2</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1997</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

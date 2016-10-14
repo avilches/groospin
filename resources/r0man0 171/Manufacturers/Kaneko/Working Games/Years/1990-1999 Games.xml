@@ -1,0 +1,579 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Kaneko / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="airbustr" index="" image="">
+	<description>Air Buster: Trouble Specialty Raid Unit (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko (Namco license)</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="airbustrj" index="" image="">
+	<description>Air Buster: Trouble Specialty Raid Unit (Japan)</description>
+	<cloneof>airbustr</cloneof>
+	<crc/>
+	<manufacturer>Kaneko (Namco license)</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bakubrkr" index="" image="">
+	<description>Bakuretsu Breaker</description>
+	<cloneof>explbrkr</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="berlwall" index="" image="">
+	<description>The Berlin Wall</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="berlwallk" index="" image="">
+	<description>The Berlin Wall (Korea)</description>
+	<cloneof>berlwall</cloneof>
+	<crc/>
+	<manufacturer>Kaneko (Inter license)</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="berlwallt" index="" image="">
+	<description>The Berlin Wall (bootleg?)</description>
+	<cloneof>berlwall</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1991</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bloodwar" index="" image="">
+	<description>Blood Warrior</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bonkadv" index="" image="">
+	<description>B.C. Kid / Bonk&apos;s Adventure / Kyukyoku!! PC Genjin</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1994</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="brapboys" index="" image="">
+	<description>B.Rap Boys (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="brapboysj" index="" image="">
+	<description>B.Rap Boys Special (Japan)</description>
+	<cloneof>brapboys</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="brapboysu" index="" image="">
+	<description>B.Rap Boys Special (US)</description>
+	<cloneof>brapboys</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cyvern" index="" image="">
+	<description>Cyvern (US)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1998</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cyvernj" index="" image="">
+	<description>Cyvern (Japan)</description>
+	<cloneof>cyvern</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1998</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="explbrkr" index="" image="">
+	<description>Explosive Breaker</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1992</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fjbuster" index="" image="">
+	<description>Fujiyama Buster (Japan)</description>
+	<cloneof>shogwarr</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galpani3" index="" image="">
+	<description>Gals Panic 3 (Euro)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1995</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galpani3hk" index="" image="">
+	<description>Gals Panic 3 (Hong Kong)</description>
+	<cloneof>galpani3</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1995</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galpani3j" index="" image="">
+	<description>Gals Panic 3 (Japan)</description>
+	<cloneof>galpani3</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1995</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galpani3k" index="" image="">
+	<description>Gals Panic 3 (Korea)</description>
+	<cloneof>galpani3</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1995</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galpani4" index="" image="">
+	<description>Gals Panic 4 (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1996</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galpani4k" index="" image="">
+	<description>Gals Panic 4 (Korea)</description>
+	<cloneof>galpani4</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1996</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galpanic" index="" image="">
+	<description>Gals Panic (Unprotected)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1990</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galpanica" index="" image="">
+	<description>Gals Panic (MCU Protected)</description>
+	<cloneof>galpanic</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1990</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galpanis" index="" image="">
+	<description>Gals Panic S - Extra Edition (Europe)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1997</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galpanisj" index="" image="">
+	<description>Gals Panic S - Extra Edition (Japan)</description>
+	<cloneof>galpanis</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1997</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galpanisk" index="" image="">
+	<description>Gals Panic S - Extra Edition (Korea)</description>
+	<cloneof>galpanis</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1997</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galpans2" index="" image="">
+	<description>Gals Panic S2 (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1999</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galpans2a" index="" image="">
+	<description>Gals Panic S2 (Asia)</description>
+	<cloneof>galpans2</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1999</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galpansu" index="" image="">
+	<description>Gals Panic SU (Korea)</description>
+	<cloneof>galpans2</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1999</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galsnew" index="" image="">
+	<description>Gals Panic (US, EXPRO-02 PCB)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1990</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galsnewa" index="" image="">
+	<description>Gals Panic (Export, EXPRO-02 PCB)</description>
+	<cloneof>galsnew</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1990</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galsnewj" index="" image="">
+	<description>Gals Panic (Japan, EXPRO-02 PCB)</description>
+	<cloneof>galsnew</cloneof>
+	<crc/>
+	<manufacturer>Kaneko (Taito license)</manufacturer>
+	<year>1990</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="galsnewk" index="" image="">
+	<description>Gals Panic (Korea, EXPRO-02 PCB)</description>
+	<cloneof>galsnew</cloneof>
+	<crc/>
+	<manufacturer>Kaneko (Inter license)</manufacturer>
+	<year>1990</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtmr" index="" image="">
+	<description>1000 Miglia: Great 1000 Miles Rally (94/07/18)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtmr2" index="" image="">
+	<description>Mille Miglia 2: Great 1000 Miles Rally (95/05/24)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1995</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtmr2a" index="" image="">
+	<description>Mille Miglia 2: Great 1000 Miles Rally (95/04/04)</description>
+	<cloneof>gtmr2</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1995</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtmr2u" index="" image="">
+	<description>Great 1000 Miles Rally 2 USA (95/05/18)</description>
+	<cloneof>gtmr2</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1995</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtmra" index="" image="">
+	<description>1000 Miglia: Great 1000 Miles Rally (94/06/13)</description>
+	<cloneof>gtmr</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtmrb" index="" image="">
+	<description>1000 Miglia: Great 1000 Miles Rally (94/05/26)</description>
+	<cloneof>gtmr</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtmre" index="" image="">
+	<description>Great 1000 Miles Rally: Evolution Model!!! (94/09/06)</description>
+	<cloneof>gtmr</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtmro" index="" image="">
+	<description>1000 Miglia: Great 1000 Miles Rally (94/05/10)</description>
+	<cloneof>gtmr</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtmrusa" index="" image="">
+	<description>Great 1000 Miles Rally: U.S.A Version! (94/09/06)</description>
+	<cloneof>gtmr</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1994</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jchan" index="" image="">
+	<description>Jackie Chan - The Kung-Fu Master</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jchan2" index="" image="">
+	<description>Jackie Chan in Fists of Fire</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mgcrystl" index="" image="">
+	<description>Magical Crystals (World, 92/01/10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mgcrystlj" index="" image="">
+	<description>Magical Crystals (Japan, 92/01/13)</description>
+	<cloneof>mgcrystl</cloneof>
+	<crc/>
+	<manufacturer>Kaneko (Atlus license)</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mgcrystlo" index="" image="">
+	<description>Magical Crystals (World, 91/12/10)</description>
+	<cloneof>mgcrystl</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1991</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="oedfight" index="" image="">
+	<description>Oedo Fight (Japan Bloodshed Ver.)</description>
+	<cloneof>bloodwar</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="packbang" index="" image="">
+	<description>Pack&apos;n Bang Bang (prototype)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1994</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="panicstr" index="" image="">
+	<description>Panic Street (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1999</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sarukani" index="" image="">
+	<description>Saru-Kani-Hamu-Zou (Japan)</description>
+	<cloneof>vblokbrk</cloneof>
+	<crc/>
+	<manufacturer>Kaneko / Mediaworks</manufacturer>
+	<year>1997</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sengekis" index="" image="">
+	<description>Sengeki Striker (Asia)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko / Warashi</manufacturer>
+	<year>1997</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sengekisj" index="" image="">
+	<description>Sengeki Striker (Japan)</description>
+	<cloneof>sengekis</cloneof>
+	<crc/>
+	<manufacturer>Kaneko / Warashi</manufacturer>
+	<year>1997</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="senknow" index="" image="">
+	<description>Sen-Know (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko / Kouyousha</manufacturer>
+	<year>1999</year>
+	<genre>Puzzle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shogwarr" index="" image="">
+	<description>Shogun Warriors (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shogwarru" index="" image="">
+	<description>Shogun Warriors (US)</description>
+	<cloneof>shogwarr</cloneof>
+	<crc/>
+	<manufacturer>Kaneko</manufacturer>
+	<year>1992</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vblokbrk" index="" image="">
+	<description>VS Block Breaker (Asia)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kaneko / Mediaworks</manufacturer>
+	<year>1997</year>
+	<genre>Breakout</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

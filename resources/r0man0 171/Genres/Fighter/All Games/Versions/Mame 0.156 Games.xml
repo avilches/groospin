@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Fighter / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="cutefght" index="" image="">
+	<description>Cute Fighter</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SemiCom</manufacturer>
+	<year>1998</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kov2nloa" index="" image="">
+	<description>Knights of Valour 2 New Legend (V300, Taiwan)</description>
+	<cloneof>kov2nl</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2008</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="orleg2oa" index="" image="">
+	<description>Oriental Legend 2 (V101, China)</description>
+	<cloneof>orleg2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2007</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="svgtw" index="" image="">
+	<description>S.V.G. - Spectral vs Generation (M68k label V101TW) (ARM label V101TW, ROM 06/20/05 S.V.G V100)</description>
+	<cloneof>svg</cloneof>
+	<crc/>
+	<manufacturer>IGS / Idea Factory</manufacturer>
+	<year>2005</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tmhtb" index="" image="">
+	<description>Teenage Mutant Hero Turtles (UK 4 Players, set 3)</description>
+	<cloneof>tmnt</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1989</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

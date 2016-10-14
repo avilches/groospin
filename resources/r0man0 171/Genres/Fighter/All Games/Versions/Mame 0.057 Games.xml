@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Fighter / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="btoads" index="" image="">
+	<description>Battletoads</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Rare / Electronic Arts</manufacturer>
+	<year>1994</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kof2000" index="" image="">
+	<description>The King of Fighters 2000 (NGM-2570) (NGH-2570)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kof2000n" index="" image="">
+	<description>The King of Fighters 2000 (not encrypted)</description>
+	<cloneof>kof2000</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>2000</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="msha" index="" image="">
+	<description>Marvel Super Heroes (Asia 951024)</description>
+	<cloneof>msh</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="onna34ro" index="" image="">
+	<description>Onna Sansirou - Typhoon Gal (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1985</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="onna34roa" index="" image="">
+	<description>Onna Sansirou - Typhoon Gal (set 2)</description>
+	<cloneof>onna34ro</cloneof>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1985</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="reikaids" index="" image="">
+	<description>Reikai Doushi (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Home Data</manufacturer>
+	<year>1988</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rockman2j" index="" image="">
+	<description>Rockman 2: The Power Fighters (Japan 960708)</description>
+	<cloneof>megaman2</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sailormno" index="" image="">
+	<description>Pretty Soldier Sailor Moon (Ver. 95/03/22, Europe)</description>
+	<cloneof>sailormn</cloneof>
+	<crc/>
+	<manufacturer>Gazelle (Banpresto license)</manufacturer>
+	<year>1995</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sfz2a" index="" image="">
+	<description>Street Fighter Zero 2 (Asia 960227)</description>
+	<cloneof>sfa2</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1996</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="survartsu" index="" image="">
+	<description>Survival Arts (USA)</description>
+	<cloneof>survarts</cloneof>
+	<crc/>
+	<manufacturer>American Sammy</manufacturer>
+	<year>1993</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vsav" index="" image="">
+	<description>Vampire Savior: The Lord of Vampire (Euro 970519)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1997</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

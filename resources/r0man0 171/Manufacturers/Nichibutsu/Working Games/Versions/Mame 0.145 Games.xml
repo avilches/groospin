@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Nichibutsu / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="mooncrstuku" index="" image="">
+	<description>Moon Cresta (Nichibutsu UK, unencrypted)</description>
+	<cloneof>mooncrst</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu UK</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="yosimotm" index="" image="">
+	<description>Mahjong Yoshimoto Gekijou [BET] (Japan)</description>
+	<cloneof>yosimoto</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu / Yoshimoto Kougyou</manufacturer>
+	<year>1994</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="zokumahj" index="" image="">
+	<description>Zoku Mahjong Housoukyoku (Japan)</description>
+	<cloneof>mhhonban</cloneof>
+	<crc/>
+	<manufacturer>Nichibutsu?</manufacturer>
+	<year>199?</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,749 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1990-1999 / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="actionhw" index="" image="">
+	<description>Action Hollywood</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>TCH</manufacturer>
+	<year>1995</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="atompunk" index="" image="">
+	<description>Atomic Punk (US)</description>
+	<cloneof>dynablst</cloneof>
+	<crc/>
+	<manufacturer>Irem America (licensed from Hudson Soft)</manufacturer>
+	<year>1991</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bbmanw" index="" image="">
+	<description>Bomber Man World / New Dyna Blaster - Global Quest</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1992</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bbmanwj" index="" image="">
+	<description>Bomber Man World (Japan)</description>
+	<cloneof>bbmanw</cloneof>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1992</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bbmanwja" index="" image="">
+	<description>Bomber Man World (Japan, revised sound hardware)</description>
+	<cloneof>bbmanw</cloneof>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1992</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bomblord" index="" image="">
+	<description>Bomber Lord (bootleg)</description>
+	<cloneof>bbmanw</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1992</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bombrman" index="" image="">
+	<description>Bomber Man (Japan)</description>
+	<cloneof>dynablst</cloneof>
+	<crc/>
+	<manufacturer>Irem (licensed from Hudson Soft)</manufacturer>
+	<year>1991</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="borench" index="" image="">
+	<description>Borench (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="borencha" index="" image="">
+	<description>Borench (set 2)</description>
+	<cloneof>borench</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bouldash" index="" image="">
+	<description>Boulder Dash / Boulder Dash Part 2 (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation (licensed from First Star)</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bouldashj" index="" image="">
+	<description>Boulder Dash / Boulder Dash Part 2 (Japan)</description>
+	<cloneof>bouldash</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation (licensed from First Star)</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="burglarx" index="" image="">
+	<description>Burglar X</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Unico</manufacturer>
+	<year>1997</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cfarm" index="" image="">
+	<description>Chicken Farm (Version 2.0)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>LAI Games</manufacturer>
+	<year>1999</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cheesech" index="" image="">
+	<description>Cheese Chase</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Art &amp; Magic</manufacturer>
+	<year>1994</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="darkseal" index="" image="">
+	<description>Dark Seal (World revision 3)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="darkseal1" index="" image="">
+	<description>Dark Seal (World revision 1)</description>
+	<cloneof>darkseal</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="darksealj" index="" image="">
+	<description>Dark Seal (Japan revision 4)</description>
+	<cloneof>darkseal</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddungeon" index="" image="">
+	<description>Dangerous Dungeons (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>The Game Room</manufacturer>
+	<year>1992</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ddungeone" index="" image="">
+	<description>Dangerous Dungeons (set 2)</description>
+	<cloneof>ddungeon</cloneof>
+	<crc/>
+	<manufacturer>East Coast Coin Company</manufacturer>
+	<year>1992</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dotrikun" index="" image="">
+	<description>Dottori Kun (new version)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dotrikun2" index="" image="">
+	<description>Dottori Kun (old version)</description>
+	<cloneof>dotrikun</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dungeonm" index="" image="">
+	<description>Dungeon Magic (Ver 2.1O 1994/02/18)</description>
+	<cloneof>lightbr</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1993</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dungeonmu" index="" image="">
+	<description>Dungeon Magic (Ver 2.1A 1994/02/18)</description>
+	<cloneof>lightbr</cloneof>
+	<crc/>
+	<manufacturer>Taito America Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dynablst" index="" image="">
+	<description>Dynablaster / Bomber Man</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem (licensed from Hudson Soft)</manufacturer>
+	<year>1991</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dynablstb" index="" image="">
+	<description>Dynablaster / Bomber Man (bootleg)</description>
+	<cloneof>dynablst</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Seitu)</manufacturer>
+	<year>1991</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dynablstb2" index="" image="">
+	<description>Dynablaster / Bomber Man (bootleg, alt)</description>
+	<cloneof>dynablst</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Seitu)</manufacturer>
+	<year>1991</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="exvania" index="" image="">
+	<description>Exvania (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="exvaniaj" index="" image="">
+	<description>Exvania (Japan)</description>
+	<cloneof>exvania</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1992</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gatedoom" index="" image="">
+	<description>Gate of Doom (US revision 4)</description>
+	<cloneof>darkseal</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gatedoom1" index="" image="">
+	<description>Gate of Doom (US revision 1)</description>
+	<cloneof>darkseal</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gogomile" index="" image="">
+	<description>Susume! Mile Smile / Go Go! Mile Smile (newer)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Fuuki</manufacturer>
+	<year>1995</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gogomileo" index="" image="">
+	<description>Susume! Mile Smile / Go Go! Mile Smile (older)</description>
+	<cloneof>gogomile</cloneof>
+	<crc/>
+	<manufacturer>Fuuki</manufacturer>
+	<year>1995</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hyperpac" index="" image="">
+	<description>Hyper Pacman</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SemiCom</manufacturer>
+	<year>1995</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hyperpacb" index="" image="">
+	<description>Hyper Pacman (bootleg)</description>
+	<cloneof>hyperpac</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1995</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="irrmaze" index="" image="">
+	<description>The Irritating Maze / Ultra Denryu Iraira Bou</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK / Saurus</manufacturer>
+	<year>1997</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ladyfrog" index="" image="">
+	<description>Lady Frog</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Mondial Games</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lightbr" index="" image="">
+	<description>Light Bringer (Ver 2.2O 1994/04/08)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1993</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lightbrj" index="" image="">
+	<description>Light Bringer (Ver 2.1J 1994/02/18)</description>
+	<cloneof>lightbr</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1993</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mschamp" index="" image="">
+	<description>Ms. Pacman Champion Edition / Zola-Puc Gal</description>
+	<cloneof>mspacman</cloneof>
+	<crc/>
+	<manufacturer>hack</manufacturer>
+	<year>1992</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mschamps" index="" image="">
+	<description>Ms. Pacman Champion Edition / Super Zola-Puc Gal</description>
+	<cloneof>mspacman</cloneof>
+	<crc/>
+	<manufacturer>hack</manufacturer>
+	<year>1995</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mspacmanbcc" index="" image="">
+	<description>Come-Cocos (Ms. Pac-Man) (&apos;Made in Greece&apos; Tecnausa bootleg)</description>
+	<cloneof>mspacman</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Tecnausa)</manufacturer>
+	<year>1991</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mspacmanbgd" index="" image="">
+	<description>Miss Pukman (&apos;Made in Greece&apos; Datamat bootleg)</description>
+	<cloneof>mspacman</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Datamat)</manufacturer>
+	<year>1992</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mspacmanblt" index="" image="">
+	<description>Come-Cocos (Ms. Pac-Man) (&apos;Made in Greece&apos; Triunvi bootleg)</description>
+	<cloneof>mspacman</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Triunvi)</manufacturer>
+	<year>1992</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mwalk" index="" image="">
+	<description>Michael Jackson&apos;s Moonwalker (World) (FD1094/8751 317-0159)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mwalkbl" index="" image="">
+	<description>Michael Jackson&apos;s Moonwalker (bootleg)</description>
+	<cloneof>mwalk</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mwalkd" index="" image="">
+	<description>Michael Jackson&apos;s Moonwalker (World) (bootleg of FD1094/8751 317-0159)</description>
+	<cloneof>mwalk</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mwalkj" index="" image="">
+	<description>Michael Jackson&apos;s Moonwalker (Japan) (FD1094/8751 317-0157)</description>
+	<cloneof>mwalk</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mwalkjd" index="" image="">
+	<description>Michael Jackson&apos;s Moonwalker (Japan) (bootleg of FD1094/8751 317-0157 set)</description>
+	<cloneof>mwalk</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mwalku" index="" image="">
+	<description>Michael Jackson&apos;s Moonwalker (US) (FD1094/8751 317-0158)</description>
+	<cloneof>mwalk</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mwalkud" index="" image="">
+	<description>Michael Jackson&apos;s Moonwalker (US) (bootleg of FD1094/8751 317-0158)</description>
+	<cloneof>mwalk</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="neobombe" index="" image="">
+	<description>Neo Bomberman</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Hudson</manufacturer>
+	<year>1997</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="neomrdo" index="" image="">
+	<description>Neo Mr. Do!</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Visco</manufacturer>
+	<year>1996</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="newapunk" index="" image="">
+	<description>New Atomic Punk - Global Quest (US)</description>
+	<cloneof>bbmanw</cloneof>
+	<crc/>
+	<manufacturer>Irem America</manufacturer>
+	<year>1992</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pac90" index="" image="">
+	<description>Pac-Man (bootleg on World Cup &apos;90 hardware)</description>
+	<cloneof>puckman</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Macro)</manufacturer>
+	<year>199?</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pass" index="" image="">
+	<description>Pass</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Oksan</manufacturer>
+	<year>1992</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="penky" index="" image="">
+	<description>Penky</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Yun Sung</manufacturer>
+	<year>1996</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="poizone" index="" image="">
+	<description>Poizone</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Eterna</manufacturer>
+	<year>1991</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ppcar" index="" image="">
+	<description>Pang Pang Car</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Icarus</manufacturer>
+	<year>1999</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ribbit" index="" image="">
+	<description>Ribbit!</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="selfeena" index="" image="">
+	<description>Sel Feena</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>East Technology</manufacturer>
+	<year>1991</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shocking" index="" image="">
+	<description>Shocking</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Yun Sung</manufacturer>
+	<year>1997</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shockingk" index="" image="">
+	<description>Shocking (Korea, set 1)</description>
+	<cloneof>shocking</cloneof>
+	<crc/>
+	<manufacturer>Yun Sung</manufacturer>
+	<year>1997</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shockingko" index="" image="">
+	<description>Shocking (Korea, set 2)</description>
+	<cloneof>shocking</cloneof>
+	<crc/>
+	<manufacturer>Yun Sung</manufacturer>
+	<year>1997</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="snapper" index="" image="">
+	<description>Snapper (Korea)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Philko</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="supduck" index="" image="">
+	<description>Super Duck</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Comad</manufacturer>
+	<year>1992</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tinklpit" index="" image="">
+	<description>Tinkle Pit (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1993</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="toffy" index="" image="">
+	<description>Toffy</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midas</manufacturer>
+	<year>1993</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trog" index="" image="">
+	<description>Trog (rev LA5 03/29/91)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trog3" index="" image="">
+	<description>Trog (rev LA3 02/14/91)</description>
+	<cloneof>trog</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trog4" index="" image="">
+	<description>Trog (rev LA4 03/11/91)</description>
+	<cloneof>trog</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trogpa4" index="" image="">
+	<description>Trog (prototype, rev 4.00 07/27/90)</description>
+	<cloneof>trog</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trogpa6" index="" image="">
+	<description>Trog (prototype, rev PA6-PAC 09/09/90)</description>
+	<cloneof>trog</cloneof>
+	<crc/>
+	<manufacturer>Midway</manufacturer>
+	<year>1990</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="twinkle" index="" image="">
+	<description>Twinkle</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SemiCom / Tirano</manufacturer>
+	<year>1997</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ucytokyu" index="" image="">
+	<description>Uchuu Tokkyuu Medalian</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sigma</manufacturer>
+	<year>1997</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

@@ -1,0 +1,1469 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2000-2009 / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="3wishrd" index="" image="">
+	<description>Three Wishes Red (Russia) (Atronic)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atronic</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="50lions" index="" image="">
+	<description>50 Lions (10120511, NSW/ACT)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="50lionsa" index="" image="">
+	<description>50 Lions (10156111, Malaysia)</description>
+	<cloneof>50lions</cloneof>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aadvent" index="" image="">
+	<description>African Adventure (Konami Endeavour)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="abigchs" index="" image="">
+	<description>Big Cheese (Russia) (Atronic)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atronic</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aclown" index="" image="">
+	<description>Clown (Russia) (Atronic)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atronic</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad4ctl" index="" image="">
+	<description>Cop The Lot Club (Video) (Bellfruit) (Adder 4) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad4ctla" index="" image="">
+	<description>Cop The Lot Club (Video) (Bellfruit) (Adder 4) (set 2)</description>
+	<cloneof>ad4ctl</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad4film" index="" image="">
+	<description>Film Premiere (Video?) (Bellfruit) (Adder 4) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad4filma" index="" image="">
+	<description>Film Premiere (Video?) (Bellfruit) (Adder 4) (set 2)</description>
+	<cloneof>ad4film</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad4skill" index="" image="">
+	<description>Skill Dice (BFM) (Scorpion 4 + Adder 4)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5bpfpma" index="" image="">
+	<description>Bullseye Pounds For Points (Mazooma) (Adder 5) (set 2)</description>
+	<cloneof>ad5bpfpm</cloneof>
+	<crc/>
+	<manufacturer>Mazooma</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5btc" index="" image="">
+	<description>Bullseye Triple Club (PR1758, BFGPBULS) (Bellfruit) (Adder 5) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5cmons" index="" image="">
+	<description>Crazy Money (Bellfruit) (Adder 5) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5copsr" index="" image="">
+	<description>Cops &apos;n&apos; Robbers (PR3206) (Bellfruit) (Adder 5) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5crcpt" index="" image="">
+	<description>Cops &apos;n&apos; Robbers Community Party (Bellfruit) (Adder 5) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5crsc" index="" image="">
+	<description>Cops &apos;n&apos; Robbers (PR2476) (Mazooma) (Adder 5) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Mazooma</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dnd" index="" image="">
+	<description>Deal Or No Deal (Bellfruit) (Adder 5) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dndcl" index="" image="">
+	<description>Deal Or No Deal Club (Bellfruit) (Adder 5) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dnddd" index="" image="">
+	<description>Deal Or No Deal Double Deal Or No Deal (Bellfruit) (Adder 5) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dndpg" index="" image="">
+	<description>Deal Or No Deal The Perfect Game (Bellfruit) (Adder 5) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5dndpl" index="" image="">
+	<description>Deal Or No Deal Platinum (Bellfruit) (Adder 5) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5eyes" index="" image="">
+	<description>Eyes Down (PR2242, MAZNEYDW) (Mazooma) (Adder 5) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Mazooma</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5eyesg" index="" image="">
+	<description>Eyes Down (PR2246, MAZNEYDW) (Mazooma) (Adder 5) (set 2)</description>
+	<cloneof>ad5eyes</cloneof>
+	<crc/>
+	<manufacturer>Mazooma</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5gldmn" index="" image="">
+	<description>Gold Mine (Bellfruit) (Adder 5) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5gldwn" index="" image="">
+	<description>Golden Winner (Mazooma) (Adder 5) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Mazooma</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5hir" index="" image="">
+	<description>Hi Roller (Bellfruit) (Adder 5) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5hircl" index="" image="">
+	<description>Hi Roller Club (Bellfruit) (Adder 5) (set 1)</description>
+	<cloneof>ad5hir</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5jckmo" index="" image="">
+	<description>Jackpot Monopoly (PR2226, MAZNJACM) (Mazooma) (Adder 5) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Mazooma</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5mcob" index="" image="">
+	<description>Monte Carlo Or Bust (Qps) (Adder 5) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Qps</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5monop" index="" image="">
+	<description>Random Monopoly (PR2217, MAZNRNDN) (Mazooma) (Adder 5) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Mazooma</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5mowowj" index="" image="">
+	<description>Monopoly Wheel Of Wealth (PR3075) (Adder 5) (set 1)</description>
+	<cloneof>ad5mowow</cloneof>
+	<crc/>
+	<manufacturer>Mazooma</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5mr2r" index="" image="">
+	<description>Monopoly Road To Riches (Mazooma) (Adder 5) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Mazooma</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5mww" index="" image="">
+	<description>Random Monopoly Wonders Of The World (PR2284) (Mazooma) (Adder 5)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Mazooma</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5pking" index="" image="">
+	<description>Poker King (Bellfruit) (Adder 5) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5pp" index="" image="">
+	<description>Pink Panther (PR2283, QPSNPINK) (Mazooma) (Adder 5) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Mazooma</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5ppbtb" index="" image="">
+	<description>Pink Panther Break The Bank (PR2304, QPSNPPBB) (Qps) (Adder 5) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Qps</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5rapid" index="" image="">
+	<description>Rapid Pay (Bellfruit) (Adder 5) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5rcash" index="" image="">
+	<description>Reel Cash (Mazooma) (Adder 5) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Mazooma</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5rroul" index="" image="">
+	<description>Reel Roulette (QPSNRLRO) (Mazooma) (Adder 5)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Mazooma</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5rsclb" index="" image="">
+	<description>Random Spinner Club (PR1669, BFGNRNDN) (Bellfruit) (Adder 5) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5rsnw" index="" image="">
+	<description>Random Spin &apos;n&apos; Win (PR2226, MAZNRNDN) (Mazooma) (Adder 5) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Mazooma</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5rspin" index="" image="">
+	<description>Random Spinner (PR1669, BFGNRNDN) (Bellfruit) (Adder 5) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5rsrm" index="" image="">
+	<description>Ronnie O&apos;Sullivan&apos;s Rocket Money (Bellfruit) (Adder 5) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5rsrr" index="" image="">
+	<description>Ronnie O&apos;Sullivan&apos;s Rocket Money (Bellfruit) (Adder 5) (set 3)</description>
+	<cloneof>ad5rsrm</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5rwclb" index="" image="">
+	<description>Random Winner Club (PR1756, BFGNRWSX) (Bellfruit) (Adder 5) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5sslamd" index="" image="">
+	<description>Super Slam (Bellfruit) (Adder 5) (set 5)</description>
+	<cloneof>ad5sslam</cloneof>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5tornc" index="" image="">
+	<description>Tornado Club (PR1629, 5.5, rv 8, BFGNTORD) (Bellfruit) (Adder 5)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5vlv" index="" image="">
+	<description>Viva Las Vegas (Bellfruit) (Adder 5) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ad5vpa" index="" image="">
+	<description>Video Poker Ace (Bellfruit) (Adder 5) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BFM</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="adults" index="" image="">
+	<description>Adults Only (Russia) (Extrema)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Extrema</manufacturer>
+	<year>200?</year>
+	<genre>Mature</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="alienfnta" index="" image="">
+	<description>Alien Front (Rev A)</description>
+	<cloneof>alienfnt</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2001</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="anmlbskt" index="" image="">
+	<description>Animal Basket</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>MOSS / Sammy</manufacturer>
+	<year>2005</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="antcleo" index="" image="">
+	<description>Antony and Cleopatra (10177211, Malaysia)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aristmk6" index="" image="">
+	<description>Aristocrat MK6 System Software</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>2000</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="asndynmt" index="" image="">
+	<description>Asian Dynamite</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2007</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="atlantca" index="" image="">
+	<description>Atlantica (Russia) (Atronic) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atronic</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="atlantcaa" index="" image="">
+	<description>Atlantica (Russia) (Atronic) (set 2)</description>
+	<cloneof>atlantca</cloneof>
+	<crc/>
+	<manufacturer>Atronic</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ausfache" index="" image="">
+	<description>Akatsuki Blitzkampf Ausf. Achse</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Subtle Style</manufacturer>
+	<year>2008</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="baboshka" index="" image="">
+	<description>Baboshka (Russia) (Atronic)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atronic</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="beachpt" index="" image="">
+	<description>Beach Patrol (Russia) (Atronic)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atronic</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bearnec" index="" image="">
+	<description>Bear Necessities (Russia) (Atronic)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atronic</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="beetleup" index="" image="">
+	<description>Beetles Unplugged (Russia) (Atronic)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atronic</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bigblue" index="" image="">
+	<description>Big Blue (Russia) (Atronic)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atronic</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blackbd" index="" image="">
+	<description>Black Beard (Russia, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Astro</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blackbda" index="" image="">
+	<description>Black Beard (Russia, set 2)</description>
+	<cloneof>blackbd</cloneof>
+	<crc/>
+	<manufacturer>Astro</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blackbdb" index="" image="">
+	<description>Black Beard (Russia, set 3)</description>
+	<cloneof>blackbd</cloneof>
+	<crc/>
+	<manufacturer>Astro</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bloto" index="" image="">
+	<description>Blits Loto (Russia) (Extrema)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Extrema</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="blpearl" index="" image="">
+	<description>Black Pearl (Russia) (Extrema)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Extrema</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cashtrn" index="" image="">
+	<description>Cash Train (v1.10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kupidon</manufacturer>
+	<year>2005</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="castaway" index="" image="">
+	<description>Castaway (Russia) (Atronic) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atronic</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="castawaya" index="" image="">
+	<description>Castaway (Russia) (Atronic) (set 2)</description>
+	<cloneof>castaway</cloneof>
+	<crc/>
+	<manufacturer>Atronic</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cfblue" index="" image="">
+	<description>Crazy Fruits Blue (Russia) (Atronic) (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atronic</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cfbluea" index="" image="">
+	<description>Crazy Fruits Blue (Russia) (Atronic) (set 2)</description>
+	<cloneof>cfblue</cloneof>
+	<crc/>
+	<manufacturer>Atronic</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cfgreen" index="" image="">
+	<description>Crazy Fruits Green (Russia) (Atronic)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atronic</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chicken" index="" image="">
+	<description>Chicken (Russia) (Atronic)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atronic</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="choysun" index="" image="">
+	<description>Choy Sun Doa (20131511, Malaysia)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="crystals" index="" image="">
+	<description>Crystal Springs (10155811, Malaysia)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="deluxe5" index="" image="">
+	<description>Deluxe 5 (ver. 0107, 07/01/2000, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>ESD</manufacturer>
+	<year>2000</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dncsprt" index="" image="">
+	<description>Dancing Spirit (Russia) (Atronic)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atronic</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dragnfly" index="" image="">
+	<description>Dragonfly (Konami Endeavour)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="drmmake" index="" image="">
+	<description>Dream Maker (Russia) (Atronic)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atronic</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dslayrr" index="" image="">
+	<description>Dragon Slayer (Russia, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Astro</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dslayrra" index="" image="">
+	<description>Dragon Slayer (Russia, set 2)</description>
+	<cloneof>dslayrr</cloneof>
+	<crc/>
+	<manufacturer>Astro</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="enchlamp" index="" image="">
+	<description>Enchanted Lamp (Konami Endeavour)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="exsafar" index="" image="">
+	<description>Safari (Russia) (Extrema)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Extrema</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="extrmth" index="" image="">
+	<description>Treasure Hunt (Russia) (Extrema)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Extrema</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="extrmti" index="" image="">
+	<description>Treasure Island (Russia) (Extrema)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Extrema</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fairyl2" index="" image="">
+	<description>Fairy Land 2 (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Belatra</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fairyl2a" index="" image="">
+	<description>Fairy Land 2 (set 2)</description>
+	<cloneof>fairyl2</cloneof>
+	<crc/>
+	<manufacturer>Belatra</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fairyl2b" index="" image="">
+	<description>Fairy Land 2 (set 3)</description>
+	<cloneof>fairyl2</cloneof>
+	<crc/>
+	<manufacturer>Belatra</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fairyl2bl" index="" image="">
+	<description>Fairy Land 2 (bootleg)</description>
+	<cloneof>fairyl2</cloneof>
+	<crc/>
+	<manufacturer>Belatra</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt2" index="" image="">
+	<description>Fruit Cocktail 2 (080707 Russia)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Igrosoft</manufacturer>
+	<year>2008</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fcockt2a" index="" image="">
+	<description>Fruit Cocktail 2 (bootleg, 080707, banking address hack)</description>
+	<cloneof>fcockt2</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2008</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="funcube3" index="" image="">
+	<description>Funcube 3 (v1.1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2001</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="funnyfm" index="" image="">
+	<description>Funny Farm (v1.17)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kupidon</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="funnyfma" index="" image="">
+	<description>Funny Farm (v1.26)</description>
+	<cloneof>funnyfm</cloneof>
+	<crc/>
+	<manufacturer>Kupidon</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="funnyfmb" index="" image="">
+	<description>Funny Farm (v1.30)</description>
+	<cloneof>funnyfm</cloneof>
+	<crc/>
+	<manufacturer>Kupidon</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gangrose" index="" image="">
+	<description>Gangster&apos;s Roses (v4.70)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kupidon</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="goldcity" index="" image="">
+	<description>Gold City (Russia) (Atronic)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atronic</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="goldglen" index="" image="">
+	<description>Golden Glenn (Russia) (Atronic)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atronic</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="grancan" index="" image="">
+	<description>Grand Canyon (Russia) (Extrema)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Extrema</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gypmagic" index="" image="">
+	<description>Gypsy Magic (Konami Endeavour)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hawaii" index="" image="">
+	<description>Hawaii (Russia)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Astro</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="iccash" index="" image="">
+	<description>I C Cash (Russia) (Atronic)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atronic</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="igromula" index="" image="">
+	<description>Igrosoft Multigame Bootleg (15 Games)</description>
+	<cloneof>igromult</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="igromult" index="" image="">
+	<description>Igrosoft Multigame Bootleg (10 Games)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="illvelo" index="" image="">
+	<description>Illvelo (Illmatic Envelope)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Milestone</manufacturer>
+	<year>2008</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="incanp" index="" image="">
+	<description>Incan Pyramids (Konami Endeavour)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="indianmm" index="" image="">
+	<description>Indian Dreaming - Maximillion$ (10130711, NSW/ACT)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jestmagi" index="" image="">
+	<description>Jester Magic (Konami Endeavour)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jumpjkpt" index="" image="">
+	<description>Jumping Jackpots (Russia) (Atronic)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atronic</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="konzero" index="" image="">
+	<description>Zero (Konami Endeavour)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ldrink" index="" image="">
+	<description>Lucky Drink (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Belatra</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ldrinka" index="" image="">
+	<description>Lucky Drink (set 2)</description>
+	<cloneof>ldrink</cloneof>
+	<crc/>
+	<manufacturer>Belatra</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="luckfoun" index="" image="">
+	<description>Lucky Fountain (Konami Endeavour)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="luckshel" index="" image="">
+	<description>Lucky Shell (Russia) (Extrema)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Extrema</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="maski" index="" image="">
+	<description>Maski Show (Russia) (Extrema)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Extrema</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="merryjn" index="" image="">
+	<description>Merry Joiner</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Belatra</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mohicans" index="" image="">
+	<description>Mohican Sun (Konami Endeavour)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="momotaro" index="" image="">
+	<description>Mahjong Momotarou (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Techno-Top</manufacturer>
+	<year>2004</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="monshow" index="" image="">
+	<description>The Monster Show (Konami Endeavour)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mushmagi" index="" image="">
+	<description>Mushroom Magic (Russia) (Atronic)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atronic</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="namcostr" index="" image="">
+	<description>Namco Stars</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>2000</year>
+	<genre>Mini-Games</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="oligam" index="" image="">
+	<description>Olympian Games (Russia)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Astro</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pokasuka" index="" image="">
+	<description>Pokasuka Ghost!</description>
+	<cloneof>manicpnc</cloneof>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>2007</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rasce" index="" image="">
+	<description>Ra Sceptor (Russia)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Astro</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="romanl" index="" image="">
+	<description>Roman Legions (Konami Endeavour)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="safemon" index="" image="">
+	<description>Safe Money (Konami Endeavour)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="santam" index="" image="">
+	<description>Santa Maria (Russia) (Atronic)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atronic</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="showqn" index="" image="">
+	<description>Show Queen (Konami Endeavour)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="shpinxii" index="" image="">
+	<description>Sphinx II (Russia) (Atronic)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atronic</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sl2007" index="" image="">
+	<description>Shooting Love 2007</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Triangle Service</manufacturer>
+	<year>2007</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="speeddrv" index="" image="">
+	<description>Speed Driver</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>2004</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spiceup" index="" image="">
+	<description>Spice It Up (Konami Endeavour)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="splmastr" index="" image="">
+	<description>Spell Master (Russia) (Atronic)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atronic</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="strlink" index="" image="">
+	<description>Strong Link (Russia) (Extrema)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Extrema</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sultanw" index="" image="">
+	<description>Sultan&apos;s Wish (Konami Endeavour)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tajmah" index="" image="">
+	<description>Tajmahal (Russia) (Atronic)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atronic</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="thaiprin" index="" image="">
+	<description>Thai Princess (30127721, Malaysia)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tsarevna" index="" image="">
+	<description>Tsarevna (v1.29)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Kupidon</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tsarevnaa" index="" image="">
+	<description>Tsarevna (v1.31)</description>
+	<cloneof>tsarevna</cloneof>
+	<crc/>
+	<manufacturer>Kupidon</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="whalecsh" index="" image="">
+	<description>Whales of Cash (20155711, Malaysia)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>2002</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wheregld" index="" image="">
+	<description>Where&apos;s the Gold (20177111, Malaysia)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>2004</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="whiterus" index="" image="">
+	<description>White Russia (Konami Endeavour)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>200?</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wildways" index="" image="">
+	<description>Wild Ways (10130111, Malaysia)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Aristocrat</manufacturer>
+	<year>2003</year>
+	<genre>Casino</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

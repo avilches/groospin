@@ -1,0 +1,719 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Mahjong / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="cafetime" index="" image="">
+	<description>Mahjong Cafe Time</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dynax</manufacturer>
+	<year>1992</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cdsteljn" index="" image="">
+	<description>DS Telejan (DECO Cassette, Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1981</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="chinsan" index="" image="">
+	<description>Ganbare Chinsan Ooshoubu (MC-8123A, 317-5012)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sanritsu</manufacturer>
+	<year>1987</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="daimyojn" index="" image="">
+	<description>Mahjong Daimyojin (Japan, T017-PB-00)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dynax / Techno-Top / Techno-Planning</manufacturer>
+	<year>2002</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="daireika" index="" image="">
+	<description>Mahjong Daireikai (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Jaleco / NMK</manufacturer>
+	<year>1989</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dbc" index="" image="">
+	<description>Da Ban Cheng (Hong Kong, V027H)</description>
+	<cloneof>lhb</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1995</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dtoyoken" index="" image="">
+	<description>Mahjong Dai Touyouken (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dynax / Sigma</manufacturer>
+	<year>1996</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dunhuang" index="" image="">
+	<description>Mahjong Dunhuang</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Spirit</manufacturer>
+	<year>1995</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gekisha" index="" image="">
+	<description>Mahjong Gekisha</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dynax</manufacturer>
+	<year>1989</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="goodejan" index="" image="">
+	<description>Good E Jong -Kachinuki Mahjong Syoukin Oh!!- (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Tecmo license)</manufacturer>
+	<year>1991</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="goodejana" index="" image="">
+	<description>Good E Jong -Kachinuki Mahjong Syoukin Oh!!- (set 2)</description>
+	<cloneof>goodejan</cloneof>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Tecmo license)</manufacturer>
+	<year>1991</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ippatsu" index="" image="">
+	<description>Ippatsu Gyakuten [BET] (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Public Software / Paradais</manufacturer>
+	<year>1986</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jangou" index="" image="">
+	<description>Jangou [BET] (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1983</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="janptrsp" index="" image="">
+	<description>Janputer Special (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dynax</manufacturer>
+	<year>1997</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="janputer" index="" image="">
+	<description>New Double Bet Mahjong (bootleg of Janputer)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>bootleg (Public Software Ltd. / Mes)</manufacturer>
+	<year>1981</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="janshinp" index="" image="">
+	<description>Mahjong Janshin Plus (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dynax / Sigma</manufacturer>
+	<year>1996</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jantotsu" index="" image="">
+	<description>4nin-uchi Mahjong Jantotsu</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sanritsu</manufacturer>
+	<year>1983</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="janyoup2" index="" image="">
+	<description>Janyou Part II (ver 7.03, July 1 1983)</description>
+	<cloneof>royalmj</cloneof>
+	<crc/>
+	<manufacturer>Cosmo Denshi</manufacturer>
+	<year>1983</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="janyuki" index="" image="">
+	<description>Jong Yu Ki (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dynax</manufacturer>
+	<year>1988</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jyangoku" index="" image="">
+	<description>Jyangokushi: Haoh no Saihai (Japan 990527)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1999</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kiwame" index="" image="">
+	<description>Pro Mahjong Kiwame</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Athena</manufacturer>
+	<year>1994</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="kiwames" index="" image="">
+	<description>Pro Mahjong Kiwame S (J 951020 V1.208)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Athena</manufacturer>
+	<year>1995</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lhb" index="" image="">
+	<description>Long Hu Bang (China, V035C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1995</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lhb2" index="" image="">
+	<description>Long Hu Bang II (Hong Kong, V185H)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1996</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lhbv33c" index="" image="">
+	<description>Long Hu Bang (China, V033C)</description>
+	<cloneof>lhb</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1995</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lhzb2a" index="" image="">
+	<description>Mahjong Long Hu Zheng Ba 2 (VS221M)</description>
+	<cloneof>lhzb2</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1998</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mahjngoh" index="" image="">
+	<description>Mahjong Oh (V2.06J)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Warashi / Mahjong Kobo / Taito</manufacturer>
+	<year>1999</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mahmajn" index="" image="">
+	<description>Tokoro San no MahMahjan (Japan, ROM Based)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1992</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mahmajn2" index="" image="">
+	<description>Tokoro San no MahMahjan 2 (Japan, ROM Based)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1994</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="makaijan" index="" image="">
+	<description>Makaijan [BET] (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dynax</manufacturer>
+	<year>1987</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mgdh" index="" image="">
+	<description>Mahjong Man Guan Da Heng (Taiwan, V125T1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1997</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mgdha" index="" image="">
+	<description>Mahjong Man Guan Da Heng (Taiwan, V123T1)</description>
+	<cloneof>mgdh</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1997</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="minasan" index="" image="">
+	<description>Minasanno Okagesamadesu! Daisugorokutaikai (MOM-001)(MOH-001)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Monolith Corp.</manufacturer>
+	<year>1990</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjclub" index="" image="">
+	<description>Mahjong Club [BET] (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Xex</manufacturer>
+	<year>1986?</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjdchuka" index="" image="">
+	<description>Mahjong The Dai Chuuka Ken (China, D111)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dynax</manufacturer>
+	<year>1995</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjgaiden" index="" image="">
+	<description>Mahjong Gaiden [BET] (Japan 870803)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Central Denshi</manufacturer>
+	<year>1987</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjifb" index="" image="">
+	<description>Mahjong If...? [BET]</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dynax</manufacturer>
+	<year>1990</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjifb2" index="" image="">
+	<description>Mahjong If...? [BET](2921)</description>
+	<cloneof>mjifb</cloneof>
+	<crc/>
+	<manufacturer>Dynax</manufacturer>
+	<year>1990</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjifb3" index="" image="">
+	<description>Mahjong If...? [BET](2931)</description>
+	<cloneof>mjifb</cloneof>
+	<crc/>
+	<manufacturer>Dynax</manufacturer>
+	<year>1990</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjmaglmp" index="" image="">
+	<description>Mahjong Magic Lamp (v. JAA02)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>BMC</manufacturer>
+	<year>2000</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjmyorn2" index="" image="">
+	<description>Mahjong The Mysterious Orient Part 2 - Exotic Dream</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dynax</manufacturer>
+	<year>1993</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjmyornt" index="" image="">
+	<description>Mahjong The Mysterious Orient</description>
+	<cloneof>mjmyorn2</cloneof>
+	<crc/>
+	<manufacturer>Dynax</manufacturer>
+	<year>1992</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjmyster" index="" image="">
+	<description>Mahjong The Mysterious World (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dynax</manufacturer>
+	<year>1994</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjmyuniv" index="" image="">
+	<description>Mahjong The Mysterious Universe (Japan, D85)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dynax</manufacturer>
+	<year>1994</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjmywrld" index="" image="">
+	<description>Mahjong The Mysterious World (set 2)</description>
+	<cloneof>mjmyster</cloneof>
+	<crc/>
+	<manufacturer>Dynax</manufacturer>
+	<year>1994</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjnquestb" index="" image="">
+	<description>Mahjong Quest (No Nudity)</description>
+	<cloneof>mjnquest</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1990</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mjvegasa" index="" image="">
+	<description>Mahjong Vegas (Japan, unprotected)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dynax</manufacturer>
+	<year>1991</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nkishusp" index="" image="">
+	<description>Mahjong Nenrikishu SP (Japan, V250J)</description>
+	<cloneof>lhb2</cloneof>
+	<crc/>
+	<manufacturer>IGS / Alta</manufacturer>
+	<year>1998</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="openmj" index="" image="">
+	<description>Open Mahjong [BET] (Japan)</description>
+	<cloneof>royalmj</cloneof>
+	<crc/>
+	<manufacturer>Sapporo Mechanic</manufacturer>
+	<year>1981?</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ptrmj" index="" image="">
+	<description>PT Reach Mahjong (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Irem</manufacturer>
+	<year>1979</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="royalmah" index="" image="">
+	<description>Royal Mahjong (Falcon bootleg, v1.01)</description>
+	<cloneof>royalmj</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1982</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="royalmj" index="" image="">
+	<description>Royal Mahjong (Japan, v1.13)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nichibutsu</manufacturer>
+	<year>1981</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="royalqn" index="" image="">
+	<description>Royal Queen [BET] (Japan 841010 RQ 0-07)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Royal Denshi</manufacturer>
+	<year>1984</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ryouran" index="" image="">
+	<description>VS Mahjong Otome Ryouran (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Electro Design</manufacturer>
+	<year>1998</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ryourano" index="" image="">
+	<description>VS Mahjong Otome Ryouran (set 2)</description>
+	<cloneof>ryouran</cloneof>
+	<crc/>
+	<manufacturer>Electro Design</manufacturer>
+	<year>1998</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ryukobou" index="" image="">
+	<description>Mahjong Ryukobou (Japan, V030J)</description>
+	<cloneof>lhb</cloneof>
+	<crc/>
+	<manufacturer>IGS / Alta</manufacturer>
+	<year>1995</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sdmg2" index="" image="">
+	<description>Mahjong Super Da Man Guan II (China, V754C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1997</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="seljan2" index="" image="">
+	<description>Return Of Sel Jan II (Japan, NM557)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dynax / Face</manufacturer>
+	<year>1996</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sengokmj" index="" image="">
+	<description>Sengoku Mahjong [BET] (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sigma</manufacturer>
+	<year>1991</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="srmp5" index="" image="">
+	<description>Super Real Mahjong P5</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Seta</manufacturer>
+	<year>1994</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sryudens" index="" image="">
+	<description>Mahjong Seiryu Densetsu (Japan, NM502)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dynax / Face</manufacturer>
+	<year>1996</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tahjong" index="" image="">
+	<description>Tahjong Yakitori (ver. 2-1)</description>
+	<cloneof>royalmj</cloneof>
+	<crc/>
+	<manufacturer>Bally Pond / Nasco</manufacturer>
+	<year>1985</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="totmejan" index="" image="">
+	<description>Tottemo E Jong</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Seibu Kaihatsu (Tecmo license)</manufacturer>
+	<year>1991</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="touryuu" index="" image="">
+	<description>Touryuumon (V1.1)?</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Yuki Enterprise</manufacturer>
+	<year>2005</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ttmahjng" index="" image="">
+	<description>T.T Mahjong</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito</manufacturer>
+	<year>1981</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="urashima" index="" image="">
+	<description>Otogizoushi Urashima Mahjong (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>UPL</manufacturer>
+	<year>1989</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="usagi" index="" image="">
+	<description>Usagi (V2.02J)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Warashi / Mahjong Kobo / Taito</manufacturer>
+	<year>2001</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vsmahjng" index="" image="">
+	<description>Vs. Mahjong (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo Co., Ltd.</manufacturer>
+	<year>1984</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wlcc" index="" image="">
+	<description>Wan Li Chang Cheng (China, V638C)</description>
+	<cloneof>xymg</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1996</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xymg" index="" image="">
+	<description>Xing Yun Man Guan (China, V651C)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>1996</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="yujan" index="" image="">
+	<description>Yu-Jan</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Yubis / T.System</manufacturer>
+	<year>1999</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

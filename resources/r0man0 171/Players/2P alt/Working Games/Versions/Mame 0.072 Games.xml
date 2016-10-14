@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2P alt / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="8ballact" index="" image="">
+	<description>Eight Ball Action (DK conversion)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Seatongrove Ltd (Magic Electronics USA license)</manufacturer>
+	<year>1984</year>
+	<genre>Pool and Darts</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="8ballact2" index="" image="">
+	<description>Eight Ball Action (DKJr conversion)</description>
+	<cloneof>8ballact</cloneof>
+	<crc/>
+	<manufacturer>Seatongrove Ltd (Magic Electronics USA license)</manufacturer>
+	<year>1984</year>
+	<genre>Pool and Darts</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dogfgt" index="" image="">
+	<description>Acrobatic Dog-Fight</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Technos Japan</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="imagoa" index="" image="">
+	<description>Imago (no cocktail set)</description>
+	<cloneof>imago</cloneof>
+	<crc/>
+	<manufacturer>Acom</manufacturer>
+	<year>1983</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="parodius" index="" image="">
+	<description>Parodius DA! (World, set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1990</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pitnrun" index="" image="">
+	<description>Pit &amp; Run - F-1 Race (set 1)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1984</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sbdk" index="" image="">
+	<description>Super Bike (DK conversion)</description>
+	<cloneof>superbik</cloneof>
+	<crc/>
+	<manufacturer>Century Electronics</manufacturer>
+	<year>1984</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spcfrcii" index="" image="">
+	<description>Special Forces II</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Senko Industries (Magic Electronics Inc. license)</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spclforc" index="" image="">
+	<description>Special Forces</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Senko Industries (Magic Electronics Inc. license)</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="strtheat" index="" image="">
+	<description>Street Heat</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Epos Corporation</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

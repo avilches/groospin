@@ -1,0 +1,439 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>1980-1989 / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="astrians" index="" image="">
+	<description>Astrians (clone of Swarm)</description>
+	<cloneof>galaxian</cloneof>
+	<crc/>
+	<manufacturer>bootleg (BGV Ltd.)</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bagmanm2" index="" image="">
+	<description>Bagman (bootleg on Moon Cresta hardware, set 2)</description>
+	<cloneof>bagman</cloneof>
+	<crc/>
+	<manufacturer>bootleg (GIB)</manufacturer>
+	<year>1984</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bomber" index="" image="">
+	<description>Bomber (bootleg of Scramble)</description>
+	<cloneof>scramble</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Alca)</manufacturer>
+	<year>198?</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bonuscrda" index="" image="">
+	<description>Bonus Card (Austrian, ATG Electronic hack)</description>
+	<cloneof>bonuscrd</cloneof>
+	<crc/>
+	<manufacturer>Fun World</manufacturer>
+	<year>1986</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="cadanglr" index="" image="">
+	<description>Angler Dangler (DECO Cassette)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1982</year>
+	<genre>Fishing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dking" index="" image="">
+	<description>Donkey King</description>
+	<cloneof>ckong</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1981</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dodgecty" index="" image="">
+	<description>Dodge City (9131-02)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1988</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="dpoker" index="" image="">
+	<description>Draw Poker (Bally, 03-20)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bally</manufacturer>
+	<year>1985</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="enforce" index="" image="">
+	<description>Enforce (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Taito Corporation Japan</manufacturer>
+	<year>1988</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="exctsccru" index="" image="">
+	<description>Exciting Soccer (US)</description>
+	<cloneof>exctsccr</cloneof>
+	<crc/>
+	<manufacturer>Alpha Denshi Co.</manufacturer>
+	<year>1983</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="froggrs" index="" image="">
+	<description>Frogger (Scramble hardware)</description>
+	<cloneof>frogger</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Coin Music)</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gcastle" index="" image="">
+	<description>Golden Castle (prototype?)</description>
+	<cloneof>gladiatr</cloneof>
+	<crc/>
+	<manufacturer>Allumer / Taito Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ghostmun" index="" image="">
+	<description>Ghost Muncher</description>
+	<cloneof>puckman</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Leisure and Allied)</manufacturer>
+	<year>1981</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gngprot" index="" image="">
+	<description>Ghosts&apos;n Goblins (prototype)</description>
+	<cloneof>gng</cloneof>
+	<crc/>
+	<manufacturer>Capcom</manufacturer>
+	<year>1985</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hcastlee" index="" image="">
+	<description>Haunted Castle (version E)</description>
+	<cloneof>hcastle</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="hustlerb3" index="" image="">
+	<description>Video Pool (Video Hustler bootleg)</description>
+	<cloneof>hustler</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Videotron)</manufacturer>
+	<year>1981</year>
+	<genre>Pool and Darts</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="janyuki" index="" image="">
+	<description>Jong Yu Ki (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Dynax</manufacturer>
+	<year>1988</year>
+	<genre>Mahjong</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jrpacmanf" index="" image="">
+	<description>Jr. Pac-Man (speedup hack)</description>
+	<cloneof>jrpacman</cloneof>
+	<crc/>
+	<manufacturer>hack</manufacturer>
+	<year>1983</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mechattu1" index="" image="">
+	<description>Mechanized Attack (US, Version 1, Single Player)</description>
+	<cloneof>mechatt</cloneof>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1989</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mooncrs4" index="" image="">
+	<description>Moon Crest (Moon Cresta bootleg)</description>
+	<cloneof>mooncrst</cloneof>
+	<crc/>
+	<manufacturer>bootleg (SG-Florence)</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mranger" index="" image="">
+	<description>Moon Ranger (bootleg of Moon Patrol)</description>
+	<cloneof>mpatrol</cloneof>
+	<crc/>
+	<manufacturer>bootleg</manufacturer>
+	<year>1982</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="msheartb" index="" image="">
+	<description>Ms. Pac-Man Heart Burn</description>
+	<cloneof>mspacman</cloneof>
+	<crc/>
+	<manufacturer>hack (Two-Bit Score)</manufacturer>
+	<year>1989</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="mysticmp" index="" image="">
+	<description>Mystic Marathon (prototype)</description>
+	<cloneof>mysticm</cloneof>
+	<crc/>
+	<manufacturer>Williams</manufacturer>
+	<year>1983</year>
+	<genre>Track &amp; Field</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="phoenixc3" index="" image="">
+	<description>Phoenix (Irecsa / G.G.I Corp, set 3)</description>
+	<cloneof>phoenix</cloneof>
+	<crc/>
+	<manufacturer>bootleg? (Irecsa / G.G.I Corp)</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="phoenixc4" index="" image="">
+	<description>Phoenix (Irecsa / G.G.I Corp, set 4)</description>
+	<cloneof>phoenix</cloneof>
+	<crc/>
+	<manufacturer>bootleg? (Irecsa / G.G.I Corp)</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pleiadsb2" index="" image="">
+	<description>Pleiads (bootleg set 2)</description>
+	<cloneof>pleiads</cloneof>
+	<crc/>
+	<manufacturer>bootleg (ESG)</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pprobe" index="" image="">
+	<description>Planet Probe (prototype?)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Crux / Kyugo?</manufacturer>
+	<year>1985</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rallysa" index="" image="">
+	<description>Rallys (bootleg of Spectar, set 2)</description>
+	<cloneof>spectar</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Musik Box Brescia)</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rcasino1" index="" image="">
+	<description>Royal Casino (D-2608208A1-1, Larger Board)</description>
+	<cloneof>rcasino</cloneof>
+	<crc/>
+	<manufacturer>Dyna Electronics</manufacturer>
+	<year>1984</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rcasinoo" index="" image="">
+	<description>Royal Casino (D-2608208A1-1, Smaller Board)</description>
+	<cloneof>rcasino</cloneof>
+	<crc/>
+	<manufacturer>Dyna Electronics</manufacturer>
+	<year>1984</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="riviera" index="" image="">
+	<description>Riviera Hi-Score (2131-08, U5-4A)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1987</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rivieraa" index="" image="">
+	<description>Riviera Hi-Score (2131-08, U5-4)</description>
+	<cloneof>riviera</cloneof>
+	<crc/>
+	<manufacturer>Merit</manufacturer>
+	<year>1986</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="rthunder2" index="" image="">
+	<description>Rolling Thunder (rev 2)</description>
+	<cloneof>rthunder</cloneof>
+	<crc/>
+	<manufacturer>Namco</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="scrambles2" index="" image="">
+	<description>Scramble (Stern Electronics set 2)</description>
+	<cloneof>scramble</cloneof>
+	<crc/>
+	<manufacturer>Konami (Stern Electronics license)</manufacturer>
+	<year>1981</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="searthie" index="" image="">
+	<description>Super Earth Invasion (set 3)</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>bootleg (Electrocoin)</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="srangern" index="" image="">
+	<description>Super Ranger (older, NOVA license)</description>
+	<cloneof>sranger</cloneof>
+	<crc/>
+	<manufacturer>SunA (NOVA license)</manufacturer>
+	<year>1988</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="srumbler3" index="" image="">
+	<description>The Speed Rumbler (set 3)</description>
+	<cloneof>srumbler</cloneof>
+	<crc/>
+	<manufacturer>Capcom (Tecfri license)</manufacturer>
+	<year>1986</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="supermanu" index="" image="">
+	<description>Superman (US)</description>
+	<cloneof>superman</cloneof>
+	<crc/>
+	<manufacturer>Taito Corporation</manufacturer>
+	<year>1988</year>
+	<genre>Fighter</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="triplepa" index="" image="">
+	<description>Triple Punch (set 2)</description>
+	<cloneof>triplep</cloneof>
+	<crc/>
+	<manufacturer>K.K. International</manufacturer>
+	<year>1982</year>
+	<genre>Maze</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ultrainv" index="" image="">
+	<description>Ultra Invaders</description>
+	<cloneof>invaders</cloneof>
+	<crc/>
+	<manufacturer>Taito / Konami</manufacturer>
+	<year>1980</year>
+	<genre>Shoot-</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="weclemana" index="" image="">
+	<description>WEC Le Mans 24 (v2.00, set 2)</description>
+	<cloneof>wecleman</cloneof>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>1986</year>
+	<genre>Driving</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wexpress" index="" image="">
+	<description>Western Express (Japan, rev 4)</description>
+	<cloneof>exprraid</cloneof>
+	<crc/>
+	<manufacturer>Data East Corporation</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="xsleena" index="" image="">
+	<description>Xain&apos;d Sleena (World)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Technos Japan (Taito license)</manufacturer>
+	<year>1986</year>
+	<genre>Platform</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

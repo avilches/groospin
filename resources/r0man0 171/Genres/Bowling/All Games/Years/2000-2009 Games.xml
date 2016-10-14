@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Bowling / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="bowltry" index="" image="">
+	<description>Bowling Try</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atlus</manufacturer>
+	<year>200?</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gogostrk" index="" image="">
+	<description>Go Go Strike</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>American Alpha / Paokai</manufacturer>
+	<year>2007</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="simpbowl" index="" image="">
+	<description>Simpsons Bowling (GQ829 UAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

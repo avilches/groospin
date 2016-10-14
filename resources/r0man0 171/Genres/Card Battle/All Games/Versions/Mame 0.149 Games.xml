@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Card Battle / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="spkrform" index="" image="">
+	<description>Super Poker (v100xD03) / Formosa</description>
+	<cloneof>spk116it</cloneof>
+	<crc/>
+	<manufacturer>IGS</manufacturer>
+	<year>????</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="top21" index="" image="">
+	<description>Top XXI (Version 1.2)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Assogiochi Assago</manufacturer>
+	<year>200?</year>
+	<genre>Card Battle</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

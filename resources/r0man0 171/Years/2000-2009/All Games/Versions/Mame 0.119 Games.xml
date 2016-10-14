@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>2000-2009 / All Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="deerhunt" index="" image="">
+	<description>Deer Hunting USA V4.3</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy USA Corporation</manufacturer>
+	<year>2000</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="deerhunta" index="" image="">
+	<description>Deer Hunting USA V4.2</description>
+	<cloneof>deerhunt</cloneof>
+	<crc/>
+	<manufacturer>Sammy USA Corporation</manufacturer>
+	<year>2000</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="deerhuntb" index="" image="">
+	<description>Deer Hunting USA V4.0</description>
+	<cloneof>deerhunt</cloneof>
+	<crc/>
+	<manufacturer>Sammy USA Corporation</manufacturer>
+	<year>2000</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="trophyh" index="" image="">
+	<description>Trophy Hunting - Bear &amp; Moose V1.0</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy USA Corporation</manufacturer>
+	<year>2002</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="turkhunt" index="" image="">
+	<description>Turkey Hunting USA V1.0</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy USA Corporation</manufacturer>
+	<year>2001</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wschamp" index="" image="">
+	<description>Wing Shooting Championship V2.00</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sammy USA Corporation</manufacturer>
+	<year>2001</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wschampa" index="" image="">
+	<description>Wing Shooting Championship V1.01</description>
+	<cloneof>wschamp</cloneof>
+	<crc/>
+	<manufacturer>Sammy USA Corporation</manufacturer>
+	<year>2001</year>
+	<genre>Gun</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>

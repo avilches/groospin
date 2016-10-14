@@ -1,0 +1,259 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>Sports / Working Games</listname>
+	<lastlistupdate>05/18/2016</lastlistupdate>
+	<listversion>mame 0.171</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="1on1gov" index="" image="">
+	<description>1 on 1 Government (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Tecmo</manufacturer>
+	<year>2000</year>
+	<genre>Basketball</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="bangbead" index="" image="">
+	<description>Bang Bead</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Visco</manufacturer>
+	<year>2000</year>
+	<genre>Miscellaneous</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="evosocc" index="" image="">
+	<description>Evolution Soccer</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Evoga</manufacturer>
+	<year>2001</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fmaniac3" index="" image="">
+	<description>Fishing Maniac 3</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Saero Entertainment</manufacturer>
+	<year>2002</year>
+	<genre>Fishing</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt2k" index="" image="">
+	<description>Golden Tee 2K (v1.00)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>2000</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt2kp100" index="" image="">
+	<description>Golden Tee 2K (v1.00) (alt protection)</description>
+	<cloneof>gt2k</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>2000</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt2ks100" index="" image="">
+	<description>Golden Tee 2K (v1.00S)</description>
+	<cloneof>gt2k</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>2000</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gt2kt500" index="" image="">
+	<description>Golden Tee 2K Tournament (v5.00)</description>
+	<cloneof>gt2k</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>2000</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtclassc" index="" image="">
+	<description>Golden Tee Classic (v1.00)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>2001</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtclasscp" index="" image="">
+	<description>Golden Tee Classic (v1.00) (alt protection)</description>
+	<cloneof>gtclassc</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>2001</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtclasscs" index="" image="">
+	<description>Golden Tee Classic (v1.00S)</description>
+	<cloneof>gtclassc</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>2001</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtfore01" index="" image="">
+	<description>Golden Tee Fore! (v1.00.25)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>2000</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtfore02" index="" image="">
+	<description>Golden Tee Fore! 2002 (v2.01.06)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>2001</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtfore03" index="" image="">
+	<description>Golden Tee Fore! 2003 (v3.00.10)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>2002</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtfore03a" index="" image="">
+	<description>Golden Tee Fore! 2003 (v3.00.09)</description>
+	<cloneof>gtfore03</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>2002</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtfore04" index="" image="">
+	<description>Golden Tee Fore! 2004 Extra (v4.00.08)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>2003</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtfore04a" index="" image="">
+	<description>Golden Tee Fore! 2004 (v4.00.00)</description>
+	<cloneof>gtfore04</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>2003</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtfore05" index="" image="">
+	<description>Golden Tee Fore! 2005 Extra (v5.01.06)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>2004</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtfore05a" index="" image="">
+	<description>Golden Tee Fore! 2005 Extra (v5.01.02)</description>
+	<cloneof>gtfore05</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>2004</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtfore05b" index="" image="">
+	<description>Golden Tee Fore! 2005 Extra (v5.01.00)</description>
+	<cloneof>gtfore05</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>2004</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtfore05c" index="" image="">
+	<description>Golden Tee Fore! 2005 Extra (v5.00.00)</description>
+	<cloneof>gtfore05</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>2004</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtfore06" index="" image="">
+	<description>Golden Tee Fore! 2006 Complete (v6.00.01)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>2005</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gtsupreme" index="" image="">
+	<description>Golden Tee Supreme Edition Tournament (v5.10T ELC S)</description>
+	<cloneof>gt2k</cloneof>
+	<crc/>
+	<manufacturer>Incredible Technologies</manufacturer>
+	<year>2002</year>
+	<genre>Golf</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="simpbowl" index="" image="">
+	<description>Simpsons Bowling (GQ829 UAA)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Konami</manufacturer>
+	<year>2000</year>
+	<genre>Bowling</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tecmowcm" index="" image="">
+	<description>Tecmo World Cup Millennium (Japan)</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Tecmo</manufacturer>
+	<year>2000</year>
+	<genre>Soccer</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>
