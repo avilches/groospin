@@ -13,7 +13,7 @@ HyperSpin hs = new HyperSpin(
 File genreDest = hs.findHyperSpinMediaFolderFor("_Common/Genre")
 
 hs.listSystems(false).each { RLSystem system ->
-    File mediaGenreFolder = system.findHyperSpinMediaPath("Images/Genre")
+    File mediaGenreFolder = system.getMediaPath("Images/Genre")
     if (!mediaGenreFolder) return
     // println "${mediaGenreFolder.listFiles()?.size()} ${system.name}: ${mediaGenreFolder?.listFiles()}"
     ["Wheel", "Backgrounds"].each { String genreFolder ->

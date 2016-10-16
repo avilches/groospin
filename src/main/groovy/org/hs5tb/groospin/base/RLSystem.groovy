@@ -138,8 +138,73 @@ class RLSystem {
         return hyperSpin.findHyperSpinMediaFolderFor(name)
     }
 
-    File findHyperSpinMediaPath(String path) {
+    File getMediaPath(String path) {
         return new File(mediaFolder, path)
+    }
+
+    File[] listMediaVideo(boolean includeFolders = false) {
+        return listMediaPath("Video", includeFolders)
+    }
+
+    File[] listMediaWheel(boolean includeFolders = false) {
+        return listMediaPath("Images/Wheel", includeFolders)
+    }
+
+    File[] listMediaArtwork1(boolean includeFolders = false) {
+        return listMediaPath("Images/Artwork1", includeFolders)
+    }
+
+    File[] listMediaArtwork2(boolean includeFolders = false) {
+        return listMediaPath("Images/Artwork2", includeFolders)
+    }
+
+    File[] listMediaArtwork3(boolean includeFolders = false) {
+        return listMediaPath("Images/Artwork3", includeFolders)
+    }
+
+    File[] listMediaArtwork4(boolean includeFolders = false) {
+        return listMediaPath("Images/Artwork4", includeFolders)
+    }
+
+    File[] listMediaImagesGamestart(boolean includeFolders = false) {
+        return listMediaPath("Images/Gamestart", includeFolders)
+    }
+
+    File[] listMediaThemes(boolean includeFolders = false) {
+        return listMediaPath("Themes", includeFolders)
+    }
+
+    File[] listMediaBackgroundMusic(boolean includeFolders = false) {
+        return listMediaPath("Sound/Background Music", includeFolders)
+    }
+
+    File[] listMediaPath(String path, boolean includeFolders = false) {
+        return getMediaPath(path).listFiles( new FileFilter() {
+            @Override
+            boolean accept(File pathname) {
+                return includeFolders || pathname.file
+            }
+        })
+    }
+
+    List allowedMediaRomThemes() {
+        return listRomNames().collect { it+".zip"}
+    }
+
+    List allowedMediaRomMusic() {
+        return listRomNames().collect { it+".mp3"}
+    }
+
+    List allowedMediaRomImages() {
+        return explodeFilenameExtensions(listRomNames(), ["jpg", "png"])
+    }
+
+    List allowedMediaRomVideos() {
+        return explodeFilenameExtensions(listRomNames(), ["flv", "mp4"])
+    }
+
+    static private List explodeFilenameExtensions(List names, List extensions) {
+        return names.collect { String name -> extensions.collect { String extension -> name+"."+extension } }.flatten()
     }
 }
 
