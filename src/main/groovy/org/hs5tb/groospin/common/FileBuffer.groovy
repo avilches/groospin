@@ -8,7 +8,7 @@ import groovy.transform.CompileStatic
 
 @CompileStatic
 class FileBuffer {
-    static int maxBuffer = 250 * 1024 // 250Kb
+    static int maxBuffer = 4 * 1024 // 4Kb
     File file
     boolean first = true
     StringBuffer buffer
