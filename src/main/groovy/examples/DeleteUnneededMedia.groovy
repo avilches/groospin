@@ -15,6 +15,7 @@ systems.each {
 spin.listSystems().each { deleteUnneeded(it) }
 
 void deleteUnneeded(RLSystem mame, boolean simulation = true) {
+    println "Simulation: ${simulation}"
     ["Video"].each { String path ->
         Set<String> unneeded = lcase(mame.listMediaPath(path)*.name) - lcase(mame.allowedMediaRomVideos())
         println "Deleting ${unneeded.size()} in $path"
@@ -52,6 +53,7 @@ void deleteUnneeded(RLSystem mame, boolean simulation = true) {
             else mame.getMediaPath("$path/$filename").delete()
         }
     }
+    println "Simulation: ${simulation}"
 }
 Set lcase(l) {
     return l.collect { it.toLowerCase() } as Set
