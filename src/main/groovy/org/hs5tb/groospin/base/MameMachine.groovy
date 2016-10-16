@@ -17,7 +17,7 @@ class MameMachine extends Rom {
 
         RomBin load(Node node) {
             name = node.@name
-            size = node.@size as int
+            size = (node.@size?:0) as int
             sha1 = node.@sha1
             crc = node.@crc
             merge = node.@merge
