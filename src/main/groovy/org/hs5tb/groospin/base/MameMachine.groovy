@@ -4,6 +4,32 @@ package org.hs5tb.groospin.base
  */
 class MameMachine extends Rom {
 
+    class RomBin {
+        String name
+        int size
+        String merge
+        String sha1
+        String crc
+        Status status = Status.good
+        boolean optional = false
+
+        enum Status { nodump, baddump, good }
+
+        RomBin load(Node node) {
+            name = node.@name
+            size = node.@size as int
+            sha1 = node.@sha1
+            crc = node.@crc
+            merge = node.@merge
+            if (node.@name && node.@name in RomBin.Status.values()) {
+                status = RomBin.Status."${node.@name}"
+            }
+            optional = node.@optional == "true"
+            return this
+        }
+
+    }
+
     String driverStatus
     String emulationStatus
     String colorStatus
@@ -104,11 +130,11 @@ class MameMachine extends Rom {
             manufacturer = "Unknown"
         }
 
-        if (machine.rom.size() > 0) {
-            roms.addAll(machine.rom.@name)
+        machine.rom.each {
+            roms << new RomBin().load(it)
         }
-        if (machine.disk.size() > 0) {
-            disks.addAll(machine.disk.@name)
+        machine.disk.each {
+            disks << new RomBin().load(it)
         }
 
         return this
