@@ -1,4 +1,4 @@
-package examples
+package examples.operations
 
 import operation.Operations
 import operation.RomFileOperations

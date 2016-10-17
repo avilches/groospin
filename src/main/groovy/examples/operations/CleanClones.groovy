@@ -1,8 +1,7 @@
-package examples
+package examples.operations
 
 import operation.DatabaseOperations
 import operation.Operations
-import org.hs5tb.groospin.base.HyperSpin
 
 List systems = ["Namco Classics",
                 "Atari Classics", "Capcom Classics", "Cave", "Data East Classics", "MAME",

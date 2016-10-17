@@ -1,4 +1,4 @@
-package examples
+package examples.mame
 
 import groovy.transform.EqualsAndHashCode
 import groovy.transform.ToString

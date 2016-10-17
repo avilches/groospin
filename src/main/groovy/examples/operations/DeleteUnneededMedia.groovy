@@ -1,4 +1,4 @@
-package examples
+package examples.operations
 
 import org.hs5tb.groospin.base.HyperSpin
 import org.hs5tb.groospin.base.RLSystem

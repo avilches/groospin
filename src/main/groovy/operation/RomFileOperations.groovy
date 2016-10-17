@@ -1,6 +1,7 @@
 package operation
 
 import org.hs5tb.groospin.base.HyperSpin
+import org.hs5tb.groospin.base.RLSystem
 import org.hs5tb.groospin.checker.BaseCheckHandler
 import org.hs5tb.groospin.checker.Checker
 import org.hs5tb.groospin.checker.handlers.HumanInfo
@@ -43,8 +44,12 @@ class RomFileOperations extends Operations {
 
     void executeRomAction(List<Closure> conditions, List systems = null, Closure<File> action) {
         new Checker(hyperSpin).
-                addHandler(new HumanInfo(false)).
                 addHandler(new BaseCheckHandler() {
+                    @Override
+                    void startSystem(RLSystem system) {
+                        log(system.name)
+                    }
+
                     @Override
                     void romChecked(CheckRomResult checkRomResult) {
                         if (any(conditions, checkRomResult)) {

@@ -1,4 +1,4 @@
-package examples
+package examples.operations
 
 import operation.DatabaseOperations
 import operation.Operations
@@ -12,7 +12,7 @@ def systems = spin.listSystems().findAll { it.defaultEmulator.name == "RetroArch
 
 // Primero se añade un sufijo a las roms que no tienen video ni wheel
 RomFileOperations romOperations = new RomFileOperations(spin)
-romOperations.addSuffixToRomName(".delete", [Operations.NO_VIDEO, Operations.NO_WHEEL], systems)
+// romOperations.addSuffixToRomName(".delete", [Operations.NO_VIDEO, Operations.NO_WHEEL], systems)
 
 // Despues se elimina de la base de datos todos los juegos que no tienen video ni wheel
 DatabaseOperations dbOperations = new DatabaseOperations(spin)

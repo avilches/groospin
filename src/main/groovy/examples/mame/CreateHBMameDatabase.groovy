@@ -1,4 +1,4 @@
-package examples
+package examples.mame
 
 import mame.DatXmlToHyperSpinXml
 import org.hs5tb.groospin.base.MameMachine

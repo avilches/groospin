@@ -1,4 +1,4 @@
-package examples
+package examples.operations
 
 import operation.DatabaseOperations
 import org.hs5tb.groospin.base.HyperSpin

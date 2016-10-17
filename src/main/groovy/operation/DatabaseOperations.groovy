@@ -1,6 +1,7 @@
 package operation
 
 import org.hs5tb.groospin.base.HyperSpin
+import org.hs5tb.groospin.base.RLSystem
 import org.hs5tb.groospin.checker.Checker
 import org.hs5tb.groospin.checker.handlers.DatabaseTransformer
 import org.hs5tb.groospin.checker.handlers.HumanInfo
@@ -23,8 +24,13 @@ class DatabaseOperations extends Operations {
 
     void extractFromDatabase(String newFileSuffix, List<Closure> conditions, List systems = null) {
         new Checker(hyperSpin).
-                addHandler(new HumanInfo(false)).
                 addHandler(new DatabaseTransformer() {
+                    @Override
+                    void startSystem(RLSystem system) {
+                        super.startSystem(system)
+                        log(system.name)
+                    }
+
                     @Override
                     void romNodeChecked(CheckRomResult checkRomResult, RomDatabase romNode) {
                         // elimina los juegos que no cumplen ninguna condicion para dejar en
@@ -48,8 +54,13 @@ class DatabaseOperations extends Operations {
 
     void removeFromDatabase(String backupSuffix, List<Closure> conditions, List systems = null) {
         new Checker(hyperSpin).
-                addHandler(new HumanInfo(false)).
                 addHandler(new DatabaseTransformer() {
+                    @Override
+                    void startSystem(RLSystem system) {
+                        super.startSystem(system)
+                        log(system.name)
+                    }
+
                     @Override
                     void romNodeChecked(CheckRomResult checkRomResult, RomDatabase romNode) {
                         // elimina los juegos que cumplen la condicion para luego salvarla (creando un backup)
