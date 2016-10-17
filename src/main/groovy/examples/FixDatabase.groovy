@@ -5,9 +5,7 @@ import org.hs5tb.groospin.base.HyperSpinDatabase
 import org.hs5tb.groospin.base.RLSystem
 import org.hs5tb.groospin.base.Rom
 
-HyperSpin hs = new HyperSpin(
-        "D:/Games/HyperSpin-fe",
-        "D:/Games/RocketLauncher")
+HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
 
 
 // ["Castlevania Collection", "Commodore CDTV", "Microsoft MS-DOS"].collect { hs.getSystem(it) }.each { RLSystem system ->

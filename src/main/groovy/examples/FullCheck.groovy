@@ -4,13 +4,11 @@ import org.hs5tb.groospin.base.*
 import org.hs5tb.groospin.checker.*
 import org.hs5tb.groospin.checker.handlers.*
 
-HyperSpin hs = new HyperSpin(
-        "D:/Games/Hyperspin-fe",
-        "D:/Games/RocketLauncher")
+HyperSpin hs = new HyperSpin("A:/RocketLauncher")
 
 def systems = []
 
-String reportRoot = "D:/Games/Soft/Groospin/generated/reports/${new Date().format("yyyy-MM-dd HH-mm")}"
+String reportRoot = "D:/Games/Soft/Groospin/generated/reports-120/${new Date().format("yyyy-MM-dd HH-mm")}"
 
 
 new Checker(hs).

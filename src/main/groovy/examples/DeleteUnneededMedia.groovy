@@ -3,16 +3,14 @@ package examples
 import org.hs5tb.groospin.base.HyperSpin
 import org.hs5tb.groospin.base.RLSystem
 
-def spin = new HyperSpin(
-        "A:/HyperSpin-fe",
-        "A:/RocketLauncher")
+def spin = new HyperSpin("A:/RocketLauncher")
 
 List systems = []
 systems.each {
-    deleteUnneeded(spin.getSystem(it))
+    deleteUnneeded(spin.getSystem(it), false)
 }
 
-spin.listSystems().each { deleteUnneeded(it) }
+spin.listSystems().each { deleteUnneeded(it, false) }
 
 void deleteUnneeded(RLSystem mame, boolean simulation = true) {
     println "Simulation: ${simulation}"

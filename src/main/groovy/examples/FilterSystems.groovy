@@ -6,9 +6,7 @@ import org.hs5tb.groospin.base.RLSystem
 /**
  * Created by Alberto on 09-Oct-16.
  */
-HyperSpin hs = new HyperSpin(
-        "D:/Games/HyperSpin-fe",
-        "D:/Games/RocketLauncher")
+HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
 
 
 StringBuffer systems = new StringBuffer()

@@ -3,9 +3,7 @@ package examples.experimental
 import org.hs5tb.groospin.base.HyperSpin
 import org.hs5tb.groospin.base.RLSystem
 
-HyperSpin hs = new HyperSpin(
-        "D:/Games/HyperSpin-fe",
-        "D:/Games/RocketLauncher")
+HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
 
 File emus = new File("D:/Games/Juegos.html")
 

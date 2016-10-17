@@ -1,5 +1,6 @@
 package examples
 
+import operation.DatabaseOperations
 import operation.Operations
 import org.hs5tb.groospin.base.HyperSpin
 
@@ -8,6 +9,4 @@ List systems = ["Namco Classics",
                 "Banpresto", "Kaneko", "Irem Classics", "Williams Classics", "Midway Classics",
                 "Sega Classics", "Konami Classics", "Taito Classics", "SNK Classics"]
 
-new Operations(new HyperSpin(
-        "D:/Games/HyperSpin-fe",
-        "D:/Games/RocketLauncher")).removeFromDatabase("-with-clones", [Operations.IS_CLONE], systems)
+new DatabaseOperations("D:/Games/HyperSpin-fe").removeFromDatabase("-with-clones", [Operations.IS_CLONE], systems)

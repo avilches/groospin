@@ -13,9 +13,7 @@ import org.hs5tb.groospin.common.ZipUtils
 String reportRoot = "D:/Games/Soft/Groospin/generated/websites/${new Date().format("yyyy-MM-dd HH-mm")}"
 
 String csvFile = "c:/Users/Alberto/Downloads/Hyperspin 1.4 + RL fe - HS 1.4.csv"
-HyperSpin hs = new HyperSpin(
-        "D:/Games/Hyperspin-fe",
-        "D:/Games/RocketLauncher")
+HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
 
 Map systemIndex = loadConfigFromGoogleDoc(csvFile)
 Map systemIndexGroup = systemIndex.values().groupBy { RLSystemConfig config -> config.type }

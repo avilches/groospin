@@ -9,9 +9,7 @@ import org.hs5tb.groospin.base.HyperSpin
 import org.hs5tb.groospin.common.IniFile
 
 
-HyperSpin hs = new HyperSpin(
-        "D:/Games/HyperSpin-fe",
-        "D:/Games/RocketLauncher")
+HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
 
 // hs.changeHyperSpinSettings("AAE", "exe info", "hola", "que tal4")
 

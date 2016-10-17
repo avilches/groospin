@@ -12,18 +12,22 @@ class HyperSpin {
     File hsRoot
     File rlRoot
 
-    HyperSpin(String hsRoot, String rlRoot) {
-        this(new File(hsRoot), new File(rlRoot))
-    }
-
-    HyperSpin(File hsRoot, File rlRoot) {
-        this.hsRoot = hsRoot.canonicalFile
-        this.rlRoot = rlRoot.canonicalFile
-        println("HyperSpin root: " + hsRoot)
-        println("RocketLauncher root: " + rlRoot)
-    }
-
     Ini _cachedGlobalEmulatorIni
+    Ini rocketLauncherIni
+
+    HyperSpin(String rlRoot) {
+        this(new File(rlRoot))
+    }
+
+    HyperSpin(File rlRoot) {
+        this.rlRoot = rlRoot.canonicalFile
+        rocketLauncherIni = new IniFile().parse(findRocketLauncherFile("Settings/RocketLauncher.ini"))
+        if (rocketLauncherIni.get("Settings", "Default_Plugin") != "HyperSpin") {
+            throw new IllegalArgumentException("RocketLauncher is not configured with HyperSpin")
+        }
+        String hsRoot = rocketLauncherIni.get("Settings", "Default_Front_End_Path")
+        this.hsRoot = findRocketLauncherFile(hsRoot).canonicalFile.parentFile
+    }
 
     Ini getGlobalEmulatorsIni() {
         if (_cachedGlobalEmulatorIni) return _cachedGlobalEmulatorIni

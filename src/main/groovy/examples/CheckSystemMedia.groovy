@@ -5,9 +5,7 @@ import org.hs5tb.groospin.base.HyperSpin
 /**
  * Created by Alberto on 06-Sep-16.
  */
-HyperSpin hs = new HyperSpin(
-        "D:/Games/Hyperspin-fe",
-        "D:/Games/RocketLauncher")
+HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
 
 File genreDest = hs.findHyperSpinMediaFolderFor("_Common/Genre")
 

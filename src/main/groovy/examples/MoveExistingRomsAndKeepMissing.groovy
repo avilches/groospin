@@ -1,13 +1,12 @@
 package examples
 
 import operation.Operations
+import operation.RomFileOperations
 import org.hs5tb.groospin.base.HyperSpin
 
-String dst = "d:/Games/Roms/Sega Mega Drive/out"
-List systems = ["Sega Mega Drive"]
+String dst = "A:/out"
+List systems = ["Nintendo Game Boy Advance"]
 
-new Operations(new HyperSpin(
-        "D:/Games/HyperSpin-fe",
-        "D:/Games/RocketLauncher")).moveRomsTo([Operations.EXISTS], dst, systems)
+new RomFileOperations(new HyperSpin("A:/RocketLauncher")).moveRomsTo(dst, [Operations.EXISTS], systems)
 
 
