@@ -24,14 +24,34 @@ class Operations {
     static Closure MISSING = { CheckRomResult checkRomResult, RomDatabase romNode -> !checkRomResult.rom.exeFileFound }
     static Closure EXISTS = { CheckRomResult checkRomResult, RomDatabase romNode -> checkRomResult.rom.exeFileFound }
 
-    static Closure NO_VIDEO = { CheckRomResult checkRomResult, RomDatabase romNode -> !checkRomResult.videos }
+    static Closure NO_VIDEO = { CheckRomResult checkRomResult, RomDatabase romNode ->
+        !checkRomResult.videos
+    }
     static Closure WITH_VIDEO = { CheckRomResult checkRomResult, RomDatabase romNode -> checkRomResult.videos }
 
-    static Closure NO_WHEEL = { CheckRomResult checkRomResult, RomDatabase romNode -> !checkRomResult.wheels }
+    static Closure NO_WHEEL = { CheckRomResult checkRomResult, RomDatabase romNode ->
+        !checkRomResult.wheels
+    }
     static Closure WITH_WHEEL = { CheckRomResult checkRomResult, RomDatabase romNode -> checkRomResult.wheels }
 
     static Closure NO_THEME = { CheckRomResult checkRomResult, RomDatabase romNode -> !checkRomResult.themes }
     static Closure WITH_THEME = { CheckRomResult checkRomResult, RomDatabase romNode -> checkRomResult.themes }
+
+    private boolean none(List<Closure> conditions, CheckRomResult checkRomResult, RomDatabase romNode = null) {
+        !any(conditions, checkRomResult, romNode)
+    }
+
+    private boolean any(List<Closure> conditions, CheckRomResult checkRomResult, RomDatabase romNode = null) {
+        return conditions.any { Closure condition ->
+            if (condition.maximumNumberOfParameters == 2) {
+                return condition.call(checkRomResult, romNode)
+            } else if (condition.maximumNumberOfParameters == 1) {
+                return condition.call(checkRomResult)
+            } else {
+                throw new IllegalArgumentException("Condition must have one or two parameters")
+            }
+        }
+    }
 
     void extractFromDatabase(String newFileSuffix, List<Closure> conditions, List systems = null) {
         new Checker(hs).
@@ -39,16 +59,9 @@ class Operations {
                 addHandler(new DatabaseTransformer() {
                     @Override
                     void romNodeChecked(CheckRomResult checkRomResult, RomDatabase romNode) {
-                        // limpia los juegos que no cumplen la condicion
-                        if (!conditions.any { Closure condition ->
-                            if (condition.maximumNumberOfParameters == 2) {
-                                return condition.call(checkRomResult, romNode)
-                            } else if (condition.maximumNumberOfParameters == 1) {
-                                return condition.call(checkRomResult)
-                            } else {
-                                throw new IllegalArgumentException("Condition must have one or two parameters")
-                            }
-                        }) {
+                        // elimina los juegos que no cumplen ninguna condicion para dejar en
+                        // la base de datos que se va a salvar con el nuevo nombre los que si la cumplen
+                        if (none(conditions, checkRomResult, romNode)) {
                             romNode.remove()
                         }
                     }
@@ -67,9 +80,9 @@ class Operations {
                 addHandler(new DatabaseTransformer() {
                     @Override
                     void romNodeChecked(CheckRomResult checkRomResult, RomDatabase romNode) {
-                        // limpia los juegos que no cumplen la condicion
-                        if (!conditions.any { call(checkRomResult, romNode) }) {
-                            romNode.remove()
+                        // elimina los juegos que cumplen la condicion
+                        if (any(conditions, checkRomResult, romNode)) {
+                            println "Deleteing ${checkRomResult.romName}" // romNode.remove()
                         }
                     }
 
@@ -81,16 +94,37 @@ class Operations {
                 checkSystems(systems)
     }
 
+    void addSuffixToRomName(List<Closure> conditions, String suffix, List systems = null) {
+        Closure<File> addSuffix = { File exe ->
+            exe.renameTo(new File(exe.toString()+suffix))
+        }
+        executeRomAction(conditions, addSuffix, systems)
+    }
+
+    void deleteRoms(List<Closure> conditions, List systems = null) {
+        Closure<File> delete = { File exe ->
+            exe.delete()
+        }
+        executeRomAction(conditions, delete, systems)
+    }
+
     void moveRomsTo(List<Closure> conditions, String dst, List systems = null) {
+        Closure<File> moveTo = { File exe ->
+            IOTools.move(exe, new File(dst, exe.name))
+        }
+        executeRomAction(conditions, moveTo, systems)
+    }
+
+    void executeRomAction(List<Closure> conditions, Closure<File> action, List systems = null) {
         new Checker(hs).
                 addHandler(new HumanInfo(false)).
                 addHandler(new BaseCheckHandler() {
                     @Override
-                    void romChecked(CheckRomResult checkResult) {
-                        if (!conditions.any { call(checkResult) }) {
-                            File exe = checkResult.rom.exeFileFound
+                    void romChecked(CheckRomResult checkRomResult) {
+                        if (any(conditions, checkRomResult)) {
+                            File exe = checkRomResult.rom.exeFileFound
                             if (exe && exe.exists()) {
-                                IOTools.move(exe, new File(dst, exe.name))
+                                action.call(exe)
                             }
                         }
                     }
@@ -104,7 +138,7 @@ class Operations {
                 addHandler(new DatabaseTransformer() {
                     @Override
                     void romNodeChecked(CheckRomResult checkRomResult, RomDatabase romNode) {
-                        if (!conditions.any{it.call(checkRomResult)}) {
+                        if (none(conditions, checkRomResult, romNode)) {
                             romNode.remove()
                         }
                     }
@@ -118,7 +152,7 @@ class Operations {
                 addHandler(new DatabaseTransformer() {
                     @Override
                     void romNodeChecked(CheckRomResult checkRomResult, RomDatabase romNode) {
-                        if (conditions.any{it.call(checkRomResult)}) {
+                        if (any(conditions, checkRomResult, romNode)) {
                             romNode.remove()
                         }
                     }
