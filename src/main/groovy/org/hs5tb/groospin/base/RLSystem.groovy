@@ -188,7 +188,7 @@ class RLSystem {
     }
 
     List allowedMediaRomThemes() {
-        return listRomNames().collect { it+".zip"}
+        return (listRomNames()+["default"]).collect { it+".zip"}
     }
 
     List allowedMediaRomMusic() {
