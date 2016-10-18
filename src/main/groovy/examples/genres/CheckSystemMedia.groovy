@@ -1,4 +1,4 @@
-package examples
+package examples.genres
 
 import org.hs5tb.groospin.base.HyperSpin
 
