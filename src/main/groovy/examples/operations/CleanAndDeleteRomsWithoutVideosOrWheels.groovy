@@ -9,10 +9,11 @@ def spin = new HyperSpin("A:/RocketLauncher")
 
 def systems = spin.listSystems().findAll { it.defaultEmulator.name == "RetroArch"}*.name
 
+// Borra los juegos (la rom y del xml) que no tengan video ni wheel. Si tiene video o wheel los deja
 
 // Primero se añade un sufijo a las roms que no tienen video ni wheel
 RomFileOperations romOperations = new RomFileOperations(spin)
-// romOperations.addSuffixToRomName(".delete", [Operations.NO_VIDEO, Operations.NO_WHEEL], systems)
+romOperations.addSuffixToRomName(".delete", [Operations.NO_VIDEO, Operations.NO_WHEEL], systems)
 
 // Despues se elimina de la base de datos todos los juegos que no tienen video ni wheel
 DatabaseOperations dbOperations = new DatabaseOperations(spin)
