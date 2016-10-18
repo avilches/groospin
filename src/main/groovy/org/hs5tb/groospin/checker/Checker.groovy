@@ -92,8 +92,12 @@ class Checker {
     }
 
     long calculateMediaPathSize(RLSystem system) {
-        if (calculateMediaSize == null) {
-            calculateMediaSize = handlers ? handlers.any { it.needsMediaFolderSize() } : false
+        if (calculateRomSize == null) {
+            CheckHandler checkHandler = handlers.find { it.needsMediaFolderSize() }
+            if (checkHandler) {
+                // println "Calculate media path size ordered by ${checkHandler}"
+                calculateRomSize = true
+            }
         }
         if (calculateMediaSize) {
             return IOTools.folderSize(hyperSpin.findHyperSpinFile("Media/${system.name}"))
@@ -103,7 +107,11 @@ class Checker {
 
     long calculateRomPathSize(RLSystem system) {
         if (calculateRomSize == null) {
-            calculateRomSize = handlers ? handlers.any { it.needsRomFolderSize() } : false
+            CheckHandler checkHandler = handlers.find { it.needsRomFolderSize() }
+            if (checkHandler) {
+                // println "Calculate rom path size ordered by ${checkHandler}"
+                calculateRomSize = true
+            }
         }
         long totalSize = 0
         if (calculateRomSize) {
