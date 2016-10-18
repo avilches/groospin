@@ -22,23 +22,24 @@ class RomFileOperations extends Operations {
 
     void addSuffixToRomName(String suffix, List<Closure> conditions, List systems = null) {
         executeRomAction(conditions, systems) { File exe ->
-            String newFileName = exe.toString()+suffix
-            log("Renaming to ${newFileName}")
-            //exe.renameTo(new File(newFileName))
+            String newFileName = exe.canonicalPath.toString()+suffix
+            log("(${simulation?"simulation":"real"}) Adding sufix. Final name ${newFileName}")
+            if (!simulation) exe.renameTo(new File(newFileName))
         }
     }
 
     void deleteRoms(List<Closure> conditions, List systems = null) {
         executeRomAction(conditions, systems) { File exe ->
-            log("Deleting ${exe.absolutePath}")
-            exe.delete()
+            log("(${simulation?"simulation":"real"}) Deleting ${exe.canonicalPath}")
+            if (!simulation) exe.delete()
         }
     }
 
     void moveRomsTo(String dst, List<Closure> conditions, List systems = null) {
         executeRomAction(conditions, systems) { File exe ->
-            log("Moving ${exe.absolutePath} to ${dst}")
-            IOTools.move(exe, new File(dst, exe.name))
+            File newFile = new File(dst, exe.name)
+            log("(${simulation?"simulation":"real"}) Moving to ${newFile}")
+            if (!simulation) IOTools.move(exe, newFile)
         }
     }
 
@@ -47,7 +48,7 @@ class RomFileOperations extends Operations {
                 addHandler(new BaseCheckHandler() {
                     @Override
                     void startSystem(RLSystem system) {
-                        log(system.name)
+                        log("Processing ${system.name}. Simulation: ${simulation}")
                     }
 
                     @Override

@@ -28,7 +28,7 @@ class DatabaseOperations extends Operations {
                     @Override
                     void startSystem(RLSystem system) {
                         super.startSystem(system)
-                        log(system.name)
+                        log("Processing ${system.name}. Simulation: ${simulation})")
                     }
 
                     @Override
@@ -38,15 +38,15 @@ class DatabaseOperations extends Operations {
                         if (none(conditions, checkRomResult, romNode)) {
                             romNode.remove()
                         } else {
-                            log("Deleting from db ${checkRomResult.romName}...")
+                            log("(${simulation?"simulation":"real"}) Deleting from db ${checkRomResult.romName}...")
                         }
                     }
 
                     @Override
                     void endDatabaseUpdate(CheckTotalResult checkResult) {
                         String newDatabase = "${checkResult.systemName}${newFileSuffix}.xml"
-                        log("Saved new database ${newDatabase}")
-                        saveDatabaseTo(newDatabase, verbose)
+                        log("(${simulation?"simulation":"real"}) Saved new database ${newDatabase}")
+                        if (!simulation) saveDatabaseTo(newDatabase, verbose)
                     }
                 }).
                 checkSystems(systems)
@@ -58,14 +58,14 @@ class DatabaseOperations extends Operations {
                     @Override
                     void startSystem(RLSystem system) {
                         super.startSystem(system)
-                        log(system.name)
+                        log("Processing ${system.name}. Simulation: ${simulation})")
                     }
 
                     @Override
                     void romNodeChecked(CheckRomResult checkRomResult, RomDatabase romNode) {
                         // elimina los juegos que cumplen la condicion para luego salvarla (creando un backup)
                         if (any(conditions, checkRomResult, romNode)) {
-                            println "Deleting from db ${checkRomResult.romName}..."
+                            log("(${simulation?"simulation":"real"}) Deleting from db ${checkRomResult.romName}...")
                             romNode.remove()
                         }
                     }
@@ -73,8 +73,8 @@ class DatabaseOperations extends Operations {
                     @Override
                     void endDatabaseUpdate(CheckTotalResult checkResult) {
                         String newDatabase = "${checkResult.systemName}${backupSuffix}.xml"
-                        log("Database saved. Backup: ${newDatabase}")
-                        backupOriginalDatabaseAndSave(newDatabase, verbose)
+                        log("(${simulation?"simulation":"real"}) Database saved. Backup: ${newDatabase}")
+                        if (!simulation) backupOriginalDatabaseAndSave(newDatabase, verbose)
                     }
                 }).
                 checkSystems(systems)
@@ -85,17 +85,26 @@ class DatabaseOperations extends Operations {
                 addHandler(new HumanInfo(false)).
                 addHandler(new DatabaseTransformer() {
                     @Override
+                    void startSystem(RLSystem system) {
+                        super.startSystem(system)
+                        log("Processing ${system.name}. Simulation: ${simulation})")
+                    }
+                    @Override
                     void romNodeChecked(CheckRomResult checkRomResult, RomDatabase romNode) {
                         // Borro las que no cumplen la condición para quedarme con las que la cumplen y guardarlas
                         if (none(conditions, checkRomResult, romNode)) {
                             romNode.remove()
-                            log("${suffixNo}: ${romNode.name}")
+                            log("(${simulation?"simulation":"real"}) ${suffixNo}: ${romNode.name}")
                         }
                     }
 
                     @Override
                     void endDatabaseUpdate(CheckTotalResult checkResult) {
-                        saveDatabaseTo("${checkResult.systemName}${suffixYes}.xml", verbose)
+                        if (!simulation) {
+                            String newDatabase = "${checkResult.systemName}${suffixYes}.xml"
+                            log("(${simulation?"simulation":"real"}) Saved new database ${newDatabase}")
+                            saveDatabaseTo(newDatabase, verbose)
+                        }
                     }
 
                 }).
@@ -105,13 +114,17 @@ class DatabaseOperations extends Operations {
                         // Borro las que si cumplen la condición para quedarme con las que no la cumplen y guardarlas
                         if (any(conditions, checkRomResult, romNode)) {
                             romNode.remove()
-                            log("${suffixYes}: ${romNode.name}")
+                            log("(${simulation?"simulation":"real"}) ${suffixYes}: ${romNode.name}")
                         }
                     }
 
                     @Override
                     void endDatabaseUpdate(CheckTotalResult checkResult) {
-                        saveDatabaseTo("${checkResult.systemName}${suffixNo}.xml", verbose)
+                        if (!simulation) {
+                            String newDatabase = "${checkResult.systemName}${suffixNo}.xml"
+                            log("(${simulation?"simulation":"real"}) Saved new database ${newDatabase}")
+                            saveDatabaseTo(newDatabase, verbose)
+                        }
                     }
 
                 }).

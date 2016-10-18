@@ -10,6 +10,7 @@ import org.hs5tb.groospin.checker.result.CheckRomResult
 abstract class Operations {
     HyperSpin hyperSpin
     boolean verbose = true
+    boolean simulation = true
 
     Operations(String hyperSpin) {
         this(new HyperSpin(hyperSpin))
