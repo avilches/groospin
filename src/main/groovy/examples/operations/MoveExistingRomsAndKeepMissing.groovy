@@ -5,8 +5,10 @@ import operation.RomFileOperations
 import org.hs5tb.groospin.base.HyperSpin
 
 String dst = "A:/out"
-List systems = ["Nintendo Game Boy Advance"]
+List systems = ["Sega Mark III"]
 
-new RomFileOperations(new HyperSpin("A:/RocketLauncher")).moveRomsTo(dst, [Operations.EXISTS], systems)
+RomFileOperations operations = new RomFileOperations(new HyperSpin("A:/RocketLauncher"))
+operations.simulation = false
+operations.moveRomsTo(dst, [Operations.EXISTS], systems)
 
 

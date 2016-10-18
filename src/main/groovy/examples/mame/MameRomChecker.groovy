@@ -36,7 +36,8 @@ class MameRomChecker2 {
             File folder = new File(folderName)
             if (!folder.exists()) return
             folder.eachFileRecurse(groovy.io.FileType.FILES) {
-                if (it.name.endsWith(".zip")) {
+                String name = it.name.toLowerCase()
+                if (name.endsWith(".zip") || name.endsWith(".7z")) {
                     ZipFile zipFile = new ZipFile(it)
                     zipFile.entries().each { ZipEntry zipEntry ->
                         // println "${zipEntry.name}"
