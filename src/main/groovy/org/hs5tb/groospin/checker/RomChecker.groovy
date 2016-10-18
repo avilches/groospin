@@ -56,6 +56,9 @@ class RomChecker {
 
     boolean existsInMedia(boolean log, RLSystem system, String path, List extensions) {
         boolean exists = IOTools.findFileWithExtensions(system.getMediaPath(path), extensions)
+        if (!exists && system.defaultEmulator.name.startsWith("MAME")) {
+            exists = IOTools.findFileWithExtensions(system.hyperSpin.findHyperSpinMediaFolderFor("_MAME/$path"), extensions)
+        }
         if (!exists && log) {
             //println "Missing ${system.name}:$path.[${extensions.join("|")}]"
             // new File("d:\\Games\\Roms\\MEGADRIVE NO video\\${new File(path).name}.txt").text = ""
