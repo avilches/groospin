@@ -15,7 +15,7 @@ abstract class ZipUtils {
 
     @CompileStatic
     static OutputStream writeZip(OutputStream os, @DelegatesTo(ZipBuilder) final Closure closure) {
-        new ZipOutputStream(os).withStream { OutputStream zipOutputStream ->
+        new ZipOutputStream(os).withStream { ZipOutputStream zipOutputStream ->
             new ZipBuilder(zipOutputStream: (ZipOutputStream)zipOutputStream).with(closure)
         }
         return os
