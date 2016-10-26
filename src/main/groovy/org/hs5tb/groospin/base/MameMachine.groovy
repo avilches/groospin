@@ -4,7 +4,7 @@ package org.hs5tb.groospin.base
  */
 class MameMachine extends Rom {
 
-    class RomBin {
+    static class RomBin {
         String name
         int size
         String merge
@@ -13,16 +13,19 @@ class MameMachine extends Rom {
         Status status = Status.good
         boolean optional = false
 
-        enum Status { nodump, baddump, good }
+        enum Status { nodump, baddump, good
+            static names = values()*.name() as Set
+        }
 
         RomBin load(Node node) {
-            name = node.@name
+            name = node.@name.trim()
+            merge = node.@merge?.trim()
             size = (node.@size?:0) as int
             sha1 = node.@sha1
             crc = node.@crc
             merge = node.@merge
-            if (node.@name && node.@name in RomBin.Status.values()) {
-                status = RomBin.Status."${node.@name}"
+            if (node.@status && node.@status in RomBin.Status.names) {
+                status = RomBin.Status."${node.@status}"
             }
             optional = node.@optional == "true"
             return this
@@ -43,8 +46,8 @@ class MameMachine extends Rom {
 
     String romof
 
-    Set roms = new HashSet()
-    Set disks = new HashSet()
+    Set<RomBin> roms = new HashSet<>()
+    Set<RomBin> disks = new HashSet<>()
 
     int players
     int buttons
@@ -89,35 +92,35 @@ class MameMachine extends Rom {
         description = machine.description.text()
         manufacturer = machine.manufacturer.text()
         year = machine.year.text()
-        players = (machine.input[0].@players?:0) as int
-        buttons = (machine.input[0].@buttons?:0) as int
-        driverStatus = machine.driver[0].@status
-        emulationStatus = machine.driver[0].@emulation
-        colorStatus = machine.driver[0].@color
-        soundStatus = machine.driver[0].@sound
-        graphicStatus = machine.driver[0].@graphic
+        players = (machine.input[0]?.@players?:0) as int
+        buttons = (machine.input[0]?.@buttons?:0) as int
+        driverStatus = machine.driver[0]?.@status
+        emulationStatus = machine.driver[0]?.@emulation
+        colorStatus = machine.driver[0]?.@color
+        soundStatus = machine.driver[0]?.@sound
+        graphicStatus = machine.driver[0]?.@graphic
 
-        controls = machine.input[0].control.@type
+        controls = machine.input[0]?.control?.@type
 
-        joy = controls.contains("joy")
-        stick = controls.contains("stick")
-        doublejoy = controls.contains("doublejoy")
+        joy = controls?.contains("joy")
+        stick = controls?.contains("stick")
+        doublejoy = controls?.contains("doublejoy")
 
-        lightgun = controls.contains("lightgun")
+        lightgun = controls?.contains("lightgun")
 
-        paddle = controls.contains("paddle")
-        dial = controls.contains("dial")
-        pedal = controls.contains("pedal")
+        paddle = controls?.contains("paddle")
+        dial = controls?.contains("dial")
+        pedal = controls?.contains("pedal")
 
-        trackball = controls.contains("trackball")
-        mouse = controls.contains("mouse")
+        trackball = controls?.contains("trackball")
+        mouse = controls?.contains("mouse")
 
-        keypad = controls.contains("keypad")
-        keyboard = controls.contains("keyboard")
+        keypad = controls?.contains("keypad")
+        keyboard = controls?.contains("keyboard")
 
-        gambling = controls.contains("gambling")
-        mahjong = controls.contains("mahjong")
-        hanafuda = controls.contains("hanafuda")
+        gambling = controls?.contains("gambling")
+        mahjong = controls?.contains("mahjong")
+        hanafuda = controls?.contains("hanafuda")
 
         int rotate = (machine.display[0]?.@rotate?:0) as int
         vertical = rotate == 90 || rotate == 270
