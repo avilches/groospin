@@ -12,6 +12,9 @@ import groovy.io.FileType
 import java.nio.file.Files
 import java.nio.file.Path
 import java.nio.file.Paths
+import java.security.DigestInputStream
+import java.security.MessageDigest
+import java.util.zip.CRC32
 
 class IOTools {
     static File tryRelativeFrom(File root, String path) {
@@ -126,4 +129,24 @@ class IOTools {
         }
         */
     }
+
+    static String crc(InputStream is) {
+        CRC32 crc = new CRC32()
+        crc.update(is.bytes)
+        return Integer.toHexString((int)crc.value).padLeft(8, "0")
+
+    }
+
+    static String sha1(InputStream is) {
+        MessageDigest md = MessageDigest.getInstance("SHA1")
+        byte[] buffer = new byte[8192]
+        DigestInputStream dis = new DigestInputStream(is, md)
+        try {
+            while (dis.read(buffer) != -1);
+        } finally{
+            dis.close()
+        }
+        return new BigInteger(1, md.digest()).toString(16).toLowerCase()
+    }
+
 }
