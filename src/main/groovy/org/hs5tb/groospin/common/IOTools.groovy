@@ -99,6 +99,9 @@ class IOTools {
         return null
     }
 
+    static String getExtension(String filename) {
+        return filename.lastIndexOf('.').with {it != -1 ? filename.substring(it+1) : filename}
+    }
     static String getFilenameWithoutExtension(String filename) {
         return filename.lastIndexOf('.').with {it != -1 ? filename[0..<it] : filename}
     }
