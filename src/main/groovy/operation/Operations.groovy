@@ -1,7 +1,7 @@
 package operation
 
 import org.hs5tb.groospin.base.HyperSpin
-import org.hs5tb.groospin.checker.handlers.RomDatabase
+import org.hs5tb.groospin.checker.handlers.XmlRom
 import org.hs5tb.groospin.checker.result.CheckRomResult
 
 /**
@@ -23,24 +23,24 @@ abstract class Operations {
         if (verbose) println(log)
     }
 
-    static Closure IS_CLONE = { CheckRomResult checkRomResult, RomDatabase romNode -> romNode.cloneof }
-    static Closure MISSING = { CheckRomResult checkRomResult, RomDatabase romNode -> !checkRomResult.rom.exeFileFound }
-    static Closure EXISTS = { CheckRomResult checkRomResult, RomDatabase romNode -> checkRomResult.rom.exeFileFound }
+    static Closure IS_CLONE = { CheckRomResult checkRomResult, XmlRom romNode -> romNode.cloneof }
+    static Closure MISSING = { CheckRomResult checkRomResult, XmlRom romNode -> !checkRomResult.rom.exeFileFound }
+    static Closure EXISTS = { CheckRomResult checkRomResult, XmlRom romNode -> checkRomResult.rom.exeFileFound }
 
-    static Closure NO_VIDEO = { CheckRomResult checkRomResult, RomDatabase romNode -> !checkRomResult.videos }
-    static Closure WITH_VIDEO = { CheckRomResult checkRomResult, RomDatabase romNode -> checkRomResult.videos }
+    static Closure NO_VIDEO = { CheckRomResult checkRomResult, XmlRom romNode -> !checkRomResult.videos }
+    static Closure WITH_VIDEO = { CheckRomResult checkRomResult, XmlRom romNode -> checkRomResult.videos }
 
-    static Closure NO_WHEEL = { CheckRomResult checkRomResult, RomDatabase romNode -> !checkRomResult.wheels }
-    static Closure WITH_WHEEL = { CheckRomResult checkRomResult, RomDatabase romNode -> checkRomResult.wheels }
+    static Closure NO_WHEEL = { CheckRomResult checkRomResult, XmlRom romNode -> !checkRomResult.wheels }
+    static Closure WITH_WHEEL = { CheckRomResult checkRomResult, XmlRom romNode -> checkRomResult.wheels }
 
-    static Closure NO_THEME = { CheckRomResult checkRomResult, RomDatabase romNode -> !checkRomResult.themes }
-    static Closure WITH_THEME = { CheckRomResult checkRomResult, RomDatabase romNode -> checkRomResult.themes }
+    static Closure NO_THEME = { CheckRomResult checkRomResult, XmlRom romNode -> !checkRomResult.themes }
+    static Closure WITH_THEME = { CheckRomResult checkRomResult, XmlRom romNode -> checkRomResult.themes }
 
-    protected boolean none(List<Closure> conditions, CheckRomResult checkRomResult, RomDatabase romNode = null) {
+    protected boolean none(List<Closure> conditions, CheckRomResult checkRomResult, XmlRom romNode = null) {
         !any(conditions, checkRomResult, romNode)
     }
 
-    protected boolean any(List<Closure> conditions, CheckRomResult checkRomResult, RomDatabase romNode = null) {
+    protected boolean any(List<Closure> conditions, CheckRomResult checkRomResult, XmlRom romNode = null) {
         return conditions.any { Closure condition ->
             if (condition.maximumNumberOfParameters == 2) {
                 return condition.call(checkRomResult, romNode)

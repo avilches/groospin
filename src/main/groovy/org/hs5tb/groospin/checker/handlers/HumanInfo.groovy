@@ -15,6 +15,8 @@ class HumanInfo extends BaseCheckHandler {
     private FileBuffer humanReportFile = new FileBuffer()
     Boolean folderSize
     Integer systems = 0
+    boolean inverse = false
+    boolean absolute = true
 
     HumanInfo() {}
 
@@ -79,7 +81,15 @@ class HumanInfo extends BaseCheckHandler {
     }
 
     void drawLine(String title, CheckTotalResult checkResult) {
-        humanReportFile << prt("${title.padRight(40, " ")} roms: ${checkResult.exes.toString().padRight(4," ")}/${checkResult.totalRoms.toString().padRight(4," ")} w/v/t: ${"${checkResult.wheels}/${checkResult.videos}/${checkResult.themes}".padRight(14," ")} artwork: ${"${checkResult.artwork1}/${checkResult.artwork2}/${checkResult.artwork3}/${checkResult.artwork4}".padRight(19," ")} - roms ${humanReadableByteSize(checkResult.totalRomSize).padLeft(8, " ")} - size ${humanReadableByteSize(checkResult.totalMediaSize).padLeft(8, " ")}")
+        if (inverse) {
+            humanReportFile << prt("${title.padRight(40, " ")} roms: ${(checkResult.totalRoms-checkResult.exes).toString().padRight(4," ")}/${checkResult.totalRoms.toString().padRight(4," ")} w/v/t: ${"${checkResult.totalRoms-checkResult.wheels}/${checkResult.totalRoms-checkResult.videos}/${checkResult.totalRoms-checkResult.themes}".padRight(14," ")} artwork: ${"${checkResult.totalRoms-checkResult.artwork1}/${checkResult.totalRoms-checkResult.artwork2}/${checkResult.totalRoms-checkResult.artwork3}/${checkResult.totalRoms-checkResult.artwork4}".padRight(19," ")} - roms ${humanReadableByteSize(checkResult.totalRomSize).padLeft(8, " ")} - size ${humanReadableByteSize(checkResult.totalMediaSize).padLeft(8, " ")}")
+        } else {
+            if (absolute) {
+                humanReportFile << prt("${title.padRight(40, " ")} roms: ${checkResult.exes.toString().padRight(4," ")}/${checkResult.totalRoms.toString().padRight(4," ")} w/v/t: ${"${checkResult.wheels}/${checkResult.videos}/${checkResult.themes}".padRight(14," ")} artwork: ${"${checkResult.artwork1}/${checkResult.artwork2}/${checkResult.artwork3}/${checkResult.artwork4}".padRight(19," ")} - roms ${humanReadableByteSize(checkResult.totalRomSize).padLeft(8, " ")} - size ${humanReadableByteSize(checkResult.totalMediaSize).padLeft(8, " ")}")
+            } else {
+                humanReportFile << prt("${title.padRight(40, " ")} roms: ${checkResult.exes.toString().padRight(4," ")}/${checkResult.totalRoms.toString().padRight(4," ")} w/v/t: ${"${checkResult.wheels}/${checkResult.videos}/${checkResult.themes}".padRight(14," ")} artwork: ${"${checkResult.artwork1}/${checkResult.artwork2}/${checkResult.artwork3}/${checkResult.artwork4}".padRight(19," ")} - roms ${humanReadableByteSize(checkResult.totalRomSize).padLeft(8, " ")} - size ${humanReadableByteSize(checkResult.totalMediaSize).padLeft(8, " ")}")
+            }
+        }
     }
 
     @Override
