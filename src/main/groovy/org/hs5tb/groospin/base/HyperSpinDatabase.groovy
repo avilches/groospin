@@ -45,7 +45,7 @@ class HyperSpinDatabase {
         return this
     }
 
-    HyperSpinDatabase export(File file, Map headers = this.properties) {
+    HyperSpinDatabase export(File file = db, Map headers = this.properties) {
         write(roms, file, headers)
         return this
     }
