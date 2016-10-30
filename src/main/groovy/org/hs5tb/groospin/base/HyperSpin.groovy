@@ -60,7 +60,7 @@ class HyperSpin {
         String rom_Path = systemIni.get("ROMS", "Rom_Path")
         String default_emulator = systemIni.get("ROMS", "Default_Emulator")
 
-        List romPathList = rom_Path?.split("\\|")?.collect { String romPathString -> IOTools.tryRelativeFrom(rlRoot, romPathString) } ?: []
+        List romPathList = rom_Path?.split("\\|")?.collect { String romPathString -> findRocketLauncherFile(romPathString) } ?: []
 
         File alternativeEmulatorConfig = findRocketLauncherFile("Settings/${systemName}/Games.ini")
         Map alternativeEmulators = [:]
@@ -88,7 +88,7 @@ class HyperSpin {
         String iniEmuPath = emulatorConfig['Emu_Path']
         String iniRomExtension = emulatorConfig['Rom_Extension']
         String module = emulatorConfig['Module']
-        File emuPath = iniEmuPath ? IOTools.tryRelativeFrom(rlRoot, iniEmuPath) : null
+        File emuPath = iniEmuPath ? findRocketLauncherFile(iniEmuPath) : null
         List romExtensions = iniRomExtension?.split("\\|")?.collect { String ext -> ext.trim().toLowerCase() } ?: []
         RLEmulator emulator = new RLEmulator(name: name, iniEmuPath: iniEmuPath,
                 iniRomExtension: iniRomExtension, emuPath: emuPath, romExtensions: romExtensions, module: module)
@@ -98,7 +98,7 @@ class HyperSpin {
 
     HyperSpinDatabase loadHyperSpinDatabase(String systemName, Closure filter = null) {
         File db = findSystemDatabaseFile(systemName)
-        if (!db.exists()) {
+        if (db.exists()) {
             return new HyperSpinDatabase().load(db, filter)
         }
         return null
