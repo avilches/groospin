@@ -41,7 +41,7 @@ new Checker(hs).
         addHandler(new AllRomsCsvList("${reportRoot}/roms.csv", ";")).
         addHandler(new SystemCsvList("${reportRoot}/systems.csv", ";")).
         addHandler(new MainWebSite("${reportRoot}/website", true)).
-        checkSystemGroup(systemIndexGroup)
+        checkSystemGroup(systemIndexGroup.sort())
 
 ZipUtils.zip(["${reportRoot}/all.html", "${reportRoot}/roms.csv", "${reportRoot}/systems.csv"].collect { new File(it) }, new File(reportRoot, "listado.zip"))
 
