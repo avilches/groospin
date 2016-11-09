@@ -92,11 +92,11 @@ class Checker {
     }
 
     long calculateMediaPathSize(RLSystem system) {
-        if (calculateRomSize == null) {
+        if (calculateMediaSize == null) {
             CheckHandler checkHandler = handlers.find { it.needsMediaFolderSize() }
             if (checkHandler) {
                 // println "Calculate media path size ordered by ${checkHandler}"
-                calculateRomSize = true
+                calculateMediaSize = true
             }
         }
         if (calculateMediaSize) {
