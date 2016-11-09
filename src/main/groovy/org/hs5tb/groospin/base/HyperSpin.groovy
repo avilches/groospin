@@ -175,6 +175,14 @@ check(systemName, getGamesFromSystem(systemName))
         findRocketLauncherFile("RocketLauncher.exe")
     }
 
+    IniFile loadRocketLauncherIni(String path) {
+        File file = findRocketLauncherFile(path)
+        if (file.exists()) {
+            return new IniFile().parse(file)
+        }
+        return null
+    }
+
     IniFile loadHyperSpinSettings(String filename) {
         File file = findHyperSpinFile("Settings/${filename}.ini")
         if (file.exists()) {
@@ -211,6 +219,20 @@ check(systemName, getGamesFromSystem(systemName))
     void withHyperSpinSettings(List filenames, Closure action) {
         filenames.each { String filename ->
             IniFile ini = loadHyperSpinSettings(filename)
+            if (ini) {
+                if (action.maximumNumberOfParameters == 1) {
+                    action.call(ini)
+                } else {
+                    action.call(filename, ini)
+                }
+
+            }
+        }
+    }
+
+    void withRocketLauncherInis(List filenames, Closure action) {
+        filenames.each { String filename ->
+            IniFile ini = loadRocketLauncherIni(filename)
             if (ini) {
                 if (action.maximumNumberOfParameters == 1) {
                     action.call(ini)

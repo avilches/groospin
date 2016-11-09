@@ -13,18 +13,27 @@ HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
 
 // hs.changeHyperSpinSettings("AAE", "exe info", "hola", "que tal4")
 
+
+
+hs.withRocketLauncherInis(hs.listSystemNames().collect { "Settings/$it/RocketLauncher.ini"} ) { String fi, IniFile ini ->
+    println fi+" "+ini.get("Keymapper", "Keymapper_Enabled")
+
+
+}
+
+
 hs.withHyperSpinAllSystemSettings { String filename, IniFile ini ->
 
-    ini.put("navigation", "use_last_game", "true")
-    ini.put("navigation", "random_game", "false")
-
-    ini.put("themes", "use_parent_vids", "true")
-    ini.put("themes", "use_parent_themes", "true")
-
-    ini.put("filters", "parents_only", "false")
-    ini.put("filters", "themes_only", "false")
-    ini.put("filters", "wheels_only", "false")
-    ini.put("filters", "roms_only", "false")
+//    ini.put("navigation", "use_last_game", "true")
+//    ini.put("navigation", "random_game", "false")
+//
+//    ini.put("themes", "use_parent_vids", "true")
+//    ini.put("themes", "use_parent_themes", "true")
+//
+//    ini.put("filters", "parents_only", "false")
+//    ini.put("filters", "themes_only", "false")
+//    ini.put("filters", "wheels_only", "false")
+//    ini.put("filters", "roms_only", "false")
 
     if (ini.dirty) ini.store()
 
