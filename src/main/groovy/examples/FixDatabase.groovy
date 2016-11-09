@@ -7,6 +7,12 @@ import org.hs5tb.groospin.base.Rom
 
 HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
 
+// Fix one database
+HyperSpinDatabase.rewriteDatabase(hs.getSystem("Nintendo Wii U").loadHyperSpinDatabase(), null, { Rom rom -> rom.genre })
+
+return
+
+// Fix all
 
 // ["Castlevania Collection", "Commodore CDTV", "Microsoft MS-DOS"].collect { hs.getSystem(it) }.each { RLSystem system ->
 // ["Sony PSP Minis", "Sega Ages" , "Super Nintendo Entertainment System"].collect { hs.getSystem(it) }.each { RLSystem system ->

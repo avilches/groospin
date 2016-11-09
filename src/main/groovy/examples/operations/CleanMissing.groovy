@@ -3,6 +3,8 @@ package examples.operations
 import operation.DatabaseOperations
 import operation.Operations
 
-List systems = ["Sega Mega Drive"]
+List systems = ["Nintendo Wii U"]
 
-new DatabaseOperations("D:/Games/RocketLauncher").removeFromDatabase("-with-missing", [Operations.MISSING], systems)
+def operations = new DatabaseOperations("D:/Games/RocketLauncher")
+operations.simulation = false
+operations.removeFromDatabase("-with-missing", [Operations.MISSING], systems)
