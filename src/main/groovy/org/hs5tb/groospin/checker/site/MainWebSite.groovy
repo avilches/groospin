@@ -125,7 +125,7 @@ table#systems tbody td.state {
 </style>
 """
 
-        websiteSystems << "<table id='systems'><thead>\n<tr>\n    <td>#</td><td colspan='3'>Sistema</td><td>Estado</td><td>Roms</td><td>Tamaño</td><td>Wheels</td><td>Video</td><td>Temas</td><td>Tamaño medias</td>\n</tr>\n</thead>\n<tbody>"
+        websiteSystems << "<table id='systems'><thead>\n<tr>\n    <td>#</td><td colspan='2'>Sistema</td><td colspan='2'>Estado</td><td>Roms</td><td>Tamaño</td><td>Wheels</td><td>Video</td><td>Temas</td><td>Tamaño medias</td>\n</tr>\n</thead>\n<tbody>"
     }
 
     SystemWebSite haveHtmlList
@@ -153,8 +153,8 @@ table#systems tbody td.state {
     @Override
     void endSystem(CheckTotalResult checkResult) {
         haveHtmlList.endSystem(checkResult)
-        websiteSystems << "<tr>\n    <td class='n'>${++n}</td><td class='${systemConfig.arcade?'arcadeYes':'arcadeNo'}'>${systemConfig.arcade?arcadeIcon:""}</td><td><img src='${baseImg}${checkResult.system.name}.png' onerror=\"this.style.display='none'\"/></td><td class='system'><a href='/sistemas/${sanitize(checkResult.system.name)}/'>${checkResult.system.name}</a><div class='emu'>${checkResult.system.defaultEmulator.name ?: ""}</div></td>"
-        websiteSystems << "<td class='state ${systemConfig.perfect ? "perfect" : !systemConfig.stable ? "instable" : ""}'>${systemConfig.perfect ? excellentIcon : !systemConfig.stable ? dangerIcon : ""}</td><td class='roms'>${checkResult.totalRoms}</td><td class='romSize'>${humanReadableByteSize(checkResult.totalRomSize)}</td>" +
+        websiteSystems << "<tr>\n    <td class='n'>${++n}</td><td><img src='${baseImg}${checkResult.system.name}.png' onerror=\"this.style.display='none'\"/></td><td class='system'><a href='/sistemas/${sanitize(checkResult.system.name)}/'>${checkResult.system.name}</a><div class='emu'>${checkResult.system.defaultEmulator.name ?: ""}</div></td>"
+        websiteSystems << "<td class='${systemConfig.arcade?'arcadeYes':'arcadeNo'}'>${systemConfig.arcade?arcadeIcon:""}</td><td class='state ${systemConfig.perfect ? "perfect" : !systemConfig.stable ? "instable" : ""}'>${systemConfig.perfect ? excellentIcon : !systemConfig.stable ? dangerIcon : ""}</td><td class='roms'>${checkResult.totalRoms}</td><td class='romSize'>${humanReadableByteSize(checkResult.totalRomSize)}</td>" +
                 "<td class='wheels'>${checkResult.wheels}</td><td class='videos'>${checkResult.videos}</td><td class='themes'>${checkResult.themes}</td><td class='mediaSize'>${humanReadableByteSize(checkResult.totalMediaSize)}</td></tr>"
     }
 
