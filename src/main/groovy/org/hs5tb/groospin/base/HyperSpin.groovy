@@ -51,6 +51,18 @@ class HyperSpin {
     RLSystem getSystem(String systemName) {
         listSystemNames()
         boolean isExecutable = systemName.toLowerCase() in executableSystemNames.collect { it.toLowerCase() }
+        if (isExecutable) {
+            File systemSettingsConfig = findHyperSpinFile("Settings/${systemName}.ini")
+            if (!systemSettingsConfig.file) {
+                throw new FileNotFoundException("HyperSpin settings for ${systemName} not found: ${systemSettingsConfig}")
+            }
+            Ini settings = new IniFile().parse(systemSettingsConfig)
+            String path = settings.get("exe info", "path")
+
+            RLSystem system = new RLSystem(hyperSpin: this, name: systemName, iniRomPath: path, executable: true, romPathsList: [findRocketLauncherFile(path)])
+            return system
+        }
+
         File systemEmulatorConfig = findRocketLauncherFile("Settings/${systemName}/Emulators.ini")
         if (!systemEmulatorConfig.file) {
             throw new FileNotFoundException("RocketLauncher settings for ${systemName} not found: ${systemEmulatorConfig}")
@@ -74,7 +86,7 @@ class HyperSpin {
             }
         }
 
-        RLSystem system = new RLSystem(alternativeEmulators: alternativeEmulators, hyperSpin: this, name: systemName, iniRomPath: rom_Path, executable: isExecutable,
+        RLSystem system = new RLSystem(alternativeEmulators: alternativeEmulators, hyperSpin: this, name: systemName, iniRomPath: rom_Path, executable: false,
                 iniDefaultEmulator: default_emulator, defaultEmulator: findOrCreateEmulator(default_emulator, systemIni.getSection(default_emulator)), romPathsList: romPathList)
         system.loadMapping()
         return system
