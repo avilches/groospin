@@ -11,3 +11,10 @@ operations.simulation = true
 spin.listSystems()*.name.each {
     operations.deleteUnneeded(it)
 }
+
+operations.simulation = true
+// Mueve a una subcarpeta los medias innecesarios
+// (solo de los sistemas no MAME, ya que los MAME pueden estar combinados)
+spin.listSystems().findAll { !it.defaultEmulator.name.startsWith("MAME") }.each {
+    operations.moveMediaSubfolderTo(it)
+}
