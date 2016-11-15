@@ -45,6 +45,54 @@ generateAll(roms, header, "d:/Games/HyperSpin-fe/Databases alternativas/MAME/017
 
 
 void generateAll(List roms, Map header, String dst, String databaseOriginal, Closure filter) {
+
+    // Psikyo
+    DatXmlToHyperSpinXml.store(roms,
+            "${dst}/Psikyo/Psikyo.xml",
+            header + [listname: "Psikyo working"]) { MameMachine rom ->
+        return filter(rom) && rom.working && rom.manufacturer.contains("Psikyo")
+    }
+
+    Comparer.printDifferences(
+            "${dst}/Psikyo/Psikyo.xml",
+            "d:/Games/Soft/GrooSpin/resources/ml/Psikyo.xml")
+
+    // Technos Japan
+    DatXmlToHyperSpinXml.store(roms,
+            "${dst}/Technos Classics/Technos Classics.xml",
+            header + [listname: "Technos Japan working"]) { MameMachine rom ->
+        return filter(rom) && rom.working && rom.manufacturer.contains("Technos Japan")
+    }
+
+    Comparer.printDifferences(
+            "${dst}/Technos Classics/Technos Classics.xml",
+            "d:/Games/Soft/GrooSpin/resources/ml/Technos Classics.xml")
+
+
+    // Shotgun Games
+    DatXmlToHyperSpinXml.store(roms,
+            "${dst}/Shotgun Games/Shotgun Games.xml",
+            header + [listname: "Games with lightgun"]) { MameMachine rom ->
+        return filter(rom) && rom.working && rom.lightgun
+    }
+
+    Comparer.printDifferences(
+            "${dst}/Shotgun Games/Shotgun Games.xml",
+            "d:/Games/Soft/GrooSpin/resources/ml/Shotgun Games.xml")
+
+    // Trackball Games
+    DatXmlToHyperSpinXml.store(roms,
+            "${dst}/Trackball Games/Trackball Games.xml",
+            header + [listname: "Games with lightgun"]) { MameMachine rom ->
+        return filter(rom) && rom.working && rom.hasBall()
+    }
+
+    Comparer.printDifferences(
+            "${dst}/Trackball Games/Trackball Games.xml",
+            "d:/Games/Soft/GrooSpin/resources/ml/Trackball Games.xml")
+
+
+
     // MAME solo working
     DatXmlToHyperSpinXml.store(roms,
             "${dst}/MAME/MAME.xml",

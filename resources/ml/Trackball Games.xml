@@ -1,0 +1,839 @@
+<?xml version="1.0"?>
+<menu>
+	<header>
+		<listname>MAME</listname>
+		<lastlistupdate>07/02/2011</lastlistupdate>
+		<listversion>.143 Ongoing</listversion>
+		<exporterversion>HyperList XML Exporter Version 1.3 Copywrite (c) 2009-2011 William Strong</exporterversion>
+	</header>
+	<game name="horshoes" index="true" image="a">
+		<description>American Horseshoes (US)</description>
+		<cloneof></cloneof>
+		<crc>37e15b20</crc>
+		<manufacturer>Taito America Corporation</manufacturer>
+		<year>1990</year>
+		<genre>Sports/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="amerdart" index="" image="">
+		<description>AmeriDarts (set 1)</description>
+		<cloneof></cloneof>
+		<crc>9628c422</crc>
+		<manufacturer>Ameri</manufacturer>
+		<year>1989</year>
+		<genre>Sports/Pool and Dart/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="arcadecl" index="" image="">
+		<description>Arcade Classics (prototype)</description>
+		<cloneof></cloneof>
+		<crc>b5b93623</crc>
+		<manufacturer>Atari Games</manufacturer>
+		<year>1992</year>
+		<genre>Multiplay/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="argusg" index="" image="">
+		<description>Argus (Gottlieb, prototype)</description>
+		<cloneof></cloneof>
+		<crc>5d35b83e</crc>
+		<manufacturer>Gottlieb</manufacturer>
+		<year>1984</year>
+		<genre>Shooter/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="abaseb" index="" image="">
+		<description>Atari Baseball (set 1)</description>
+		<cloneof></cloneof>
+		<crc>edcfffe8</crc>
+		<manufacturer>Atari</manufacturer>
+		<year>1979</year>
+		<genre>Sports/Baseball/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="atarifb" index="" image="">
+		<description>Atari Football (revision 2)</description>
+		<cloneof></cloneof>
+		<crc>352e35db</crc>
+		<manufacturer>Atari</manufacturer>
+		<year>1978</year>
+		<genre>Sports/Football/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="soccer" index="" image="">
+		<description>Atari Soccer</description>
+		<cloneof></cloneof>
+		<crc>03ec6bce</crc>
+		<manufacturer>Atari</manufacturer>
+		<year>1980</year>
+		<genre>Sports/Soccer/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="ataxx" index="" image="">
+		<description>Ataxx (set 1)</description>
+		<cloneof></cloneof>
+		<crc>e1cf6236</crc>
+		<manufacturer>Leland Corp.</manufacturer>
+		<year>1990</year>
+		<genre>Tabletop/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="bsktball" index="true" image="b">
+		<description>Basketball</description>
+		<cloneof></cloneof>
+		<crc>798cea39</crc>
+		<manufacturer>Atari</manufacturer>
+		<year>1979</year>
+		<genre>Sports/Basketball/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="beezer" index="" image="">
+		<description>Beezer (set 1)</description>
+		<cloneof></cloneof>
+		<crc>3467a0ec</crc>
+		<manufacturer>Tong Electronic</manufacturer>
+		<year>1982</year>
+		<genre>Maze/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="bigevglf" index="" image="">
+		<description>Big Event Golf (US)</description>
+		<cloneof></cloneof>
+		<crc>2a62923d</crc>
+		<manufacturer>Taito America Corporation</manufacturer>
+		<year>1986</year>
+		<genre>Sports/Golf/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="bking" index="" image="">
+		<description>Birdie King</description>
+		<cloneof></cloneof>
+		<crc>d84fe4f7</crc>
+		<manufacturer>Taito Corporation</manufacturer>
+		<year>1982</year>
+		<genre>Sports/Golf/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="bking2" index="" image="">
+		<description>Birdie King 2</description>
+		<cloneof></cloneof>
+		<crc>078ada3f</crc>
+		<manufacturer>Taito Corporation</manufacturer>
+		<year>1983</year>
+		<genre>Sports/Golf/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="bking3" index="" image="">
+		<description>Birdie King 3</description>
+		<cloneof></cloneof>
+		<crc>a0c319a6</crc>
+		<manufacturer>Taito Corporation</manufacturer>
+		<year>1984</year>
+		<genre>Sports/Golf/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="bootcamp" index="" image="">
+		<description>Boot Camp</description>
+		<cloneof>combatsc</cloneof>
+		<crc>c10dca64</crc>
+		<manufacturer>Konami</manufacturer>
+		<year>1987</year>
+		<genre>Sports/Track &amp; Field/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="bowlrama" index="" image="">
+		<description>Bowl-O-Rama</description>
+		<cloneof></cloneof>
+		<crc>7103ad55</crc>
+		<manufacturer>P&amp;P Marketing</manufacturer>
+		<year>1991</year>
+		<genre>Sports/Bowling/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="bowler" index="" image="">
+		<description>Bowling Alley</description>
+		<cloneof></cloneof>
+		<crc>74c29b93</crc>
+		<manufacturer>Midway</manufacturer>
+		<year>1978</year>
+		<genre>Sports/Bowling/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="bullsdrt" index="" image="">
+		<description>Bulls Eye Darts</description>
+		<cloneof></cloneof>
+		<crc>2729f585</crc>
+		<manufacturer>Shinkai Inc. (Magic Eletronics Inc. license)</manufacturer>
+		<year>1985</year>
+		<genre>Sports/Pool and Dart/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="cabalus" index="true" image="c">
+		<description>Cabal (US set 1, Trackball version)</description>
+		<cloneof>cabal</cloneof>
+		<crc>8fe16fb4</crc>
+		<manufacturer>TAD Corporation (Fabtek license)</manufacturer>
+		<year>1988</year>
+		<genre>Shooter/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="capbowl" index="" image="">
+		<description>Capcom Bowling (set 1)</description>
+		<cloneof></cloneof>
+		<crc>14924c96</crc>
+		<manufacturer>Incredible Technologies / Capcom</manufacturer>
+		<year>1988</year>
+		<genre>Sports/Bowling/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="centiped" index="" image="">
+		<description>Centipede (revision 3)</description>
+		<cloneof></cloneof>
+		<crc>5ab0d9de</crc>
+		<manufacturer>Atari</manufacturer>
+		<year>1980</year>
+		<genre>Shooter/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="champbwl" index="" image="">
+		<description>Championship Bowling</description>
+		<cloneof></cloneof>
+		<crc>6c6f7675</crc>
+		<manufacturer>Seta / Romstar Inc.</manufacturer>
+		<year>1989</year>
+		<genre>Sports/Bowling/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="cloud9" index="" image="">
+		<description>Cloud 9 (prototype)</description>
+		<cloneof></cloneof>
+		<crc>b5d95d98</crc>
+		<manufacturer>Atari</manufacturer>
+		<year>1983</year>
+		<genre>Shooter/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="combatsc" index="" image="">
+		<description>Combat School (Japan trackball)</description>
+		<cloneof></cloneof>
+		<crc>d748268e</crc>
+		<manufacturer>Konami</manufacturer>
+		<year>1987</year>
+		<genre>Sports/Track &amp; Field/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="coolpool" index="" image="">
+		<description>Cool Pool</description>
+		<cloneof></cloneof>
+		<crc>aa227769</crc>
+		<manufacturer>Catalina</manufacturer>
+		<year>1992</year>
+		<genre>Sports/Pool and Dart/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="clbowl" index="" image="">
+		<description>Coors Light Bowling</description>
+		<cloneof>capbowl</cloneof>
+		<crc>91e06bc4</crc>
+		<manufacturer>Incredible Technologies / Capcom</manufacturer>
+		<year>1989</year>
+		<genre>Sports/Bowling/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="countryc" index="" image="">
+		<description>Country Club</description>
+		<cloneof></cloneof>
+		<crc>43d205e0</crc>
+		<manufacturer>SNK</manufacturer>
+		<year>1988</year>
+		<genre>Sports/Golf/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="ccastles" index="" image="">
+		<description>Crystal Castles (version 4)</description>
+		<cloneof></cloneof>
+		<crc>81471ae5</crc>
+		<manufacturer>Atari</manufacturer>
+		<year>1983</year>
+		<genre>Maze/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="cubeqst" index="" image="">
+		<description>Cube Quest (01/04/84)</description>
+		<cloneof></cloneof>
+		<crc>870a28f5</crc>
+		<manufacturer>Simutrek</manufacturer>
+		<year>1983</year>
+		<genre>Shooter/Flying/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="dangerz" index="true" image="d">
+		<description>Danger Zone</description>
+		<cloneof></cloneof>
+		<crc>31604634</crc>
+		<manufacturer>Cinematronics</manufacturer>
+		<year>1986</year>
+		<genre>Shooter/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="dunkshot" index="" image="">
+		<description>Dunk Shot (FD1089A 317-0022)</description>
+		<cloneof></cloneof>
+		<crc>29774114</crc>
+		<manufacturer>Sega</manufacturer>
+		<year>1986</year>
+		<genre>Sports/Basketball/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="dynobop" index="" image="">
+		<description>Dyno Bop</description>
+		<cloneof></cloneof>
+		<crc>98452c40</crc>
+		<manufacturer>Grand Products/Incredible Technologies</manufacturer>
+		<year>1990</year>
+		<genre>Miscellaneous/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="exctleag" index="true" image="e">
+		<description>Excite League (FD1094 317-0079)</description>
+		<cloneof></cloneof>
+		<crc>117dd98f</crc>
+		<manufacturer>Sega</manufacturer>
+		<year>1988</year>
+		<genre>Sports/Baseball/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="ebases" index="" image="">
+		<description>Extra Bases</description>
+		<cloneof></cloneof>
+		<crc>34422147</crc>
+		<manufacturer>Midway</manufacturer>
+		<year>1980</year>
+		<genre>Sports/Baseball/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="firebeas" index="true" image="f">
+		<description>Firebeast (prototype)</description>
+		<cloneof></cloneof>
+		<crc>dbd04782</crc>
+		<manufacturer>Atari</manufacturer>
+		<year>1983</year>
+		<genre>Platform/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="galgame2" index="" image="">
+		<description>Galaxy Games StarPak 2</description>
+		<cloneof></cloneof>
+		<crc>e51ff184</crc>
+		<manufacturer>Creative Electronics &amp; Software / Namco</manufacturer>
+		<year>1998</year>
+		<genre>Multiplay/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="gimeabrk" index="" image="">
+		<description>Gimme A Break</description>
+		<cloneof></cloneof>
+		<crc>18cc53db</crc>
+		<manufacturer>Bally/Sente</manufacturer>
+		<year>1985</year>
+		<genre>Sports/Pool and Dart/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="gghost" index="" image="">
+		<description>Goalie Ghost</description>
+		<cloneof></cloneof>
+		<crc>ed0fdeac</crc>
+		<manufacturer>Bally/Sente</manufacturer>
+		<year>1984</year>
+		<genre>Sports/Tennis/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="gt97" index="" image="">
+		<description>Golden Tee &apos;97 (v1.30)</description>
+		<cloneof></cloneof>
+		<crc>7490ba4e</crc>
+		<manufacturer>Incredible Technologies</manufacturer>
+		<year>1997</year>
+		<genre>Sports/Golf/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="gt98" index="" image="">
+		<description>Golden Tee &apos;98 (v1.10)</description>
+		<cloneof></cloneof>
+		<crc>dd93ab2a</crc>
+		<manufacturer>Incredible Technologies</manufacturer>
+		<year>1998</year>
+		<genre>Sports/Golf/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="gt99" index="" image="">
+		<description>Golden Tee &apos;99 (v1.00)</description>
+		<cloneof></cloneof>
+		<crc>1ca05267</crc>
+		<manufacturer>Incredible Technologies</manufacturer>
+		<year>1999</year>
+		<genre>Sports/Golf/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="gt2k" index="" image="">
+		<description>Golden Tee 2K (v1.00)</description>
+		<cloneof></cloneof>
+		<crc>b83d7b67</crc>
+		<manufacturer>Incredible Technologies</manufacturer>
+		<year>2000</year>
+		<genre>Sports/Golf/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="gt3d" index="" image="">
+		<description>Golden Tee 3D Golf (v1.93N)</description>
+		<cloneof></cloneof>
+		<crc>cacacb44</crc>
+		<manufacturer>Incredible Technologies</manufacturer>
+		<year>1995</year>
+		<genre>Sports/Golf/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="gtclassc" index="" image="">
+		<description>Golden Tee Classic (v1.00)</description>
+		<cloneof></cloneof>
+		<crc>a57e6ef0</crc>
+		<manufacturer>Incredible Technologies</manufacturer>
+		<year>2001</year>
+		<genre>Sports/Golf/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="gtg" index="" image="">
+		<description>Golden Tee Golf (Trackball, v1.0)</description>
+		<cloneof></cloneof>
+		<crc>ec70b510</crc>
+		<manufacturer>Strata/Incredible Technologies</manufacturer>
+		<year>1989</year>
+		<genre>Golf/Sports/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="gtg2" index="" image="">
+		<description>Golden Tee Golf II (Trackball, V2.2)</description>
+		<cloneof></cloneof>
+		<crc>4a61580f</crc>
+		<manufacturer>Strata/Incredible Technologies</manufacturer>
+		<year>1992</year>
+		<genre>Sports/Golf/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="gridiron" index="" image="">
+		<description>Gridiron Fight</description>
+		<cloneof></cloneof>
+		<crc>51612741</crc>
+		<manufacturer>Tehkan</manufacturer>
+		<year>1985</year>
+		<genre>Sports/Football/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="gridlee" index="" image="">
+		<description>Gridlee</description>
+		<cloneof></cloneof>
+		<crc>1c43539e</crc>
+		<manufacturer>Videa</manufacturer>
+		<year>1983</year>
+		<genre>Shooter/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="lemmings" index="true" image="l">
+		<description>Lemmings (US prototype)</description>
+		<cloneof></cloneof>
+		<crc>e9a2b439</crc>
+		<manufacturer>Data East USA</manufacturer>
+		<year>1991</year>
+		<genre>Puzzle/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="liberatr" index="" image="">
+		<description>Liberator (set 1)</description>
+		<cloneof></cloneof>
+		<crc>1a0cb4a0</crc>
+		<manufacturer>Atari</manufacturer>
+		<year>1982</year>
+		<genre>Shooter/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="magworm" index="true" image="m">
+		<description>Magic Worm (bootleg)</description>
+		<cloneof>centiped</cloneof>
+		<crc>a88e970a</crc>
+		<manufacturer>bootleg</manufacturer>
+		<year>1980</year>
+		<genre>Shooter/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="mjleague" index="" image="">
+		<description>Major League</description>
+		<cloneof></cloneof>
+		<crc>ec1655b5</crc>
+		<manufacturer>Sega</manufacturer>
+		<year>1985</year>
+		<genre>Sports/Baseball/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="marble" index="" image="">
+		<description>Marble Madness (set 1)</description>
+		<cloneof></cloneof>
+		<crc>88d0be26</crc>
+		<manufacturer>Atari Games</manufacturer>
+		<year>1984</year>
+		<genre>Maze/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="marinedt" index="" image="">
+		<description>Marine Date</description>
+		<cloneof></cloneof>
+		<crc>ad09f04d</crc>
+		<manufacturer>Taito</manufacturer>
+		<year>1981</year>
+		<genre>Maze/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="milliped" index="" image="">
+		<description>Millipede</description>
+		<cloneof></cloneof>
+		<crc>40711675</crc>
+		<manufacturer>Atari</manufacturer>
+		<year>1982</year>
+		<genre>Shooter/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="minigolf" index="" image="">
+		<description>Mini Golf (set 1)</description>
+		<cloneof></cloneof>
+		<crc>348f827f</crc>
+		<manufacturer>Bally/Sente</manufacturer>
+		<year>1985</year>
+		<genre>Sports/Golf/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="missile" index="" image="">
+		<description>Missile Command (set 1)</description>
+		<cloneof></cloneof>
+		<crc>7a62ce6a</crc>
+		<manufacturer>Atari</manufacturer>
+		<year>1980</year>
+		<genre>Shooter/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="poundfor" index="" image="">
+		<description>Pound for Pound (World)</description>
+		<cloneof></cloneof>
+		<crc>50d4a2d8</crc>
+		<manufacturer>Irem</manufacturer>
+		<year>1990</year>
+		<genre>Sports/Boxing/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="quantum" index="" image="">
+		<description>Quantum (rev 2)</description>
+		<cloneof></cloneof>
+		<crc>7e7be63a</crc>
+		<manufacturer>Atari</manufacturer>
+		<year>1982</year>
+		<genre>Miscellaneous/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="rampart" index="true" image="r">
+		<description>Rampart (Trackball)</description>
+		<cloneof></cloneof>
+		<crc>5c36795f</crc>
+		<manufacturer>Atari Games</manufacturer>
+		<year>1990</year>
+		<genre>Shooter/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="reactor" index="" image="">
+		<description>Reactor</description>
+		<cloneof></cloneof>
+		<crc>a62d86fd</crc>
+		<manufacturer>Gottlieb</manufacturer>
+		<year>1982</year>
+		<genre>Miscellaneous/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="sonic" index="" image="">
+		<description>SegaSonic The Hedgehog (Japan, rev. C)</description>
+		<cloneof></cloneof>
+		<crc>25e3c27e</crc>
+		<manufacturer>Sega</manufacturer>
+		<year>1992</year>
+		<genre>Platform/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="shootbul" index="" image="">
+		<description>Shoot the Bull</description>
+		<cloneof></cloneof>
+		<crc>25daa5e9</crc>
+		<manufacturer>Bally Midway</manufacturer>
+		<year>1985</year>
+		<genre>Sports/Pool and Dart/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="shuffle" index="" image="">
+		<description>Shuffleboard</description>
+		<cloneof></cloneof>
+		<crc>0d422a18</crc>
+		<manufacturer>Midway</manufacturer>
+		<year>1978</year>
+		<genre>Sports/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="shufshot" index="" image="">
+		<description>Shuffleshot (v1.40)</description>
+		<cloneof></cloneof>
+		<crc>33c0c98b</crc>
+		<manufacturer>Strata/Incredible Technologies</manufacturer>
+		<year>1997</year>
+		<genre>Sports/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="shuuz" index="" image="">
+		<description>Shuuz (version 8.0)</description>
+		<cloneof></cloneof>
+		<crc>1c2459f8</crc>
+		<manufacturer>Atari Games</manufacturer>
+		<year>1990</year>
+		<genre>Sports/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="slikshot" index="" image="">
+		<description>Slick Shot (V2.2)</description>
+		<cloneof></cloneof>
+		<crc>370a00eb</crc>
+		<manufacturer>Grand Products/Incredible Technologies</manufacturer>
+		<year>1990</year>
+		<genre>Sports/Pool and Dart/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="slither" index="" image="">
+		<description>Slither (set 1)</description>
+		<cloneof></cloneof>
+		<crc>3dfff970</crc>
+		<manufacturer>Century II</manufacturer>
+		<year>1982</year>
+		<genre>Shooter/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="snakjack" index="" image="">
+		<description>Snacks&apos;n Jaxson</description>
+		<cloneof></cloneof>
+		<crc>da2dd119</crc>
+		<manufacturer>Bally/Sente</manufacturer>
+		<year>1984</year>
+		<genre>Miscellaneous/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="spiker" index="" image="">
+		<description>Spiker</description>
+		<cloneof></cloneof>
+		<crc>2d53d023</crc>
+		<manufacturer>Bally/Sente</manufacturer>
+		<year>1986</year>
+		<genre>Sports/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="stratab" index="" image="">
+		<description>Strata Bowling (V3)</description>
+		<cloneof></cloneof>
+		<crc>a5ae728f</crc>
+		<manufacturer>Strata/Incredible Technologies</manufacturer>
+		<year>1990</year>
+		<genre>Sports/Bowling/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="sbowling" index="" image="">
+		<description>Strike Bowling</description>
+		<cloneof></cloneof>
+		<crc>dd5d411a</crc>
+		<manufacturer>Taito Corporation</manufacturer>
+		<year>1982</year>
+		<genre>Sports/Bowling/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="suprleag" index="" image="">
+		<description>Super League (FD1094 317-0045)</description>
+		<cloneof></cloneof>
+		<crc>eed72f37</crc>
+		<manufacturer>Sega</manufacturer>
+		<year>1987</year>
+		<genre>Sports/Baseball/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="sstrike" index="" image="">
+		<description>Super Strike Bowling</description>
+		<cloneof></cloneof>
+		<crc>af00cddf</crc>
+		<manufacturer>Strata/Incredible Technologies</manufacturer>
+		<year>1990</year>
+		<genre>Sports/Bowling/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="syvalion" index="" image="">
+		<description>Syvalion (Japan)</description>
+		<cloneof></cloneof>
+		<crc>440b6418</crc>
+		<manufacturer>Taito Corporation</manufacturer>
+		<year>1988</year>
+		<genre>Shooter/Flying/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="teedoff" index="true" image="t">
+		<description>Tee&apos;d Off (Japan)</description>
+		<cloneof></cloneof>
+		<crc>cc2aebc5</crc>
+		<manufacturer>Tecmo</manufacturer>
+		<year>1986</year>
+		<genre>Sports/Golf/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="irrmaze" index="" image="">
+		<description>The Irritating Maze / Ultra Denryu Iraira Bou</description>
+		<cloneof></cloneof>
+		<crc>4c2ff660</crc>
+		<manufacturer>SNK / Saurus</manufacturer>
+		<year>1997</year>
+		<genre>Maze/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="trisport" index="" image="">
+		<description>Tri-Sports</description>
+		<cloneof></cloneof>
+		<crc>fe1e9e37</crc>
+		<manufacturer>Bally Midway</manufacturer>
+		<year>1989</year>
+		<genre>Multiplay/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="usclssic" index="true" image="u">
+		<description>U.S. Classic</description>
+		<cloneof></cloneof>
+		<crc>18b41421</crc>
+		<manufacturer>Seta</manufacturer>
+		<year>1989</year>
+		<genre>Sports/Golf/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="viper" index="true" image="v">
+		<description>Viper</description>
+		<cloneof></cloneof>
+		<crc>7e4688a6</crc>
+		<manufacturer>Leland Corp.</manufacturer>
+		<year>1988</year>
+		<genre>Shooter/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="wcbowl" index="" image="">
+		<description>World Class Bowling (v1.66)</description>
+		<cloneof></cloneof>
+		<crc>f6774112</crc>
+		<manufacturer>Incredible Technologies</manufacturer>
+		<year>1995</year>
+		<genre>Sports/Bowling/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="wcbowldx" index="" image="">
+		<description>World Class Bowling Deluxe (v2.00)</description>
+		<cloneof></cloneof>
+		<crc>280df7f0</crc>
+		<manufacturer>Incredible Technologies</manufacturer>
+		<year>1999</year>
+		<genre>Sports/Bowling/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+	<game name="xtheball" index="true" image="x">
+		<description>X the Ball</description>
+		<cloneof></cloneof>
+		<crc>c0e80004</crc>
+		<manufacturer>Rare</manufacturer>
+		<year>1991</year>
+		<genre>Miscellaneous/Trackball</genre>
+		<rating>Other - NR (Not Rated)</rating>
+		<enabled>Yes</enabled>
+	</game>
+</menu>
