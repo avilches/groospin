@@ -22,6 +22,7 @@ systemIndexGroup.collectEntries { String k, List<RLSystemConfig> configs ->
 }
 
 def shortConfigJustForTest = ["Arcade":[
+        new RLSystemConfig(name:"Rockola", hidden: false, stable: true, perfect: true),
         new RLSystemConfig(name:"Atari 8-bit", hidden: true, stable: true, perfect: true),
         new RLSystemConfig(name:"AAE", hidden: false, stable: false, perfect: false, arcade: true),
         new RLSystemConfig(name:"Apple II", hidden: false, stable: false, perfect: false),
