@@ -9,6 +9,10 @@ import org.hs5tb.groospin.common.IniFile
  * Created by Alberto on 12-Jun-16.
  */
 class HyperSpin {
+    static List IMAGE_EXTENSIONS = ["png", "jpg"]
+    static List VIDEO_EXTENSIONS = HyperSpin.VIDEO_EXTENSIONS
+    static List THEME_EXTENSIONS = ["zip"]
+    static List MUSIC_EXTENSIONS = ["mp3"]
     File hsRoot
     File rlRoot
 
