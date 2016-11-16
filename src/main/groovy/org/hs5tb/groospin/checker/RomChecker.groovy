@@ -44,26 +44,26 @@ class RomChecker {
             checkResultRom.roms = checkResultRom.exes = 0
         }
 
-        checkResultRom.wheels = existsInMedia(true, originalSystem, "Images/Wheel/${romName}", ["jpg", "png"]) ? 1 : 0
-        checkResultRom.videos = existsInMedia(true, originalSystem, "Video/${romName}", ["mp4", "flv"]) ? 1 : 0
-        checkResultRom.themes = existsInMedia(true, originalSystem, "Themes/${romName}", ["zip"]) ? 1 : 0
-        checkResultRom.artwork1 = existsInMedia(false, originalSystem, "Images/Artwork1/${romName}", ["jpg", "png"]) ? 1 : 0
-        checkResultRom.artwork2 = existsInMedia(false, originalSystem, "Images/Artwork2/${romName}", ["jpg", "png"]) ? 1 : 0
-        checkResultRom.artwork3 = existsInMedia(false, originalSystem, "Images/Artwork3/${romName}", ["jpg", "png"]) ? 1 : 0
-        checkResultRom.artwork4 = existsInMedia(false, originalSystem, "Images/Artwork4/${romName}", ["jpg", "png"]) ? 1 : 0
+        checkResultRom.wheels = findMedia(true, originalSystem, "Images/Wheel/${romName}", ["jpg", "png"]) ? 1 : 0
+        checkResultRom.videos = findMedia(true, originalSystem, "Video/${romName}", ["mp4", "flv"]) ? 1 : 0
+        checkResultRom.themes = findMedia(true, originalSystem, "Themes/${romName}", ["zip"]) ? 1 : 0
+        checkResultRom.artwork1 = findMedia(false, originalSystem, "Images/Artwork1/${romName}", ["jpg", "png"]) ? 1 : 0
+        checkResultRom.artwork2 = findMedia(false, originalSystem, "Images/Artwork2/${romName}", ["jpg", "png"]) ? 1 : 0
+        checkResultRom.artwork3 = findMedia(false, originalSystem, "Images/Artwork3/${romName}", ["jpg", "png"]) ? 1 : 0
+        checkResultRom.artwork4 = findMedia(false, originalSystem, "Images/Artwork4/${romName}", ["jpg", "png"]) ? 1 : 0
         return checkResultRom
     }
 
-    boolean existsInMedia(boolean log, RLSystem system, String path, List extensions) {
-        boolean exists = IOTools.findFileWithExtensions(system.getMediaPath(path), extensions)
-        if (!exists && system.defaultEmulator.name.startsWith("MAME")) {
-            exists = IOTools.findFileWithExtensions(system.hyperSpin.findHyperSpinMediaFolderFor("_MAME/$path"), extensions)
+    File findMedia(boolean log, RLSystem system, String path, List extensions) {
+        File mediaFile = IOTools.findFileWithExtensions(system.getMediaPath(path), extensions)
+        if (!mediaFile && system.defaultEmulator.name.startsWith("MAME")) {
+            mediaFile = IOTools.findFileWithExtensions(system.hyperSpin.findHyperSpinMediaFolderFor("_MAME/$path"), extensions)
         }
-        if (!exists && log) {
+        if (!mediaFile && log) {
             //println "Missing ${system.name}:$path.[${extensions.join("|")}]"
             // new File("d:\\Games\\Roms\\MEGADRIVE NO video\\${new File(path).name}.txt").text = ""
         }
-        return exists
+        return mediaFile
     }
 
 }

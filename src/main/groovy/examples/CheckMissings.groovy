@@ -6,7 +6,8 @@ import org.hs5tb.groospin.checker.handlers.*
 
 HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
 
-def systems = ["PC Games", "Nintendo Wii U"]
+// def systems = ["PC Games", "Nintendo Wii U"]
+def systems = (hs.listSystems().findAll { it.defaultEmulator.name.startsWith("MAME") }*.name) - "MAME"
 /*
 def systems = ["HBMAME", "MAME", "MAME 4 Players",
                       "Namco Classics",
@@ -17,7 +18,7 @@ def systems = ["HBMAME", "MAME", "MAME 4 Players",
 
 new Checker(hs).
         addHandler(new HumanInfo(false)).
-        addHandler(new PrintMissing()).
+//        addHandler(new PrintMissing()).
 //        checkSystems()
         checkSystems(systems)
 
