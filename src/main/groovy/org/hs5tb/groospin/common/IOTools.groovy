@@ -107,6 +107,9 @@ class IOTools {
     }
 
     static void copy(File origin, File dst, boolean overwrite = true) {
+        if (!dst.parentFile.exists()) {
+            dst.parentFile.mkdirs()
+        }
         if (!overwrite)
             Files.copy(Paths.get(origin.toString()), Paths.get(dst.toString()), java.nio.file.StandardCopyOption.COPY_ATTRIBUTES)
         else
