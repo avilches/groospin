@@ -22,6 +22,7 @@ class Checker {
     Boolean calculateRomSize = null
     Boolean calculateMediaSize = null
     RomChecker romChecker = new RomChecker()
+    Closure romFilter
 
     Checker(HyperSpin hyperSpin) {
         this.hyperSpin = hyperSpin
@@ -35,6 +36,11 @@ class Checker {
     Checker addHandler(CheckHandler handler) {
         handlers << handler
         resetCachedFlags()
+        return this
+    }
+
+    Checker setRomFilter(Closure romFilter) {
+        this.romFilter = romFilter
         return this
     }
 
@@ -131,6 +137,9 @@ class Checker {
             checkTotalResult.totalMediaSize = calculateMediaPathSize(system)
             if (!system.executable) {
                 List<Rom> roms = system.listRoms(romNames)
+                if (romFilter) {
+                    roms = roms.findAll romFilter
+                }
                 checkTotalResult.totalRoms = roms.size()
 
                 roms.sort { it.name }.each { Rom rom ->
