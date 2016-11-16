@@ -8,6 +8,7 @@
 package org.hs5tb.groospin.checker
 
 import groovy.transform.CompileStatic
+import org.hs5tb.groospin.base.HyperSpin
 import org.hs5tb.groospin.base.RLSystem
 import org.hs5tb.groospin.base.Rom
 import org.hs5tb.groospin.checker.result.CheckRomResult
@@ -44,13 +45,13 @@ class RomChecker {
             checkResultRom.roms = checkResultRom.exes = 0
         }
 
-        checkResultRom.wheels = findMedia(true, originalSystem, "Images/Wheel/${romName}", ["jpg", "png"]) ? 1 : 0
-        checkResultRom.videos = findMedia(true, originalSystem, "Video/${romName}", ["mp4", "flv"]) ? 1 : 0
+        checkResultRom.wheels = findMedia(true, originalSystem, "Images/Wheel/${romName}", HyperSpin.IMAGE_EXTENSIONS) ? 1 : 0
+        checkResultRom.videos = findMedia(true, originalSystem, "Video/${romName}", HyperSpin.VIDEO_EXTENSIONS) ? 1 : 0
         checkResultRom.themes = findMedia(true, originalSystem, "Themes/${romName}", ["zip"]) ? 1 : 0
-        checkResultRom.artwork1 = findMedia(false, originalSystem, "Images/Artwork1/${romName}", ["jpg", "png"]) ? 1 : 0
-        checkResultRom.artwork2 = findMedia(false, originalSystem, "Images/Artwork2/${romName}", ["jpg", "png"]) ? 1 : 0
-        checkResultRom.artwork3 = findMedia(false, originalSystem, "Images/Artwork3/${romName}", ["jpg", "png"]) ? 1 : 0
-        checkResultRom.artwork4 = findMedia(false, originalSystem, "Images/Artwork4/${romName}", ["jpg", "png"]) ? 1 : 0
+        checkResultRom.artwork1 = findMedia(false, originalSystem, "Images/Artwork1/${romName}", HyperSpin.IMAGE_EXTENSIONS) ? 1 : 0
+        checkResultRom.artwork2 = findMedia(false, originalSystem, "Images/Artwork2/${romName}", HyperSpin.IMAGE_EXTENSIONS) ? 1 : 0
+        checkResultRom.artwork3 = findMedia(false, originalSystem, "Images/Artwork3/${romName}", HyperSpin.IMAGE_EXTENSIONS) ? 1 : 0
+        checkResultRom.artwork4 = findMedia(false, originalSystem, "Images/Artwork4/${romName}", HyperSpin.IMAGE_EXTENSIONS) ? 1 : 0
         return checkResultRom
     }
 
