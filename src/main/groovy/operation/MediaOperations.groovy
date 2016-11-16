@@ -1,6 +1,5 @@
 package operation
 
-import groovy.transform.CompileStatic
 import org.hs5tb.groospin.base.HyperSpin
 import org.hs5tb.groospin.base.RLSystem
 import org.hs5tb.groospin.common.IOTools
@@ -74,7 +73,7 @@ class MediaOperations extends Operations {
         }
 
         ["Sound/Background Music"].each { String path ->
-            Set<String> unneeded = listToLowerCaseSet(system.listMediaPath(path)*.name) - listToLowerCaseSet(system.allowedMediaRomMusic())
+            Set<String> unneeded = listToLowerCaseSet(system.listMediaPath(path)*.name) - listToLowerCaseSet(system.allowedMediaRomSounds())
             log "${unneeded.size()} unneeded file in $path"
             unneeded.each { String filename ->
                 action.call(system.getMediaPath("$path/$filename"))
