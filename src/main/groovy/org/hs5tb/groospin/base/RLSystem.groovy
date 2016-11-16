@@ -188,19 +188,19 @@ class RLSystem {
     }
 
     List allowedMediaRomThemes() {
-        return (listRomNames()+["default"]).collect { it+".zip"}
+        return explodeFilenameExtensions(listRomNames()+["default"], HyperSpin.THEME_EXTENSIONS)
     }
 
-    List allowedMediaRomMusic() {
-        return listRomNames().collect { it+".mp3"}
+    List allowedMediaRomSounds() {
+        return explodeFilenameExtensions(listRomNames(), HyperSpin.MUSIC_EXTENSIONS)
     }
 
     List allowedMediaRomImages() {
-        return explodeFilenameExtensions(listRomNames(), ["jpg", "png"])
+        return explodeFilenameExtensions(listRomNames(), HyperSpin.IMAGE_EXTENSIONS)
     }
 
     List allowedMediaRomVideos() {
-        return explodeFilenameExtensions(listRomNames(), ["flv", "mp4"])
+        return explodeFilenameExtensions(listRomNames(), HyperSpin.VIDEO_EXTENSIONS)
     }
 
     static private List explodeFilenameExtensions(List names, List extensions) {
