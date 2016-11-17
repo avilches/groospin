@@ -10,7 +10,7 @@ import org.hs5tb.groospin.common.IniFile
  */
 class HyperSpin {
     static List IMAGE_EXTENSIONS = ["png", "jpg"]
-    static List VIDEO_EXTENSIONS = HyperSpin.VIDEO_EXTENSIONS
+    static List VIDEO_EXTENSIONS = ["mp4", "flv"]
     static List THEME_EXTENSIONS = ["zip"]
     static List MUSIC_EXTENSIONS = ["mp3"]
     File hsRoot
