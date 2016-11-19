@@ -54,4 +54,13 @@ class Rom {
         dirty
     }
 
+    boolean containsTexts(List s) {
+        s.any { containsText(it) }
+
+    }
+    boolean containsText(String s) {
+        s = s.toLowerCase()
+        return name.toLowerCase().contains(s) || description.toLowerCase().contains(s)
+    }
+
 }
