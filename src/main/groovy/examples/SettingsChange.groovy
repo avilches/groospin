@@ -24,16 +24,16 @@ hs.withRocketLauncherInis(hs.listSystemNames().collect { "Settings/$it/RocketLau
 
 hs.withHyperSpinAllSystemSettings { String filename, IniFile ini ->
 
-//    ini.put("navigation", "use_last_game", "true")
-//    ini.put("navigation", "random_game", "false")
+    ini.put("navigation", "use_last_game", "true")
+    ini.put("navigation", "random_game", "false")
 //
-//    ini.put("themes", "use_parent_vids", "true")
-//    ini.put("themes", "use_parent_themes", "true")
+    ini.put("themes", "use_parent_vids", "true")
+    ini.put("themes", "use_parent_themes", "true")
 //
-//    ini.put("filters", "parents_only", "false")
-//    ini.put("filters", "themes_only", "false")
-//    ini.put("filters", "wheels_only", "false")
-//    ini.put("filters", "roms_only", "false")
+    ini.put("filters", "parents_only", "false")
+    ini.put("filters", "themes_only", "false")
+    ini.put("filters", "wheels_only", "false")
+    ini.put("filters", "roms_only", "false")
 
     if (ini.dirty) ini.store()
 
