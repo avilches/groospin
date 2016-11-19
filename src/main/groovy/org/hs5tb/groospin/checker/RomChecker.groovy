@@ -57,7 +57,7 @@ class RomChecker {
 
     File findMedia(boolean log, RLSystem system, String path, List extensions) {
         File mediaFile = IOTools.findFileWithExtensions(system.getMediaPath(path), extensions)
-        if (!mediaFile && system.defaultEmulator.name.startsWith("MAME")) {
+        if (!mediaFile && system.defaultEmulator?.name?.startsWith("MAME")) {
             mediaFile = IOTools.findFileWithExtensions(system.hyperSpin.findHyperSpinMediaFolderFor("_MAME/$path"), extensions)
         }
         if (!mediaFile && log) {
