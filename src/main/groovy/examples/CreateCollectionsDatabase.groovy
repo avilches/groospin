@@ -105,7 +105,7 @@ class Creator {
         println "Writing: ${roms.size()} roms (${romMediaOperations.simulation?"simulation":"real!"})"
 
         if (!romMediaOperations.simulation) {
-            HyperSpinDatabase.write(roms, hyperSpin.findSystemDatabaseFile(system))
+            HyperSpinDatabase.write(roms, hyperSpin.getDatabaseFile(system))
         }
         mediaOperations.deleteUnneeded(systemToCreate)
         return this

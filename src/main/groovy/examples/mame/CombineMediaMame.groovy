@@ -27,7 +27,7 @@ class Combine {
             File dstFolder = new File(dstBase, folder)
             println "mkdir \"${dstFolder}\""
             systems.each { RLSystem system ->
-                File systemFolder = system.getMediaPath(folder)
+                File systemFolder = system.newMediaPath(folder)
                 if (systemFolder.toString() != dstFolder.toString()) {
                     println "copy /Y \"${systemFolder}\"\\* \"${dstFolder}\""
                     if (deleteAndLink) {

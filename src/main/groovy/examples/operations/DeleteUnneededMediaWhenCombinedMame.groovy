@@ -20,7 +20,7 @@ def allMameRomsCombined = spin.listSystems().findAll { it.defaultEmulator.name.s
         collect { it.listRoms() }.flatten().unique { it.name }
 
 // Escribe la base de datos _MAME.xml ya que la necesita el borrado
-HyperSpinDatabase.write(allMameRomsCombined as List, spin.findHyperSpinFile("Databases/_MAME/_MAME.xml"))
+HyperSpinDatabase.write(allMameRomsCombined as List, spin.newHyperSpinFile("Databases/_MAME/_MAME.xml"))
 
 // Borra los ficheros innecesarios del sistema _MAME
 operations.deleteUnneeded(mameCombinedSystem)

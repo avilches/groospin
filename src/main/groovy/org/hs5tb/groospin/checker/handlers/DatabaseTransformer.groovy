@@ -22,7 +22,7 @@ abstract class DatabaseTransformer extends BaseCheckHandler {
 
     @Override
     void startSystem(RLSystem system) {
-        originalDatabaseFile = system.findSystemDatabaseFile()
+        originalDatabaseFile = system.getDatabaseFile()
         currentDatabase = new XmlParser().parseText(originalDatabaseFile.text)
         Map gameIndex = this.gameIndex = [:]
         DatabaseTransformer databaseTransformer = this

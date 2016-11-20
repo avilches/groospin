@@ -40,7 +40,7 @@ class PCLauncherOperations {
             return
         }
         RLSystem system = spin.getSystem(systemName)
-        IniFile ini = new IniFile().parse(spin.findRocketLauncherFile("Modules\\PCLauncher\\${systemName}.ini"))
+        IniFile ini = new IniFile().parse(spin.newRocketLauncherFile("Modules\\PCLauncher\\${systemName}.ini"))
         ini.put(rom, "Application", exe)
         ini.store()
 

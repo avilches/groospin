@@ -26,7 +26,7 @@ class RLSystem {
         if (emulator.module == "ScummVM.ahk") {
             String path = romMapping.get(romName, "path")
             if (path) {
-                File scummRomFolder = hyperSpin.findRocketLauncherFile(path)
+                File scummRomFolder = hyperSpin.newRocketLauncherFile(path)
                 if (scummRomFolder.exists() && scummRomFolder.directory) {
                     return scummRomFolder
                 }
@@ -47,8 +47,8 @@ class RLSystem {
         return emulator.module in ["MUGEN.ahk", "OpenBOR.ahk", "Casual Games.ahk", "PCLauncher.ahk"]
     }
 
-    File findSystemDatabaseFile() {
-        hyperSpin.findSystemDatabaseFile(name)
+    File getDatabaseFile() {
+        hyperSpin.getDatabaseFile(name)
     }
 
     File findExecutable(String romName, File romFile) {
@@ -56,7 +56,7 @@ class RLSystem {
         File romPath = romFile.directory ? romFile : romFile.parentFile
         if (emulator.module == "PCLauncher.ahk") {
             String application = romMapping.get(romName, "Application")
-            return application ? hyperSpin.findRocketLauncherFile(application) : null
+            return application ? hyperSpin.newRocketLauncherFile(application) : null
         } else if (emulator.module == "MUGEN.ahk") {
             String iniGamePath = romMapping.get(romName, "gamePath")
             List<String> candidates = iniGamePath ? ["/" + iniGamePath] : []
@@ -82,22 +82,22 @@ class RLSystem {
         if (!defaultEmulator) return
         if (defaultEmulator.module == "PCLauncher.ahk") {
             romMapping = new IniFile().parse(
-                    hyperSpin.findRocketLauncherFile("Modules/PCLauncher/${name}.ini"))
+                    hyperSpin.newRocketLauncherFile("Modules/PCLauncher/${name}.ini"))
             romMapping.parent = new IniFile().parse(
-                    hyperSpin.findRocketLauncherFile("Modules/PCLauncher/PCLauncher.ini"))
+                    hyperSpin.newRocketLauncherFile("Modules/PCLauncher/PCLauncher.ini"))
         } else if (defaultEmulator.module == "ScummVM.ahk") {
-            IniFile moduleIni = new IniFile().parse(hyperSpin.findRocketLauncherFile("Modules/ScummVM/ScummVM.ini").text, "Settings", ["CustomConfig"])
+            IniFile moduleIni = new IniFile().parse(hyperSpin.newRocketLauncherFile("Modules/ScummVM/ScummVM.ini").text, "Settings", ["CustomConfig"])
             String customConfig = moduleIni.get("Settings", "CustomConfig")
             romMapping = new IniFile()
             if (customConfig) {
-                romMapping = romMapping.parse(hyperSpin.findRocketLauncherFile(customConfig))
+                romMapping = romMapping.parse(hyperSpin.newRocketLauncherFile(customConfig))
             }
         } else if (defaultEmulator.module == "Casual Games.ahk") {
-            romMapping = new IniFile().parse(hyperSpin.findRocketLauncherFile("Modules/Casual Games/Casual Games.ini"))
+            romMapping = new IniFile().parse(hyperSpin.newRocketLauncherFile("Modules/Casual Games/Casual Games.ini"))
         } else if (defaultEmulator.module == "OpenBOR.ahk") {
-            romMapping = new IniFile().parse(hyperSpin.findRocketLauncherFile("Modules/OpenBOR/OpenBOR.ini"))
+            romMapping = new IniFile().parse(hyperSpin.newRocketLauncherFile("Modules/OpenBOR/OpenBOR.ini"))
         } else if (defaultEmulator.module == "MUGEN.ahk") {
-            romMapping = new IniFile().parse(hyperSpin.findRocketLauncherFile("Modules/MUGEN/MUGEN.ini"))
+            romMapping = new IniFile().parse(hyperSpin.newRocketLauncherFile("Modules/MUGEN/MUGEN.ini"))
         }
     }
 
@@ -135,10 +135,10 @@ class RLSystem {
     }
 
     File getMediaFolder() {
-        return hyperSpin.findHyperSpinMediaFolderFor(name)
+        return hyperSpin.newHyperSpinMediaFile(name)
     }
 
-    File getMediaPath(String path) {
+    File newMediaPath(String path) {
         return new File(mediaFolder, path)
     }
 
@@ -179,7 +179,7 @@ class RLSystem {
     }
 
     File[] listMediaPath(String path, boolean includeFolders = false) {
-        return getMediaPath(path).listFiles( new FileFilter() {
+        return newMediaPath(path).listFiles( new FileFilter() {
             @Override
             boolean accept(File pathname) {
                 return includeFolders || pathname.file

@@ -17,8 +17,8 @@ return
 // ["Castlevania Collection", "Commodore CDTV", "Microsoft MS-DOS"].collect { hs.getSystem(it) }.each { RLSystem system ->
 // ["Sony PSP Minis", "Sega Ages" , "Super Nintendo Entertainment System"].collect { hs.getSystem(it) }.each { RLSystem system ->
 hs.listSystems(false).each { RLSystem system ->
-    if (!system.defaultEmulator?.module?.contains("MAME")) {
-        HyperSpinDatabase originalDb = new HyperSpinDatabase().load(system.findSystemDatabaseFile()).loadGenres()
+    if (!system.defaultEmulator?.module?.startsWith("MAME")) {
+        HyperSpinDatabase originalDb = new HyperSpinDatabase().load(system.getDatabaseFile()).loadGenres()
         Map genres = originalDb.romsByGenre?:[:]
 
         File newSystemFixedFolder = new File(originalDb.db.parent.replaceAll("Databases", "DatabasesFixed"))

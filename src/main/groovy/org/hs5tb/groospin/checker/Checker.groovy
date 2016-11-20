@@ -105,7 +105,7 @@ class Checker {
             }
         }
         if (calculateMediaSize) {
-            return IOTools.folderSize(hyperSpin.findHyperSpinFile("Media/${system.name}"))
+            return IOTools.folderSize(hyperSpin.newHyperSpinFile("Media/${system.name}"))
         }
         return 0
     }

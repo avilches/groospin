@@ -45,15 +45,15 @@ class RomMediaOperations extends Operations {
     }
     void copyMedia(String rom, RLSystem systemFrom, RLSystem systemTo, String path, List extensions, boolean overwrite = false) {
         if (!overwrite) {
-            File dst = IOTools.findFileWithExtensions(systemTo.getMediaPath("${path}/${rom}"), extensions)
+            File dst = IOTools.findFileWithExtensions(systemTo.newMediaPath("${path}/${rom}"), extensions)
             if (dst) {
                 return
             }
         }
 
-        File originMedia = IOTools.findFileWithExtensions(systemFrom.getMediaPath("${path}/${rom}"), extensions)
+        File originMedia = IOTools.findFileWithExtensions(systemFrom.newMediaPath("${path}/${rom}"), extensions)
         if (originMedia) {
-            File missingMedia = systemTo.getMediaPath("${path}/${originMedia.name}")
+            File missingMedia = systemTo.newMediaPath("${path}/${originMedia.name}")
             log("(${simulation?"simulation":"real"}) ${originMedia} -> ${missingMedia}")
             if (!simulation) {
                 IOTools.copy(originMedia, missingMedia)

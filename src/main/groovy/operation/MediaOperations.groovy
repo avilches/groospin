@@ -50,7 +50,7 @@ class MediaOperations extends Operations {
             Set<String> unneeded = listToLowerCaseSet(system.listMediaPath(path)*.name) - listToLowerCaseSet(system.allowedMediaRomVideos())
             log "${unneeded.size()} unneeded file in $path"
             unneeded.each { String filename ->
-                action.call(system.getMediaPath("$path/$filename"))
+                action.call(system.newMediaPath("$path/$filename"))
             }
         }
 
@@ -60,7 +60,7 @@ class MediaOperations extends Operations {
             Set<String> unneeded = listToLowerCaseSet(system.listMediaPath(path)*.name) - listToLowerCaseSet(system.allowedMediaRomImages())
             log "${unneeded.size()} unneeded file in $path"
             unneeded.each { String filename ->
-                action.call(system.getMediaPath("$path/$filename"))
+                action.call(system.newMediaPath("$path/$filename"))
             }
         }
 
@@ -68,7 +68,7 @@ class MediaOperations extends Operations {
             Set<String> unneeded = listToLowerCaseSet(system.listMediaPath(path)*.name) - listToLowerCaseSet(system.allowedMediaRomThemes())
             log "${unneeded.size()} unneeded file in $path"
             unneeded.each { String filename ->
-                action.call(system.getMediaPath("$path/$filename"))
+                action.call(system.newMediaPath("$path/$filename"))
             }
         }
 
@@ -76,7 +76,7 @@ class MediaOperations extends Operations {
             Set<String> unneeded = listToLowerCaseSet(system.listMediaPath(path)*.name) - listToLowerCaseSet(system.allowedMediaRomSounds())
             log "${unneeded.size()} unneeded file in $path"
             unneeded.each { String filename ->
-                action.call(system.getMediaPath("$path/$filename"))
+                action.call(system.newMediaPath("$path/$filename"))
             }
         }
     }

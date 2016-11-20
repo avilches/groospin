@@ -3,7 +3,6 @@ package org.hs5tb.groospin.base
 import org.hs5tb.groospin.common.IOTools
 import org.hs5tb.groospin.common.Ini
 import org.hs5tb.groospin.common.IniFile
-import org.hs5tb.groospin.common.IniFile
 
 /**
  * Created by Alberto on 12-Jun-16.
@@ -25,26 +24,26 @@ class HyperSpin {
 
     HyperSpin(File rlRoot) {
         this.rlRoot = rlRoot.canonicalFile
-        rocketLauncherIni = new IniFile().parse(findRocketLauncherFile("Settings/RocketLauncher.ini"))
+        rocketLauncherIni = new IniFile().parse(newRocketLauncherFile("Settings/RocketLauncher.ini"))
         if (rocketLauncherIni.get("Settings", "Default_Plugin") != "HyperSpin") {
             throw new IllegalArgumentException("RocketLauncher is not configured with HyperSpin")
         }
         String hsRoot = rocketLauncherIni.get("Settings", "Default_Front_End_Path")
-        this.hsRoot = findRocketLauncherFile(hsRoot).canonicalFile.parentFile
+        this.hsRoot = newRocketLauncherFile(hsRoot).canonicalFile.parentFile
     }
 
     Ini getGlobalEmulatorsIni() {
         if (_cachedGlobalEmulatorIni) return _cachedGlobalEmulatorIni
-        File globalEmulatorConfig = findRocketLauncherFile("Settings/Global Emulators.ini")
+        File globalEmulatorConfig = newRocketLauncherFile("Settings/Global Emulators.ini")
         _cachedGlobalEmulatorIni = new IniFile().parse(globalEmulatorConfig)
         return _cachedGlobalEmulatorIni
     }
 
-    File findRocketLauncherFile(String name) {
+    File newRocketLauncherFile(String name) {
         return IOTools.tryRelativeFrom(rlRoot, name)
     }
 
-    File findHyperSpinFile(String name) {
+    File newHyperSpinFile(String name) {
         return IOTools.tryRelativeFrom(hsRoot, name)
     }
 
@@ -56,18 +55,18 @@ class HyperSpin {
         listSystemNames()
         boolean isExecutable = systemName.toLowerCase() in executableSystemNames.collect { it.toLowerCase() }
         if (isExecutable) {
-            File systemSettingsConfig = findHyperSpinFile("Settings/${systemName}.ini")
+            File systemSettingsConfig = newHyperSpinFile("Settings/${systemName}.ini")
             if (!systemSettingsConfig.file) {
                 throw new FileNotFoundException("HyperSpin settings for ${systemName} not found: ${systemSettingsConfig}")
             }
             Ini settings = new IniFile().parse(systemSettingsConfig)
             String path = settings.get("exe info", "path")
 
-            RLSystem system = new RLSystem(hyperSpin: this, name: systemName, iniRomPath: path, executable: true, romPathsList: [findRocketLauncherFile(path)])
+            RLSystem system = new RLSystem(hyperSpin: this, name: systemName, iniRomPath: path, executable: true, romPathsList: [newRocketLauncherFile(path)])
             return system
         }
 
-        File systemEmulatorConfig = findRocketLauncherFile("Settings/${systemName}/Emulators.ini")
+        File systemEmulatorConfig = newRocketLauncherFile("Settings/${systemName}/Emulators.ini")
         if (!systemEmulatorConfig.file) {
             //throw new FileNotFoundException("RocketLauncher settings for ${systemName} not found: ${systemEmulatorConfig}")
             RLSystem system = new RLSystem(hyperSpin: this, name: systemName, iniRomPath: "", romPathsList: [])
@@ -79,9 +78,9 @@ class HyperSpin {
         String rom_Path = systemIni.get("ROMS", "Rom_Path")
         String default_emulator = systemIni.get("ROMS", "Default_Emulator")
 
-        List romPathList = rom_Path?.split("\\|")?.collect { String romPathString -> findRocketLauncherFile(romPathString) } ?: []
+        List romPathList = rom_Path?.split("\\|")?.collect { String romPathString -> newRocketLauncherFile(romPathString) } ?: []
 
-        File alternativeEmulatorConfig = findRocketLauncherFile("Settings/${systemName}/Games.ini")
+        File alternativeEmulatorConfig = newRocketLauncherFile("Settings/${systemName}/Games.ini")
         Map alternativeEmulators = [:]
         if (alternativeEmulatorConfig.file) {
             Ini alternativeEmulatorsIni = new IniFile().parse(alternativeEmulatorConfig)
@@ -107,7 +106,7 @@ class HyperSpin {
         String iniEmuPath = emulatorConfig['Emu_Path']
         String iniRomExtension = emulatorConfig['Rom_Extension']
         String module = emulatorConfig['Module']
-        File emuPath = iniEmuPath ? findRocketLauncherFile(iniEmuPath) : null
+        File emuPath = iniEmuPath ? newRocketLauncherFile(iniEmuPath) : null
         List romExtensions = iniRomExtension?.split("\\|")?.collect { String ext -> ext.trim().toLowerCase() } ?: []
         RLEmulator emulator = new RLEmulator(name: name, iniEmuPath: iniEmuPath,
                 iniRomExtension: iniRomExtension, emuPath: emuPath, romExtensions: romExtensions, module: module)
@@ -116,7 +115,7 @@ class HyperSpin {
     }
 
     HyperSpinDatabase loadHyperSpinDatabase(String systemName, Closure filter = null) {
-        File db = findSystemDatabaseFile(systemName)
+        File db = getDatabaseFile(systemName)
         if (db.exists()) {
             return new HyperSpinDatabase().load(db, filter)
         }
@@ -158,7 +157,7 @@ class HyperSpin {
     }
 
     List databaseCollect(String systemName, Closure filter) {
-        File db = findSystemDatabaseFile(systemName)
+        File db = getDatabaseFile(systemName)
         if (!db.exists()) {
             return [] // throw new FileNotFoundException("${systemName} menu not found in ${db.absolutePath}")
         }
@@ -166,8 +165,8 @@ class HyperSpin {
         return menu.game.collect(filter).findAll()
     }
 
-    File findSystemDatabaseFile(String systemName) {
-        return findHyperSpinFile("Databases/${systemName}/${systemName}.xml")
+    File getDatabaseFile(String systemName) {
+        return newHyperSpinFile("Databases/${systemName}/${systemName}.xml")
     }
 
     Collection<RLSystem> listSystems(boolean includeExecutables = false) {
@@ -191,11 +190,11 @@ check(systemName, getGamesFromSystem(systemName))
 */
 
     File getRocketLauncherExe() {
-        findRocketLauncherFile("RocketLauncher.exe")
+        newRocketLauncherFile("RocketLauncher.exe")
     }
 
     IniFile loadRocketLauncherIni(String path) {
-        File file = findRocketLauncherFile(path)
+        File file = newRocketLauncherFile(path)
         if (file.exists()) {
             return new IniFile().parse(file)
         }
@@ -203,7 +202,7 @@ check(systemName, getGamesFromSystem(systemName))
     }
 
     IniFile loadHyperSpinSettings(String filename) {
-        File file = findHyperSpinFile("Settings/${filename}.ini")
+        File file = newHyperSpinFile("Settings/${filename}.ini")
         if (file.exists()) {
             return new IniFile().parse(file)
         }
@@ -263,12 +262,12 @@ check(systemName, getGamesFromSystem(systemName))
         }
     }
 
-    File findHyperSpinMediaFolderFor(String name) {
-        return findHyperSpinFile("Media/${name}")
+    File newHyperSpinMediaFile(String name) {
+        return newHyperSpinFile("Media/${name}")
     }
 
     List<String> listGenres(String systemName) {
-        File genres = findHyperSpinFile("Databases/${systemName}/genre.xml")
+        File genres = newHyperSpinFile("Databases/${systemName}/genre.xml")
         HyperSpinDatabase.listRomNames(genres)
     }
 }
