@@ -15,6 +15,13 @@ def header = [listversion    : "0.171",
 
 def databaseOriginal = "d:/Games/HyperSpin-fe/Databases alternativas/MAME/oficiales"
 def roms = DatXmlToHyperSpinXml.load(mame171dat, catver, extraInfo)
+
+def missing = new MameChecker().checkAll(mame171dat,
+        ["d:/Games/Roms/MAME/MAME 0.171 ROMs"],
+        ["d:/Games/Roms/MAME/MAME 0.171 CHDs"])
+
+roms.removeAll { it.name in missing }
+
 /*
 debugRoms.removeAll { it.mahjong || it.hanafuda }
 debugRoms.removeAll { it.catVerCat?.contains("Casino") || it.genre?.contains("Casino") }
@@ -230,7 +237,7 @@ void generateAll(List roms, Map header, String dst, String databaseOriginal, Clo
 }
 
 def griffinBestOf() {
-    HyperSpinDatabase best = new HyperSpinDatabase().load(new File("d:\\Games\\Soft\\GrooSpin\\resources\\bestof\\griffin-MAME178.xml"))
+    HyperSpinDatabase best = new HyperSpinDatabase().load(new File("d:/Games/Soft/GrooSpin/resources/bestof/griffin-MAME178.xml"))
     return best.roms*.name
 
 }
