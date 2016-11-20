@@ -10,7 +10,7 @@ import java.util.zip.ZipFile
  * Created by Alberto on 10-Oct-16.
  */
 
-new MameChecker().checkAll("d:/Games/Emulators/MAME/MameUIFX_0.171_64bits_nonag-dinput/dat.xml",
+println new MameChecker().checkAll("d:/Games/Emulators/MAME/MameUIFX_0.171_64bits_nonag-dinput/dat.xml",
 ["d:\\Games\\Roms\\MAME\\MAME 0.171 ROMs"],["d:\\Games\\Roms\\MAME\\MAME 0.171 CHDs"])
 
 class MameChecker {
@@ -34,7 +34,8 @@ class MameChecker {
         return this
     }
 
-    void checkAll(String datFileName, List romFolderString, List chdFolderString) {
+    Set checkAll(String datFileName, List romFolderString, List chdFolderString) {
+        Set missing = new LinkedHashSet()
         long start = System.currentTimeMillis()
         romFolders = romFolderString.collect { it instanceof String ? new File(it) : it }
         chdFolders = chdFolderString.collect { it instanceof String ? new File(it) : it }
@@ -42,24 +43,18 @@ class MameChecker {
         println "Parsing dat time: ${(System.currentTimeMillis()-start)/1000}s"
         start = System.currentTimeMillis()
         games.each { MameMachine mameMachine ->
-            if (mameMachine.name in ["wondstcka"]) {
-//                ERROR! Missing chds konam80j/826jaa01
-//                ERROR! Missing chds konam80u/826uaa01
-//                wondstcka.zip/8.u83
-                println "a"
-            }
-
-            Map pending = checkRomsAndRemoveOk(extractAllRomsToCheck(mameMachine), mameMachine.name)
-            if (pending) {
+            List filesChecked = []
+            Map romsPending = checkRomsAndRemoveOk(extractAllRomsToCheck(mameMachine), filesChecked, mameMachine.name)
+            if (romsPending) {
                 if (mameMachine.cloneof) {
                     MameMachine parent = index[mameMachine.cloneof.toLowerCase()]
                     if (parent) {
-                        checkRomsAndRemoveOk(pending, parent.name)
-                        if (pending) {
+                        checkRomsAndRemoveOk(romsPending, filesChecked, parent.name)
+                        if (romsPending) {
                             if (parent.romof) {
                                 MameMachine bios = index[parent.romof.toLowerCase()]
                                 if (bios) {
-                                    checkRomsAndRemoveOk(pending, bios.name)
+                                    checkRomsAndRemoveOk(romsPending, filesChecked, bios.name)
                                 }
                             }
                         }
@@ -67,28 +62,30 @@ class MameChecker {
                 } else if (mameMachine.romof) {
                     MameMachine bios = index[mameMachine.romof.toLowerCase()]
                     if (bios) {
-                        checkRomsAndRemoveOk(pending, bios.name)
+                        checkRomsAndRemoveOk(romsPending, filesChecked, bios.name)
                     }
                 }
             }
-            if (pending) {
-                println "ERROR! Missing files ${mameMachine.name}.zip/${pending.keySet().join(", ")}"
+            if (romsPending) {
+                println "ERROR! Missing files for rom \"${mameMachine.name}\":${romsPending.keySet().join(", ")}. Places checked: ${filesChecked}"
+                missing << mameMachine.name
             } else {
                 // println "${mameMachine.name} ok!"
             }
 
-            Map chdsPending = checkChdsAndRemoveOk(extractAllDisksToCheck(mameMachine), mameMachine.name)
+            filesChecked = []
+            Map chdsPending = checkChdsAndRemoveOk(extractAllDisksToCheck(mameMachine), filesChecked, mameMachine.name)
 
             if (chdsPending) {
                 if (mameMachine.cloneof) {
                     MameMachine parent = index[mameMachine.cloneof.toLowerCase()]
                     if (parent) {
-                        checkChdsAndRemoveOk(chdsPending, parent.name)
+                        checkChdsAndRemoveOk(chdsPending, filesChecked, parent.name)
                         if (chdsPending) {
                             if (parent.romof) {
                                 MameMachine bios = index[parent.romof.toLowerCase()]
                                 if (bios) {
-                                    checkChdsAndRemoveOk(chdsPending, bios.name)
+                                    checkChdsAndRemoveOk(chdsPending, filesChecked, bios.name)
                                 }
                             }
                         }
@@ -96,24 +93,29 @@ class MameChecker {
                 } else if (mameMachine.romof) {
                     MameMachine bios = index[mameMachine.romof.toLowerCase()]
                     if (bios) {
-                        checkChdsAndRemoveOk(chdsPending, bios.name)
+                        checkChdsAndRemoveOk(chdsPending, filesChecked, bios.name)
                     }
                 }
             }
             if (chdsPending) {
-                println "ERROR! Missing chds ${mameMachine.name}/${chdsPending.keySet().join(", ")}"
+                println "ERROR! Missing chds \"${mameMachine.name}\": ${chdsPending.keySet().join(", ")}. Places chedked: ${filesChecked}"
             } else {
                 // println "${mameMachine.name} ok!"
+            }
+            if (chdsPending || romsPending) {
+                missing << mameMachine.name
             }
 
         }
         println "Checking time: ${(System.currentTimeMillis()-start)/1000}s"
+        return missing
     }
 
-    Map checkRomsAndRemoveOk(Map romBins, String mameMachineName) {
+    Map checkRomsAndRemoveOk(Map romBins, List filesChecked, String mameMachineName) {
         File zip = IOTools.findFileInFolders(romFolders, mameMachineName+".zip")
 
         if (zip) {
+            filesChecked << zip.toString()
             ZipFile zipFile = new ZipFile(zip)
             zipFile.entries().each { ZipEntry zipEntry ->
                 // println "${zipEntry.name}"
@@ -133,64 +135,43 @@ class MameChecker {
                     romBins.remove(romBin.name.toLowerCase())
                 }
             }
+        } else {
+            filesChecked << "No ${mameMachineName}.zip found"
         }
         return romBins
     }
 
-    Map checkChdsAndRemoveOk(Map romBins, String mameMachineName) {
-        Set delete = new HashSet()
+    Map checkChdsAndRemoveOk(Map romBins, List filesChecked, String mameMachineName) {
+        Set chdsFound = new HashSet()
         romBins.values().each { MameMachine.RomBin romBin ->
             File chd = IOTools.findFileInFolders(chdFolders, mameMachineName+"/"+romBin.name+".chd")
             if (!chd && romBin.merge) {
                 chd = IOTools.findFileInFolders(chdFolders, mameMachineName+"/"+romBin.merge+".chd")
             }
             if (chd) {
+                filesChecked << chd.toString()
                 if (romBin.size >0 && chd.size() != romBin.size) {
                     println "warning! bad size checking disk ${chd.canonicalPath}"
-                /*
-                // chds must be uncompressed before calculate any checksum (crc or sha1)
-                } else if (romBin.crc) {
-                    String crc = IOTools.crc(chd.newInputStream())
-                    if (crc != romBin.crc) {
-                        if (romBin.sha1) {
-                            long start = System.currentTimeMillis()
-                            if (romBin.sha1 != IOTools.sha1(chd.newInputStream())) {
-                                println "warning! bad crc & sha1 checking disk ${chd.canonicalPath}"
-                            } else {
-                                println "sha1ok!"
-                            }
-                            println "Info: sha1 ${chd.canonicalPath} time: ${(System.currentTimeMillis()-start)/1000}s"
-                        } else {
-                            println "warning? bad crc (no sha1 found) checking disk ${chd.canonicalPath}"
-                        }
-                    }
-                } else if (romBin.sha1) {
-                    long start = System.currentTimeMillis()
-                    if (romBin.sha1 != IOTools.sha1(chd.newInputStream())) {
-                        println "warning! bad sha1 (no crc found) checking disk ${chd.canonicalPath}"
-                    } else {
-                        println "sha1ok!"
-                    }
-                    println "Info: sha1 ${chd.canonicalPath} time: ${(System.currentTimeMillis()-start)/1000}s"
-                */
                 }
-                delete << romBin.name.toLowerCase()
+                chdsFound << romBin.name.toLowerCase()
+            } else {
+                filesChecked << chd.toString()+" not found"
             }
         }
-        delete.each { romBins.remove(it) }
+        chdsFound.each { romBins.remove(it) }
         return romBins
     }
 
     private Map extractAllDisksToCheck(MameMachine mameMachine) {
-        return extractAllRomBinsToCheck(mameMachine, mameMachine.disks)
+        return extractAllRomBinsToCheck(mameMachine.disks)
     }
 
     private Map extractAllRomsToCheck(MameMachine mameMachine) {
-        return extractAllRomBinsToCheck(mameMachine, mameMachine.roms)
+        return extractAllRomBinsToCheck(mameMachine.roms)
     }
 
-    private Map extractAllRomBinsToCheck(MameMachine mameMachine, Collection collection) {
-        Map romBins = collection.inject([:]) { Map map, MameMachine.RomBin romBin ->
+    private Map extractAllRomBinsToCheck(Collection romsOrDisks) {
+        Map romBins = romsOrDisks.inject([:]) { Map map, MameMachine.RomBin romBin ->
             if (romBin.status != MameMachine.RomBin.Status.baddump && romBin.status != MameMachine.RomBin.Status.nodump) {
                 map[romBin.name.toLowerCase()] = romBin
             }
