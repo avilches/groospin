@@ -1,5 +1,7 @@
 package examples.mame
 
+import org.apache.commons.compress.archivers.sevenz.SevenZArchiveEntry
+import org.apache.commons.compress.archivers.sevenz.SevenZFile
 import org.hs5tb.groospin.base.MameMachine
 import org.hs5tb.groospin.common.IOTools
 
@@ -10,19 +12,39 @@ import java.util.zip.ZipFile
  * Created by Alberto on 10-Oct-16.
  */
 
-println new MameChecker().checkAll("d:/Games/Emulators/MAME/MameUIFX_0.171_64bits_nonag-dinput/dat.xml",
+MameChecker checker171 = new MameChecker().loadDat("d:/Games/Emulators/MAME/MameUIFX_0.171_64bits_nonag-dinput/dat.xml")
+def missing171 = checker171.checkAll(
 ["d:\\Games\\Roms\\MAME\\MAME 0.171 ROMs"],["d:\\Games\\Roms\\MAME\\MAME 0.171 CHDs"])
+println missing171
+
+MameChecker checker178 = new MameChecker().loadDat("c:\\Users\\Alberto\\Downloads\\mame178\\dat.xml")
+def missing178split = checker178.checkAll(["c:\\Users\\Alberto\\Downloads\\mame178\\MAME ROMs 178 split\\"], null)
+println missing178split
+
+def missing178merge = new MameChecker().checkAll(["c:\\Users\\Alberto\\Downloads\\mame178\\MAME 0.178 ROMs\\"], null)
+println missing178merge
+
 
 class MameChecker {
     Map<String, MameMachine> index = [:]
     List<MameMachine> games = []
     List<File> romFolders
     List<File> chdFolders
+    boolean checkWarnings = false
+    boolean verbose = true
+    boolean checkSHA = false
 
-    private MameChecker loadDat(String datFileName) {
+    void log(String s) {
+        if (verbose) println s
+    }
+
+    MameChecker loadDat(String datFileName) {
+        index = [:]
+        games = []
         XmlParser parser = new XmlParser()
         parser.setFeature("http://apache.org/xml/features/disallow-doctype-decl", false)
         parser.setFeature("http://apache.org/xml/features/nonvalidating/load-external-dtd", false)
+        long start = System.currentTimeMillis()
         Node mame = parser.parse(new File(datFileName).newInputStream())
         mame.machine.each { Node machine ->
             MameMachine rom = new MameMachine().loadFromMameDat(machine)
@@ -31,30 +53,28 @@ class MameChecker {
                 games << rom
             }
         }
+        log "Parsing dat time: ${(System.currentTimeMillis()-start)/1000}s"
         return this
     }
 
-    Set checkAll(String datFileName, List romFolderString, List chdFolderString) {
+    Set checkAll(List romFolderString, List chdFolderString = []) {
         Set missing = new LinkedHashSet()
-        long start = System.currentTimeMillis()
         romFolders = romFolderString.collect { it instanceof String ? new File(it) : it }
-        chdFolders = chdFolderString.collect { it instanceof String ? new File(it) : it }
-        loadDat(datFileName)
-        println "Parsing dat time: ${(System.currentTimeMillis()-start)/1000}s"
-        start = System.currentTimeMillis()
+        chdFolders = chdFolderString?.collect { it instanceof String ? new File(it) : it }
+        long start = System.currentTimeMillis()
         games.each { MameMachine mameMachine ->
             List filesChecked = []
-            Map romsPending = checkRomsAndRemoveOk(extractAllRomsToCheck(mameMachine), filesChecked, mameMachine.name)
+            Map romsPending = checkRomsAndRemoveOk(extractAllRomsToCheck(mameMachine), filesChecked, "", mameMachine.name)
             if (romsPending) {
                 if (mameMachine.cloneof) {
                     MameMachine parent = index[mameMachine.cloneof.toLowerCase()]
                     if (parent) {
-                        checkRomsAndRemoveOk(romsPending, filesChecked, parent.name)
+                        checkRomsAndRemoveOk(romsPending, filesChecked, mameMachine.name, parent.name)
                         if (romsPending) {
                             if (parent.romof) {
                                 MameMachine bios = index[parent.romof.toLowerCase()]
                                 if (bios) {
-                                    checkRomsAndRemoveOk(romsPending, filesChecked, bios.name)
+                                    checkRomsAndRemoveOk(romsPending, filesChecked, "", bios.name)
                                 }
                             }
                         }
@@ -62,19 +82,19 @@ class MameChecker {
                 } else if (mameMachine.romof) {
                     MameMachine bios = index[mameMachine.romof.toLowerCase()]
                     if (bios) {
-                        checkRomsAndRemoveOk(romsPending, filesChecked, bios.name)
+                        checkRomsAndRemoveOk(romsPending, filesChecked, "", bios.name)
                     }
                 }
             }
             if (romsPending) {
-                println "ERROR! Missing files for rom \"${mameMachine.name}\":${romsPending.keySet().join(", ")}. Places checked: ${filesChecked}"
+                log "ERROR! Missing files for rom \"${mameMachine.name}\":${romsPending.keySet().join(", ")}. Places checked: ${filesChecked}"
                 missing << mameMachine.name
             } else {
-                // println "${mameMachine.name} ok!"
+                // log "${mameMachine.name} ok!"
             }
 
             filesChecked = []
-            Map chdsPending = checkChdsAndRemoveOk(extractAllDisksToCheck(mameMachine), filesChecked, mameMachine.name)
+            Map chdsPending = chdFolders == null ? [:]:checkChdsAndRemoveOk(extractAllDisksToCheck(mameMachine), filesChecked, mameMachine.name)
 
             if (chdsPending) {
                 if (mameMachine.cloneof) {
@@ -98,52 +118,93 @@ class MameChecker {
                 }
             }
             if (chdsPending) {
-                println "ERROR! Missing chds \"${mameMachine.name}\": ${chdsPending.keySet().join(", ")}. Places chedked: ${filesChecked}"
+                log "ERROR! Missing chds \"${mameMachine.name}\": ${chdsPending.keySet().join(", ")}. Places chedked: ${filesChecked}"
             } else {
-                // println "${mameMachine.name} ok!"
+                // log "${mameMachine.name} ok!"
             }
             if (chdsPending || romsPending) {
                 missing << mameMachine.name
             }
 
         }
-        println "Checking time: ${(System.currentTimeMillis()-start)/1000}s"
+        log "Checking time: ${(System.currentTimeMillis()-start)/1000}s"
         return missing
     }
 
-    Map checkRomsAndRemoveOk(Map romBins, List filesChecked, String mameMachineName) {
-        File zip = IOTools.findFileInFolders(romFolders, mameMachineName+".zip")
+    Map checkRomsAndRemoveOk(Map pendingRomBins, List filesChecked, String folderInside, String filename) {
+        File zip = IOTools.findFileInFolders(romFolders, filename+".zip")
+        File sevenz = IOTools.findFileInFolders(romFolders, filename+".7z")
 
         if (zip) {
             filesChecked << zip.toString()
             ZipFile zipFile = new ZipFile(zip)
-            zipFile.entries().each { ZipEntry zipEntry ->
-                // println "${zipEntry.name}"
-                MameMachine.RomBin romBin = romBins[zipEntry.name.toLowerCase()]
-                if (romBin != null) {
-                    if (romBin.size >0 && zipEntry.size != romBin.size) {
-                        println "warning! bad size checking rom ${zip.canonicalPath}/${zipEntry.name}"
-                    } else if (Long.decode("0x"+romBin.crc) != zipEntry.crc) {
-                        if (romBin.sha1) {
-                            if (romBin.sha1 != IOTools.sha1(zipFile.getInputStream(zipEntry))) {
-                                println "warning! bad crc & sha1 checking rom ${zip.canonicalPath}/${zipEntry.name}"
-                            }
-                        } else {
-                            println "warning? bad crc (no sha1 found) checking rom ${zip.canonicalPath}/${zipEntry.name}"
-                        }
-                    }
-                    romBins.remove(romBin.name.toLowerCase())
+            zipFile.entries().each { ZipEntry entry ->
+                // log "${entry.name}"
+                List<MameMachine.RomBin> romBins = findRomBinByEntryName(pendingRomBins, entry.name, folderInside)
+                if (romBins) {
+                    if (checkWarnings) checkWarnings(romBins[0], entry.size, entry.crc, "${zip.canonicalPath}/${entry.name}", { -> zipFile.getInputStream(entry) })
+                    romBins.each { MameMachine.RomBin romBin -> pendingRomBins.remove(romBin.name.toLowerCase()) }
                 }
             }
+        } else if (sevenz) {
+            try {
+                filesChecked << sevenz.toString()
+                SevenZFile sevenZFile = new SevenZFile(sevenz)
+                SevenZArchiveEntry entry = sevenZFile.nextEntry
+                while (entry!=null){
+                    List<MameMachine.RomBin> romBins = findRomBinByEntryName(pendingRomBins, entry.name, folderInside)
+                    if (romBins) {
+                        if (checkWarnings) checkWarnings(romBins[0], entry.size, entry.crcValue, "${sevenz.canonicalPath}/${entry.name}", {-> sevenZFile.getCurrentStream()})
+                        romBins.each { MameMachine.RomBin romBin -> pendingRomBins.remove(romBin.name.toLowerCase()) }
+                    }
+                    entry = sevenZFile.nextEntry
+                }
+                sevenZFile.close();
+            } catch (e) {
+                println "FATAL error reading ${sevenz}"
+                e.printStackTrace()
+            }
         } else {
-            filesChecked << "No ${mameMachineName}.zip found"
+
+            filesChecked << "No ${filename}.zip or ${filename}.7z found"
         }
-        return romBins
+        return pendingRomBins
     }
 
-    Map checkChdsAndRemoveOk(Map romBins, List filesChecked, String mameMachineName) {
+    void checkWarnings(MameMachine.RomBin romBin, long fileSize, long crc, String canonicalEntryName, Closure getInputStream) {
+        if (romBin.size >0 && fileSize != romBin.size) {
+            log "warning! bad size checking rom $canonicalEntryName}"
+        } else if (Long.decode("0x"+romBin.crc) != crc) {
+            if (checkSHA && romBin.sha1) {
+                if (romBin.sha1 != IOTools.sha1(getInputStream.call())) {
+                    log "warning! bad crc & sha1 checking rom ${canonicalEntryName}"
+                }
+            } else {
+                log "warning? bad crc (no sha1 found) checking rom ${canonicalEntryName}"
+            }
+        }
+
+    }
+
+    List<MameMachine.RomBin> findRomBinByEntryName(Map pendingRomBins, String name, String folderInside) {
+        name = name.toLowerCase()
+        folderInside = folderInside.toLowerCase()
+        int dash = name.indexOf("/")
+        if (dash > 0) {
+            String folder = name.substring(0, dash)
+            if (folder != folderInside) return
+            name = name - (folderInside.toLowerCase()+"/")
+        }
+        List matches = []
+        MameMachine.RomBin romBin = pendingRomBins[name]
+        if (romBin) matches << romBin
+        matches.addAll(pendingRomBins.values().findAll { it.merge?.toLowerCase() == name })
+        return matches
+    }
+
+    Map checkChdsAndRemoveOk(Map pendingRomBins, List filesChecked, String mameMachineName) {
         Set chdsFound = new HashSet()
-        romBins.values().each { MameMachine.RomBin romBin ->
+        pendingRomBins.values().each { MameMachine.RomBin romBin ->
             File chd = IOTools.findFileInFolders(chdFolders, mameMachineName+"/"+romBin.name+".chd")
             if (!chd && romBin.merge) {
                 chd = IOTools.findFileInFolders(chdFolders, mameMachineName+"/"+romBin.merge+".chd")
@@ -151,33 +212,50 @@ class MameChecker {
             if (chd) {
                 filesChecked << chd.toString()
                 if (romBin.size >0 && chd.size() != romBin.size) {
-                    println "warning! bad size checking disk ${chd.canonicalPath}"
+                    log "warning! bad size checking disk ${chd.canonicalPath}"
                 }
                 chdsFound << romBin.name.toLowerCase()
             } else {
                 filesChecked << chd.toString()+" not found"
             }
         }
-        chdsFound.each { romBins.remove(it) }
-        return romBins
+        chdsFound.each { pendingRomBins.remove(it) }
+        return pendingRomBins
     }
 
     private Map extractAllDisksToCheck(MameMachine mameMachine) {
-        return extractAllRomBinsToCheck(mameMachine.disks)
+        return extractPendingRomBins(mameMachine.disks)
     }
 
     private Map extractAllRomsToCheck(MameMachine mameMachine) {
-        return extractAllRomBinsToCheck(mameMachine.roms)
+        return extractPendingRomBins(mameMachine.roms)
     }
 
-    private Map extractAllRomBinsToCheck(Collection romsOrDisks) {
-        Map romBins = romsOrDisks.inject([:]) { Map map, MameMachine.RomBin romBin ->
+    private Map extractPendingRomBins(Collection romsOrDisks) {
+        Map pendingRomBins = romsOrDisks.inject([:]) { Map map, MameMachine.RomBin romBin ->
             if (romBin.status != MameMachine.RomBin.Status.baddump && romBin.status != MameMachine.RomBin.Status.nodump) {
                 map[romBin.name.toLowerCase()] = romBin
             }
             map
         }
-        romBins
+        return pendingRomBins
     }
 
 }
+
+
+
+//ZipFile zipFile = new ZipFile(new File("c:\\Users\\Alberto\\Downloads\\mame178\\MAME ROMs 178 split\\005.zip"))
+//zipFile.entries().each { ZipEntry zipEntry ->
+//    println "${zipEntry.name}, size: ${zipEntry.size}, crc: ${zipEntry.crc}, sha1: ${IOTools.sha1(zipFile.getInputStream(zipEntry))}"
+//}
+//println "--"
+
+//SevenZFile sevenZFile = new SevenZFile(new File("c:\\Users\\Alberto\\Downloads\\mame178\\MAME 0.178 ROMs\\mk2.7z"))
+//SevenZArchiveEntry entry = sevenZFile.nextEntry
+//while (entry!=null){
+//    println "${entry.name}, size: ${entry.size}, crc: ${entry.crcValue}, sha1: ${IOTools.sha1(sevenZFile.getCurrentStream())}"
+//    entry = sevenZFile.getNextEntry()
+//}
+//sevenZFile.close();
+//return
