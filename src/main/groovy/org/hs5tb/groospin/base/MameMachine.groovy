@@ -23,7 +23,6 @@ class MameMachine extends Rom {
             size = (node.@size?:0) as int
             sha1 = node.@sha1
             crc = node.@crc
-            merge = node.@merge
             if (node.@status && node.@status in RomBin.Status.names) {
                 status = RomBin.Status."${node.@status}"
             }
