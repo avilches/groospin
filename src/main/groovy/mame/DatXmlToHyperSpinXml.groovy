@@ -64,7 +64,7 @@ class DatXmlToHyperSpinXml {
 
         File databaseFile = new File(hyperSpinDatabaseFileName)
         HyperSpinDatabase.write(roms, databaseFile, headers)
-        HyperSpinDatabase.writeGenres(romsByGenre, databaseFile.parentFile, headers)
+        HyperSpinDatabase.writeGenres(romsByGenre, databaseFile.parentFile)
     }
 
     private static Map<String, List<MameMachine>> extractGenres(List<MameMachine> roms) {
@@ -76,7 +76,7 @@ class DatXmlToHyperSpinXml {
     static void store(Map<String, List<MameMachine>> romsByGenre, String to, Map headers = [:]) {
         File romsFile = new File(to)
         HyperSpinDatabase.write(romsByGenre.values().flatten(), romsFile, headers)
-        HyperSpinDatabase.writeGenres(romsByGenre, romsFile.parentFile, headers)
+        HyperSpinDatabase.writeGenres(romsByGenre, romsFile.parentFile)
     }
 
 }
