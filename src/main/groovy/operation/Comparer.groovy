@@ -23,7 +23,7 @@ class Comparer {
         Set oneMore = oneGames - otherGames
         Set otherMore = otherGames - oneGames
         println "${one} = ${oneGames.size()} (+${oneMore.size()}): ${oneMore}"
-        println "${other} = ${otherGames.size()} ( +${otherMore.size()}): ${otherMore}"
+        println "${other} = ${otherGames.size()} (+${otherMore.size()}): ${otherMore}"
         println "-------------------"
     }
 
