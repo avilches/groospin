@@ -11,8 +11,11 @@ import org.hs5tb.groospin.checker.result.CheckRomResult
 HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
 
 // Se procesan todos los sistemas basados en MAME, menos MAME
-// Se supone que antes se ha ejecutado CombineMediaMame y tenemos en MAME todos los medias mezclados de todos
-// los sistemas
+// Se supone que antes se ha ejecutado CombineMediaMame y tenemos en MAME todos los medias
+// mezclados de todos los sistemas
+
+// Haciendo esto solo necesitamos tener actualizado el sistema MAME que los medias que falten
+// se copiaran al resto de sistemas
 
 def systems = ["SNK Neo Geo AES"] + ((hs.listSystems().findAll { it.defaultEmulator?.name?.startsWith("MAME") }*.name) - "MAME")
 RLSystem mameSystem = hs.getSystem("MAME")

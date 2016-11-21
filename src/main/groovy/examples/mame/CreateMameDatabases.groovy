@@ -1,26 +1,34 @@
 package examples.mame
 
-import groovy.transform.Field
 import mame.DatXmlToHyperSpinXml
 import operation.Comparer
 import org.hs5tb.groospin.base.HyperSpinDatabase
 import org.hs5tb.groospin.base.MameMachine
+String commonDst = "d:/Games/HyperSpin-fe/Databases alternativas/MAME"
 
-def mame171dat = "d:/Games/Emulators/MAME/MameUIFX_0.171_64bits_nonag-dinput/dat.xml"
-def catver = "d:/Games/Soft/GrooSpin/resources/pS_CatVer/176/catver.ini"
-def extraInfo = "d:/Games/Soft/GrooSpin/resources/Official HyperSpin MAME/code/extra_info.txt"
-def header = [listversion    : "0.171",
-              lastlistupdate : new Date().format("dd/MM/yyyy"),
-              exporterversion: "GrooSpin by HS5Tb"]
+generateVersion("0.171", commonDst,
+        "d:/Games/Emulators/MAME/MameUIFX_0.171_64bits_nonag-dinput/dat.xml", // DAT
+        ["d:/Games/Roms/MAME/MAME 0.171 ROMs"],["d:/Games/Roms/MAME/MAME 0.171 CHDs"], // ROM/CHDS FOLDERS
+        "d:/Games/HyperSpin-fe/Databases alternativas/MAME/oficiales" // folder to compare
+)
 
-def databaseOriginal = "d:/Games/HyperSpin-fe/Databases alternativas/MAME/oficiales"
-def roms = DatXmlToHyperSpinXml.load(mame171dat, catver, extraInfo)
+generateVersion("0.178", commonDst,
+        "c:\\Users\\Alberto\\Downloads\\mame178\\dat.xml", // DAT
+        ["c:\\Users\\Alberto\\Downloads\\mame178\\MAME ROMs 178 split\\"],["d:/Games/Roms/MAME/MAME 0.171 CHDs"], // ROM/CHDS FOLDERS
+        "${commonDst}/0.171/todo" // folder to compare
+)
 
-def missing = new MameChecker().checkAll(mame171dat,
-        ["d:/Games/Roms/MAME/MAME 0.171 ROMs"],
-        ["d:/Games/Roms/MAME/MAME 0.171 CHDs"])
+void generateVersion(String version, String commonDst, String xmlDat, List romFolders, List chdFolders, String databasesToCompare) {
 
-roms.removeAll { it.name in missing }
+    def header = [listversion    : version,
+                  lastlistupdate : new Date().format("dd/MM/yyyy"),
+                  exporterversion: "GrooSpin by HS5Tb"]
+
+    def catver = "d:/Games/Soft/GrooSpin/resources/pS_CatVer/176/catver.ini"
+    def extraInfo = "d:/Games/Soft/GrooSpin/resources/Official HyperSpin MAME/code/extra_info.txt"
+    def roms = DatXmlToHyperSpinXml.load(xmlDat, catver, extraInfo)
+    def missing = new MameChecker().loadDat(xmlDat).checkAll(romFolders, chdFolders)
+    roms.removeAll { it.name in missing }
 
 /*
 debugRoms.removeAll { it.mahjong || it.hanafuda }
@@ -29,40 +37,41 @@ debugRoms.removeAll { it.catVerCat?.contains("Tabletop") || it.genre?.contains("
 debugRoms.removeAll { it.catVerCat?.contains("Tabletop") || it.genre?.contains("Mahjong") }
 */
 
-generateAll(roms, header, "d:/Games/HyperSpin-fe/Databases alternativas/MAME/0171/todo", databaseOriginal) { MameMachine rom ->
-    true
+    generateAll(roms, header, "${commonDst}/${version}/todo", databasesToCompare) { MameMachine rom ->
+        true
+    }
+
+    generateAll(roms, header, "${commonDst}/${version}/sin clones", databasesToCompare) { MameMachine rom ->
+        !rom.cloneof
+    }
+
+    generateAll(roms, header, "${commonDst}/${version}/sin clones solo joystick", databasesToCompare) { MameMachine rom ->
+        !rom.cloneof &&
+                rom.hasJoystick() && !rom.hasBall() && !rom.hasKeyboard() &&
+                !rom.hanafuda && !rom.gambling && !rom.mahjong
+    }
+
+    generateAll(roms, header, "${commonDst}/${version}/sin clones ni chds solo joystick", databasesToCompare) { MameMachine rom ->
+        !rom.cloneof &&
+                rom.hasJoystick() && !rom.hasBall() && !rom.hasKeyboard() &&
+                !rom.hanafuda && !rom.gambling && !rom.mahjong &&
+                !rom.disks
+    }
+
 }
+void generateAll(List roms, Map header, String dst, String databasesToCompare, Closure filter) {
 
-generateAll(roms, header, "d:/Games/HyperSpin-fe/Databases alternativas/MAME/0171/sin clones", databaseOriginal) { MameMachine rom ->
-    !rom.cloneof
-}
-
-generateAll(roms, header, "d:/Games/HyperSpin-fe/Databases alternativas/MAME/0171/sin clones solo joystick", databaseOriginal) { MameMachine rom ->
-    !rom.cloneof &&
-            rom.hasJoystick() && !rom.hasBall() && !rom.hasKeyboard() &&
-            !rom.hanafuda && !rom.gambling && !rom.mahjong
-}
-
-generateAll(roms, header, "d:/Games/HyperSpin-fe/Databases alternativas/MAME/0171/sin clones ni chds solo joystick", databaseOriginal) { MameMachine rom ->
-    !rom.cloneof &&
-            rom.hasJoystick() && !rom.hasBall() && !rom.hasKeyboard() &&
-            !rom.hanafuda && !rom.gambling && !rom.mahjong &&
-            !rom.disks
-}
-
-
-void generateAll(List roms, Map header, String dst, String databaseOriginal, Closure filter) {
-
+    println
     // Psikyo
     DatXmlToHyperSpinXml.store(roms,
             "${dst}/Psikyo/Psikyo.xml",
             header + [listname: "Psikyo working"]) { MameMachine rom ->
         return filter(rom) && rom.working && rom.manufacturer.contains("Psikyo")
     }
-
     Comparer.printDifferences(
             "${dst}/Psikyo/Psikyo.xml",
             "d:/Games/Soft/GrooSpin/resources/ml/Psikyo.xml")
+    Comparer.printDifferences("Psikyo", dst, databasesToCompare)
 
     // Technos Japan
     DatXmlToHyperSpinXml.store(roms,
@@ -70,10 +79,10 @@ void generateAll(List roms, Map header, String dst, String databaseOriginal, Clo
             header + [listname: "Technos Japan working"]) { MameMachine rom ->
         return filter(rom) && rom.working && rom.manufacturer.contains("Technos Japan")
     }
-
     Comparer.printDifferences(
             "${dst}/Technos Classics/Technos Classics.xml",
             "d:/Games/Soft/GrooSpin/resources/ml/Technos Classics.xml")
+    Comparer.printDifferences("Technos Classics", dst, databasesToCompare)
 
 
     // Shotgun Games
@@ -82,10 +91,10 @@ void generateAll(List roms, Map header, String dst, String databaseOriginal, Clo
             header + [listname: "Games with lightgun"]) { MameMachine rom ->
         return filter(rom) && rom.working && rom.lightgun
     }
-
     Comparer.printDifferences(
             "${dst}/Shotgun Games/Shotgun Games.xml",
             "d:/Games/Soft/GrooSpin/resources/ml/Shotgun Games.xml")
+    Comparer.printDifferences("Shotgun Games", dst, databasesToCompare)
 
     // Trackball Games
     DatXmlToHyperSpinXml.store(roms,
@@ -93,11 +102,10 @@ void generateAll(List roms, Map header, String dst, String databaseOriginal, Clo
             header + [listname: "Games with lightgun"]) { MameMachine rom ->
         return filter(rom) && rom.working && rom.hasBall()
     }
-
     Comparer.printDifferences(
             "${dst}/Trackball Games/Trackball Games.xml",
             "d:/Games/Soft/GrooSpin/resources/ml/Trackball Games.xml")
-
+    Comparer.printDifferences("Trackball Games", dst, databasesToCompare)
 
 
     // MAME solo working
@@ -109,7 +117,7 @@ void generateAll(List roms, Map header, String dst, String databaseOriginal, Clo
     Comparer.printDifferences(
             "${dst}/MAME/MAME.xml",
             "d:/Games/Soft/GrooSpin/resources/r0man0 171/Mame/Working Games/Mame.xml")
-    Comparer.printDifferences("MAME", dst, databaseOriginal)
+    Comparer.printDifferences("MAME", dst, databasesToCompare)
 
     Set bestOfMameRomNames = (griffinBestOf() + redditBestOf()) as Set
     // MAME best of (solo working)
@@ -121,7 +129,7 @@ void generateAll(List roms, Map header, String dst, String databaseOriginal, Clo
     Comparer.printDifferences(
             "${dst}/MAME/MAME.xml",
             "d:/Games/Soft/GrooSpin/resources/r0man0 171/Mame/Working Games/Mame.xml")
-    Comparer.printDifferences("MAME", dst, databaseOriginal)
+    Comparer.printDifferences("MAME", dst, databasesToCompare)
 
     // MAME 4 Players
     DatXmlToHyperSpinXml.store(roms,
@@ -129,7 +137,7 @@ void generateAll(List roms, Map header, String dst, String databaseOriginal, Clo
             header + [listname: "MAME 4 Players only working with clones (mechanical removed)"]) { MameMachine rom ->
         return filter(rom) && rom.working && rom.players >= 3
     }
-    Comparer.printDifferences("MAME 4 Players", dst, databaseOriginal)
+    Comparer.printDifferences("MAME 4 Players", dst, databasesToCompare)
 
     // Otros sistemas
     DatXmlToHyperSpinXml.store(roms,
@@ -141,7 +149,7 @@ void generateAll(List roms, Map header, String dst, String databaseOriginal, Clo
     Comparer.printDifferences(
             "${dst}/SNK Classics/SNK Classics.xml",
             "d:/Games/Soft/GrooSpin/resources/r0man0 171/Manufacturers/SNK Classics/Working Games/SNK Classics.xml")
-    Comparer.printDifferences("SNK Classics", dst, databaseOriginal)
+    Comparer.printDifferences("SNK Classics", dst, databasesToCompare)
 
     DatXmlToHyperSpinXml.store(roms,
             "${dst}/Nintendo Classics/Nintendo Classics.xml",
@@ -151,7 +159,7 @@ void generateAll(List roms, Map header, String dst, String databaseOriginal, Clo
     Comparer.printDifferences(
             "${dst}/Nintendo Classics/Nintendo Classics.xml",
             "d:/Games/Soft/GrooSpin/resources/r0man0 171/Manufacturers/Nintendo Classics/Working Games/Nintendo Classics.xml")
-    Comparer.printDifferences("Nintendo Classics", dst, databaseOriginal)
+    Comparer.printDifferences("Nintendo Classics", dst, databasesToCompare)
 
     DatXmlToHyperSpinXml.store(roms,
             "${dst}/SNK Neo Geo AES/SNK Neo Geo AES.xml",
@@ -159,7 +167,7 @@ void generateAll(List roms, Map header, String dst, String databaseOriginal, Clo
         // NeoGeo don't remove the non-working games
         return filter(rom) && rom.romof == "neogeo"
     }
-    Comparer.printDifferences("SNK Neo Geo AES", dst, databaseOriginal)
+    Comparer.printDifferences("SNK Neo Geo AES", dst, databasesToCompare)
 
     DatXmlToHyperSpinXml.store(roms,
             "${dst}/HyperNeoGeo64/HyperNeoGeo64.xml",
@@ -167,14 +175,14 @@ void generateAll(List roms, Map header, String dst, String databaseOriginal, Clo
         // HyperNeoGeo64 don't remove the non-working games
         return filter(rom) && rom.romof == "hng64"
     }
-    Comparer.printDifferences("HyperNeoGeo64", dst, databaseOriginal)
+    Comparer.printDifferences("HyperNeoGeo64", dst, databasesToCompare)
 
     DatXmlToHyperSpinXml.store(roms,
             "${dst}/Capcom Play System/Capcom Play System.xml",
             header + [listname: "Capcom Play System"]) { MameMachine rom ->
         return filter(rom) && rom.working && rom.sourcefile == "cps1.cpp"
     }
-    Comparer.printDifferences("Capcom Play System", dst, databaseOriginal)
+    Comparer.printDifferences("Capcom Play System", dst, databasesToCompare)
 
 
     DatXmlToHyperSpinXml.store(roms,
@@ -182,28 +190,28 @@ void generateAll(List roms, Map header, String dst, String databaseOriginal, Clo
             header + [listname: "Capcom Play System II"]) { MameMachine rom ->
         return filter(rom) && rom.working && rom.sourcefile == "cps2.cpp"
     }
-    Comparer.printDifferences("Capcom Play System II", dst, databaseOriginal)
+    Comparer.printDifferences("Capcom Play System II", dst, databasesToCompare)
 
     DatXmlToHyperSpinXml.store(roms,
             "${dst}/Capcom Play System III/Capcom Play System III.xml",
             header + [listname: "Capcom Play System III"]) { MameMachine rom ->
         return filter(rom) && rom.working && rom.sourcefile == "cps3.cpp"
     }
-    Comparer.printDifferences("Capcom Play System III", dst, databaseOriginal)
+    Comparer.printDifferences("Capcom Play System III", dst, databasesToCompare)
 
     DatXmlToHyperSpinXml.store(roms,
             "${dst}/Sega ST-V/Sega ST-V.xml",
             header + [listname: "Sega ST-V"]) { MameMachine rom ->
         return filter(rom) && rom.sourcefile == "stv.cpp"
     }
-    Comparer.printDifferences("Sega ST-V", dst, databaseOriginal)
+    Comparer.printDifferences("Sega ST-V", dst, databasesToCompare)
 
     DatXmlToHyperSpinXml.store(roms,
             "${dst}/Namco System 22/Namco System 22.xml",
             header + [listname: "Namco System 22"]) { MameMachine rom ->
         return filter(rom) && rom.working && rom.sourcefile == "namcos22.cpp"
     }
-    Comparer.printDifferences("Namco System 22", dst, databaseOriginal)
+    Comparer.printDifferences("Namco System 22", dst, databasesToCompare)
 
 
     ["Namco Classics",
@@ -226,7 +234,7 @@ void generateAll(List roms, Map header, String dst, String databaseOriginal, Clo
                     rom.romof != "hng64"  // Quita los de Hyper NeoGeo 64
         }
 
-        Comparer.printDifferences(it, dst, databaseOriginal)
+        Comparer.printDifferences(it, dst, databasesToCompare)
         Comparer.printDifferences(
                 "${dst}/${it}/${it}.xml",
                 "d:/Games/Soft/GrooSpin/resources/r0man0 171/Manufacturers/${it}/Working Games/${it}.xml")
