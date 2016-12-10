@@ -19,10 +19,10 @@ class HyperSpinDatabase {
     HyperSpinDatabase load(File db, Closure filter = null) {
         this.db = db
         Node menu = new XmlParser().parse(db.newReader())
-        listname = menu.listname.text()
-        lastlistupdate = menu.lastlistupdate.text()
-        listversion = menu.listversion.text()
-        exporterversion = menu.exporterversion.text()
+        listname = menu.header.listname.text()
+        lastlistupdate = menu.header.lastlistupdate.text()
+        listversion = menu.header.listversion.text()
+        exporterversion = menu.header.exporterversion.text()
 
         roms = loadRoms(menu, filter)
         return this
