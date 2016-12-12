@@ -45,10 +45,14 @@ class DatXmlToHyperSpinXml {
     static List<MameMachine> load(String datFileName, String catVerFileName, String extraInfo, Closure filter = ONLY_PLAYABLE_GAMES) {
         List<MameMachine> roms = MameMachine.loadRoms(new File(datFileName))
         if (catVerFileName) {
-            MameMachineUpdater.loadCatVer(roms, new File(catVerFileName))
+            def file = new File(catVerFileName)
+            if (!file.exists()) throw new RuntimeException("CatVer File ${catVerFileName} not found")
+            MameMachineUpdater.loadCatVer(roms, file)
         }
         if (extraInfo) {
-            MameMachineUpdater.loadExtraInfo(roms, new File(extraInfo))
+            def file = new File(extraInfo)
+            if (!file.exists()) throw new RuntimeException("ExtraInfo File ${extraInfo} not found")
+            MameMachineUpdater.loadExtraInfo(roms, file)
         }
         if (filter) {
             roms = roms.findAll(filter)
