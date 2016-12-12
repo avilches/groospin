@@ -25,7 +25,7 @@ romMediaOperations.simulation = false
 systems.each { String s ->
     RLSystem systemTo = hs.getSystem(s)
     systemTo.listRoms().each { Rom rom ->
-        romMediaOperations.copyMedia(rom.name, mameSystem, systemTo, true)
+        romMediaOperations.copyMedia(rom.name, mameSystem, systemTo, false)
     }
 
 }
