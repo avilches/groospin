@@ -208,6 +208,41 @@ class HyperSpinDatabase {
         }
     }
 
+    void addOnlyNews(List<Rom> toAdd) {
+        RomListMerger.addOnlyNews(roms, toAdd)
+    }
+
+    void appendAll(List<Rom> toAdd) {
+        RomListMerger.appendAll(roms, toAdd)
+    }
+
+    void addOrOverwrite(List<Rom> toAdd) {
+        RomListMerger.addOrOverwrite(roms, toAdd)
+    }
+
+    static class RomListMerger {
+        static void addOnlyNews(List<Rom> roms, List<Rom> toAdd) {
+            Set<String> avoidTheseRomNames = roms*.name
+            toAdd.each { Rom rom ->
+                if (!(rom.name in avoidTheseRomNames)) {
+                    roms << rom
+                }
+            }
+        }
+
+        static void appendAll(List<Rom> roms, List<Rom> toAdd) {
+            roms.addAll(toAdd)
+        }
+
+        static void addOrOverwrite(List<Rom> roms, List<Rom> toAdd) {
+            Set<String> overwrite = roms*.name.intersect(toAdd*.name)
+            roms.removeAll { Rom rom -> rom.name in overwrite }
+            appendAll(roms, toAdd)
+        }
+    }
+
+
+
     private static String getLetter(StringBuilder lettersAlreadyUsed, Rom rom) {
         String image
         if (!rom.cloneof) {
