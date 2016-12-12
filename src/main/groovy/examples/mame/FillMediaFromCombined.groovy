@@ -17,7 +17,7 @@ HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
 // Haciendo esto solo necesitamos tener actualizado el sistema MAME que los medias que falten
 // se copiaran al resto de sistemas
 
-def systems = ["SNK Neo Geo AES"] + ((hs.listSystems().findAll { it.defaultEmulator?.name?.startsWith("MAME") }*.name) - "MAME")
+def systems = ((hs.listSystems().findAll { it.defaultEmulator?.name?.startsWith("MAME") }*.name) - "MAME")
 RLSystem mameSystem = hs.getSystem("MAME")
 RomMediaOperations romMediaOperations = new RomMediaOperations(hs)
 romMediaOperations.simulation = false
@@ -25,7 +25,7 @@ romMediaOperations.simulation = false
 systems.each { String s ->
     RLSystem systemTo = hs.getSystem(s)
     systemTo.listRoms().each { Rom rom ->
-        romMediaOperations.copyMedia(rom.name, mameSystem, systemTo)
+        romMediaOperations.copyMedia(rom.name, mameSystem, systemTo, true)
     }
 
 }

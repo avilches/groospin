@@ -12,24 +12,16 @@ import java.util.zip.ZipFile
  * Created by Alberto on 10-Oct-16.
  */
 
-MameChecker checker171 = new MameChecker().loadDat("d:/Games/Emulators/MAME/MameUIFX_0.171_64bits_nonag-dinput/dat.xml")
-def missing171 = checker171.checkAll(
-["d:\\Games\\Roms\\MAME\\MAME 0.171 ROMs"],["d:\\Games\\Roms\\MAME\\MAME 0.171 CHDs"])
-println missing171
-
-MameChecker checker178 = new MameChecker().loadDat("c:\\Users\\Alberto\\Downloads\\mame178\\dat.xml")
-def missing178split = checker178.checkAll(["c:\\Users\\Alberto\\Downloads\\mame178\\MAME ROMs 178 split\\"], null)
-println missing178split
-
-def missing178merge = new MameChecker().checkAll(["c:\\Users\\Alberto\\Downloads\\mame178\\MAME 0.178 ROMs\\"], null)
-println missing178merge
+MameChecker checker180 = new MameChecker().loadDat("d:/Games/Roms/MAME/0.180/mame.dat")
+def missing180 = checker180.checkRoms(
+        ["d:/Games/Roms/MAME/0.180/ROMs", "d:/Games/Roms/MAME/0.180/chds"])
+println missing180
 
 
 class MameChecker {
     Map<String, MameMachine> index = [:]
     List<MameMachine> games = []
     List<File> romFolders
-    List<File> chdFolders
     boolean checkWarnings = false
     boolean verbose = true
     boolean checkSHA = false
@@ -41,26 +33,18 @@ class MameChecker {
     MameChecker loadDat(String datFileName) {
         index = [:]
         games = []
-        XmlParser parser = new XmlParser()
-        parser.setFeature("http://apache.org/xml/features/disallow-doctype-decl", false)
-        parser.setFeature("http://apache.org/xml/features/nonvalidating/load-external-dtd", false)
         long start = System.currentTimeMillis()
-        Node mame = parser.parse(new File(datFileName).newInputStream())
-        mame.machine.each { Node machine ->
-            MameMachine rom = new MameMachine().loadFromMameDat(machine)
+        MameMachine.loadRoms(new File(datFileName), false, null).each { MameMachine rom ->
             index[rom.name.toLowerCase()] = rom
-            if (machine.@isbios != "yes" && machine.@isdevice != "yes" && machine.@runnable != "no") {
-                games << rom
-            }
+            games << rom
         }
-        log "Parsing dat time: ${(System.currentTimeMillis()-start)/1000}s"
+        log "Parsing dat time: ${(System.currentTimeMillis()-start)/1000}s (${games.size()} machines)"
         return this
     }
 
-    Set checkAll(List romFolderString, List chdFolderString = []) {
+    Set<String> checkRoms(List romFolderString) {
         Set missing = new LinkedHashSet()
         romFolders = romFolderString.collect { it instanceof String ? new File(it) : it }
-        chdFolders = chdFolderString?.collect { it instanceof String ? new File(it) : it }
         long start = System.currentTimeMillis()
         games.each { MameMachine mameMachine ->
             List filesChecked = []
@@ -94,7 +78,7 @@ class MameChecker {
             }
 
             filesChecked = []
-            Map chdsPending = chdFolders == null ? [:]:checkChdsAndRemoveOk(extractAllDisksToCheck(mameMachine), filesChecked, mameMachine.name)
+            Map chdsPending = checkChdsAndRemoveOk(extractAllDisksToCheck(mameMachine), filesChecked, mameMachine.name)
 
             if (chdsPending) {
                 if (mameMachine.cloneof) {
@@ -205,9 +189,9 @@ class MameChecker {
     Map checkChdsAndRemoveOk(Map pendingRomBins, List filesChecked, String mameMachineName) {
         Set chdsFound = new HashSet()
         pendingRomBins.values().each { MameMachine.RomBin romBin ->
-            File chd = IOTools.findFileInFolders(chdFolders, mameMachineName+"/"+romBin.name+".chd")
+            File chd = IOTools.findFileInFolders(this.romFolders, mameMachineName+"/"+romBin.name+".chd")
             if (!chd && romBin.merge) {
-                chd = IOTools.findFileInFolders(chdFolders, mameMachineName+"/"+romBin.merge+".chd")
+                chd = IOTools.findFileInFolders(this.romFolders, mameMachineName+"/"+romBin.merge+".chd")
             }
             if (chd) {
                 filesChecked << chd.toString()

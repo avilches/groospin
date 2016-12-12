@@ -6,29 +6,32 @@ import org.hs5tb.groospin.base.HyperSpinDatabase
 import org.hs5tb.groospin.base.MameMachine
 String commonDst = "d:/Games/HyperSpin-fe/Databases alternativas/MAME"
 
-generateVersion("0.171", commonDst,
-        "d:/Games/Emulators/MAME/MameUIFX_0.171_64bits_nonag-dinput/dat.xml", // DAT
-        ["d:/Games/Roms/MAME/MAME 0.171 ROMs"],["d:/Games/Roms/MAME/MAME 0.171 CHDs"], // ROM/CHDS FOLDERS
-        "d:/Games/HyperSpin-fe/Databases alternativas/MAME/oficiales" // folder to compare
-)
-
-generateVersion("0.178", commonDst,
-        "c:\\Users\\Alberto\\Downloads\\mame178\\dat.xml", // DAT
-        ["c:\\Users\\Alberto\\Downloads\\mame178\\MAME ROMs 178 split\\"],["d:/Games/Roms/MAME/MAME 0.171 CHDs"], // ROM/CHDS FOLDERS
+generateVersion("0.180", commonDst,
+        "d:/Games/Roms/MAME/0.180/mame.dat", // DAT
+        ["d:/Games/Roms/MAME/0.180/ROMs", "d:/Games/Roms/MAME/0.180/chds"], // ROM/CHDS FOLDERS
         "${commonDst}/0.171/todo" // folder to compare
 )
 
-void generateVersion(String version, String commonDst, String xmlDat, List romFolders, List chdFolders, String databasesToCompare) {
+void generateVersion(String version, String commonDst, String xmlDat, List romFolders, String databasesToCompare) {
 
     def header = [listversion    : version,
                   lastlistupdate : new Date().format("dd/MM/yyyy"),
                   exporterversion: "GrooSpin by HS5Tb"]
 
-    def catver = "d:/Games/Soft/GrooSpin/resources/pS_CatVer/176/catver.ini"
-    def extraInfo = "d:/Games/Soft/GrooSpin/resources/Official HyperSpin MAME/code/extra_info.txt"
+    def catver = "d:/Games/Soft/GrooSpin/resources/pS_CatVer/180/catver.ini"
+    def extraInfo = "d:/Games/Soft/GrooSpin/resources/Official HyperSpin MAME/180/code/extra_info.txt"
     def roms = DatXmlToHyperSpinXml.load(xmlDat, catver, extraInfo)
-    def missing = new MameChecker().loadDat(xmlDat).checkAll(romFolders, chdFolders)
+    def missing = new MameChecker().loadDat(xmlDat).checkRoms(romFolders)
+    if (missing) {
+        println "*** PAY ATTENTION!!! Missing: ${missing}"
+    }
     roms.removeAll { it.name in missing }
+/*
+    File f = new File("${commonDst}/${version}/txt")
+    f.mkdirs()
+    roms.each {
+        new File(f, it.name+".txt").text = ""
+    }*/
 
 /*
 debugRoms.removeAll { it.mahjong || it.hanafuda }
@@ -61,16 +64,12 @@ debugRoms.removeAll { it.catVerCat?.contains("Tabletop") || it.genre?.contains("
 }
 void generateAll(List roms, Map header, String dst, String databasesToCompare, Closure filter) {
 
-    println
     // Psikyo
     DatXmlToHyperSpinXml.store(roms,
             "${dst}/Psikyo/Psikyo.xml",
             header + [listname: "Psikyo working"]) { MameMachine rom ->
         return filter(rom) && rom.working && rom.manufacturer.contains("Psikyo")
     }
-    Comparer.printDifferences(
-            "${dst}/Psikyo/Psikyo.xml",
-            "d:/Games/Soft/GrooSpin/resources/ml/Psikyo.xml")
     Comparer.printDifferences("Psikyo", dst, databasesToCompare)
 
     // Technos Japan
@@ -79,11 +78,7 @@ void generateAll(List roms, Map header, String dst, String databasesToCompare, C
             header + [listname: "Technos Japan working"]) { MameMachine rom ->
         return filter(rom) && rom.working && rom.manufacturer.contains("Technos Japan")
     }
-    Comparer.printDifferences(
-            "${dst}/Technos Classics/Technos Classics.xml",
-            "d:/Games/Soft/GrooSpin/resources/ml/Technos Classics.xml")
     Comparer.printDifferences("Technos Classics", dst, databasesToCompare)
-
 
     // Shotgun Games
     DatXmlToHyperSpinXml.store(roms,
@@ -91,9 +86,6 @@ void generateAll(List roms, Map header, String dst, String databasesToCompare, C
             header + [listname: "Games with lightgun"]) { MameMachine rom ->
         return filter(rom) && rom.working && rom.lightgun
     }
-    Comparer.printDifferences(
-            "${dst}/Shotgun Games/Shotgun Games.xml",
-            "d:/Games/Soft/GrooSpin/resources/ml/Shotgun Games.xml")
     Comparer.printDifferences("Shotgun Games", dst, databasesToCompare)
 
     // Trackball Games
@@ -102,9 +94,6 @@ void generateAll(List roms, Map header, String dst, String databasesToCompare, C
             header + [listname: "Games with lightgun"]) { MameMachine rom ->
         return filter(rom) && rom.working && rom.hasBall()
     }
-    Comparer.printDifferences(
-            "${dst}/Trackball Games/Trackball Games.xml",
-            "d:/Games/Soft/GrooSpin/resources/ml/Trackball Games.xml")
     Comparer.printDifferences("Trackball Games", dst, databasesToCompare)
 
 
@@ -114,9 +103,6 @@ void generateAll(List roms, Map header, String dst, String databasesToCompare, C
             header + [listname: "MAME only working"]) { MameMachine rom ->
         return filter(rom) && rom.working
     }
-    Comparer.printDifferences(
-            "${dst}/MAME/MAME.xml",
-            "d:/Games/Soft/GrooSpin/resources/r0man0 171/Mame/Working Games/Mame.xml")
     Comparer.printDifferences("MAME", dst, databasesToCompare)
 
     Set bestOfMameRomNames = (griffinBestOf() + redditBestOf()) as Set
@@ -126,10 +112,7 @@ void generateAll(List roms, Map header, String dst, String databasesToCompare, C
             header + [listname: "Best of MAME only working"]) { MameMachine rom ->
         return filter(rom) && rom.working && rom.name in bestOfMameRomNames
     }
-    Comparer.printDifferences(
-            "${dst}/MAME/MAME.xml",
-            "d:/Games/Soft/GrooSpin/resources/r0man0 171/Mame/Working Games/Mame.xml")
-    Comparer.printDifferences("MAME", dst, databasesToCompare)
+    Comparer.printDifferences("Best of MAME", dst, databasesToCompare)
 
     // MAME 4 Players
     DatXmlToHyperSpinXml.store(roms,
@@ -146,9 +129,6 @@ void generateAll(List roms, Map header, String dst, String databasesToCompare, C
         // SNK Classics needs an special condition to remove the neogeo roms
         return filter(rom) && rom.working && rom.manufacturer.contains("SNK") && rom.romof != "neogeo" && rom.romof != "hng64"
     }
-    Comparer.printDifferences(
-            "${dst}/SNK Classics/SNK Classics.xml",
-            "d:/Games/Soft/GrooSpin/resources/r0man0 171/Manufacturers/SNK Classics/Working Games/SNK Classics.xml")
     Comparer.printDifferences("SNK Classics", dst, databasesToCompare)
 
     DatXmlToHyperSpinXml.store(roms,
@@ -156,9 +136,6 @@ void generateAll(List roms, Map header, String dst, String databasesToCompare, C
             header + [listname: "Nintendo Classics"]) { MameMachine rom ->
         return filter(rom) && rom.working && (rom.manufacturer.contains("Nintendo") || rom.sourcefile == "vsnes.cpp")
     }
-    Comparer.printDifferences(
-            "${dst}/Nintendo Classics/Nintendo Classics.xml",
-            "d:/Games/Soft/GrooSpin/resources/r0man0 171/Manufacturers/Nintendo Classics/Working Games/Nintendo Classics.xml")
     Comparer.printDifferences("Nintendo Classics", dst, databasesToCompare)
 
     DatXmlToHyperSpinXml.store(roms,
@@ -235,9 +212,6 @@ void generateAll(List roms, Map header, String dst, String databasesToCompare, C
         }
 
         Comparer.printDifferences(it, dst, databasesToCompare)
-        Comparer.printDifferences(
-                "${dst}/${it}/${it}.xml",
-                "d:/Games/Soft/GrooSpin/resources/r0man0 171/Manufacturers/${it}/Working Games/${it}.xml")
 
     }
 
