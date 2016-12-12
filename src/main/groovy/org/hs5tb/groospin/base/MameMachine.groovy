@@ -79,6 +79,8 @@ class MameMachine extends Rom {
 
     boolean vertical = false
 
+    Set softwareNames
+
     List controls
 
     MameMachine loadFromMameDat(Node machine) {
@@ -139,6 +141,10 @@ class MameMachine extends Rom {
             disks << new RomBin().load(it)
         }
 
+        softwareNames = machine.softwarelist.collect {
+            it.@name
+        }
+
         return this
     }
 
@@ -181,7 +187,7 @@ class MameMachine extends Rom {
         return parseDat(file.newInputStream())
     }
 
-    static Node parseDat(InputStream is) {
+    static Node parseDat(InputStream is, boolean fixClones = true, Closure filter = mameMachineRunnableArcadeOnlyCondition) {
         XmlParser parser = new XmlParser()
         parser.setFeature("http://apache.org/xml/features/disallow-doctype-decl", false)
         parser.setFeature("http://apache.org/xml/features/nonvalidating/load-external-dtd", false)
@@ -189,58 +195,57 @@ class MameMachine extends Rom {
 
         Map machineRomOf = [:]
         mame.machine.each { Node machine ->
-            if (machineNotRunnableCondition.call(machine)) {
-                mame.children().remove(machine)
-            } else {
-                // Mame stores the roms in this way:
-                // <machine name="2020bb" romof="neogeo">
-                // <machine name="2020bba" cloneof="2020bb" romof="2020bb">
-                // But this is wrong because we loose the romof="neogeo" in the 2020bba clone,
-                // so we fix the xml putting the right romof in the clones also
+            if (filter == null || filter.call(machine)) {
+                if (fixClones) {
+                    // Mame stores the roms in this way:
+                    // <machine name="2020bb" romof="neogeo">
+                    // <machine name="2020bba" cloneof="2020bb" romof="2020bb">
+                    // But this is wrong because we loose the romof="neogeo" in the 2020bba clone,
+                    // so we fix the xml putting the right romof in the clones also
 
-                if (machine.@romof && !machine.@cloneof) {
-                    machineRomOf[machine.@name] = machine
-                } else if (machine.@cloneof) {
-                    if (machineRomOf[machine.@cloneof]) {
-                        machine.@romof = machineRomOf[machine.@cloneof].@romof
+                    if (machine.@romof && !machine.@cloneof) {
+                        machineRomOf[machine.@name] = machine
+                    } else if (machine.@cloneof) {
+                        if (machineRomOf[machine.@cloneof]) {
+                            machine.@romof = machineRomOf[machine.@cloneof].@romof
+                        }
                     }
                 }
+            } else {
+                mame.children().remove(machine)
             }
         }
 
         return mame
     }
 
-    static Closure machineNotRunnableCondition = { Node machine ->
-        boolean notRunnable = machine.@isbios == "yes" || machine.@isdevice == "yes" || machine.@runnable == "no"
-        if (notRunnable) {
-            // println "Skipping non-game ${machine.@isbios == "yes" ? "B" : "."}${machine.@isdevice ? "D" : "."}${machine.@runnable == "no" ? "N" : "."} ${machine.@name}: ${machine.description.text()}"
+    static Closure mameMachineRunnableArcadeOnlyCondition = { Node machine ->
+        boolean runnable =
+                machine.@isbios != "yes" &&
+                machine.@isdevice != "yes" &&
+                machine.@runnable != "no" &&
+                machine.softwarelist.size() == 0
+        if (!runnable) {
+            println "Skipping non-game ${machine.@isbios == "yes" ? "B" : "."}${machine.@isdevice ? "D" : "."}${machine.@runnable == "no" ? "N" : "."}-${machine.softwarelist.size()} [${machine.@name}]: \"${machine.description.text()}\""
         }
-        return notRunnable
+        return runnable
     }
 
-    static List<MameMachine> loadRoms(String file, Closure filter = null) {
-        loadRoms(new File(file).newInputStream(), filter)
+    static List<MameMachine> loadRoms(String file, boolean fixClones = true, Closure filter = mameMachineRunnableArcadeOnlyCondition) {
+        loadRoms(new File(file).newInputStream(), fixClones, filter)
     }
 
-    static List<MameMachine> loadRoms(File file, Closure filter = null) {
-        return loadRoms(file.newInputStream(), filter)
+    static List<MameMachine> loadRoms(File file, boolean fixClones = true, Closure filter = mameMachineRunnableArcadeOnlyCondition) {
+        return loadRoms(file.newInputStream(), fixClones, filter)
     }
 
-    static List<MameMachine> loadRoms(InputStream is, Closure filter = null) {
-        Node mame = parseDat(is)
-        loadRoms(mame, filter)
+    static List<MameMachine> loadRoms(InputStream is, boolean fixClones = true, Closure filter = mameMachineRunnableArcadeOnlyCondition) {
+        Node mame = parseDat(is, fixClones, filter)
+        createMameMachinesFromDat(mame)
     }
 
-    static List<MameMachine> loadRoms(Node mame, Closure filter = null) {
-        List<MameMachine> machines = []
-        mame.machine.each { Node machine ->
-            MameMachine rom = new MameMachine().loadFromMameDat(machine)
-            if (!filter || filter(rom)) {
-                machines << rom
-            }
-        }
-        return machines
+    static List<MameMachine> createMameMachinesFromDat(Node mame) {
+        return mame.machine.collect { Node machine -> new MameMachine().loadFromMameDat(machine) }
     }
 
 }
