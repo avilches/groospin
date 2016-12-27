@@ -61,8 +61,9 @@ class HyperSpin {
             }
             Ini settings = new IniFile().parse(systemSettingsConfig)
             String path = settings.get("exe info", "path")
+            String exe = settings.get("exe info", "exe")
 
-            RLSystem system = new RLSystem(hyperSpin: this, name: systemName, iniRomPath: path, executable: true, romPathsList: [newRocketLauncherFile(path)])
+            RLSystem system = new RLSystem(hyperSpin: this, name: systemName, iniRomPath: path, executable: true, executableExe: new File(path, exe), romPathsList: [newRocketLauncherFile(path)])
             return system
         }
 
@@ -114,6 +115,10 @@ class HyperSpin {
         return emulator
     }
 
+    HyperSpinDatabase loadHyperSpinMainMenu() {
+        loadHyperSpinDatabase("Main Menu")
+    }
+
     HyperSpinDatabase loadHyperSpinDatabase(String systemName, Closure filter = null) {
         File db = getDatabaseFile(systemName)
         if (db.exists()) {
@@ -163,6 +168,10 @@ class HyperSpin {
         }
         Node menu = new XmlParser().parse(db.newReader())
         return menu.game.collect(filter).findAll()
+    }
+
+    File getMainMenuFile() {
+        getDatabaseFile("Main Menu")
     }
 
     File getDatabaseFile(String systemName) {

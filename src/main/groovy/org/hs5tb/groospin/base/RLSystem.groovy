@@ -12,6 +12,7 @@ class RLSystem {
     String name
     RLEmulator defaultEmulator
     boolean executable = false
+    File executableExe
 
     String iniRomPath
     String iniDefaultEmulator
