@@ -5,11 +5,13 @@ import org.hs5tb.groospin.base.HyperSpinDatabase
 import org.hs5tb.groospin.base.RLSystem
 import org.hs5tb.groospin.base.Rom
 
+//HyperSpinDatabase.rewriteDatabase(new File("B:\\Best of MAME Alex.xml"))
+//return
+
 HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
 
 // Fix one database
 HyperSpinDatabase.rewriteDatabase(hs.getSystem("Nintendo Wii U").loadHyperSpinDatabase(), null, { Rom rom -> rom.genre })
-
 return
 
 // Fix all

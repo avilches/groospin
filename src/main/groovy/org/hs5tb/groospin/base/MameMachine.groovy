@@ -32,6 +32,24 @@ class MameMachine extends Rom {
 
     }
 
+    void exportAdditional(d) {
+        d.mame {
+            d.since(this.catVerVersion)
+            d.romof(this.romof)
+            d.sourcefile(this.sourcefile)
+            d.files {
+                this.filesUsed.each { String file ->
+                    d.file(file)
+                }
+            }
+            d.driver(status: this.driverStatus ,emulation: this.emulationStatus, colort: this.colorStatus,
+                    sound: this.soundStatus, graphic: this.graphicStatus, vertical: this.vertical)
+            d.input(players: this.players, buttons: this.buttons, joystick: this.hasJoystick(), ball: this.hasBall(), keyboard: this.hasKeyboard())
+        }
+    }
+
+    List filesUsed
+
     String driverStatus
     String emulationStatus
     String colorStatus

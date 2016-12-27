@@ -10,6 +10,19 @@ import org.hs5tb.groospin.checker.result.CheckRomResult
 
 HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
 
+RomMediaOperations romMediaOperations = new RomMediaOperations(hs)
+romMediaOperations.simulation = false
+
+
+// Ejemplo de copia de medias de un sistema a otro
+RLSystem from = hs.getSystem("Nintendo Entertainment System")
+RLSystem to = hs.getSystem("Nintendo Classic Mini")
+to.listRoms().each { Rom rom ->
+    romMediaOperations.copyMedia(rom.name, from, to)
+}
+
+return
+
 // Se procesan todos los sistemas basados en MAME, menos MAME
 // Se supone que antes se ha ejecutado CombineMediaMame y tenemos en MAME todos los medias
 // mezclados de todos los sistemas
@@ -19,8 +32,6 @@ HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
 
 def systems = ((hs.listSystems().findAll { it.defaultEmulator?.name?.startsWith("MAME") }*.name) - "MAME")
 RLSystem mameSystem = hs.getSystem("MAME")
-RomMediaOperations romMediaOperations = new RomMediaOperations(hs)
-romMediaOperations.simulation = false
 
 systems.each { String s ->
     RLSystem systemTo = hs.getSystem(s)

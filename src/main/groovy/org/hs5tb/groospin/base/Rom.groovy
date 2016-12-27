@@ -63,4 +63,7 @@ class Rom {
         return name.toLowerCase().contains(s) || description.toLowerCase().contains(s)
     }
 
+    void exportAdditional(d) {
+    }
+
 }

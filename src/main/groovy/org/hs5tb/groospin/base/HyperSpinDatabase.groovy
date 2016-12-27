@@ -203,6 +203,7 @@ class HyperSpinDatabase {
                     if (rom.rating) rating(rom.rating)
                     if (rom.enabled) enabled(rom.enabled)
                     if (rom.exe) exe(rom.exe)
+                    rom.exportAdditional(delegate)
                 }
             }
         }

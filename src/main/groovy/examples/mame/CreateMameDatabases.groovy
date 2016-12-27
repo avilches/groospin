@@ -20,12 +20,19 @@ void generateVersion(String version, String commonDst, String xmlDat, List romFo
 
     def catver = "d:/Games/Soft/GrooSpin/resources/pS_CatVer/180/catver.ini"
     def extraInfo = "d:/Games/Soft/GrooSpin/resources/Official HyperSpin MAME/180/code/extra_info.txt"
-    def roms = DatXmlToHyperSpinXml.load(xmlDat, catver, extraInfo)
-    def missing = new MameChecker().loadDat(xmlDat).checkRoms(romFolders)
+    List<MameMachine> roms = DatXmlToHyperSpinXml.load(xmlDat, catver, extraInfo)
+    MameChecker.Report report = new MameChecker().loadDat(xmlDat).checkRoms(romFolders)
+    def missing = report.missing
     if (missing) {
         println "*** PAY ATTENTION!!! Missing: ${missing}"
+        return
     }
     roms.removeAll { it.name in missing }
+
+    roms.each { MameMachine rom ->
+        rom.filesUsed = report.filesUsed[rom.name]
+    }
+
 /*
     File f = new File("${commonDst}/${version}/txt")
     f.mkdirs()
