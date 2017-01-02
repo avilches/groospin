@@ -121,10 +121,10 @@ class HyperSpin {
 
     HyperSpinDatabase loadHyperSpinDatabase(String systemName, Closure filter = null) {
         File db = getDatabaseFile(systemName)
-        if (db.exists()) {
-            return new HyperSpinDatabase().load(db, filter)
+        if (!db.exists()) {
+            HyperSpinDatabase.write([], db)
         }
-        return null
+        return new HyperSpinDatabase().load(db, filter)
     }
 
     List<Rom> listRoms(String systemName, Collection<String> names = null) {
