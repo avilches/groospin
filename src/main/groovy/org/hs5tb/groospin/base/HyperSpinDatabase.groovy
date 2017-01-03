@@ -221,6 +221,13 @@ class HyperSpinDatabase {
         RomListMerger.addOrOverwrite(roms, toAdd)
     }
 
+    Rom renameRomName(String romName, String newRomName) {
+        Rom rom = roms?.find { it.name == romName }
+        if (!rom) return null
+        rom.name = newRomName
+        return rom
+    }
+
     static class RomListMerger {
         static void addOnlyNews(List<Rom> roms, List<Rom> toAdd) {
             Set<String> avoidTheseRomNames = roms*.name
