@@ -23,6 +23,25 @@ class RomMediaOperations extends Operations {
         copyMedia(rom, systemFrom, systemTo, overwrite)
     }
 
+    void renameMedia(String rom, RLSystem systemFrom, String newRomName, boolean overwrite = false, boolean keepOriginal = false) {
+        ["Video"].each { String path ->
+            renameMedia(rom, systemFrom, newRomName, path, HyperSpin.VIDEO_EXTENSIONS, overwrite, keepOriginal)
+        }
+
+        ["Images/Wheel", "Images/Gamestart",
+         "Images/Artwork1", "Images/Artwork2", "Images/Artwork3", "Images/Artwork4"].each { String path ->
+            renameMedia(rom, systemFrom, newRomName, path, HyperSpin.IMAGE_EXTENSIONS, overwrite, keepOriginal)
+        }
+
+        ["Themes"].each { String path ->
+            renameMedia(rom, systemFrom, newRomName, path, HyperSpin.THEME_EXTENSIONS, overwrite, keepOriginal)
+        }
+
+        ["Sound/Background Music"].each { String path ->
+            renameMedia(rom, systemFrom, newRomName, "Sound/Background Music", HyperSpin.MUSIC_EXTENSIONS, overwrite, keepOriginal)
+        }
+    }
+
     void copyMedia(String rom, RLSystem systemFrom, RLSystem systemTo, boolean overwrite = false) {
 
         ["Video"].each { String path ->
@@ -43,6 +62,30 @@ class RomMediaOperations extends Operations {
         }
 
     }
+
+    void renameMedia(String rom, RLSystem systemFrom, String newRomName, String path, List extensions, boolean overwrite = false, boolean keepOriginal = false) {
+        if (!overwrite) {
+            File dst = IOTools.findFileWithExtensions(systemFrom.newMediaPath("${path}/${newRomName}"), extensions)
+            if (dst) {
+                return
+            }
+        }
+
+        File originMedia = IOTools.findFileWithExtensions(systemFrom.newMediaPath("${path}/${rom}"), extensions)
+        if (originMedia) {
+            String originMediaExt = IOTools.getExtension(originMedia)
+            File missingMedia = systemFrom.newMediaPath("${path}/${newRomName}.${originMediaExt}")
+            log("(${simulation?"simulation":"real"}) ${originMedia} -> ${missingMedia}")
+            if (!simulation) {
+                if (keepOriginal) {
+                    IOTools.copy(originMedia, missingMedia)
+                } else {
+                    IOTools.move(originMedia, missingMedia)
+                }
+            }
+        }
+    }
+
     void copyMedia(String rom, RLSystem systemFrom, RLSystem systemTo, String path, List extensions, boolean overwrite = false) {
         if (!overwrite) {
             File dst = IOTools.findFileWithExtensions(systemTo.newMediaPath("${path}/${rom}"), extensions)
