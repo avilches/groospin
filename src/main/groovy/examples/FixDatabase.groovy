@@ -11,7 +11,11 @@ import org.hs5tb.groospin.base.Rom
 HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
 
 // Fix one database
-HyperSpinDatabase.rewriteDatabase(hs.getSystem("Nintendo Wii U").loadHyperSpinDatabase(), null, { Rom rom -> rom.genre })
+def database = hs.getSystem("Sony PlayStation 2").loadHyperSpinDatabase()
+/*database.roms.each {
+    it.description = it.name
+}*/
+HyperSpinDatabase.rewriteDatabase(database, null, { Rom rom -> rom.genre })
 return
 
 // Fix all
