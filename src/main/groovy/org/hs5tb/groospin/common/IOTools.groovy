@@ -9,6 +9,7 @@ package org.hs5tb.groospin.common
 
 import groovy.io.FileType
 
+import java.nio.file.FileSystemException
 import java.nio.file.Files
 import java.nio.file.Path
 import java.nio.file.Paths
@@ -99,9 +100,18 @@ class IOTools {
         return null
     }
 
+    static String getExtension(File filename) {
+        return getExtension(filename.name)
+    }
+
     static String getExtension(String filename) {
         return filename.lastIndexOf('.').with {it != -1 ? filename.substring(it+1) : filename}
     }
+
+    static String getFilenameWithoutExtension(File filename) {
+        return getFilenameWithoutExtension(filename.name)
+    }
+
     static String getFilenameWithoutExtension(String filename) {
         return filename.lastIndexOf('.').with {it != -1 ? filename[0..<it] : filename}
     }
@@ -118,25 +128,12 @@ class IOTools {
         else
             Files.copy(Paths.get(origin.toString()), Paths.get(dst.toString()), java.nio.file.StandardCopyOption.REPLACE_EXISTING, java.nio.file.StandardCopyOption.COPY_ATTRIBUTES)
     }
-    static void move(File origin, File dst) {
-        Files.move(Paths.get(origin.toString()), Paths.get(dst.toString()))
-        /*
-        if (!origin.exists()) return
-        if (dst.exists()) {
-            if (dst.directory) {
-                dst = new File(dst, origin.name)
-            }
-        } else {
-            dst.parentFile.mkdirs()
-        }
-        if (!origin.renameTo(dst)) {
-            origin
-            copy(origin, dst)
-            if (dst.exists()) {
-                origin.delete()
-            }
-        }
-        */
+
+    static void move(File origin, File dst, boolean overwrite = true) {
+        if (!overwrite)
+            Files.move(Paths.get(origin.toString()), Paths.get(dst.toString()), java.nio.file.StandardCopyOption.ATOMIC_MOVE)
+        else
+            Files.move(Paths.get(origin.toString()), Paths.get(dst.toString()), java.nio.file.StandardCopyOption.ATOMIC_MOVE, java.nio.file.StandardCopyOption.REPLACE_EXISTING, )
     }
 
     static String crc(InputStream is) {
