@@ -47,7 +47,7 @@ class RomChecker {
 
         checkResultRom.wheels = findMedia(true, originalSystem, "Images/Wheel/${romName}", HyperSpin.IMAGE_EXTENSIONS) ? 1 : 0
         checkResultRom.videos = findMedia(true, originalSystem, "Video/${romName}", HyperSpin.VIDEO_EXTENSIONS) ? 1 : 0
-        checkResultRom.themes = findMedia(true, originalSystem, "Themes/${romName}", ["zip"]) ? 1 : 0
+        checkResultRom.themes = findMedia(false, originalSystem, "Themes/${romName}", ["zip"]) ? 1 : 0
         checkResultRom.artwork1 = findMedia(false, originalSystem, "Images/Artwork1/${romName}", HyperSpin.IMAGE_EXTENSIONS) ? 1 : 0
         checkResultRom.artwork2 = findMedia(false, originalSystem, "Images/Artwork2/${romName}", HyperSpin.IMAGE_EXTENSIONS) ? 1 : 0
         checkResultRom.artwork3 = findMedia(false, originalSystem, "Images/Artwork3/${romName}", HyperSpin.IMAGE_EXTENSIONS) ? 1 : 0
@@ -62,7 +62,6 @@ class RomChecker {
         }
         if (!mediaFile && log) {
             //println "Missing ${system.name}:$path.[${extensions.join("|")}]"
-            // new File("d:\\Games\\Roms\\MEGADRIVE NO video\\${new File(path).name}.txt").text = ""
         }
         return mediaFile
     }
