@@ -11,6 +11,7 @@ import org.hs5tb.groospin.checker.result.CheckTotalResult
 
 /**
  * Created by Alberto on 23-Dec-16.
+ * Elimina los sistemas que tienen 0 juegos (y no son ejecutables)
  */
 
 

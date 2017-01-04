@@ -15,10 +15,10 @@ class CheckResult {
     int wheels = 0
     int videos = 0
     int themes = 0
-    int artwork1 = 0
-    int artwork2 = 0
-    int artwork3 = 0
-    int artwork4 = 0
+    int artworks1 = 0
+    int artworks2 = 0
+    int artworks3 = 0
+    int artworks4 = 0
 
     void add(CheckResult checkResult) {
         roms += checkResult.roms
@@ -26,9 +26,9 @@ class CheckResult {
         wheels += checkResult.wheels
         videos += checkResult.videos
         themes += checkResult.themes
-        artwork1 += checkResult.artwork1
-        artwork2 += checkResult.artwork2
-        artwork3 += checkResult.artwork3
-        artwork4 += checkResult.artwork4
+        artworks1 += checkResult.artworks1
+        artworks2 += checkResult.artworks2
+        artworks3 += checkResult.artworks3
+        artworks4 += checkResult.artworks4
     }
 }

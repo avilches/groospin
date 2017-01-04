@@ -45,13 +45,21 @@ class RomChecker {
             checkResultRom.roms = checkResultRom.exes = 0
         }
 
-        checkResultRom.wheels = findMedia(true, originalSystem, "Images/Wheel/${romName}", HyperSpin.IMAGE_EXTENSIONS) ? 1 : 0
-        checkResultRom.videos = findMedia(true, originalSystem, "Video/${romName}", HyperSpin.VIDEO_EXTENSIONS) ? 1 : 0
-        checkResultRom.themes = findMedia(false, originalSystem, "Themes/${romName}", ["zip"]) ? 1 : 0
-        checkResultRom.artwork1 = findMedia(false, originalSystem, "Images/Artwork1/${romName}", HyperSpin.IMAGE_EXTENSIONS) ? 1 : 0
-        checkResultRom.artwork2 = findMedia(false, originalSystem, "Images/Artwork2/${romName}", HyperSpin.IMAGE_EXTENSIONS) ? 1 : 0
-        checkResultRom.artwork3 = findMedia(false, originalSystem, "Images/Artwork3/${romName}", HyperSpin.IMAGE_EXTENSIONS) ? 1 : 0
-        checkResultRom.artwork4 = findMedia(false, originalSystem, "Images/Artwork4/${romName}", HyperSpin.IMAGE_EXTENSIONS) ? 1 : 0
+        checkResultRom.wheel = findMedia(true, originalSystem, "Images/Wheel/${romName}", HyperSpin.IMAGE_EXTENSIONS)
+        checkResultRom.video = findMedia(true, originalSystem, "Video/${romName}", HyperSpin.VIDEO_EXTENSIONS)
+        checkResultRom.theme = findMedia(false, originalSystem, "Themes/${romName}", ["zip"])
+        checkResultRom.artwork1 = findMedia(false, originalSystem, "Images/Artwork1/${romName}", HyperSpin.IMAGE_EXTENSIONS)
+        checkResultRom.artwork2 = findMedia(false, originalSystem, "Images/Artwork2/${romName}", HyperSpin.IMAGE_EXTENSIONS)
+        checkResultRom.artwork3 = findMedia(false, originalSystem, "Images/Artwork3/${romName}", HyperSpin.IMAGE_EXTENSIONS)
+        checkResultRom.artwork4 = findMedia(false, originalSystem, "Images/Artwork4/${romName}", HyperSpin.IMAGE_EXTENSIONS)
+
+        checkResultRom.wheels = checkResultRom.wheel? 1 : 0
+        checkResultRom.videos = checkResultRom.video? 1 : 0
+        checkResultRom.themes = checkResultRom.theme? 1 : 0
+        checkResultRom.artworks1 = checkResultRom.artwork1? 1 : 0
+        checkResultRom.artworks2 = checkResultRom.artwork2? 1 : 0
+        checkResultRom.artworks3 = checkResultRom.artwork3? 1 : 0
+        checkResultRom.artworks4 = checkResultRom.artwork4? 1 : 0
         return checkResultRom
     }
 

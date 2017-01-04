@@ -41,7 +41,7 @@ class AllRomsCsvList extends BaseCheckHandler {
                     "themes",
                     "artwork1",
                     "artwork2",
-                    "artwork3",
+                    "artworks3",
                     "artwork4"
         ].join(separator)
     }
@@ -57,10 +57,10 @@ class AllRomsCsvList extends BaseCheckHandler {
                     checkResult.wheels,
                     checkResult.videos,
                     checkResult.themes,
-                    checkResult.artwork1,
-                    checkResult.artwork2,
-                    checkResult.artwork3,
-                    checkResult.artwork4
+                    checkResult.artworks1,
+                    checkResult.artworks2,
+                    checkResult.artworks3,
+                    checkResult.artworks4
         ].join(separator)
     }
 

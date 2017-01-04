@@ -9,4 +9,13 @@ import org.hs5tb.groospin.base.Rom
 class CheckRomResult extends CheckResult {
     String romName
     Rom rom
+
+
+    File wheel
+    File video
+    File theme
+    File artwork1
+    File artwork2
+    File artwork3
+    File artwork4
 }

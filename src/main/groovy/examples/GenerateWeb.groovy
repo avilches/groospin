@@ -8,6 +8,7 @@ import org.hs5tb.groospin.checker.site.MainWebSite
 
 import com.xlson.groovycsv.CsvParser
 import org.hs5tb.groospin.checker.site.RLSystemConfig
+import org.hs5tb.groospin.checker.site.SystemWebSite
 import org.hs5tb.groospin.common.ZipUtils
 
 String reportRoot = "D:/Games/Soft/Groospin/generated/websites/${new Date().format("yyyy-MM-dd HH-mm")}"
@@ -44,8 +45,9 @@ new Checker(hs).
         addHandler(new MissingTxtList("${reportRoot}/missing.csv", ";")).
         addHandler(new AllRomsCsvList("${reportRoot}/roms.csv", ";")).
         addHandler(new SystemCsvList("${reportRoot}/systems.csv", ";")).
-        addHandler(new MainWebSite("${reportRoot}/website", true)).
-        checkSystemGroup(systemIndexGroup.sort())
+        addHandler(new SystemWebSite("${reportRoot}/website/system-", true)).
+        addHandler(new MainWebSite("${reportRoot}/website")).
+        checkSystemGroup(shortConfigJustForTest.sort())
 
 ZipUtils.zip(["${reportRoot}/all.html", "${reportRoot}/roms.csv", "${reportRoot}/systems.csv"].collect { new File(it) }, new File(reportRoot, "listado.zip"))
 

@@ -12,6 +12,8 @@ def systems = spin.listSystems().findAll { it.defaultEmulator.name == "RetroArch
 // Borra los juegos (la rom y del xml) que no tengan video ni wheel. Si tiene video o wheel los deja
 
 // Primero se añade un sufijo a las roms que no tienen video ni wheel
+// Para borrarlas definitivamente solo hay que buscar las roms por
+// extension *.delete
 RomFileOperations romOperations = new RomFileOperations(spin)
 romOperations.addSuffixToRomName(".delete", [Operations.NO_VIDEO, Operations.NO_WHEEL], systems)
 

@@ -15,7 +15,6 @@ import static org.hs5tb.groospin.common.IOTools.sanitize
 class MainWebSite extends BaseCheckHandler {
     private File root
     private FileBuffer websiteSystems
-    boolean includeMissing = false
     private n = 0
 
     @Override
@@ -28,13 +27,12 @@ class MainWebSite extends BaseCheckHandler {
         true
     }
 
-    MainWebSite(String root, boolean includeMissing) {
-        this(new File(root), includeMissing)
+    MainWebSite(String root) {
+        this(new File(root))
     }
 
-    MainWebSite(File root, boolean includeMissing) {
+    MainWebSite(File root) {
         println ("MainWebSite root: "+root)
-        this.includeMissing = includeMissing
         this.root = root
         this.websiteSystems = new FileBuffer(new File(root, "systems.html"))
     }
@@ -128,16 +126,12 @@ table#systems tbody td.state {
         websiteSystems << "<table id='systems'><thead>\n<tr>\n    <td>#</td><td colspan='2'>Sistema</td><td colspan='2'>Estado</td><td>Roms</td><td>Tamaño</td><td>Wheels</td><td>Video</td><td>Temas</td><td>Tamaño medias</td>\n</tr>\n</thead>\n<tbody>"
     }
 
-    SystemWebSite haveHtmlList
     @Override
     void startSystem(RLSystem system) {
-        haveHtmlList = new SystemWebSite(new File(root, "system-${system.name}.html"), includeMissing)
-        haveHtmlList.startSystem(system)
     }
 
     @Override
     void romChecked(CheckRomResult checkResult) {
-        haveHtmlList.romChecked(checkResult)
     }
 
     @Override
@@ -152,7 +146,6 @@ table#systems tbody td.state {
     String dangerIcon    = "<span class='toolttip'><img src='${baseImg}danger-icon.png' width='22'/><span class=\"toolttiptext\">El sistema es inestable, no está bien emulado o presenta dificultades para jugar</span></span>"
     @Override
     void endSystem(CheckTotalResult checkResult) {
-        haveHtmlList.endSystem(checkResult)
         websiteSystems << "<tr>\n    <td class='n'>${++n}</td><td><img src='${baseImg}${checkResult.system.name}.png' onerror=\"this.style.display='none'\"/></td><td class='system'><a href='/sistemas/${sanitize(checkResult.system.name)}/'>${checkResult.system.name}</a><div class='emu'>${checkResult.system.defaultEmulator?.name ?: ""}</div></td>"
         websiteSystems << "<td class='${systemConfig.arcade?'arcadeYes':'arcadeNo'}'>${systemConfig.arcade?arcadeIcon:""}</td><td class='state ${systemConfig.perfect ? "perfect" : !systemConfig.stable ? "instable" : ""}'>${systemConfig.perfect ? excellentIcon : !systemConfig.stable ? dangerIcon : ""}</td><td class='roms'>${checkResult.totalRoms}</td><td class='romSize'>${humanReadableByteSize(checkResult.totalRomSize)}</td>" +
                 "<td class='wheels'>${checkResult.wheels}</td><td class='videos'>${checkResult.videos}</td><td class='themes'>${checkResult.themes}</td><td class='mediaSize'>${humanReadableByteSize(checkResult.totalMediaSize)}</td></tr>"

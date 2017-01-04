@@ -4,9 +4,9 @@ import org.hs5tb.groospin.base.*
 import org.hs5tb.groospin.checker.*
 import org.hs5tb.groospin.checker.handlers.*
 
-HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
+HyperSpin hs = new HyperSpin("A:/Games/RocketLauncher")
 
- def systems = ["Nintendo Classic Mini"]
+ def systems = []
 //def systems = (hs.listSystems().findAll { it.defaultEmulator.name.startsWith("MAME") }*.name) - "MAME"
 /*
 def systems = ["HBMAME", "MAME", "MAME 4 Players",

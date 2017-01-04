@@ -33,10 +33,10 @@ class CheckerSpec extends HSSpecification {
 
         // El sistema AAE tiene 3 juegos, uno de ellos tiene todos los medias y los otros ninguno
         checkResult.totalRoms == 3
-        checkResult.artwork1 == 1
-        checkResult.artwork2 == 1
-        checkResult.artwork3 == 1
-        checkResult.artwork4 == 1
+        checkResult.artworks1 == 1
+        checkResult.artworks2 == 1
+        checkResult.artworks3 == 1
+        checkResult.artworks4 == 1
         checkResult.wheels == 1
         checkResult.videos == 1
         checkResult.themes == 1
@@ -69,10 +69,10 @@ class CheckerSpec extends HSSpecification {
 
         // El sistema AAE tiene 3 juegos, uno de ellos tiene todos los medias y losotros ninguno
         checkResult.totalRoms == 1
-        checkResult.artwork1 == 0
-        checkResult.artwork2 == 0
-        checkResult.artwork3 == 0
-        checkResult.artwork4 == 0
+        checkResult.artworks1 == 0
+        checkResult.artworks2 == 0
+        checkResult.artworks3 == 0
+        checkResult.artworks4 == 0
         checkResult.wheels == 0
         checkResult.videos == 0
         checkResult.themes == 0
