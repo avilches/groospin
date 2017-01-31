@@ -24,7 +24,7 @@ class RLSystem {
     File findValidRom(String romName) {
         RLEmulator emulator = findRomEmulator(romName)
 
-        if (emulator.module == "ScummVM.ahk") {
+        if (emulator?.module == "ScummVM.ahk") {
             String path = romMapping.get(romName, "path")
             if (path) {
                 File scummRomFolder = hyperSpin.newRocketLauncherFile(path)
@@ -35,7 +35,7 @@ class RLSystem {
             return null
         }
 
-        for (String ext in emulator.romExtensions) {
+        for (String ext in emulator?.romExtensions) {
             File rom = IOTools.findFileInFolders(romPathsList, romName+ "." + ext)
             rom = rom ?: IOTools.findFileInFolders(romPathsList, romName + "/" + romName + "." + ext)
             if (rom) return rom

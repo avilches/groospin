@@ -8,6 +8,7 @@ import org.hs5tb.groospin.base.Rom
  */
 class CheckRomResult extends CheckResult {
     String romName
+    RLSystem originalSystem
     Rom rom
 
 
