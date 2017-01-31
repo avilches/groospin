@@ -23,22 +23,22 @@ class RomMediaOperations extends Operations {
         copyMedia(rom, systemFrom, systemTo, overwrite)
     }
 
-    void renameMedia(String rom, RLSystem systemFrom, String newRomName, boolean overwrite = false, boolean keepOriginal = false) {
+    void renameMedia(String rom, RLSystem system, String newRomName, boolean overwrite = false, boolean keepOriginal = false) {
         ["Video"].each { String path ->
-            renameMedia(rom, systemFrom, newRomName, path, HyperSpin.VIDEO_EXTENSIONS, overwrite, keepOriginal)
+            renameMedia(rom, system, newRomName, path, HyperSpin.VIDEO_EXTENSIONS, overwrite, keepOriginal)
         }
 
         ["Images/Wheel", "Images/Gamestart",
          "Images/Artwork1", "Images/Artwork2", "Images/Artwork3", "Images/Artwork4"].each { String path ->
-            renameMedia(rom, systemFrom, newRomName, path, HyperSpin.IMAGE_EXTENSIONS, overwrite, keepOriginal)
+            renameMedia(rom, system, newRomName, path, HyperSpin.IMAGE_EXTENSIONS, overwrite, keepOriginal)
         }
 
         ["Themes"].each { String path ->
-            renameMedia(rom, systemFrom, newRomName, path, HyperSpin.THEME_EXTENSIONS, overwrite, keepOriginal)
+            renameMedia(rom, system, newRomName, path, HyperSpin.THEME_EXTENSIONS, overwrite, keepOriginal)
         }
 
         ["Sound/Background Music"].each { String path ->
-            renameMedia(rom, systemFrom, newRomName, "Sound/Background Music", HyperSpin.MUSIC_EXTENSIONS, overwrite, keepOriginal)
+            renameMedia(rom, system, newRomName, "Sound/Background Music", HyperSpin.MUSIC_EXTENSIONS, overwrite, keepOriginal)
         }
     }
 
@@ -63,18 +63,18 @@ class RomMediaOperations extends Operations {
 
     }
 
-    void renameMedia(String rom, RLSystem systemFrom, String newRomName, String path, List extensions, boolean overwrite = false, boolean keepOriginal = false) {
+    void renameMedia(String rom, RLSystem system, String newRomName, String path, List extensions, boolean overwrite = false, boolean keepOriginal = false) {
         if (!overwrite) {
-            File dst = IOTools.findFileWithExtensions(systemFrom.newMediaPath("${path}/${newRomName}"), extensions)
+            File dst = IOTools.findFileWithExtensions(system.newMediaPath("${path}/${newRomName}"), extensions)
             if (dst) {
                 return
             }
         }
 
-        File originMedia = IOTools.findFileWithExtensions(systemFrom.newMediaPath("${path}/${rom}"), extensions)
+        File originMedia = IOTools.findFileWithExtensions(system.newMediaPath("${path}/${rom}"), extensions)
         if (originMedia) {
             String originMediaExt = IOTools.getExtension(originMedia)
-            File missingMedia = systemFrom.newMediaPath("${path}/${newRomName}.${originMediaExt}")
+            File missingMedia = system.newMediaPath("${path}/${newRomName}.${originMediaExt}")
             log("(${simulation?"simulation":"real"}) ${originMedia} -> ${missingMedia}")
             if (!simulation) {
                 if (keepOriginal) {
