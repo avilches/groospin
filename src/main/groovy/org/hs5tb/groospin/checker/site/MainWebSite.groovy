@@ -140,15 +140,23 @@ table#systems tbody td.state {
     }
 
     String baseImg = "../static/icons/"
+    String httpBaseImg = "http://hyperspin5tb.com/static/icons/"
 
-    String arcadeIcon    = "<span class='toolttip'><img src='${baseImg}arcade-flat-icon.png' width='14'/><span class=\"toolttiptext\">Ideal para recreativa</span></span>"
-    String excellentIcon = "<span class='toolttip'><img src='${baseImg}icon-certified.png' width='20'/><span class=\"toolttiptext\">¡Emulación excelente!</span></span>"
-    String dangerIcon    = "<span class='toolttip'><img src='${baseImg}danger-icon.png' width='22'/><span class=\"toolttiptext\">El sistema es inestable, no está bien emulado o presenta dificultades para jugar</span></span>"
+    String arcadeIcon    = "<span class='toolttip'><img src='${httpBaseImg}arcade-flat-icon.png' width='14'/><span class=\"toolttiptext\">Ideal para recreativa</span></span>"
+    String excellentIcon = "<span class='toolttip'><img src='${httpBaseImg}icon-certified.png' width='20'/><span class=\"toolttiptext\">¡Emulación excelente!</span></span>"
+    String dangerIcon    = "<span class='toolttip'><img src='${httpBaseImg}danger-icon.png' width='22'/><span class=\"toolttiptext\">El sistema es inestable, no está bien emulado o presenta dificultades para jugar</span></span>"
     @Override
     void endSystem(CheckTotalResult checkResult) {
-        websiteSystems << "<tr>\n    <td class='n'>${++n}</td><td><img src='${baseImg}${checkResult.system.name}.png' onerror=\"this.style.display='none'\"/></td><td class='system'><a href='/sistemas/${sanitize(checkResult.system.name)}/'>${checkResult.system.name}</a><div class='emu'>${checkResult.system.defaultEmulator?.name ?: ""}</div></td>"
+        websiteSystems << "<tr>\n    <td class='n'>${++n}</td><td>${icon(checkResult.system.name)}</td><td class='system'><a href='/sistemas/${sanitize(checkResult.system.name)}/'>${checkResult.system.name}</a><div class='emu'>${checkResult.system.defaultEmulator?.name ?: ""}</div></td>"
         websiteSystems << "<td class='${systemConfig.arcade?'arcadeYes':'arcadeNo'}'>${systemConfig.arcade?arcadeIcon:""}</td><td class='state ${systemConfig.perfect ? "perfect" : !systemConfig.stable ? "instable" : ""}'>${systemConfig.perfect ? excellentIcon : !systemConfig.stable ? dangerIcon : ""}</td><td class='roms'>${checkResult.totalRoms}</td><td class='romSize'>${humanReadableByteSize(checkResult.totalRomSize)}</td>" +
                 "<td class='wheels'>${checkResult.wheels}</td><td class='videos'>${checkResult.videos}</td><td class='themes'>${checkResult.themes}</td><td class='mediaSize'>${humanReadableByteSize(checkResult.totalMediaSize)}</td></tr>"
+    }
+
+    String icon(String name) {
+        if (new File("d:\\Games\\RocketLauncher\\RocketLauncherUI\\Media\\Icons\\${name}.png").exists()) {
+            return "<img src='${httpBaseImg}${name}.png' onerror=\"this.style.display='none'\"/>"
+        }
+        ""
     }
 
     @Override
