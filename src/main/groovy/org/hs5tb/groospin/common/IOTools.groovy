@@ -130,6 +130,12 @@ class IOTools {
     }
 
     static void move(File origin, File dst, boolean overwrite = true) {
+        if (!dst.parentFile.exists()) {
+            dst.parentFile.mkdirs()
+        }
+        if (dst.isDirectory()) {
+            dst = new File(dst, origin.name)
+        }
         if (!overwrite)
             Files.move(Paths.get(origin.toString()), Paths.get(dst.toString()), java.nio.file.StandardCopyOption.ATOMIC_MOVE)
         else

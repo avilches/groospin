@@ -59,6 +59,7 @@ class Rom {
 
     }
     boolean containsText(String s) {
+        if (!s) return false;
         s = s.toLowerCase()
         return name.toLowerCase().contains(s) || description.toLowerCase().contains(s)
     }
@@ -66,4 +67,7 @@ class Rom {
     void exportAdditional(d) {
     }
 
+    boolean matches(String exe, String romName) {
+        exe == exe && name == romName
+    }
 }
