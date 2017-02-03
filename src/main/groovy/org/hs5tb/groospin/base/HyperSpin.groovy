@@ -79,7 +79,7 @@ class HyperSpin {
         String rom_Path = systemIni.get("ROMS", "Rom_Path")
         String default_emulator = systemIni.get("ROMS", "Default_Emulator")
 
-        List romPathList = rom_Path?.split("\\|")?.collect { String romPathString -> newRocketLauncherFile(romPathString) } ?: []
+        List romPathList = rom_Path?.split("\\|")?.collect { String romPathString -> romPathString?newRocketLauncherFile(romPathString):null }.findAll()
 
         File alternativeEmulatorConfig = newRocketLauncherFile("Settings/${systemName}/Games.ini")
         Map alternativeEmulators = [:]

@@ -58,7 +58,10 @@ class Checker {
                 systems.each { RLSystemConfig systemConfig ->
                     if (systemConfig.hidden) return
                     handlers*.systemConfig = systemConfig
-                    CheckTotalResult checkResultSystem = checkSystemRoms(groupName, systemConfig.name)
+                    CheckTotalResult checkResultSystem = checkSystemRoms(groupName, systemConfig.name, systemConfig.calculateSpace)
+                    if (!systemConfig.calculateSpace) {
+                        checkResultSystem.totalRomSize = 0
+                    }
                     checkGroupTotal.add(checkResultSystem)
                 }
                 handlers*.endGroup(checkGroupTotal)
@@ -126,14 +129,14 @@ class Checker {
 
     }
 
-    CheckTotalResult checkSystemRoms(String group, String systemName, Collection<String> romNames = null) {
+    CheckTotalResult checkSystemRoms(String group, String systemName, boolean calculateRomPath = true, Collection<String> romNames = null) {
         CheckTotalResult checkTotalResult = new CheckTotalResult(group: group, systemName: systemName)
         try {
             RLSystem system = hyperSpin.getSystem(systemName)
             handlers*.startSystem(system)
             checkTotalResult.systemName = system.name
             checkTotalResult.system = system
-            checkTotalResult.totalRomSize = calculateRomPathSize(system)
+            checkTotalResult.totalRomSize = calculateRomPath?calculateRomPathSize(system):0
             checkTotalResult.totalMediaSize = calculateMediaPathSize(system)
             if (!system.executable) {
                 List<Rom> roms = system.listRoms(romNames)
