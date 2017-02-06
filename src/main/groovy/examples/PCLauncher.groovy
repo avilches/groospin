@@ -11,11 +11,11 @@ import org.hs5tb.groospin.common.IniFile
  * Created by Alberto on 28-Oct-16.
  */
 
-PCLauncherOperations.scanForExecutables("d:\\Games\\PC\\Microsoft Windows")
+//PCLauncherOperations.scanForExecutables("d:\\Games\\PC\\Flash Games\\")
 
 new PCLauncherOperations(new HyperSpin("D:\\Games\\RocketLauncher")).with {
     //addRom("PC Games", "Mortal Kombat XL", "d:\\Games\\PC\\Microsoft Windows\\Mortal Kombat XL\\Binaries\\Retail\\MKXLauncher.exe")
-    // addRom("PC Games", "Mortal Kombat Arcade Kollection", "d:\\Games\\PC\\Microsoft Windows\\Mortal Kombat Arcade Kollection\\BINARIES\\WIN32\\MKHDGame.exe")
+
 }
 
 class PCLauncherOperations {
@@ -39,13 +39,13 @@ class PCLauncherOperations {
             println exe+" not found!"
             return
         }
-        RLSystem system = spin.getSystem(systemName)
         IniFile ini = new IniFile().parse(spin.newRocketLauncherFile("Modules\\PCLauncher\\${systemName}.ini"))
         ini.put(rom, "Application", exe)
         ini.store()
 
+        RLSystem system = spin.getSystem(systemName)
         HyperSpinDatabase spinDatabase = system.loadHyperSpinDatabase()
-        spinDatabase.roms << new Rom(name: rom, description: rom)
+        spinDatabase.addOnlyIfNew(new Rom(name: rom, description: rom))
         spinDatabase.export()
         new File(system.romPathsList[0], rom+".txt").text = ""
 

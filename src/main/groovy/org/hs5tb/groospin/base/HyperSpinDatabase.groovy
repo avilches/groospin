@@ -12,8 +12,8 @@ class HyperSpinDatabase {
     String lastlistupdate
     String listversion
     String exporterversion
-    List<Rom> roms
-    Map<String, List<Rom>> romsByGenre
+    List<Rom> roms = []
+    Map<String, List<Rom>> romsByGenre = [:]
     File db
 
     HyperSpinDatabase load(File db, Closure filter = null) {
@@ -209,16 +209,31 @@ class HyperSpinDatabase {
         }
     }
 
-    void addOnlyNews(List<Rom> toAdd) {
+    HyperSpinDatabase addOnlyIfNew(Rom toAdd) {
+        addOnlyNews([toAdd])
+    }
+
+    HyperSpinDatabase addOnlyNews(List<Rom> toAdd) {
         RomListMerger.addOnlyNews(roms, toAdd)
+        this
     }
 
-    void appendAll(List<Rom> toAdd) {
+    HyperSpinDatabase append(Rom toAdd) {
+        appendAll([toAdd])
+    }
+
+    HyperSpinDatabase appendAll(List<Rom> toAdd) {
         RomListMerger.appendAll(roms, toAdd)
+        this
     }
 
-    void addOrOverwrite(List<Rom> toAdd) {
+    HyperSpinDatabase addOrOverwrite(Rom toAdd) {
+        addOrOverwrite([toAdd])
+    }
+
+    HyperSpinDatabase addOrOverwrite(List<Rom> toAdd) {
         RomListMerger.addOrOverwrite(roms, toAdd)
+        this
     }
 
     Rom renameRomName(String romName, String newRomName) {

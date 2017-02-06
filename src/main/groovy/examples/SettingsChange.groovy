@@ -13,7 +13,7 @@ HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
 
 def mameSystemNames = hs.listSystems().findAll { it.defaultEmulator?.name?.startsWith("MAME") }*.name
 hs.withRocketLauncherInis(mameSystemNames.collect { "Settings/${it}/Emulators.ini"}) { String filename, IniFile ini ->
-    ini.put("ROMS", "Rom_Path", "..\\Roms\\MAME\\0.180\\roms|..\\Roms\\MAME\\0.180\\chds|..\\Roms\\MAME\\0.180\\romsfake")
+    ini.put("ROMS", "Rom_Path", "..\\Arcades\\MAME\\0.180\\roms|..\\Arcades\\MAME\\0.180\\chds|..\\Arcades\\MAME\\0.180\\romsfake")
     if (ini.dirty) {
         ini.store()
         println "Updating MAME Rom_Path: ${filename}"
