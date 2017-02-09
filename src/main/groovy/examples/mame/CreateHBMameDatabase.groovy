@@ -4,11 +4,32 @@ import mame.DatXmlToHyperSpinXml
 import org.hs5tb.groospin.base.MameMachine
 
 
-def dat = "d:/Games/Roms/HBMAME/0175/dat.xml"
+def dat = "d:/Games/Arcades/HBMAME/0175/dat.xml"
 def catver = "d:/Games/Soft/GrooSpin/resources/pS_CatVer/176/catver.ini"
-def extraInfo = "d:/Games/Soft/GrooSpin/resources/Official HyperSpin MAME/code/extra_info.txt"
+def extraInfo = "d:/Games/Soft/GrooSpin/resources/Official HyperSpin MAME/177/code/extra_info.txt"
+def romFolders = ["d:\\Games\\Arcades\\HBMAME\\0175\\roms\\"]
 
 def roms = DatXmlToHyperSpinXml.load(dat, catver, extraInfo)
+
+MameChecker.Report report = new MameChecker().loadDat(dat).checkRoms(romFolders)
+def missing = report.missing
+if (missing) {
+    println "*** PAY ATTENTION!!! Missing: ${missing}"
+    return
+}
+roms.removeAll { it.name in missing }
+
+roms.each { MameMachine rom ->
+    rom.filesUsed = report.filesUsed[rom.name]
+}
+
+File f = new File("d:/Games/Arcades/HBMAME/0175/romsfake")
+f.mkdirs()
+roms.each {
+    new File(f, it.name+".txt").text = ""
+}
+
+
 
 DatXmlToHyperSpinXml.store(
         roms,

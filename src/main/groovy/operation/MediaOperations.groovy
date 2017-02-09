@@ -16,12 +16,23 @@ class MediaOperations extends Operations {
         super(hs)
     }
 
-    void deleteUnneeded(String systemName) {
-        deleteUnneeded(hyperSpin.getSystem(systemName))
+    def moveUnneededMediaToFolder(RLSystem systemName, String folder = null) {
+        if (!folder) {
+            folder = hyperSpin.newHyperSpinMediaFile("_unneeded").toString()
+        }
+        File dst = new File(folder)
+        if (!dst.exists()) dst.mkdirs()
+        String parent = hyperSpin.newHyperSpinFile("Media").toString()
+        withUnneededMedia(systemName) { File file ->
+            File newFile = new File(dst, file.absolutePath - parent)
+            log("(${simulation?"simulation":"real"}) Moving to ${newFile}")
+            if (!simulation) IOTools.move(file, newFile)
+        }
+
     }
 
-    void moveMediaSubfolderTo(RLSystem systemName, String subFolder = "delete") {
-        executeMediaActionToUnneeded(systemName) { File file ->
+    void moveUnneededMediaToSubfolder(RLSystem systemName, String subFolder = "delete") {
+        withUnneededMedia(systemName) { File file ->
             File dst = new File(file.parentFile, subFolder)
             if (!dst.exists()) dst.mkdirs()
             File newFile = new File(dst, file.name)
@@ -30,21 +41,21 @@ class MediaOperations extends Operations {
         }
     }
 
-    void addSuffixToUnneeded(RLSystem systemName, String suffix = ".delete") {
-        executeMediaActionToUnneeded(systemName) { File file ->
+    void addSuffixToUnneededMedia(RLSystem systemName, String suffix = ".delete") {
+        withUnneededMedia(systemName) { File file ->
             String newFileName = file.canonicalPath.toString()+suffix
             log("(${simulation?"simulation":"real"}) Adding suffix. Final name ${newFileName}")
             if (!simulation) file.renameTo(new File(newFileName))
         }
     }
-    void deleteUnneeded(RLSystem systemName) {
-        executeMediaActionToUnneeded(systemName) { File file ->
+    void deleteUnneededMedia(RLSystem systemName) {
+        withUnneededMedia(systemName) { File file ->
             log("(${simulation?"simulation":"real"}) Deleting ${file.canonicalPath}")
             if (!simulation) file.delete()
         }
     }
 
-    void executeMediaActionToUnneeded(RLSystem system, Closure<File> action) {
+    void withUnneededMedia(RLSystem system, Closure<File> action) {
         log("Processing ${system.name}. Simulation: ${simulation}")
         ["Video"].each { String path ->
             Set<String> unneeded = listToLowerCaseSet(system.listMediaPath(path)*.name) - listToLowerCaseSet(system.allowedMediaRomVideos())

@@ -12,33 +12,41 @@ import org.hs5tb.groospin.checker.result.CheckRomResult
 
 Creator creator = new Creator(new HyperSpin("D:/Games/RocketLauncher"), false)
 
-creator.create("Mortal Kombat Kollection",[
-        "[MUGEN] Mortal Kombat 1",
-        "[Nintendo Game Boy] Mortal Kombat 3 (USA)",
-        "[Nintendo Super Game Boy] Mortal Kombat 4 (USA, Europe)",
-        "[Super Nintendo Entertainment System] Mortal Kombat (USA)",
-        "[Sega Genesis] Mortal Kombat 3 (USA)",
-        "[Sega Genesis] Ultimate Mortal Kombat 3 (USA)",
-        "[Sega Game Gear] Mortal Kombat II (World)",
-        "[Sega Saturn] Ultimate Mortal Kombat 3 (USA)",
-        "[Sega Game Gear] Mortal Kombat 3 (Europe)",
-        "[Sony PlayStation 2] Mortal Kombat - Deadly Alliance (Europe) (En,Fr,De,Es,It)",
-        "[Tiger Game.com] Mortal Kombat Trilogy (USA)",
+creator.create("Contra Collection",[
+        "[Vintage Commercials] *",
+        "[Future Pinball] *",
+        "[Commodore 64] *",
+        "[Microsoft MS-DOS eXoDOS] Contraption Zack (1992)",
+        "[MAME] pc_cntra",
+        "[Nintendo Super Game Boy] Contra - The Alien Wars (USA)",
+        "[Microsoft MS-DOS eXoDOS] International Bridge Contractors (1985)",
+        "[Sony PlayStation 2] Hitman - Contracts (Spain)",
+        "[Zemmix Neo] Contra (Japan)",
+        "[Amstrad CPC] Contraption (Europe)",
 ]) { Rom rom ->
-    rom.containsTexts(["Mortal Kombat"]) && !rom.cloneof
+    rom.containsTexts(["Contra", "gryzor", "Probotector"]) && !rom.cloneof
 
 }
 
 /*
-creator.create("World Heroes Collection",[
-        "[Nintendo Super Game Boy] World Heroes 2 Jet (USA, Europe)",
-        "[Super Nintendo Entertainment System] World Heroes (USA)",
+creator.create("Resident Evil Collection",[
+        "[Vintage Commercials] *",
+        "[Future Pinball] *",
 ]) { Rom rom ->
-    return rom.containsTexts(["World Heroes","Neo Geo Battle Coliseum"]) && !rom.cloneof
+    rom.containsTexts(["Resident Evil"]) && !rom.cloneof
+
 }
 
-/*
+creator.create("Castlevania Collection", [
+        "[Vintage Commercials] *",
+        "[Commodore 64] Castlevania (USA)",
+        "[Nintendo Super Game Boy] Castlevania Legends (USA, Europe)"
+]) { Rom rom ->
+    rom.containsTexts(["Castlevania", "Haunted Castle"])
+}
+
 creator.create("Sonic Mega Collection",[
+        "[Vintage Commercials] *",
         "[VTech CreatiVision] Sonic Invader (Asia, Europe)",
         "[Tiger Game.com] Sonic Jam (USA)",
         "[Super Nintendo Entertainment System] *",
@@ -63,36 +71,8 @@ creator.create("Sonic Mega Collection",[
     return rom.containsTexts(["Sonic"]) && !rom.cloneof && !rom.name.contains("2 Games in 1") && !rom.name.contains("Dragon") && !rom.name.contains("+")
 }
 
-/*
-def kings = HyperSpinDatabase.loadRoms(new File("d:\\Games\\HyperSpin-fe\\Databases\\The King of Fighters Collection\\The King of Fighters Collection-no info.xml")).name
-creator.create("The King of Fighters Collection",[
-//        "[Sega Genesis] Mario Lemieux Hockey (USA, Europe)",
-//        "[Microsoft MSX2] *",
-]) { Rom rom ->
-    rom.containsTexts(kings) && !rom.cloneof
-}
-
-/*
-creator.create("Ghost'n Goblins Collection") { Rom rom ->
-    return rom.containsTexts(["ghosts'n", "ghosts 'n", "ghouls'n", "ghouls 'n",
-    "Gargoyle's Quest", "Demon's Crest", "Ghosts to Glory", "Army of Zin", "Makaimura"]) && !rom.containsText("Gremlin")
-}
-
-creator.create("Castlevania Collection", [
-        "[Commodore 64] Castlevania (USA)",
-        "[Nintendo Super Game Boy] Castlevania Legends (USA, Europe)"
-]) { Rom rom ->
-    rom.containsTexts(["Castlevania", "Haunted Castle"])
-}
-
-def roms = HyperSpinDatabase.loadRoms(new File("m:\\Arcade\\Databases\\Street Fighter Hack Collection\\Street Fighter Hack Collection.xml")).name
-creator.create("Street Fighter Hack Collection",[
-//        "[Sega Genesis] Mario Lemieux Hockey (USA, Europe)",
-//        "[Microsoft MSX2] *",
-]) { Rom rom ->
-    rom.containsTexts(roms)
-}
 creator.create("Super Mario Collection",[
+        "[Vintage Commercials] *",
         "[Commodore 64] *",
         "[Atari 2600] Mario Bros. (USA)",
         "[Atari 7800] Mario Bros. (USA)",
@@ -107,7 +87,66 @@ creator.create("Super Mario Collection",[
 ]) { Rom rom ->
     rom.containsTexts(["mario","smash brosh"]) && !rom.cloneof && !rom.name.contains("PlayChoice")
 }
-/*creator.create("Shining Force Collection",[
+
+creator.create("Legend of Zelda Collection",[
+        "[Vintage Commercials] *",
+        "[Amstrad CPC] *",
+        "[Nintendo Satellaview] *",
+        "[Nintendo Super Game Boy] *",
+]) { Rom rom ->
+    rom.containsTexts(["Zelda"]) && !rom.cloneof
+
+}
+
+
+/*
+
+creator.create("Mortal Kombat Kollection",[
+        "[MUGEN] Mortal Kombat 1",
+        "[Nintendo Game Boy] Mortal Kombat 3 (USA)",
+        "[Nintendo Super Game Boy] Mortal Kombat 4 (USA, Europe)",
+        "[Super Nintendo Entertainment System] Mortal Kombat (USA)",
+        "[Sega Genesis] Mortal Kombat 3 (USA)",
+        "[Sega Genesis] Ultimate Mortal Kombat 3 (USA)",
+        "[Sega Game Gear] Mortal Kombat II (World)",
+        "[Sega Saturn] Ultimate Mortal Kombat 3 (USA)",
+        "[Sega Game Gear] Mortal Kombat 3 (Europe)",
+        "[Sony PlayStation 2] Mortal Kombat - Deadly Alliance (Europe) (En,Fr,De,Es,It)",
+        "[Tiger Game.com] Mortal Kombat Trilogy (USA)",
+]) { Rom rom ->
+    rom.containsTexts(["Mortal Kombat"]) && !rom.cloneof
+
+}
+
+creator.create("World Heroes Collection",[
+        "[Nintendo Super Game Boy] World Heroes 2 Jet (USA, Europe)",
+        "[Super Nintendo Entertainment System] World Heroes (USA)",
+]) { Rom rom ->
+    return rom.containsTexts(["World Heroes","Neo Geo Battle Coliseum"]) && !rom.cloneof
+}
+
+
+
+def kings = HyperSpinDatabase.loadRoms(new File("d:\\Games\\HyperSpin-fe\\Databases\\The King of Fighters Collection\\The King of Fighters Collection-no info.xml")).name
+creator.create("The King of Fighters Collection",[
+]) { Rom rom ->
+    rom.containsTexts(kings) && !rom.cloneof
+}
+
+
+creator.create("Ghost'n Goblins Collection") { Rom rom ->
+    return rom.containsTexts(["ghosts'n", "ghosts 'n", "ghouls'n", "ghouls 'n",
+    "Gargoyle's Quest", "Demon's Crest", "Ghosts to Glory", "Army of Zin", "Makaimura"]) && !rom.containsText("Gremlin")
+}
+
+
+def roms = HyperSpinDatabase.loadRoms(new File("m:\\Arcade\\Databases\\Street Fighter Hack Collection\\Street Fighter Hack Collection.xml")).name
+creator.create("Street Fighter Hack Collection",[
+]) { Rom rom ->
+    rom.containsTexts(roms)
+}
+
+creator.create("Shining Force Collection",[
 ]) { Rom rom ->
     rom.containsTexts(["Shining Force","Shining in the Darkness",
                        "Shining the Holy Ark","Shining Wisdom","Shining Soul",
@@ -146,12 +185,6 @@ creator.create("Super Mario Collection",[
     rom.containsTexts(["Tekken"]) && !rom.cloneof
 
 }
-/*creator.create("Resident Evil Collection",[
-        "[Future Pinball] *",
-]) { Rom rom ->
-    rom.containsTexts(["Resident Evil"]) && !rom.cloneof
-
-}
 /*creator.create("Metal Slug Collection",[
         "[Future Pinball] *",
 ]) { Rom rom ->
@@ -175,15 +208,8 @@ creator.create("Mega Man Collection",[
 ]) { Rom rom ->
     rom.containsTexts(["Mega Man", "megaman"]) && !rom.cloneof
 
-}creator.create("Legend of Zelda Collection",[
-        "[Amstrad CPC] *",
-        "[Nintendo Satellaview] *",
-        "[Nintendo Super Game Boy] *",
-]) { Rom rom ->
-    rom.containsTexts(["Zelda"]) && !rom.cloneof
 
-}
-/*
+
 creator.create("Final Fight Collection",[
         "[Amstrad CPC] *",
         "[Commodore 64] *",
@@ -197,7 +223,7 @@ creator.create("Final Fight Collection",[
 
 }
 
-/*
+
 creator.create("Final Fantasy Collection",[
         "[Nintendo DS] Final Fantasy III (USA)",
 ]) { Rom rom ->
@@ -231,14 +257,7 @@ creator.create("Double Dragon Collection", ["[Atari 2600] *",
         "[Sega Master System] Double Dragon (World)"]) { Rom rom ->
     rom.containsTexts(["Double Dragon", "Rage of the Dragons"]) && !rom.cloneof
 }
-*/
-//creator.find("Castlevania Collection") { Rom rom ->
-//    rom.containsTexts(["Castlevania", "Haunted Castle"])
-//}
-//return
-//creator.find("Pang Collection") { Rom rom ->
-//    rom.containsText("pang")
-//}
+
 
 
 // https://www.mobygames.com/game-group/ghost-n-goblins-series
@@ -364,7 +383,7 @@ class Creator {
             hyperSpin.getDatabaseFile(system).renameTo("${hyperSpin.getDatabaseFile(system)}.new")
             HyperSpinDatabase.write(roms, hyperSpin.getDatabaseFile(system))
         }
-        mediaOperations.deleteUnneeded(systemToCreate)
+        mediaOperations.deleteUnneededMedia(systemToCreate)
         return this
     }
 

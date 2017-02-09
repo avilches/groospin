@@ -15,10 +15,13 @@ romMediaOperations.simulation = false
 
 
 // Ejemplo de copia de medias de un sistema a otro
-RLSystem from = hs.getSystem("Nintendo Entertainment System")
-RLSystem to = hs.getSystem("Nintendo Classic Mini")
-to.listRoms().each { Rom rom ->
-    romMediaOperations.copyMedia(rom.name, from, to)
+RLSystem from = hs.getSystem("MAME")
+
+["Mitchell Corporation", "Tecmo", "Toaplan"].each {
+    RLSystem to = hs.getSystem(it)
+    to.listRoms().each { Rom rom ->
+        romMediaOperations.copyMedia(rom.name, from, to)
+    }
 }
 
 return

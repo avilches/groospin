@@ -78,14 +78,14 @@ private Map loadConfigFromGoogleDoc(csvFile) {
 
 Checker validateSystems(ArrayList configSystems, HyperSpin hyperSpin) {
     Collection<String> hsSystems = hyperSpin.listSystemNames(true)
-    Collection<String> faltan = (hsSystems-configSystems)
-    Collection<String> sobran = (configSystems-hsSystems)
+    Collection<String> csvMissing = (hsSystems-configSystems)
+    Collection<String> xmlMissing = (configSystems-hsSystems)
 
-    if (faltan) {
-        throw new IllegalArgumentException("Faltan por configurar en el xml ${faltan}")
+    if (csvMissing) {
+        throw new IllegalArgumentException("En el CSV faltan: ${csvMissing} (o sobran en el XML)")
     }
-    if (sobran) {
-        throw new IllegalArgumentException("Sobran de configurar (no estan en el xml) ${sobran}")
+    if (xmlMissing) {
+        throw new IllegalArgumentException("En el XML faltan: ${xmlMissing} (o sobran en el CSV)")
     }
 }
 

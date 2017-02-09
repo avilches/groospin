@@ -25,7 +25,7 @@ class IOTools {
         if (path.size() > 2 && path.substring(1, 2) == ":") return new File(path)
         File candidate = new File(path)
         if (candidate.exists()) return candidate
-        return new File(root, path)
+        return new File(root, path).canonicalFile
     }
 
     static long folderSize(File folder) {
@@ -117,30 +117,69 @@ class IOTools {
     }
 
     static void copy(File origin, File dst, boolean overwrite = true) {
+        if (!origin.exists()) return
+        if (origin.directory) {
+            copyDir(origin, dst, overwrite)
+            return
+        }
         if (!dst.parentFile.exists()) {
             dst.parentFile.mkdirs()
         }
-        if (dst.isDirectory()) {
+        if (dst.directory) {
             dst = new File(dst, origin.name)
         }
-        if (!overwrite)
+        if (!overwrite) {
+            if (dst.exists()) return
             Files.copy(Paths.get(origin.toString()), Paths.get(dst.toString()), java.nio.file.StandardCopyOption.COPY_ATTRIBUTES)
-        else
+        } else
             Files.copy(Paths.get(origin.toString()), Paths.get(dst.toString()), java.nio.file.StandardCopyOption.REPLACE_EXISTING, java.nio.file.StandardCopyOption.COPY_ATTRIBUTES)
     }
 
+    static void copyDir(File dirFrom, File dirTo, boolean overwrite = true) {
+        // creation the target dir
+        if (!dirTo.exists()){
+            dirTo.mkdir();
+        }
+        // copying the daughter files
+        dirFrom.eachFile { File source ->
+            copy(source, new File(dirTo, source.name), overwrite)
+        }
+    }
+
     static void move(File origin, File dst, boolean overwrite = true) {
+        if (!origin.exists()) return
+        if (origin.directory) {
+            moveDir(origin, dst, overwrite)
+            return
+        }
         if (!dst.parentFile.exists()) {
             dst.parentFile.mkdirs()
         }
-        if (dst.isDirectory()) {
+        if (dst.directory && origin.file) {
             dst = new File(dst, origin.name)
         }
-        if (!overwrite)
+        if (origin.directory) {
+            dst.mkdirs()
+        }
+        if (!overwrite) {
+            if (dst.exists()) return
             Files.move(Paths.get(origin.toString()), Paths.get(dst.toString()), java.nio.file.StandardCopyOption.ATOMIC_MOVE)
-        else
+        } else
             Files.move(Paths.get(origin.toString()), Paths.get(dst.toString()), java.nio.file.StandardCopyOption.ATOMIC_MOVE, java.nio.file.StandardCopyOption.REPLACE_EXISTING, )
     }
+
+    static void moveDir(File dirFrom, File dirTo, boolean overwrite = true) {
+        // creation the target dir
+        if (!dirTo.exists()){
+            dirTo.mkdir();
+        }
+        // copying the daughter files
+        dirFrom.eachFile { File source ->
+            move(source, new File(dirTo, source.name), overwrite)
+        }
+        dirFrom.delete()
+    }
+
 
     static String crc(InputStream is) {
         CRC32 crc = new CRC32()

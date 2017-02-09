@@ -7,8 +7,8 @@ import org.hs5tb.groospin.base.MameMachine
 String commonDst = "d:/Games/HyperSpin-fe/Databases alternativas/MAME"
 
 generateVersion("0.180", commonDst,
-        "d:/Games/Roms/MAME/0.180/mame.dat", // DAT
-        ["d:/Games/Roms/MAME/0.180/ROMs", "d:/Games/Roms/MAME/0.180/chds"], // ROM/CHDS FOLDERS
+        "d:/Games/Arcades/MAME/0.180/mame.dat", // DAT
+        ["d:/Games/Arcades/MAME/0.180/ROMs", "d:/Games/Arcades/MAME/0.180/chds"], // ROM/CHDS FOLDERS
         "${commonDst}/0.171/todo" // folder to compare
 )
 
@@ -70,6 +70,30 @@ debugRoms.removeAll { it.catVerCat?.contains("Tabletop") || it.genre?.contains("
 
 }
 void generateAll(List roms, Map header, String dst, String databasesToCompare, Closure filter) {
+
+    // Toaplan
+    DatXmlToHyperSpinXml.store(roms,
+            "${dst}/Toaplan/Toaplan.xml",
+            header + [listname: "Toaplan working"]) { MameMachine rom ->
+        return filter(rom) && rom.working && rom.manufacturer.contains("Toaplan")
+    }
+    Comparer.printDifferences("Toaplan", dst, databasesToCompare)
+
+    // Tecmo
+    DatXmlToHyperSpinXml.store(roms,
+            "${dst}/Tecmo/Tecmo.xml",
+            header + [listname: "Tecmo working"]) { MameMachine rom ->
+        return filter(rom) && rom.working && rom.manufacturer.contains("Tecmo")
+    }
+    Comparer.printDifferences("Tecmo", dst, databasesToCompare)
+
+    // Mitchell
+    DatXmlToHyperSpinXml.store(roms,
+            "${dst}/Mitchell Corporation/Mitchell Corporation.xml",
+            header + [listname: "Mitchell working"]) { MameMachine rom ->
+        return filter(rom) && rom.working && rom.manufacturer.contains("Mitchell")
+    }
+    Comparer.printDifferences("Mitchell Corporation", dst, databasesToCompare)
 
     // Psikyo
     DatXmlToHyperSpinXml.store(roms,

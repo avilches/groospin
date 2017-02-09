@@ -13,4 +13,11 @@ dependencies {
     compile fileTree(dir: 'lib', include: '*.jar')
     testCompile group: 'junit', name: 'junit', version: '4.11'
     testCompile 'org.spockframework:spock-core:1.0-groovy-2.4'
+
+    compile 'commons-io:commons-io:2.5'
+
+    compile 'com.google.api-client:google-api-client:1.22.0'
+    compile 'com.google.oauth-client:google-oauth-client-jetty:1.22.0'
+    compile 'com.google.apis:google-api-services-sheets:v4-rev108-1.22.0'
+
 }

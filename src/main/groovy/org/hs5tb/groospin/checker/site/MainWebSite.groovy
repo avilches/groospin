@@ -16,6 +16,7 @@ class MainWebSite extends BaseCheckHandler {
     private File root
     private FileBuffer websiteSystems
     private n = 0
+    private nn = 0
 
     @Override
     boolean needsRomFolderSize() {
@@ -59,7 +60,7 @@ table#systems tbody td, table#systems tfoot td {
     border-bottom: 1px solid #e5e5e5 ;
     padding: 3px;
 }
-tfoot td, td.n {
+tfoot td, td.n, tr.n {
     background:#e5e5e5;
 }
 table#systems tbody td .emu {
@@ -136,6 +137,7 @@ table#systems tbody td.state {
 
     @Override
     void startGroup(String groupName) {
+        nn = 0
         websiteSystems << "<tr>\n    <td></td><td class='group' colspan='10'>${groupName}</td>\n</tr>\n</thead>\n<tbody>"
     }
 
@@ -147,7 +149,9 @@ table#systems tbody td.state {
     String dangerIcon    = "<span class='toolttip'><img src='${httpBaseImg}danger-icon.png' width='22'/><span class=\"toolttiptext\">El sistema es inestable, no está bien emulado o presenta dificultades para jugar</span></span>"
     @Override
     void endSystem(CheckTotalResult checkResult) {
-        websiteSystems << "<tr>\n    <td class='n'>${++n}</td><td>${icon(checkResult.system.name)}</td><td class='system'><a href='/sistemas/${sanitize(checkResult.system.name)}/'>${checkResult.system.name}</a><div class='emu'>${checkResult.system.defaultEmulator?.name ?: ""}</div></td>"
+        n++
+        nn++
+        websiteSystems << "<tr>\n    <td class='n'>${n}</td><td>${icon(checkResult.system.name)}</td><td class='system'><a href='/sistemas/${sanitize(checkResult.system.name)}/'>${checkResult.system.name}</a><div class='emu'>${checkResult.system.defaultEmulator?.name ?: ""}</div></td>"
         websiteSystems << "<td class='${systemConfig.arcade?'arcadeYes':'arcadeNo'}'>${systemConfig.arcade?arcadeIcon:""}</td><td class='state ${systemConfig.perfect ? "perfect" : !systemConfig.stable ? "instable" : ""}'>${systemConfig.perfect ? excellentIcon : !systemConfig.stable ? dangerIcon : ""}</td><td class='roms'>${checkResult.totalRoms}</td><td class='romSize'>${humanReadableByteSize(checkResult.totalRomSize)}</td>" +
                 "<td class='wheels'>${checkResult.wheels}</td><td class='videos'>${checkResult.videos}</td><td class='themes'>${checkResult.themes}</td><td class='mediaSize'>${humanReadableByteSize(checkResult.totalMediaSize)}</td></tr>"
     }
@@ -157,6 +161,13 @@ table#systems tbody td.state {
             return "<img src='${httpBaseImg}${name}.png' onerror=\"this.style.display='none'\"/>"
         }
         ""
+    }
+
+    @Override
+    void endGroup(CheckTotalResult checkResult) {
+        websiteSystems << "<tr class='n'>\n    <td></td><td colspan='4' class='total'>Total ${nn} sistemas de ${checkResult.group}</td><td class='roms'>${checkResult.totalRoms}</td><td class='romSize'>${humanReadableByteSize(checkResult.totalRomSize)}</td>" +
+                "<td class='wheels'>${checkResult.wheels}</td><td class='videos'>${checkResult.videos}</td><td class='themes'>${checkResult.themes}</td><td class='mediaSize'>${humanReadableByteSize(checkResult.totalMediaSize)}</td></tr>"
+        websiteSystems.flush()
     }
 
     @Override

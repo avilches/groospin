@@ -45,7 +45,7 @@ class RLSystem {
 
     boolean romsIsExecutable(String romName) {
         RLEmulator emulator = findRomEmulator(romName)
-        return emulator.module in ["MUGEN.ahk", "OpenBOR.ahk", "Casual Games.ahk", "PCLauncher.ahk"]
+        return emulator.module in ["MUGEN.ahk", "OpenBOR.ahk", "Casual Games.ahk", "PCLauncher.ahk", "DFend.ahk"]
     }
 
     File getDatabaseFile() {
@@ -74,6 +74,13 @@ class RLSystem {
             List<String> candidates = iniGamePath ? ["/" + iniGamePath] : []
             candidates.addAll(["/" + romName +".exe", "/" + romName + "/" + romName +".exe"])
             return IOTools.findFilesInFolder(romPath, candidates)
+        } else if (emulator.module == "DFend.ahk") {
+            Ini conf = new IniFile().parse(romFile)
+            String exePath = conf.get("Extra", "Exe")
+            File exe = new File(exePath)
+            if (exe.file) {
+                return exe
+            }
         }
         return null
     }

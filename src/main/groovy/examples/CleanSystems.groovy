@@ -6,6 +6,8 @@ import org.hs5tb.groospin.base.RLSystem
 import org.hs5tb.groospin.base.Rom
 import org.hs5tb.groospin.checker.BaseCheckHandler
 import org.hs5tb.groospin.checker.Checker
+import org.hs5tb.groospin.checker.handlers.HumanInfo
+import org.hs5tb.groospin.checker.handlers.PrintMissing
 import org.hs5tb.groospin.checker.result.CheckRomResult
 import org.hs5tb.groospin.checker.result.CheckTotalResult
 
@@ -16,24 +18,35 @@ import org.hs5tb.groospin.checker.result.CheckTotalResult
 
 
 HyperSpin hs = new HyperSpin("G:/Games/RocketLauncher")
+boolean simulation = true
 
 Set toDelete = []
-hs.listSystems(true).each { RLSystem system ->
-    if (system.isExecutable()) {
-        if (!system.executableExe.exists()) {
-            toDelete << system.name
-            println "[${system.name}] Executable ${system.executableExe} missing"
-        }
-    } else {
-        new Checker(hs).addHandler(new BaseCheckHandler() {
-            @Override
-            void endSystem(CheckTotalResult checkResult) {
-                if (checkResult.roms == 0) {
-                    toDelete << checkResult.systemName
-                    println "[${system.name}] 0 roms"
-                }
+new Checker(hs).
+        addHandler(new HumanInfo(true)).
+        addHandler(new BaseCheckHandler() {
+    @Override
+    void endSystem(CheckTotalResult checkResult) {
+        if (checkResult.system.isExecutable()) {
+            if (!checkResult.system.executableExe.exists()) {
+                toDelete << checkResult.systemName
+                println "[${checkResult.systemName}] Executable ${checkResult.system.executableExe} missing"
             }
-        }).checkSystem(system.name)
+        } else if (checkResult.roms == 0 && checkResult.systemName != "Pinball Arcade") {
+            toDelete << checkResult.systemName
+            println "[${checkResult.systemName}] 0 roms"
+        }
+
+    }
+}).checkSystems()
+
+
+println "0 roms systems: ${toDelete.join(", ")}"
+toDelete.each {
+    File mediaFolder = hs.getSystem(it).getMediaFolder()
+    File newName = new File(mediaFolder.parentFile, mediaFolder.name + ".delete")
+    println "Renaming ${mediaFolder} -> ${newName}"
+    if (!simulation) {
+        mediaFolder.renameTo(newName)
     }
 }
 

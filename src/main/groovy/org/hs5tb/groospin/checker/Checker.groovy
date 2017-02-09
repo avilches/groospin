@@ -88,7 +88,7 @@ class Checker {
 
     void checkSystem(String systemName, List<String> romNames = null) {
         wrap {
-            return checkSystemRoms(null, systemName, romNames)
+            return checkSystemRoms(null, systemName, (Collection)romNames)
         }
     }
 

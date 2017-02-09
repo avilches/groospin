@@ -56,6 +56,14 @@ class HumanInfo extends BaseCheckHandler {
     @Override
     void endSystem(CheckTotalResult checkResult) {
         drawLine("${systems.toString().padLeft(3, " ")}-${checkResult.systemName}", checkResult)
+        if (checkResult.system.defaultEmulator?.emuPath && !checkResult.system.defaultEmulator?.emuPath?.exists()) {
+            println "WARNING: Emulator ${checkResult.system.defaultEmulator.name} executable not found ${checkResult.system.defaultEmulator.emuPath}"
+        }
+        checkResult.system.romPathsList.each {
+            if (!it.directory) {
+                println "WARNING: Emulator ${checkResult.system.defaultEmulator.name} rom path not found ${it}"
+            }
+        }
     }
 
     @Override
