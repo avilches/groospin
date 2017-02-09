@@ -1,18 +1,140 @@
 package examples
 
 import operation.Packer
+import org.hs5tb.groospin.base.HyperSpin
+import org.hs5tb.groospin.base.RLSystem
 
 Packer packer = new Packer("D:/Games/RocketLauncher")
 packer.simulation = false
 
 
-//packer.rarTo(["Pinball FX2"],[],
-//        "D:/parches/Hyperspin5tb.Pinball.FX2.v-17.01-systems")
-packer.rarTo([], ["d:\\Games\\Arcades\\Pinball FX2 Build 030615\\"],
-        "D:/parches/Hyperspin5tb.Pinball.FX2.v-17.01-soft")
+// collection1(packer)
+// nintendo3DS(packer)
+// pinballFX2(packer)
+// mediaCenters(packer)
 
-//packer.rarTo(["KODI", "XBMC", "Plex", "Arcade Music Trivia Challenger", "Rockola", "DWJukebox"],[],
-//        "D:/parches/Hyperspin5tb.MediaCenters.v-17.01-systems")
-//packer.rarTo([], ["D:/Games/Extra/KODI"],
-//        "D:/parches/Hyperspin5tb.MediaCenters.v-17.01-soft")
-//
+def collection1(Packer packer) {
+    String pck = "Hyperspin5tb.Collection.1.VERSION-17.01"
+    File base = createPack(pck)
+    def systems = ["Castlevania Collection", "The King of Fighters Collection", "Sonic Mega Collection", "Street Fighter Collection", "Killer Instinct Collection",
+                   "Bomberman Collection", "Donkey Kong Collection", "Ghost'n Goblins Collection", "Double Dragon Collection", "Fatal Fury Collection",
+                   "Final Fantasy Collection", "Final Fight Collection", "Legend of Zelda Collection", "Mega Man Collection", "Metal Slug Collection",
+                   "Mortal Kombat Kollection", "Resident Evil Collection", "Samurai Shodown Collection", "Tekken Collection", "Dragon Warrior Collection",
+                   "Shining Force Collection", "Street Fighter Hack Collection", "Super Mario Collection", "World Heroes Collection", "Contra Collection"]
+
+    String dependencies = listDependencies(systems, packer.hyperSpin)
+    new File(base, "${pck}.readme.txt").text =
+            """Descomprimir todos los rars en tu unidad en la carpeta \\Games
+Editar el fichero \\Games\\HyperSpin-fe\\Databases\\Main Menu\\Main Menu.xml con un editor de texto (bloc de notas, Notepad++) y añadir las siguientes líneas para dar de alta los nuevos sistemas:
+
+    <game name="Castlevania Collection"/>
+    <game name="The King of Fighters Collection"/>
+    <game name="Sonic Mega Collection"/>
+    <game name="Street Fighter Collection"/>
+    <game name="Killer Instinct Collection"/>
+    <game name="Bomberman Collection"/>
+    <game name="Donkey Kong Collection"/>
+    <game name="Ghost'n Goblins Collection"/>
+    <game name="Double Dragon Collection"/>
+    <game name="Fatal Fury Collection"/>
+    <game name="Final Fantasy Collection"/>
+    <game name="Final Fight Collection"/>
+    <game name="Legend of Zelda Collection"/>
+    <game name="Mega Man Collection"/>
+    <game name="Metal Slug Collection"/>
+    <game name="Mortal Kombat Kollection"/>
+    <game name="Resident Evil Collection"/>
+    <game name="Samurai Shodown Collection"/>
+    <game name="Tekken Collection"/>
+    <game name="Dragon Warrior Collection"/>
+    <game name="Shining Force Collection"/>
+    <game name="Street Fighter Hack Collection"/>
+    <game name="Super Mario Collection"/>
+    <game name="World Heroes Collection"/>
+    <game name="Contra Collection"/>
+    
+Las colecciones no llevan roms, solo medias, por lo que necesitan tener instalados los siguientes sistemas (al lado, el número de roms que necesitan dicho sistema):
+
+${dependencies}    
+"""
+
+    packer.rarTo(systems, [],
+            new File(base, "${pck}-systems").toString())
+
+}
+
+def pinballFX2(Packer packer) {
+    String pck = "Hyperspin5tb.Pinball.FX2.VERSION-17.01"
+    File base = createPack(pck)
+    packer.rarTo(["Pinball FX2"], [],
+            new File(base, "${pck}-systems").toString())
+    packer.rarTo([], ["d:\\Games\\Arcades\\Pinball FX2 Build 030615\\"],
+            new File(base, "${pck}-soft").toString())
+    new File(base, "${pck}.readme.txt").text =
+            """Descomprimir todos los rars en tu unidad en la carpeta \\Games
+Editar el fichero \\Games\\HyperSpin-fe\\Databases\\Main Menu\\Main Menu.xml con un editor de texto (bloc de notas, Notepad++) y añadir la siguiente línea para dar de alta el nuevo sistema:
+
+    <game name="Pinball FX2" />
+"""
+}
+
+def nintendo3DS(Packer packer) {
+    String pck = "Hyperspin5tb.Nintendo.3DS.VERSION-17.01"
+    File base = createPack(pck)
+    packer.rarTo(["Nintendo 3DS"], ["d:\\Games\\Emulators\\Citra", "d:\\Games\\RocketLauncher\\Settings\\Nintendo 3DS" ],
+            new File(base, "${pck}-systems").toString())
+    packer.rarTo([], ["d:\\Games\\Roms\\Nintendo 3DS"],
+            new File(base, "${pck}-roms").toString())
+    new File(base, "${pck}.readme.txt").text =
+            """Descomprimir todos los rars en tu unidad en la carpeta \\Games
+Editar el fichero \\Games\\HyperSpin-fe\\Databases\\Main Menu\\Main Menu.xml con un editor de texto (bloc de notas, Notepad++) y añadir la siguiente línea para dar de alta el nuevo sistema:
+
+    <game name="Nintendo 3DS" />
+"""
+}
+
+def mediaCenters(Packer packer) {
+    String pck = "Hyperspin5tb.MediaCenters.VERSION-17.01"
+    File base = createPack(pck)
+    packer.rarTo(["KODI", "XBMC", "Plex", "Arcade Music Trivia Challenger", "Rockola", "DWJukebox"], [],
+            new File(base, "${pck}-systems").toString())
+    packer.rarTo([], ["D:/Games/Extra/KODI"],
+            new File(base, "${pck}-soft").toString())
+    new File(base, "${pck}.readme.txt").text =
+            """Descomprimir todo en tu unidad en la carpeta \\Games
+Editar el fichero \\Games\\HyperSpin-fe\\Databases\\Main Menu\\Main Menu.xml con un editor de texto (bloc de notas, Notepad++) y añadir las siguientes líneas para dar de alta los nuevos sistemas:
+
+  <game name="Arcade Music Trivia Challenger" exe="true" />
+  <game name="XBMC" exe="true" />
+  <game name="Plex" exe="true" />
+  <game name="KODI" exe="true" />
+  <game name="Rockola" exe="true" />
+  <game name="DWJukebox" exe="true" />
+  
+Solo para usuarios que tengan la colección en una unidad que no sea D: deben editar los siguientes ficheros de texto y cambiar la letra D: por la que corresponda:
+                                       
+  \\Games\\HyperSpin-fe\\Settings\\Arcade Music Trivia Challenger.ini
+  \\Games\\HyperSpin-fe\\Settings\\XBMC.ini
+  \\Games\\HyperSpin-fe\\Settings\\Plex.ini
+  \\Games\\HyperSpin-fe\\Settings\\KODI.ini
+  \\Games\\HyperSpin-fe\\Settings\\Rockola.ini
+  \\Games\\HyperSpin-fe\\Settings\\DWJukebox.ini
+"""
+}
+
+File createPack(String s) {
+    File base = new File("d:\\parches", s)
+    base.mkdirs()
+    return base
+}
+
+String listDependencies(List<String> systems, HyperSpin hyperSpin) {
+    String dependencies = ""
+    systems.collect {
+        RLSystem system = hyperSpin.getSystem(it)
+        [system.defaultEmulator?.name] + system.listRoms()*.exe
+    }.flatten().findAll().sort().countBy { it }.each { key, value ->
+        dependencies += "    - ${key.toString().padRight(36, " ")}: ${value} rom${value > 1 ? "s" : ""}\n"
+    }
+    return dependencies
+}

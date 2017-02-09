@@ -7,8 +7,8 @@ import org.hs5tb.groospin.base.MameMachine
 String commonDst = "d:/Games/HyperSpin-fe/Databases alternativas/MAME"
 
 generateVersion("0.180", commonDst,
-        "d:/Games/Arcades/MAME/0.180/mame.dat", // DAT
-        ["d:/Games/Arcades/MAME/0.180/ROMs", "d:/Games/Arcades/MAME/0.180/chds"], // ROM/CHDS FOLDERS
+        "d:/Games/Arcades/MAME/mame.dat", // DAT
+        ["d:/Games/Arcades/MAME/ROMs", "d:/Games/Arcades/MAME/chds"], // ROM/CHDS FOLDERS
         "${commonDst}/0.171/todo" // folder to compare
 )
 

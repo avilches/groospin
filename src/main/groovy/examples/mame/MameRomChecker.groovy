@@ -12,9 +12,9 @@ import java.util.zip.ZipFile
  * Created by Alberto on 10-Oct-16.
  */
 
-MameChecker checker180 = new MameChecker().loadDat("d:/Games/Roms/MAME/0.180/mame.dat")
+MameChecker checker180 = new MameChecker().loadDat("d:/Games/Roms/MAME/mame.dat")
 MameChecker.Report report = checker180.checkRoms(
-        ["d:/Games/Roms/MAME/0.180/ROMs", "d:/Games/Roms/MAME/0.180/chds"])
+        ["d:/Games/Roms/MAME/ROMs", "d:/Games/Roms/MAME/chds"])
 println report.missing
 
 
