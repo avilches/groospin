@@ -50,15 +50,20 @@ table#systems {
     border:2px solid #ccc ;
     table-layout: auto;
 }
-table#systems thead td {
+table#systems .head td {
     padding: 3px;
     background:#000000;
     color:white;
-    font: bold 11pt Arial;
+    font: 10pt Arial;
 }
 table#systems tbody td, table#systems tfoot td {
     border-bottom: 1px solid #e5e5e5 ;
     padding: 3px;
+}
+.wheels, .videos, .themes, .mediaSize {
+    font: 9pt Arial;
+    color: #999;
+    text-align: right;
 }
 tfoot td, td.n, tr.n {
     background:#e5e5e5;
@@ -66,8 +71,17 @@ tfoot td, td.n, tr.n {
 table#systems tbody td .emu {
     font-size: 8pt;
 }
-td.system, td.roms, td.romSize{
-    font: bold 11pt Arial;
+td.system{
+    font: 12pt Arial;
+}
+td.roms {
+    font: bold 13pt monospace, "Courier New", Courier;
+    text-align:right;
+}
+td.romSize {
+    font: bold 13pt monospace, "Courier New", Courier;
+    text-align:right;
+    color:#999;
 }
 td.group {
     font: bold 14pt/30pt Arial;
@@ -124,8 +138,18 @@ table#systems tbody td.state {
 </style>
 """
 
-        websiteSystems << "<table id='systems'><thead>\n<tr>\n    <td>#</td><td colspan='2'>Sistema</td><td colspan='2'>Estado</td><td>Roms</td><td>Tamaño</td><td>Wheels</td><td>Video</td><td>Temas</td><td>Tamaño medias</td>\n</tr>\n</thead>\n<tbody>"
+        websiteSystems << "<table id='systems'>"
     }
+
+    static String header = "<tr class='head'>\n    <td>#</td>" +
+            "<td colspan='2'>Sistema</td>" +
+            "<td colspan='2'>Estado</td>" +
+            "<td style='text-align: right;font: 8pt Arial'>Roms</td>" +
+            "<td style='text-align: right;font: 8pt Arial'>Tamaño</td>" +
+            "<td style='text-align: right;font: 8pt Arial'>Wheels</td>" +
+            "<td style='text-align: right;font: 8pt Arial'>Video</td>" +
+            "<td style='text-align: right;font: 8pt Arial'>Temas</td>" +
+            "<td style='text-align: right;font: 8pt Arial'>Roms/medias</td>\n</tr>"
 
     @Override
     void startSystem(RLSystem system) {
@@ -138,22 +162,30 @@ table#systems tbody td.state {
     @Override
     void startGroup(String groupName) {
         nn = 0
-        websiteSystems << "<tr>\n    <td></td><td class='group' colspan='10'>${groupName}</td>\n</tr>\n</thead>\n<tbody>"
+        websiteSystems << "<tr>\n    <td></td><td class='group' colspan='10'>${groupName}</td>\n</tr>\n${header}"
     }
 
     String baseImg = "../static/icons/"
     String httpBaseImg = "http://hyperspin5tb.com/static/icons/"
 
-    String arcadeIcon    = "<span class='toolttip'><img src='${httpBaseImg}arcade-flat-icon.png' width='14'/><span class=\"toolttiptext\">Ideal para recreativa</span></span>"
-    String excellentIcon = "<span class='toolttip'><img src='${httpBaseImg}icon-certified.png' width='20'/><span class=\"toolttiptext\">¡Emulación excelente!</span></span>"
-    String dangerIcon    = "<span class='toolttip'><img src='${httpBaseImg}danger-icon.png' width='22'/><span class=\"toolttiptext\">El sistema es inestable, no está bien emulado o presenta dificultades para jugar</span></span>"
+    String arcadeIcon    = "<span class='toolttip'><img src='${httpBaseImg}arcade-flat-icon.png' width='10'/><span class=\"toolttiptext\">Ideal para recreativa</span></span>"
+    String excellentIcon = "<span class='toolttip'><img src='${httpBaseImg}icon-certified.png' width='11'/><span class=\"toolttiptext\">¡Emulación excelente!</span></span>"
+    String dangerIcon    = "<span class='toolttip'><img src='${httpBaseImg}danger-icon.png' width='14'/><span class=\"toolttiptext\">El sistema es inestable, no está bien emulado o presenta dificultades para jugar</span></span>"
     @Override
     void endSystem(CheckTotalResult checkResult) {
         n++
         nn++
-        websiteSystems << "<tr>\n    <td class='n'>${n}</td><td>${icon(checkResult.system.name)}</td><td class='system'><a href='/sistemas/${sanitize(checkResult.system.name)}/'>${checkResult.system.name}</a><div class='emu'>${checkResult.system.defaultEmulator?.name ?: ""}</div></td>"
-        websiteSystems << "<td class='${systemConfig.arcade?'arcadeYes':'arcadeNo'}'>${systemConfig.arcade?arcadeIcon:""}</td><td class='state ${systemConfig.perfect ? "perfect" : !systemConfig.stable ? "instable" : ""}'>${systemConfig.perfect ? excellentIcon : !systemConfig.stable ? dangerIcon : ""}</td><td class='roms'>${checkResult.totalRoms}</td><td class='romSize'>${humanReadableByteSize(checkResult.totalRomSize)}</td>" +
-                "<td class='wheels'>${checkResult.wheels}</td><td class='videos'>${checkResult.videos}</td><td class='themes'>${checkResult.themes}</td><td class='mediaSize'>${humanReadableByteSize(checkResult.totalMediaSize)}</td></tr>"
+        websiteSystems << "<tr>\n    <td class='n'>${n}</td>" +
+                "<td>${icon(checkResult.system.name)}</td>" +
+                "<td class='system'><a href='/sistemas/${sanitize(checkResult.system.name)}/'>${checkResult.system.name}</a><div class='emu'>${checkResult.system.defaultEmulator?.name ?: ""}</div></td>"+
+                "<td class='${systemConfig.arcade?'arcadeYes':'arcadeNo'}'>${systemConfig.arcade?arcadeIcon:""}</td>" +
+                "<td class='state ${systemConfig.perfect ? "perfect" : !systemConfig.stable ? "instable" : ""}'>${systemConfig.perfect ? excellentIcon : !systemConfig.stable ? dangerIcon : ""}</td>" +
+                "<td class='roms'>${checkResult.totalRoms}</td>" +
+                "<td class='romSize'>${humanReadableByteSize(checkResult.totalRomSize+checkResult.totalMediaSize)}</td>" +
+                "<td class='wheels'>${checkResult.wheels}</td>" +
+                "<td class='videos'>${checkResult.videos}</td>" +
+                "<td class='themes'>${checkResult.themes}</td>" +
+                "<td class='mediaSize'>${humanReadableByteSize(checkResult.totalRomSize)}/${humanReadableByteSize(checkResult.totalMediaSize)}</td></tr>"
     }
 
     String icon(String name) {
@@ -165,15 +197,29 @@ table#systems tbody td.state {
 
     @Override
     void endGroup(CheckTotalResult checkResult) {
-        websiteSystems << "<tr class='n'>\n    <td></td><td colspan='4' class='total'>Total ${nn} sistemas de ${checkResult.group}</td><td class='roms'>${checkResult.totalRoms}</td><td class='romSize'>${humanReadableByteSize(checkResult.totalRomSize)}</td>" +
-                "<td class='wheels'>${checkResult.wheels}</td><td class='videos'>${checkResult.videos}</td><td class='themes'>${checkResult.themes}</td><td class='mediaSize'>${humanReadableByteSize(checkResult.totalMediaSize)}</td></tr>"
+        websiteSystems << "<tr class='n'>\n    <td></td>" +
+                "<td colspan='2' class='total'>Total ${nn} sistemas de ${checkResult.group}</td>" +
+                "<td colspan='2'></td>"+
+                "<td class='roms'>${checkResult.totalRoms}</td>" +
+                "<td class='romSize'>${humanReadableByteSize(checkResult.totalRomSize+checkResult.totalMediaSize)}</td>" +
+                "<td class='wheels'>${checkResult.wheels}</td>" +
+                "<td class='videos'>${checkResult.videos}</td>" +
+                "<td class='themes'>${checkResult.themes}</td>" +
+                "<td class='mediaSize'>${humanReadableByteSize(checkResult.totalMediaSize)}/${humanReadableByteSize(checkResult.totalMediaSize)}</td></tr>"
         websiteSystems.flush()
     }
 
     @Override
     void endCheck(CheckTotalResult checkResult) {
-        websiteSystems << "</tbody>\n<tfoot>\n<tr>\n    <td></td><td colspan='4' class='total'>Total ${n} sistemas</td><td class='roms'>${checkResult.totalRoms}</td><td class='romSize'>${humanReadableByteSize(checkResult.totalRomSize)}</td>" +
-                "<td class='wheels'>${checkResult.wheels}</td><td class='videos'>${checkResult.videos}</td><td class='themes'>${checkResult.themes}</td><td class='mediaSize'>${humanReadableByteSize(checkResult.totalMediaSize)}</td></tr>"
+        websiteSystems << "<tfoot>\n<tr>\n    <td></td>" +
+                "<td colspan='2' class='total'>Total ${n} sistemas</td>" +
+                "<td colspan='2'></td>"+
+                "<td class='roms'>${checkResult.totalRoms}</td>" +
+                "<td class='romSize'>${humanReadableByteSize(checkResult.totalRomSize+checkResult.totalMediaSize)}</td>" +
+                "<td class='wheels'>${checkResult.wheels}</td>" +
+                "<td class='videos'>${checkResult.videos}</td>" +
+                "<td class='themes'>${checkResult.themes}</td>" +
+                "<td class='mediaSize'>${humanReadableByteSize(checkResult.totalMediaSize)}/${humanReadableByteSize(checkResult.totalMediaSize)}</td></tr>"
         websiteSystems << "</tfoot>\n</table>"
         websiteSystems.flush()
     }

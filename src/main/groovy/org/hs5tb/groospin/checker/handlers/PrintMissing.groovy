@@ -13,7 +13,7 @@ class PrintMissing extends BaseCheckHandler {
     @Override
     void romChecked(CheckRomResult checkResult) {
         if (!checkResult.exes) {
-            println "${checkResult.originalSystem.name != checkResult.systemName?checkResult.originalSystem.name+":":""}${checkResult.systemName}: rom \"${checkResult.romName}\" missing${checkResult.roms?" but rom found in ${checkResult.rom.romFileFound.canonicalPath}":""}"
+            println "${checkResult.originalSystem.name != checkResult.systemName?checkResult.originalSystem.name+":":""}${checkResult.systemName}: exe \"${checkResult.romName}\" missing${checkResult.roms?" (but rom found in ${checkResult.rom.romFileFound.canonicalPath})":""}"
         }
     }
 }

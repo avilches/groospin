@@ -80,6 +80,8 @@ class RLSystem {
             File exe = new File(exePath)
             if (exe.file) {
                 return exe
+            } else {
+                println "DFend: \"${exePath}\" not found"
             }
         }
         return null

@@ -205,6 +205,22 @@ class MameMachine extends Rom {
         return parseDat(file.newInputStream())
     }
 
+    static Node parseSoftware(InputStream is, Closure filter = null) {
+        XmlParser parser = new XmlParser()
+        parser.setFeature("http://apache.org/xml/features/disallow-doctype-decl", false)
+        parser.setFeature("http://apache.org/xml/features/nonvalidating/load-external-dtd", false)
+        Node mame = parser.parse(is)
+
+        mame.software.each { Node machine ->
+            if (filter == null || filter.call(machine)) {
+                //
+            } else {
+                mame.children().remove(machine)
+            }
+        }
+
+        return mame
+    }
     static Node parseDat(InputStream is, boolean fixClones = true, Closure filter = mameMachineRunnableArcadeOnlyCondition) {
         XmlParser parser = new XmlParser()
         parser.setFeature("http://apache.org/xml/features/disallow-doctype-decl", false)
@@ -255,6 +271,31 @@ class MameMachine extends Rom {
 
     static List<MameMachine> loadRoms(File file, boolean fixClones = true, Closure filter = mameMachineRunnableArcadeOnlyCondition) {
         return loadRoms(file.newInputStream(), fixClones, filter)
+    }
+
+    static List<MameMachine> loadSoftware(InputStream is, Closure filter = null) {
+        Node root = parseSoftware(is, filter)
+        return root.softwarelist.software.collect { Node software -> new Software().loadFromDat(software) }
+    }
+
+    static class Software {
+        String name
+        String cloneof
+        String description
+        String publisher
+        String year
+        List<String> disks = []
+
+        Software loadFromDat(Node software) {
+            name = software.@name
+            cloneof = software.@cloneof
+            description = software.description.text()
+            publisher = software.publisher.text()
+            year = software.year.text()
+            disks = [software.part.diskarea.disk[0].@name]
+            this
+        }
+
     }
 
     static List<MameMachine> loadRoms(InputStream is, boolean fixClones = true, Closure filter = mameMachineRunnableArcadeOnlyCondition) {
