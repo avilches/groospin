@@ -18,9 +18,10 @@ import org.hs5tb.groospin.checker.result.CheckTotalResult
 
 
 HyperSpin hs = new HyperSpin("G:/Games/RocketLauncher")
-boolean simulation = true
+boolean simulation = false
 
 Set toDelete = []
+int systemsOk = 0
 new Checker(hs).
         addHandler(new HumanInfo(true)).
         addHandler(new BaseCheckHandler() {
@@ -30,32 +31,37 @@ new Checker(hs).
             if (!checkResult.system.executableExe.exists()) {
                 toDelete << checkResult.systemName
                 println "[${checkResult.systemName}] Executable ${checkResult.system.executableExe} missing"
+            } else {
+                systemsOk++
             }
         } else if (checkResult.roms == 0 && checkResult.systemName != "Pinball Arcade") {
             toDelete << checkResult.systemName
-            println "[${checkResult.systemName}] 0 roms"
+            println "----- 0 roms: ${checkResult.systemName}"
+        } else {
+            systemsOk++
         }
-
     }
 }).checkSystems()
-
+//}).checkSystems(["Apple II"])
 
 println "0 roms systems: ${toDelete.join(", ")}"
-toDelete.each {
-    File mediaFolder = hs.getSystem(it).getMediaFolder()
-    File newName = new File(mediaFolder.parentFile, mediaFolder.name + ".delete")
-    println "Renaming ${mediaFolder} -> ${newName}"
-    if (!simulation) {
+println "${systemsOk} roms"
+
+if (!simulation) {
+    toDelete.each {
+        File mediaFolder = hs.getSystem(it).getMediaFolder()
+        File newName = new File(mediaFolder.parentFile, mediaFolder.name + ".delete")
+        println "Renaming ${mediaFolder} -> ${newName}"
         mediaFolder.renameTo(newName)
     }
-}
 
-Node mainMenu = new XmlParser().parseText(hs.getMainMenuFile().text)
-mainMenu.game.each { Node node ->
-    if (node.@name in toDelete) {
-        mainMenu.children().remove(node)
+    Node mainMenu = new XmlParser().parseText(hs.getMainMenuFile().text)
+    mainMenu.game.each { Node node ->
+        if (node.@name in toDelete) {
+            mainMenu.children().remove(node)
+        }
     }
-}
 
-new File(hs.getMainMenuFile().parentFile, "Main Menu.xml.clean").text = XmlUtil.serialize(mainMenu)
+    new File(hs.getMainMenuFile().parentFile, "Main Menu.xml.clean").text = XmlUtil.serialize(mainMenu)
+}
 

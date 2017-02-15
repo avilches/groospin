@@ -3,23 +3,46 @@ package org.hs5tb.groospin.common
 import net.bican.wordpress.FilterPost
 import net.bican.wordpress.Post
 import net.bican.wordpress.Wordpress
+import org.hs5tb.groospin.base.HyperSpin
 
 /**
  * Created by Alberto on 29-Jun-16.
  */
-class WP {
+
+WP2 wp = new WP2("http://hyperspin5tb.com/xmlrpc.php", "admin", )
+HyperSpin spin = new HyperSpin("D:/Games/RocketLauncher")
+def pages = wp.listAllPages()
+def titles = pages*.post_title.collect { it.toLowerCase() } as Set
+
+spin.listSystemNames(true).each {
+    String system ->
+        //system = system.split(" ").collect { it.capitalize() }.join(" ")
+        if (!(system.toLowerCase() in titles)) {
+            println "$system -> ${system in titles}"
+            wp.createPage(system, "[includeme file=\"/var/www/hs/static/website/system-${system}.html\"]", 123)
+        }
+
+}
+
+
+class WP2 {
     String url
     String login
     String password
 
     Wordpress wp
 
-    WP(String url, String login, String password) {
+    WP2(String url, String login, String password) {
         this.url = url
         this.login = login
         this.password = password
         wp = new Wordpress(login, password, url)
     }
+
+    List<Post> listAllPages() {
+        wp.getPosts(new FilterPost(post_type: "page", number:999999))
+    }
+
 
     void printChildren(int id) {
         wp.getPosts(new FilterPost(post_type: "page")).each { Post page ->

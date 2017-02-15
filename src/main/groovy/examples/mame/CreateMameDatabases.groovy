@@ -21,17 +21,17 @@ void generateVersion(String version, String commonDst, String xmlDat, List romFo
     def catver = "d:/Games/Soft/GrooSpin/resources/pS_CatVer/180/catver.ini"
     def extraInfo = "d:/Games/Soft/GrooSpin/resources/Official HyperSpin MAME/180/code/extra_info.txt"
     List<MameMachine> roms = DatXmlToHyperSpinXml.load(xmlDat, catver, extraInfo)
-    MameChecker.Report report = new MameChecker().loadDat(xmlDat).checkRoms(romFolders)
-    def missing = report.missing
-    if (missing) {
-        println "*** PAY ATTENTION!!! Missing: ${missing}"
-        return
-    }
-    roms.removeAll { it.name in missing }
-
-    roms.each { MameMachine rom ->
-        rom.filesUsed = report.filesUsed[rom.name]
-    }
+//    MameChecker.Report report = new MameChecker().loadDat(xmlDat).checkRoms(romFolders)
+//    def missing = report.missing
+//    if (missing) {
+//        println "*** PAY ATTENTION!!! Missing: ${missing}"
+//        return
+//    }
+//    roms.removeAll { it.name in missing }
+//
+//    roms.each { MameMachine rom ->
+//        rom.filesUsed = report.filesUsed[rom.name]
+//    }
 
 /*
     File f = new File("${commonDst}/${version}/txt")
@@ -70,7 +70,15 @@ debugRoms.removeAll { it.catVerCat?.contains("Tabletop") || it.genre?.contains("
 
 }
 void generateAll(List roms, Map header, String dst, String databasesToCompare, Closure filter) {
-
+/*
+    // Atlus
+    DatXmlToHyperSpinXml.store(roms,
+            "${dst}/Atlus/Atlus.xml",
+            header + [listname: "Atlus working"]) { MameMachine rom ->
+        return filter(rom) && rom.working && rom.manufacturer.contains("Atlus")
+    }
+    Comparer.printDifferences("Atlus", dst, databasesToCompare)
+*/
     // Toaplan
     DatXmlToHyperSpinXml.store(roms,
             "${dst}/Toaplan/Toaplan.xml",

@@ -11,7 +11,7 @@ import org.hs5tb.groospin.checker.Checker
 import org.hs5tb.groospin.checker.result.CheckRomResult
 
 Creator creator = new Creator(new HyperSpin("D:/Games/RocketLauncher"), false)
-
+/*
 creator.create("Contra Collection",[
         "[Vintage Commercials] *",
         "[Future Pinball] *",

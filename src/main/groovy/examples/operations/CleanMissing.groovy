@@ -10,8 +10,8 @@ import operation.Operations
  */
 
 
-List systems = []
+List systems = ["Philips CD-i"]
 
-def operations = new DatabaseOperations("A:/Games/RocketLauncher")
+def operations = new DatabaseOperations("D:/Games/RocketLauncher")
 operations.simulation = false
 operations.removeFromDatabase("-with-missing", [Operations.MISSING], systems)

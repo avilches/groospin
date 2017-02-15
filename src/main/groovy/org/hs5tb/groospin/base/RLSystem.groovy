@@ -24,6 +24,8 @@ class RLSystem {
     File findValidRom(String romName) {
         RLEmulator emulator = findRomEmulator(romName)
 
+        if (emulator?.module?.endsWith("Pinball Arcade.ahk")) return emulator.emuPath
+
         if (emulator?.module == "ScummVM.ahk") {
             String path = romMapping.get(romName, "path")
             if (path) {

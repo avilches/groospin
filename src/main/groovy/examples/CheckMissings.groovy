@@ -6,7 +6,7 @@ import org.hs5tb.groospin.checker.handlers.*
 
 HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
 
-def systems = ["Microsoft MS-DOS"]
+def systems = ["Lucasarts Adventure Games", "Pack Remasterizados"]
 
 /*
 def systems = [
@@ -29,7 +29,7 @@ def systems = ["HBMAME", "MAME", "MAME 4 Players",
 new Checker(hs).
         addHandler(new HumanInfo(false)).
         addHandler(new PrintMissing()).
-        checkSystems()
-//        checkSystems(systems)
-
+//        checkSystems(hs.listSystemNames(true))
+        checkSystems(systems)
+//        checkSystems()
 

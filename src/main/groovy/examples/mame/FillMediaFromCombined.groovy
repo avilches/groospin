@@ -15,9 +15,9 @@ romMediaOperations.simulation = false
 
 
 // Ejemplo de copia de medias de un sistema a otro
-RLSystem from = hs.getSystem("MAME")
+RLSystem from = hs.getSystem("Nintendo WiiWare")
 
-["Mitchell Corporation", "Tecmo", "Toaplan"].each {
+["Lucasarts Adventure Games"].each {
     RLSystem to = hs.getSystem(it)
     to.listRoms().each { Rom rom ->
         romMediaOperations.copyMedia(rom.name, from, to)
