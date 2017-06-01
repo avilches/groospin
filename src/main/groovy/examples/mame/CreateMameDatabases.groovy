@@ -70,7 +70,15 @@ debugRoms.removeAll { it.catVerCat?.contains("Tabletop") || it.genre?.contains("
 
 }
 void generateAll(List roms, Map header, String dst, String databasesToCompare, Closure filter) {
-/*
+
+    // Visco
+    DatXmlToHyperSpinXml.store(roms,
+            "${dst}/Visco/Visco.xml",
+            header + [listname: "Visco working"]) { MameMachine rom ->
+        return filter(rom) && rom.working && rom.manufacturer.contains("Visco")
+    }
+    Comparer.printDifferences("Visco", dst, databasesToCompare)
+
     // Atlus
     DatXmlToHyperSpinXml.store(roms,
             "${dst}/Atlus/Atlus.xml",
@@ -78,7 +86,7 @@ void generateAll(List roms, Map header, String dst, String databasesToCompare, C
         return filter(rom) && rom.working && rom.manufacturer.contains("Atlus")
     }
     Comparer.printDifferences("Atlus", dst, databasesToCompare)
-*/
+
     // Toaplan
     DatXmlToHyperSpinXml.store(roms,
             "${dst}/Toaplan/Toaplan.xml",

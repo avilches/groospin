@@ -28,7 +28,7 @@ class DatabaseOperations extends Operations {
                     @Override
                     void startSystem(RLSystem system) {
                         super.startSystem(system)
-                        log("Processing ${system.name}. Simulation: ${simulation})")
+                        log("Processing ${system.name}. (Simulation: ${simulation})")
                     }
 
                     @Override
@@ -44,9 +44,11 @@ class DatabaseOperations extends Operations {
 
                     @Override
                     void endDatabaseUpdate(CheckTotalResult checkResult) {
-                        String newDatabase = "${checkResult.systemName}${newFileSuffix}.xml"
-                        log("(${simulation?"simulation":"real"}) Saved new database ${newDatabase}")
-                        if (!simulation) saveDatabaseTo(newDatabase, verbose)
+                        if (dirty) {
+                            String newDatabase = "${checkResult.systemName}${newFileSuffix}.xml"
+                            log("(${simulation ? "simulation" : "real"}) Saved new database ${newDatabase}")
+                            if (!simulation) saveDatabaseTo(newDatabase, verbose)
+                        }
                     }
                 }).
                 checkSystems(systems)
@@ -58,7 +60,7 @@ class DatabaseOperations extends Operations {
                     @Override
                     void startSystem(RLSystem system) {
                         super.startSystem(system)
-                        log("Processing ${system.name}. Simulation: ${simulation})")
+                        log("Processing ${system.name}. (Simulation: ${simulation})")
                     }
 
                     @Override
@@ -72,9 +74,11 @@ class DatabaseOperations extends Operations {
 
                     @Override
                     void endDatabaseUpdate(CheckTotalResult checkResult) {
-                        String newDatabase = "${checkResult.systemName}${backupSuffix}.xml"
-                        log("(${simulation?"simulation":"real"}) Database saved. Backup: ${newDatabase}")
-                        if (!simulation) backupOriginalDatabaseAndSave(newDatabase, verbose)
+                        if (dirty) {
+                            String newDatabase = "${checkResult.systemName}${backupSuffix}.xml"
+                            log("(${simulation ? "simulation" : "real"}) Database saved. Backup: ${newDatabase}")
+                            if (!simulation) backupOriginalDatabaseAndSave(newDatabase, verbose)
+                        }
                     }
                 }).
                 checkSystems(systems)
@@ -87,7 +91,7 @@ class DatabaseOperations extends Operations {
                     @Override
                     void startSystem(RLSystem system) {
                         super.startSystem(system)
-                        log("Processing ${system.name}. Simulation: ${simulation})")
+                        log("Processing ${system.name}. (Simulation: ${simulation})")
                     }
                     @Override
                     void romNodeChecked(CheckRomResult checkRomResult, XmlRom romNode) {

@@ -4,9 +4,10 @@ import org.hs5tb.groospin.base.*
 import org.hs5tb.groospin.checker.*
 import org.hs5tb.groospin.checker.handlers.*
 
-HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
+HyperSpin hs = new HyperSpin("i:\\Games\\RocketLauncher")
 
-def systems = ["Lucasarts Adventure Games", "Pack Remasterizados"]
+def systems = ["Nintendo Wii"]
+//def systems = ["Sony PlayStation", "Sony PlayStation 2", "Nintendo Wii", "Nintendo GameCube", "Sony PSP", "Party Games"]
 
 /*
 def systems = [
@@ -30,6 +31,6 @@ new Checker(hs).
         addHandler(new HumanInfo(false)).
         addHandler(new PrintMissing()).
 //        checkSystems(hs.listSystemNames(true))
-        checkSystems(systems)
-//        checkSystems()
+//        checkSystems(systems)
+        checkSystems()
 

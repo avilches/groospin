@@ -9,7 +9,7 @@ import org.hs5tb.groospin.base.HyperSpin
  * Created by Alberto on 29-Jun-16.
  */
 
-WP2 wp = new WP2("http://hyperspin5tb.com/xmlrpc.php", "admin", )
+WP2 wp = new WP2("http://hyperspin5tb.com/xmlrpc.php", "admin", "")
 HyperSpin spin = new HyperSpin("D:/Games/RocketLauncher")
 def pages = wp.listAllPages()
 def titles = pages*.post_title.collect { it.toLowerCase() } as Set

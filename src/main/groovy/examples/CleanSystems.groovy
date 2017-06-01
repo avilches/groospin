@@ -13,11 +13,12 @@ import org.hs5tb.groospin.checker.result.CheckTotalResult
 
 /**
  * Created by Alberto on 23-Dec-16.
- * Elimina los sistemas que tienen 0 juegos (y no son ejecutables)
+ * Elimina los sistemas que tienen 0 juegos o son ejecutables de HyperSpin que no existen.
+ * Ideal para discos de menos capacidad a los que se han quitado carpetas.
  */
 
 
-HyperSpin hs = new HyperSpin("G:/Games/RocketLauncher")
+HyperSpin hs = new HyperSpin("I:/Games/RocketLauncher")
 boolean simulation = false
 
 Set toDelete = []

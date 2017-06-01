@@ -243,6 +243,10 @@ class HyperSpinDatabase {
         return rom
     }
 
+    boolean hasRom(String romName) {
+        roms.find { it.name.toLowerCase() == romName.toLowerCase()}
+    }
+
     static class RomListMerger {
         static void addOnlyNews(List<Rom> roms, List<Rom> toAdd) {
             Set<String> avoidTheseRomNames = roms*.name
