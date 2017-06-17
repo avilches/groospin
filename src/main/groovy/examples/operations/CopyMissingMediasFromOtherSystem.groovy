@@ -1,4 +1,4 @@
-package examples.mame
+package examples.operations
 
 import operation.RomMediaOperations
 import org.hs5tb.groospin.base.HyperSpin
@@ -13,18 +13,18 @@ HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
 RomMediaOperations romMediaOperations = new RomMediaOperations(hs)
 romMediaOperations.simulation = false
 
-
+/*
 // Ejemplo de copia de medias de un sistema a otro
 RLSystem from = hs.getSystem("MAME")
 
-["Visco"].each {
+["Nichibutsu", "Jaleco"].each {
     RLSystem to = hs.getSystem(it)
     to.listRoms().each { Rom rom ->
         romMediaOperations.copyMedia(rom.name, from, to)
     }
 }
 
-return
+return*/
 
 // Se procesan todos los sistemas basados en MAME, menos MAME
 // Se supone que antes se ha ejecutado CombineMediaMame y tenemos en MAME todos los medias
