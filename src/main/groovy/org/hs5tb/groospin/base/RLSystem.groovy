@@ -199,6 +199,10 @@ class RLSystem {
         })
     }
 
+    J2K loadJ2KConfig(String emulator = null) {
+        return new J2K(hyperSpin, name, emulator)
+    }
+
     List allowedMediaRomThemes() {
         return explodeFilenameExtensions(listRomNames()+["default"], HyperSpin.THEME_EXTENSIONS)
     }

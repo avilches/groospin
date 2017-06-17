@@ -184,19 +184,31 @@ class HyperSpin {
         }
     }
 
-    /*
-CheckResult checkGame(String systemName, String gameName) {
-CheckResult checkResult = check(systemName, [gameName])
-checkResult.game = gameName
-return checkResult
-}
+    Collection<RLSystem> listSystemsRetroArch() {
+        return listSystems().findAll { it.defaultEmulator?.name?.startsWith("RetroArch") }
+    }
+
+    Collection<RLSystem> listSystemsMAME() {
+        return listSystems().findAll { it.defaultEmulator?.name?.startsWith("MAME") }
+
+    }
+    Collection<RLSystem> listSystemsMESS() {
+        return listSystems().findAll { it.defaultEmulator?.name?.startsWith("MESS") }
+    }
+
+        /*
+    CheckResult checkGame(String systemName, String gameName) {
+    CheckResult checkResult = check(systemName, [gameName])
+    checkResult.game = gameName
+    return checkResult
+    }
 
 
-CheckResult checkAllGames(String systemName) {
-check(systemName, getGamesFromSystem(systemName))
-}
+    CheckResult checkAllGames(String systemName) {
+    check(systemName, getGamesFromSystem(systemName))
+    }
 
-*/
+    */
 
     File getRocketLauncherExe() {
         newRocketLauncherFile("RocketLauncher.exe")
