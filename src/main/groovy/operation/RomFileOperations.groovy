@@ -20,7 +20,7 @@ class RomFileOperations extends Operations {
         super(hs)
     }
 
-    void addSuffixToRomName(String suffix, List<Closure> conditions, List systems = null) {
+    void addSuffixToRomName(String suffix, List<Closure> conditions, List<String> systems = null) {
         executeRomAction(conditions, systems) { File exe ->
             String newFileName = exe.canonicalPath.toString()+suffix
             log("(${simulation?"simulation":"real"}) Adding sufix. Final name ${newFileName}")
@@ -28,14 +28,14 @@ class RomFileOperations extends Operations {
         }
     }
 
-    void deleteRoms(List<Closure> conditions, List systems = null) {
+    void deleteRoms(List<Closure> conditions, List<String> systems = null) {
         executeRomAction(conditions, systems) { File exe ->
             log("(${simulation?"simulation":"real"}) Deleting ${exe.canonicalPath}")
             if (!simulation) exe.delete()
         }
     }
 
-    void moveRomsTo(String dst, List<Closure> conditions, List systems = null) {
+    void moveRomsTo(String dst, List<Closure> conditions, List<String> systems = null) {
         executeRomAction(conditions, systems) { File exe ->
             File newFile = new File(dst, exe.name)
             log("(${simulation?"simulation":"real"}) Moving to ${newFile}")
@@ -43,7 +43,7 @@ class RomFileOperations extends Operations {
         }
     }
 
-    void executeRomAction(List<Closure> conditions, List systems = null, Closure<File> action) {
+    void executeRomAction(List<Closure> conditions, List<String> systems = null, Closure<File> action) {
         new Checker(hyperSpin).
                 addHandler(new BaseCheckHandler() {
                     @Override

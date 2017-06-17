@@ -7,7 +7,7 @@ import org.hs5tb.groospin.base.HyperSpin
 
 def spin = new HyperSpin("A:/RocketLauncher")
 
-def systems = spin.listSystems().findAll { it.defaultEmulator.name == "RetroArch"}*.name
+def systems = spin.listSystemsRetroArch()*.name
 
 // Borra los juegos (la rom y del xml) que no tengan video ni wheel. Si tiene video o wheel los deja
 
