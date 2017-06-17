@@ -32,14 +32,152 @@ class J2K {
     Preset presets = new Preset()
 
     class Preset {
-        Preset xbox360Esc() {
+
+        static int XBOX360_A = 1
+        static int XBOX360_B = 2
+        static int XBOX360_X = 3
+        static int XBOX360_Y = 4
+        static int XBOX360_LB = 5
+        static int XBOX360_LT_ANALOG = 11 // ANALOG
+        static int XBOX360_RB = 6
+        static int XBOX360_BACK = 7
+        static int XBOX360_SELECT = 7
+        static int XBOX360_START = 8
+        static int XBOX360_RT_ANALOG = 12 // ANALOG
+
+        static String none =  null
+        static String ESC =  "1B"
+        static String ALT =  "12"
+        static String CTRL =  "11"
+        static String SHIFT =  "10"
+        static String SPACE =  "20"
+        static String RETURN =  "0D"
+        static String CAPS =  "14"
+        static String TAB =  "09"
+        static String BACKSPACE =  "08"
+        static String INSERT =  "2D"
+        static String DELETE =  "2E"
+        static String HOME =  "24"
+        static String END =  "23"
+        static String PAGEUP =  "21"
+        static String PAGEDOWN =  "22"
+        static String BELOW_ESC =  "17" // º ª \ LA TECLA QUE ESTA DEBAJO DEL ESCAPE Y ENCIMA DEL BLOQ MAYUSCULAS
+
+        static String CURSOR_LEFT =  "25"
+        static String CURSOR_DOWN =  "28"
+        static String CURSOR_RIGHT =  "27"
+        static String CURSOR_UP =  "26"
+
+        static String KEY_0 = k("0")
+        static String KEY_1 = k("1")
+        static String KEY_2 = k("2")
+        static String KEY_3 = k("3")
+        static String KEY_4 = k("4")
+        static String KEY_5 = k("5")
+        static String KEY_6 = k("6")
+        static String KEY_7 = k("7")
+        static String KEY_8 = k("8")
+        static String KEY_9 = k("9")
+
+
+        static String KEY_F1 = k("70")
+        static String KEY_F2 = k("71")
+        static String KEY_F3 = k("72")
+        static String KEY_F4 = k("73")
+        static String KEY_F5 = k("74")
+        static String KEY_F6 = k("75")
+        static String KEY_F7 = k("76")
+        static String KEY_F8 = k("77")
+        static String KEY_F9 = k("78")
+        static String KEY_F10 = k("79")
+
+        static String KEY_A = k("A")
+        static String KEY_B = k("B")
+        static String KEY_C = k("C")
+        static String KEY_D = k("D")
+        static String KEY_E = k("E")
+        static String KEY_F = k("F")
+        static String KEY_G = k("G")
+        static String KEY_H = k("H")
+        static String KEY_I = k("I")
+        static String KEY_J = k("J")
+        static String KEY_K = k("K")
+        static String KEY_L = k("L")
+        static String KEY_M = k("M")
+        static String KEY_N = k("N")
+        static String KEY_O = k("O")
+        static String KEY_P = k("P")
+        static String KEY_Q = k("Q")
+        static String KEY_R = k("R")
+        static String KEY_S = k("S")
+        static String KEY_T = k("T")
+        static String KEY_U = k("U")
+        static String KEY_V = k("V")
+        static String KEY_W = k("W")
+        static String KEY_X = k("X")
+        static String KEY_Y = k("Y")
+        static String KEY_Z = k("Z")
+
+
+
+        static String k(String k) {
+            return Integer.toHexString((k as char) as int).toUpperCase()
+        }
+
+        Preset buttonToKey(int joy, Map map) {
+            map.each { int button, String key ->
+                buttonToKey(joy, button, key)
+            }
+            this
+        }
+
+        Preset buttonToKey(int joy, int buttonStart, List<String> keys) {
+            keys.eachWithIndex { String key, int i ->
+                buttonToKey(joy, buttonStart + i, key)
+            }
+            this
+
+        }
+
+        Preset buttonToKey(int joy, int button, String key) {
+            buttonToKey(joy, "Button${button<10?"0":""}$button", key)
+        }
+        Preset buttonToKey(int joy, String button, String key) {
+            cfg.put("Joystick $joy", button, "1, ${key}:00:00:00, 0.000, 0, 0")
+            this
+        }
+
+        Preset xbox360Esc(int joy = 1) {
             // envia ESC al pulsar SELECT(back) + START (usando mapping boton 32)
-            cfg.put("Joystick 1", "Button32", "1, 1B:00:00:00, 0.000, 0, 0")
+            buttonToKey(joy, 32, ESC)
             cfg.put("ButtonAlias", "Button32", "62, 63")
             return this
         }
+
+        Preset dPadToCursor(int joy = 1) {
+            buttonToKey(joy, "POV1-1", CURSOR_UP)
+            buttonToKey(joy, "POV1-3", CURSOR_RIGHT)
+            buttonToKey(joy, "POV1-5", CURSOR_DOWN)
+            buttonToKey(joy, "POV1-7", CURSOR_LEFT)
+            return this
+        }
+
+        Preset analogToCursor(int joy = 1) {
+            buttonToKey(joy, "Axis1n", CURSOR_LEFT)
+            buttonToKey(joy, "Axis1p", CURSOR_RIGHT)
+            buttonToKey(joy, "Axis2n", CURSOR_UP)
+            buttonToKey(joy, "Axis2p", CURSOR_DOWN)
+            buttonToKey(joy, "Axis3n", CURSOR_LEFT)
+            buttonToKey(joy, "Axis3p", CURSOR_RIGHT)
+            buttonToKey(joy, "Axis4n", CURSOR_UP)
+            buttonToKey(joy, "Axis4p", CURSOR_DOWN)
+            this
+        }
+
+
         Preset save() {
             cfg.store()
+            return this
         }
     }
 
