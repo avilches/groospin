@@ -11,6 +11,8 @@ import org.hs5tb.groospin.common.IniFile
 
 HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
 
+boolean recreativa = false
+
 def mameSystemNames = hs.listSystems().findAll { it.defaultEmulator?.name?.startsWith("MAME") }*.name
 hs.withRocketLauncherInis(mameSystemNames.collect { "Settings/${it}/Emulators.ini"}) { String filename, IniFile ini ->
     ini.put("ROMS", "Rom_Path", "..\\Arcades\\MAME\\roms|..\\Arcades\\MAME\\chds|..\\Arcades\\MAME\\romsfake")
@@ -22,12 +24,14 @@ hs.withRocketLauncherInis(mameSystemNames.collect { "Settings/${it}/Emulators.in
 
 hs.withRocketLauncherInis(mameSystemNames.collect { "Settings/$it/RocketLauncher.ini"} ) { String filename, IniFile ini ->
     ini.put("Settings", "Skipchecks", "Rom Only")
+    ini.put("7z", "7z_Enabled", "false")
+    ini.put("Virtual Drive", "Virtual_Drive_Enabled", "false")
     if (ini.dirty) {
         ini.store()
         println "Updating Skipchecks=Rom Only: ${filename}"
     }
 }
-
+return
 hs.withRocketLauncherInis(hs.listSystemNames().collect { "Settings/$it/RocketLauncher.ini"} ) { String filename, IniFile ini ->
     ini.put("Keymapper", "Keymapper_Enabled", "use_global")
     if (ini.dirty) {
@@ -37,6 +41,26 @@ hs.withRocketLauncherInis(hs.listSystemNames().collect { "Settings/$it/RocketLau
 }
 
 
+hs.withHyperSpinSettings("Settings") { String filename, IniFile ini ->
+    ini.put("Main", "Use_Last_Game", "true")
+    ini.put("Main", "Use_Last_System", "true")
+    ini.put("Main", "Enable_Exit_Menu", "true")
+    ini.put("Main", "Enable_Exit", "true")
+    ini.put("Main", "Exit_Default", "yes")
+    if (recreativa) {
+        ini.put("Main", "Exit_Action", "shutdown")
+        ini.put("AttractMode", "Active", "true")
+    } else {
+        ini.put("Main", "Exit_Action", "exit") // "shutdown" para recreativas
+        ini.put("AttractMode", "Active", "false")
+    }
+
+    if (ini.dirty) {
+        ini.store()
+        println "Updating Main settings: ${filename}"
+    }
+}
+
 hs.withHyperSpinAllSystemSettings { String filename, IniFile ini ->
 
     ini.put("navigation", "use_last_game", "true")
@@ -45,7 +69,15 @@ hs.withHyperSpinAllSystemSettings { String filename, IniFile ini ->
     ini.put("themes", "use_parent_vids", "true")
     ini.put("themes", "use_parent_themes", "true")
 
-    ini.put("filters", "parents_only", "false")
+    if (recreativa) {
+        ini.put("filters", "parents_only", "true") // no clones
+        ini.put("sounds", "game_sounds", "true")
+        ini.put("sounds", "wheel_click", "true")
+    } else {
+        ini.put("filters", "parents_only", "false")
+        ini.put("sounds", "game_sounds", "false")
+        ini.put("sounds", "wheel_click", "false")
+    }
     ini.put("filters", "themes_only", "false")
     ini.put("filters", "wheels_only", "false")
     ini.put("filters", "roms_only", "false")
