@@ -10,8 +10,10 @@ import operation.Operations
  */
 
 
-List systems = ["Philips CD-i"]
+//List systems = ["Sony PlayStation", "Sony PlayStation 2", "Nintendo GameCube", "Nintendo Wii", "Sony PSP", "Sega DreamCast", "Sega Saturn Japan", "Nintendo DS", "Nintendo 3DS"]
+List systems = ["Big Fish Games"]
 
 def operations = new DatabaseOperations("D:/Games/RocketLauncher")
 operations.simulation = false
 operations.removeFromDatabase("-with-missing", [Operations.MISSING], systems)
+//operations.removeFromDatabase("-with-missing", [Operations.MISSING, Operations.NO_VIDEO, Operations.NO_WHEEL]) // , systems)
