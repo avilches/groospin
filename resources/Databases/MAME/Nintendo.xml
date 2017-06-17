@@ -1,0 +1,2683 @@
+<menu>
+  <game name="armwrest" index="" image="">
+    <description>Arm Wrestling</description>
+    <cloneof />
+    <crc>31b52896</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1985</year>
+    <genre>Sports</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>1</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>1</buttons>
+    <joyways>3 (half4)</joyways>
+    <score>2.5</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="balonfgt" index="" image="">
+    <description>Vs. Balloon Fight (set BF4 A-3)</description>
+    <cloneof />
+    <crc>fd6c578b</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1984</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>4</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.0</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="bandido" index="" image="">
+    <description>Bandido</description>
+    <cloneof>sheriff</cloneof>
+    <crc>820f8cdd</crc>
+    <manufacturer>Nintendo (Exidy license)</manufacturer>
+    <year>1980</year>
+    <genre>Shoot-'Em-Up</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>1</players>
+    <ctrltype>Doublejoy</ctrltype>
+    <buttons>1</buttons>
+    <joyways>8</joyways>
+    <score>3.2</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="bnglngby" index="" image="">
+    <description>Vs. Raid on Bungeling Bay (RD4-2 B)</description>
+    <cloneof />
+    <crc>fd19ae5e</crc>
+    <manufacturer>Nintendo / Broderbund Software Inc.</manufacturer>
+    <year>1985</year>
+    <genre>Shooter</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>1.6</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="btlecity" index="" image="">
+    <description>Vs. Battle City</description>
+    <cloneof />
+    <crc>a6293faa</crc>
+    <manufacturer>Namco</manufacturer>
+    <year>1985</year>
+    <genre>Maze</genre>
+    <rating>AAMA - Yellow (Animated Violence Mild)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.7</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="cluclu" index="" image="">
+    <description>Vs. Clu Clu Land</description>
+    <cloneof />
+    <crc>0c2e8e4d</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1984</year>
+    <genre>Puzzle</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>1.5</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="cstlevna" index="" image="">
+    <description>Vs. Castlevania</description>
+    <cloneof />
+    <crc>fd19ae5e</crc>
+    <manufacturer>Konami</manufacturer>
+    <year>1987</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Yellow (Animated Violence Mild)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>3.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="dkong" index="" image="">
+    <description>Donkey Kong (US set 1)</description>
+    <cloneof />
+    <crc>b869b8f5</crc>
+    <manufacturer>Nintendo of America</manufacturer>
+    <year>1981</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>1</buttons>
+    <joyways>4</joyways>
+    <score>4.0</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="dkong3" index="" image="">
+    <description>Donkey Kong 3 (US)</description>
+    <cloneof />
+    <crc>d3e2eaf8</crc>
+    <manufacturer>Nintendo of America</manufacturer>
+    <year>1983</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>1</buttons>
+    <joyways>4</joyways>
+    <score>3.8</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="dkong3j" index="" image="">
+    <description>Donkey Kong 3 (Japan)</description>
+    <cloneof>dkong3</cloneof>
+    <crc>d3e2eaf8</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1983</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>1</buttons>
+    <joyways>4</joyways>
+    <score>3.8</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="dkonghrd" index="" image="">
+    <description>Donkey Kong (hard kit)</description>
+    <cloneof>dkong</cloneof>
+    <crc>b869b8f5</crc>
+    <manufacturer>Nintendo of America</manufacturer>
+    <year>1981</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>1</buttons>
+    <joyways>4</joyways>
+    <score>3.8</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="dkongj" index="" image="">
+    <description>Donkey Kong (Japan set 1)</description>
+    <cloneof>dkong</cloneof>
+    <crc>b869b8f5</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1981</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>1</buttons>
+    <joyways>4</joyways>
+    <score>3.8</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="dkongjnrj" index="" image="">
+    <description>Donkey Kong Junior (Japan?)</description>
+    <cloneof>dkongjr</cloneof>
+    <crc>dbf185bf</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1982</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>1</buttons>
+    <joyways>4</joyways>
+    <score>3.8</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="dkongjo" index="" image="">
+    <description>Donkey Kong (Japan set 2)</description>
+    <cloneof>dkong</cloneof>
+    <crc>b869b8f5</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1981</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>1</buttons>
+    <joyways>4</joyways>
+    <score>3.8</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="dkongjo1" index="" image="">
+    <description>Donkey Kong (Japan set 3)</description>
+    <cloneof>dkong</cloneof>
+    <crc>b869b8f5</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1981</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>1</buttons>
+    <joyways>4</joyways>
+    <score>3.8</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="dkongjr" index="" image="">
+    <description>Donkey Kong Junior (US set F-2)</description>
+    <cloneof />
+    <crc>dbf185bf</crc>
+    <manufacturer>Nintendo of America</manufacturer>
+    <year>1982</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>1</buttons>
+    <joyways>4</joyways>
+    <score>3.8</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="dkongjre" index="" image="">
+    <description>Donkey Kong Junior (E kit)</description>
+    <cloneof>dkongjr</cloneof>
+    <crc>dbf185bf</crc>
+    <manufacturer>Nintendo of America</manufacturer>
+    <year>1982</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>1</buttons>
+    <joyways>4</joyways>
+    <score>3.8</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="dkongjrj" index="" image="">
+    <description>Donkey Kong Jr. (Japan)</description>
+    <cloneof>dkongjr</cloneof>
+    <crc>dbf185bf</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1982</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>1</buttons>
+    <joyways>4</joyways>
+    <score>3.8</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="dkongo" index="" image="">
+    <description>Donkey Kong (US set 2)</description>
+    <cloneof>dkong</cloneof>
+    <crc>b869b8f5</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1981</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>1</buttons>
+    <joyways>4</joyways>
+    <score>3.8</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="drmario" index="" image="">
+    <description>Vs. Dr. Mario</description>
+    <cloneof />
+    <crc>fd6c578b</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1990</year>
+    <genre>Puzzle</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.1</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="duckhunt" index="" image="">
+    <description>Vs. Duck Hunt (set DH3 E)</description>
+    <cloneof />
+    <crc>48de65dc</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1985</year>
+    <genre>Gun</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>1</players>
+    <ctrltype>Lightgun</ctrltype>
+    <buttons>1</buttons>
+    <score>2.0</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="excitebk" index="" image="">
+    <description>Vs. Excitebike (set EB4-3 E)</description>
+    <cloneof />
+    <crc>fd6c578b</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1984</year>
+    <genre>Motorcycle</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>3.9</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="excitebkj" index="" image="">
+    <description>Vs. Excitebike (set EB4-4 A)</description>
+    <cloneof>excitebk</cloneof>
+    <crc>0c2e8e4d</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1984</year>
+    <genre>Motorcycle</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>3.9</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="excitebko" index="" image="">
+    <description>Vs. Excitebike (set EB4-3 ?)</description>
+    <cloneof>excitebk</cloneof>
+    <crc>fd6c578b</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1984</year>
+    <genre>Motorcycle</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>3.9</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="famibox" index="" image="">
+    <description>FamicomBox</description>
+    <cloneof />
+    <crc>c27eef20</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1986</year>
+    <genre>Compilation</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>3</buttons>
+    <joyways>8</joyways>
+    <score>3.4</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="goonies" index="" image="">
+    <description>Vs. The Goonies (set E)</description>
+    <cloneof />
+    <crc>fd6c578b</crc>
+    <manufacturer>Konami</manufacturer>
+    <year>1986</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>3.5</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="helifire" index="" image="">
+    <description>HeliFire (set 1)</description>
+    <cloneof />
+    <crc>9d77a31f</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1980</year>
+    <genre>Shoot-'Em-Up</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>1</buttons>
+    <joyways>8</joyways>
+    <score>1.0</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="helifirea" index="" image="">
+    <description>HeliFire (set 2)</description>
+    <cloneof>helifire</cloneof>
+    <crc>9d77a31f</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1980</year>
+    <genre>Shoot-'Em-Up</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>1</buttons>
+    <joyways>8</joyways>
+    <score>1.0</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="highsplt" index="" image="">
+    <description>Space Fever High Splitter (set 1)</description>
+    <cloneof />
+    <crc>c5914ec1</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1979</year>
+    <genre>Shoot-'Em-Up</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>1</buttons>
+    <joyways>2</joyways>
+    <score>1.0</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="highsplta" index="" image="">
+    <description>Space Fever High Splitter (set 2)</description>
+    <cloneof>highsplt</cloneof>
+    <crc>c5914ec1</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1979</year>
+    <genre>Shoot-'Em-Up</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>1</buttons>
+    <joyways>2</joyways>
+    <score>1.0</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="highspltb" index="" image="">
+    <description>Space Fever High Splitter (alt Sound)</description>
+    <cloneof>highsplt</cloneof>
+    <crc>c5914ec1</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1979</year>
+    <genre>Shoot-'Em-Up</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>1</buttons>
+    <joyways>2</joyways>
+    <score>1.0</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="hogalley" index="" image="">
+    <description>Vs. Hogan's Alley (set HA4-1 E-1)</description>
+    <cloneof />
+    <crc>a6293faa</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1985</year>
+    <genre>Gun</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>1</players>
+    <ctrltype>Lightgun</ctrltype>
+    <buttons>1</buttons>
+    <score>1.6</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="iceclimb" index="" image="">
+    <description>Vs. Ice Climber (set IC4-4 B-1)</description>
+    <cloneof />
+    <crc>0c2e8e4d</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1984</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>3.6</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="iceclimba" index="" image="">
+    <description>Vs. Ice Climber (set IC4-4 ?)</description>
+    <cloneof>iceclimb</cloneof>
+    <crc>0c2e8e4d</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1984</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>3.6</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="iceclmrd" index="" image="">
+    <description>Vs. Ice Climber Dual (set IC4-4 A-1)</description>
+    <cloneof />
+    <crc>0c2e8e4d</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1984</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>4</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>3.6</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="jajamaru" index="" image="">
+    <description>Vs. Ninja Jajamaru Kun (Japan)</description>
+    <cloneof />
+    <crc>48de65dc</crc>
+    <manufacturer>Jaleco</manufacturer>
+    <year>1985</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>3.8</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="kinst" index="" image="">
+    <description>Killer Instinct (v1.5d)</description>
+    <cloneof />
+    <crc>0577bb60</crc>
+    <manufacturer>Rare</manufacturer>
+    <year>1994</year>
+    <genre>Fighter</genre>
+    <rating>AAMA - Red (Animated Violence Strong)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>6</buttons>
+    <joyways>8</joyways>
+    <score>3.8</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="kinst13" index="" image="">
+    <description>Killer Instinct (v1.3)</description>
+    <cloneof>kinst</cloneof>
+    <crc>0577bb60</crc>
+    <manufacturer>Rare</manufacturer>
+    <year>1994</year>
+    <genre>Fighter</genre>
+    <rating>AAMA - Red (Animated Violence Strong)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>6</buttons>
+    <joyways>8</joyways>
+    <score>3.8</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="kinst14" index="" image="">
+    <description>Killer Instinct (v1.4)</description>
+    <cloneof>kinst</cloneof>
+    <crc>0577bb60</crc>
+    <manufacturer>Rare</manufacturer>
+    <year>1994</year>
+    <genre>Fighter</genre>
+    <rating>AAMA - Red (Animated Violence Strong)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>6</buttons>
+    <joyways>8</joyways>
+    <score>3.8</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="kinst2" index="" image="">
+    <description>Killer Instinct 2 (v1.4)</description>
+    <cloneof />
+    <crc>8920acbb</crc>
+    <manufacturer>Rare</manufacturer>
+    <year>1995</year>
+    <genre>Fighter</genre>
+    <rating>AAMA - Red (Animated Violence Strong)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>6</buttons>
+    <joyways>8</joyways>
+    <score>4.0</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="kinst210" index="" image="">
+    <description>Killer Instinct 2 (v1.0)</description>
+    <cloneof>kinst2</cloneof>
+    <crc>8920acbb</crc>
+    <manufacturer>Rare</manufacturer>
+    <year>1995</year>
+    <genre>Fighter</genre>
+    <rating>AAMA - Red (Animated Violence Strong)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>6</buttons>
+    <joyways>8</joyways>
+    <score>4.0</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="kinst211" index="" image="">
+    <description>Killer Instinct 2 (v1.1)</description>
+    <cloneof>kinst2</cloneof>
+    <crc>8920acbb</crc>
+    <manufacturer>Rare</manufacturer>
+    <year>1995</year>
+    <genre>Fighter</genre>
+    <rating>AAMA - Red (Animated Violence Strong)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>6</buttons>
+    <joyways>8</joyways>
+    <score>4.0</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="kinst213" index="" image="">
+    <description>Killer Instinct 2 (v1.3)</description>
+    <cloneof>kinst2</cloneof>
+    <crc>8920acbb</crc>
+    <manufacturer>Rare</manufacturer>
+    <year>1995</year>
+    <genre>Fighter</genre>
+    <rating>AAMA - Red (Animated Violence Strong)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>6</buttons>
+    <joyways>8</joyways>
+    <score>4.0</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="kinstb" index="" image="">
+    <description>Killer Instinct (SNES bootleg)</description>
+    <cloneof />
+    <crc>44bb3a40</crc>
+    <manufacturer>bootleg</manufacturer>
+    <year>199?</year>
+    <genre>Fighter</genre>
+    <rating>AAMA - Red (Animated Violence Strong)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>6</buttons>
+    <joyways>8</joyways>
+    <score>4.0</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="kinstp" index="" image="">
+    <description>Killer Instinct (proto v4.7)</description>
+    <cloneof>kinst</cloneof>
+    <crc>0577bb60</crc>
+    <manufacturer>Rare</manufacturer>
+    <year>1994</year>
+    <genre>Fighter</genre>
+    <rating>AAMA - Red (Animated Violence Strong)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>6</buttons>
+    <joyways>8</joyways>
+    <score>4.0</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="ladygolf" index="" image="">
+    <description>Vs. Stroke &amp; Match Golf (Ladies Version, set LG4 ?)</description>
+    <cloneof>smgolf</cloneof>
+    <crc>fd19ae5e</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1984</year>
+    <genre>Sports/Golf</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.5</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="ladygolfe" index="" image="">
+    <description>Vs. Stroke &amp; Match Golf (Ladies Version, set LG4 E)</description>
+    <cloneof>smgolf</cloneof>
+    <crc>fd19ae5e</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1984</year>
+    <genre>Sports/Golf</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.5</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="mario" index="" image="">
+    <description>Mario Bros. (US, Revision F)</description>
+    <cloneof />
+    <crc>58d86098</crc>
+    <manufacturer>Nintendo of America</manufacturer>
+    <year>1983</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>1</buttons>
+    <joyways>2</joyways>
+    <score>3.7</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="marioe" index="" image="">
+    <description>Mario Bros. (US, Revision E)</description>
+    <cloneof>mario</cloneof>
+    <crc>58d86098</crc>
+    <manufacturer>Nintendo of America</manufacturer>
+    <year>1983</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>1</buttons>
+    <joyways>2</joyways>
+    <score>3.7</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="marioj" index="" image="">
+    <description>Mario Bros. (Japan)</description>
+    <cloneof>mario</cloneof>
+    <crc>58d86098</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1983</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>1</buttons>
+    <joyways>2</joyways>
+    <score>3.7</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="marioo" index="" image="">
+    <description>Mario Bros. (US, Unknown Rev)</description>
+    <cloneof>mario</cloneof>
+    <crc>58d86098</crc>
+    <manufacturer>Nintendo of America</manufacturer>
+    <year>1983</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>1</buttons>
+    <joyways>2</joyways>
+    <score>3.7</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="nss_actr" index="" image="">
+    <description>Act Raiser (Nintendo Super System)</description>
+    <cloneof />
+    <crc>4b74ac55</crc>
+    <manufacturer>Enix</manufacturer>
+    <year>1992</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Yellow (Animated Violence Mild)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>6</buttons>
+    <joyways>8</joyways>
+    <score>3.4</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="nss_adam" index="" image="">
+    <description>The Addams Family (Nintendo Super System)</description>
+    <cloneof />
+    <crc>154d10c2</crc>
+    <manufacturer>Ocean</manufacturer>
+    <year>1992</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>6</buttons>
+    <joyways>8</joyways>
+    <score>3.4</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="nss_aten" index="" image="">
+    <description>David Crane's Amazing Tennis (Nintendo Super System)</description>
+    <cloneof />
+    <crc>3e640fa2</crc>
+    <manufacturer>Absolute Entertainment Inc.</manufacturer>
+    <year>1992</year>
+    <genre>Sports/Tennis</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>6</buttons>
+    <joyways>8</joyways>
+    <score>3.4</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="nss_con3" index="" image="">
+    <description>Contra 3: The Alien Wars (Nintendo Super System)</description>
+    <cloneof />
+    <crc>e97e4b00</crc>
+    <manufacturer>Konami</manufacturer>
+    <year>1992</year>
+    <genre>Shooter</genre>
+    <rating>AAMA - Yellow (Life Like Violence Mild)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>6</buttons>
+    <joyways>8</joyways>
+    <score>3.4</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="nss_fzer" index="" image="">
+    <description>F-Zero (Nintendo Super System)</description>
+    <cloneof />
+    <crc>9650a7d0</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1991</year>
+    <genre>Driving</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>6</buttons>
+    <joyways>8</joyways>
+    <score>3.4</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="nss_lwep" index="" image="">
+    <description>Lethal Weapon (Nintendo Super System)</description>
+    <cloneof />
+    <crc>e9755c14</crc>
+    <manufacturer>Ocean</manufacturer>
+    <year>1992</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Yellow (Animated Violence Mild)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>6</buttons>
+    <joyways>8</joyways>
+    <score>3.4</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="nss_ncaa" index="" image="">
+    <description>NCAA Basketball (Nintendo Super System)</description>
+    <cloneof />
+    <crc>a2e9ad5b</crc>
+    <manufacturer>Sculptured Software Inc.</manufacturer>
+    <year>1992</year>
+    <genre>Sports/Basketball</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>6</buttons>
+    <joyways>8</joyways>
+    <score>3.4</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="nss_rob3" index="" image="">
+    <description>Robocop 3 (Nintendo Super System)</description>
+    <cloneof />
+    <crc>eb9a75de</crc>
+    <manufacturer>Ocean</manufacturer>
+    <year>1992</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Yellow (Animated Violence Mild)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>6</buttons>
+    <joyways>8</joyways>
+    <score>3.4</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="nss_skin" index="" image="">
+    <description>Skins Game (Nintendo Super System)</description>
+    <cloneof />
+    <crc>86f8cd1d</crc>
+    <manufacturer>Irem</manufacturer>
+    <year>1992</year>
+    <genre>Sports/Golf</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>6</buttons>
+    <joyways>8</joyways>
+    <score>3.4</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="nss_smw" index="" image="">
+    <description>Super Mario World (Nintendo Super System)</description>
+    <cloneof />
+    <crc>fd700dca</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1991</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>6</buttons>
+    <joyways>8</joyways>
+    <score>3.4</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="nss_ssoc" index="" image="">
+    <description>Super Soccer (Nintendo Super System)</description>
+    <cloneof />
+    <crc>e41c4204</crc>
+    <manufacturer>Human Inc.</manufacturer>
+    <year>1992</year>
+    <genre>Sports/Soccer</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>6</buttons>
+    <joyways>8</joyways>
+    <score>3.4</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="nss_sten" index="" image="">
+    <description>Super Tennis (Nintendo Super System)</description>
+    <cloneof />
+    <crc>2fd8475b</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1991</year>
+    <genre>Sports/Soccer</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>6</buttons>
+    <joyways>8</joyways>
+    <score>3.4</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="nvs_machrider" index="" image="">
+    <description>Vs. Mach Rider (Endurance Course Version)</description>
+    <cloneof />
+    <crc>fd19ae5e</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1985</year>
+    <genre>Driving</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score />
+    <enabled>Yes</enabled>
+  </game>
+  <game name="nvs_machridera" index="" image="">
+    <description>Vs. Mach Rider (Fighting Course Version, set MR4-1 A)</description>
+    <cloneof>nvs_machrider</cloneof>
+    <crc>a6293faa</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1985</year>
+    <genre>Driving</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score />
+    <enabled>Yes</enabled>
+  </game>
+  <game name="nvs_mightybj" index="" image="">
+    <description>Vs. Mighty Bomb Jack (Japan)</description>
+    <cloneof />
+    <crc>48de65dc</crc>
+    <manufacturer>Tecmo</manufacturer>
+    <year>1986</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score />
+    <enabled>Yes</enabled>
+  </game>
+  <game name="nvs_platoon" index="" image="">
+    <description>Vs. Platoon</description>
+    <cloneof />
+    <crc>a6293faa</crc>
+    <manufacturer>Ocean Software Limited</manufacturer>
+    <year>1987</year>
+    <genre>Shooter</genre>
+    <rating>AAMA - Yellow (Animated Violence Mild)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score />
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_1942" index="" image="">
+    <description>1942 (PlayChoice-10)</description>
+    <cloneof />
+    <crc>29893c7f</crc>
+    <manufacturer>Capcom</manufacturer>
+    <year>1987</year>
+    <genre>Shoot-'Em-Up</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_bball" index="" image="">
+    <description>Baseball (PlayChoice-10)</description>
+    <cloneof />
+    <crc>7940cfc4</crc>
+    <manufacturer>Nintendo of America</manufacturer>
+    <year>1984</year>
+    <genre>Sports/Baseball</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_bfght" index="" image="">
+    <description>Balloon Fight (PlayChoice-10)</description>
+    <cloneof />
+    <crc>be3c42fb</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1984</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_bload" index="" image="">
+    <description>Bases Loaded (Prototype, PlayChoice-10)</description>
+    <cloneof />
+    <crc>5b4f6930</crc>
+    <manufacturer>Jaleco (Nintendo of America license)</manufacturer>
+    <year>1990</year>
+    <genre>Sports/Baseball</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_bstar" index="" image="">
+    <description>Baseball Stars: Be a Champ! (PlayChoice-10)</description>
+    <cloneof />
+    <crc>3e871350</crc>
+    <manufacturer>SNK (Nintendo of America license)</manufacturer>
+    <year>1989</year>
+    <genre>Sports/Baseball</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_cntra" index="" image="">
+    <description>Contra (PlayChoice-10)</description>
+    <cloneof />
+    <crc>8ab3977a</crc>
+    <manufacturer>Konami (Nintendo of America license)</manufacturer>
+    <year>1988</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Yellow (Animated Violence Mild)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_cshwk" index="" image="">
+    <description>Captain Sky Hawk (PlayChoice-10)</description>
+    <cloneof />
+    <crc>eb1c794f</crc>
+    <manufacturer>Rare (Nintendo of America license)</manufacturer>
+    <year>1989</year>
+    <genre>Shoot-'Em-Up</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_cvnia" index="" image="">
+    <description>Castlevania (PlayChoice-10)</description>
+    <cloneof />
+    <crc>7da2f045</crc>
+    <manufacturer>Konami (Nintendo of America license)</manufacturer>
+    <year>1987</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Yellow (Animated Violence Mild)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_dbldr" index="" image="">
+    <description>Double Dribble (PlayChoice-10)</description>
+    <cloneof />
+    <crc>9b5f4bd2</crc>
+    <manufacturer>Konami (Nintendo of America license)</manufacturer>
+    <year>1987</year>
+    <genre>Sports/Basketball</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_ddrgn" index="" image="">
+    <description>Double Dragon (PlayChoice-10)</description>
+    <cloneof />
+    <crc>f9739d62</crc>
+    <manufacturer>Technos Japan</manufacturer>
+    <year>1988</year>
+    <genre>Beat-'Em-Up</genre>
+    <rating>AAMA - Yellow (Animated Violence Mild)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_drmro" index="" image="">
+    <description>Dr. Mario (PlayChoice-10)</description>
+    <cloneof />
+    <crc>1b26e58c</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1990</year>
+    <genre>Puzzle</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_duckh" index="" image="">
+    <description>Duck Hunt (PlayChoice-10)</description>
+    <cloneof />
+    <crc>8cd6aad6</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1984</year>
+    <genre>Gun</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_ebike" index="" image="">
+    <description>Excite Bike (PlayChoice-10)</description>
+    <cloneof />
+    <crc>a0263750</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1984</year>
+    <genre>Motorcycle</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_ftqst" index="" image="">
+    <description>Uncle Fester's Quest: The Addams Family (PlayChoice-10)</description>
+    <cloneof />
+    <crc>1c601cd7</crc>
+    <manufacturer>Sunsoft (Nintendo of America license)</manufacturer>
+    <year>1989</year>
+    <genre>Maze</genre>
+    <rating>AAMA - Yellow (Animated Violence Mild)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_gntlt" index="" image="">
+    <description>Gauntlet (PlayChoice-10)</description>
+    <cloneof />
+    <crc>ba7f2e13</crc>
+    <manufacturer>Atari / Tengen (Nintendo of America license)</manufacturer>
+    <year>1985</year>
+    <genre>Maze</genre>
+    <rating>AAMA - Yellow (Animated Violence Mild)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_golf" index="" image="">
+    <description>Golf (PlayChoice-10)</description>
+    <cloneof />
+    <crc>2cd98ef6</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1984</year>
+    <genre>Sports/Golf</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_goons" index="" image="">
+    <description>The Goonies (PlayChoice-10)</description>
+    <cloneof />
+    <crc>cdd62d08</crc>
+    <manufacturer>Konami</manufacturer>
+    <year>1986</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_grdue" index="" image="">
+    <description>Gradius (PlayChoice-10, older)</description>
+    <cloneof>pc_grdus</cloneof>
+    <crc>b8d5bf8a</crc>
+    <manufacturer>Konami</manufacturer>
+    <year>1986</year>
+    <genre>Shoot-'Em-Up</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_grdus" index="" image="">
+    <description>Gradius (PlayChoice-10)</description>
+    <cloneof />
+    <crc>b8d5bf8a</crc>
+    <manufacturer>Konami</manufacturer>
+    <year>1986</year>
+    <genre>Shoot-'Em-Up</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_hgaly" index="" image="">
+    <description>Hogan's Alley (PlayChoice-10)</description>
+    <cloneof />
+    <crc>5ac61521</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1984</year>
+    <genre>Gun</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_kngfu" index="" image="">
+    <description>Kung Fu (PlayChoice-10)</description>
+    <cloneof />
+    <crc>a1687f01</crc>
+    <manufacturer>Irem (Nintendo license)</manufacturer>
+    <year>1985</year>
+    <genre>Beat-'Em-Up</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_mario" index="" image="">
+    <description>Mario Bros. (PlayChoice-10)</description>
+    <cloneof />
+    <crc>79006635</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1983</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_miket" index="" image="">
+    <description>Mike Tyson's Punch-Out!! (PlayChoice-10)</description>
+    <cloneof />
+    <crc>60f7ea1d</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1987</year>
+    <genre>Sports/Boxing</genre>
+    <rating>AAMA - Yellow (Animated Violence Mild)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_mman3" index="" image="">
+    <description>Mega Man III (PlayChoice-10)</description>
+    <cloneof />
+    <crc>0fe6e900</crc>
+    <manufacturer>Capcom USA (Nintendo of America license)</manufacturer>
+    <year>1990</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Yellow (Animated Violence Mild)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_moglf" index="" image="">
+    <description>Mario's Open Golf (PlayChoice-10)</description>
+    <cloneof />
+    <crc>633766d5</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1991</year>
+    <genre>Sports/Golf</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_mtoid" index="" image="">
+    <description>Metroid (PlayChoice-10)</description>
+    <cloneof />
+    <crc>efab54c9</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1986</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_ngai2" index="" image="">
+    <description>Ninja Gaiden Episode II: The Dark Sword of Chaos (PlayChoice-10)</description>
+    <cloneof />
+    <crc>682dffd1</crc>
+    <manufacturer>Tecmo (Nintendo of America license)</manufacturer>
+    <year>1990</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Yellow (Animated Violence Mild)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_ngai3" index="" image="">
+    <description>Ninja Gaiden Episode III: The Ancient Ship of Doom (PlayChoice-10)</description>
+    <cloneof />
+    <crc>13755943</crc>
+    <manufacturer>Tecmo (Nintendo of America license)</manufacturer>
+    <year>1991</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Yellow (Animated Violence Mild)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_ngaid" index="" image="">
+    <description>Ninja Gaiden (PlayChoice-10)</description>
+    <cloneof />
+    <crc>ec5641d6</crc>
+    <manufacturer>Tecmo (Nintendo of America license)</manufacturer>
+    <year>1989</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Yellow (Animated Violence Mild)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_pinbt" index="" image="">
+    <description>PinBot (PlayChoice-10)</description>
+    <cloneof />
+    <crc>ac75f323</crc>
+    <manufacturer>Rare (Nintendo of America license)</manufacturer>
+    <year>1988</year>
+    <genre>Pinball</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_pwbld" index="" image="">
+    <description>Power Blade (PlayChoice-10)</description>
+    <cloneof />
+    <crc>31a05a48</crc>
+    <manufacturer>Taito (Nintendo of America license)</manufacturer>
+    <year>1991</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Yellow (Animated Violence Mild)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_pwrst" index="" image="">
+    <description>Pro Wrestling (PlayChoice-10)</description>
+    <cloneof />
+    <crc>4c6b7983</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1986</year>
+    <genre>Sports/Wrestling</genre>
+    <rating>AAMA - Yellow (Animated Violence Mild)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_radr2" index="" image="">
+    <description>Rad Racer II (PlayChoice-10)</description>
+    <cloneof />
+    <crc>40c4f294</crc>
+    <manufacturer>Square (Nintendo of America license)</manufacturer>
+    <year>1990</year>
+    <genre>Driving</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_radrc" index="" image="">
+    <description>Rad Racer (PlayChoice-10)</description>
+    <cloneof />
+    <crc>17c880f9</crc>
+    <manufacturer>Square</manufacturer>
+    <year>1987</year>
+    <genre>Driving</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_rcpam" index="" image="">
+    <description>R.C. Pro-Am (PlayChoice-10)</description>
+    <cloneof />
+    <crc>d71d8085</crc>
+    <manufacturer>Rare</manufacturer>
+    <year>1987</year>
+    <genre>Driving</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_rkats" index="" image="">
+    <description>Rockin' Kats (PlayChoice-10)</description>
+    <cloneof />
+    <crc>56ab5bf9</crc>
+    <manufacturer>Atlus (Nintendo of America license)</manufacturer>
+    <year>1991</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Yellow (Animated Violence Mild)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_rnatk" index="" image="">
+    <description>Rush'n Attack (PlayChoice-10)</description>
+    <cloneof />
+    <crc>1f6596b2</crc>
+    <manufacturer>Konami (Nintendo of America license)</manufacturer>
+    <year>1987</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Yellow (Animated Violence Mild)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_rrngr" index="" image="">
+    <description>Chip'n Dale: Rescue Rangers (PlayChoice-10)</description>
+    <cloneof />
+    <crc>1c2e1865</crc>
+    <manufacturer>Capcom USA (Nintendo of America license)</manufacturer>
+    <year>1987</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_rygar" index="" image="">
+    <description>Rygar (PlayChoice-10)</description>
+    <cloneof />
+    <crc>b69309ab</crc>
+    <manufacturer>Tecmo (Nintendo of America license)</manufacturer>
+    <year>1987</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_sjetm" index="" image="">
+    <description>Solar Jetman (PlayChoice-10)</description>
+    <cloneof />
+    <crc>f3ae712a</crc>
+    <manufacturer>Rare</manufacturer>
+    <year>1990</year>
+    <genre>Maze</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_smb" index="" image="">
+    <description>Super Mario Bros. (PlayChoice-10)</description>
+    <cloneof />
+    <crc>bd82d775</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1985</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_smb2" index="" image="">
+    <description>Super Mario Bros. 2 (PlayChoice-10)</description>
+    <cloneof />
+    <crc>372f4e84</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1988</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_smb3" index="" image="">
+    <description>Super Mario Bros. 3 (PlayChoice-10)</description>
+    <cloneof />
+    <crc>e48f4945</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1988</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_suprc" index="" image="">
+    <description>Super C (PlayChoice-10)</description>
+    <cloneof />
+    <crc>d477095e</crc>
+    <manufacturer>Konami (Nintendo of America license)</manufacturer>
+    <year>1990</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Yellow (Animated Violence Mild)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_tbowl" index="" image="">
+    <description>Tecmo Bowl (PlayChoice-10)</description>
+    <cloneof />
+    <crc>18b2d1d3</crc>
+    <manufacturer>Tecmo (Nintendo of America license)</manufacturer>
+    <year>1989</year>
+    <genre>Sports/Football</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_tenis" index="" image="">
+    <description>Tennis (PlayChoice-10)</description>
+    <cloneof />
+    <crc>bcc9a48e</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1983</year>
+    <genre>Sports/Tennis</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_tkfld" index="" image="">
+    <description>Track &amp; Field (PlayChoice-10)</description>
+    <cloneof />
+    <crc>1e2e7f1e</crc>
+    <manufacturer>Konami (Nintendo of America license)</manufacturer>
+    <year>1987</year>
+    <genre>Sports/Track &amp; Field</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_tmnt" index="" image="">
+    <description>Teenage Mutant Ninja Turtles (PlayChoice-10)</description>
+    <cloneof />
+    <crc>f5a38e98</crc>
+    <manufacturer>Konami (Nintendo of America license)</manufacturer>
+    <year>1989</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_tmnt2" index="" image="">
+    <description>Teenage Mutant Ninja Turtles II: The Arcade Game (PlayChoice-10)</description>
+    <cloneof />
+    <crc>237e8519</crc>
+    <manufacturer>Konami (Nintendo of America license)</manufacturer>
+    <year>1990</year>
+    <genre>Beat-'Em-Up</genre>
+    <rating>AAMA - Yellow (Animated Violence Mild)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_trjan" index="" image="">
+    <description>Trojan (PlayChoice-10)</description>
+    <cloneof />
+    <crc>14df772f</crc>
+    <manufacturer>Capcom USA (Nintendo of America license)</manufacturer>
+    <year>1986</year>
+    <genre>Beat-'Em-Up</genre>
+    <rating>AAMA - Yellow (Animated Violence Mild)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_ttoon" index="" image="">
+    <description>Tiny Toon Adventures (prototype) (PlayChoice-10)</description>
+    <cloneof />
+    <crc>5b4f6930</crc>
+    <manufacturer>Konami (Nintendo of America license)</manufacturer>
+    <year>1991</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_vball" index="" image="">
+    <description>Volley Ball (PlayChoice-10)</description>
+    <cloneof />
+    <crc>f701863f</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1986</year>
+    <genre>Sports/Volleyball</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_virus" index="" image="">
+    <description>Virus (Dr. Mario prototype, PlayChoice-10)</description>
+    <cloneof>pc_drmro</cloneof>
+    <crc>5b4f6930</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1990</year>
+    <genre>Puzzle</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_wcup" index="" image="">
+    <description>Nintendo World Cup (PlayChoice-10)</description>
+    <cloneof />
+    <crc>e17e1d76</crc>
+    <manufacturer>Technos Japan (Nintendo license)</manufacturer>
+    <year>1990</year>
+    <genre>Sports/Soccer</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_wgnmn" index="" image="">
+    <description>Wild Gunman (PlayChoice-10)</description>
+    <cloneof />
+    <crc>def015a3</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1984</year>
+    <genre>Gun</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="pc_ynoid" index="" image="">
+    <description>Yo! Noid (PlayChoice-10)</description>
+    <cloneof />
+    <crc>8c376465</crc>
+    <manufacturer>Capcom USA (Nintendo of America license)</manufacturer>
+    <year>1990</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.3</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="popeye" index="" image="">
+    <description>Popeye (revision D)</description>
+    <cloneof />
+    <crc>a4655e2e</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1982</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>1</buttons>
+    <joyways>4</joyways>
+    <score>4.1</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="popeyef" index="" image="">
+    <description>Popeye (revision F)</description>
+    <cloneof>popeye</cloneof>
+    <crc>a4655e2e</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1982</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>1</buttons>
+    <joyways>4</joyways>
+    <score>4.1</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="popeyej" index="" image="">
+    <description>Popeye (Japan, Sky Skipper hardware)</description>
+    <cloneof>popeye</cloneof>
+    <crc>a4655e2e</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1981</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>1</buttons>
+    <joyways>4</joyways>
+    <score>4.1</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="popeyeu" index="" image="">
+    <description>Popeye (revision D not protected)</description>
+    <cloneof>popeye</cloneof>
+    <crc>a4655e2e</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1982</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>1</buttons>
+    <joyways>4</joyways>
+    <score>4.1</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="punchout" index="" image="">
+    <description>Punch-Out!! (Rev B)</description>
+    <cloneof />
+    <crc>ea0bbb31</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1984</year>
+    <genre>Sports/Boxing</genre>
+    <rating>AAMA - Yellow (Animated Violence Mild)</rating>
+    <players>1</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>3</buttons>
+    <joyways>4</joyways>
+    <score>3.5</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="punchouta" index="" image="">
+    <description>Punch-Out!! (Rev A)</description>
+    <cloneof>punchout</cloneof>
+    <crc>ea0bbb31</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1984</year>
+    <genre>Sports/Boxing</genre>
+    <rating>AAMA - Yellow (Animated Violence Mild)</rating>
+    <players>1</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>3</buttons>
+    <joyways>4</joyways>
+    <score>3.5</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="punchoutj" index="" image="">
+    <description>Punch-Out!! (Japan)</description>
+    <cloneof>punchout</cloneof>
+    <crc>597955ca</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1984</year>
+    <genre>Sports/Boxing</genre>
+    <rating>AAMA - Yellow (Animated Violence Mild)</rating>
+    <players>1</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>3</buttons>
+    <joyways>4</joyways>
+    <score>3.5</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="radarscp" index="" image="">
+    <description>Radar Scope</description>
+    <cloneof />
+    <crc>1b828315</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1980</year>
+    <genre>Shoot-'Em-Up</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>1</buttons>
+    <joyways>2</joyways>
+    <score>2.5</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="radarscp1" index="" image="">
+    <description>Radar Scope (TRS01)</description>
+    <cloneof>radarscp</cloneof>
+    <crc>1b828315</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1980</year>
+    <genre>Shoot-'Em-Up</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>1</buttons>
+    <joyways>2</joyways>
+    <score>2.5</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="rbibba" index="" image="">
+    <description>Vs. Atari R.B.I. Baseball (set 2)</description>
+    <cloneof>rbibb</cloneof>
+    <crc>a6293faa</crc>
+    <manufacturer>Namco</manufacturer>
+    <year>1986</year>
+    <genre>Sports/Baseball</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>3.7</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="rtypeu" index="" image="">
+    <description>R-Type (US)</description>
+    <cloneof>rtype</cloneof>
+    <crc>a4f2c4bc</crc>
+    <manufacturer>Irem (Nintendo of America license)</manufacturer>
+    <year>1987</year>
+    <genre>Shoot-'Em-Up</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>4</buttons>
+    <joyways>8</joyways>
+    <score>4.8</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="sheriff" index="" image="">
+    <description>Sheriff</description>
+    <cloneof />
+    <crc>820f8cdd</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1979</year>
+    <genre>Shoot-'Em-Up</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Doublejoy</ctrltype>
+    <buttons>1</buttons>
+    <joyways>8</joyways>
+    <score>2.8</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="skyskipr" index="" image="">
+    <description>Sky Skipper</description>
+    <cloneof />
+    <crc>1c5c8dea</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1981</year>
+    <genre>Shooter</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>3.1</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="smgolf" index="" image="">
+    <description>Vs. Stroke &amp; Match Golf (Men Version, set GF4-2 F)</description>
+    <cloneof />
+    <crc>fd19ae5e</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1984</year>
+    <genre>Sports/Golf</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.5</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="smgolfb" index="" image="">
+    <description>Vs. Stroke &amp; Match Golf (Men Version, set GF4-2 ?)</description>
+    <cloneof>smgolf</cloneof>
+    <crc>fd19ae5e</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1984</year>
+    <genre>Sports/Golf</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.5</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="smgolfj" index="" image="">
+    <description>Vs. Stroke &amp; Match Golf (Men Version) (Japan, set GF3 B)</description>
+    <cloneof>smgolf</cloneof>
+    <crc>48de65dc</crc>
+    <manufacturer>Nintendo Co., Ltd.</manufacturer>
+    <year>1984</year>
+    <genre>Sports/Golf</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.5</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="spacedem" index="" image="">
+    <description>Space Demon</description>
+    <cloneof>spacefb</cloneof>
+    <crc>6d8ad169</crc>
+    <manufacturer>Nintendo (Fortrek license)</manufacturer>
+    <year>1980</year>
+    <genre>Shoot-'Em-Up</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>2</joyways>
+    <score>2.8</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="spacefb" index="" image="">
+    <description>Space Firebird (rev. 04-u)</description>
+    <cloneof />
+    <crc>465d07af</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1980</year>
+    <genre>Shoot-'Em-Up</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>2</joyways>
+    <score>2.9</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="spacefba" index="" image="">
+    <description>Space Firebird (rev. 02-a)</description>
+    <cloneof>spacefb</cloneof>
+    <crc>465d07af</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1980</year>
+    <genre>Shoot-'Em-Up</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>2</joyways>
+    <score>2.9</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="spacefbe" index="" image="">
+    <description>Space Firebird (rev. 03-e set 1)</description>
+    <cloneof>spacefb</cloneof>
+    <crc>465d07af</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1980</year>
+    <genre>Shoot-'Em-Up</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>2</joyways>
+    <score>2.9</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="spacefbe2" index="" image="">
+    <description>Space Firebird (rev. 03-e set 2)</description>
+    <cloneof>spacefb</cloneof>
+    <crc>465d07af</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1980</year>
+    <genre>Shoot-'Em-Up</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>2</joyways>
+    <score>2.9</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="spacefbg" index="" image="">
+    <description>Space Firebird (Gremlin)</description>
+    <cloneof>spacefb</cloneof>
+    <crc>465d07af</crc>
+    <manufacturer>Nintendo (Gremlin license)</manufacturer>
+    <year>1980</year>
+    <genre>Shoot-'Em-Up</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>2</joyways>
+    <score>2.9</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="spacefev" index="" image="">
+    <description>Space Fever (New Ver.)</description>
+    <cloneof />
+    <crc>c5914ec1</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1979</year>
+    <genre>Shoot-'Em-Up</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>1</buttons>
+    <joyways>2</joyways>
+    <score>3.4</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="spacefevo" index="" image="">
+    <description>Space Fever (Old Ver.)</description>
+    <cloneof>spacefev</cloneof>
+    <crc>c5914ec1</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1979</year>
+    <genre>Shoot-'Em-Up</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>1</buttons>
+    <joyways>2</joyways>
+    <score>3.4</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="spacefevo2" index="" image="">
+    <description>Space Fever (Older Ver.)</description>
+    <cloneof>spacefev</cloneof>
+    <crc>c5914ec1</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1979</year>
+    <genre>Shoot-'Em-Up</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>1</buttons>
+    <joyways>2</joyways>
+    <score>3.4</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="spacelnc" index="" image="">
+    <description>Space Launcher</description>
+    <cloneof />
+    <crc>c5914ec1</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1979</year>
+    <genre>Maze</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>1</buttons>
+    <joyways>2</joyways>
+    <score>1.6</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="spnchout" index="" image="">
+    <description>Super Punch-Out!! (Rev B)</description>
+    <cloneof />
+    <crc>ad8b64b8</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1984</year>
+    <genre>Sports/Boxing</genre>
+    <rating>AAMA - Yellow (Animated Violence Mild)</rating>
+    <players>1</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>4</buttons>
+    <joyways>4</joyways>
+    <score>2.2</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="spnchouta" index="" image="">
+    <description>Super Punch-Out!! (Rev A)</description>
+    <cloneof>spnchout</cloneof>
+    <crc>ad8b64b8</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1984</year>
+    <genre>Sports/Boxing</genre>
+    <rating>AAMA - Yellow (Animated Violence Mild)</rating>
+    <players>1</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>4</buttons>
+    <joyways>4</joyways>
+    <score>2.2</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="spnchoutj" index="" image="">
+    <description>Super Punch-Out!! (Japan)</description>
+    <cloneof>spnchout</cloneof>
+    <crc>d05fb730</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1984</year>
+    <genre>Sports/Boxing</genre>
+    <rating>AAMA - Yellow (Animated Violence Mild)</rating>
+    <players>1</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>4</buttons>
+    <joyways>4</joyways>
+    <score>2.2</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="starlstr" index="" image="">
+    <description>Vs. Star Luster</description>
+    <cloneof />
+    <crc>48de65dc</crc>
+    <manufacturer>Namco</manufacturer>
+    <year>1985</year>
+    <genre>Shooter</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>4</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>3.5</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="suprmrio" index="" image="">
+    <description>Vs. Super Mario Bros. (set SM4-4 E)</description>
+    <cloneof />
+    <crc>0c2e8e4d</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1986</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.0</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="suprmrioa" index="" image="">
+    <description>Vs. Super Mario Bros. (set ?, harder)</description>
+    <cloneof>suprmrio</cloneof>
+    <crc>0c2e8e4d</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1986</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.0</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="supxevs" index="" image="">
+    <description>Vs. Super Xevious</description>
+    <cloneof />
+    <crc>a6293faa</crc>
+    <manufacturer>Namco</manufacturer>
+    <year>1986</year>
+    <genre>Shoot-'Em-Up</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>1.6</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="tkoboxng" index="" image="">
+    <description>Vs. T.K.O. Boxing</description>
+    <cloneof />
+    <crc>fd6c578b</crc>
+    <manufacturer>Namco / Data East USA</manufacturer>
+    <year>1987</year>
+    <genre>Sports/Boxing</genre>
+    <rating>AAMA - Yellow (Animated Violence Mild)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>1.9</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="topgun" index="" image="">
+    <description>Vs. Top Gun</description>
+    <cloneof />
+    <crc>48de65dc</crc>
+    <manufacturer>Konami</manufacturer>
+    <year>1987</year>
+    <genre>Shooter</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.9</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="vs10yardu" index="" image="">
+    <description>Vs 10-Yard Fight (US, Taito license)</description>
+    <cloneof>10yard</cloneof>
+    <crc>45384397</crc>
+    <manufacturer>Irem (Taito license)</manufacturer>
+    <year>1984</year>
+    <genre>Sports/Football</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>3.9</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="vsbball" index="" image="">
+    <description>Vs. BaseBall (US, set BA E-1)</description>
+    <cloneof />
+    <crc>a6293faa</crc>
+    <manufacturer>Nintendo of America</manufacturer>
+    <year>1984</year>
+    <genre>Sports/Baseball</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>4</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.5</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="vsbballj" index="" image="">
+    <description>Vs. BaseBall (Japan, set BA A-3)</description>
+    <cloneof>vsbball</cloneof>
+    <crc>a6293faa</crc>
+    <manufacturer>Nintendo Co., Ltd.</manufacturer>
+    <year>1984</year>
+    <genre>Sports/Baseball</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>4</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.5</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="vsbballja" index="" image="">
+    <description>Vs. BaseBall (Japan, set BA A-2)</description>
+    <cloneof>vsbball</cloneof>
+    <crc>a6293faa</crc>
+    <manufacturer>Nintendo Co., Ltd.</manufacturer>
+    <year>1984</year>
+    <genre>Sports/Baseball</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>4</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.5</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="vsbballjb" index="" image="">
+    <description>Vs. BaseBall (Japan, set BA A-1)</description>
+    <cloneof>vsbball</cloneof>
+    <crc>a6293faa</crc>
+    <manufacturer>Nintendo Co., Ltd.</manufacturer>
+    <year>1984</year>
+    <genre>Sports/Baseball</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>4</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.5</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="vsfdf" index="" image="">
+    <description>Vs. Freedom Force</description>
+    <cloneof />
+    <crc>a6293faa</crc>
+    <manufacturer>Sunsoft</manufacturer>
+    <year>1988</year>
+    <genre>Gun</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>1</players>
+    <ctrltype>Lightgun</ctrltype>
+    <buttons>1</buttons>
+    <score>2.8</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="vsgradus" index="" image="">
+    <description>Vs. Gradius (US, set GR E)</description>
+    <cloneof />
+    <crc>a6293faa</crc>
+    <manufacturer>Konami</manufacturer>
+    <year>1986</year>
+    <genre>Shoot-'Em-Up</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>3.1</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="vsgshoe" index="" image="">
+    <description>Vs. Gumshoe (set GM5)</description>
+    <cloneof />
+    <crc>48de65dc</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1986</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>1</players>
+    <ctrltype>Lightgun</ctrltype>
+    <buttons>1</buttons>
+    <score>2.8</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="vsmahjng" index="" image="">
+    <description>Vs. Mahjong (Japan)</description>
+    <cloneof />
+    <crc>48de65dc</crc>
+    <manufacturer>Nintendo Co., Ltd.</manufacturer>
+    <year>1984</year>
+    <genre>Mahjong</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>4</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>4.5</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="vspinbal" index="" image="">
+    <description>Vs. Pinball (US, set PN4 E-1)</description>
+    <cloneof />
+    <crc>a6293faa</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1984</year>
+    <genre>Pinball</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.7</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="vspinbalj" index="" image="">
+    <description>Vs. Pinball (Japan, set PN3 B)</description>
+    <cloneof>vspinbal</cloneof>
+    <crc>48de65dc</crc>
+    <manufacturer>Nintendo Co., Ltd.</manufacturer>
+    <year>1984</year>
+    <genre>Pinball</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.7</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="vsskykid" index="" image="">
+    <description>Vs. Super SkyKid</description>
+    <cloneof />
+    <crc>a6293faa</crc>
+    <manufacturer>Namco</manufacturer>
+    <year>1985</year>
+    <genre>Shoot-'Em-Up</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.8</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="vsslalom" index="" image="">
+    <description>Vs. Slalom</description>
+    <cloneof />
+    <crc>fd19ae5e</crc>
+    <manufacturer>Rare Coin-It Inc.</manufacturer>
+    <year>1986</year>
+    <genre>Sports/Skiing</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>1.6</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="vssoccer" index="" image="">
+    <description>Vs. Soccer (set SC4-2 A)</description>
+    <cloneof />
+    <crc>fd19ae5e</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1985</year>
+    <genre>Sports/Soccer</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.6</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="vssoccera" index="" image="">
+    <description>Vs. Soccer (set SC4-3 ?)</description>
+    <cloneof>vssoccer</cloneof>
+    <crc>fd6c578b</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1985</year>
+    <genre>Sports/Soccer</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.6</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="vstennis" index="" image="">
+    <description>Vs. Tennis (Japan/USA, set TE A-3)</description>
+    <cloneof />
+    <crc>48de65dc</crc>
+    <manufacturer>Nintendo Co., Ltd.</manufacturer>
+    <year>1984</year>
+    <genre>Sports/Tennis</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>4</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.1</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="vstennisa" index="" image="">
+    <description>Vs. Tennis (Japan/USA, set 2)</description>
+    <cloneof>vstennis</cloneof>
+    <crc>48de65dc</crc>
+    <manufacturer>Nintendo Co., Ltd.</manufacturer>
+    <year>1984</year>
+    <genre>Sports/Tennis</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>4</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.1</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="vstennisb" index="" image="">
+    <description>Vs. Tennis (Japan/USA, set 3)</description>
+    <cloneof>vstennis</cloneof>
+    <crc>48de65dc</crc>
+    <manufacturer>Nintendo Co., Ltd.</manufacturer>
+    <year>1984</year>
+    <genre>Sports/Tennis</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>4</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.1</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="vstetris" index="" image="">
+    <description>Vs. Tetris</description>
+    <cloneof />
+    <crc>a6293faa</crc>
+    <manufacturer>Academysoft-Elorg</manufacturer>
+    <year>1987</year>
+    <genre>Puzzle</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>2.5</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="westgun2" index="" image="">
+    <description>Western Gun Part II</description>
+    <cloneof>sheriff</cloneof>
+    <crc>820f8cdd</crc>
+    <manufacturer>Nintendo (Taito Corporation license)</manufacturer>
+    <year>1980</year>
+    <genre>Shoot-'Em-Up</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>2</players>
+    <ctrltype>Doublejoy</ctrltype>
+    <buttons>1</buttons>
+    <joyways>8</joyways>
+    <score>1.8</score>
+    <enabled>Yes</enabled>
+  </game>
+  <game name="wrecking" index="" image="">
+    <description>Vs. Wrecking Crew</description>
+    <cloneof />
+    <crc>fd19ae5e</crc>
+    <manufacturer>Nintendo</manufacturer>
+    <year>1984</year>
+    <genre>Platform</genre>
+    <rating>AAMA - Green (Suitable For All Ages)</rating>
+    <players>4</players>
+    <ctrltype>Joystick</ctrltype>
+    <buttons>2</buttons>
+    <joyways>8</joyways>
+    <score>3.4</score>
+    <enabled>Yes</enabled>
+  </game>
+</menu>

@@ -1,0 +1,359 @@
+<?xml version="1.0"?>
+<menu>
+<header>
+	<listname>MESS</listname>
+	<lastlistupdate>09/28/2016</lastlistupdate>
+	<listversion>mame 0.177</listversion>
+	<exporterversion>r0man0 ahk script</exporterversion>
+</header>
+<game name="a2600" index="" image="">
+	<description>Atari 2600</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1977</year>
+	<genre>MESS</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="a5200" index="" image="">
+	<description>Atari 5200</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1982</year>
+	<genre>MESS</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="a7800" index="" image="">
+	<description>Atari 7800</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1986</year>
+	<genre>MESS</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="jaguar" index="" image="">
+	<description>Atari Jaguar</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1993</year>
+	<genre>MESS</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="lynx" index="" image="">
+	<description>Atari Lynx</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Atari</manufacturer>
+	<year>1989</year>
+	<genre>MESS</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="nes" index="" image="">
+	<description>Nintendo Entertainment System</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1985</year>
+	<genre>MESS</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="snes" index="" image="">
+	<description>Nintendo SNES</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1989</year>
+	<genre>MESS</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="n64" index="" image="" enabled="0">
+	<description>Nintendo 64</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1996</year>
+	<genre>MESS</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gameboy" index="" image="">
+	<description>Nintendo Game Boy</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1990</year>
+	<genre>MESS</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gbcolor" index="" image="">
+	<description>Nintendo Game Boy Color</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1998</year>
+	<genre>MESS</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gba" index="" image="">
+	<description>Nintendo Game Boy Advance</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>2001</year>
+	<genre>MESS</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fds" index="" image="">
+	<description>Nintendo Famicom Disk System</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nintendo</manufacturer>
+	<year>1986</year>
+	<genre>MESS</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="tg16" index="" image="">
+	<description>NEC TurboGrafx 16</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nippon Electric Company</manufacturer>
+	<year>1989</year>
+	<genre>MESS</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sgx" index="" image="">
+	<description>NEC SuperGrafx</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nippon Electric Company</manufacturer>
+	<year>1990</year>
+	<genre>MESS</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="pce" index="" image="">
+	<description>NEC PC Engine</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Nippon Electric Company</manufacturer>
+	<year>1987</year>
+	<genre>MESS</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sg1000" index="" image="">
+	<description>Sega SG-1000</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1983</year>
+	<genre>MESS</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="sms" index="" image="">
+	<description>Sega Master System</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>MESS</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="genesis" index="" image="">
+	<description>Sega Genesis</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1990</year>
+	<genre>MESS</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="32x" index="" image="">
+	<description>Sega 32x</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1994</year>
+	<genre>MESS</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="aes" index="" image="">
+	<description>Neo-Geo AES</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1990</year>
+	<genre>MESS</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="neocd" index="" image="" enabled="0">
+	<description>Neo-Geo CD</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1994</year>
+	<genre>MESS</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="odyssey2" index="" image="">
+	<description>Magnavox Odyssey 2</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Magnavox</manufacturer>
+	<year>1978</year>
+	<genre>MESS</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="intv" index="" image="">
+	<description>Mattel Intellivision</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Mattel</manufacturer>
+	<year>1979</year>
+	<genre>MESS</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="coleco" index="" image="">
+	<description>ColecoVision</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Coleco</manufacturer>
+	<year>1982</year>
+	<genre>MESS</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="fsa1fx" index="" image="">
+	<description>MSX2+</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Panasonic/Matsushita</manufacturer>
+	<year>1988</year>
+	<genre>MESS</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="spectrum" index="" image="">
+	<description>ZX Spectrum</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sinclair Research Ltd</manufacturer>
+	<year>1988</year>
+	<genre>MESS</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="vectrex" index="" image="">
+	<description>Vectrex</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>General Consumer Electronics</manufacturer>
+	<year>1982</year>
+	<genre>MESS</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gx4000" index="" image="">
+	<description>Amstrad GX4000</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Amstrad plc</manufacturer>
+	<year>1990</year>
+	<genre>MESS</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wswan" index="" image="">
+	<description>Bandai WonderSwan</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bandai</manufacturer>
+	<year>1999</year>
+	<genre>MESS</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="wscolor" index="" image="">
+	<description>Bandai WonderSwan Color</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Bandai</manufacturer>
+	<year>2000</year>
+	<genre>MESS</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="gamegear" index="" image="">
+	<description>Sega Game Gear</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Sega</manufacturer>
+	<year>1991</year>
+	<genre>MESS</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ngp" index="" image="">
+	<description>NeoGeo Pocket</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1998</year>
+	<genre>MESS</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="ngpc" index="" image="">
+	<description>NeoGeo Pocket Color</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>SNK</manufacturer>
+	<year>1999</year>
+	<genre>MESS</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="svision" index="" image="">
+	<description>Watara Super Vision</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Watara</manufacturer>
+	<year>1992</year>
+	<genre>MESS</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+<game name="c64" index="" image="">
+	<description>Commodore 64</description>
+	<cloneof/>
+	<crc/>
+	<manufacturer>Commodore Business Machines</manufacturer>
+	<year>1982</year>
+	<genre>MESS</genre>
+	<rating/>
+	<enabled>Yes</enabled>
+</game>
+</menu>
