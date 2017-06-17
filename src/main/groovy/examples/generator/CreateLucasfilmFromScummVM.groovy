@@ -1,4 +1,4 @@
-package examples
+package examples.generator
 
 import operation.DatabaseOperations
 import operation.Operations

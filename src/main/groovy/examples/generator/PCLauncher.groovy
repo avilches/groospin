@@ -1,4 +1,4 @@
-package examples
+package examples.generator
 
 import org.hs5tb.groospin.base.HyperSpin
 import org.hs5tb.groospin.base.HyperSpinDatabase

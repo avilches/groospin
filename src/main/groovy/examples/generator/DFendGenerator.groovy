@@ -1,3 +1,5 @@
+package examples.generator
+
 import org.hs5tb.groospin.base.HyperSpinDatabase
 import org.hs5tb.groospin.base.Rom
 import org.hs5tb.groospin.common.Ini

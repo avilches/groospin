@@ -1,4 +1,4 @@
-package examples
+package examples.generator
 
 import groovy.io.FileType
 import org.hs5tb.groospin.base.HyperSpinDatabase
