@@ -9,7 +9,12 @@ def spin = new HyperSpin("A:/RocketLauncher")
 
 def systems = spin.listSystemsRetroArch()*.name
 
-// Borra los juegos (la rom y del xml) que no tengan video ni wheel. Si tiene video o wheel los deja
+/*
+Borra los juegos (la rom fisicia y su entrada de la database) que no tengan video ni wheel.
+Si tiene video o wheel si que los deja
+Ideal para ahorrar espacio y no meter juegos en recreativas con poco disco (en una recre nunca se quieren
+poner juegos sin videos o wheel)
+*/
 
 // Primero se añade un sufijo a las roms que no tienen video ni wheel
 // Para borrarlas definitivamente solo hay que buscar las roms por
