@@ -11,6 +11,28 @@ import org.hs5tb.groospin.checker.Checker
 import org.hs5tb.groospin.checker.result.CheckRomResult
 
 Creator creator = new Creator(new HyperSpin("D:/Games/RocketLauncher"), false)
+creator.create("Pokemon Classics Collection",[
+        "[Nintendo Super Game Boy] *"
+]) { Rom rom ->
+    rom.containsTexts(["pokemon","pokken tournament", "pokepark", "pikachu"]) && !rom.cloneof
+
+}
+
+/*
+creator.create("Star Trek",[
+        "[AAE] startrek",
+        "[Vintage Commercials] *",
+        "[Nintendo Super Game Boy] *",
+        "[Sega Genesis] Star Trek - Deep Space Nine - Crossroads of Time (USA)",
+        "[Texas Instruments TI 99-4A] Star Trek",
+        "[Apple II] Star Trek - Strategic Operations Simulator (USA)",
+        "[Atari 2600] Star Trek - Strategic Operations Simulator (USA)",
+        "[Commodore 64] Star Trek - Strategic Operations Simulator (USA)",
+]) { Rom rom ->
+    rom.containsTexts(["Star Trek", "StarTrek"]) && !rom.cloneof
+
+}
+
 /*
 creator.create("Contra Collection",[
         "[Vintage Commercials] *",
@@ -28,7 +50,7 @@ creator.create("Contra Collection",[
 
 }
 
-/*
+
 creator.create("Resident Evil Collection",[
         "[Vintage Commercials] *",
         "[Future Pinball] *",
@@ -36,7 +58,7 @@ creator.create("Resident Evil Collection",[
     rom.containsTexts(["Resident Evil"]) && !rom.cloneof
 
 }
-
+/*
 creator.create("Castlevania Collection", [
         "[Vintage Commercials] *",
         "[Commodore 64] Castlevania (USA)",
@@ -52,6 +74,9 @@ creator.create("Sonic Mega Collection",[
         "[Super Nintendo Entertainment System] *",
         "[Sega Genesis] Aerobiz Supersonic (USA)",
         "[Amstrad CPC] *",
+        "[Atari 8-bit] *",
+        "[Microsoft Windows 3.x] *",
+        "[Sega Nomad] *",
         "[Commodore 64] *",
         "[Commodore Amiga] *",
         "[MAME] sblast2b",
@@ -70,19 +95,29 @@ creator.create("Sonic Mega Collection",[
 ]) { Rom rom ->
     return rom.containsTexts(["Sonic"]) && !rom.cloneof && !rom.name.contains("2 Games in 1") && !rom.name.contains("Dragon") && !rom.name.contains("+")
 }
-
+/*
 creator.create("Super Mario Collection",[
         "[Vintage Commercials] *",
         "[Commodore 64] *",
+        "[Nintendo Satellaview] *",
         "[Atari 2600] Mario Bros. (USA)",
+        "[Atari 8-bit] Mario Bros. (USA)",
         "[Atari 7800] Mario Bros. (USA)",
         "[Nintendo Entertainment System] Mario's Time Machine (USA)",
         "[Nintendo Entertainment System] Mario Is Missing! (USA)",
+        "[Super Nintendo Entertainment System] Super Mario All-Stars + Super Mario World (USA)",
         "[Nintendo Super Game Boy] *",
+        "[Microsoft MS-DOS] *",
+        "[Microsoft MS-DOS eXoDOS] *",
         "[Nintendo Game Boy Color] Mario Golf (USA)",
         "[Nintendo Game Boy Color] Mario Tennis (USA)",
         "[Sega Genesis] Mario Andretti Racing (USA, Europe)",
         "[Sega Genesis] Mario Lemieux Hockey (USA, Europe)",
+        "[Visual Pinball] *",
+        "[Flash Games] *",
+        "[PC Games] *",
+        "[Nintendo 64DD] *",
+        "[Atari XEGS] *"
 //        "[Microsoft MSX2] *",
 ]) { Rom rom ->
     rom.containsTexts(["mario","smash brosh"]) && !rom.cloneof && !rom.name.contains("PlayChoice")
@@ -265,14 +300,17 @@ creator.create("Double Dragon Collection", ["[Atari 2600] *",
 //    return rom.containsTexts(["ghosts'n", "ghosts 'n", "ghouls'n", "ghouls 'n",
 //    "Gargoyle's Quest", "Demon's Crest", "Ghosts to Glory", "Army of Zin", "Makaimura"]) && !rom.containsText("Gremlin")
 //}
-/*
+
 creator.create("Donkey Kong Collection", [
         "[Mattel Intellivision] Donkey Kong (World)",
         "[Nintendo Super Game Boy] *",
-        "[Atari 7800] *"
+        "[Apple II] Donkey Kong (USA)",
+        "[Atari 2600] *",
+        "[Atari 7800] *",
 ]) { Rom rom ->
     return rom.containsTexts(["donkey kong", "dkong"])
 }
+/*
 creator.create("Bomberman Collection",[
         "[NEC TurboGrafx-16] Bomberman (USA)",
         "[Nintendo Entertainment System] Bomberman (USA)",
