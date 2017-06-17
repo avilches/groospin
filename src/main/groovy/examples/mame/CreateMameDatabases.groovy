@@ -71,7 +71,64 @@ debugRoms.removeAll { it.catVerCat?.contains("Tabletop") || it.genre?.contains("
 }
 void generateAll(List roms, Map header, String dst, String databasesToCompare, Closure filter) {
 
-    // Visco
+    // Mature MAME
+    DatXmlToHyperSpinXml.store(roms,
+            "${dst}/Mature MAME/Mature MAME.xml",
+            header + [listname: "Mature MAME working"]) { MameMachine rom ->
+        return filter(rom) && rom.working && rom.rating == "AAMA - Red (Sexual Content Strong)" &&
+                rom.catVerMature && !rom.hanafuda && !rom.gambling && !rom.mahjong
+    }
+    Comparer.printDifferences("Mature MAME", dst, databasesToCompare)
+
+    // Bally
+    DatXmlToHyperSpinXml.store(roms,
+            "${dst}/Bally/Bally.xml",
+            header + [listname: "Bally working"]) { MameMachine rom ->
+        return filter(rom) && rom.working && rom.manufacturer.contains("Bally") &&
+                !rom.manufacturer.contains("Midway")
+    }
+    Comparer.printDifferences("Bally", dst, databasesToCompare)
+
+    // Seibu Kaihatsu
+    DatXmlToHyperSpinXml.store(roms,
+            "${dst}/Seibu Kaihatsu/Seibu Kaihatsu.xml",
+            header + [listname: "Seibu Kaihatsu working"]) { MameMachine rom ->
+        return filter(rom) && rom.working && rom.manufacturer.contains("Seibu Kaihatsu")
+    }
+    Comparer.printDifferences("Seibu Kaihatsu", dst, databasesToCompare)
+
+    // Gaelco MAME
+    DatXmlToHyperSpinXml.store(roms,
+            "${dst}/Gaelco MAME/Gaelco MAME.xml",
+            header + [listname: "Gaelco MAMEworking"]) { MameMachine rom ->
+        return filter(rom) && rom.working && rom.manufacturer.contains("Gaelco")
+    }
+    Comparer.printDifferences("Gaelco MAME", dst, databasesToCompare)
+
+    // Sammy
+    DatXmlToHyperSpinXml.store(roms,
+            "${dst}/Sammy/Sammy.xml",
+            header + [listname: "Sammy working"]) { MameMachine rom ->
+        return filter(rom) && rom.working && rom.manufacturer.contains("Sammy")
+    }
+    Comparer.printDifferences("Sammy", dst, databasesToCompare)
+
+    // Jaleco
+    DatXmlToHyperSpinXml.store(roms,
+            "${dst}/Jaleco/Jaleco.xml",
+            header + [listname: "Jaleco working"]) { MameMachine rom ->
+        return filter(rom) && rom.working && rom.manufacturer.contains("Jaleco")
+    }
+    Comparer.printDifferences("Jaleco", dst, databasesToCompare)
+
+    // Nichibutsu
+    DatXmlToHyperSpinXml.store(roms,
+            "${dst}/Nichibutsu/Nichibutsu.xml",
+            header + [listname: "Nichibutsu working"]) { MameMachine rom ->
+        return filter(rom) && rom.working && rom.manufacturer.contains("Nichibutsu")
+    }
+    Comparer.printDifferences("Nichibutsu", dst, databasesToCompare)
+
     DatXmlToHyperSpinXml.store(roms,
             "${dst}/Visco/Visco.xml",
             header + [listname: "Visco working"]) { MameMachine rom ->
@@ -152,7 +209,7 @@ void generateAll(List roms, Map header, String dst, String databasesToCompare, C
     }
     Comparer.printDifferences("MAME", dst, databasesToCompare)
 
-    Set bestOfMameRomNames = (griffinBestOf() + redditBestOf()) as Set
+    Set bestOfMameRomNames = (griffinBestOf() + redditBestOf() + top100()) as Set
     // MAME best of (solo working)
     DatXmlToHyperSpinXml.store(roms,
             "${dst}/Best of MAME/Best of MAME.xml",
@@ -269,6 +326,12 @@ def griffinBestOf() {
     HyperSpinDatabase best = new HyperSpinDatabase().load(new File("d:/Games/Soft/GrooSpin/resources/bestof/griffin-MAME178.xml"))
     return best.roms*.name
 
+}
+
+def top100() {
+    HyperSpinDatabase best = new HyperSpinDatabase().load(new File("d:/Games/Soft/GrooSpin/resources/bestof/Top 100 Classic Mame.xml"))
+    HyperSpinDatabase bestOld = new HyperSpinDatabase().load(new File("d:/Games/Soft/GrooSpin/resources/bestof/Top 100 Classic Mame (old).xml"))
+    return best.roms*.name + bestOld.roms*.name
 }
 
 def redditBestOf() {
