@@ -11,7 +11,7 @@ HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
 boolean simulation = false
 //def systems = hs.listSystemNames()
 //def systems = ["Sony PlayStation", "Sony PlayStation 2", "Nintendo GameCube", "Nintendo Wii", "Sony PSP", "Sega DreamCast", "Sega Saturn" , "Sega Saturn Japan", "Nintendo DS", "Nintendo 3DS"]
-def systems = ["Nintendo Entertainment System"]
+def systems = ["Sega Mega Drive"]
 //def systems = ["Nintendo Wii U"]
 
 systems.each {
@@ -34,7 +34,7 @@ systems.each {
         }
     }
     if (!simulation) {
-        IOTools.move(database.db, new File(database.db.parentFile, database.db.name+".${new Date().format("yyyyMMdd-HHmmss")}.bbck"));
+        IOTools.move(database.db, new File(database.db.parentFile, database.db.name+".${new Date().format("yyyyMMdd-HHmmss")}.bck"));
         HyperSpinDatabase.rewriteDatabase(database)
     }
 }
