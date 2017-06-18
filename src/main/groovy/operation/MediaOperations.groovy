@@ -58,6 +58,7 @@ class MediaOperations extends Operations {
     void withUnneededMedia(RLSystem system, Closure<File> action) {
         log("Processing ${system.name}. Simulation: ${simulation}")
         ["Video"].each { String path ->
+            // TODO:  MAL!! no deberia cambiarse luego al final a minusculas!!
             Set<String> unneeded = listToLowerCaseSet(system.listMediaPath(path)*.name) - listToLowerCaseSet(system.allowedMediaRomVideos())
             log "${unneeded.size()} unneeded file in $path"
             unneeded.each { String filename ->

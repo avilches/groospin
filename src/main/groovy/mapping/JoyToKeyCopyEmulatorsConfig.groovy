@@ -1,9 +1,8 @@
-package joytokey
+package mapping
 
 import org.hs5tb.groospin.base.HyperSpin
 import org.hs5tb.groospin.base.RLSystem
 import org.hs5tb.groospin.common.IOTools
-import org.hs5tb.groospin.common.IniFile
 
 HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
 

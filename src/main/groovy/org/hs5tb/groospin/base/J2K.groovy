@@ -7,19 +7,22 @@ import org.hs5tb.groospin.common.IniFile
  */
 class J2K {
     HyperSpin hs
-    String system
+    String systemName
+    RLSystem system
     String emulator
     IniFile cfg
+    Preset presets = new Preset()
 
-    J2K(HyperSpin hs, String system, String emulator = null) {
-        this.hs = hs
+    J2K(RLSystem system, String emulator = null) {
+        this.hs = system.hyperSpin
+        this.systemName = system.name
         this.system = system
         this.emulator = emulator
         File cfgFile
         if (emulator) {
-            cfgFile = hs.newRocketLauncherFile("Profiles/JoyToKey/${system}/${emulator}/${emulator}.cfg")
+            cfgFile = hs.newRocketLauncherFile("Profiles/JoyToKey/${systemName}/${emulator}/${emulator}.cfg")
         } else {
-            cfgFile = hs.newRocketLauncherFile("Profiles/JoyToKey/${system}/${system}.cfg")
+            cfgFile = hs.newRocketLauncherFile("Profiles/JoyToKey/${systemName}/${systemName}.cfg")
         }
         if (!cfgFile.exists()) {
             cfg = new IniFile(file: cfgFile)
@@ -27,12 +30,13 @@ class J2K {
         } else {
             cfg = new IniFile().parse(cfgFile)
         }
+
+    }
+    J2K(HyperSpin hs, String systemName, String emulator = null) {
+        this(hs.getSystem(systemName), emulator)
     }
 
-    Preset presets = new Preset()
-
     class Preset {
-
         static int XBOX360_A = 1
         static int XBOX360_B = 2
         static int XBOX360_X = 3
@@ -45,8 +49,27 @@ class J2K {
         static int XBOX360_START = 8
         static int XBOX360_RT_ANALOG = 12 // ANALOG
 
+        static int MAPPING_XBOX360_A = 56 // Button1
+        static int MAPPING_XBOX360_B = 57 // Button2
+        static int MAPPING_XBOX360_X = 58 // Button3
+        static int MAPPING_XBOX360_Y = 59 // Button4
+        static int MAPPING_XBOX360_LB = 60 // Button5
+        static int MAPPING_XBOX360_RB = 61 // Button6
+        static int MAPPING_XBOX360_BACK = 62 // Button7
+        static int MAPPING_XBOX360_START = 63 // Button8
+
         static String none =  null
         static String ESC =  "1B"
+        static String F1 =  "70"
+        static String F2 =  "71"
+        static String F3 =  "72"
+        static String F4 =  "73"
+        static String F5 =  "74"
+        static String F6 =  "75"
+        static String F7 =  "76"
+        static String F8 =  "77"
+        static String F9 =  "78"
+        static String F10 =  "79"
         static String ALT =  "12"
         static String CTRL =  "11"
         static String SHIFT =  "10"
@@ -80,16 +103,16 @@ class J2K {
         static String KEY_9 = k("9")
 
 
-        static String KEY_F1 = k("70")
-        static String KEY_F2 = k("71")
-        static String KEY_F3 = k("72")
-        static String KEY_F4 = k("73")
-        static String KEY_F5 = k("74")
-        static String KEY_F6 = k("75")
-        static String KEY_F7 = k("76")
-        static String KEY_F8 = k("77")
-        static String KEY_F9 = k("78")
-        static String KEY_F10 = k("79")
+        static String KEY_F1 =  "70"
+        static String KEY_F2 =  "71"
+        static String KEY_F3 =  "72"
+        static String KEY_F4 =  "73"
+        static String KEY_F5 =  "74"
+        static String KEY_F6 =  "75"
+        static String KEY_F7 =  "76"
+        static String KEY_F8 =  "77"
+        static String KEY_F9 =  "78"
+        static String KEY_F10 = "79"
 
         static String KEY_A = k("A")
         static String KEY_B = k("B")
@@ -124,16 +147,18 @@ class J2K {
             return Integer.toHexString((k as char) as int).toUpperCase()
         }
 
-        Preset buttonToKey(int joy, Map map) {
-            map.each { int button, String key ->
-                buttonToKey(joy, button, key)
+        Preset buttonsTo(int joy, Map map) {
+            map.each { button, key ->
+                List keys = key instanceof List ? key : [key]
+                buttonToKeys(joy, button, keys)
             }
             this
         }
 
-        Preset buttonToKey(int joy, int buttonStart, List<String> keys) {
-            keys.eachWithIndex { String key, int i ->
-                buttonToKey(joy, buttonStart + i, key)
+        Preset buttonsTo(int joy, int buttonStart, List keys) {
+            keys.eachWithIndex { key, int i ->
+                List tkeys = key instanceof List ? key : [key]
+                buttonToKeys(joy, buttonStart + i, tkeys)
             }
             this
 
@@ -142,35 +167,78 @@ class J2K {
         Preset buttonToKey(int joy, int button, String key) {
             buttonToKey(joy, "Button${button<10?"0":""}$button", key)
         }
+
+        Preset buttonToKeys(int joy, int button, List keys) {
+            buttonToKeys(joy, "Button${button<10?"0":""}$button", keys)
+        }
+
         Preset buttonToKey(int joy, String button, String key) {
-            cfg.put("Joystick $joy", button, "1, ${key}:00:00:00, 0.000, 0, 0")
+            buttonToKeys(joy, button, [key])
+        }
+
+        Preset buttonToKeys(int joy, String button, List keys) {
+            keys = keys + (["00"] * 4 - keys.size())
+            String skeys = keys.join(":")
+            cfg.put("Joystick $joy", button, "1, ${skeys}, 0.000, 0, 0")
+            this
+        }
+
+        Preset xbox360MameTab(int joy = 1) {
+            // envia TAB al pulsar SELECT(back) + LB (usando mapping boton 31)
+            mapping(joy, MAPPING_XBOX360_BACK, MAPPING_XBOX360_LB, TAB, 30)
+            this
+        }
+
+        Preset xbox360RetroArchF1(int joy = 1) {
+            // envia F1 al pulsar SELECT(back) + LB (usando mapping boton 31)
+            mapping(joy, MAPPING_XBOX360_BACK, MAPPING_XBOX360_LB, F1, 31)
             this
         }
 
         Preset xbox360Esc(int joy = 1) {
             // envia ESC al pulsar SELECT(back) + START (usando mapping boton 32)
-            buttonToKey(joy, 32, ESC)
-            cfg.put("ButtonAlias", "Button32", "62, 63")
+//            buttonToKey(joy, 32, ESC)
+//            cfg.put("ButtonAlias", "Button32", "62, 63")
+            mapping(joy, MAPPING_XBOX360_BACK, MAPPING_XBOX360_START, ESC, 32)
+            return this
+        }
+
+        Preset mapping(int joy, int firstMappingButton, int secondMappingButton, String action, int extraButton) {
+            buttonToKey(joy, extraButton, action)
+            cfg.put("ButtonAlias", "Button${extraButton}", "$firstMappingButton, $secondMappingButton")
+            this
+        }
+
+        Preset dPadTo(int joy = 1, String left, String down, String up, String right) {
+            buttonToKey(joy, "POV1-1", up)
+            buttonToKey(joy, "POV1-3", right)
+            buttonToKey(joy, "POV1-5", down)
+            buttonToKey(joy, "POV1-7", left)
             return this
         }
 
         Preset dPadToCursor(int joy = 1) {
-            buttonToKey(joy, "POV1-1", CURSOR_UP)
-            buttonToKey(joy, "POV1-3", CURSOR_RIGHT)
-            buttonToKey(joy, "POV1-5", CURSOR_DOWN)
-            buttonToKey(joy, "POV1-7", CURSOR_LEFT)
+            dPadTo(joy, CURSOR_LEFT, CURSOR_DOWN, CURSOR_UP, CURSOR_RIGHT)
             return this
         }
 
         Preset analogToCursor(int joy = 1) {
-            buttonToKey(joy, "Axis1n", CURSOR_LEFT)
-            buttonToKey(joy, "Axis1p", CURSOR_RIGHT)
-            buttonToKey(joy, "Axis2n", CURSOR_UP)
-            buttonToKey(joy, "Axis2p", CURSOR_DOWN)
-            buttonToKey(joy, "Axis3n", CURSOR_LEFT)
-            buttonToKey(joy, "Axis3p", CURSOR_RIGHT)
-            buttonToKey(joy, "Axis4n", CURSOR_UP)
-            buttonToKey(joy, "Axis4p", CURSOR_DOWN)
+            analogLeftTo(joy, CURSOR_LEFT, CURSOR_DOWN, CURSOR_UP, CURSOR_RIGHT)
+            analogRightTo(joy, CURSOR_LEFT, CURSOR_DOWN, CURSOR_UP, CURSOR_RIGHT)
+        }
+
+        Preset analogLeftTo(int joy = 1, String left, String down, String up, String right) {
+            buttonToKey(joy, "Axis2n", up)
+            buttonToKey(joy, "Axis1p", right)
+            buttonToKey(joy, "Axis2p", down)
+            buttonToKey(joy, "Axis1n", left)
+        }
+
+        Preset analogRightTo(int joy = 1, String left, String down, String up, String right) {
+            buttonToKey(joy, "Axis4n", up)
+            buttonToKey(joy, "Axis3p", right)
+            buttonToKey(joy, "Axis4p", down)
+            buttonToKey(joy, "Axis3n", left)
             this
         }
 

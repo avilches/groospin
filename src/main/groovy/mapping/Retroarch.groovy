@@ -1,4 +1,4 @@
-package joytokey
+package mapping
 
 import org.hs5tb.groospin.common.IniFile
 

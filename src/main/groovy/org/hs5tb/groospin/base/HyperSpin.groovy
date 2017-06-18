@@ -283,6 +283,10 @@ class HyperSpin {
         }
     }
 
+    List<J2K> listAllJoyToKeyProfiles() {
+        listSystems()*.loadJ2KConfig()
+    }
+
     File newHyperSpinMediaFile(String name) {
         return newHyperSpinFile("Media/${name}")
     }
