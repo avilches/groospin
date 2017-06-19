@@ -1,11 +1,11 @@
-package mapping
+package org.hs5tb.groospin.base
 
 import org.hs5tb.groospin.common.IniFile
 
 /**
  * Created by Alberto on 17-Jun-17.
  */
-class Retroarch {
+class RetroArch {
     IniFile iniFile
     static EMPTY = "\"nul\""
     static PAD_WITH_ANALOG = "\"5\""
@@ -15,12 +15,12 @@ class Retroarch {
     static ANALOG_TO_DPAD_RIGHT = "\"2\""
     static ANALOG_TO_DPAD_LEFT = "\"1\""
 
-    Retroarch folder(String folder) {
+    RetroArch folder(String folder) {
         iniFile = new IniFile().parse(new File(folder, "retroarch.cfg"))
         this
     }
 
-    Retroarch configureKeys(int player, Map<String, String> map) {
+    RetroArch configureKeys(int player, Map<String, String> map) {
         map.each { String key, String val ->
             String used = used(val)
             key = "input_player${player}_${key.toLowerCase()}".toString()
@@ -32,11 +32,11 @@ class Retroarch {
         }
         this
     }
-    Retroarch save() {
+    RetroArch save() {
         iniFile.store()
     }
 
-    Retroarch configureKeyboardPlayer1Default() {
+    RetroArch configureKeyboardPlayer1Default() {
         iniFile.put("input_player1_b", "\"z\"")
         iniFile.put("input_player1_a", "\"x\"")
         iniFile.put("input_player1_y", "\"a\"")
@@ -52,7 +52,7 @@ class Retroarch {
         this
     }
 
-    Retroarch resetKeys() {
+    RetroArch resetKeys() {
         [input_audio_mute : "f9",
          input_cheat_index_minus : "t",
          input_cheat_index_plus : "y",
@@ -160,7 +160,7 @@ class Retroarch {
 
     }
 
-    Retroarch resetPlayer(player = 1, joypos = 1) {
+    RetroArch resetPlayer(player = 1, joypos = 1) {
 
         iniFile.put("input_player${player}_b", EMPTY)
         iniFile.put("input_player${player}_a", EMPTY)
