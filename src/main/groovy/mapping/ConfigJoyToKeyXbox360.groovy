@@ -2,6 +2,7 @@ package mapping
 
 import org.hs5tb.groospin.base.HyperSpin
 import org.hs5tb.groospin.base.J2K
+import org.hs5tb.groospin.common.IOTools
 
 HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
 
@@ -10,9 +11,12 @@ int player1 = joystickStartPosition
 int player2 = joystickStartPosition + 1
 
 println "Resetting all JoyToKey profiles..."
-JoyToKeyReset.emptyAllProfiles(hs)
+/*
+Vaciamos todos los mapeos de JoyToKey
+ */
+ResetAllMappings.emptyAllJoyToKeyProfiles(hs)
 
-// EXIT with BACK+START (360)
+// Mapear en JoyToKey la tecla ESCAPE con BACK+START (Xbox 360) en TODOS los sistemas
 hs.listAllJoyToKeyProfiles().each { J2K j2k ->
     println "All: Configuring 360 BACK+START = ESC for ${j2k.system.name}"
     j2k.presets.with {
@@ -22,7 +26,15 @@ hs.listAllJoyToKeyProfiles().each { J2K j2k ->
     }
 }
 
-// Los sistemas Retroarch ya funcionan con los mandos de 360
+// Los sistemas RetroArch ya funcionan con los mandos de 360 con la configuración por defecto.
+// Para dejar la configuración por defecto: podemos borrar el retroarch.cfg o
+// ejecutar el script ConfigRetroarch que se encarga de borrar los comandos de JoyStick de los dos players y, además,
+// de configurar teclas (también borra todas las acciones de sistema que haya configurados para que funcione todo
+// por defecto)
+ResetAllMappings.resetRetroArch(hs.retroArch)
+ConfigRetroArch.configureKeys(hs.retroArch)
+
+// Después, se mapea en JoyToKey la tecla F1 con BACK+RB
 hs.listSystemsRetroArch()*.loadJ2KConfig().each { J2K j2k ->
     println "RetroArch: Configuring 360 BACK+RB = F1 for ${j2k.system.name}"
     j2k.presets.with {
@@ -32,9 +44,25 @@ hs.listSystemsRetroArch()*.loadJ2KConfig().each { J2K j2k ->
     }
 }
 
-// Los sistemas MAME ya funcionan con los mandos de 360 si estan conectados como JOYSTICKS 1 Y 2
+/* Los sistemas MAME ya funcionan con los mandos de 360 si estan conectados como JOYSTICKS 1 Y 2
+
+¿Porque se usa entonces JoyToKey?
+- El dpad digital del mando de 360 no funciona, asi que se mapea a los cursores (solo funciona el analogico de la izquierda)
+- Se mapean BACK y START para echar moneda y start
+TODAS ESTAS CONFIGURACIONES SE PODRIAN HACER MODIFICANDO EL default.cfg pero hay un problema:
+
+SI SE DESENCHUFA EL MANDO (O SI ES INALAMBRICO Y SE APAGA) CUALQUIER CONFIGURACIÓN QUE SE TENGA ECHA EN EL default.cfg
+SE BORRA. Por lo tanto, cuando se usan mandos que se pueden enchufar y desenchufar, lo mejor es no editar el default.cfg
+y hacer el mapeo en el JoyToKey.
+ */
+
+// Se elimina el default.cfg para que se vuelva a generar vacio, haciendo antes una copia de seguridad
+hs.mame.backupAndCleanDefaultCfg()
+
+// Mapeos en JoyToKey
 (hs.listSystemsMAME()+hs.getSystem("HBMAME"))*.loadJ2KConfig().each { J2K j2k ->
     println "MAME: Configuring 360 for ${j2k.system.name}"
+
     j2k.presets.with {
         xbox360MameTab(player1)
         xbox360MameTab(player2)
