@@ -3,6 +3,7 @@ package mapping
 import org.hs5tb.groospin.base.HyperSpin
 import org.hs5tb.groospin.base.J2K
 import org.hs5tb.groospin.common.IOTools
+import org.hs5tb.groospin.common.IniFile
 
 HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
 
@@ -16,9 +17,38 @@ Vaciamos todos los mapeos de JoyToKey
  */
 ResetAllMappings.emptyAllJoyToKeyProfiles(hs)
 
+// Configuramos el menu de HyperSpin con teclas
+ResetAllMappings.resetHyperSpinMainMenuControls(hs)
+new J2K(hs, "HyperSpin").presets.with {
+    dPadToCursor(player1)
+    dPadToCursor(player2)
+    analogToCursor(player1)
+    analogToCursor(player2)
+    xbox360Esc(player1)
+    xbox360Esc(player2)
+    def mapping = [
+            (XBOX360_A): RETURN,
+            (XBOX360_B): ESC,
+            (XBOX360_X): KEY_F,
+            (XBOX360_Y): KEY_G,
+            (XBOX360_BACK): F5,  // GENERO
+            (XBOX360_START): KEY_H,
+            (XBOX360_LB): PAGEDOWN,
+            (XBOX360_LT_ANALOG): F3,   // SEARCH
+            (XBOX360_RB): PAGEUP,
+            (XBOX360_RT_ANALOG): F4 // FAVORITES
+    ]
+    buttonsTo(player1, mapping)
+    buttonsTo(player2, mapping)
+    save()
+}
+
+
+
+
 // Mapear en JoyToKey la tecla ESCAPE con BACK+START (Xbox 360) en TODOS los sistemas
 hs.listAllJoyToKeyProfiles().each { J2K j2k ->
-    println "All: Configuring 360 BACK+START = ESC for ${j2k.system.name}"
+    println "All: Configuring 360 BACK+START = ESC for ${j2k.systemName}"
     j2k.presets.with {
         xbox360Esc(player1)
         xbox360Esc(player2)
@@ -32,11 +62,10 @@ hs.listAllJoyToKeyProfiles().each { J2K j2k ->
 // de configurar teclas (también borra todas las acciones de sistema que haya configurados para que funcione todo
 // por defecto)
 ResetAllMappings.resetRetroArch(hs.retroArch)
-ConfigRetroArch.configureKeys(hs.retroArch)
 
 // Después, se mapea en JoyToKey la tecla F1 con BACK+RB
 hs.listSystemsRetroArch()*.loadJ2KConfig().each { J2K j2k ->
-    println "RetroArch: Configuring 360 BACK+RB = F1 for ${j2k.system.name}"
+    println "RetroArch: Configuring 360 BACK+RB = F1 for ${j2k.systemName}"
     j2k.presets.with {
         xbox360RetroArchF1(player1)
         xbox360RetroArchF1(player2)
@@ -61,7 +90,7 @@ hs.mame.backupAndCleanDefaultCfg()
 
 // Mapeos en JoyToKey
 (hs.listSystemsMAME()+hs.getSystem("HBMAME"))*.loadJ2KConfig().each { J2K j2k ->
-    println "MAME: Configuring 360 for ${j2k.system.name}"
+    println "MAME: Configuring 360 for ${j2k.systemName}"
 
     j2k.presets.with {
         xbox360MameTab(player1)
@@ -79,21 +108,39 @@ hs.mame.backupAndCleanDefaultCfg()
         save()
     }
 }
-println "Configuring Future Pinball. RUN THE REG FILE!!!!!!!!!!!"
+println "1 Configuring Future Pinball. RUN THE REG FILE!!!!!!!!!!!"
+println "2 Run at least one time Future Pinball as Administrator"
 // Future Pinball. Funciona mejor con teclado. Cargar el registro de Windows para que se carguen estas teclas
 hs.getSystem("Future Pinball").loadJ2KConfig().presets.with {
-    analogLeftTo(player1, F1, F4, F3, F2)
-    analogRightTo(player1, F5, F8, F7, F6)
-    dPadTo(player1, KEY_F, RETURN, SPACE, KEY_A)
+    analogLeftTo(player1, F1, F4, F3, F2)  // vistas
+    analogRightTo(player1, F5, F8, F7, F6)  // vistas
+    dPadTo(player1, KEY_F, RETURN, SPACE, KEY_A)  // abajo sacar, resto golpear
     buttonsTo(player1, [
-            (XBOX360_A): RETURN,
-            (XBOX360_BACK): KEY_5,
-            (XBOX360_START): KEY_1,
-            (XBOX360_LB): [KEY_Z, KEY_X],
-            (XBOX360_RB): [KEY_N, KEY_M],
+            (XBOX360_A): RETURN, // sacar
+            (XBOX360_Y): TAB, // mirar arriba
+            (XBOX360_BACK): KEY_5, // start
+            (XBOX360_START): KEY_1, // moneda
+            (XBOX360_LB): [KEY_Z, KEY_X],  // pinballs izquierdo
+            (XBOX360_RB): [KEY_N, KEY_M],  // pinballs derecho
     ])
     save()
 }
+
+/*
+Pinball FX2. Ya funciona con Xbox 360 directamente
+*/
+
+/*
+Pinball Arcade. Ya funciona con Xbox directamente
+HKEY_CURRENT_USER\Software\PinballArcade\PinballArcade
+ */
+
+/*
+Sony PlayStation 2
+Configuación en:
+d:\Games\Emulators\PCSX2\PCXS2.gigapig\inis\LilyPad.ini
+Se supone ya está configurado para 360
+ */
 
 println "Configuring AAE"
 // AAE funciona mejor con teclado
@@ -120,5 +167,3 @@ hs.getSystem("AAE").loadJ2KConfig().presets.with {
     ])
     save()
 }
-
-

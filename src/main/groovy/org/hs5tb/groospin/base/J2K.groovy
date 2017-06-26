@@ -8,15 +8,13 @@ import org.hs5tb.groospin.common.IniFile
 class J2K {
     HyperSpin hs
     String systemName
-    RLSystem system
     String emulator
     IniFile cfg
     Preset presets = new Preset()
 
-    J2K(RLSystem system, String emulator = null) {
-        this.hs = system.hyperSpin
-        this.systemName = system.name
-        this.system = system
+    J2K(HyperSpin hs, String systemName, String emulator = null) {
+        this.hs = hs
+        this.systemName = systemName
         this.emulator = emulator
         File cfgFile
         if (emulator) {
@@ -30,10 +28,6 @@ class J2K {
         } else {
             cfg = new IniFile().parse(cfgFile)
         }
-
-    }
-    J2K(HyperSpin hs, String systemName, String emulator = null) {
-        this(hs.getSystem(systemName), emulator)
     }
 
     class Preset {
@@ -223,8 +217,19 @@ class J2K {
         }
 
         Preset analogToCursor(int joy = 1) {
+            analogLeftToCursor(joy)
+            analogRightToCursor(joy)
+            return this
+        }
+
+        Preset analogLeftToCursor(int joy = 1) {
             analogLeftTo(joy, CURSOR_LEFT, CURSOR_DOWN, CURSOR_UP, CURSOR_RIGHT)
+            return this
+        }
+
+        Preset analogRightToCursor(int joy = 1) {
             analogRightTo(joy, CURSOR_LEFT, CURSOR_DOWN, CURSOR_UP, CURSOR_RIGHT)
+            return this
         }
 
         Preset analogLeftTo(int joy = 1, String left, String down, String up, String right) {
@@ -232,6 +237,7 @@ class J2K {
             buttonToKey(joy, "Axis1p", right)
             buttonToKey(joy, "Axis2p", down)
             buttonToKey(joy, "Axis1n", left)
+            return this
         }
 
         Preset analogRightTo(int joy = 1, String left, String down, String up, String right) {
@@ -239,7 +245,7 @@ class J2K {
             buttonToKey(joy, "Axis3p", right)
             buttonToKey(joy, "Axis4p", down)
             buttonToKey(joy, "Axis3n", left)
-            this
+            return this
         }
 
 
@@ -252,7 +258,7 @@ class J2K {
     J2K empty() {
         cfg = new IniFile(file: cfg.file)
         cfg.put("General","FileVersion","57")
-        cfg.put("General","NumberOfJoysticks","3")
+        cfg.put("General","NumberOfJoysticks","4")
         cfg.put("General","DisplayMode","2")
         cfg.put("General","UseDiagonalInput","0")
         cfg.put("General","UsePOV8Way","0")
