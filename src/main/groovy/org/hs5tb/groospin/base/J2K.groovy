@@ -11,27 +11,35 @@ class J2K {
     RLSystem system
     String emulator
     IniFile cfg
+    File systemProfileFolder
+    File defaultEmuProfileFolderLink
     Preset presets = new Preset()
 
     J2K(RLSystem system, String emulator = null) {
         this.hs = system.hyperSpin
         this.systemName = system.name
         this.system = system
-        this.emulator = emulator
+        this.emulator = emulator ?: system.defaultEmulator?.name
         File cfgFile
-        if (emulator) {
-            cfgFile = hs.newRocketLauncherFile("Profiles/JoyToKey/${systemName}/${emulator}/${emulator}.cfg")
-        } else {
-            cfgFile = hs.newRocketLauncherFile("Profiles/JoyToKey/${systemName}/${systemName}.cfg")
+        this.systemProfileFolder = hs.newRocketLauncherFile("Profiles/JoyToKey/${systemName}")
+        if (system.defaultEmulator?.name) {
+            defaultEmuProfileFolderLink = hs.newRocketLauncherFile("Profiles/JoyToKey/${systemName}/${this.emulator}")
         }
-        if (!cfgFile.exists()) {
-            cfg = new IniFile(file: cfgFile)
-            empty()
-        } else {
-            cfg = new IniFile().parse(cfgFile)
+        if (this.systemProfileFolder.exists()) {
+            if (this.emulator && this.defaultEmuProfileFolderLink.exists()) {
+                cfgFile = hs.newRocketLauncherFile("Profiles/JoyToKey/${systemName}/${this.emulator}/${this.emulator}.cfg")
+            } else {
+                cfgFile = hs.newRocketLauncherFile("Profiles/JoyToKey/${systemName}/${systemName}.cfg")
+            }
+            if (!cfgFile.exists()) {
+                cfg = new IniFile(file: cfgFile)
+                empty()
+            } else {
+                cfg = new IniFile().parse(cfgFile)
+            }
         }
-
     }
+
     J2K(HyperSpin hs, String systemName, String emulator = null) {
         this(hs.getSystem(systemName), emulator)
     }
@@ -58,38 +66,38 @@ class J2K {
         static int MAPPING_XBOX360_BACK = 62 // Button7
         static int MAPPING_XBOX360_START = 63 // Button8
 
-        static String none =  null
-        static String ESC =  "1B"
-        static String F1 =  "70"
-        static String F2 =  "71"
-        static String F3 =  "72"
-        static String F4 =  "73"
-        static String F5 =  "74"
-        static String F6 =  "75"
-        static String F7 =  "76"
-        static String F8 =  "77"
-        static String F9 =  "78"
-        static String F10 =  "79"
-        static String ALT =  "12"
-        static String CTRL =  "11"
-        static String SHIFT =  "10"
-        static String SPACE =  "20"
-        static String RETURN =  "0D"
-        static String CAPS =  "14"
-        static String TAB =  "09"
-        static String BACKSPACE =  "08"
-        static String INSERT =  "2D"
-        static String DELETE =  "2E"
-        static String HOME =  "24"
-        static String END =  "23"
-        static String PAGEUP =  "21"
-        static String PAGEDOWN =  "22"
-        static String BELOW_ESC =  "17" // º ª \ LA TECLA QUE ESTA DEBAJO DEL ESCAPE Y ENCIMA DEL BLOQ MAYUSCULAS
+        static String none = null
+        static String ESC = "1B"
+        static String F1 = "70"
+        static String F2 = "71"
+        static String F3 = "72"
+        static String F4 = "73"
+        static String F5 = "74"
+        static String F6 = "75"
+        static String F7 = "76"
+        static String F8 = "77"
+        static String F9 = "78"
+        static String F10 = "79"
+        static String ALT = "12"
+        static String CTRL = "11"
+        static String SHIFT = "10"
+        static String SPACE = "20"
+        static String RETURN = "0D"
+        static String CAPS = "14"
+        static String TAB = "09"
+        static String BACKSPACE = "08"
+        static String INSERT = "2D"
+        static String DELETE = "2E"
+        static String HOME = "24"
+        static String END = "23"
+        static String PAGEUP = "21"
+        static String PAGEDOWN = "22"
+        static String BELOW_ESC = "17" // º ª \ LA TECLA QUE ESTA DEBAJO DEL ESCAPE Y ENCIMA DEL BLOQ MAYUSCULAS
 
-        static String CURSOR_LEFT =  "25"
-        static String CURSOR_DOWN =  "28"
-        static String CURSOR_RIGHT =  "27"
-        static String CURSOR_UP =  "26"
+        static String CURSOR_LEFT = "25"
+        static String CURSOR_DOWN = "28"
+        static String CURSOR_RIGHT = "27"
+        static String CURSOR_UP = "26"
 
         static String KEY_0 = k("0")
         static String KEY_1 = k("1")
@@ -102,16 +110,15 @@ class J2K {
         static String KEY_8 = k("8")
         static String KEY_9 = k("9")
 
-
-        static String KEY_F1 =  "70"
-        static String KEY_F2 =  "71"
-        static String KEY_F3 =  "72"
-        static String KEY_F4 =  "73"
-        static String KEY_F5 =  "74"
-        static String KEY_F6 =  "75"
-        static String KEY_F7 =  "76"
-        static String KEY_F8 =  "77"
-        static String KEY_F9 =  "78"
+        static String KEY_F1 = "70"
+        static String KEY_F2 = "71"
+        static String KEY_F3 = "72"
+        static String KEY_F4 = "73"
+        static String KEY_F5 = "74"
+        static String KEY_F6 = "75"
+        static String KEY_F7 = "76"
+        static String KEY_F8 = "77"
+        static String KEY_F9 = "78"
         static String KEY_F10 = "79"
 
         static String KEY_A = k("A")
@@ -141,8 +148,6 @@ class J2K {
         static String KEY_Y = k("Y")
         static String KEY_Z = k("Z")
 
-
-
         static String k(String k) {
             return Integer.toHexString((k as char) as int).toUpperCase()
         }
@@ -161,15 +166,14 @@ class J2K {
                 buttonToKeys(joy, buttonStart + i, tkeys)
             }
             this
-
         }
 
         Preset buttonToKey(int joy, int button, String key) {
-            buttonToKey(joy, "Button${button<10?"0":""}$button", key)
+            buttonToKey(joy, "Button${button < 10 ? "0" : ""}$button", key)
         }
 
         Preset buttonToKeys(int joy, int button, List keys) {
-            buttonToKeys(joy, "Button${button<10?"0":""}$button", keys)
+            buttonToKeys(joy, "Button${button < 10 ? "0" : ""}$button", keys)
         }
 
         Preset buttonToKey(int joy, String button, String key) {
@@ -242,7 +246,6 @@ class J2K {
             this
         }
 
-
         Preset save() {
             cfg.store()
             return this
@@ -251,18 +254,16 @@ class J2K {
 
     J2K empty() {
         cfg = new IniFile(file: cfg.file)
-        cfg.put("General","FileVersion","57")
-        cfg.put("General","NumberOfJoysticks","3")
-        cfg.put("General","DisplayMode","2")
-        cfg.put("General","UseDiagonalInput","0")
-        cfg.put("General","UsePOV8Way","0")
-        cfg.put("General","Threshold","20")
-        cfg.put("General","Threshold2","20")
-        cfg.put("General","KeySendMode","0")
-        cfg.put("General","NumberOfButtons","32")
+        cfg.put("General", "FileVersion", "57")
+        cfg.put("General", "NumberOfJoysticks", "3")
+        cfg.put("General", "DisplayMode", "2")
+        cfg.put("General", "UseDiagonalInput", "0")
+        cfg.put("General", "UsePOV8Way", "0")
+        cfg.put("General", "Threshold", "20")
+        cfg.put("General", "Threshold2", "20")
+        cfg.put("General", "KeySendMode", "0")
+        cfg.put("General", "NumberOfButtons", "32")
         cfg.store()
         return this
     }
-
-
 }

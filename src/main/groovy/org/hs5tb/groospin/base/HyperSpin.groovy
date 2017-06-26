@@ -196,19 +196,27 @@ class HyperSpin {
         return listSystems().findAll { it.defaultEmulator?.name?.startsWith("MESS") }
     }
 
-        /*
-    CheckResult checkGame(String systemName, String gameName) {
-    CheckResult checkResult = check(systemName, [gameName])
-    checkResult.game = gameName
-    return checkResult
+    Collection<RLSystem> listSystemsByEmuPrefix(String emuPrefix){
+        return listSystems().findAll { it.defaultEmulator?.name?.startsWith(emuPrefix) }
     }
 
-
-    CheckResult checkAllGames(String systemName) {
-    check(systemName, getGamesFromSystem(systemName))
+    Collection<RLSystem> listSystemsByEmu(String emu) {
+        return listSystems().findAll { it.defaultEmulator?.name == emu }
     }
 
-    */
+    /*
+CheckResult checkGame(String systemName, String gameName) {
+CheckResult checkResult = check(systemName, [gameName])
+checkResult.game = gameName
+return checkResult
+}
+
+
+CheckResult checkAllGames(String systemName) {
+check(systemName, getGamesFromSystem(systemName))
+}
+
+*/
 
     File getRocketLauncherExe() {
         newRocketLauncherFile("RocketLauncher.exe")

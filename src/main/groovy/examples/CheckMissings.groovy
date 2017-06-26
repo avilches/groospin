@@ -4,7 +4,7 @@ import org.hs5tb.groospin.base.*
 import org.hs5tb.groospin.checker.*
 import org.hs5tb.groospin.checker.handlers.*
 
-HyperSpin hs = new HyperSpin("i:\\Games\\RocketLauncher")
+HyperSpin hs = new HyperSpin("g:\\Games\\RocketLauncher")
 
 def systems = ["Nintendo Wii"]
 //def systems = ["Sony PlayStation", "Sony PlayStation 2", "Nintendo Wii", "Nintendo GameCube", "Sony PSP", "Party Games"]
