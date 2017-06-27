@@ -68,10 +68,10 @@ class MameMapping {
     }
 
     MameMapping saveCfg(String machine = this.machine) {
-        saveFile(machine, cfg)
+        saveFile(machine, getCfg(machine))
     }
     MameMapping saveCtrl(String machine = this.machine) {
-        saveFile(machine, ctrlr)
+        saveFile("default", getCtrlr(machine))
     }
 
     MameMapping saveFile(String machine = this.machine, File file) {

@@ -2,8 +2,7 @@ package mapping
 
 import org.hs5tb.groospin.base.HyperSpin
 import org.hs5tb.groospin.base.J2K
-import org.hs5tb.groospin.common.IOTools
-import org.hs5tb.groospin.common.IniFile
+import org.hs5tb.groospin.base.MameIni
 
 HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
 int joystickStartPosition = 1
@@ -85,7 +84,7 @@ y hacer el mapeo en el JoyToKey.
  */
 
 // Se elimina el default.cfg para que se vuelva a generar vacio, haciendo antes una copia de seguridad
-hs.mame.backupAndCleanDefaultCfg()
+hs.mameMapping.backupAndCleanDefaultCfg()
 
 println "JoyToKey MAME: Configuring 360 additional buttons (coin, start, dpad)"
 // Mapeos en JoyToKey
@@ -106,6 +105,13 @@ println "JoyToKey MAME: Configuring 360 additional buttons (coin, start, dpad)"
         save()
     }
 }
+
+MameIni mameIni = hs.getMameIni("ini/presets/mame.ini")
+println "MAME: Set dinput keyboard and no ctrlr: ${mameIni.file.absolutePath}"
+mameIni.set("keyboardprovider", "dinput")  // ensure MAME can read JoyToKey mappings
+mameIni.set("ctrlr", "")
+mameIni.save()
+
 println "JoyToKey Future Pinball. (RUN THE REG FILE!!!!!!!!!!!)"
 // Future Pinball. Funciona mejor con teclado. Cargar el registro de Windows para que se carguen estas teclas
 hs.getSystem("Future Pinball").loadJ2KConfig().presets.with {

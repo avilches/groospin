@@ -283,11 +283,23 @@ class HyperSpin {
         }
     }
 
-    MameMapping getMame() {
-        return new MameMapping().folder(newRocketLauncherFile(getGlobalEmulatorsIni().get("MAME", "Emu_Path")).parent)
+    File getMameFolder() {
+        return newRocketLauncherFile(getGlobalEmulatorsIni().get("MAME", "Emu_Path")).parentFile
+    }
+
+    File getRetroArchFolder() {
+        return newRocketLauncherFile(getGlobalEmulatorsIni().get("RetroArch", "Emu_Path")).parentFile
+    }
+
+    MameIni getMameIni(String resource) {
+        return new MameIni().parse(new File(mameFolder, resource))
+    }
+
+    MameMapping getMameMapping() {
+        return new MameMapping().folder(mameFolder.absolutePath)
     }
     RetroArch getRetroArch() {
-        return new RetroArch().folder(newRocketLauncherFile(getGlobalEmulatorsIni().get("RetroArch", "Emu_Path")).parent)
+        return new RetroArch().folder(retroArchFolder.absolutePath)
     }
 
     List<J2K> listAllJoyToKeyProfiles() {

@@ -2,6 +2,7 @@ package mapping
 
 import org.hs5tb.groospin.base.HyperSpin
 import org.hs5tb.groospin.base.J2K
+import org.hs5tb.groospin.base.MameIni
 
 import static org.hs5tb.groospin.base.MameMapping.Action.*
 
@@ -196,9 +197,9 @@ Se usa JoyToKey porque SI SE DESENCHUFA EL JOYSTICK CUALQUIER CONFIGURACIÓN QUE
 SE BORRA. Por lo tanto, cuando se usan mandos que se pueden enchufar y desenchufar, lo mejor es no editar el default.cfg
 y hacer el mapeo en el JoyToKey.
 */
-updatedFiles << hs.mame.cfg.absolutePath
-println "Configuring MAME keys ${hs.mame.cfg.absolutePath}"
-hs.mame.with {
+updatedFiles << hs.mameMapping.cfg.absolutePath
+println "Configuring MAME keys ${hs.mameMapping.cfg.absolutePath}"
+hs.mameMapping.with {
     add(UI_CANCEL, ESC)
     add(COIN1, KEY_5)
     add(COIN2, KEY_6)
@@ -228,8 +229,14 @@ hs.mame.with {
     add(P2_LEFT, KEY_D)
     add(P2_RIGHT, KEY_G)
 
-    saveCfg("default")
+    saveCtrl("arcadeAT")
 }
+
+MameIni mameIni = hs.getMameIni("ini/presets/mame.ini")
+println "MAME: Set dinput keyboard and no 'arcadeAT' ctrlr: ${mameIni.file.absolutePath}"
+mameIni.set("keyboardprovider", "dinput")  // ensure MAME can read JoyToKey mappings
+mameIni.set("ctrlr", "arcadeAT")
+mameIni.save()
 
 // Mapeos en JoyToKey
 println "JoyToKey MAME: joysticks and button -> keys"
