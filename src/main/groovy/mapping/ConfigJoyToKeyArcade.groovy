@@ -25,6 +25,30 @@ P2: 11
 MONEDA: 12
  */
 
+class ArcadeSet {
+    J2K.Preset preset
+    int player1 = 1
+
+    void p1Action1(String key) { preset.buttonToKey(player1 + 0, 1, key) }
+    void p1Action2(String key) { preset.buttonToKey(player1 + 0, 2, key) }
+    void p1Action3(String key) { preset.buttonToKey(player1 + 0, 3, key) }
+    void p1Action4(String key) { preset.buttonToKey(player1 + 0, 4, key) }
+    void p1Action5(String key) { preset.buttonToKey(player1 + 0, 5, key) }
+    void p1Action6(String key) { preset.buttonToKey(player1 + 0, 6, key) }
+    void p1Start(String key)   { preset.buttonToKey(player1 + 0, 7, key) }
+    void exit(String key)      { preset.buttonToKey(player1 + 0, 8, key) }
+    void pinballLeft(String key) { preset.buttonToKey(player1 + 0, 9, key) }
+    void pinballRight(String key) { preset.buttonToKey(player1 + 0, 10, key) }
+    void p2Action1(String key) { preset.buttonToKey(player1 + 1, 1, key) }
+    void p2Action2(String key) { preset.buttonToKey(player1 + 1, 2, key) }
+    void p2Action3(String key) { preset.buttonToKey(player1 + 1, 3, key) }
+    void p2Action4(String key) { preset.buttonToKey(player1 + 1, 4, key) }
+    void p2Action5(String key) { preset.buttonToKey(player1 + 1, 9, key) }
+    void p2Action6(String key) { preset.buttonToKey(player1 + 1, 10, key) }
+    void p2Start(String key)   { preset.buttonToKey(player1 + 1, 11, key) }
+    void coin(String key)      { preset.buttonToKey(player1 + 1, 12, key) }
+}
+
 
 println "Resetting all JoyToKey profiles..."
 /*
@@ -48,34 +72,38 @@ new J2K(hs, "HyperSpin").presets.with {
     dPadToCursor(player2)
     analogToCursor(player1)
     analogToCursor(player2)
-    buttonToKey(player1, 8, ESC)
+    new ArcadeSet(preset: delegate, player1: player1).with {
+        exit(ESC)
+        p1Action1(RETURN)
+        p1Action2(PAGEDOWN)
+        p1Action3(PAGEUP)
+        p1Action4(KEY_H)
+        p1Action5(KEY_G)
+        p1Action6(KEY_F)
+//        p1Start()
+//        coin()
 
-    buttonToKey(player1, 1, RETURN)
-    buttonToKey(player1, 2, PAGEDOWN)
-    buttonToKey(player1, 3, PAGEUP)
+        pinballLeft(LSHIFT)
+        pinballRight(RSHIFT)
 
-    buttonToKey(player1, 4, KEY_H)
-    buttonToKey(player1, 5, KEY_G)
-    buttonToKey(player1, 6, KEY_F)
-
-    buttonToKey(player1, 9, SHIFT)
-
-    buttonToKey(player2, 1, ALT)
-    buttonToKey(player2, 2, CTRL)
-    buttonToKey(player2, 3, SPACE)
-    buttonToKey(player2, 4, F3)
-    buttonToKey(player2, 9, F4)
-    buttonToKey(player2, 10, F5)
+        p2Action1(ALT)
+        p2Action2(CTRL)
+        p2Action3(SPACE)
+        p2Action4(F3)
+        p2Action5(F4)
+        p2Action6(F5)
+//        p2Start()
+    }
     save()
 }
-
-
 
 // Mapear en JoyToKey la tecla ESCAPE con boton SALIR (player 1, accion 8) en TODOS los sistemas
 hs.listAllJoyToKeyProfiles().each { J2K j2k ->
     println "All: Configuring arcade ESC for ${j2k.systemName}"
     j2k.presets.with {
-        buttonToKey(player1, 8, ESC)
+        new ArcadeSet(preset: delegate, player1: player1).with {
+            exit(ESC)
+        }
         save()
     }
 }
@@ -86,36 +114,36 @@ hs.listAllJoyToKeyProfiles().each { J2K j2k ->
 // no podriamos usarla para SELECT del player 1
 ResetAllMappings.resetRetroArch(hs.retroArch)
 hs.retroArch.with {
-        configureKeys(1,
-                [b     : "z",
-                 a     : "x",
-                 y     : "a",
-                 x     : "s",
-                 l     : "q",
-                 r     : "w",
-                 left  : "left",
-                 down  : "down",
-                 up    : "up",
-                 right : "right",
-                 select: "d",
-                 start : "c"]
-        )
-        configureKeys(2,
-                [b     : "num1",
-                 a     : "num2",
-                 y     : "num3",
-                 x     : "num4",
-                 l     : "num5",
-                 r     : "num6",
-                 left  : "num7",
-                 down  : "num8",
-                 up    : "num9",
-                 right : "num0",
-                 select: "g",
-                 start : "b"]
-        )
-        save()
-    }
+    configureKeys(1,
+            [b     : "z",
+             a     : "x",
+             y     : "a",
+             x     : "s",
+             l     : "q",
+             r     : "w",
+             left  : "left",
+             down  : "down",
+             up    : "up",
+             right : "right",
+             select: "d",
+             start : "c"]
+    )
+    configureKeys(2,
+            [b     : "num1",
+             a     : "num2",
+             y     : "num3",
+             x     : "num4",
+             l     : "num5",
+             r     : "num6",
+             left  : "num7",
+             down  : "num8",
+             up    : "num9",
+             right : "num0",
+             select: "g",
+             start : "b"]
+    )
+    save()
+}
 
 
 hs.listSystemsRetroArch()*.loadJ2KConfig().each { J2K j2k ->
@@ -124,28 +152,34 @@ hs.listSystemsRetroArch()*.loadJ2KConfig().each { J2K j2k ->
         dPadToCursor(player1)
         analogToCursor(player1)
 
-        buttonToKey(player1, 1,  KEY_Z)
-        buttonToKey(player1, 2,  KEY_X)
-        buttonToKey(player1, 3,  KEY_A)
-        buttonToKey(player1, 4,  KEY_S)
-        buttonToKey(player1, 5,  KEY_Q)
-        buttonToKey(player1, 6,  KEY_W)
-
-        buttonToKey(player1, 7,  KEY_C) // START P1, PLAYER 1
-        buttonToKey(player2, 11, KEY_D) // SELECT P1, COIN
-
         dPadTo(player2, KEY_7, KEY_8, KEY_9, KEY_0)
-        analogLeftTo(player2, KEY_7, KEY_8, KEY_9, KEY_0)
+        analogTo(player2, KEY_7, KEY_8, KEY_9, KEY_0)
 
-        buttonToKey(player2, 1,  KEY_1)
-        buttonToKey(player2, 2,  KEY_2)
-        buttonToKey(player2, 3,  KEY_3)
-        buttonToKey(player2, 4,  KEY_4)
-        buttonToKey(player2, 9,  KEY_5)
-        buttonToKey(player2, 10, KEY_6)
+        new ArcadeSet(preset: delegate, player1: player1).with {
+            p1Action1(KEY_Z)
+            p1Action2(KEY_X)
+            p1Action3(KEY_A)
+            p1Action4(KEY_S)
+            p1Action5(KEY_Q)
+            p1Action6(KEY_W)
 
-        buttonToKey(player1, 9,  F2)    // SAVE, PINBALL IZQUIERDO
-        buttonToKey(player1, 10, F4)    // LOAD, PINBALL DERECHO
+            p1Start(KEY_C)
+            coin(KEY_D)
+
+            p2Action1(KEY_1)
+            p2Action2(KEY_2)
+            p2Action3(KEY_3)
+            p2Action4(KEY_4)
+            p2Action5(KEY_5)
+            p2Action6(KEY_6)
+
+            p2Start(KEY_B)
+
+//            pinballLeft(F2)     // SAVE, PINBALL IZQUIERDO
+//            pinballRight(F4)    // LOAD, PINBALL DERECHO
+        }
+
+        buttonToOtherJoy(player1, 9, player2+1) // PINBALL IZQUIERDO
 
         save()
     }
@@ -167,7 +201,7 @@ y hacer el mapeo en el JoyToKey.
 hs.mame.backupAndCleanDefaultCfg()
 
 // Mapeos en JoyToKey
-(hs.listSystemsMAME()+hs.getSystem("HBMAME"))*.loadJ2KConfig().each { J2K j2k ->
+(hs.listSystemsMAME() + hs.listSystemsMESS() + hs.getSystem("HBMAME"))*.loadJ2KConfig().each { J2K j2k ->
     println "MAME: Configuring 360 for ${j2k.systemName}"
 
     j2k.presets.with {
@@ -176,11 +210,11 @@ hs.mame.backupAndCleanDefaultCfg()
         dPadToCursor(player1)
         dPadTo(player2, KEY_D, KEY_F, KEY_R, KEY_G)
         buttonsTo(player1, [
-                (XBOX360_BACK): KEY_5,
+                (XBOX360_BACK) : KEY_5,
                 (XBOX360_START): KEY_1
         ])
         buttonsTo(player2, [
-                (XBOX360_BACK): KEY_6,
+                (XBOX360_BACK) : KEY_6,
                 (XBOX360_START): KEY_2
         ])
         save()
@@ -190,29 +224,29 @@ println "1 Configuring Future Pinball. RUN THE REG FILE!!!!!!!!!!!"
 println "2 Run at least one time Future Pinball as Administrator"
 // Future Pinball. Funciona mejor con teclado. Cargar el registro de Windows para que se carguen estas teclas
 hs.getSystem("Future Pinball").loadJ2KConfig().presets.with {
-    analogLeftTo(player1, KEY_F, RETURN, SPACE, KEY_A)  // abajo sacar, resto golpear
-    analogLeftTo(player2, KEY_F, RETURN, SPACE, KEY_A)  // abajo sacar, resto golpear
+    analogTo(player1, KEY_F, RETURN, SPACE, KEY_A)  // abajo sacar, resto golpear
+    analogTo(player2, KEY_F, RETURN, SPACE, KEY_A)  // abajo sacar, resto golpear
 
-    buttonToKeys(player1, 9,  [KEY_Z, KEY_X])    // PINBALL IZQUIERDO
+    buttonToKeys(player1, 9, [KEY_Z, KEY_X])    // PINBALL IZQUIERDO
     buttonToKeys(player1, 10, [KEY_N, KEY_M])    // PINBALL DERECHO
 
-    buttonToKey(player1, 1,  TAB)
-    buttonToKey(player1, 2,  F7)
-    buttonToKey(player1, 3,  F8)
-    buttonToKey(player1, 4,  KEY_S)
-    buttonToKey(player1, 5,  KEY_D)   // SPECIAL
+    new ArcadeSet(preset: delegate, player1: player1).with {
+        p1Action1(TAB)
+        p1Action2(F7)
+        p1Action3(F8)
+        p1Action4(KEY_S)
+        p1Action5(KEY_D)   // SPECIAL
+        p1Action6(KEY_9)   // SERVICE
+        p1Start(KEY_1)   // START P1, PLAYER 1
+        coin(KEY_5)
 
-    buttonToKey(player1, 6,  KEY_9)   // SERVICE
-
-    buttonToKey(player1, 7,  KEY_1) // START P1, PLAYER 1
-    buttonToKey(player2, 11, KEY_5) // SELECT P1, COIN
-
-    buttonToKey(player2, 1,  F1)
-    buttonToKey(player2, 2,  F2)
-    buttonToKey(player2, 3,  F3)
-    buttonToKey(player2, 4,  F4)
-    buttonToKey(player2, 9,  F5)
-    buttonToKey(player2, 10, F6)
+        p2Action1(F1)
+        p2Action2(F2)
+        p2Action3(F3)
+        p2Action4(F4)
+        p2Action5(F5)
+        p2Action6(F6)
+    }
 
     save()
 }
@@ -226,6 +260,35 @@ vista: c
 nudge: lctrl, space, rctrl
 */
 
+hs.getSystem("Pinball FX2").loadJ2KConfig().presets.with {
+    analogTo(player1, LCTRL, RETURN, SPACE, RCTRL)  // abajo sacar, resto golpear
+    analogTo(player2, LCTRL, RETURN, SPACE, RCTRL)  // abajo sacar, resto golpear
+
+    new ArcadeSet(preset: delegate, player1: player1).with {
+        p1Action1(RETURN)
+        p1Action2(RETURN)
+        p1Action3(RETURN)
+        p1Action4(KEY_C)
+        p1Action5(KEY_C)
+        p1Action6(KEY_C)
+        
+        p1Start(RETURN)
+        coin(RETURN)
+
+        pinballLeft(LSHIFT)
+        pinballRight(RSHIFT)
+
+        p2Action1(RETURN)
+        p2Action2(RETURN)
+        p2Action3(RETURN)
+        p2Action4(KEY_C)
+        p2Action5(KEY_C)
+        p2Action6(KEY_C)
+    }
+
+    save()
+}
+
 /*
 Pinball Arcade. Ya funciona con Xbox directamente
 HKEY_CURRENT_USER\Software\PinballArcade\PinballArcade
@@ -237,6 +300,38 @@ nudge: AWSD
 camara: C, lock: V
 hud: H
  */
+
+hs.getSystem("Pinball FX2").loadJ2KConfig().presets.with {
+    analogTo(player1, KEY_A, KEY_S, KEY_W, KEY_D)  // GOLPEAR
+    analogTo(player2, KEY_A, KEY_S, KEY_W, KEY_D)  // GOLPEAR
+
+    buttonToKeys(player1, 9, [LCTRL, LSHIFT])    // PINBALL IZQUIERDO
+    buttonToKeys(player1, 10, [RCTRL, LCTRL])    // PINBALL DERECHO
+
+    new ArcadeSet(preset: delegate, player1: player1).with {
+        p1Action1(SPACE)
+        p1Action2(SPACE)
+        p1Action3(SPACE)
+        p1Action4(KEY_C)
+        p1Action5(KEY_V)
+        p1Action6(KEY_H)
+
+        p1Start(SPACE)
+        coin(SPACE)
+
+        p2Action1(SPACE)
+        p2Action2(SPACE)
+        p2Action3(SPACE)
+        p2Action4(KEY_C)
+        p2Action5(KEY_V)
+        p2Action6(KEY_H)
+
+    }
+
+    save()
+}
+
+
 
 /*
 Sony PlayStation 2
@@ -272,19 +367,19 @@ hs.getSystem("AAE").loadJ2KConfig().presets.with {
     analogToCursor(player1)
     analogToCursor(player2)
     buttonsTo(player1, [
-            (XBOX360_A): ALT,
-            (XBOX360_B): CTRL,
-            (XBOX360_X): SHIFT,
-            (XBOX360_Y): SPACE,
-            (XBOX360_BACK): KEY_5,
+            (XBOX360_A)    : ALT,
+            (XBOX360_B)    : CTRL,
+            (XBOX360_X)    : SHIFT,
+            (XBOX360_Y)    : SPACE,
+            (XBOX360_BACK) : KEY_5,
             (XBOX360_START): KEY_1
     ])
     buttonsTo(player2, [
-            (XBOX360_A): ALT,
-            (XBOX360_B): CTRL,
-            (XBOX360_X): SHIFT,
-            (XBOX360_Y): SPACE,
-            (XBOX360_BACK): KEY_5,
+            (XBOX360_A)    : ALT,
+            (XBOX360_B)    : CTRL,
+            (XBOX360_X)    : SHIFT,
+            (XBOX360_Y)    : SPACE,
+            (XBOX360_BACK) : KEY_5,
             (XBOX360_START): KEY_2
     ])
     save()

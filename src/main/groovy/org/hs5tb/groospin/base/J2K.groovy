@@ -64,12 +64,24 @@ class J2K {
         static String F8 =  "77"
         static String F9 =  "78"
         static String F10 =  "79"
-        static String ALT =  "12"
-        static String CTRL =  "11"
+
         static String SHIFT =  "10"
+        static String CTRL =  "11"
+        static String ALT =  "12"
+
+        static String LSHIFT = "A0"
+        static String RSHIFT = "A1"
+
+        static String LCTRL = "A2"
+        static String RCTRL = "A3"
+
+        static String LALT = "A4"
+        static String RALT = "A5"
+
         static String SPACE =  "20"
         static String RETURN =  "0D"
         static String CAPS =  "14"
+        static String PAUSE =  "13"
         static String TAB =  "09"
         static String BACKSPACE =  "08"
         static String INSERT =  "2D"
@@ -158,6 +170,11 @@ class J2K {
 
         }
 
+        Preset buttonToOtherJoy(int joy, int button, int newJoy) {
+            cfg.put("Joystick $joy", "Button${button<10?"0":""}$button", "5, ${newJoy}, 0")
+            return this
+        }
+
         Preset buttonToKey(int joy, int button, String key) {
             buttonToKey(joy, "Button${button<10?"0":""}$button", key)
         }
@@ -171,7 +188,7 @@ class J2K {
         }
 
         Preset buttonToKeys(int joy, String button, List keys) {
-            keys = keys + (["00"] * 4 - keys.size())
+            keys = keys + (["00"] * 3 - keys.size())
             String skeys = keys.join(":")
             cfg.put("Joystick $joy", button, "1, ${skeys}, 0.000, 0, 0")
             this
@@ -229,6 +246,12 @@ class J2K {
 
         Preset analogRightToCursor(int joy = 1) {
             analogRightTo(joy, CURSOR_LEFT, CURSOR_DOWN, CURSOR_UP, CURSOR_RIGHT)
+            return this
+        }
+
+        Preset analogTo(int joy = 1, String left, String down, String up, String right) {
+            analogLeftTo(joy, left, down, up, right)
+            analogRightTo(joy, left, down, up, right)
             return this
         }
 
