@@ -22,6 +22,9 @@ class IniFile extends Ini {
     }
 
     void store(File file) {
+        if (!file.parentFile.exists()) {
+            file.parentFile.mkdirs()
+        }
         store(file.newWriter())
     }
 
