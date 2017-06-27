@@ -5,6 +5,8 @@ import org.hs5tb.groospin.base.J2K
 
 import static org.hs5tb.groospin.base.MameMapping.Action.*
 
+Set updatedFiles = []
+
 HyperSpin hs = new HyperSpin("A:/RocketLauncher")
 
 int joystickStartPosition = 1
@@ -49,7 +51,6 @@ class ArcadeSet {
 }
 
 
-println "Resetting all JoyToKey profiles..."
 /*
 Vaciamos todos los mapeos de JoyToKey
  */
@@ -66,6 +67,8 @@ CONTROL ALT MAYUSCULAS + F = TEAM VIEWER
 	Return
 
  */
+
+println "JoyToKey HyperSpin: Configuring profile for Arcade"
 new J2K(hs, "HyperSpin").presets.with {
     dPadToCursor(player1)
     dPadToCursor(player2)
@@ -97,8 +100,8 @@ new J2K(hs, "HyperSpin").presets.with {
 }
 
 // Mapear en JoyToKey la tecla ESCAPE con boton SALIR (player 1, accion 8) en TODOS los sistemas
+println "JoyToKey all: [exit button] -> ESC....."
 hs.listAllJoyToKeyProfiles().each { J2K j2k ->
-    println "All: Configuring arcade ESC for ${j2k.systemName}"
     j2k.presets.with {
         new ArcadeSet(preset: delegate, player1: player1).with {
             exit(ESC)
@@ -112,6 +115,8 @@ hs.listAllJoyToKeyProfiles().each { J2K j2k ->
 // permite usar botones de otros player para un player. Insertar moneda pertenece al player 2 por lo que
 // no podriamos usarla para SELECT del player 1
 ResetAllMappings.resetRetroArch(hs.retroArch)
+
+println "Configuring RetroArch keys "+hs.retroArch.iniFile.file.absolutePath
 hs.retroArch.with {
     configureKeys(1,
             [b     : "z",
@@ -145,8 +150,8 @@ hs.retroArch.with {
 }
 
 
+println "JoyToKey RetroArch: joysticks and button -> RetroArch keys"
 hs.listSystemsRetroArch()*.loadJ2KConfig().each { J2K j2k ->
-    println "RetroArch: Configuring arcade ${j2k.systemName}"
     j2k.presets.with {
         dPadToCursor(player1)
         analogToCursor(player1)
@@ -191,8 +196,9 @@ Se usa JoyToKey porque SI SE DESENCHUFA EL JOYSTICK CUALQUIER CONFIGURACIÓN QUE
 SE BORRA. Por lo tanto, cuando se usan mandos que se pueden enchufar y desenchufar, lo mejor es no editar el default.cfg
 y hacer el mapeo en el JoyToKey.
 */
-
-hs.getMame().with {
+updatedFiles << hs.mame.cfg.absolutePath
+println "Configuring MAME keys ${hs.mame.cfg.absolutePath}"
+hs.mame.with {
     add(UI_CANCEL, ESC)
     add(COIN1, KEY_5)
     add(COIN2, KEY_6)
@@ -200,34 +206,34 @@ hs.getMame().with {
     add(START1, KEY_1)
     add(START2, KEY_2)
 
-    add(J1_BUTTON1, LCONTROL)
-    add(J1_BUTTON2, LALT)
-    add(J1_BUTTON3, SPACE)
-    add(J1_BUTTON4, LSHIFT)
-    add(J1_BUTTON5, KEY_Z)
-    add(J1_BUTTON6, KEY_X)
-    add(J1_UP, CURSOR_UP)
-    add(J1_DOWN, CURSOR_DOWN)
-    add(J1_LEFT, CURSOR_LEFT)
-    add(J1_RIGHT, CURSOR_RIGHT)
+    add(P1_BUTTON1, LCONTROL)
+    add(P1_BUTTON2, LALT)
+    add(P1_BUTTON3, SPACE)
+    add(P1_BUTTON4, LSHIFT)
+    add(P1_BUTTON5, KEY_Z)
+    add(P1_BUTTON6, KEY_X)
+    add(P1_UP, CURSOR_UP)
+    add(P1_DOWN, CURSOR_DOWN)
+    add(P1_LEFT, CURSOR_LEFT)
+    add(P1_RIGHT, CURSOR_RIGHT)
 
-    add(J2_BUTTON1, KEY_A)
-    add(J2_BUTTON2, KEY_S)
-    add(J2_BUTTON3, KEY_Q)
-    add(J2_BUTTON4, KEY_W)
-    add(J2_BUTTON5, CAPSLOCK)
-    add(J2_BUTTON6, KEY_E)
-    add(J2_UP, KEY_R)
-    add(J2_DOWN, KEY_F)
-    add(J2_LEFT, KEY_D)
-    add(J2_RIGHT, KEY_G)
+    add(P2_BUTTON1, KEY_A)
+    add(P2_BUTTON2, KEY_S)
+    add(P2_BUTTON3, KEY_Q)
+    add(P2_BUTTON4, KEY_W)
+    add(P2_BUTTON5, CAPSLOCK)
+    add(P2_BUTTON6, KEY_E)
+    add(P2_UP, KEY_R)
+    add(P2_DOWN, KEY_F)
+    add(P2_LEFT, KEY_D)
+    add(P2_RIGHT, KEY_G)
 
     saveCfg("default")
 }
 
 // Mapeos en JoyToKey
+println "JoyToKey MAME: joysticks and button -> keys"
 (hs.listSystemsMAME() + hs.listSystemsMESS() + hs.getSystem("HBMAME"))*.loadJ2KConfig().each { J2K j2k ->
-    println "MAME: Configuring 360 for ${j2k.systemName}"
 
     j2k.presets.with {
         analogTo(player1, CURSOR_LEFT, CURSOR_DOWN, CURSOR_UP, CURSOR_RIGHT)
@@ -258,8 +264,7 @@ hs.getMame().with {
 
     }
 }
-println "1 Configuring Future Pinball. RUN THE REG FILE!!!!!!!!!!!"
-println "2 Run at least one time Future Pinball as Administrator"
+println "JoyToKey Future Pinball. (RUN THE REG FILE!!!!!!!!!!!)"
 // Future Pinball. Funciona mejor con teclado. Cargar el registro de Windows para que se carguen estas teclas
 hs.getSystem("Future Pinball").loadJ2KConfig().presets.with {
     analogTo(player1, KEY_F, RETURN, SPACE, KEY_A)  // abajo sacar, resto golpear
@@ -298,6 +303,7 @@ vista: c
 nudge: lctrl, space, rctrl
 */
 
+println "JoyToKey Pinball FX2"
 hs.getSystem("Pinball FX2").loadJ2KConfig().presets.with {
     analogTo(player1, LCTRL, RETURN, SPACE, RCTRL)  // abajo sacar, resto golpear
     analogTo(player2, LCTRL, RETURN, SPACE, RCTRL)  // abajo sacar, resto golpear
@@ -339,7 +345,7 @@ camara: C, lock: V
 hud: H
  */
 
-hs.getSystem("Pinball FX2").loadJ2KConfig().presets.with {
+hs.getSystem("Pinball Arcade").loadJ2KConfig().presets.with {
     analogTo(player1, KEY_A, KEY_S, KEY_W, KEY_D)  // GOLPEAR
     analogTo(player2, KEY_A, KEY_S, KEY_W, KEY_D)  // GOLPEAR
 
@@ -397,7 +403,7 @@ if (psx2.get("Device 1", "Display Name") != "WM Keyboard") {
     psx2.store()
 }
 */
-println "Configuring AAE"
+println "JoyToKey AAE"
 // AAE funciona mejor con teclado
 hs.getSystem("AAE").loadJ2KConfig().presets.with {
     analogToCursor(player1)

@@ -22,8 +22,13 @@ class MameMapping {
         return new File(folder + "/cfg/${machine}.cfg")
     }
 
+    File getCtrlr(String machine = this.machine) {
+        return new File(folder + "/ctrlr/${machine}.cfg")
+    }
+
 
     MameMapping backupAndCleanDefaultCfg() {
+        println "Backup (if exists) and clean default.cfg: ${cfg.absolutePath}"
         loadDefaultCfg()
         if (mapping) {
             String newName = "${machine}-${new Date().format("yyyyMMdd-HHmmss")}"
@@ -37,10 +42,18 @@ class MameMapping {
     }
 
     MameMapping loadCfg(String machine) {
+        loadFile(machine, cfg)
+    }
+
+    MameMapping loadCtrlr(String machine) {
+        loadFile(machine, ctrlr)
+    }
+
+    MameMapping loadFile(String machine, File file) {
         this.machine = machine
         mapping.clear()
-        if (cfg.exists()) {
-            Node mameconfig = new XmlParser().parse(cfg)
+        if (file.exists()) {
+            Node mameconfig = new XmlParser().parse(file)
             mameconfig.system.input.port.each { Node port ->
                 String action = port.@type
                 String codes = port.newseq ? port.newseq[0].text()?.trim()?.toUpperCase() : null
@@ -55,8 +68,14 @@ class MameMapping {
     }
 
     MameMapping saveCfg(String machine = this.machine) {
-        File cfg = getCfg(machine)
-        MarkupBuilder mb = new MarkupBuilder(new IndentPrinter(new PrintWriter(cfg.newWriter()), "    "))
+        saveFile(machine, cfg)
+    }
+    MameMapping saveCtrl(String machine = this.machine) {
+        saveFile(machine, ctrlr)
+    }
+
+    MameMapping saveFile(String machine = this.machine, File file) {
+        MarkupBuilder mb = new MarkupBuilder(new IndentPrinter(new PrintWriter(file.newWriter()), "    "))
         mb.mkp.xmlDeclaration(version: "1.0")
         mb.setOmitNullAttributes(true)
         mb.setDoubleQuotes(true)
@@ -339,9 +358,9 @@ class MameMapping {
         static String UI_THROTTLE = "UI_THROTTLE"
         static String UI_FRAMESKIP_DEC = "UI_FRAMESKIP_DEC"
         static String UI_FRAMESKIP_INC = "UI_FRAMESKIP_INC"
-        static String P1_BUTTON1 = "P1_BUTTON1"
         static String P1_BUTTON2 = "P1_BUTTON2"
         static String P1_BUTTON3 = "P1_BUTTON3"
+        static String P1_BUTTON1 = "P1_BUTTON1"
         static String P1_BUTTON4 = "P1_BUTTON4"
         static String P1_BUTTON5 = "P1_BUTTON5"
         static String P1_BUTTON6 = "P1_BUTTON6"
@@ -349,18 +368,87 @@ class MameMapping {
         static String P1_BUTTON8 = "P1_BUTTON8"
         static String P1_BUTTON9 = "P1_BUTTON9"
         static String P1_BUTTON10 = "P1_BUTTON10"
-        static String P1_JOYSTICK_DOWN = "P1_JOYSTICK_DOWN"
-        static String P1_JOYSTICK_LEFT = "P1_JOYSTICK_LEFT"
-        static String P1_JOYSTICK_RIGHT = "P1_JOYSTICK_RIGHT"
-        static String P1_JOYSTICK_UP = "P1_JOYSTICK_UP"
-        static String P1_JOYSTICKLEFT_DOWN = "P1_JOYSTICKLEFT_DOWN"
-        static String P1_JOYSTICKLEFT_LEFT = "P1_JOYSTICKLEFT_LEFT"
-        static String P1_JOYSTICKLEFT_RIGHT = "P1_JOYSTICKLEFT_RIGHT"
-        static String P1_JOYSTICKLEFT_UP = "P1_JOYSTICKLEFT_UP"
-        static String P1_JOYSTICKRIGHT_DOWN = "P1_JOYSTICKRIGHT_DOWN"
-        static String P1_JOYSTICKRIGHT_LEFT = "P1_JOYSTICKRIGHT_LEFT"
-        static String P1_JOYSTICKRIGHT_RIGHT = "P1_JOYSTICKRIGHT_RIGHT"
-        static String P1_JOYSTICKRIGHT_UP = "P1_JOYSTICKRIGHT_UP"
+        static String P1_DOWN = "P1_JOYSTICK_DOWN"
+        static String P1_LEFT = "P1_JOYSTICK_LEFT"
+        static String P1_RIGHT = "P1_JOYSTICK_RIGHT"
+        static String P1_UP = "P1_JOYSTICK_UP"
+        static String P1_ANALOG_LEFT_DOWN = "P1_JOYSTICKLEFT_DOWN"
+        static String P1_ANALOG_LEFT_LEFT = "P1_JOYSTICKLEFT_LEFT"
+        static String P1_ANALOG_LEFT_RIGHT = "P1_JOYSTICKLEFT_RIGHT"
+        static String P1_ANALOG_LEFT_UP = "P1_JOYSTICKLEFT_UP"
+        static String P1_ANALOG_RIGHT_DOWN = "P1_JOYSTICKRIGHT_DOWN"
+        static String P1_ANALOG_RIGHT_LEFT = "P1_JOYSTICKRIGHT_LEFT"
+        static String P1_ANALOG_RIGHT_RIGHT = "P1_JOYSTICKRIGHT_RIGHT"
+        static String P1_ANALOG_RIGHT_UP = "P1_JOYSTICKRIGHT_UP"
+
+        static String P2_BUTTON2 = "P2_BUTTON2"
+        static String P2_BUTTON3 = "P2_BUTTON3"
+        static String P2_BUTTON1 = "P2_BUTTON1"
+        static String P2_BUTTON4 = "P2_BUTTON4"
+        static String P2_BUTTON5 = "P2_BUTTON5"
+        static String P2_BUTTON6 = "P2_BUTTON6"
+        static String P2_BUTTON7 = "P2_BUTTON7"
+        static String P2_BUTTON8 = "P2_BUTTON8"
+        static String P2_BUTTON9 = "P2_BUTTON9"
+        static String P2_BUTTON10 = "P2_BUTTON10"
+        static String P2_DOWN = "P2_JOYSTICK_DOWN"
+        static String P2_LEFT = "P2_JOYSTICK_LEFT"
+        static String P2_RIGHT = "P2_JOYSTICK_RIGHT"
+        static String P2_UP = "P2_JOYSTICK_UP"
+        static String P2_ANALOG_LEFT_DOWN = "P2_JOYSTICKLEFT_DOWN"
+        static String P2_ANALOG_LEFT_LEFT = "P2_JOYSTICKLEFT_LEFT"
+        static String P2_ANALOG_LEFT_RIGHT = "P2_JOYSTICKLEFT_RIGHT"
+        static String P2_ANALOG_LEFT_UP = "P2_JOYSTICKLEFT_UP"
+        static String P2_ANALOG_RIGHT_DOWN = "P2_JOYSTICKRIGHT_DOWN"
+        static String P2_ANALOG_RIGHT_LEFT = "P2_JOYSTICKRIGHT_LEFT"
+        static String P2_ANALOG_RIGHT_RIGHT = "P2_JOYSTICKRIGHT_RIGHT"
+        static String P2_ANALOG_RIGHT_UP = "P2_JOYSTICKRIGHT_UP"
+
+        static String P3_BUTTON2 = "P3_BUTTON2"
+        static String P3_BUTTON3 = "P3_BUTTON3"
+        static String P3_BUTTON1 = "P3_BUTTON1"
+        static String P3_BUTTON4 = "P3_BUTTON4"
+        static String P3_BUTTON5 = "P3_BUTTON5"
+        static String P3_BUTTON6 = "P3_BUTTON6"
+        static String P3_BUTTON7 = "P3_BUTTON7"
+        static String P3_BUTTON8 = "P3_BUTTON8"
+        static String P3_BUTTON9 = "P3_BUTTON9"
+        static String P3_BUTTON10 = "P3_BUTTON10"
+        static String P3_DOWN = "P3_JOYSTICK_DOWN"
+        static String P3_LEFT = "P3_JOYSTICK_LEFT"
+        static String P3_RIGHT = "P3_JOYSTICK_RIGHT"
+        static String P3_UP = "P3_JOYSTICK_UP"
+        static String P3_ANALOG_LEFT_DOWN = "P3_JOYSTICKLEFT_DOWN"
+        static String P3_ANALOG_LEFT_LEFT = "P3_JOYSTICKLEFT_LEFT"
+        static String P3_ANALOG_LEFT_RIGHT = "P3_JOYSTICKLEFT_RIGHT"
+        static String P3_ANALOG_LEFT_UP = "P3_JOYSTICKLEFT_UP"
+        static String P3_ANALOG_RIGHT_DOWN = "P3_JOYSTICKRIGHT_DOWN"
+        static String P3_ANALOG_RIGHT_LEFT = "P3_JOYSTICKRIGHT_LEFT"
+        static String P3_ANALOG_RIGHT_RIGHT = "P3_JOYSTICKRIGHT_RIGHT"
+        static String P3_ANALOG_RIGHT_UP = "P3_JOYSTICKRIGHT_UP"
+
+        static String P4_BUTTON2 = "P4_BUTTON2"
+        static String P4_BUTTON3 = "P4_BUTTON3"
+        static String P4_BUTTON1 = "P4_BUTTON1"
+        static String P4_BUTTON4 = "P4_BUTTON4"
+        static String P4_BUTTON5 = "P4_BUTTON5"
+        static String P4_BUTTON6 = "P4_BUTTON6"
+        static String P4_BUTTON7 = "P4_BUTTON7"
+        static String P4_BUTTON8 = "P4_BUTTON8"
+        static String P4_BUTTON9 = "P4_BUTTON9"
+        static String P4_BUTTON10 = "P4_BUTTON10"
+        static String P4_DOWN = "P4_JOYSTICK_DOWN"
+        static String P4_LEFT = "P4_JOYSTICK_LEFT"
+        static String P4_RIGHT = "P4_JOYSTICK_RIGHT"
+        static String P4_UP = "P4_JOYSTICK_UP"
+        static String P4_ANALOG_LEFT_DOWN = "P4_JOYSTICKLEFT_DOWN"
+        static String P4_ANALOG_LEFT_LEFT = "P4_JOYSTICKLEFT_LEFT"
+        static String P4_ANALOG_LEFT_RIGHT = "P4_JOYSTICKLEFT_RIGHT"
+        static String P4_ANALOG_LEFT_UP = "P4_JOYSTICKLEFT_UP"
+        static String P4_ANALOG_RIGHT_DOWN = "P4_JOYSTICKRIGHT_DOWN"
+        static String P4_ANALOG_RIGHT_LEFT = "P4_JOYSTICKRIGHT_LEFT"
+        static String P4_ANALOG_RIGHT_RIGHT = "P4_JOYSTICKRIGHT_RIGHT"
+        static String P4_ANALOG_RIGHT_UP = "P4_JOYSTICKRIGHT_UP"
 
     }
     

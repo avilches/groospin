@@ -6,8 +6,6 @@ import org.hs5tb.groospin.common.IOTools
 import org.hs5tb.groospin.common.IniFile
 
 HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
-
-println "Resetting all JoyToKey profiles..."
 // Vaciamos todos los mapeos de JoyToKey
 ResetAllMappings.emptyAllJoyToKeyProfiles(hs)
 

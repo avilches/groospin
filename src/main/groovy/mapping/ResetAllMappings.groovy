@@ -11,10 +11,12 @@ class ResetAllMappings {
     Vacia todos los mapeos de JoyToKey
      */
     static void emptyAllJoyToKeyProfiles(HyperSpin hs) {
+        println "Empty all JoyToKey profiles: "+hs.newRocketLauncherFile("Profiles/JoyToKey").absolutePath+"\\**\\*"
         (hs.listAllJoyToKeyProfiles()+new J2K(hs, "HyperSpin")).each { it.empty() }
     }
 
     static void resetHyperSpinMainMenuControls(HyperSpin hs) {
+        println "Setting default HyperSpin keys: "+hs.newHyperSpinFile("Settings/Settings.ini").absolutePath
         hs.withHyperSpinSettings("Settings") { String filename, IniFile ini ->
             ini.put("P1 Joystick", "Enabled", "false")
             ini.put("P2 Joystick", "Enabled", "false")
@@ -51,6 +53,7 @@ class ResetAllMappings {
     Resetea los joystick 1 y 2 para que funcionen de fabrica u TODAS las teclas de sistema.
     */
     static void resetRetroArch(RetroArch retroArch) {
+        println "Resetting Retroarch (empty players button&joystick, force default keys for extra): "+retroArch.iniFile.file.absolutePath
         retroArch.with {
             resetKeys()
             resetPlayer(1, 1)
