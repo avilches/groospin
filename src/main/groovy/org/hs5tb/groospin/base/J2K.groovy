@@ -73,14 +73,18 @@ class J2K {
         static String RSHIFT = "A1"
 
         static String LCTRL = "A2"
+        static String LCONTROL = "A2"
         static String RCTRL = "A3"
+        static String RCONTROL = "A3"
 
         static String LALT = "A4"
         static String RALT = "A5"
 
         static String SPACE =  "20"
+        static String ENTER =  "0D"
         static String RETURN =  "0D"
         static String CAPS =  "14"
+        static String CAPSLOCK =  "14"
         static String PAUSE =  "13"
         static String TAB =  "09"
         static String BACKSPACE =  "08"
