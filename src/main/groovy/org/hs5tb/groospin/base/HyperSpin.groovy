@@ -283,8 +283,8 @@ class HyperSpin {
         }
     }
 
-    Mame getMame() {
-        return new Mame().folder(newRocketLauncherFile(getGlobalEmulatorsIni().get("MAME", "Emu_Path")).parent)
+    MameMapping getMame() {
+        return new MameMapping().folder(newRocketLauncherFile(getGlobalEmulatorsIni().get("MAME", "Emu_Path")).parent)
     }
     RetroArch getRetroArch() {
         return new RetroArch().folder(newRocketLauncherFile(getGlobalEmulatorsIni().get("RetroArch", "Emu_Path")).parent)

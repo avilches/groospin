@@ -2,11 +2,10 @@ package mapping
 
 import org.hs5tb.groospin.base.HyperSpin
 import org.hs5tb.groospin.base.J2K
-import org.hs5tb.groospin.base.RetroArch
-import org.hs5tb.groospin.common.IOTools
-import org.hs5tb.groospin.common.IniFile
 
-HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
+import static org.hs5tb.groospin.base.MameMapping.Action.*
+
+HyperSpin hs = new HyperSpin("A:/RocketLauncher")
 
 int joystickStartPosition = 1
 int player1 = joystickStartPosition
@@ -179,45 +178,84 @@ hs.listSystemsRetroArch()*.loadJ2KConfig().each { J2K j2k ->
 //            pinballRight(F4)    // LOAD, PINBALL DERECHO
         }
 
-        buttonToOtherJoy(player1, 9, player2+1) // PINBALL IZQUIERDO
+        // TODO:
+//        buttonToOtherJoy(player1, 9, player2+1) // PINBALL IZQUIERDO
 
         save()
     }
 }
 
-/* Los sistemas MAME ya funcionan con los mandos de 360 si estan conectados como JOYSTICKS 1 Y 2
+/* Se mapea MAME con teclas y luego se usa JoyToKey
 
-¿Porque se usa entonces JoyToKey?
-- El dpad digital del mando de 360 no funciona, asi que se mapea a los cursores (solo funciona el analogico de la izquierda)
-- Se mapean BACK y START para echar moneda y start
-TODAS ESTAS CONFIGURACIONES SE PODRIAN HACER MODIFICANDO EL default.cfg pero hay un problema:
-
-SI SE DESENCHUFA EL MANDO (O SI ES INALAMBRICO Y SE APAGA) CUALQUIER CONFIGURACIÓN QUE SE TENGA ECHA EN EL default.cfg
+Se usa JoyToKey porque SI SE DESENCHUFA EL JOYSTICK CUALQUIER CONFIGURACIÓN QUE SE TENGA ECHA EN EL default.cfg
 SE BORRA. Por lo tanto, cuando se usan mandos que se pueden enchufar y desenchufar, lo mejor es no editar el default.cfg
 y hacer el mapeo en el JoyToKey.
- */
+*/
 
-// Se elimina el default.cfg para que se vuelva a generar vacio, haciendo antes una copia de seguridad
-hs.mame.backupAndCleanDefaultCfg()
+hs.getMame().with {
+    add(UI_CANCEL, ESC)
+    add(COIN1, KEY_5)
+    add(COIN2, KEY_6)
+    add(COIN2, KEY_5)  // MONEDA P2 TAMBIEN EN LA MISMA TECLA QUE P1
+    add(START1, KEY_1)
+    add(START2, KEY_2)
+
+    add(J1_BUTTON1, LCONTROL)
+    add(J1_BUTTON2, LALT)
+    add(J1_BUTTON3, SPACE)
+    add(J1_BUTTON4, LSHIFT)
+    add(J1_BUTTON5, KEY_Z)
+    add(J1_BUTTON6, KEY_X)
+    add(J1_UP, CURSOR_UP)
+    add(J1_DOWN, CURSOR_DOWN)
+    add(J1_LEFT, CURSOR_LEFT)
+    add(J1_RIGHT, CURSOR_RIGHT)
+
+    add(J2_BUTTON1, KEY_A)
+    add(J2_BUTTON2, KEY_S)
+    add(J2_BUTTON3, KEY_Q)
+    add(J2_BUTTON4, KEY_W)
+    add(J2_BUTTON5, CAPSLOCK)
+    add(J2_BUTTON6, KEY_E)
+    add(J2_UP, KEY_R)
+    add(J2_DOWN, KEY_F)
+    add(J2_LEFT, KEY_D)
+    add(J2_RIGHT, KEY_G)
+
+    saveCfg("default")
+}
 
 // Mapeos en JoyToKey
 (hs.listSystemsMAME() + hs.listSystemsMESS() + hs.getSystem("HBMAME"))*.loadJ2KConfig().each { J2K j2k ->
     println "MAME: Configuring 360 for ${j2k.systemName}"
 
     j2k.presets.with {
-        xbox360MameTab(player1)
-        xbox360MameTab(player2)
-        dPadToCursor(player1)
-        dPadTo(player2, KEY_D, KEY_F, KEY_R, KEY_G)
-        buttonsTo(player1, [
-                (XBOX360_BACK) : KEY_5,
-                (XBOX360_START): KEY_1
-        ])
-        buttonsTo(player2, [
-                (XBOX360_BACK) : KEY_6,
-                (XBOX360_START): KEY_2
-        ])
+        analogTo(player1, CURSOR_LEFT, CURSOR_DOWN, CURSOR_UP, CURSOR_RIGHT)
+        analogTo(player2, KEY_D, KEY_F, KEY_R, KEY_G)  // abajo sacar, resto golpear
+
+        new ArcadeSet(preset: delegate, player1: player1).with {
+            p1Action1(LCTRL)
+            p1Action2(LALT)
+            p1Action3(SPACE)
+            p1Action4(LSHIFT)
+            p1Action5(KEY_Z)
+            p1Action6(KEY_X)
+            p1Start(KEY_1)
+            coin(KEY_5) // MONEDA P1 Y P2
+
+            p2Action1(KEY_A)
+            p2Action2(KEY_S)
+            p2Action3(KEY_Q)
+            p2Action4(KEY_W)
+            p2Action5(CAPSLOCK)
+            p2Action6(KEY_E)
+            p2Start(KEY_2)
+        }
         save()
+
+        // TODO:
+//        buttonToOtherJoy(player1, 9, player2+1) // PINBALL IZQUIERDO
+
     }
 }
 println "1 Configuring Future Pinball. RUN THE REG FILE!!!!!!!!!!!"
@@ -252,7 +290,7 @@ hs.getSystem("Future Pinball").loadJ2KConfig().presets.with {
 }
 
 /*
-Pinball FX2. Ya funciona con Xbox 360 directamente
+Pinball FX2.
 Reset to defaults
 pinballs: lshift / rshift
 sacar: enter
@@ -290,7 +328,7 @@ hs.getSystem("Pinball FX2").loadJ2KConfig().presets.with {
 }
 
 /*
-Pinball Arcade. Ya funciona con Xbox directamente
+Pinball Arcade.
 HKEY_CURRENT_USER\Software\PinballArcade\PinballArcade
 Ruta de teclas en: c:\Users\xxxx\My Games\Pinball Arcade\settings.dat
 Resetear controles:
@@ -339,7 +377,7 @@ Configuación en:
 d:\Games\Emulators\PCSX2\PCXS2.gigapig\inis\LilyPad.ini
 Se supone ya está configurado para 360
  */
-
+/*
 IniFile psx2 = new IniFile().parse(new File("d:\\Games\\Emulators\\PCSX2\\PCXS2.gigapig\\inis\\LilyPad.ini"))
 if (psx2.get("Device 1", "Display Name") != "WM Keyboard") {
     throw new Exception("ERROR CONFIGURING PSX2")
@@ -358,29 +396,26 @@ if (psx2.get("Device 1", "Display Name") != "WM Keyboard") {
     psx2.put("Device 1", "Binding 11", "0x0004005A, 0, 30, 65536, 0, 0, 0")
     psx2.store()
 }
-
+*/
 println "Configuring AAE"
 // AAE funciona mejor con teclado
 hs.getSystem("AAE").loadJ2KConfig().presets.with {
-    dPadToCursor(player1)
-    dPadToCursor(player2)
     analogToCursor(player1)
     analogToCursor(player2)
-    buttonsTo(player1, [
-            (XBOX360_A)    : ALT,
-            (XBOX360_B)    : CTRL,
-            (XBOX360_X)    : SHIFT,
-            (XBOX360_Y)    : SPACE,
-            (XBOX360_BACK) : KEY_5,
-            (XBOX360_START): KEY_1
-    ])
-    buttonsTo(player2, [
-            (XBOX360_A)    : ALT,
-            (XBOX360_B)    : CTRL,
-            (XBOX360_X)    : SHIFT,
-            (XBOX360_Y)    : SPACE,
-            (XBOX360_BACK) : KEY_5,
-            (XBOX360_START): KEY_2
-    ])
+
+    new ArcadeSet(preset: delegate, player1: player1).with {
+        p1Action1(ALT)
+        p1Action2(CTRL)
+        p1Action3(SHIFT)
+        p1Action4(SPACE)
+        p1Start(KEY_1)   // START P1, PLAYER 1
+        coin(KEY_5)
+
+        p2Action1(ALT)
+        p2Action2(CTRL)
+        p2Action3(SHIFT)
+        p2Action4(SPACE)
+        p2Start(KEY_2)   // START P1, PLAYER 1
+    }
     save()
 }

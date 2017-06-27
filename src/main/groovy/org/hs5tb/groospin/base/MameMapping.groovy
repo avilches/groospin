@@ -1,36 +1,108 @@
 package org.hs5tb.groospin.base
 
+import groovy.xml.MarkupBuilder
 import org.hs5tb.groospin.common.IOTools
 
 /**
  * Created by Alberto on 19-Jun-17.
  */
-class Mame {
-    String folder
+class MameMapping {
 
-    Mame folder(String folder) {
+    String folder
+    String machine = "default"
+    Map<String, Set> mapping = [:].withDefault { k -> new LinkedHashSet() }
+
+    // http://easyemu.mameworld.info/mameguide/mameguide-controlini.htm
+    MameMapping folder(String folder) {
         this.folder = folder
         this
     }
 
-    Mame backupAndCleanDefaultCfg() {
-        File defaultCfg = new File(folder + "/cfg/default.cfg")
-        if (defaultCfg.exists()) {
-            Node mameconfig = new XmlParser().parse(defaultCfg)
-            if (mameconfig.system.input.port.size() > 0) {
-                String newName = (defaultCfg.name - ".cfg") + "-${new Date().format("yyyyMMdd-HHmmss")}.cfg"
-                IOTools.move(defaultCfg, new File(defaultCfg.parentFile, newName))
+    File getCfg(String machine = this.machine) {
+        return new File(folder + "/cfg/${machine}.cfg")
+    }
+
+
+    MameMapping backupAndCleanDefaultCfg() {
+        loadDefaultCfg()
+        if (mapping) {
+            String newName = "${machine}-${new Date().format("yyyyMMdd-HHmmss")}"
+            IOTools.move(cfg, getCfg(newName))
+        }
+        this
+    }
+
+    MameMapping loadDefaultCfg() {
+        loadCfg("default")
+    }
+
+    MameMapping loadCfg(String machine) {
+        this.machine = machine
+        mapping.clear()
+        if (cfg.exists()) {
+            Node mameconfig = new XmlParser().parse(cfg)
+            mameconfig.system.input.port.each { Node port ->
+                String action = port.@type
+                String codes = port.newseq ? port.newseq[0].text()?.trim()?.toUpperCase() : null
+//                println action
+//                println
+                if (action && codes) {
+                    mapping[action] = codes.split(" OR ")*.trim() as Set
+                }
             }
         }
         this
     }
 
+    MameMapping saveCfg(String machine = this.machine) {
+        File cfg = getCfg(machine)
+        MarkupBuilder mb = new MarkupBuilder(new IndentPrinter(new PrintWriter(cfg.newWriter()), "    "))
+        mb.mkp.xmlDeclaration(version: "1.0")
+        mb.setOmitNullAttributes(true)
+        mb.setDoubleQuotes(true)
+        mb.setEscapeAttributes(true)
+        mb.mameconfig(version:"10") {
+            system(name: machine) {
+                input {
+                    mapping.keySet().sort().each { String action ->
+                        Set codes = mapping[action]
+                        port(type: action) {
+                            newseq(type:"standard", "\n                        ${codes.join(" OR ")}\n            ")
+                        }
+                    }
+                }
+            }
+        }
+        this
+    }
 
-    static String KEY_NONE = "KEYCODE_NONE"
-    static String CODE_DEFAULT = "CODE_DEFAULT"
-    static String CODE_NONE = "CODE_NONE"
-    static String CODE_OR = "CODE_OR"
-    static String CODE_PREVIOUS = "CODE_PREVIOUS"
+    MameMapping add(String action, Collection keys) {
+        keys.each { String key -> mapping[action] << key.toUpperCase() }
+        this
+    }
+
+    MameMapping set(String action, Collection keys) {
+        mapping[action] = keys as Set
+        this
+    }
+
+    MameMapping add(String action, String key) {
+        add(action, [key])
+        this
+    }
+
+    MameMapping set(String action, String key) {
+        set(action, [key])
+        this
+    }
+
+    MameMapping delete(String action) {
+        mapping.remove(action)
+        this
+    }
+
+    static String NONE = "KEYCODE_NONE"
+    static String DEFAULT = "CODE_DEFAULT"
 
     static String J1_BUTTON1 = "JOYCODE_1_BUTTON1"
     static String J1_BUTTON2 = "JOYCODE_1_BUTTON2"
@@ -38,6 +110,8 @@ class Mame {
     static String J1_BUTTON4 = "JOYCODE_1_BUTTON4"
     static String J1_BUTTON5 = "JOYCODE_1_BUTTON5"
     static String J1_BUTTON6 = "JOYCODE_1_BUTTON6"
+    static String J1_BUTTON7 = "JOYCODE_1_BUTTON7"
+    static String J1_BUTTON8 = "JOYCODE_1_BUTTON8"
     static String J1_DOWN = "JOYCODE_1_DOWN"
     static String J1_LEFT = "JOYCODE_1_LEFT"
     static String J1_RIGHT = "JOYCODE_1_RIGHT"
@@ -69,6 +143,8 @@ class Mame {
     static String J2_BUTTON4 = "JOYCODE_2_BUTTON4"
     static String J2_BUTTON5 = "JOYCODE_2_BUTTON5"
     static String J2_BUTTON6 = "JOYCODE_2_BUTTON6"
+    static String J2_BUTTON7 = "JOYCODE_2_BUTTON7"
+    static String J2_BUTTON8 = "JOYCODE_2_BUTTON8"
     static String J2_DOWN = "JOYCODE_2_DOWN"
     static String J2_LEFT = "JOYCODE_2_LEFT"
     static String J2_RIGHT = "JOYCODE_2_RIGHT"
@@ -76,18 +152,18 @@ class Mame {
     static String J2_START = "JOYCODE_2_START"
     static String J2_UP = "JOYCODE_2_UP"
 
-    static String KEY_F1 = "KEYCODE_F1"
-    static String KEY_F2 = "KEYCODE_F2"
-    static String KEY_F3 = "KEYCODE_F3"
-    static String KEY_F4 = "KEYCODE_F4"
-    static String KEY_F5 = "KEYCODE_F5"
-    static String KEY_F6 = "KEYCODE_F6"
-    static String KEY_F7 = "KEYCODE_F7"
-    static String KEY_F8 = "KEYCODE_F8"
-    static String KEY_F9 = "KEYCODE_F9"
-    static String KEY_F10 = "KEYCODE_F10"
-    static String KEY_F11 = "KEYCODE_F11"
-    static String KEY_F12 = "KEYCODE_F12"
+    static String F1 = "KEYCODE_F1"
+    static String F2 = "KEYCODE_F2"
+    static String F3 = "KEYCODE_F3"
+    static String F4 = "KEYCODE_F4"
+    static String F5 = "KEYCODE_F5"
+    static String F6 = "KEYCODE_F6"
+    static String F7 = "KEYCODE_F7"
+    static String F8 = "KEYCODE_F8"
+    static String F9 = "KEYCODE_F9"
+    static String F10 = "KEYCODE_F10"
+    static String F11 = "KEYCODE_F11"
+    static String F12 = "KEYCODE_F12"
 
     static String J3_BUTTON1 = "JOYCODE_3_BUTTON1"
     static String J3_BUTTON2 = "JOYCODE_3_BUTTON2"
@@ -95,6 +171,8 @@ class Mame {
     static String J3_BUTTON4 = "JOYCODE_3_BUTTON4"
     static String J3_BUTTON5 = "JOYCODE_3_BUTTON5"
     static String J3_BUTTON6 = "JOYCODE_3_BUTTON6"
+    static String J3_BUTTON7 = "JOYCODE_3_BUTTON7"
+    static String J3_BUTTON8 = "JOYCODE_3_BUTTON8"
     static String J3_DOWN = "JOYCODE_3_DOWN"
     static String J3_LEFT = "JOYCODE_3_LEFT"
     static String J3_RIGHT = "JOYCODE_3_RIGHT"
@@ -108,6 +186,9 @@ class Mame {
     static String J4_BUTTON3 = "JOYCODE_4_BUTTON3"
     static String J4_BUTTON4 = "JOYCODE_4_BUTTON4"
     static String J4_BUTTON5 = "JOYCODE_4_BUTTON5"
+    static String J4_BUTTON6 = "JOYCODE_4_BUTTON6"
+    static String J4_BUTTON7 = "JOYCODE_4_BUTTON7"
+    static String J4_BUTTON8 = "JOYCODE_4_BUTTON8"
     static String J4_DOWN = "JOYCODE_4_DOWN"
     static String J4_LEFT = "JOYCODE_4_LEFT"
     static String J4_RIGHT = "JOYCODE_4_RIGHT"
@@ -115,10 +196,10 @@ class Mame {
     static String J4_START = "JOYCODE_4_START"
     static String J4_UP = "JOYCODE_4_UP"
 
-    static String KEY_UP = "KEYCODE_UP"
-    static String KEY_DOWN = "KEYCODE_DOWN"
-    static String KEY_LEFT = "KEYCODE_LEFT"
-    static String KEY_RIGHT = "KEYCODE_RIGHT"
+    static String CURSOR_UP = "KEYCODE_UP"
+    static String CURSOR_DOWN = "KEYCODE_DOWN"
+    static String CURSOR_LEFT = "KEYCODE_LEFT"
+    static String CURSOR_RIGHT = "KEYCODE_RIGHT"
 
     static String KEY_A = "KEYCODE_A"
     static String KEY_B = "KEYCODE_B"
@@ -157,13 +238,13 @@ class Mame {
     static String KEY_7_PAD = "KEYCODE_7_PAD"
     static String KEY_8_PAD = "KEYCODE_8_PAD"
     static String KEY_9_PAD = "KEYCODE_9_PAD"
-    static String KEY_DEL_PAD = "KEYCODE_DEL_PAD"
-    static String KEY_ENTER_PAD = "KEYCODE_ENTER_PAD"
-    static String KEY_MINUS_PAD = "KEYCODE_MINUS_PAD"
-    static String KEY_PLUS_PAD = "KEYCODE_PLUS_PAD"
-    static String KEY_SLASH_PAD = "KEYCODE_SLASH_PAD"
+    static String DEL_PAD = "KEYCODE_DEL_PAD"
+    static String ENTER_PAD = "KEYCODE_ENTER_PAD"
+    static String MINUS_PAD = "KEYCODE_MINUS_PAD"
+    static String PLUS_PAD = "KEYCODE_PLUS_PAD"
+    static String SLASH_PAD = "KEYCODE_SLASH_PAD"
 
-    static String KEY_NUMLOCK = "KEYCODE_NUMLOCK"
+    static String NUMLOCK = "KEYCODE_NUMLOCK"
 
     static String KEY_0 = "KEYCODE_0"
     static String KEY_1 = "KEYCODE_1"
@@ -176,53 +257,58 @@ class Mame {
     static String KEY_8 = "KEYCODE_8"
     static String KEY_9 = "KEYCODE_9"
 
-    static String KEY_DEL = "KEYCODE_DEL"
-    static String KEY_END = "KEYCODE_END"
-    static String KEY_HOME = "KEYCODE_HOME"
-    static String KEY_INSERT = "KEYCODE_INSERT"
-    static String KEY_PGDN = "KEYCODE_PGDN"
-    static String KEY_PGUP = "KEYCODE_PGUP"
+    static String DEL = "KEYCODE_DEL"
+    static String END = "KEYCODE_END"
+    static String HOME = "KEYCODE_HOME"
+    static String INSERT = "KEYCODE_INSERT"
+    static String PGDN = "KEYCODE_PGDN"
+    static String PGUP = "KEYCODE_PGUP"
 
-    static String KEY_PAUSE = "KEYCODE_PAUSE"
-    static String KEY_PRTSCR = "KEYCODE_PRTSCR"
-    static String KEY_SCRLOCK = "KEYCODE_SCRLOCK"
+    static String PAUSE = "KEYCODE_PAUSE"
+    static String PRTSCR = "KEYCODE_PRTSCR"
+    static String SCRLOCK = "KEYCODE_SCRLOCK"
 
-    static String KEY_LWIN = "KEYCODE_LWIN"
-    static String KEY_RWIN = "KEYCODE_RWIN"
+    static String LWIN = "KEYCODE_LWIN"
+    static String RWIN = "KEYCODE_RWIN"
 
-    static String KEY_CAPSLOCK = "KEYCODE_CAPSLOCK"
-    static String KEY_ENTER = "KEYCODE_ENTER"
-    static String KEY_LALT = "KEYCODE_LALT"
-    static String KEY_LCONTROL = "KEYCODE_LCONTROL"
-    static String KEY_LSHIFT = "KEYCODE_LSHIFT"
-    static String KEY_RALT = "KEYCODE_RALT"
-    static String KEY_RCONTROL = "KEYCODE_RCONTROL"
-    static String KEY_RSHIFT = "KEYCODE_RSHIFT"
-    static String KEY_SPACE = "KEYCODE_SPACE"
-    static String KEY_TAB = "KEYCODE_TAB"
-    static String KEY_ESC = "KEYCODE_ESC"
-    static String KEY_BACKSPACE = "KEYCODE_BACKSPACE"
-    static String KEY_MENU = "KEYCODE_MENU"
+    static String CAPS = "KEYCODE_CAPSLOCK"
+    static String CAPSLOCK = "KEYCODE_CAPSLOCK"
+    static String ENTER = "KEYCODE_ENTER"
+    static String RETURN = "KEYCODE_ENTER"
+    static String LALT = "KEYCODE_LALT"
+    static String LCONTROL = "KEYCODE_LCONTROL"
+    static String LCTRL = "KEYCODE_LCONTROL"
+    static String LSHIFT = "KEYCODE_LSHIFT"
+    static String RALT = "KEYCODE_RALT"
+    static String RCONTROL = "KEYCODE_RCONTROL"
+    static String RCTRL = "KEYCODE_RCONTROL"
+    static String RSHIFT = "KEYCODE_RSHIFT"
+    static String SPACE = "KEYCODE_SPACE"
+    static String TAB = "KEYCODE_TAB"
+    static String ESC = "KEYCODE_ESC"
+    static String ESCAPE = "KEYCODE_ESC"
+    static String BACKSPACE = "KEYCODE_BACKSPACE"
+    static String MENU = "KEYCODE_MENU"
 
-    static String KEY_ASTERISK = "KEYCODE_ASTERISK"
-    static String KEY_BACKSLASH = "KEYCODE_BACKSLASH"
-    static String KEY_BACKSLASH2 = "KEYCODE_BACKSLASH2"
-    static String KEY_CLOSEBRACE = "KEYCODE_CLOSEBRACE"
-    static String KEY_COLON = "KEYCODE_COLON"
-    static String KEY_COMMA = "KEYCODE_COMMA"
-    static String KEY_EQUALS = "KEYCODE_EQUALS"
-    static String KEY_MINUS = "KEYCODE_MINUS"
-    static String KEY_OPENBRACE = "KEYCODE_OPENBRACE"
-    static String KEY_QUOTE = "KEYCODE_QUOTE"
-    static String KEY_SLASH = "KEYCODE_SLASH"
-    static String KEY_STOP = "KEYCODE_STOP"
-    static String KEY_TILDE = "KEYCODE_TILDE"
+    static String ASTERISK = "KEYCODE_ASTERISK"
+    static String BACKSLASH = "KEYCODE_BACKSLASH"
+    static String BACKSLASH2 = "KEYCODE_BACKSLASH2"
+    static String CLOSEBRACE = "KEYCODE_CLOSEBRACE"
+    static String COLON = "KEYCODE_COLON"
+    static String COMMA = "KEYCODE_COMMA"
+    static String EQUALS = "KEYCODE_EQUALS"
+    static String MINUS = "KEYCODE_MINUS"
+    static String OPENBRACE = "KEYCODE_OPENBRACE"
+    static String QUOTE = "KEYCODE_QUOTE"
+    static String SLASH = "KEYCODE_SLASH"
+    static String STOP = "KEYCODE_STOP"
+    static String TILDE = "KEYCODE_TILDE"
 
-    static String MOUSECODE_1_BUTTON1 = "MOUSECODE_1_BUTTON1"
-    static String MOUSECODE_1_BUTTON2 = "MOUSECODE_1_BUTTON2"
-    static String MOUSECODE_1_BUTTON3 = "MOUSECODE_1_BUTTON3"
+    static String MOUSE1_BUTTON1 = "MOUSECODE_1_BUTTON1"
+    static String MOUSE1_BUTTON2 = "MOUSECODE_1_BUTTON2"
+    static String MOUSE1_BUTTON3 = "MOUSECODE_1_BUTTON3"
 
-    static class Config {
+    static class Action {
         static String COIN1 = "COIN1"
         static String COIN2 = "COIN2"
         static String COIN3 = "COIN3"
