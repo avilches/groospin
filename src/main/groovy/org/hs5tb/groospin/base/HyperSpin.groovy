@@ -269,6 +269,10 @@ class HyperSpin {
         }
     }
 
+    void withRocketLauncherInis(String filename, Closure action) {
+        withRocketLauncherInis([filename], action)
+    }
+
     void withRocketLauncherInis(List filenames, Closure action) {
         filenames.each { String filename ->
             IniFile ini = loadRocketLauncherIni(filename)
