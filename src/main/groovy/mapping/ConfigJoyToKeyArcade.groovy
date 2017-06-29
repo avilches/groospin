@@ -31,24 +31,24 @@ class ArcadeSet {
     J2K.Preset preset
     int player1 = 1
 
-    void p1Action1(String key) { preset.buttonToKey(player1 + 0, 1, key) }
-    void p1Action2(String key) { preset.buttonToKey(player1 + 0, 2, key) }
-    void p1Action3(String key) { preset.buttonToKey(player1 + 0, 3, key) }
-    void p1Action4(String key) { preset.buttonToKey(player1 + 0, 4, key) }
-    void p1Action5(String key) { preset.buttonToKey(player1 + 0, 5, key) }
-    void p1Action6(String key) { preset.buttonToKey(player1 + 0, 6, key) }
-    void p1Start(String key)   { preset.buttonToKey(player1 + 0, 7, key) }
-    void exit(String key)      { preset.buttonToKey(player1 + 0, 8, key) }
-    void pinballLeft(String key) { preset.buttonToKey(player1 + 0, 9, key) }
-    void pinballRight(String key) { preset.buttonToKey(player1 + 0, 10, key) }
-    void p2Action1(String key) { preset.buttonToKey(player1 + 1, 1, key) }
-    void p2Action2(String key) { preset.buttonToKey(player1 + 1, 2, key) }
-    void p2Action3(String key) { preset.buttonToKey(player1 + 1, 3, key) }
-    void p2Action4(String key) { preset.buttonToKey(player1 + 1, 4, key) }
-    void p2Action5(String key) { preset.buttonToKey(player1 + 1, 9, key) }
-    void p2Action6(String key) { preset.buttonToKey(player1 + 1, 10, key) }
-    void p2Start(String key)   { preset.buttonToKey(player1 + 1, 11, key) }
-    void coin(String key)      { preset.buttonToKey(player1 + 1, 12, key) }
+    void p1Action1(key) { preset.buttonToKey(player1 + 0, 1, key) }
+    void p1Action2(key) { preset.buttonToKey(player1 + 0, 2, key) }
+    void p1Action3(key) { preset.buttonToKey(player1 + 0, 3, key) }
+    void p1Action4(key) { preset.buttonToKey(player1 + 0, 4, key) }
+    void p1Action5(key) { preset.buttonToKey(player1 + 0, 5, key) }
+    void p1Action6(key) { preset.buttonToKey(player1 + 0, 6, key) }
+    void p1Start(key)   { preset.buttonToKey(player1 + 0, 7, key) }
+    void exit(key)      { preset.buttonToKey(player1 + 0, 8, key) }
+    void pinballLeft(key) { preset.buttonToKey(player1 + 0, 9, key) }
+    void pinballRight(key) { preset.buttonToKey(player1 + 0, 10, key) }
+    void p2Action1(key) { preset.buttonToKey(player1 + 1, 1, key) }
+    void p2Action2(key) { preset.buttonToKey(player1 + 1, 2, key) }
+    void p2Action3(key) { preset.buttonToKey(player1 + 1, 3, key) }
+    void p2Action4(key) { preset.buttonToKey(player1 + 1, 4, key) }
+    void p2Action5(key) { preset.buttonToKey(player1 + 1, 9, key) }
+    void p2Action6(key) { preset.buttonToKey(player1 + 1, 10, key) }
+    void p2Start(key)   { preset.buttonToKey(player1 + 1, 11, key) }
+    void coin(key)      { preset.buttonToKey(player1 + 1, 12, key) }
 }
 
 
@@ -119,6 +119,8 @@ ResetAllMappings.resetRetroArch(hs.retroArch)
 
 println "Configuring RetroArch keys "+hs.retroArch.iniFile.file.absolutePath
 hs.retroArch.with {
+    setDevicePadForPlayer(1)  // no meter analogico, a retroarch resetea las teclas, borrando las del player2 y dejando en P1 select rshift y start return
+    setDevicePadForPlayer(2)
     configureKeys(1,
             [b     : "z",
              a     : "x",
@@ -277,10 +279,11 @@ hs.getSystem("Future Pinball").loadJ2KConfig().presets.with {
     analogTo(player1, KEY_F, RETURN, SPACE, KEY_A)  // abajo sacar, resto golpear
     analogTo(player2, KEY_F, RETURN, SPACE, KEY_A)  // abajo sacar, resto golpear
 
-    buttonToKeys(player1, 9, [KEY_Z, KEY_X])    // PINBALL IZQUIERDO
-    buttonToKeys(player1, 10, [KEY_N, KEY_M])    // PINBALL DERECHO
 
     new ArcadeSet(preset: delegate, player1: player1).with {
+        pinballLeft([KEY_Z, KEY_X])    // PINBALL IZQUIERDO
+        pinballRight([KEY_N, KEY_M])    // PINBALL DERECHO
+
         p1Action1(TAB)
         p1Action2(F7)
         p1Action3(F8)
@@ -353,14 +356,14 @@ hud: H
  */
 
 hs.getSystem("Pinball Arcade").loadJ2KConfig().presets.with {
-    analogTo(player1, KEY_A, KEY_S, KEY_W, KEY_D)  // GOLPEAR
-    analogTo(player2, KEY_A, KEY_S, KEY_W, KEY_D)  // GOLPEAR
-
-    buttonToKeys(player1, 9, [LCTRL, LSHIFT])    // PINBALL IZQUIERDO
-    buttonToKeys(player1, 10, [RCTRL, LCTRL])    // PINBALL DERECHO
+    analogTo(player1, [KEY_A, CURSOR_LEFT], [KEY_S, CURSOR_DOWN], [KEY_W, CURSOR_UP], [KEY_D, CURSOR_UP])  // GOLPEAR Y CURSORES DEL MENU
+    analogTo(player2, [KEY_A, CURSOR_LEFT], [KEY_S, CURSOR_DOWN], [KEY_W, CURSOR_UP], [KEY_D, CURSOR_UP])  // GOLPEAR Y CURSORES DEL MENU
 
     new ArcadeSet(preset: delegate, player1: player1).with {
-        p1Action1(SPACE)
+        pinballLeft([LCTRL, LSHIFT])    // PINBALL IZQUIERDO
+        pinballRight([RCTRL, RSHIFT])    // PINBALL DERECHO
+
+        p1Action1(RETURN) // ENTER PARA SELECCIONAR LAS OPCIONES
         p1Action2(SPACE)
         p1Action3(SPACE)
         p1Action4(KEY_C)
@@ -370,7 +373,7 @@ hs.getSystem("Pinball Arcade").loadJ2KConfig().presets.with {
         p1Start(SPACE)
         coin(SPACE)
 
-        p2Action1(SPACE)
+        p2Action1(RETURN)
         p2Action2(SPACE)
         p2Action3(SPACE)
         p2Action4(KEY_C)

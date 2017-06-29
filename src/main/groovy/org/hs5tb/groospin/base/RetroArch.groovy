@@ -8,15 +8,16 @@ import org.hs5tb.groospin.common.IniFile
 class RetroArch {
     IniFile iniFile
     static EMPTY = "\"nul\""
-    static PAD_WITH_ANALOG = "\"5\""
-    static PAD = "\"1\""
+    static DEVICE_PAD_WITH_ANALOG = "\"5\""
+    static DEVICE_PAD = "\"1\""
+    static DEVICE_NONE = "\"0\""
 
     static ANALOG_TO_DPAD_NONE = "\"0\""
     static ANALOG_TO_DPAD_RIGHT = "\"2\""
     static ANALOG_TO_DPAD_LEFT = "\"1\""
 
     RetroArch folder(String folder) {
-        iniFile = new IniFile().parse(new File(folder, "retroarch.cfg"))
+        iniFile = new IniFile(equals: " = ").parse(new File(folder, "retroarch.cfg"))
         this
     }
 
@@ -25,7 +26,7 @@ class RetroArch {
             String used = used(val)
             key = "input_player${player}_${key.toLowerCase()}".toString()
             if (used && used != key) {
-                println "Key $val already used by ${used}"
+                throw new Exception("Key $val already used by ${used}")
             } else {
                 iniFile.put(key, "\"${val.toLowerCase()}\"")
             }
@@ -160,6 +161,21 @@ class RetroArch {
 
     }
 
+    RetroArch setDeviceKeyboardForPlayer(player) {
+        iniFile.put("input_libretro_device_p${player}", DEVICE_NONE)
+        this
+    }
+
+    RetroArch setDevicePadForPlayer(player) {
+        iniFile.put("input_libretro_device_p${player}", DEVICE_PAD)
+        this
+    }
+
+    RetroArch setDevicePadWithAnalogForPlayer(player) {
+        iniFile.put("input_libretro_device_p${player}", DEVICE_PAD_WITH_ANALOG)
+        this
+    }
+
     RetroArch resetPlayer(player = 1, joypos = 1) {
 
         iniFile.put("input_player${player}_b", EMPTY)
@@ -175,7 +191,7 @@ class RetroArch {
         iniFile.put("input_player${player}_select", EMPTY)
         iniFile.put("input_player${player}_start", EMPTY)
 
-        iniFile.put("input_libretro_device_p${player}", PAD_WITH_ANALOG)
+        iniFile.put("input_libretro_device_p${player}", DEVICE_PAD_WITH_ANALOG)
         iniFile.put("input_player${player}_analog_dpad_mode", ANALOG_TO_DPAD_NONE)
         iniFile.put("input_player${player}_joypad_index", "\"${joypos -1}\"")
 

@@ -25,11 +25,17 @@ class HyperSpin {
     HyperSpin(File rlRoot) {
         this.rlRoot = rlRoot.canonicalFile
         rocketLauncherIni = new IniFile().parse(newRocketLauncherFile("Settings/RocketLauncher.ini"))
+        if (!rocketLauncherIni.file.exists()) {
+            throw new IllegalArgumentException("RocketLauncher not found")
+        }
         if (rocketLauncherIni.get("Settings", "Default_Plugin") != "HyperSpin") {
             throw new IllegalArgumentException("RocketLauncher is not configured with HyperSpin")
         }
         String hsRoot = rocketLauncherIni.get("Settings", "Default_Front_End_Path")
         this.hsRoot = newRocketLauncherFile(hsRoot).canonicalFile.parentFile
+        if (!rocketLauncherIni.file.exists()) {
+            throw new IllegalArgumentException("RocketLauncher not found")
+        }
     }
 
     Ini getGlobalEmulatorsIni() {

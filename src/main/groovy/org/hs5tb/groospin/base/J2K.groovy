@@ -52,22 +52,22 @@ class J2K {
         static int MAPPING_XBOX360_BACK = 62 // Button7
         static int MAPPING_XBOX360_START = 63 // Button8
 
-        static String none =  null
-        static String ESC =  "1B"
-        static String F1 =  "70"
-        static String F2 =  "71"
-        static String F3 =  "72"
-        static String F4 =  "73"
-        static String F5 =  "74"
-        static String F6 =  "75"
-        static String F7 =  "76"
-        static String F8 =  "77"
-        static String F9 =  "78"
-        static String F10 =  "79"
+        static String none = null
+        static String ESC = "1B"
+        static String F1 = "70"
+        static String F2 = "71"
+        static String F3 = "72"
+        static String F4 = "73"
+        static String F5 = "74"
+        static String F6 = "75"
+        static String F7 = "76"
+        static String F8 = "77"
+        static String F9 = "78"
+        static String F10 = "79"
 
-        static String SHIFT =  "10"
-        static String CTRL =  "11"
-        static String ALT =  "12"
+        static String SHIFT = "10"
+        static String CTRL = "11"
+        static String ALT = "12"
 
         static String LSHIFT = "A0"
         static String RSHIFT = "A1"
@@ -80,26 +80,26 @@ class J2K {
         static String LALT = "A4"
         static String RALT = "A5"
 
-        static String SPACE =  "20"
-        static String ENTER =  "0D"
-        static String RETURN =  "0D"
-        static String CAPS =  "14"
-        static String CAPSLOCK =  "14"
-        static String PAUSE =  "13"
-        static String TAB =  "09"
-        static String BACKSPACE =  "08"
-        static String INSERT =  "2D"
-        static String DELETE =  "2E"
-        static String HOME =  "24"
-        static String END =  "23"
-        static String PAGEUP =  "21"
-        static String PAGEDOWN =  "22"
-        static String BELOW_ESC =  "17" // º ª \ LA TECLA QUE ESTA DEBAJO DEL ESCAPE Y ENCIMA DEL BLOQ MAYUSCULAS
+        static String SPACE = "20"
+        static String ENTER = "0D"
+        static String RETURN = "0D"
+        static String CAPS = "14"
+        static String CAPSLOCK = "14"
+        static String PAUSE = "13"
+        static String TAB = "09"
+        static String BACKSPACE = "08"
+        static String INSERT = "2D"
+        static String DELETE = "2E"
+        static String HOME = "24"
+        static String END = "23"
+        static String PAGEUP = "21"
+        static String PAGEDOWN = "22"
+        static String BELOW_ESC = "17" // º ª \ LA TECLA QUE ESTA DEBAJO DEL ESCAPE Y ENCIMA DEL BLOQ MAYUSCULAS
 
-        static String CURSOR_LEFT =  "25"
-        static String CURSOR_DOWN =  "28"
-        static String CURSOR_RIGHT =  "27"
-        static String CURSOR_UP =  "26"
+        static String CURSOR_LEFT = "25"
+        static String CURSOR_DOWN = "28"
+        static String CURSOR_RIGHT = "27"
+        static String CURSOR_UP = "26"
 
         static String KEY_0 = k("0")
         static String KEY_1 = k("1")
@@ -113,15 +113,15 @@ class J2K {
         static String KEY_9 = k("9")
 
 
-        static String KEY_F1 =  "70"
-        static String KEY_F2 =  "71"
-        static String KEY_F3 =  "72"
-        static String KEY_F4 =  "73"
-        static String KEY_F5 =  "74"
-        static String KEY_F6 =  "75"
-        static String KEY_F7 =  "76"
-        static String KEY_F8 =  "77"
-        static String KEY_F9 =  "78"
+        static String KEY_F1 = "70"
+        static String KEY_F2 = "71"
+        static String KEY_F3 = "72"
+        static String KEY_F4 = "73"
+        static String KEY_F5 = "74"
+        static String KEY_F6 = "75"
+        static String KEY_F7 = "76"
+        static String KEY_F8 = "77"
+        static String KEY_F9 = "78"
         static String KEY_F10 = "79"
 
         static String KEY_A = k("A")
@@ -152,7 +152,6 @@ class J2K {
         static String KEY_Z = k("Z")
 
 
-
         static String k(String k) {
             return Integer.toHexString((k as char) as int).toUpperCase()
         }
@@ -160,7 +159,7 @@ class J2K {
         Preset buttonsTo(int joy, Map map) {
             map.each { button, key ->
                 List keys = key instanceof List ? key : [key]
-                buttonToKeys(joy, button, keys)
+                buttonToKey(joy, button, keys)
             }
             this
         }
@@ -168,31 +167,23 @@ class J2K {
         Preset buttonsTo(int joy, int buttonStart, List keys) {
             keys.eachWithIndex { key, int i ->
                 List tkeys = key instanceof List ? key : [key]
-                buttonToKeys(joy, buttonStart + i, tkeys)
+                buttonToKey(joy, buttonStart + i, tkeys)
             }
             this
 
         }
 
-        Preset buttonToOtherJoy(int joy, int button, int newJoy) {
-            cfg.put("Joystick $joy", "Button${button<10?"0":""}$button", "5, ${newJoy}, 0")
+        Preset buttonSwapToOtherJoy(int joy, int button, int newJoy) {
+            cfg.put("Joystick $joy", "Button${button < 10 ? "0" : ""}$button", "5, ${newJoy}, 0")
             return this
         }
 
-        Preset buttonToKey(int joy, int button, String key) {
-            buttonToKey(joy, "Button${button<10?"0":""}$button", key)
+        Preset buttonToKey(int joy, int button, o) {
+            buttonToKey(joy, "Button${button < 10 ? "0" : ""}$button", o)
         }
 
-        Preset buttonToKeys(int joy, int button, List keys) {
-            buttonToKeys(joy, "Button${button<10?"0":""}$button", keys)
-        }
-
-        Preset buttonToKey(int joy, String button, String key) {
-            buttonToKeys(joy, button, [key])
-        }
-
-        Preset buttonToKeys(int joy, String button, List keys) {
-            keys = keys + (["00"] * 3 - keys.size())
+        Preset buttonToKey(int joy, String button, o) {
+            List keys = (o instanceof Collection ? o : [o]) + (["00"] * (3 - (o instanceof Collection ? o.size() : 1)))
             String skeys = keys.join(":")
             cfg.put("Joystick $joy", button, "1, ${skeys}, 0.000, 0, 0")
             this
@@ -224,11 +215,31 @@ class J2K {
             this
         }
 
-        Preset dPadTo(int joy = 1, String left, String down, String up, String right) {
+        Preset dPadUp(int joy = 1, up) {
             buttonToKey(joy, "POV1-1", up)
-            buttonToKey(joy, "POV1-3", right)
+            return this
+        }
+
+        Preset dPadDown(int joy = 1, down) {
             buttonToKey(joy, "POV1-5", down)
+            return this
+        }
+
+        Preset dPadRight(int joy = 1, right) {
+            buttonToKey(joy, "POV1-3", right)
+            return this
+        }
+
+        Preset dPadLeft(int joy = 1, left) {
             buttonToKey(joy, "POV1-7", left)
+            return this
+        }
+
+        Preset dPadTo(int joy = 1, left, down, up, right) {
+            dPadUp(joy, up)
+            dPadRight(joy, right)
+            dPadDown(joy, down)
+            dPadLeft(joy, left)
             return this
         }
 
@@ -253,25 +264,65 @@ class J2K {
             return this
         }
 
-        Preset analogTo(int joy = 1, String left, String down, String up, String right) {
+        Preset analogTo(int joy = 1, left, down, up, right) {
             analogLeftTo(joy, left, down, up, right)
             analogRightTo(joy, left, down, up, right)
             return this
         }
 
-        Preset analogLeftTo(int joy = 1, String left, String down, String up, String right) {
+        Preset analogLeftToUp(int joy = 1, up) {
             buttonToKey(joy, "Axis2n", up)
-            buttonToKey(joy, "Axis1p", right)
+            return this
+        }
+
+        Preset analogLeftToDown(int joy = 1, down) {
             buttonToKey(joy, "Axis2p", down)
+            return this
+        }
+
+        Preset analogLeftToLeft(int joy = 1, left) {
             buttonToKey(joy, "Axis1n", left)
             return this
         }
 
-        Preset analogRightTo(int joy = 1, String left, String down, String up, String right) {
+        Preset analogLeftToRight(int joy = 1, right) {
+            buttonToKey(joy, "Axis1p", right)
+            return this
+        }
+
+        Preset analogLeftTo(int joy = 1, left, down, up, right) {
+            analogLeftToUp(joy, up)
+            analogLeftToRight(joy, right)
+            analogLeftToDown(joy, down)
+            analogLeftToLeft(joy, left)
+            return this
+        }
+
+        Preset analogRightToUp(int joy = 1, up) {
             buttonToKey(joy, "Axis4n", up)
-            buttonToKey(joy, "Axis3p", right)
+            return this
+        }
+
+        Preset analogRightToDown(int joy = 1, down) {
             buttonToKey(joy, "Axis4p", down)
+            return this
+        }
+
+        Preset analogRightToLeft(int joy = 1, left) {
             buttonToKey(joy, "Axis3n", left)
+            return this
+        }
+
+        Preset analogRightToRight(int joy = 1, right) {
+            buttonToKey(joy, "Axis3p", right)
+            return this
+        }
+
+        Preset analogRightTo(int joy = 1, left, down, up, right) {
+            analogRightToUp(joy, up)
+            analogRightToRight(joy, right)
+            analogRightToDown(joy, down)
+            analogRightToLeft(joy, left)
             return this
         }
 
@@ -284,15 +335,15 @@ class J2K {
 
     J2K empty() {
         cfg = new IniFile(file: cfg.file)
-        cfg.put("General","FileVersion","57")
-        cfg.put("General","NumberOfJoysticks","4")
-        cfg.put("General","DisplayMode","2")
-        cfg.put("General","UseDiagonalInput","0")
-        cfg.put("General","UsePOV8Way","0")
-        cfg.put("General","Threshold","20")
-        cfg.put("General","Threshold2","20")
-        cfg.put("General","KeySendMode","0")
-        cfg.put("General","NumberOfButtons","32")
+        cfg.put("General", "FileVersion", "57")
+        cfg.put("General", "NumberOfJoysticks", "4")
+        cfg.put("General", "DisplayMode", "2")
+        cfg.put("General", "UseDiagonalInput", "0")
+        cfg.put("General", "UsePOV8Way", "0")
+        cfg.put("General", "Threshold", "20")
+        cfg.put("General", "Threshold2", "20")
+        cfg.put("General", "KeySendMode", "0")
+        cfg.put("General", "NumberOfButtons", "32")
         cfg.store()
         return this
     }
