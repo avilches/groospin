@@ -12,6 +12,7 @@ class Ini {
     Ini parent
     Map sections = [:]
     boolean dirty = false
+    String equals = "="
 
     Ini putAll(Map map) {
         return putAll(defaultSection, map)
@@ -104,7 +105,7 @@ class Ini {
                 writer.println("[${data.data}]")
             } else if (data.type == Ini.Data.Type.property) {
                 if (currentSection != null && currentSection.containsKey(data.data)) {
-                    writer.println("${data.data}=${currentSection.remove(data.data)?:""}")
+                    writer.println("${data.data}${equals}${currentSection.remove(data.data)?:""}")
                 }
             }
         }
