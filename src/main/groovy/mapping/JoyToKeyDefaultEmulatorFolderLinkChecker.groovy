@@ -24,7 +24,7 @@ void checkMissingFolderLinks(HyperSpin hs, Collection<RLSystem> systems) {
         out << "index,System Name,Default Emu,Emu Mapped,System Profile folder,Emu Profile folder link\n"
 
         systems.eachWithIndex { RLSystem system, int index ->
-            CheckJoyToKeyMissingResult result = new CheckJoyToKeyMissingResult(index: index, system: system.name)
+            CheckJoyToKeyMissingResult result = new CheckJoyToKeyMissingResult(index: index+1, system: system.name)
 
             if (system.defaultEmulator?.name) {
                 result.defaultEmulator = system.defaultEmulator.name
