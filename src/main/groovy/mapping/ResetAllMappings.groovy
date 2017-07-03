@@ -81,7 +81,8 @@ class ResetAllMappings {
 
     static void resetWinVice(File folder) {
         File iniFile = new File(folder, "vice.ini")
-        println "WinVICE reset: P1:AWSD + Q/ P2:IJKL + U): ${iniFile.absolutePath}"
+        println "- WinVICE reset: P1:AWSD + Q/ P2:IJKL + U):"
+        println iniFile.absolutePath
         IniFile cfg = new IniFile().parse(iniFile)
 
 // http://vice-emu.pokefinder.org/index.php/Hotkey_cleanup

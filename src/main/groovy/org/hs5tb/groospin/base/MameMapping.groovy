@@ -28,7 +28,8 @@ class MameMapping {
 
 
     MameMapping backupAndCleanDefaultCfg() {
-        println "MAME: Backup (if exists) and clean default.cfg: ${cfg.absolutePath}"
+        println "- MAME: Backup (if exists) and clean default.cfg:"
+        println cfg.absolutePath
         loadDefaultCfg()
         if (mapping) {
             String newName = "${machine}-${new Date().format("yyyyMMdd-HHmmss")}"
