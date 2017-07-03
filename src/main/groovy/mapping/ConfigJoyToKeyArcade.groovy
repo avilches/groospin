@@ -6,8 +6,6 @@ import org.hs5tb.groospin.base.MameIni
 
 import static org.hs5tb.groospin.base.MameMapping.Action.*
 
-Set updatedFiles = []
-
 HyperSpin hs = new HyperSpin("A:/RocketLauncher")
 
 int joystickStartPosition = 1
@@ -117,7 +115,8 @@ hs.listAllJoyToKeyProfiles().each { J2K j2k ->
 // no podriamos usarla para SELECT del player 1
 ResetAllMappings.resetRetroArch(hs.retroArch)
 
-println "Configuring RetroArch keys "+hs.retroArch.iniFile.file.absolutePath
+println "- RetroArch: configure keys "
+println hs.retroArch.iniFile.file.absolutePath
 hs.retroArch.with {
     setDevicePadForPlayer(1)  // no meter analogico, a retroarch resetea las teclas, borrando las del player2 y dejando en P1 select rshift y start return
     setDevicePadForPlayer(2)
@@ -193,14 +192,17 @@ hs.listSystemsRetroArch()*.loadJ2KConfig().each { J2K j2k ->
     }
 }
 
+// Reseteamos MAME y apuntamos a controller "arcadeAT"
+ResetAllMappings.resetMameCtrl(hs)
+
 /* Se mapea MAME con teclas y luego se usa JoyToKey
 
 Se usa JoyToKey porque SI SE DESENCHUFA EL JOYSTICK CUALQUIER CONFIGURACIÓN QUE SE TENGA ECHA EN EL default.cfg
 SE BORRA. Por lo tanto, cuando se usan mandos que se pueden enchufar y desenchufar, lo mejor es no editar el default.cfg
 y hacer el mapeo en el JoyToKey.
 */
-updatedFiles << hs.mameMapping.cfg.absolutePath
-println "Configuring MAME keys ${hs.mameMapping.cfg.absolutePath}"
+println "- MAME: Creating ctrlr 'arcadeAT'"
+println hs.mameMapping.getCtrlr().absolutePath
 hs.mameMapping.with {
     add(UI_CANCEL, ESC)
     add(COIN1, KEY_5)
@@ -235,9 +237,10 @@ hs.mameMapping.with {
 }
 
 MameIni mameIni = hs.getMameIni("ini/presets/mame.ini")
-println "MAME: Set dinput keyboard and no 'arcadeAT' ctrlr: ${mameIni.file.absolutePath}"
+println "- MAME: setting ctrlr to 'arcadeAT':"
+println mameIni.file.absolutePath
 mameIni.set("keyboardprovider", "dinput")  // ensure MAME can read JoyToKey mappings
-mameIni.set("ctrlr", "arcadeAT")
+mameIni.set("ctrlr", "")
 mameIni.save()
 
 // Mapeos en JoyToKey
@@ -355,6 +358,7 @@ camara: C, lock: V
 hud: H
  */
 
+println "JoyToKey Pinball Arcade"
 hs.getSystem("Pinball Arcade").loadJ2KConfig().presets.with {
     analogTo(player1, [KEY_A, CURSOR_LEFT], [KEY_S, CURSOR_DOWN], [KEY_W, CURSOR_UP], [KEY_D, CURSOR_UP])  // GOLPEAR Y CURSORES DEL MENU
     analogTo(player2, [KEY_A, CURSOR_LEFT], [KEY_S, CURSOR_DOWN], [KEY_W, CURSOR_UP], [KEY_D, CURSOR_UP])  // GOLPEAR Y CURSORES DEL MENU
@@ -394,7 +398,7 @@ d:\Games\Emulators\PCSX2\PCXS2.gigapig\inis\LilyPad.ini
 Se supone ya está configurado para 360
  */
 /*
-IniFile psx2 = new IniFile().parse(new File("d:\\Games\\Emulators\\PCSX2\\PCXS2.gigapig\\inis\\LilyPad.ini"))
+IniFile psx2 = new IniFile().parse(new File(hs.getPCSX2Folder(),"inis\\LilyPad.ini"))
 if (psx2.get("Device 1", "Display Name") != "WM Keyboard") {
     throw new Exception("ERROR CONFIGURING PSX2")
 } else {
@@ -435,3 +439,5 @@ hs.getSystem("AAE").loadJ2KConfig().presets.with {
     }
     save()
 }
+
+//

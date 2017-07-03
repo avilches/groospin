@@ -3,6 +3,7 @@ package mapping
 import org.hs5tb.groospin.base.HyperSpin
 import org.hs5tb.groospin.base.J2K
 import org.hs5tb.groospin.base.MameIni
+import org.hs5tb.groospin.common.IniFile
 
 HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
 int joystickStartPosition = 1
@@ -25,7 +26,7 @@ new J2K(hs, "HyperSpin").presets.with {
     analogToCursor(player2)
     xbox360Esc(player1)
     xbox360Esc(player2)
-    def mapping = [
+    Map mapping = [
             (XBOX360_A): RETURN,
             (XBOX360_B): ESC,
             (XBOX360_X): KEY_F,
@@ -84,7 +85,7 @@ y hacer el mapeo en el JoyToKey.
  */
 
 // Se elimina el default.cfg para que se vuelva a generar vacio, haciendo antes una copia de seguridad
-hs.mameMapping.backupAndCleanDefaultCfg()
+ResetAllMappings.resetMameCtrl(hs)
 
 println "JoyToKey MAME: Configuring 360 additional buttons (coin, start, dpad)"
 // Mapeos en JoyToKey
@@ -106,11 +107,6 @@ println "JoyToKey MAME: Configuring 360 additional buttons (coin, start, dpad)"
     }
 }
 
-MameIni mameIni = hs.getMameIni("ini/presets/mame.ini")
-println "MAME: Set dinput keyboard and no ctrlr: ${mameIni.file.absolutePath}"
-mameIni.set("keyboardprovider", "dinput")  // ensure MAME can read JoyToKey mappings
-mameIni.set("ctrlr", "")
-mameIni.save()
 
 println "JoyToKey Future Pinball. (RUN THE REG FILE!!!!!!!!!!!)"
 // Future Pinball. Funciona mejor con teclado. Cargar el registro de Windows para que se carguen estas teclas
@@ -145,7 +141,7 @@ d:\Games\Emulators\PCSX2\PCXS2.gigapig\inis\LilyPad.ini
 Se supone ya está configurado para 360
  */
 
-println "JoyTokey AAE special keys"
+println "JoyTokey AAE"
 // AAE funciona mejor con teclado
 hs.getSystem("AAE").loadJ2KConfig().presets.with {
     dPadToCursor(player1)
@@ -169,4 +165,32 @@ hs.getSystem("AAE").loadJ2KConfig().presets.with {
             (XBOX360_START): KEY_2
     ])
     save()
+}
+ResetAllMappings.resetWinVice(hs.winViceFolder)
+println "JoyToKey WinVICE: configuring ${hs.listSystemsWinVICE()*.name}"
+hs.listSystemsWinVICE()*.loadJ2KConfig().with { J2K j2k ->
+    j2k.presets.with {
+        Map mapping = [
+                (XBOX360_B)        : SPACE,
+                (XBOX360_X)        : ENTER,
+                (XBOX360_Y)        : TAB,
+                (XBOX360_BACK)     : F1,
+                (XBOX360_START)    : CAPSLOCK,  // RUN/STOP
+                (XBOX360_LB)       : KEY_N,
+                (XBOX360_LT_ANALOG): KEY_1,
+                (XBOX360_RB)       : KEY_Y,
+                (XBOX360_RT_ANALOG): KEY_2,
+        ]
+        buttonsTo(player1, mapping)
+        buttonsTo(player2, mapping)
+
+        dPadTo  (player1, KEY_A, KEY_S, KEY_W, KEY_D)
+        analogToCursor(player1)
+        buttonToKey(player1, XBOX360_A, KEY_Q)
+
+        dPadTo  (player2, KEY_J, KEY_K, KEY_I, KEY_L)
+        analogToCursor(player2)
+        buttonToKey(player2, XBOX360_A, KEY_U)
+        save()
+    }
 }

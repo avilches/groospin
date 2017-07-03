@@ -112,6 +112,22 @@ class J2K {
         static String KEY_8 = k("8")
         static String KEY_9 = k("9")
 
+        static String KEY_0_PAD = "60"
+        static String KEY_1_PAD = "61"
+        static String KEY_2_PAD = "62"
+        static String KEY_3_PAD = "63"
+        static String KEY_4_PAD = "64"
+        static String KEY_5_PAD = "65"
+        static String KEY_6_PAD = "66"
+        static String KEY_7_PAD = "67"
+        static String KEY_8_PAD = "68"
+        static String KEY_9_PAD = "69"
+
+        static String DOT_PAD = "6E"
+        static String SLASH_PAD = "6F"
+        static String MULTIPLY_PAD = "6A"
+        static String MINUS_PAD = "6D"
+        static String PLUS_PAD = "6B"
 
         static String KEY_F1 = "70"
         static String KEY_F2 = "71"
@@ -248,9 +264,20 @@ class J2K {
             return this
         }
 
+        Preset dPadToNumpad(int joy = 1) {
+            dPadTo(joy, KEY_4_PAD, KEY_2_PAD, KEY_8_PAD, KEY_6_PAD)
+            return this
+        }
+
         Preset analogToCursor(int joy = 1) {
             analogLeftToCursor(joy)
             analogRightToCursor(joy)
+            return this
+        }
+
+        Preset analogToNumpad(int joy = 1) {
+            analogLeftToNumpad(joy)
+            analogRightToNumpad(joy)
             return this
         }
 
@@ -261,6 +288,16 @@ class J2K {
 
         Preset analogRightToCursor(int joy = 1) {
             analogRightTo(joy, CURSOR_LEFT, CURSOR_DOWN, CURSOR_UP, CURSOR_RIGHT)
+            return this
+        }
+
+        Preset analogLeftToNumpad(int joy = 1) {
+            analogLeftTo(joy, KEY_4_PAD, KEY_2_PAD, KEY_8_PAD, KEY_6_PAD)
+            return this
+        }
+
+        Preset analogRightToNumpad(int joy = 1) {
+            analogRightTo(joy, KEY_4_PAD, KEY_2_PAD, KEY_8_PAD, KEY_6_PAD)
             return this
         }
 

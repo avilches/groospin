@@ -190,6 +190,10 @@ class HyperSpin {
         }
     }
 
+    Collection<RLSystem> listSystemsWinVICE() {
+        return listSystems().findAll { it.defaultEmulator?.name?.startsWith("WinVICE") }
+    }
+
     Collection<RLSystem> listSystemsRetroArch() {
         return listSystems().findAll { it.defaultEmulator?.name?.startsWith("RetroArch") }
     }
@@ -295,6 +299,16 @@ class HyperSpin {
 
     File getMameFolder() {
         return newRocketLauncherFile(getGlobalEmulatorsIni().get("MAME", "Emu_Path")).parentFile
+//        return getSystem("MAME").defaultEmulator.getEmuPath().parentFile
+    }
+
+    File getWinViceFolder() {
+        return newRocketLauncherFile(getGlobalEmulatorsIni().get("WinVICE", "Emu_Path")).parentFile
+    }
+
+    File getPCSX2Folder() {
+        return newRocketLauncherFile(getGlobalEmulatorsIni().get("PCSX2", "Emu_Path")).parentFile
+//        return getSystem("Sony PlayStation 2").defaultEmulator.getEmuPath().parentFile
     }
 
     File getRetroArchFolder() {
