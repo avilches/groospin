@@ -15,5 +15,6 @@ ResetAllMappings.resetRetroArch(hs.retroArch)
 
 // Se elimina el default.cfg para que se vuelva a generar vacio, haciendo antes una copia de seguridad
 ResetAllMappings.resetMameCtrl(hs)
-
-ResetAllMappings.resetWinVice(hs.winViceFolder)
+ResetAllMappings.resetWinVice(hs)
+ResetAllMappings.resetPS2Keys(hs)
+ResetAllMappings.resetPPSSPP(hs)

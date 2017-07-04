@@ -3,6 +3,7 @@ package mapping
 import org.hs5tb.groospin.base.HyperSpin
 import org.hs5tb.groospin.base.J2K
 import org.hs5tb.groospin.base.MameIni
+import org.hs5tb.groospin.common.IniFile
 
 import static org.hs5tb.groospin.base.MameMapping.Action.*
 
@@ -30,25 +31,41 @@ class ArcadeSet {
     int player1 = 1
 
     void p1Action1(key) { preset.buttonToKey(player1 + 0, 1, key) }
-    void p1Action2(key) { preset.buttonToKey(player1 + 0, 2, key) }
-    void p1Action3(key) { preset.buttonToKey(player1 + 0, 3, key) }
-    void p1Action4(key) { preset.buttonToKey(player1 + 0, 4, key) }
-    void p1Action5(key) { preset.buttonToKey(player1 + 0, 5, key) }
-    void p1Action6(key) { preset.buttonToKey(player1 + 0, 6, key) }
-    void p1Start(key)   { preset.buttonToKey(player1 + 0, 7, key) }
-    void exit(key)      { preset.buttonToKey(player1 + 0, 8, key) }
-    void pinballLeft(key) { preset.buttonToKey(player1 + 0, 9, key) }
-    void pinballRight(key) { preset.buttonToKey(player1 + 0, 10, key) }
-    void p2Action1(key) { preset.buttonToKey(player1 + 1, 1, key) }
-    void p2Action2(key) { preset.buttonToKey(player1 + 1, 2, key) }
-    void p2Action3(key) { preset.buttonToKey(player1 + 1, 3, key) }
-    void p2Action4(key) { preset.buttonToKey(player1 + 1, 4, key) }
-    void p2Action5(key) { preset.buttonToKey(player1 + 1, 9, key) }
-    void p2Action6(key) { preset.buttonToKey(player1 + 1, 10, key) }
-    void p2Start(key)   { preset.buttonToKey(player1 + 1, 11, key) }
-    void coin(key)      { preset.buttonToKey(player1 + 1, 12, key) }
-}
 
+    void p1Action2(key) { preset.buttonToKey(player1 + 0, 2, key) }
+
+    void p1Action3(key) { preset.buttonToKey(player1 + 0, 3, key) }
+
+    void p1Action4(key) { preset.buttonToKey(player1 + 0, 4, key) }
+
+    void p1Action5(key) { preset.buttonToKey(player1 + 0, 5, key) }
+
+    void p1Action6(key) { preset.buttonToKey(player1 + 0, 6, key) }
+
+    void p1Start(key) { preset.buttonToKey(player1 + 0, 7, key) }
+
+    void exit(key) { preset.buttonToKey(player1 + 0, 8, key) }
+
+    void pinballLeft(key) { preset.buttonToKey(player1 + 0, 9, key) }
+
+    void pinballRight(key) { preset.buttonToKey(player1 + 0, 10, key) }
+
+    void p2Action1(key) { preset.buttonToKey(player1 + 1, 1, key) }
+
+    void p2Action2(key) { preset.buttonToKey(player1 + 1, 2, key) }
+
+    void p2Action3(key) { preset.buttonToKey(player1 + 1, 3, key) }
+
+    void p2Action4(key) { preset.buttonToKey(player1 + 1, 4, key) }
+
+    void p2Action5(key) { preset.buttonToKey(player1 + 1, 9, key) }
+
+    void p2Action6(key) { preset.buttonToKey(player1 + 1, 10, key) }
+
+    void p2Start(key) { preset.buttonToKey(player1 + 1, 11, key) }
+
+    void coin(key) { preset.buttonToKey(player1 + 1, 12, key) }
+}
 
 /*
 Vaciamos todos los mapeos de JoyToKey
@@ -69,8 +86,6 @@ CONTROL ALT MAYUSCULAS + F = TEAM VIEWER
 
 println "JoyToKey HyperSpin: Configuring profile for Arcade"
 new J2K(hs, "HyperSpin").presets.with {
-    dPadToCursor(player1)
-    dPadToCursor(player2)
     analogToCursor(player1)
     analogToCursor(player2)
     new ArcadeSet(preset: delegate, player1: player1).with {
@@ -118,7 +133,8 @@ ResetAllMappings.resetRetroArch(hs.retroArch)
 println "- RetroArch: configure keys "
 println hs.retroArch.iniFile.file.absolutePath
 hs.retroArch.with {
-    setDevicePadForPlayer(1)  // no meter analogico, a retroarch resetea las teclas, borrando las del player2 y dejando en P1 select rshift y start return
+    setDevicePadForPlayer(1)
+    // no meter analogico, a retroarch resetea las teclas, borrando las del player2 y dejando en P1 select rshift y start return
     setDevicePadForPlayer(2)
     configureKeys(1,
             [b     : "z",
@@ -155,10 +171,8 @@ hs.retroArch.with {
 println "JoyToKey RetroArch: joysticks and button -> RetroArch keys"
 hs.listSystemsRetroArch()*.loadJ2KConfig().each { J2K j2k ->
     j2k.presets.with {
-        dPadToCursor(player1)
         analogToCursor(player1)
 
-        dPadTo(player2, KEY_7, KEY_8, KEY_9, KEY_0)
         analogTo(player2, KEY_7, KEY_8, KEY_9, KEY_0)
 
         new ArcadeSet(preset: delegate, player1: player1).with {
@@ -360,8 +374,10 @@ hud: H
 
 println "JoyToKey Pinball Arcade"
 hs.getSystem("Pinball Arcade").loadJ2KConfig().presets.with {
-    analogTo(player1, [KEY_A, CURSOR_LEFT], [KEY_S, CURSOR_DOWN], [KEY_W, CURSOR_UP], [KEY_D, CURSOR_UP])  // GOLPEAR Y CURSORES DEL MENU
-    analogTo(player2, [KEY_A, CURSOR_LEFT], [KEY_S, CURSOR_DOWN], [KEY_W, CURSOR_UP], [KEY_D, CURSOR_UP])  // GOLPEAR Y CURSORES DEL MENU
+    analogTo(player1, [KEY_A, CURSOR_LEFT], [KEY_S, CURSOR_DOWN], [KEY_W, CURSOR_UP], [KEY_D, CURSOR_UP])
+    // GOLPEAR Y CURSORES DEL MENU
+    analogTo(player2, [KEY_A, CURSOR_LEFT], [KEY_S, CURSOR_DOWN], [KEY_W, CURSOR_UP], [KEY_D, CURSOR_UP])
+    // GOLPEAR Y CURSORES DEL MENU
 
     new ArcadeSet(preset: delegate, player1: player1).with {
         pinballLeft([LCTRL, LSHIFT])    // PINBALL IZQUIERDO
@@ -389,34 +405,13 @@ hs.getSystem("Pinball Arcade").loadJ2KConfig().presets.with {
     save()
 }
 
-
-
 /*
 Sony PlayStation 2
 Configuación en:
 d:\Games\Emulators\PCSX2\PCXS2.gigapig\inis\LilyPad.ini
-Se supone ya está configurado para 360
+Se supone ya está configurado para 360, revisar...
  */
-/*
-IniFile psx2 = new IniFile().parse(new File(hs.getPCSX2Folder(),"inis\\LilyPad.ini"))
-if (psx2.get("Device 1", "Display Name") != "WM Keyboard") {
-    throw new Exception("ERROR CONFIGURING PSX2")
-} else {
-    psx2.put("Device 1", "Binding 0", "0x0004000D, 0, 19, 65536, 0, 0, 0")
-    psx2.put("Device 1", "Binding 1", "0x00040020, 0, 16, 65536, 0, 0, 0")
-    psx2.put("Device 1", "Binding 2", "0x00040025, 0, 23, 65536, 0, 0, 0")
-    psx2.put("Device 1", "Binding 3", "0x00040026, 0, 20, 65536, 0, 0, 0")
-    psx2.put("Device 1", "Binding 4", "0x00040027, 0, 21, 65536, 0, 0, 0")
-    psx2.put("Device 1", "Binding 5", "0x00040028, 0, 22, 65536, 0, 0, 0")
-    psx2.put("Device 1", "Binding 6", "0x00040041, 0, 31, 65536, 0, 0, 0")
-    psx2.put("Device 1", "Binding 7", "0x00040051, 0, 26, 65536, 0, 0, 0")
-    psx2.put("Device 1", "Binding 8", "0x00040053, 0, 28, 65536, 0, 0, 0")
-    psx2.put("Device 1", "Binding 9", "0x00040057, 0, 27, 65536, 0, 0, 0")
-    psx2.put("Device 1", "Binding 10", "0x00040058, 0, 29, 65536, 0, 0, 0")
-    psx2.put("Device 1", "Binding 11", "0x0004005A, 0, 30, 65536, 0, 0, 0")
-    psx2.store()
-}
-*/
+
 println "JoyToKey AAE"
 // AAE funciona mejor con teclado
 hs.getSystem("AAE").loadJ2KConfig().presets.with {
@@ -440,4 +435,92 @@ hs.getSystem("AAE").loadJ2KConfig().presets.with {
     save()
 }
 
-//
+ResetAllMappings.resetWinVice(hs)
+println "JoyToKey WinVICE: configuring ${hs.listSystemsWinVICE()*.name}"
+hs.listSystemsWinVICE()*.loadJ2KConfig().with { J2K j2k ->
+    j2k.presets.with {
+
+        analogTo(player1, KEY_A, KEY_S, KEY_W, KEY_D)
+        analogTo(player2, KEY_J, KEY_K, KEY_I, KEY_L)
+
+        new ArcadeSet(preset: delegate, player1: player1).with {
+            p1Action1(KEY_Q) // DISPARO P1
+
+            p1Action2(ENTER)
+            p1Action3(TAB)
+            p1Action4(SPACE)
+            p1Action5(CURSOR_UP)
+            p1Action6(CURSOR_DOWN)
+            coin(CAPSLOCK)
+            p1Start(KEY_1)
+
+            pinballLeft(KEY_N)
+            pinballRight(KEY_Y)
+
+            p2Action1(KEY_U) // DISPARO P2
+
+            p2Action2(ENTER)
+            p2Action3(TAB)
+            p2Action4(SPACE)
+            p2Action5(CURSOR_LEFT)
+            p2Action6(CURSOR_RIGHT)
+            p2Start(KEY_2)
+
+        }
+        save()
+    }
+}
+
+
+
+ResetAllMappings.resetPS2Keys(hs)
+
+println "JoyToKey Sony PlayStation 2 + Sega Ages"
+// AAE funciona mejor con teclado
+[hs.getSystem("Sony PlayStation 2"), hs.getSystem("Sega Ages")]*.loadJ2KConfig().each { J2K j2k ->
+    j2k.presets.with {
+        analogToCursor(player1)
+        analogTo(player2, KEY_J, KEY_K, KEY_I, KEY_L)
+
+        new ArcadeSet(preset: delegate, player1: player1).with {
+            p1Action1(KEY_Z)
+            p1Action2(KEY_X)
+            p1Action3(KEY_Q)
+            p1Action4(KEY_A)
+            p1Action5(KEY_S)
+            p1Action6(KEY_W)
+            coin(SPACE)
+            p1Start(RETURN)   // START P1, PLAYER 1
+            p2Action1(KEY_C)
+            p2Action2(KEY_V)
+            p2Action3(KEY_E)
+            p2Action4(KEY_D)
+            p2Action5(KEY_F)
+            p2Action6(KEY_R)
+            p2Start(KEY_M)   // START P2, PLAYER 2
+        }
+        save()
+    }
+}
+
+
+ResetAllMappings.resetPPSSPP(hs)
+
+println "JoyToKey Sony PSP + Sony PSP Minis"
+// AAE funciona mejor con teclado
+[hs.getSystem("Sony PSP"), hs.getSystem("Sony PSP Minis")]*.loadJ2KConfig().each { J2K j2k ->
+    j2k.presets.with {
+        analogToCursor(player1)
+        new ArcadeSet(preset: delegate, player1: player1).with {
+            p1Action1(KEY_Z)
+            p1Action2(KEY_X)
+            p1Action3(KEY_Q)
+            p1Action4(KEY_A)
+            p1Action5(KEY_S)
+            p1Action6(KEY_W)
+            coin(SPACE)
+            p1Start(RETURN)   // START P1, PLAYER 1
+        }
+        save()
+    }
+}

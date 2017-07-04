@@ -306,6 +306,18 @@ class HyperSpin {
         return newRocketLauncherFile(getGlobalEmulatorsIni().get("WinVICE", "Emu_Path")).parentFile
     }
 
+    File getDolphinGameCubeFolder() {
+        return getSystem("Nintendo GameCube").defaultEmulator.getEmuPath().parentFile
+    }
+
+    File getDolphinWiiFolder() {
+        return getSystem("Nintendo Wii").defaultEmulator.getEmuPath().parentFile
+    }
+
+    File getPPSSPPFolder() {
+        return newRocketLauncherFile(getGlobalEmulatorsIni().get("PPSSPP", "Emu_Path")).parentFile
+    }
+
     File getPCSX2Folder() {
         return newRocketLauncherFile(getGlobalEmulatorsIni().get("PCSX2", "Emu_Path")).parentFile
 //        return getSystem("Sony PlayStation 2").defaultEmulator.getEmuPath().parentFile

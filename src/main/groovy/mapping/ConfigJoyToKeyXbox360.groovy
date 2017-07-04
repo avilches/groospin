@@ -166,7 +166,7 @@ hs.getSystem("AAE").loadJ2KConfig().presets.with {
     ])
     save()
 }
-ResetAllMappings.resetWinVice(hs.winViceFolder)
+ResetAllMappings.resetWinVice(hs)
 println "JoyToKey WinVICE: configuring ${hs.listSystemsWinVICE()*.name}"
 hs.listSystemsWinVICE()*.loadJ2KConfig().with { J2K j2k ->
     j2k.presets.with {
@@ -182,25 +182,29 @@ hs.listSystemsWinVICE()*.loadJ2KConfig().with { J2K j2k ->
                 (XBOX360_RT_ANALOG): KEY_2,
         ]
         buttonsTo(player1, mapping)
+        buttonToKey(player1, XBOX360_A, KEY_Q)
+
         buttonsTo(player2, mapping)
+        buttonToKey(player2, XBOX360_A, KEY_U)
 
         dPadTo  (player1, KEY_A, KEY_S, KEY_W, KEY_D)
         analogToCursor(player1)
-        buttonToKey(player1, XBOX360_A, KEY_Q)
 
         dPadTo  (player2, KEY_J, KEY_K, KEY_I, KEY_L)
         analogToCursor(player2)
-        buttonToKey(player2, XBOX360_A, KEY_U)
         save()
     }
 }
 
+ResetAllMappings.resetPS2Keys(hs)
+ResetAllMappings.resetPPSSPP(hs)
+
 /*
+DONE:
 AAE: [AAE]
 
-RetroArch: [Atari 2600, Atari 7800, Atari Jaguar, Atari Lynx, Bandai WonderSwan, Bandai WonderSwan Color, NEC PC Engine, NEC PC Engine-CD, NEC PC-FX, NEC SuperGrafx, NEC TurboGrafx-16, NEC TurboGrafx-CD, Nintendo 64, Nintendo DS, Nintendo Entertainment System, Super Nintendo Entertainment System, Nintendo Famicom, Nintendo Famicom Disk System, Nintendo Game & Watch, Nintendo Game Boy, Nintendo Game Boy Advance, Nintendo Game Boy Color, Nintendo Satellaview, Nintendo Sufami Turbo, Nintendo Super Famicom, Nintendo Virtual Boy, Sega 32X, Sega Genesis, Sega Game Gear, Sega Mark III, Sega Master System, Sega Mega Drive, Sega Nomad, Sega Pico, Sega Saturn, Sega Saturn Japan, Sega SG-1000, SNK Neo Geo Pocket, SNK Neo Geo Pocket Color, Sony PlayStation, Sony PSP, Sony PSP Minis]
+RetroArch: [Atari 2600, Atari 7800, Atari 2600 - Arcadia Supercharger, Atari Jaguar, Atari Lynx, Bandai WonderSwan, Bandai WonderSwan Color, NEC PC Engine, NEC PC Engine-CD, NEC PC-FX, NEC SuperGrafx, NEC TurboGrafx-16, NEC TurboGrafx-CD, Nintendo 64, Nintendo DS, Nintendo Entertainment System, Super Nintendo Entertainment System, Nintendo Famicom, Nintendo Famicom Disk System, Nintendo Game & Watch, Nintendo Game Boy, Nintendo Game Boy Advance, Nintendo Game Boy Color, Nintendo Satellaview, Nintendo Sufami Turbo, Nintendo Super Famicom, Nintendo Virtual Boy, Sega 32X, Sega Genesis, Sega Game Gear, Sega Mark III, Sega Master System, Sega Mega Drive, Sega Nomad, Sega Pico, Sega Saturn, Sega Saturn Japan, Sega SG-1000, SNK Neo Geo Pocket, SNK Neo Geo Pocket Color, Sony PlayStation]
 RetroArch Extended: [Nintendo 64 Japan, Nintendo 64 Europe, Nintendo Entertainment System Europe, Nintendo Entertainment System Asia, Super Nintendo Entertainment System Europe, Super Nintendo Entertainment System Japan, Sega Master System Japan, Sega Mega Drive Europe]
-RetroArch Gigapig: [Atari 2600 - Arcadia Supercharger, Sinclair ZX Spectrum]
 
 MAME: [Atari Classics, Capcom Classics, Capcom Play System, Capcom Play System II, Capcom Play System III, Data East Classics, HyperNeoGeo64, Irem Classics, Kaneko, Konami Classics, Atlus, Banpresto, Cave, Gaelco MAME, Bally, Sammy, Nichibutsu, Seibu Kaihatsu, Jaleco, Mature MAME, Best of MAME, MAME, Tecmo, Toaplan, Mitchell Corporation, Visco, SNK Classics, MAME 4 Players, Midway Classics, Namco Classics, Namco System 22, Nintendo Classics, Psikyo, Sega Classics, Sega ST-V, Shotgun Games, SNK Neo Geo AES, Technos Classics, Taito Classics, Trackball Games, Williams Classics]
 HBMAME: [HBMAME]
@@ -210,25 +214,29 @@ WinVICE: [Commodore 64]
 Future Pinball: [Future Pinball]
 Pinball FX2: [Pinball FX2]
 Pinball Arcade DX11: [Pinball Arcade]
-Dolphin5: [Nintendo Wii, Nintendo WiiWare]
 
+PPSSPP: [Sony PSP, Sony PSP Minis]
+PCSX2: [Sega Ages, Sony PlayStation 2]
+
+PENDING:
+Dolphin5: [Nintendo Wii, Nintendo WiiWare]
 
 
 
 Sega Model 2 Emulator: [Sega Model 2]
 SuperModel: [Sega Model 3]
-Demul70: [Cave 3rd, Gaelco, Sammy Atomiswave, Sega Dreamcast, Sega Hikaru, Sega Naomi]
+Demul70: [Cave 3rd, Gaelco, Sammy Atomiswave, Sega Hikaru, Sega Naomi]
+NullDC: [Sega Dreamcast]
 Project64 DD: [Nintendo 64DD]
 Dolphin GC: [Nintendo GameCube]
 PokeMini: [Nintendo Pokemon Mini]
-PCSX2: [Sega Ages, Sony PlayStation 2]
 Fusion: [Sega CD, Sega Mega-CD, Sega SC-3000]
 FourDO: [Panasonic 3DO]
 CPCE: [Amstrad CPC]
 Sinclair ZX Spectrum
 Daphne: [Daphne]
 
-
+Spectaculator: [Sinclair ZX Spectrum]
 MESS: [Amstrad GX4000, Atari 5200, Bally Astrocade, Casio PV-1000, Casio PV-2000, ColecoVision, Creatronic Mega Duck, Emerson Arcadia 2001, Entex Adventure Vision, Epoch Game Pocket Computer, Epoch Super Cassette Vision, Exidy Sorcerer, Fairchild Channel F, Funtech Super Acan, GCE Vectrex, Interton VC 4000, Magnavox Odyssey 2, Mattel Intellivision, Nintendo Super Game Boy, Philips CD-i, RCA Studio II, Sony Pocketstation, Texas Instruments TI 99-4A, Tiger Game.com, VTech CreatiVision, Watara Supervision, Aamber Pegasus, Hartung Game Master]
 MESScart1: [Sord M5]
 MESSApogee: [Apogee BK-01, Sega VMU, Vector-06C, VTech Socrates, Casio Loopy]
