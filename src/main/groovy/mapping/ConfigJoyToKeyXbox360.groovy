@@ -204,16 +204,18 @@ println "JoyToKey Super Model 3"
 hs.getSystem("Sega Model 3").loadJ2KConfig().presets.with {
     buttonToKey(player1, XBOX360_BACK, KEY_5)  // start
     buttonToKey(player1, XBOX360_START, KEY_1) // coin
+    buttonToKey(player1, XBOX360_L3, KEY_6)  // service
+    buttonToKey(player1, XBOX360_R3, KEY_8)  // test
+
+    buttonToKey(player2, XBOX360_BACK, KEY_4)  // start
+    buttonToKey(player2, XBOX360_START, KEY_2) // coin
+    buttonToKey(player2, XBOX360_L3, KEY_7)  // service
+    buttonToKey(player2, XBOX360_R3, KEY_9)  // test
+
     buttonToKey(player1, XBOX360_RB, KEY_W) // sube marcha
     buttonToKey(player1, XBOX360_LB, KEY_Q) // baja marcha
     buttonToKey(player1, XBOX360_RT_ANALOG, CURSOR_UP) // frena
     buttonToKey(player1, XBOX360_LT_ANALOG, CURSOR_DOWN) // acelera
-
-    buttonToKey(player2, XBOX360_BACK, KEY_4)  // start
-    buttonToKey(player2, XBOX360_START, KEY_2) // coin
-
-    buttonToKey(player2, XBOX360_L3, KEY_9)  // service
-    buttonToKey(player2, XBOX360_R3, KEY_6)  // test
 
     save()
 }

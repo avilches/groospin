@@ -313,8 +313,13 @@ class HyperSpin {
     File getSuperModelFolder() {
         return getSystem("Sega Model 3").defaultEmulator.getEmuPath().parentFile
     }
+
     File getDolphinWiiFolder() {
         return getSystem("Nintendo Wii").defaultEmulator.getEmuPath().parentFile
+    }
+
+    File getDolphinTriforceFolder() {
+        return getSystem("Sega Triforce").defaultEmulator.getEmuPath().parentFile
     }
 
     File getPPSSPPFolder() {

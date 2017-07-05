@@ -524,7 +524,27 @@ println "JoyToKey Sony PSP + Sony PSP Minis"
     }
 }
 
-ResetAllMappings.resetDolphins360(hs)
+ResetAllMappings.resetDolphinsKeyboard(hs)
+
+println "JoyToKey Sony PSP + Sony PSP Minis"
+// AAE funciona mejor con teclado
+[hs.getSystem("Sega Triforce"), hs.getSystem("Nintendo WiiWare"), hs.getSystem("Nintendo Wii"), hs.getSystem("Nintendo GameCube")]*.loadJ2KConfig().each { J2K j2k ->
+    j2k.presets.with {
+//        analogToCursor(player1)
+        new ArcadeSet(preset: delegate, player1: player1).with {
+//            p1Action1(KEY_Z)
+//            p1Action2(KEY_X)
+//            p1Action3(KEY_Q)
+//            p1Action4(KEY_A)
+//            p1Action5(KEY_S)
+//            p1Action6(KEY_W)
+//            coin(SPACE)
+//            p1Start(RETURN)   // START P1, PLAYER 1
+        }
+        save()
+    }
+}
+
 
 ResetAllMappings.resetSuperModel3KeysAndJoy(hs)
 
@@ -542,8 +562,8 @@ hs.getSystem("Sega Model 3").loadJ2KConfig().presets.with {
         p2Action1(KEY_Q) // baja marcha
         p2Action2(KEY_W)  // sube marcha
 
-        pinballLeft(KEY_9) // service
-        pinballRight(KEY_6) // test
+        pinballLeft(KEY_6) // service
+        pinballRight(KEY_8) // test
     }
 
 
