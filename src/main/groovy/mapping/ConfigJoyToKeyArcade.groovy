@@ -3,7 +3,6 @@ package mapping
 import org.hs5tb.groospin.base.HyperSpin
 import org.hs5tb.groospin.base.J2K
 import org.hs5tb.groospin.base.MameIni
-import org.hs5tb.groospin.common.IniFile
 
 import static org.hs5tb.groospin.base.MameMapping.Action.*
 
@@ -435,7 +434,7 @@ hs.getSystem("AAE").loadJ2KConfig().presets.with {
     save()
 }
 
-ResetAllMappings.resetWinVice(hs)
+ResetAllMappings.resetWinViceKeys(hs)
 println "JoyToKey WinVICE: configuring ${hs.listSystemsWinVICE()*.name}"
 hs.listSystemsWinVICE()*.loadJ2KConfig().with { J2K j2k ->
     j2k.presets.with {
@@ -504,7 +503,7 @@ println "JoyToKey Sony PlayStation 2 + Sega Ages"
 }
 
 
-ResetAllMappings.resetPPSSPP(hs)
+ResetAllMappings.resetPPSSPP360AndKeys(hs)
 
 println "JoyToKey Sony PSP + Sony PSP Minis"
 // AAE funciona mejor con teclado
@@ -523,4 +522,30 @@ println "JoyToKey Sony PSP + Sony PSP Minis"
         }
         save()
     }
+}
+
+ResetAllMappings.resetDolphins360(hs)
+
+ResetAllMappings.resetSuperModel3KeysAndJoy(hs)
+
+println "JoyToKey Super Model 3"
+hs.getSystem("Sega Model 3").loadJ2KConfig().presets.with {
+
+    new ArcadeSet(preset: delegate, player1: player1).with {
+        coin(KEY_1)
+        p1Start(KEY_5)   // START P1
+        p2Start(KEY_4)   // START P2
+
+        p1Action5(KEY_Q) // baja marcha
+        p1Action6(KEY_W)  // sube marcha
+
+        p2Action1(KEY_Q) // baja marcha
+        p2Action2(KEY_W)  // sube marcha
+
+        pinballLeft(KEY_9) // service
+        pinballRight(KEY_6) // test
+    }
+
+
+    save()
 }

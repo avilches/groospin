@@ -310,6 +310,9 @@ class HyperSpin {
         return getSystem("Nintendo GameCube").defaultEmulator.getEmuPath().parentFile
     }
 
+    File getSuperModelFolder() {
+        return getSystem("Sega Model 3").defaultEmulator.getEmuPath().parentFile
+    }
     File getDolphinWiiFolder() {
         return getSystem("Nintendo Wii").defaultEmulator.getEmuPath().parentFile
     }

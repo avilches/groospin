@@ -134,7 +134,7 @@ class ResetAllMappings {
         }
 
     }
-    static void resetPPSSPP(HyperSpin hs) {
+    static void resetPPSSPP360AndKeys(HyperSpin hs) {
         File iniFile = new File(hs.getPPSSPPFolder(), "memstick\\PSP\\SYSTEM\\controls.ini")
 
         println "- PPSSPP: Reseting 360 + keys"
@@ -191,11 +191,131 @@ class ResetAllMappings {
         cfg.store()
     }
 
-    static void resetDolphin(File folder) {
+    private static String dolphin360(section, port) {
+"""[${section}]
+Device = XInput/${port}/Gamepad
+Buttons/A = `Button A`
+Buttons/B = `Button B`
+Buttons/X = `Button X`
+Buttons/Y = `Button Y`
+Buttons/Z = Back
+Buttons/Start = Start
+Main Stick/Up = `Left Y+`
+Main Stick/Down = `Left Y-`
+Main Stick/Left = `Left X-`
+Main Stick/Right = `Left X+`
+C-Stick/Up = `Right Y+`
+C-Stick/Down = `Right Y-`
+C-Stick/Left = `Right X-`
+C-Stick/Right = `Right X+`
+Triggers/L = `Shoulder L`
+Triggers/R = `Shoulder R`
+Triggers/L-Analog = `Trigger L`
+Triggers/R-Analog = `Trigger R`
+Rumble/Motor = `Motor L` | `Motor R`
+D-Pad/Up = `Pad N`
+D-Pad/Down = `Pad S`
+D-Pad/Left = `Pad W`
+D-Pad/Right = `Pad E`
+"""
+    }
+    static void resetDolphins360(HyperSpin hs) {
+        [hs.getDolphinGameCubeFolder(),hs.getDolphinWiiFolder()].each { File dolphin ->
+            new File(dolphin, "User\\Config\\Profiles\\GCPad\\Xbox 360 port 1.ini").text = dolphin360("Profile", "0")
+            new File(dolphin, "User\\Config\\Profiles\\GCPad\\Xbox 360 port 2.ini").text = dolphin360("Profile", "1")
+            new File(dolphin, "User\\Config\\Profiles\\GCPad\\Xbox 360 port 3.ini").text = dolphin360("Profile", "2")
+            new File(dolphin, "User\\Config\\Profiles\\GCPad\\Xbox 360 port 4.ini").text = dolphin360("Profile", "3");
+
+
+            File iniDolphinFile = new File(dolphin, "User\\Config\\Dolphin.ini")
+            println " - Dolphin: set P1 + P2 + P3 + P4 to standard controller"
+            println iniDolphinFile.absolutePath
+            IniFile cfgDolphin = new IniFile(equals: " = ").parse(iniDolphinFile)
+            cfgDolphin.put("Core", "SIDevice0", "6") // Standard controller
+            cfgDolphin.put("Core", "SIDevice1", "6") // Standard controller
+            cfgDolphin.put("Core", "SIDevice2", "6") // Standard controller
+            cfgDolphin.put("Core", "SIDevice3", "6") // Standard controller
+            cfgDolphin.store()
+
+            File iniPadFile = new File(dolphin, "User\\Config\\GCPadNew.ini")
+            println " - Dolphin: set P1 + P2 to standard controller"
+            println iniPadFile.absolutePath
+            iniPadFile.text =
+"""
+${dolphin360("GCPad1", "0")}
+${dolphin360("GCPad2", "1")}
+${dolphin360("GCPad3", "2")}
+${dolphin360("GCPad4", "3")}
+"""
+        }
 
     }
 
-    static void resetWinVice(HyperSpin hs) {
+    static void resetSuperModel3KeysAndJoy(HyperSpin hs) {
+        File iniFile = new File(hs.superModelFolder, "Config\\Supermodel.ini")
+        println "- Super Model 0.3a: joystick and keys"
+        println iniFile.absolutePath
+
+        IniFile cfg = new IniFile(equals: " = ").parse(iniFile)
+
+        cfg.put("Global", "InputStart1", "\"KEY_1\"")
+        cfg.put("Global", "InputStart2", "\"KEY_2\"")
+        cfg.put("Global", "InputCoin1", "\"KEY_5\"")
+        cfg.put("Global", "InputCoin2", "\"KEY_4\"")
+        cfg.put("Global", "InputServiceA", "\"KEY_9\"")
+        cfg.put("Global", "InputServiceB", "\"KEY_7\"")
+        cfg.put("Global", "InputTestA", "\"KEY_6\"")
+        cfg.put("Global", "InputTestB", "\"KEY_8\"")
+        cfg.put("Global", "InputJoyDown", "\"KEY_DOWN,JOY1_DOWN\"")
+        cfg.put("Global", "InputJoyDown2", "\"KEY_KEYPAD2,JOY2_DOWN\"")
+        cfg.put("Global", "InputJoyLeft", "\"KEY_LEFT,JOY1_LEFT\"")
+        cfg.put("Global", "InputJoyLeft2", "\"KEY_KEYPAD4,JOY2_LEFT\"")
+        cfg.put("Global", "InputJoyRight", "\"KEY_RIGHT,JOY1_RIGHT\"")
+        cfg.put("Global", "InputJoyRight2", "\"KEY_KEYPAD6,JOY2_RIGHT\"")
+        cfg.put("Global", "InputJoyUp", "\"KEY_UP,JOY1_UP\"")
+        cfg.put("Global", "InputJoyUp2", "\"KEY_KEYPAD8,JOY2_UP\"")
+        cfg.put("Global", "InputEscape", "\"KEY_F,JOY1_BUTTON4\"")
+        cfg.put("Global", "InputEscape2", "\"KEY_R,JOY2_BUTTON4\"")
+        cfg.put("Global", "InputGuard", "\"KEY_D,JOY1_BUTTON3\"")
+        cfg.put("Global", "InputGuard2", "\"KEY_E,JOY2_BUTTON3\"")
+        cfg.put("Global", "InputKick", "\"KEY_S,JOY1_BUTTON2\"")
+        cfg.put("Global", "InputKick2", "\"KEY_W,JOY2_BUTTON2\"")
+        cfg.put("Global", "InputPunch", "\"KEY_A,JOY1_BUTTON1\"")
+        cfg.put("Global", "InputPunch2", "\"KEY_Q,JOY2_BUTTON1\"")
+        cfg.put("Global", "InputBeat", "\"KEY_S,JOY1_BUTTON2\"")
+        cfg.put("Global", "InputCharge", "\"KEY_D,JOY1_BUTTON3\"")
+        cfg.put("Global", "InputJump", "\"KEY_F,JOY1_BUTTON4\"")
+        cfg.put("Global", "InputShift", "\"KEY_A,JOY1_BUTTON1\"")
+        cfg.put("Global", "InputLongPass", "\"KEY_S,JOY1_BUTTON2\"")
+        cfg.put("Global", "InputLongPass2", "\"KEY_W,JOY2_BUTTON2\"")
+        cfg.put("Global", "InputShortPass", "\"KEY_A,JOY1_BUTTON1\"")
+        cfg.put("Global", "InputShortPass2", "\"KEY_Q,JOY2_BUTTON1\"")
+        cfg.put("Global", "InputShoot", "\"KEY_D,JOY1_BUTTON3\"")
+        cfg.put("Global", "InputShoot2", "\"KEY_E,JOY2_BUTTON3\"")
+        cfg.put("Global", "InputSteering", "\"JOY1_XAXIS\"")
+        cfg.put("Global", "InputSteeringLeft", "\"KEY_LEFT,JOY1_LEFT\"")
+        cfg.put("Global", "InputSteeringRight", "\"KEY_RIGHT,JOY1_RIGHT\"")
+        cfg.put("Global", "InputBrake", "\"KEY_DOWN,JOY1_BUTTON2\"")
+        cfg.put("Global", "InputAccelerator", "\"KEY_UP,JOY1_BUTTON1\"")
+        cfg.put("Global", "InputGearShift1", "\"KEY_1\"")
+        cfg.put("Global", "InputGearShift2", "\"KEY_2\"")
+        cfg.put("Global", "InputGearShift3", "\"KEY_3\"")
+        cfg.put("Global", "InputGearShift4", "\"KEY_4\"")
+        cfg.put("Global", "InputGearShiftN", "\"KEY_0\"")
+        cfg.put("Global", "InputGearShiftDown", "\"KEY_Q\"")
+        cfg.put("Global", "InputGearShiftUp", "\"KEY_W\"")
+        cfg.put("Global", "InputVR1", "\"KEY_A\"")
+        cfg.put("Global", "InputVR2", "\"KEY_S\"")
+        cfg.put("Global", "InputVR3", "\"KEY_D\"")
+        cfg.put("Global", "InputVR4", "\"KEY_F\"")
+        cfg.store()
+
+
+
+
+    }
+
+    static void resetWinViceKeys(HyperSpin hs) {
         File iniFile = new File(hs.winViceFolder, "vice.ini")
         println "- WinVICE reset: P1:AWSD + Q/ P2:IJKL + U):"
         println iniFile.absolutePath

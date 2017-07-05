@@ -2,8 +2,6 @@ package mapping
 
 import org.hs5tb.groospin.base.HyperSpin
 import org.hs5tb.groospin.base.J2K
-import org.hs5tb.groospin.base.MameIni
-import org.hs5tb.groospin.common.IniFile
 
 HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
 int joystickStartPosition = 1
@@ -166,7 +164,7 @@ hs.getSystem("AAE").loadJ2KConfig().presets.with {
     ])
     save()
 }
-ResetAllMappings.resetWinVice(hs)
+ResetAllMappings.resetWinViceKeys(hs)
 println "JoyToKey WinVICE: configuring ${hs.listSystemsWinVICE()*.name}"
 hs.listSystemsWinVICE()*.loadJ2KConfig().with { J2K j2k ->
     j2k.presets.with {
@@ -197,8 +195,28 @@ hs.listSystemsWinVICE()*.loadJ2KConfig().with { J2K j2k ->
 }
 
 ResetAllMappings.resetPS2Keys(hs)
-ResetAllMappings.resetPPSSPP(hs)
+ResetAllMappings.resetPPSSPP360AndKeys(hs)
 
+ResetAllMappings.resetDolphins360(hs)
+
+ResetAllMappings.resetSuperModel3KeysAndJoy(hs)
+println "JoyToKey Super Model 3"
+hs.getSystem("Sega Model 3").loadJ2KConfig().presets.with {
+    buttonToKey(player1, XBOX360_BACK, KEY_5)  // start
+    buttonToKey(player1, XBOX360_START, KEY_1) // coin
+    buttonToKey(player1, XBOX360_RB, KEY_W) // sube marcha
+    buttonToKey(player1, XBOX360_LB, KEY_Q) // baja marcha
+    buttonToKey(player1, XBOX360_RT_ANALOG, CURSOR_UP) // frena
+    buttonToKey(player1, XBOX360_LT_ANALOG, CURSOR_DOWN) // acelera
+
+    buttonToKey(player2, XBOX360_BACK, KEY_4)  // start
+    buttonToKey(player2, XBOX360_START, KEY_2) // coin
+
+    buttonToKey(player2, XBOX360_L3, KEY_9)  // service
+    buttonToKey(player2, XBOX360_R3, KEY_6)  // test
+
+    save()
+}
 /*
 DONE:
 AAE: [AAE]
@@ -217,24 +235,29 @@ Pinball Arcade DX11: [Pinball Arcade]
 
 PPSSPP: [Sony PSP, Sony PSP Minis]
 PCSX2: [Sega Ages, Sony PlayStation 2]
+Dolphin5: [Nintendo Wii, Nintendo WiiWare]
+Dolphin GC: [Nintendo GameCube]
+SuperModel: [Sega Model 3]
+
 
 PENDING:
-Dolphin5: [Nintendo Wii, Nintendo WiiWare]
-
-
 
 Sega Model 2 Emulator: [Sega Model 2]
-SuperModel: [Sega Model 3]
 Demul70: [Cave 3rd, Gaelco, Sammy Atomiswave, Sega Hikaru, Sega Naomi]
 NullDC: [Sega Dreamcast]
 Project64 DD: [Nintendo 64DD]
-Dolphin GC: [Nintendo GameCube]
 PokeMini: [Nintendo Pokemon Mini]
 Fusion: [Sega CD, Sega Mega-CD, Sega SC-3000]
 FourDO: [Panasonic 3DO]
 CPCE: [Amstrad CPC]
 Sinclair ZX Spectrum
 Daphne: [Daphne]
+NeoRaine: [SNK Neo Geo CD]
+Project Tempest: [Atari Jaguar CD]
+PCLauncher: [American Laser Games, Big Fish Games, Doujin Soft, Flash Games, Lucasarts Adventure Games, Locomalito Games, Nintendo Game and Watch, Party Games, PC Games, Taito Type X, TouchGames, Touhou Project, Pack Remasterizados]
+DICE: [DICE]
+ZiNc: [Zinc]
+
 
 Spectaculator: [Sinclair ZX Spectrum]
 MESS: [Amstrad GX4000, Atari 5200, Bally Astrocade, Casio PV-1000, Casio PV-2000, ColecoVision, Creatronic Mega Duck, Emerson Arcadia 2001, Entex Adventure Vision, Epoch Game Pocket Computer, Epoch Super Cassette Vision, Exidy Sorcerer, Fairchild Channel F, Funtech Super Acan, GCE Vectrex, Interton VC 4000, Magnavox Odyssey 2, Mattel Intellivision, Nintendo Super Game Boy, Philips CD-i, RCA Studio II, Sony Pocketstation, Texas Instruments TI 99-4A, Tiger Game.com, VTech CreatiVision, Watara Supervision, Aamber Pegasus, Hartung Game Master]
@@ -242,18 +265,13 @@ MESScart1: [Sord M5]
 MESSApogee: [Apogee BK-01, Sega VMU, Vector-06C, VTech Socrates, Casio Loopy]
 BeebEm: [Acorn BBC Micro]
 Universal Emualator Alf: [ALF TV Game]
-PCLauncher: [American Laser Games, Big Fish Games, Doujin Soft, Flash Games, Lucasarts Adventure Games, Locomalito Games, Nintendo Game and Watch, Party Games, PC Games, Taito Type X, TouchGames, Touhou Project, Pack Remasterizados]
 AppleWin: [Apple II]
 Atari800: [Atari 8-bit, Atari XEGS]
-Project Tempest: [Atari Jaguar CD]
 Hatari: [Atari ST]
 WinUAE: [Commodore Amiga, Commodore Amiga CD32, Commodore CDTV]
-DICE: [DICE]
 MFME v10.1a: [Fruit Machine]
 UNZ: [Fujitsu FM Towns]
 GeePee32: [GamePark 32]
-ZiNc: [Zinc]
-
 
 BlueMSX: [Microsoft MSX, Microsoft MSX2, Microsoft MSX2+]
 OpenMSXPalm: [MSX Palcom Laserdisc]
@@ -267,7 +285,6 @@ Casual Games: [PopCap]
 Dolphin Triforce: [Sega Triforce]
 Xmillennium: [Sharp X1]
 XM6: [Sharp X68000]
-NeoRaine: [SNK Neo Geo CD]
 Nestopia: [Technos]
 BlueMSX Zemmix: [Zemmix, Zemmix Neo]
 

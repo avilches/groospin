@@ -1,7 +1,6 @@
 package mapping
 
 import org.hs5tb.groospin.base.HyperSpin
-import org.hs5tb.groospin.base.MameIni
 
 HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
 // Vaciamos todos los mapeos de JoyToKey
@@ -15,6 +14,7 @@ ResetAllMappings.resetRetroArch(hs.retroArch)
 
 // Se elimina el default.cfg para que se vuelva a generar vacio, haciendo antes una copia de seguridad
 ResetAllMappings.resetMameCtrl(hs)
-ResetAllMappings.resetWinVice(hs)
+ResetAllMappings.resetWinViceKeys(hs)
 ResetAllMappings.resetPS2Keys(hs)
-ResetAllMappings.resetPPSSPP(hs)
+ResetAllMappings.resetPPSSPP360AndKeys(hs)
+ResetAllMappings.resetSuperModel3KeysAndJoy(hs)

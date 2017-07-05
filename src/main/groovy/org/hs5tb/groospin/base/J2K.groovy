@@ -39,6 +39,8 @@ class J2K {
         static int XBOX360_LT_ANALOG = 11 // ANALOG
         static int XBOX360_RB = 6
         static int XBOX360_BACK = 7
+        static int XBOX360_L3 = 9
+        static int XBOX360_R3 = 10
         static int XBOX360_SELECT = 7
         static int XBOX360_START = 8
         static int XBOX360_RT_ANALOG = 12 // ANALOG
