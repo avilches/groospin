@@ -322,6 +322,10 @@ class HyperSpin {
         return getSystem("Sega Triforce").defaultEmulator.getEmuPath().parentFile
     }
 
+    File getDaphneFolder() {
+        return getSystem("Daphne").defaultEmulator.getEmuPath().parentFile
+    }
+
     File getPPSSPPFolder() {
         return newRocketLauncherFile(getGlobalEmulatorsIni().get("PPSSPP", "Emu_Path")).parentFile
     }

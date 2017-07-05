@@ -202,13 +202,13 @@ ResetAllMappings.resetDolphins360(hs)
 ResetAllMappings.resetSuperModel3KeysAndJoy(hs)
 println "JoyToKey Super Model 3"
 hs.getSystem("Sega Model 3").loadJ2KConfig().presets.with {
-    buttonToKey(player1, XBOX360_BACK, KEY_5)  // start
-    buttonToKey(player1, XBOX360_START, KEY_1) // coin
+    buttonToKey(player1, XBOX360_BACK, KEY_5)  // coin
+    buttonToKey(player1, XBOX360_START, KEY_1) // start
     buttonToKey(player1, XBOX360_L3, KEY_6)  // service
     buttonToKey(player1, XBOX360_R3, KEY_8)  // test
 
-    buttonToKey(player2, XBOX360_BACK, KEY_4)  // start
-    buttonToKey(player2, XBOX360_START, KEY_2) // coin
+    buttonToKey(player2, XBOX360_BACK, KEY_4)  // coin
+    buttonToKey(player2, XBOX360_START, KEY_2) // start
     buttonToKey(player2, XBOX360_L3, KEY_7)  // service
     buttonToKey(player2, XBOX360_R3, KEY_9)  // test
 
@@ -219,6 +219,34 @@ hs.getSystem("Sega Model 3").loadJ2KConfig().presets.with {
 
     save()
 }
+
+ResetAllMappings.resetDaphneKeys(hs)
+println "JoyToKey Daphne"
+hs.getSystem("Sega Daphne").loadJ2KConfig().presets.with {
+
+    analogToCursor(player1)
+    analogToCursor(player2)
+    Map mapping = [
+            (XBOX360_A)        : LCTRL,
+            (XBOX360_B)        : LALT,
+            (XBOX360_X)        : LSHIFT,
+            (XBOX360_Y)        : KEY_Z, // skill 1
+            (XBOX360_BACK)     : KEY_5, // coin
+            (XBOX360_START)    : KEY_1,  // start
+            (XBOX360_LB)       : KEY_X, // skill 2
+            (XBOX360_LT_ANALOG): KEY_T, // tilt
+            (XBOX360_RB)       : KEY_C, // skill 3
+            (XBOX360_RT_ANALOG): KEY_P, // pause
+    ]
+    buttonsTo(player1, mapping)
+    mapping[XBOX360_BACK] = KEY_6
+    mapping[XBOX360_START] = KEY_2
+    buttonsTo(player2, mapping)
+
+    save()
+}
+
+
 /*
 DONE:
 AAE: [AAE]
@@ -239,8 +267,9 @@ PPSSPP: [Sony PSP, Sony PSP Minis]
 PCSX2: [Sega Ages, Sony PlayStation 2]
 Dolphin5: [Nintendo Wii, Nintendo WiiWare]
 Dolphin GC: [Nintendo GameCube]
+Dolphin Triforce: [Sega Triforce]
 SuperModel: [Sega Model 3]
-
+Daphne: [Daphne]
 
 PENDING:
 
@@ -253,12 +282,12 @@ Fusion: [Sega CD, Sega Mega-CD, Sega SC-3000]
 FourDO: [Panasonic 3DO]
 CPCE: [Amstrad CPC]
 Sinclair ZX Spectrum
-Daphne: [Daphne]
 NeoRaine: [SNK Neo Geo CD]
 Project Tempest: [Atari Jaguar CD]
 PCLauncher: [American Laser Games, Big Fish Games, Doujin Soft, Flash Games, Lucasarts Adventure Games, Locomalito Games, Nintendo Game and Watch, Party Games, PC Games, Taito Type X, TouchGames, Touhou Project, Pack Remasterizados]
 DICE: [DICE]
 ZiNc: [Zinc]
+Nestopia: [Technos]
 
 
 Spectaculator: [Sinclair ZX Spectrum]
@@ -284,10 +313,8 @@ CEMU162: [Nintendo Wii U]
 OpenBOR: [OpenBOR]
 DCVG5K: [Philips VG 5000]
 Casual Games: [PopCap]
-Dolphin Triforce: [Sega Triforce]
 Xmillennium: [Sharp X1]
 XM6: [Sharp X68000]
-Nestopia: [Technos]
 BlueMSX Zemmix: [Zemmix, Zemmix Neo]
 
 

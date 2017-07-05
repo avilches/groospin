@@ -526,20 +526,29 @@ println "JoyToKey Sony PSP + Sony PSP Minis"
 
 ResetAllMappings.resetDolphinsKeyboard(hs)
 
-println "JoyToKey Sony PSP + Sony PSP Minis"
+println "JoyToKey Dolphin keys"
 // AAE funciona mejor con teclado
 [hs.getSystem("Sega Triforce"), hs.getSystem("Nintendo WiiWare"), hs.getSystem("Nintendo Wii"), hs.getSystem("Nintendo GameCube")]*.loadJ2KConfig().each { J2K j2k ->
     j2k.presets.with {
-//        analogToCursor(player1)
+        analogToCursor(player1)
+        analogTo(player2, KEY_J, KEY_K, KEY_I, KEY_L)
         new ArcadeSet(preset: delegate, player1: player1).with {
-//            p1Action1(KEY_Z)
-//            p1Action2(KEY_X)
-//            p1Action3(KEY_Q)
-//            p1Action4(KEY_A)
-//            p1Action5(KEY_S)
-//            p1Action6(KEY_W)
-//            coin(SPACE)
-//            p1Start(RETURN)   // START P1, PLAYER 1
+            p1Action1(KEY_Z)
+            p1Action2(KEY_X)
+            p1Action3(KEY_A)
+            p1Action4(KEY_S)
+            p1Action5(KEY_Q)
+            p1Action6(KEY_W)
+            coin(KEY_D)
+            p1Start(KEY_C)   // START P1, PLAYER 1
+
+            p2Action1(KEY_F)
+            p2Action2(KEY_G)
+            p2Action3(KEY_H)
+//            p2Action4(KEY_S)
+            p2Action5(KEY_T)
+//            p2Action6(KEY_W)
+
         }
         save()
     }
@@ -552,9 +561,9 @@ println "JoyToKey Super Model 3"
 hs.getSystem("Sega Model 3").loadJ2KConfig().presets.with {
 
     new ArcadeSet(preset: delegate, player1: player1).with {
-        coin(KEY_1)
-        p1Start(KEY_5)   // START P1
-        p2Start(KEY_4)   // START P2
+        coin(KEY_5)
+        p1Start(KEY_1)   // START P1
+        p2Start(KEY_2)   // START P2
 
         p1Action5(KEY_Q) // baja marcha
         p1Action6(KEY_W)  // sube marcha
@@ -565,7 +574,42 @@ hs.getSystem("Sega Model 3").loadJ2KConfig().presets.with {
         pinballLeft(KEY_6) // service
         pinballRight(KEY_8) // test
     }
-
-
     save()
 }
+
+
+
+ResetAllMappings.resetDaphneKeys(hs)
+println "JoyToKey Daphne"
+hs.getSystem("Sega Daphne").loadJ2KConfig().presets.with {
+
+    analogToCursor(player1)
+    analogToCursor(player2)
+
+    new ArcadeSet(preset: delegate, player1: player1).with {
+        pinballLeft(KEY_S) // service
+        pinballRight(KEY_T) // TILT
+
+        coin(KEY_5) // coin
+
+        p1Start(KEY_1)  // start
+        p1Action1(LCTRL)
+        p1Action2(LALT)
+        p1Action3(LSHIFT)
+        p1Action4(KEY_Z) // skill 1
+        p1Action5(KEY_X) // skill 2
+        p1Action6(KEY_C) // skill 3
+
+        p2Start(KEY_2)  // start
+        p2Action1(LCTRL)
+        p2Action2(LALT)
+        p2Action3(LSHIFT)
+        p2Action4(KEY_Z) // skill 1
+        p2Action5(KEY_X) // skill 2
+        p2Action6(KEY_C) // skill 3
+
+        save()
+    }
+}
+
+
