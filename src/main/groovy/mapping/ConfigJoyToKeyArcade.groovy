@@ -581,7 +581,7 @@ hs.getSystem("Sega Model 3").loadJ2KConfig().presets.with {
 
 ResetAllMappings.resetDaphneKeys(hs)
 println "JoyToKey Daphne"
-hs.getSystem("Sega Daphne").loadJ2KConfig().presets.with {
+hs.getSystem("Daphne").loadJ2KConfig().presets.with {
 
     analogToCursor(player1)
     analogToCursor(player2)
