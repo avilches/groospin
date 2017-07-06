@@ -20,7 +20,7 @@ if (missing) {
 roms.removeAll { it.name in missing }
 
 roms.each { MameMachine rom ->
-    rom.filesUsed = report.filesUsed[rom.name]
+    rom.filesUsed = report.filesByRom[rom.name]
 }
 
 File f = new File("d:/Games/Arcades/HBMAME/0175/romsfake")

@@ -30,7 +30,7 @@ void generateVersion(String version, String commonDst, String xmlDat, List romFo
 //    roms.removeAll { it.name in missing }
 //
 //    roms.each { MameMachine rom ->
-//        rom.filesUsed = report.filesUsed[rom.name]
+//        rom.filesUsed = report.filesByRom[rom.name]
 //    }
 
 /*

@@ -8,15 +8,6 @@ import org.hs5tb.groospin.common.IOTools
 import java.util.zip.ZipEntry
 import java.util.zip.ZipFile
 
-/**
- * Created by Alberto on 10-Oct-16.
- */
-
-MameChecker checker180 = new MameChecker().loadDat("d:/Games/Roms/MAME/mame.dat")
-MameChecker.Report report = checker180.checkRoms(
-        ["d:/Games/Roms/MAME/ROMs", "d:/Games/Roms/MAME/chds"])
-println report.missing
-
 
 class MameChecker {
     Map<String, MameMachine> index = [:]
@@ -30,43 +21,46 @@ class MameChecker {
         if (verbose) println s
     }
 
-    MameChecker loadDat(String datFileName) {
+    MameChecker loadDat(String datFileName, Closure filter = null) {
         index = [:]
         games = []
         long start = System.currentTimeMillis()
         MameMachine.loadRoms(new File(datFileName), false, null).each { MameMachine rom ->
             index[rom.name.toLowerCase()] = rom
-            games << rom
+            if (!filter || filter.call(rom)) {
+                games << rom
+            }
         }
         log "Parsing dat time: ${(System.currentTimeMillis()-start)/1000}s (${games.size()} machines)"
         return this
     }
 
     static class Report {
-        Map<String, List> filesUsed
+        Map<String, List> filesByRom
         Set<String> missing
+        Set<File> files
     }
 
     Report checkRoms(List romFolderString) {
         Set missing = new LinkedHashSet()
-        Map<String, List> filesUsed = [:]
+        Map<String, List> filesByRom = [:]
         romFolders = romFolderString.collect { it instanceof String ? new File(it) : it }
         long start = System.currentTimeMillis()
         games.each { MameMachine mameMachine ->
             List filesChecked = []
-            List romFilesUsed = []
+            List filesUsed = []
             Map romsPending = extractAllRomsToCheck(mameMachine)
-            checkRomsAndRemoveOk(romsPending, filesChecked, romFilesUsed, "", mameMachine.name)
+            checkRomsAndRemoveOk(romsPending, filesChecked, filesUsed, "", mameMachine.name)
             if (romsPending) {
                 if (mameMachine.cloneof) {
                     MameMachine parent = index[mameMachine.cloneof.toLowerCase()]
                     if (parent) {
-                        checkRomsAndRemoveOk(romsPending, filesChecked, romFilesUsed, mameMachine.name, parent.name)
+                        checkRomsAndRemoveOk(romsPending, filesChecked, filesUsed, mameMachine.name, parent.name)
                         if (romsPending) {
                             if (parent.romof) {
                                 MameMachine bios = index[parent.romof.toLowerCase()]
                                 if (bios) {
-                                    checkRomsAndRemoveOk(romsPending, filesChecked, romFilesUsed, "", bios.name)
+                                    checkRomsAndRemoveOk(romsPending, filesChecked, filesUsed, "", bios.name)
                                 }
                             }
                         }
@@ -74,7 +68,7 @@ class MameChecker {
                 } else if (mameMachine.romof) {
                     MameMachine bios = index[mameMachine.romof.toLowerCase()]
                     if (bios) {
-                        checkRomsAndRemoveOk(romsPending, filesChecked, romFilesUsed, "", bios.name)
+                        checkRomsAndRemoveOk(romsPending, filesChecked, filesUsed, "", bios.name)
                     }
                 }
             }
@@ -87,18 +81,18 @@ class MameChecker {
 
             filesChecked = []
             Map chdsPending = extractAllDisksToCheck(mameMachine)
-            checkChdsAndRemoveOk(chdsPending, filesChecked, romFilesUsed, mameMachine.name)
+            checkChdsAndRemoveOk(chdsPending, filesChecked, filesUsed, mameMachine.name)
 
             if (chdsPending) {
                 if (mameMachine.cloneof) {
                     MameMachine parent = index[mameMachine.cloneof.toLowerCase()]
                     if (parent) {
-                        checkChdsAndRemoveOk(chdsPending, filesChecked, romFilesUsed, parent.name)
+                        checkChdsAndRemoveOk(chdsPending, filesChecked, filesUsed, parent.name)
                         if (chdsPending) {
                             if (parent.romof) {
                                 MameMachine bios = index[parent.romof.toLowerCase()]
                                 if (bios) {
-                                    checkChdsAndRemoveOk(chdsPending, filesChecked, romFilesUsed, bios.name)
+                                    checkChdsAndRemoveOk(chdsPending, filesChecked, filesUsed, bios.name)
                                 }
                             }
                         }
@@ -106,7 +100,7 @@ class MameChecker {
                 } else if (mameMachine.romof) {
                     MameMachine bios = index[mameMachine.romof.toLowerCase()]
                     if (bios) {
-                        checkChdsAndRemoveOk(chdsPending, filesChecked, romFilesUsed, bios.name)
+                        checkChdsAndRemoveOk(chdsPending, filesChecked, filesUsed, bios.name)
                     }
                 }
             }
@@ -118,11 +112,11 @@ class MameChecker {
             if (chdsPending || romsPending) {
                 missing << mameMachine.name
             } else {
-                filesUsed[mameMachine.name] = romFilesUsed
+                filesByRom[mameMachine.name] = filesUsed
             }
         }
         log "Checking time: ${(System.currentTimeMillis()-start)/1000}s"
-        return new Report(missing: missing, filesUsed: filesUsed)
+        return new Report(missing: missing, filesByRom: filesByRom, files: filesByRom.values().flatten() as Set<File>)
     }
 
     Map checkRomsAndRemoveOk(Map pendingRomBins, List filesChecked, List filesUsed, String folderInside, String filename) {
@@ -142,7 +136,8 @@ class MameChecker {
                 }
             }
             if (pendingRomBins.size() < currentSize) {
-                filesUsed << zip.name
+//                filesByRom << zip.name
+                filesUsed << zip
             }
         } else if (sevenz) {
             try {
@@ -159,7 +154,8 @@ class MameChecker {
                 }
                 sevenZFile.close();
                 if (pendingRomBins.size() < currentSize) {
-                    filesUsed << sevenz.name
+//                    filesByRom << sevenz.name
+                    filesUsed << sevenz
                 }
             } catch (e) {
                 println "FATAL error reading ${sevenz}"
@@ -212,7 +208,8 @@ class MameChecker {
             }
             if (chd) {
                 filesChecked << chd.toString()
-                filesUsed << mameMachineName+"/"+chd.name
+//                filesByRom << mameMachineName+"/"+chd.name
+                filesUsed << chd
                 if (romBin.size >0 && chd.size() != romBin.size) {
                     log "warning! bad size checking disk ${chd.canonicalPath}"
                 }
