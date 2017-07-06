@@ -250,6 +250,7 @@ D-Pad/Right = L
     }
 
     static void configureDolphinDefaults(File dolphin) {
+        new File(dolphin, "User\\Config\\Profiles\\GCPad").mkdirs()
         new File(dolphin, "User\\Config\\Profiles\\GCPad\\Xbox 360 port 1.ini").text = dolphin360("Profile", "0")
         new File(dolphin, "User\\Config\\Profiles\\GCPad\\Xbox 360 port 2.ini").text = dolphin360("Profile", "1")
         new File(dolphin, "User\\Config\\Profiles\\GCPad\\Xbox 360 port 3.ini").text = dolphin360("Profile", "2")
