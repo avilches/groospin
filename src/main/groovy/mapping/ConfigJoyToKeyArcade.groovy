@@ -177,20 +177,20 @@ hs.listSystemsRetroArch()*.loadJ2KConfig().each { J2K j2k ->
         new ArcadeSet(preset: delegate, player1: player1).with {
             p1Action1(KEY_Z)
             p1Action2(KEY_X)
-            p1Action3(KEY_A)
-            p1Action4(KEY_S)
-            p1Action5(KEY_Q)
-            p1Action6(KEY_W)
+            p1Action3(KEY_W)
+            p1Action4(KEY_A)
+            p1Action5(KEY_S)
+            p1Action6(KEY_Q)
 
             p1Start(KEY_C)
             coin(KEY_D)
 
             p2Action1(KEY_1)
             p2Action2(KEY_2)
-            p2Action3(KEY_3)
-            p2Action4(KEY_4)
-            p2Action5(KEY_5)
-            p2Action6(KEY_6)
+            p2Action3(KEY_6)
+            p2Action4(KEY_3)
+            p2Action5(KEY_4)
+            p2Action6(KEY_5)
 
             p2Start(KEY_B)
 
@@ -484,10 +484,10 @@ println "JoyToKey Sony PlayStation 2 + Sega Ages"
         new ArcadeSet(preset: delegate, player1: player1).with {
             p1Action1(KEY_Z)
             p1Action2(KEY_X)
-            p1Action3(KEY_Q)
+            p1Action3(KEY_W)
             p1Action4(KEY_A)
             p1Action5(KEY_S)
-            p1Action6(KEY_W)
+            p1Action6(KEY_Q)
             coin(SPACE)
             p1Start(RETURN)   // START P1, PLAYER 1
             p2Action1(KEY_C)
@@ -513,10 +513,10 @@ println "JoyToKey Sony PSP + Sony PSP Minis"
         new ArcadeSet(preset: delegate, player1: player1).with {
             p1Action1(KEY_Z)
             p1Action2(KEY_X)
-            p1Action3(KEY_Q)
+            p1Action3(KEY_W)
             p1Action4(KEY_A)
             p1Action5(KEY_S)
-            p1Action6(KEY_W)
+            p1Action6(KEY_Q)
             coin(SPACE)
             p1Start(RETURN)   // START P1, PLAYER 1
         }
@@ -535,10 +535,10 @@ println "JoyToKey Dolphin keys"
         new ArcadeSet(preset: delegate, player1: player1).with {
             p1Action1(KEY_Z)
             p1Action2(KEY_X)
-            p1Action3(KEY_A)
-            p1Action4(KEY_S)
-            p1Action5(KEY_Q)
-            p1Action6(KEY_W)
+            p1Action3(KEY_W)
+            p1Action4(KEY_A)
+            p1Action5(KEY_S)
+            p1Action6(KEY_Q)
             coin(KEY_D)
             p1Start(KEY_C)   // START P1, PLAYER 1
 
