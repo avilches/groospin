@@ -50,6 +50,8 @@ class MameMachine extends Rom {
 
     List filesUsed
 
+    boolean runnable
+
     String driverStatus
     String emulationStatus
     String colorStatus
@@ -144,7 +146,9 @@ class MameMachine extends Rom {
         int rotate = (machine.display[0]?.@rotate?:0) as int
         vertical = rotate == 90 || rotate == 270
 
-        playable = !mechanical && players && (controls || buttons)
+        runnable = mameMachineRunnableArcadeOnlyCondition.call(machine)
+
+        playable = !mechanical && players && (controls || buttons) && runnable
 
         working = machineIsWorkingCondition.call(this)
 
