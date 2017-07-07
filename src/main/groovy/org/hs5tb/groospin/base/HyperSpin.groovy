@@ -326,6 +326,10 @@ class HyperSpin {
         return getSystem("Daphne").defaultEmulator.getEmuPath().parentFile
     }
 
+    File getFourDOFolder() {
+        return getSystem("Panasonic 3DO").defaultEmulator.getEmuPath().parentFile
+    }
+
     File getPPSSPPFolder() {
         return newRocketLauncherFile(getGlobalEmulatorsIni().get("PPSSPP", "Emu_Path")).parentFile
     }

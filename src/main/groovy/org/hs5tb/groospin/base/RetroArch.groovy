@@ -7,6 +7,7 @@ import org.hs5tb.groospin.common.IniFile
  */
 class RetroArch {
     IniFile iniFile
+    IniFile coreIniFile
     static EMPTY = "\"nul\""
     static DEVICE_PAD_WITH_ANALOG = "\"5\""
     static DEVICE_PAD = "\"1\""
@@ -18,6 +19,18 @@ class RetroArch {
 
     RetroArch folder(String folder) {
         iniFile = new IniFile(equals: " = ").parse(new File(folder, "retroarch.cfg"))
+        iniFile.put("system_directory", "\":\\system\"")
+        iniFile.store()
+
+        coreIniFile = new IniFile(equals: " = ").parse(new File(folder, "retroarch-core-options.cfg"))
+        coreIniFile.put("beetle_psx_analog_toggle", "\"enabled\"")
+        coreIniFile.store()
+
+        File bettle = new File(folder, "config\\Beetle PSX\\Beetle PSX.cfg")
+        if (!bettle.exists()) {
+            bettle.parentFile.mkdirs()
+            bettle.text = ""
+        }
         this
     }
 

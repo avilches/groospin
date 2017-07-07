@@ -1,5 +1,6 @@
 package mapping
 
+import groovy.text.SimpleTemplateEngine
 import org.hs5tb.groospin.base.HyperSpin
 import org.hs5tb.groospin.base.J2K
 import org.hs5tb.groospin.base.MameIni
@@ -85,8 +86,8 @@ class ResetAllMappings {
 
     static void resetPS2Keys(HyperSpin hs) {
         println "- PCSX2 keys: setting LilyPad and set some default keys for P1 & P2: (YOU HAVE TO CONFIGURE 360 or other pads YOURSELF!)"
-        IniFile psx2 = new IniFile().parse(new File(hs.getPCSX2Folder(),"inis\\PCSX2_ui.ini"))
-        IniFile lilyPad = new IniFile().parse(new File(hs.getPCSX2Folder(),"inis\\LilyPad.ini"))
+        IniFile psx2 = new IniFile().parse(new File(hs.getPCSX2Folder(), "inis\\PCSX2_ui.ini"))
+        IniFile lilyPad = new IniFile().parse(new File(hs.getPCSX2Folder(), "inis\\LilyPad.ini"))
 
         println psx2.file.absolutePath
         println lilyPad.file.absolutePath
@@ -134,6 +135,7 @@ class ResetAllMappings {
         }
 
     }
+
     static void resetPPSSPP360AndKeys(HyperSpin hs) {
         File iniFile = new File(hs.getPPSSPPFolder(), "memstick\\PSP\\SYSTEM\\controls.ini")
 
@@ -192,7 +194,7 @@ class ResetAllMappings {
     }
 
     private static String dolphin360(section, port) {
-"""[${section}]
+        """[${section}]
 Device = XInput/${port}/Gamepad
 Buttons/A = `Button A`
 Buttons/B = `Button B`
@@ -219,8 +221,9 @@ D-Pad/Left = `Pad W`
 D-Pad/Right = `Pad E`
 """
     }
+
     private static String dolphinKeyboard(section, port) {
-"""[${section}]
+        """[${section}]
 Device = DInput/${port}/Keyboard Mouse
 Buttons/A = Z
 Buttons/B = X
@@ -291,7 +294,7 @@ D-Pad/Right = L
             println " - Dolphin: set P1 + P2 to 360"
             println iniPadFile.absolutePath
             iniPadFile.text =
-"""${dolphin360("GCPad1", "0")}
+                    """${dolphin360("GCPad1", "0")}
 ${dolphin360("GCPad2", "1")}
 ${dolphin360("GCPad3", "2")}
 ${dolphin360("GCPad4", "3")}
@@ -309,11 +312,11 @@ ${dolphin360("GCPad4", "3")}
         cfg.put("Global", "InputStart1", "\"KEY_1\"")
         cfg.put("Global", "InputStart2", "\"KEY_2\"")
         cfg.put("Global", "InputCoin1", "\"KEY_5\"")
-        cfg.put("Global", "InputCoin2", "\"KEY_4\"")
-        cfg.put("Global", "InputServiceA", "\"KEY_6\"")
-        cfg.put("Global", "InputServiceB", "\"KEY_7\"")
-        cfg.put("Global", "InputTestA", "\"KEY_8\"")
-        cfg.put("Global", "InputTestB", "\"KEY_9\"")
+        cfg.put("Global", "InputCoin2", "\"KEY_6\"")
+        cfg.put("Global", "InputServiceA", "\"KEY_7\"")
+        cfg.put("Global", "InputServiceB", "\"KEY_8\"")
+        cfg.put("Global", "InputTestA", "\"KEY_9\"")
+        cfg.put("Global", "InputTestB", "\"KEY_0\"")
         // joy
         cfg.put("Global", "InputJoyDown", "\"KEY_DOWN,JOY1_DOWN\"")
         cfg.put("Global", "InputJoyDown2", "\"KEY_KEYPAD2,JOY2_DOWN\"")
@@ -379,9 +382,7 @@ ${dolphin360("GCPad4", "3")}
 
 //        Single view change button (Dirt Devils, ECA, Harley-Davidson, Sega Rally 2)
         cfg.put("Global", "InputViewChange", "\"KEY_A,JOY1_BUTTON4\"")
-        
-        
-        
+
         /////////////////// SIN DEFINIR!!!!!!!!!!! POR DEFECTO
 
         // Harley-Davidson controls
@@ -532,6 +533,85 @@ ${dolphin360("GCPad4", "3")}
 
     static resetDaphneKeys(HyperSpin hs) {
         Daphne.writeMapping(hs, Daphne.createDefaultMapping())
+    }
+
+    static resetPanasonic3DOKeys(HyperSpin hs) {
+        Map p1 = [
+                Up: "Up", Down: "Down", Left: "Left", Right: "Right",
+                A : "Z",
+                B : "X",
+                C : "A",
+                X : "D5", // STOP
+                P : "D1", // PLAY/PAUSE
+                L : "Q",
+                R : "W"]
+        // numeros D1..D9
+        // ControlKey, ShiftKey, Space, Return
+        Map p2 = [
+                Up: "NumPad8", Down: "NumPad2", Left: "NumPad4", Right: "NumPad6",
+                A : "C",
+                B : "V",
+                C : "D",
+                X : "D6", // STOP
+                P : "D2", // PLAY/PAUSE
+                L : "E",
+                R : "R"]
+        Map console = [ConsoleStateSave:"F2",
+                       ConsoleStateLoad:"F4",
+                       ConsoleStateSlotPrevious:"F6",
+                       ConsoleStateSlotNext:"F7",
+                       ConsoleFullScreen:"F",
+                       ConsoleScreenShot:"F3",
+                       ConsolePause:"P",
+                       ConsoleAdvanceBySingleFrame:"F10",
+                       ConsoleReset:"F12"
+        ]
+        File settings = new File(hs.fourDOFolder, "Settings\\JohnnyInputBindings.xml")
+        settings.text =
+"""<InputBindingDevices className="FourDO.Emulation.Plugins.Input.JohnnyInput.InputBindingDevices">
+\t<FormatVersion>2</FormatVersion>
+\t<Count>7</Count>
+\t<System.Collections.IEnumerable>
+${inputBindingDevices(console)}
+${inputBindingDevices(p1)}
+${inputBindingDevices(p2)}
+${inputBindingDevices()}
+${inputBindingDevices()}
+${inputBindingDevices()}
+${inputBindingDevices()}
+\t</System.Collections.IEnumerable>
+</InputBindingDevices>"""
+
+
+        println "- FourDO reset: keyboard:"
+        println settings.absolutePath
+    }
+
+    private static String inputBindingDevices(Map config = [:]) {
+        String bindings = ""
+        if (config) {
+            bindings = "\n\t\t\t\t\t<System.Collections.IEnumerable>\n"
+
+            config.each {
+                bindings += """\t\t\t\t\t\t<InputBinding className="FourDO.Emulation.Plugins.Input.JohnnyInput.InputBinding">
+\t\t\t\t\t\t\t<Button>${it.key}</Button>
+\t\t\t\t\t\t\t<Trigger className="FourDO.Emulation.Plugins.Input.JohnnyInput.KeyboardInputTrigger">
+\t\t\t\t\t\t\t\t<FriendlyName>${it.value}</FriendlyName>
+\t\t\t\t\t\t\t\t<Key>${it.value}</Key>
+\t\t\t\t\t\t\t</Trigger>
+\t\t\t\t\t\t</InputBinding>
+"""
+            }
+            bindings += "\t\t\t\t\t</System.Collections.IEnumerable>"
+
+        }
+return """\t\t<InputBindingDevice className="FourDO.Emulation.Plugins.Input.JohnnyInput.InputBindingDevice">
+\t\t\t<BindingSets className="FourDO.Emulation.Plugins.Input.JohnnyInput.InputBindingSets">
+\t\t\t\t<InputBindingSet className="FourDO.Emulation.Plugins.Input.JohnnyInput.InputBindingSet">
+\t\t\t\t\t<Count>${config.size()}</Count>${bindings}
+\t\t\t\t</InputBindingSet>
+\t\t\t</BindingSets>
+\t\t</InputBindingDevice>"""
     }
 }
 

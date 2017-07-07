@@ -10,7 +10,9 @@ HyperSpin hs = new HyperSpin("A:/RocketLauncher")
 
 int joystickStartPosition = 1
 int player1 = joystickStartPosition
-int player2 = joystickStartPosition + 1
+int player2 = player1 + 1
+int player3 = player2 + 1
+int player4 = player3 + 1
 
 /*
 J1
@@ -156,10 +158,10 @@ hs.retroArch.with {
              x     : "num4",
              l     : "num5",
              r     : "num6",
-             left  : "num7",
-             down  : "num8",
-             up    : "num9",
-             right : "num0",
+             left  : "keypad4",
+             down  : "keypad2",
+             up    : "keypad8",
+             right : "keypad6",
              select: "g",
              start : "b"]
     )
@@ -171,8 +173,7 @@ println "JoyToKey RetroArch: joysticks and button -> RetroArch keys"
 hs.listSystemsRetroArch()*.loadJ2KConfig().each { J2K j2k ->
     j2k.presets.with {
         analogToCursor(player1)
-
-        analogTo(player2, KEY_7, KEY_8, KEY_9, KEY_0)
+        analogToNumpad(player2)
 
         new ArcadeSet(preset: delegate, player1: player1).with {
             p1Action1(KEY_Z)
@@ -219,10 +220,13 @@ println hs.mameMapping.getCtrlr().absolutePath
 hs.mameMapping.with {
     add(UI_CANCEL, ESC)
     add(COIN1, KEY_5)
-    add(COIN2, KEY_6)
     add(COIN2, KEY_5)  // MONEDA P2 TAMBIEN EN LA MISMA TECLA QUE P1
+    add(COIN3, KEY_5)  // MONEDA P2 TAMBIEN EN LA MISMA TECLA QUE P1
+    add(COIN4, KEY_5)  // MONEDA P2 TAMBIEN EN LA MISMA TECLA QUE P1
     add(START1, KEY_1)
     add(START2, KEY_2)
+    add(START3, KEY_3)
+    add(START4, KEY_4)
 
     add(P1_BUTTON1, LCONTROL)
     add(P1_BUTTON2, LALT)
@@ -246,6 +250,28 @@ hs.mameMapping.with {
     add(P2_LEFT, KEY_D)
     add(P2_RIGHT, KEY_G)
 
+    add(P3_BUTTON1, KEY_C)
+    add(P3_BUTTON2, KEY_V)
+    add(P3_BUTTON3, KEY_B)
+    add(P3_BUTTON4, KEY_N)
+    add(P3_BUTTON5, KEY_M)
+    add(P3_BUTTON6, KEY_T)
+    add(P3_UP, KEY_I)
+    add(P3_DOWN, KEY_K)
+    add(P3_LEFT, KEY_J)
+    add(P3_RIGHT, KEY_L)
+
+    add(P4_BUTTON1, KEY_1_PAD)
+    add(P4_BUTTON2, KEY_3_PAD)
+    add(P4_BUTTON3, KEY_5_PAD)
+    add(P4_BUTTON4, KEY_7_PAD)
+    add(P4_BUTTON5, KEY_9_PAD)
+    add(P4_BUTTON6, KEY_0_PAD)
+    add(P4_UP, KEY_8_PAD)
+    add(P4_DOWN, KEY_2_PAD)
+    add(P4_LEFT, KEY_4_PAD)
+    add(P4_RIGHT, KEY_6_PAD)
+
     saveCtrl("arcadeAT")
 }
 
@@ -253,7 +279,7 @@ MameIni mameIni = hs.getMameIni("ini/presets/mame.ini")
 println "- MAME: setting ctrlr to 'arcadeAT':"
 println mameIni.file.absolutePath
 mameIni.set("keyboardprovider", "dinput")  // ensure MAME can read JoyToKey mappings
-mameIni.set("ctrlr", "")
+mameIni.set("ctrlr", "arcadeAT")
 mameIni.save()
 
 // Mapeos en JoyToKey
@@ -262,7 +288,7 @@ println "JoyToKey MAME: joysticks and button -> keys"
 
     j2k.presets.with {
         analogTo(player1, CURSOR_LEFT, CURSOR_DOWN, CURSOR_UP, CURSOR_RIGHT)
-        analogTo(player2, KEY_D, KEY_F, KEY_R, KEY_G)  // abajo sacar, resto golpear
+        analogTo(player2, KEY_D, KEY_F, KEY_R, KEY_G)
 
         new ArcadeSet(preset: delegate, player1: player1).with {
             p1Action1(LCTRL)
@@ -272,7 +298,7 @@ println "JoyToKey MAME: joysticks and button -> keys"
             p1Action5(KEY_Z)
             p1Action6(KEY_X)
             p1Start(KEY_1)
-            coin(KEY_5) // MONEDA P1 Y P2
+            coin(KEY_5) // MONEDA P1, P2, P3 Y P4
 
             p2Action1(KEY_A)
             p2Action2(KEY_S)
@@ -282,10 +308,41 @@ println "JoyToKey MAME: joysticks and button -> keys"
             p2Action6(KEY_E)
             p2Start(KEY_2)
         }
-        save()
+
+        xbox360Esc(player3)
+        xbox360Esc(player4)
+
+        analogTo(player3, KEY_J, KEY_K, KEY_I, KEY_L)
+        dPadTo(player3, KEY_J, KEY_K, KEY_I, KEY_L)
+
+        buttonsTo(player3, [
+                (XBOX360_A)        : KEY_C,
+                (XBOX360_B)        : KEY_V,
+                (XBOX360_X)        : KEY_B,
+                (XBOX360_Y)        : KEY_N,
+                (XBOX360_LB)       : KEY_M,
+                (XBOX360_RB)       : KEY_T,
+                (XBOX360_BACK)     : KEY_5,
+                (XBOX360_START)    : KEY_3
+        ])
+
+        analogToNumpad(player4)
+        dPadToNumpad(player4)
+        buttonsTo(player4, [
+                (XBOX360_A)        : KEY_1_PAD,
+                (XBOX360_B)        : KEY_3_PAD,
+                (XBOX360_X)        : KEY_5_PAD,
+                (XBOX360_Y)        : KEY_7_PAD,
+                (XBOX360_LB)       : KEY_9_PAD,
+                (XBOX360_RB)       : KEY_0_PAD,
+                (XBOX360_BACK)     : KEY_5,
+                (XBOX360_START)    : KEY_4
+        ])
+
 
         // TODO:
 //        buttonToOtherJoy(player1, 9, player2+1) // PINBALL IZQUIERDO
+         save()
 
     }
 }
@@ -574,6 +631,42 @@ hs.getSystem("Sega Model 3").loadJ2KConfig().presets.with {
         pinballLeft(KEY_6) // service
         pinballRight(KEY_8) // test
     }
+
+    xbox360Esc(player3)
+    xbox360Esc(player4)
+
+    analogToCursor(player3)
+    dPadToCursor(player3)
+    buttonsTo(player3, [(XBOX360_BACK)     : KEY_5,  // coin
+                        (XBOX360_START)    : KEY_1, // start
+
+                        (XBOX360_A)        : KEY_A,
+                        (XBOX360_B)        : KEY_S,
+                        (XBOX360_X)        : KEY_D,
+                        (XBOX360_Y)        : KEY_F,
+
+                        (XBOX360_L3)       : KEY_7,  // service
+                        (XBOX360_R3)       : KEY_9,  // test
+                        (XBOX360_RB)       : KEY_W, // sube marcha
+                        (XBOX360_LB)       : KEY_Q, // baja marcha
+                        (XBOX360_RT_ANALOG): CURSOR_UP, // frena
+                        (XBOX360_LT_ANALOG): CURSOR_DOWN, // acelera
+    ])
+
+    analogToCursor(player4)
+    dPadToNumpad(player4)
+    buttonsTo(player4, [(XBOX360_BACK) : KEY_6,  // coin
+                        (XBOX360_START): KEY_2,  // start
+
+                        (XBOX360_A)        : KEY_Q,
+                        (XBOX360_B)        : KEY_W,
+                        (XBOX360_X)        : KEY_E,
+                        (XBOX360_Y)        : KEY_R,
+
+                        (XBOX360_L3)   : KEY_8,  // service
+                        (XBOX360_R3)   : KEY_0,  // test
+    ])
+
     save()
 }
 
@@ -611,5 +704,67 @@ hs.getSystem("Daphne").loadJ2KConfig().presets.with {
         save()
     }
 }
+
+ResetAllMappings.resetPanasonic3DOKeys(hs)
+println "JoyToKey Panasonic 3DO"
+hs.getSystem("Panasonic 3DO").loadJ2KConfig().presets.with {
+
+    analogToCursor(player1)
+    analogToNumpad(player2)
+
+    new ArcadeSet(preset: delegate, player1: player1).with {
+        coin(KEY_5) // STOP
+
+        p1Start(KEY_1)  // play/pause
+        p1Action1(KEY_Z)
+        p1Action2(KEY_X)
+        p1Action3(KEY_A)
+        p1Action4(KEY_A)
+        p1Action5(KEY_Q)
+        p1Action6(KEY_W)
+
+        p2Start(KEY_2)  // play/pause
+        p2Action1(KEY_C)
+        p2Action2(KEY_V)
+        p2Action3(KEY_D)
+        p2Action4(KEY_C)
+        p2Action5(KEY_E)
+        p2Action6(KEY_R)
+    }
+
+    analogToCursor(player3)
+    dPadToCursor(player3)
+    buttonsTo(player3, [
+            (XBOX360_A)        : KEY_Z,
+            (XBOX360_B)        : KEY_X,
+            (XBOX360_X)        : KEY_A,
+//            (XBOX360_Y)        : KEY_Z, // skill 1
+            (XBOX360_BACK)     : KEY_5, // stop
+            (XBOX360_START)    : KEY_1,  // play/pause
+            (XBOX360_LB)       : KEY_Q, //
+            (XBOX360_LT_ANALOG): KEY_Q, //
+            (XBOX360_RB)       : KEY_W, //
+            (XBOX360_RT_ANALOG): KEY_W, //
+    ])
+
+    analogToNumpad(player4)
+    dPadToNumpad(player4)
+    buttonsTo(player4, [
+            (XBOX360_A)        : KEY_C,
+            (XBOX360_B)        : KEY_V,
+            (XBOX360_X)        : KEY_D,
+//            (XBOX360_Y)        : KEY_Z, // skill 1
+            (XBOX360_BACK)     : KEY_6, // stop
+            (XBOX360_START)    : KEY_2,  // play/pause
+            (XBOX360_LB)       : KEY_E, //
+            (XBOX360_LT_ANALOG): KEY_E, //
+            (XBOX360_RB)       : KEY_R, //
+            (XBOX360_RT_ANALOG): KEY_R, //
+    ])
+
+    save()
+}
+
+
 
 

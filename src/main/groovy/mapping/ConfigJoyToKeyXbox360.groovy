@@ -25,23 +25,21 @@ new J2K(hs, "HyperSpin").presets.with {
     xbox360Esc(player1)
     xbox360Esc(player2)
     Map mapping = [
-            (XBOX360_A): RETURN,
-            (XBOX360_B): ESC,
-            (XBOX360_X): KEY_F,
-            (XBOX360_Y): KEY_G,
-            (XBOX360_BACK): F5,  // GENERO
-            (XBOX360_START): KEY_H,
-            (XBOX360_LB): PAGEDOWN,
+            (XBOX360_A)        : RETURN,
+            (XBOX360_B)        : ESC,
+            (XBOX360_X)        : KEY_F,
+            (XBOX360_Y)        : KEY_G,
+            (XBOX360_BACK)     : F5,  // GENERO
+            (XBOX360_START)    : KEY_H,
+            (XBOX360_LB)       : PAGEDOWN,
             (XBOX360_LT_ANALOG): F3,   // SEARCH
-            (XBOX360_RB): PAGEUP,
+            (XBOX360_RB)       : PAGEUP,
             (XBOX360_RT_ANALOG): F4 // FAVORITES
     ]
     buttonsTo(player1, mapping)
     buttonsTo(player2, mapping)
     save()
 }
-
-
 
 // Mapear en JoyToKey la tecla ESCAPE con BACK+START (Xbox 360) en TODOS los sistemas
 println "JoyToKey all: BACK+START -> ESC....."
@@ -85,20 +83,20 @@ y hacer el mapeo en el JoyToKey.
 // Se elimina el default.cfg para que se vuelva a generar vacio, haciendo antes una copia de seguridad
 ResetAllMappings.resetMameCtrl(hs)
 
-println "JoyToKey MAME: Configuring 360 additional buttons (coin, start, dpad): ${(hs.listSystemsMAME()+hs.getSystem("HBMAME"))*.name}"
+println "JoyToKey MAME: Configuring 360 additional buttons (coin, start, dpad): ${(hs.listSystemsMAME() + hs.getSystem("HBMAME"))*.name}"
 // Mapeos en JoyToKey
-(hs.listSystemsMAME()+hs.getSystem("HBMAME"))*.loadJ2KConfig().each { J2K j2k ->
+(hs.listSystemsMAME() + hs.getSystem("HBMAME"))*.loadJ2KConfig().each { J2K j2k ->
     j2k.presets.with {
         xbox360MameTab(player1)
         xbox360MameTab(player2)
         dPadToCursor(player1)
         dPadTo(player2, KEY_D, KEY_F, KEY_R, KEY_G)
         buttonsTo(player1, [
-                (XBOX360_BACK): KEY_5,
+                (XBOX360_BACK) : KEY_5,
                 (XBOX360_START): KEY_1
         ])
         buttonsTo(player2, [
-                (XBOX360_BACK): KEY_6,
+                (XBOX360_BACK) : KEY_6,
                 (XBOX360_START): KEY_2
         ])
         save()
@@ -113,12 +111,12 @@ hs.getSystem("Future Pinball").loadJ2KConfig().presets.with {
     analogRightTo(player1, F5, F8, F7, F6)  // vistas
     dPadTo(player1, KEY_F, RETURN, SPACE, KEY_A)  // abajo sacar, resto golpear
     buttonsTo(player1, [
-            (XBOX360_A): RETURN, // sacar
-            (XBOX360_Y): TAB, // mirar arriba
-            (XBOX360_BACK): KEY_5, // start
+            (XBOX360_A)    : RETURN, // sacar
+            (XBOX360_Y)    : TAB, // mirar arriba
+            (XBOX360_BACK) : KEY_5, // start
             (XBOX360_START): KEY_1, // moneda
-            (XBOX360_LB): [KEY_Z, KEY_X],  // pinballs izquierdo
-            (XBOX360_RB): [KEY_N, KEY_M],  // pinballs derecho
+            (XBOX360_LB)   : [KEY_Z, KEY_X],  // pinballs izquierdo
+            (XBOX360_RB)   : [KEY_N, KEY_M],  // pinballs derecho
     ])
     save()
 }
@@ -147,19 +145,19 @@ hs.getSystem("AAE").loadJ2KConfig().presets.with {
     analogToCursor(player1)
     analogToCursor(player2)
     buttonsTo(player1, [
-            (XBOX360_A): ALT,
-            (XBOX360_B): CTRL,
-            (XBOX360_X): SHIFT,
-            (XBOX360_Y): SPACE,
-            (XBOX360_BACK): KEY_5,
+            (XBOX360_A)    : ALT,
+            (XBOX360_B)    : CTRL,
+            (XBOX360_X)    : SHIFT,
+            (XBOX360_Y)    : SPACE,
+            (XBOX360_BACK) : KEY_5,
             (XBOX360_START): KEY_1
     ])
     buttonsTo(player2, [
-            (XBOX360_A): ALT,
-            (XBOX360_B): CTRL,
-            (XBOX360_X): SHIFT,
-            (XBOX360_Y): SPACE,
-            (XBOX360_BACK): KEY_5,
+            (XBOX360_A)    : ALT,
+            (XBOX360_B)    : CTRL,
+            (XBOX360_X)    : SHIFT,
+            (XBOX360_Y)    : SPACE,
+            (XBOX360_BACK) : KEY_5,
             (XBOX360_START): KEY_2
     ])
     save()
@@ -185,10 +183,10 @@ hs.listSystemsWinVICE()*.loadJ2KConfig().with { J2K j2k ->
         buttonsTo(player2, mapping)
         buttonToKey(player2, XBOX360_A, KEY_U)
 
-        dPadTo  (player1, KEY_A, KEY_S, KEY_W, KEY_D)
+        dPadTo(player1, KEY_A, KEY_S, KEY_W, KEY_D)
         analogToCursor(player1)
 
-        dPadTo  (player2, KEY_J, KEY_K, KEY_I, KEY_L)
+        dPadTo(player2, KEY_J, KEY_K, KEY_I, KEY_L)
         analogToCursor(player2)
         save()
     }
@@ -202,20 +200,24 @@ ResetAllMappings.resetDolphins360(hs)
 ResetAllMappings.resetSuperModel3KeysAndJoy(hs)
 println "JoyToKey Super Model 3"
 hs.getSystem("Sega Model 3").loadJ2KConfig().presets.with {
-    buttonToKey(player1, XBOX360_BACK, KEY_5)  // coin
-    buttonToKey(player1, XBOX360_START, KEY_1) // start
-    buttonToKey(player1, XBOX360_L3, KEY_6)  // service
-    buttonToKey(player1, XBOX360_R3, KEY_8)  // test
+    dPadToCursor(player1)
+    buttonsTo(player1, [(XBOX360_BACK)     : KEY_5,  // coin
+                        (XBOX360_START)    : KEY_1, // start
+                        (XBOX360_L3)       : KEY_7,  // service
+                        (XBOX360_R3)       : KEY_9,  // test
+                        (XBOX360_RB)       : KEY_W, // sube marcha
+                        (XBOX360_LB)       : KEY_Q, // baja marcha
+                        (XBOX360_RT_ANALOG): CURSOR_UP, // frena
+                        (XBOX360_LT_ANALOG): CURSOR_DOWN, // acelera
+    ])
 
-    buttonToKey(player2, XBOX360_BACK, KEY_4)  // coin
-    buttonToKey(player2, XBOX360_START, KEY_2) // start
-    buttonToKey(player2, XBOX360_L3, KEY_7)  // service
-    buttonToKey(player2, XBOX360_R3, KEY_9)  // test
+    dPadToNumpad(player1)
+    buttonsTo(player2, [(XBOX360_BACK) : KEY_6,  // coin
+                        (XBOX360_START): KEY_2,  // start
+                        (XBOX360_L3)   : KEY_8,  // service
+                        (XBOX360_R3)   : KEY_0,  // test
+    ])
 
-    buttonToKey(player1, XBOX360_RB, KEY_W) // sube marcha
-    buttonToKey(player1, XBOX360_LB, KEY_Q) // baja marcha
-    buttonToKey(player1, XBOX360_RT_ANALOG, CURSOR_UP) // frena
-    buttonToKey(player1, XBOX360_LT_ANALOG, CURSOR_DOWN) // acelera
 
     save()
 }
@@ -225,7 +227,10 @@ println "JoyToKey Daphne"
 hs.getSystem("Daphne").loadJ2KConfig().presets.with {
 
     analogToCursor(player1)
+    dPadToCursor(player1)
+
     analogToCursor(player2)
+    dPadToCursor(player2)
     Map mapping = [
             (XBOX360_A)        : LCTRL,
             (XBOX360_B)        : LALT,
@@ -246,6 +251,42 @@ hs.getSystem("Daphne").loadJ2KConfig().presets.with {
     save()
 }
 
+ResetAllMappings.resetPanasonic3DOKeys(hs)
+println "JoyToKey Panasonic 3DO"
+hs.getSystem("Panasonic 3DO").loadJ2KConfig().presets.with {
+
+    analogToCursor(player1)
+    dPadToCursor(player1)
+    buttonsTo(player1, [
+            (XBOX360_A)        : KEY_Z,
+            (XBOX360_B)        : KEY_X,
+            (XBOX360_X)        : KEY_A,
+//            (XBOX360_Y)        : KEY_Z, // skill 1
+            (XBOX360_BACK)     : KEY_5, // stop
+            (XBOX360_START)    : KEY_1,  // play/pause
+            (XBOX360_LB)       : KEY_Q, //
+            (XBOX360_LT_ANALOG): KEY_Q, //
+            (XBOX360_RB)       : KEY_W, //
+            (XBOX360_RT_ANALOG): KEY_W, //
+    ])
+
+    analogToNumpad(player2)
+    dPadToNumpad(player2)
+    buttonsTo(player2, [
+            (XBOX360_A)        : KEY_C,
+            (XBOX360_B)        : KEY_V,
+            (XBOX360_X)        : KEY_D,
+//            (XBOX360_Y)        : KEY_Z, // skill 1
+            (XBOX360_BACK)     : KEY_6, // stop
+            (XBOX360_START)    : KEY_2,  // play/pause
+            (XBOX360_LB)       : KEY_E, //
+            (XBOX360_LT_ANALOG): KEY_E, //
+            (XBOX360_RB)       : KEY_R, //
+            (XBOX360_RT_ANALOG): KEY_R, //
+    ])
+
+    save()
+}
 
 /*
 DONE:
@@ -270,6 +311,11 @@ Dolphin GC: [Nintendo GameCube]
 Dolphin Triforce: [Sega Triforce]
 SuperModel: [Sega Model 3]
 Daphne: [Daphne]
+FourDO: [Panasonic 3DO]
+
+DICE: [DICE]
+NeoRaine: [SNK Neo Geo CD]
+ZiNc: [Zinc]
 
 PENDING:
 
@@ -279,14 +325,10 @@ NullDC: [Sega Dreamcast]
 Project64 DD: [Nintendo 64DD]
 PokeMini: [Nintendo Pokemon Mini]
 Fusion: [Sega CD, Sega Mega-CD, Sega SC-3000]
-FourDO: [Panasonic 3DO]
 CPCE: [Amstrad CPC]
 Sinclair ZX Spectrum
-NeoRaine: [SNK Neo Geo CD]
 Project Tempest: [Atari Jaguar CD]
 PCLauncher: [American Laser Games, Big Fish Games, Doujin Soft, Flash Games, Lucasarts Adventure Games, Locomalito Games, Nintendo Game and Watch, Party Games, PC Games, Taito Type X, TouchGames, Touhou Project, Pack Remasterizados]
-DICE: [DICE]
-ZiNc: [Zinc]
 Nestopia: [Technos]
 
 
