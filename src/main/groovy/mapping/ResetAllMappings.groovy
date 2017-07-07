@@ -1,6 +1,5 @@
 package mapping
 
-import groovy.text.SimpleTemplateEngine
 import org.hs5tb.groospin.base.HyperSpin
 import org.hs5tb.groospin.base.J2K
 import org.hs5tb.groospin.base.MameIni
@@ -193,13 +192,13 @@ class ResetAllMappings {
         cfg.store()
     }
 
-    private static String dolphin360(section, port) {
+    private static String dolphinGamecube360(section, port) {
         """[${section}]
 Device = XInput/${port}/Gamepad
-Buttons/A = `Button A`
-Buttons/B = `Button B`
-Buttons/X = `Button X`
-Buttons/Y = `Button Y`
+Buttons/A = `Button B`
+Buttons/B = `Button A`
+Buttons/X = `Button Y`
+Buttons/Y = `Button X`
 Buttons/Z = Back
 Buttons/Start = Start
 Main Stick/Up = `Left Y+`
@@ -222,7 +221,7 @@ D-Pad/Right = `Pad E`
 """
     }
 
-    private static String dolphinKeyboard(section, port) {
+    private static String dolphinGamecubeKeyboard(section, port) {
         """[${section}]
 Device = DInput/${port}/Keyboard Mouse
 Buttons/A = Z
@@ -252,13 +251,58 @@ D-Pad/Right = L
 """
     }
 
-    static void configureDolphinDefaults(File dolphin) {
+    private static String dolphinWii360(section, port) {
+        """[${section}]
+Device = XInput/${port}/Gamepad
+Buttons/A = `Button B`
+Buttons/B = `Button A`
+Buttons/1 = `Button Y`
+Buttons/2 = `Button X`
+Buttons/- = Back
+Buttons/+ = Start
+IR/Up = `Right Y+`
+IR/Down = `Right Y-`
+IR/Left = `Right X-`
+IR/Right = `Right X+`
+Extension = Nunchuk
+Nunchuk/Buttons/C = `Shoulder L`
+Nunchuk/Buttons/Z = `Trigger L`
+Nunchuk/Stick/Up = `Left Y+`
+Nunchuk/Stick/Down = `Left Y-`
+Nunchuk/Stick/Left = `Left X-`
+Nunchuk/Stick/Right = `Left X+`
+D-Pad/Up = `Pad N`
+D-Pad/Down = `Pad S`
+D-Pad/Left = `Pad W`
+D-Pad/Right = `Pad E`
+"""
+    }
+
+    static void configureWiiDefaults(File dolphin) {
+        new File(dolphin, "User\\Config\\Profiles\\Wiimote").mkdirs()
+        new File(dolphin, "User\\Config\\Profiles\\Wiimote\\Xbox 360 port 1.ini").text = dolphinWii360("Profile", "0")
+        new File(dolphin, "User\\Config\\Profiles\\Wiimote\\Xbox 360 port 2.ini").text = dolphinWii360("Profile", "1")
+        new File(dolphin, "User\\Config\\Profiles\\Wiimote\\Xbox 360 port 3.ini").text = dolphinWii360("Profile", "2")
+        new File(dolphin, "User\\Config\\Profiles\\Wiimote\\Xbox 360 port 4.ini").text = dolphinWii360("Profile", "3");
+
+        File iniDolphinFile = new File(dolphin, "User\\Config\\WiimoteNew.ini")
+        println " - Dolphin: set P1 + P2 + P3 + P4 to Emulated Wiimote"
+        println iniDolphinFile.absolutePath
+        IniFile cfgDolphin = new IniFile(equals: " = ").parse(iniDolphinFile)
+        cfgDolphin.put("Wiimote1", "Source", "1") // Emulated Wiimote
+        cfgDolphin.put("Wiimote2", "Source", "1") // Emulated Wiimote
+        cfgDolphin.put("Wiimote3", "Source", "1") // Emulated Wiimote
+        cfgDolphin.put("Wiimote4", "Source", "1") // Emulated Wiimote
+        cfgDolphin.store()
+
+    }
+    static void configureGamecubeDefaults(File dolphin) {
         new File(dolphin, "User\\Config\\Profiles\\GCPad").mkdirs()
-        new File(dolphin, "User\\Config\\Profiles\\GCPad\\Xbox 360 port 1.ini").text = dolphin360("Profile", "0")
-        new File(dolphin, "User\\Config\\Profiles\\GCPad\\Xbox 360 port 2.ini").text = dolphin360("Profile", "1")
-        new File(dolphin, "User\\Config\\Profiles\\GCPad\\Xbox 360 port 3.ini").text = dolphin360("Profile", "2")
-        new File(dolphin, "User\\Config\\Profiles\\GCPad\\Xbox 360 port 4.ini").text = dolphin360("Profile", "3");
-        new File(dolphin, "User\\Config\\Profiles\\GCPad\\keyboard.ini").text = dolphinKeyboard("Profile", "0");
+        new File(dolphin, "User\\Config\\Profiles\\GCPad\\Xbox 360 port 1.ini").text = dolphinGamecube360("Profile", "0")
+        new File(dolphin, "User\\Config\\Profiles\\GCPad\\Xbox 360 port 2.ini").text = dolphinGamecube360("Profile", "1")
+        new File(dolphin, "User\\Config\\Profiles\\GCPad\\Xbox 360 port 3.ini").text = dolphinGamecube360("Profile", "2")
+        new File(dolphin, "User\\Config\\Profiles\\GCPad\\Xbox 360 port 4.ini").text = dolphinGamecube360("Profile", "3");
+        new File(dolphin, "User\\Config\\Profiles\\GCPad\\keyboard.ini").text = dolphinGamecubeKeyboard("Profile", "0");
 
         File iniDolphinFile = new File(dolphin, "User\\Config\\Dolphin.ini")
         println " - Dolphin: set P1 + P2 + P3 + P4 to standard controller"
@@ -271,34 +315,49 @@ D-Pad/Right = L
         cfgDolphin.store()
     }
 
-    static void resetDolphinsKeyboard(HyperSpin hs) {
+    static void resetGamecubeKeyboard(HyperSpin hs) {
         [hs.getDolphinGameCubeFolder(),
-         hs.getDolphinWiiFolder(),
          hs.getDolphinTriforceFolder()
         ].each { File dolphin ->
-            configureDolphinDefaults(dolphin)
+            configureGamecubeDefaults(dolphin)
             File iniPadFile = new File(dolphin, "User\\Config\\GCPadNew.ini")
-            println " - Dolphin: set P1 + P2 to keyboard"
+            println " - Dolphin: set P1 + P2 + P3 + P4 to keyboard"
             println iniPadFile.absolutePath
-            iniPadFile.text = dolphinKeyboard("GCPad1", "0")
+            iniPadFile.text = dolphinGamecubeKeyboard("GCPad1", "0")
         }
     }
 
-    static void resetDolphins360(HyperSpin hs) {
+    static void resetWii360(HyperSpin hs) {
+        File dolphin = hs.getDolphinWiiFolder()
+        File iniPadFile = new File(dolphin, "User\\Config\\WiimoteNew.ini")
+        println " - Dolphin: set P1 + P2 + P3 + P4 to 360"
+        println iniPadFile.absolutePath
+        iniPadFile.text =
+"""${dolphinWii360("Wiimote1", "0")}
+${dolphinWii360("Wiimote2", "1")}
+${dolphinWii360("Wiimote3", "2")}
+${dolphinWii360("Wiimote4", "3")}
+"""
+
+        // Esto debe hacerse al final para que añada la propiedad Source=1 dentro del mapeo
+        configureWiiDefaults(dolphin)
+
+    }
+    static void resetGamecube360(HyperSpin hs) {
         [hs.getDolphinGameCubeFolder(),
-         hs.getDolphinWiiFolder(),
          hs.getDolphinTriforceFolder()
         ].each { File dolphin ->
-            configureDolphinDefaults(dolphin)
             File iniPadFile = new File(dolphin, "User\\Config\\GCPadNew.ini")
             println " - Dolphin: set P1 + P2 to 360"
             println iniPadFile.absolutePath
             iniPadFile.text =
-                    """${dolphin360("GCPad1", "0")}
-${dolphin360("GCPad2", "1")}
-${dolphin360("GCPad3", "2")}
-${dolphin360("GCPad4", "3")}
+"""${dolphinGamecube360("GCPad1", "0")}
+${dolphinGamecube360("GCPad2", "1")}
+${dolphinGamecube360("GCPad3", "2")}
+${dolphinGamecube360("GCPad4", "3")}
 """
+
+            configureGamecubeDefaults(dolphin)
         }
 
     }

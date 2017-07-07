@@ -195,7 +195,8 @@ hs.listSystemsWinVICE()*.loadJ2KConfig().with { J2K j2k ->
 ResetAllMappings.resetPS2Keys(hs)
 ResetAllMappings.resetPPSSPP360AndKeys(hs)
 
-ResetAllMappings.resetDolphins360(hs)
+ResetAllMappings.resetGamecube360(hs)
+ResetAllMappings.resetWii360(hs)
 
 ResetAllMappings.resetSuperModel3KeysAndJoy(hs)
 println "JoyToKey Super Model 3"

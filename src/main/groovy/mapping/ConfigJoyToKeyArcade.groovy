@@ -581,7 +581,11 @@ println "JoyToKey Sony PSP + Sony PSP Minis"
     }
 }
 
-ResetAllMappings.resetDolphinsKeyboard(hs)
+
+ResetAllMappings.resetWii360(hs)
+
+ResetAllMappings.resetGamecubeKeyboard(hs)
+
 
 println "JoyToKey Dolphin keys"
 // AAE funciona mejor con teclado
