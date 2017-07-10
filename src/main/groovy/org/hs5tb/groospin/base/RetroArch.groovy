@@ -6,6 +6,7 @@ import org.hs5tb.groospin.common.IniFile
  * Created by Alberto on 17-Jun-17.
  */
 class RetroArch {
+    boolean override = false
     IniFile iniFile
     IniFile coreIniFile
     static EMPTY = "\"nul\""
@@ -39,7 +40,12 @@ class RetroArch {
             String used = used(val)
             key = "input_player${player}_${key.toLowerCase()}".toString()
             if (used && used != key) {
-                throw new Exception("Key $val already used by ${used}")
+                if (override) {
+                    println("    RetroArch warning: key $val already used by ${used}... removing")
+                    iniFile.put(used, EMPTY)
+                } else {
+                    throw new Exception("Key $val already used by ${used}")
+                }
             } else {
                 iniFile.put(key, "\"${val.toLowerCase()}\"")
             }
