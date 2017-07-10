@@ -83,6 +83,10 @@ td.romSize {
     text-align:right;
     color:#999;
 }
+td.romSize, td.mediaSize {
+    white-space: nowrap;
+}
+
 td.group {
     font: bold 14pt/30pt Arial;
 }
