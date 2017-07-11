@@ -244,7 +244,7 @@ ${dolphinGamecube360("GCPad4", "3")}
     }
 
     static setFourDODefaultKeys(HyperSpin hs) {
-        FourDOMapping.setDefaultKeys(hs)
+        FourDOMapping.writeMapping(hs, FourDOMapping.createDefaultMapping())
     }
 
     static void setZincDefaultKeys(HyperSpin hs) {
