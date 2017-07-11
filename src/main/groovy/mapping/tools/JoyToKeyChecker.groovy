@@ -1,4 +1,4 @@
-package mapping
+package mapping.tools
 
 import org.hs5tb.groospin.base.HyperSpin
 import org.hs5tb.groospin.base.RLSystem

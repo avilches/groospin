@@ -1,12 +1,13 @@
-package mapping
+package mapping.other
 
+import mapping.ResetAllMappings
 import org.hs5tb.groospin.base.HyperSpin
 import org.hs5tb.groospin.base.J2K
 import org.hs5tb.groospin.base.MameIni
 
-import static org.hs5tb.groospin.base.MameMapping.Action.*
+import static mapping.MameMapping.Action.*
 
-HyperSpin hs = new HyperSpin("A:/RocketLauncher")
+HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
 
 int joystickStartPosition = 1
 int player1 = joystickStartPosition
@@ -43,13 +44,13 @@ class ArcadeSet {
 
     void p1Action6(key) { preset.buttonToKey(player1 + 0, 6, key) }
 
-    void p1Start(key) { preset.buttonToKey(player1 + 0, 7, key) }
+    void p1Start(key) { preset.buttonToKey(player1 + 0, 10, key) }
 
-    void exit(key) { preset.buttonToKey(player1 + 0, 8, key) }
+    void exit(key) {  }
 
-    void pinballLeft(key) { preset.buttonToKey(player1 + 0, 9, key) }
+    void pinballLeft(key) { preset.buttonToKey(player1 + 0, 8, key) }
 
-    void pinballRight(key) { preset.buttonToKey(player1 + 0, 10, key) }
+    void pinballRight(key) { preset.buttonToKey(player1 + 1, 8, key) }
 
     void p2Action1(key) { preset.buttonToKey(player1 + 1, 1, key) }
 
@@ -59,13 +60,13 @@ class ArcadeSet {
 
     void p2Action4(key) { preset.buttonToKey(player1 + 1, 4, key) }
 
-    void p2Action5(key) { preset.buttonToKey(player1 + 1, 9, key) }
+    void p2Action5(key) { preset.buttonToKey(player1 + 1, 5, key) }
 
-    void p2Action6(key) { preset.buttonToKey(player1 + 1, 10, key) }
+    void p2Action6(key) { preset.buttonToKey(player1 + 1, 6, key) }
 
-    void p2Start(key) { preset.buttonToKey(player1 + 1, 11, key) }
+    void p2Start(key) { preset.buttonToKey(player1 + 1, 10, key) }
 
-    void coin(key) { preset.buttonToKey(player1 + 1, 12, key) }
+    void coin(key) { preset.buttonToKey(player1 + 0, 9, key) }
 }
 
 /*
@@ -74,7 +75,7 @@ Vaciamos todos los mapeos de JoyToKey
 ResetAllMappings.emptyAllJoyToKeyProfiles(hs)
 
 // Configuramos el menu de HyperSpin con teclas
-ResetAllMappings.resetHyperSpinMainMenuControls(hs)
+ResetAllMappings.setHyperSpinDefaultKeys(hs)
 /*
 d:\Games\HyperSpin-fe\Scripts\HScript\HScript.ahk
 CONTROL ALT MAYUSCULAS + F = TEAM VIEWER
@@ -129,7 +130,7 @@ hs.listAllJoyToKeyProfiles().each { J2K j2k ->
 // Para que funcione los mandos arcade, usamos las teclas y mapeamos con JoyToKey ya que RetroArch no te
 // permite usar botones de otros player para un player. Insertar moneda pertenece al player 2 por lo que
 // no podriamos usarla para SELECT del player 1
-ResetAllMappings.resetRetroArch(hs.retroArch)
+ResetAllMappings.emptyRetroArch(hs.retroArch)
 
 println "- RetroArch: configure keys "
 println hs.retroArch.iniFile.file.absolutePath
@@ -207,7 +208,7 @@ hs.listSystemsRetroArch()*.loadJ2KConfig().each { J2K j2k ->
 }
 
 // Reseteamos MAME y apuntamos a controller "arcadeAT"
-ResetAllMappings.resetMameCtrl(hs)
+ResetAllMappings.setNoMameCtrlAndDefaultCfg(hs)
 
 /* Se mapea MAME con teclas y luego se usa JoyToKey
 
@@ -342,39 +343,9 @@ println "JoyToKey MAME: joysticks and button -> keys"
 
         // TODO:
 //        buttonToOtherJoy(player1, 9, player2+1) // PINBALL IZQUIERDO
-         save()
+        save()
 
     }
-}
-println "JoyToKey Future Pinball. (RUN THE REG FILE!!!!!!!!!!!)"
-// Future Pinball. Funciona mejor con teclado. Cargar el registro de Windows para que se carguen estas teclas
-hs.getSystem("Future Pinball").loadJ2KConfig().presets.with {
-    analogTo(player1, KEY_F, RETURN, SPACE, KEY_A)  // abajo sacar, resto golpear
-    analogTo(player2, KEY_F, RETURN, SPACE, KEY_A)  // abajo sacar, resto golpear
-
-
-    new ArcadeSet(preset: delegate, player1: player1).with {
-        pinballLeft([KEY_Z, KEY_X])    // PINBALL IZQUIERDO
-        pinballRight([KEY_N, KEY_M])    // PINBALL DERECHO
-
-        p1Action1(TAB)
-        p1Action2(F7)
-        p1Action3(F8)
-        p1Action4(KEY_S)
-        p1Action5(KEY_D)   // SPECIAL
-        p1Action6(KEY_9)   // SERVICE
-        p1Start(KEY_1)   // START P1, PLAYER 1
-        coin(KEY_5)
-
-        p2Action1(F1)
-        p2Action2(F2)
-        p2Action3(F3)
-        p2Action4(F4)
-        p2Action5(F5)
-        p2Action6(F6)
-    }
-
-    save()
 }
 
 /*
@@ -398,7 +369,7 @@ hs.getSystem("Pinball FX2").loadJ2KConfig().presets.with {
         p1Action4(KEY_C)
         p1Action5(KEY_C)
         p1Action6(KEY_C)
-        
+
         p1Start(RETURN)
         coin(RETURN)
 
@@ -491,7 +462,7 @@ hs.getSystem("AAE").loadJ2KConfig().presets.with {
     save()
 }
 
-ResetAllMappings.resetWinViceKeys(hs)
+ResetAllMappings.setWinViceDefaultKeys(hs)
 println "JoyToKey WinVICE: configuring ${hs.listSystemsWinVICE()*.name}"
 hs.listSystemsWinVICE()*.loadJ2KConfig().with { J2K j2k ->
     j2k.presets.with {
@@ -529,7 +500,7 @@ hs.listSystemsWinVICE()*.loadJ2KConfig().with { J2K j2k ->
 
 
 
-ResetAllMappings.resetPS2Keys(hs)
+ResetAllMappings.setPS2DefaultKeys(hs)
 
 println "JoyToKey Sony PlayStation 2 + Sega Ages"
 // AAE funciona mejor con teclado
@@ -560,7 +531,7 @@ println "JoyToKey Sony PlayStation 2 + Sega Ages"
 }
 
 
-ResetAllMappings.resetPPSSPP360AndKeys(hs)
+ResetAllMappings.setPPSSPP360AndKeys(hs)
 
 println "JoyToKey Sony PSP + Sony PSP Minis"
 // AAE funciona mejor con teclado
@@ -582,9 +553,9 @@ println "JoyToKey Sony PSP + Sony PSP Minis"
 }
 
 
-ResetAllMappings.resetWii360(hs)
+ResetAllMappings.setWiiDefault360(hs)
 
-ResetAllMappings.resetGamecubeKeyboard(hs)
+ResetAllMappings.setGamecubeDefaultKeyboard(hs)
 
 
 println "JoyToKey Dolphin keys"
@@ -616,7 +587,7 @@ println "JoyToKey Dolphin keys"
 }
 
 
-ResetAllMappings.resetSuperModel3KeysAndJoy(hs)
+ResetAllMappings.setSuperModel3DefaultKeysAndJoy(hs)
 
 println "JoyToKey Super Model 3"
 hs.getSystem("Sega Model 3").loadJ2KConfig().presets.with {
@@ -676,7 +647,7 @@ hs.getSystem("Sega Model 3").loadJ2KConfig().presets.with {
 
 
 
-ResetAllMappings.resetDaphneKeys(hs)
+ResetAllMappings.setDaphneDefaultKeys(hs)
 println "JoyToKey Daphne"
 hs.getSystem("Daphne").loadJ2KConfig().presets.with {
 
@@ -709,7 +680,7 @@ hs.getSystem("Daphne").loadJ2KConfig().presets.with {
     }
 }
 
-ResetAllMappings.resetPanasonic3DOKeys(hs)
+ResetAllMappings.setFourDODefaultKeys(hs)
 println "JoyToKey Panasonic 3DO"
 hs.getSystem("Panasonic 3DO").loadJ2KConfig().presets.with {
 

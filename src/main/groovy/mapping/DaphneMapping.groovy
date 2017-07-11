@@ -7,7 +7,7 @@ import org.hs5tb.groospin.common.IOTools
 /**
  * Created by Alberto on 05-Jul-17.
  */
-class Daphne {
+class DaphneMapping {
 
 
     // http://www.daphne-emu.com/mediawiki/index.php/KeyList
@@ -200,9 +200,13 @@ class Daphne {
     }
 
     static void writeMapping(HyperSpin hs, Map map) {
-        println "Daphne: setting keys"
+        println "- Daphne: setting keys"
         File f = new File(hs.daphneFolder, "dapinput.ini")
         println f.absolutePath
+        writeMapping(f, map)
+    }
+
+    static void writeMapping(File f, Map map) {
         Set missingKeys = map.entrySet().findAll { it.value == null }
         if (missingKeys) {
             throw new RuntimeException("Daphne mapping error. Keys with no mapping ${missingKeys.join(", ")}")
@@ -211,6 +215,8 @@ class Daphne {
 """[KEYBOARD]
 ${map.entrySet().collect { 
     Collection keys = it.value instanceof Collection ? it.value : [it.value]
+    // Se pueden poner tres teclas separadas por espacio. 0 significa que no tiene asignacion
+    // Si solo viene una (o dos) rellenamos para que queden como "27 0 0" etc.
     keys = keys + (["0"] * (3 - keys.size()))
     return it.key+" = "+keys.join(" ")
 }.join("\n")}

@@ -1,4 +1,4 @@
-package org.hs5tb.groospin.base
+package mapping
 
 import groovy.xml.MarkupBuilder
 import org.hs5tb.groospin.common.IOTools
@@ -119,6 +119,63 @@ class MameMapping {
 
     MameMapping delete(String action) {
         mapping.remove(action)
+        this
+    }
+
+    MameMapping setDefault4PlayersKeys() {
+        add(Action.UI_CANCEL, ESC)
+        add(Action.COIN1, KEY_5)
+        add(Action.COIN2, KEY_5)  // MONEDA P2 TAMBIEN EN LA MISMA TECLA QUE P1
+        add(Action.COIN3, KEY_5)  // MONEDA P2 TAMBIEN EN LA MISMA TECLA QUE P1
+        add(Action.COIN4, KEY_5)  // MONEDA P2 TAMBIEN EN LA MISMA TECLA QUE P1
+        add(Action.START1, KEY_1)
+        add(Action.START2, KEY_2)
+        add(Action.START3, KEY_3)
+        add(Action.START4, KEY_4)
+
+        add(Action.P1_BUTTON1, LCONTROL)
+        add(Action.P1_BUTTON2, LALT)
+        add(Action.P1_BUTTON3, SPACE)
+        add(Action.P1_BUTTON4, LSHIFT)
+        add(Action.P1_BUTTON5, KEY_Z)
+        add(Action.P1_BUTTON6, KEY_X)
+        add(Action.P1_UP, CURSOR_UP)
+        add(Action.P1_DOWN, CURSOR_DOWN)
+        add(Action.P1_LEFT, CURSOR_LEFT)
+        add(Action.P1_RIGHT, CURSOR_RIGHT)
+
+        add(Action.P2_BUTTON1, KEY_A)
+        add(Action.P2_BUTTON2, KEY_S)
+        add(Action.P2_BUTTON3, KEY_Q)
+        add(Action.P2_BUTTON4, KEY_W)
+        add(Action.P2_BUTTON5, CAPSLOCK)
+        add(Action.P2_BUTTON6, KEY_E)
+        add(Action.P2_UP, KEY_R)
+        add(Action.P2_DOWN, KEY_F)
+        add(Action.P2_LEFT, KEY_D)
+        add(Action.P2_RIGHT, KEY_G)
+
+        add(Action.P3_BUTTON1, KEY_C)
+        add(Action.P3_BUTTON2, KEY_V)
+        add(Action.P3_BUTTON3, KEY_B)
+        add(Action.P3_BUTTON4, KEY_N)
+        add(Action.P3_BUTTON5, KEY_M)
+        add(Action.P3_BUTTON6, KEY_T)
+        add(Action.P3_UP, KEY_I)
+        add(Action.P3_DOWN, KEY_K)
+        add(Action.P3_LEFT, KEY_J)
+        add(Action.P3_RIGHT, KEY_L)
+
+        add(Action.P4_BUTTON1, KEY_1_PAD)
+        add(Action.P4_BUTTON2, KEY_3_PAD)
+        add(Action.P4_BUTTON3, KEY_5_PAD)
+        add(Action.P4_BUTTON4, KEY_7_PAD)
+        add(Action.P4_BUTTON5, KEY_9_PAD)
+        add(Action.P4_BUTTON6, KEY_0_PAD)
+        add(Action.P4_UP, KEY_8_PAD)
+        add(Action.P4_DOWN, KEY_2_PAD)
+        add(Action.P4_LEFT, KEY_4_PAD)
+        add(Action.P4_RIGHT, KEY_6_PAD)
         this
     }
 
@@ -282,12 +339,12 @@ class MameMapping {
     static String END = "KEYCODE_END"
     static String HOME = "KEYCODE_HOME"
     static String INSERT = "KEYCODE_INSERT"
-    static String PGDN = "KEYCODE_PGDN"
-    static String PGUP = "KEYCODE_PGUP"
+    static String PAGEDOWN = "KEYCODE_PGDN"
+    static String PAGEUP = "KEYCODE_PGUP"
 
     static String PAUSE = "KEYCODE_PAUSE"
     static String PRTSCR = "KEYCODE_PRTSCR"
-    static String SCRLOCK = "KEYCODE_SCRLOCK"
+    static String SCROLLOCK = "KEYCODE_SCRLOCK"
 
     static String LWIN = "KEYCODE_LWIN"
     static String RWIN = "KEYCODE_RWIN"

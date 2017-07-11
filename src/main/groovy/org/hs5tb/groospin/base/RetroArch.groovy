@@ -9,14 +9,95 @@ class RetroArch {
     boolean override = false
     IniFile iniFile
     IniFile coreIniFile
-    static EMPTY = "\"nul\""
-    static DEVICE_PAD_WITH_ANALOG = "\"5\""
-    static DEVICE_PAD = "\"1\""
-    static DEVICE_NONE = "\"0\""
+    static String DEVICE_PAD_WITH_ANALOG = "\"5\""
+    static String DEVICE_PAD = "\"1\""
+    static String DEVICE_NONE = "\"0\""
 
-    static ANALOG_TO_DPAD_NONE = "\"0\""
-    static ANALOG_TO_DPAD_RIGHT = "\"2\""
-    static ANALOG_TO_DPAD_LEFT = "\"1\""
+    static String ANALOG_TO_DPAD_NONE = "\"0\""
+    static String ANALOG_TO_DPAD_RIGHT = "\"2\""
+    static String ANALOG_TO_DPAD_LEFT = "\"1\""
+
+
+    static String EMPTY = "\"nul\""
+
+    static String MINUS = "\"subtract\""
+    static String PLUS = "\"add\""
+
+    static String KEY_A = "\"a\""
+    static String KEY_B = "\"b\""
+    static String KEY_C = "\"c\""
+    static String KEY_D = "\"d\""
+    static String KEY_E = "\"e\""
+    static String KEY_F = "\"f\""
+    static String KEY_G = "\"g\""
+    static String KEY_H = "\"h\""
+    static String KEY_I = "\"i\""
+    static String KEY_J = "\"j\""
+    static String KEY_K = "\"k\""
+    static String KEY_L = "\"l\""
+    static String KEY_M = "\"m\""
+    static String KEY_N = "\"n\""
+    static String KEY_O = "\"o\""
+    static String KEY_P = "\"p\""
+    static String KEY_Q = "\"q\""
+    static String KEY_R = "\"r\""
+    static String KEY_S = "\"s\""
+    static String KEY_T = "\"t\""
+    static String KEY_U = "\"u\""
+    static String KEY_V = "\"v\""
+    static String KEY_W = "\"w\""
+    static String KEY_X = "\"x\""
+    static String KEY_Y = "\"y\""
+    static String KEY_Z = "\"z\""
+
+    static String DOWN = "\"down\""
+    static String LEFT = "\"left\""
+    static String RIGHT = "\"right\""
+    static String UP = "\"up\""
+
+
+    static String RSHIFT = "\"rshift\""
+    static String ENTER = "\"enter\""
+
+    static String F1 = "\"f1\""
+    static String F2 = "\"f2\""
+    static String F3 = "\"f3\""
+    static String F4 = "\"f4\""
+    static String F5 = "\"f5\""
+    static String F6 = "\"f6\""
+    static String F7 = "\"f7\""
+    static String F8 = "\"f8\""
+    static String F9 = "\"f9\""
+    static String F10 = "\"f10\""
+    static String F11 = "\"f11\""
+    static String F12 = "\"f12\""
+    static String SPACE = "\"space\""
+    static String ESC = "\"escape\""
+    static String SCROLLLOCK = "\"scroll_lock\""
+
+    static String KEY_0 = "\"num0\""
+    static String KEY_1 = "\"num1\""
+    static String KEY_2 = "\"num2\""
+    static String KEY_3 = "\"num3\""
+    static String KEY_4 = "\"num4\""
+    static String KEY_5 = "\"num5\""
+    static String KEY_6 = "\"num6\""
+    static String KEY_7 = "\"num7\""
+    static String KEY_8 = "\"num8\""
+    static String KEY_9 = "\"num9\""
+
+    static String KEY_0_PAD = "\"keypad0\""
+    static String KEY_1_PAD = "\"keypad1\""
+    static String KEY_2_PAD = "\"keypad2\""
+    static String KEY_3_PAD = "\"keypad3\""
+    static String KEY_4_PAD = "\"keypad4\""
+    static String KEY_5_PAD = "\"keypad5\""
+    static String KEY_6_PAD = "\"keypad6\""
+    static String KEY_7_PAD = "\"keypad7\""
+    static String KEY_8_PAD = "\"keypad8\""
+    static String KEY_9_PAD = "\"keypad9\""
+
+
 
     RetroArch folder(String folder) {
         iniFile = new IniFile(equals: " = ").parse(new File(folder, "retroarch.cfg"))
@@ -47,7 +128,7 @@ class RetroArch {
                     throw new Exception("Key $val already used by ${used}")
                 }
             } else {
-                iniFile.put(key, "\"${val.toLowerCase()}\"")
+                iniFile.put(key, val)
             }
         }
         this
@@ -56,58 +137,75 @@ class RetroArch {
         iniFile.store()
     }
 
-    RetroArch configureKeyboardPlayer1Default() {
-        iniFile.put("input_player1_b", "\"z\"")
-        iniFile.put("input_player1_a", "\"x\"")
-        iniFile.put("input_player1_y", "\"a\"")
-        iniFile.put("input_player1_x", "\"s\"")
-        iniFile.put("input_player1_l", "\"q\"")
-        iniFile.put("input_player1_r", "\"w\"")
-        iniFile.put("input_player1_down", "\"down\"")
-        iniFile.put("input_player1_left", "\"left\"")
-        iniFile.put("input_player1_right", "\"right\"")
-        iniFile.put("input_player1_up", "\"up\"")
-        iniFile.put("input_player1_select", "\"rshift\"")
-        iniFile.put("input_player1_start", "\"enter\"")
+    RetroArch setDefaultKeysFor2Players() {
+        configureKeys(1,
+                [b     : KEY_Z,
+                 a     : KEY_X,
+                 y     : KEY_A,
+                 x     : KEY_S,
+                 l     : KEY_Q,
+                 r     : KEY_W,
+                 left  : LEFT,
+                 down  : DOWN,
+                 up    : UP,
+                 right : RIGHT,
+                 select: KEY_D,
+                 start : KEY_C]
+        )
+        configureKeys(2,
+                [b     : KEY_1,
+                 a     : KEY_2,
+                 y     : KEY_3,
+                 x     : KEY_4,
+                 l     : KEY_5,
+                 r     : KEY_6,
+                 left  : KEY_4_PAD,
+                 down  : KEY_2_PAD,
+                 up    : KEY_8_PAD,
+                 right : KEY_6_PAD,
+                 select: KEY_G,
+                 start : KEY_B]
+        )
         this
     }
 
-    RetroArch resetKeys() {
-        [input_audio_mute : "f9",
-         input_cheat_index_minus : "t",
-         input_cheat_index_plus : "y",
-         input_cheat_toggle : "u",
-         input_disk_eject_toggle : "nul",
-         input_disk_next : "nul",
-         input_disk_prev : "nul",
-         input_enable_hotkey : "nul",
-         input_frame_advance : "k",
-         input_game_focus_toggle : "scroll_lock",
-         input_grab_mouse_toggle : "f11",
-         input_hold_fast_forward : "l",
-         input_load_state : "f4",
-         input_menu_toggle : "f1",
-         input_movie_record_toggle : "o",
-         input_netplay_flip_players_1_2 : "nul",
-         input_netplay_game_watch : "i",
-         input_osk_toggle : "f12",
-         input_overlay_next : "nul",
-         input_pause_toggle : "p",
-         input_reset : "h",
-         input_rewind : "r",
-         input_save_state : "f2",
-         input_screenshot : "f8",
-         input_shader_next : "m",
-         input_shader_prev : "n",
-         input_slowmotion : "e",
-         input_toggle_fast_forward : "space",
-         input_exit_emulator: "escape",
-         input_toggle_fullscreen : "f",
-         input_volume_down : "subtract",
-         input_volume_up : "add"].each { key, val ->
-            iniFile.put(key, "\"${val}\"")
+    RetroArch resetKeysToSystemDefault() {
+        [input_audio_mute : F9,
+         input_cheat_index_minus : KEY_T,
+         input_cheat_index_plus : KEY_Y,
+         input_cheat_toggle : KEY_U,
+         input_disk_eject_toggle : EMPTY,
+         input_disk_next : EMPTY,
+         input_disk_prev : EMPTY,
+         input_enable_hotkey : EMPTY,
+         input_frame_advance : KEY_K,
+         input_game_focus_toggle : SCROLLLOCK,
+         input_grab_mouse_toggle : F11,
+         input_hold_fast_forward : KEY_L,
+         input_load_state : F4,
+         input_menu_toggle : F1,
+         input_movie_record_toggle : KEY_O,
+         input_netplay_flip_players_1_2 : EMPTY,
+         input_netplay_game_watch : KEY_I,
+         input_osk_toggle : F12,
+         input_overlay_next : EMPTY,
+         input_pause_toggle : KEY_P,
+         input_reset : KEY_H,
+         input_rewind : KEY_R,
+         input_save_state : F2,
+         input_screenshot : F8,
+         input_shader_next : KEY_M,
+         input_shader_prev : KEY_N,
+         input_slowmotion : KEY_E,
+         input_toggle_fast_forward : SPACE,
+         input_exit_emulator: ESC,
+         input_toggle_fullscreen : KEY_F,
+         input_volume_down : MINUS,
+         input_volume_up : PLUS].each { key, val ->
+            iniFile.put(key, val)
         }
         this
+
     }
 
     String used(k) {
@@ -195,7 +293,7 @@ class RetroArch {
         this
     }
 
-    RetroArch resetPlayer(player = 1, joypos = 1) {
+    RetroArch emptyKeysForPlayer(player = 1, joypos = 1) {
 
         iniFile.put("input_player${player}_b", EMPTY)
         iniFile.put("input_player${player}_a", EMPTY)

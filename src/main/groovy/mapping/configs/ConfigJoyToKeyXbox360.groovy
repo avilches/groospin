@@ -1,5 +1,6 @@
-package mapping
+package mapping.configs
 
+import mapping.ResetAllMappings
 import org.hs5tb.groospin.base.HyperSpin
 import org.hs5tb.groospin.base.J2K
 
@@ -14,7 +15,7 @@ Vaciamos todos los mapeos de JoyToKey
 ResetAllMappings.emptyAllJoyToKeyProfiles(hs)
 
 // Configuramos el menu de HyperSpin con teclas
-ResetAllMappings.resetHyperSpinMainMenuControls(hs)
+ResetAllMappings.setHyperSpinDefaultKeys(hs)
 
 println "JoyToKey HyperSpin: Configuring profile for 360"
 new J2K(hs, "HyperSpin").presets.with {
@@ -56,7 +57,7 @@ hs.listAllJoyToKeyProfiles().each { J2K j2k ->
 // ejecutar el script ConfigRetroarch que se encarga de borrar los comandos de JoyStick de los dos players y, además,
 // de configurar teclas (también borra todas las acciones de sistema que haya configurados para que funcione todo
 // por defecto)
-ResetAllMappings.resetRetroArch(hs.retroArch)
+ResetAllMappings.emptyRetroArch(hs.retroArch)
 
 println "JoyToKey RetroArch: Configuring 360 BACK+RB = F1"
 // Después, se mapea en JoyToKey la tecla F1 con BACK+RB
@@ -81,7 +82,7 @@ y hacer el mapeo en el JoyToKey.
  */
 
 // Se elimina el default.cfg para que se vuelva a generar vacio, haciendo antes una copia de seguridad
-ResetAllMappings.resetMameCtrl(hs)
+ResetAllMappings.setNoMameCtrlAndDefaultCfg(hs)
 
 println "JoyToKey MAME: Configuring 360 additional buttons (coin, start, dpad): ${(hs.listSystemsMAME() + hs.getSystem("HBMAME"))*.name}"
 // Mapeos en JoyToKey
@@ -162,7 +163,7 @@ hs.getSystem("AAE").loadJ2KConfig().presets.with {
     ])
     save()
 }
-ResetAllMappings.resetWinViceKeys(hs)
+ResetAllMappings.setWinViceDefaultKeys(hs)
 println "JoyToKey WinVICE: configuring ${hs.listSystemsWinVICE()*.name}"
 hs.listSystemsWinVICE()*.loadJ2KConfig().with { J2K j2k ->
     j2k.presets.with {
@@ -192,13 +193,13 @@ hs.listSystemsWinVICE()*.loadJ2KConfig().with { J2K j2k ->
     }
 }
 
-ResetAllMappings.resetPS2Keys(hs)
-ResetAllMappings.resetPPSSPP360AndKeys(hs)
+ResetAllMappings.setPS2DefaultKeys(hs)
+ResetAllMappings.setPPSSPP360AndKeys(hs)
 
-ResetAllMappings.resetGamecube360(hs)
-ResetAllMappings.resetWii360(hs)
+ResetAllMappings.setGamecubeDefault360(hs)
+ResetAllMappings.setWiiDefault360(hs)
 
-ResetAllMappings.resetSuperModel3KeysAndJoy(hs)
+ResetAllMappings.setSuperModel3DefaultKeysAndJoy(hs)
 println "JoyToKey Super Model 3"
 hs.getSystem("Sega Model 3").loadJ2KConfig().presets.with {
     dPadToCursor(player1)
@@ -223,7 +224,7 @@ hs.getSystem("Sega Model 3").loadJ2KConfig().presets.with {
     save()
 }
 
-ResetAllMappings.resetDaphneKeys(hs)
+ResetAllMappings.setDaphneDefaultKeys(hs)
 println "JoyToKey Daphne"
 hs.getSystem("Daphne").loadJ2KConfig().presets.with {
 
@@ -252,7 +253,7 @@ hs.getSystem("Daphne").loadJ2KConfig().presets.with {
     save()
 }
 
-ResetAllMappings.resetPanasonic3DOKeys(hs)
+ResetAllMappings.setFourDODefaultKeys(hs)
 println "JoyToKey Panasonic 3DO"
 hs.getSystem("Panasonic 3DO").loadJ2KConfig().presets.with {
 
@@ -289,6 +290,42 @@ hs.getSystem("Panasonic 3DO").loadJ2KConfig().presets.with {
     save()
 }
 
+ResetAllMappings.setZincDefaultKeys(hs)
+println "JoyToKey Zinc"
+hs.getSystem("Zinc").loadJ2KConfig().presets.with {
+
+    analogToCursor(player1)
+    dPadToCursor(player1)
+    buttonsTo(player1, [
+            (XBOX360_A)        : KEY_Z,
+            (XBOX360_B)        : KEY_X,
+            (XBOX360_X)        : KEY_C,
+            (XBOX360_Y)        : KEY_V,
+            (XBOX360_BACK)     : KEY_5,
+            (XBOX360_START)    : KEY_1,
+            (XBOX360_LB)       : KEY_B,
+            (XBOX360_LT_ANALOG): KEY_B,
+            (XBOX360_RB)       : KEY_N,
+            (XBOX360_RT_ANALOG): KEY_N,
+    ])
+
+    analogToNumpad(player2)
+    dPadToNumpad(player2)
+    buttonsTo(player2, [
+            (XBOX360_A)        : KEY_A,
+            (XBOX360_B)        : KEY_S,
+            (XBOX360_X)        : KEY_D,
+            (XBOX360_Y)        : KEY_F,
+            (XBOX360_BACK)     : KEY_6,
+            (XBOX360_START)    : KEY_2,
+            (XBOX360_LB)       : KEY_G,
+            (XBOX360_LT_ANALOG): KEY_G,
+            (XBOX360_RB)       : KEY_H,
+            (XBOX360_RT_ANALOG): KEY_H,
+    ])
+
+    save()
+}
 /*
 DONE:
 AAE: [AAE]
@@ -297,13 +334,13 @@ RetroArch: [Atari 2600, Atari 7800, Atari 2600 - Arcadia Supercharger, Atari Jag
 RetroArch Extended: [Nintendo 64 Japan, Nintendo 64 Europe, Nintendo Entertainment System Europe, Nintendo Entertainment System Asia, Super Nintendo Entertainment System Europe, Super Nintendo Entertainment System Japan, Sega Master System Japan, Sega Mega Drive Europe]
 
 MAME: [Atari Classics, Capcom Classics, Capcom Play System, Capcom Play System II, Capcom Play System III, Data East Classics, HyperNeoGeo64, Irem Classics, Kaneko, Konami Classics, Atlus, Banpresto, Cave, Gaelco MAME, Bally, Sammy, Nichibutsu, Seibu Kaihatsu, Jaleco, Mature MAME, Best of MAME, MAME, Tecmo, Toaplan, Mitchell Corporation, Visco, SNK Classics, MAME 4 Players, Midway Classics, Namco Classics, Namco System 22, Nintendo Classics, Psikyo, Sega Classics, Sega ST-V, Shotgun Games, SNK Neo Geo AES, Technos Classics, Taito Classics, Trackball Games, Williams Classics]
-HBMAME: [HBMAME]
 
 WinVICE: [Commodore 64]
 
 Future Pinball: [Future Pinball]
 Pinball FX2: [Pinball FX2]
 Pinball Arcade DX11: [Pinball Arcade]
+ZiNc: [Zinc]
 
 PPSSPP: [Sony PSP, Sony PSP Minis]
 PCSX2: [Sega Ages, Sony PlayStation 2]
@@ -316,7 +353,7 @@ FourDO: [Panasonic 3DO]
 
 DICE: [DICE]
 NeoRaine: [SNK Neo Geo CD]
-ZiNc: [Zinc]
+HBMAME: [HBMAME]
 
 PENDING:
 

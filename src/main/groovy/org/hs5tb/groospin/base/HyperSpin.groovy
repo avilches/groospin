@@ -1,5 +1,6 @@
 package org.hs5tb.groospin.base
 
+import mapping.MameMapping
 import org.hs5tb.groospin.common.IOTools
 import org.hs5tb.groospin.common.Ini
 import org.hs5tb.groospin.common.IniFile
@@ -312,6 +313,10 @@ class HyperSpin {
 
     File getSuperModelFolder() {
         return getSystem("Sega Model 3").defaultEmulator.getEmuPath().parentFile
+    }
+
+    File getZincFolder() {
+        return getSystem("Zinc").defaultEmulator.getEmuPath().parentFile
     }
 
     File getDolphinWiiFolder() {

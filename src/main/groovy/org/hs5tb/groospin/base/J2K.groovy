@@ -131,17 +131,6 @@ class J2K {
         static String MINUS_PAD = "6D"
         static String PLUS_PAD = "6B"
 
-        static String KEY_F1 = "70"
-        static String KEY_F2 = "71"
-        static String KEY_F3 = "72"
-        static String KEY_F4 = "73"
-        static String KEY_F5 = "74"
-        static String KEY_F6 = "75"
-        static String KEY_F7 = "76"
-        static String KEY_F8 = "77"
-        static String KEY_F9 = "78"
-        static String KEY_F10 = "79"
-
         static String KEY_A = k("A")
         static String KEY_B = k("B")
         static String KEY_C = k("C")
