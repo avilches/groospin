@@ -319,6 +319,10 @@ class HyperSpin {
         return getSystem("Zinc").defaultEmulator.getEmuPath().parentFile
     }
 
+    File getNeoRaineFolder() {
+        return getSystem("SNK Neo Geo CD").defaultEmulator.getEmuPath().parentFile
+    }
+
     File getDolphinWiiFolder() {
         return getSystem("Nintendo Wii").defaultEmulator.getEmuPath().parentFile
     }

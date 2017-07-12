@@ -9,14 +9,8 @@ int joystickStartPosition = 1
 int player1 = joystickStartPosition
 int player2 = joystickStartPosition + 1
 
-/*
-Vaciamos todos los mapeos de JoyToKey
- */
 ResetAllMappings.emptyAllJoyToKeyProfiles(hs)
-
-// Configuramos el menu de HyperSpin con teclas
 ResetAllMappings.setHyperSpinDefaultKeys(hs)
-
 println "JoyToKey HyperSpin: Configuring profile for 360"
 new J2K(hs, "HyperSpin").presets.with {
     dPadToCursor(player1)
@@ -104,8 +98,8 @@ println "JoyToKey MAME: Configuring 360 additional buttons (coin, start, dpad): 
     }
 }
 
-
-println "JoyToKey Future Pinball. (RUN THE REG FILE!!!!!!!!!!!)"
+ResetAllMappings.setPinballDefaults()
+println "JoyToKey Future Pinball"
 // Future Pinball. Funciona mejor con teclado. Cargar el registro de Windows para que se carguen estas teclas
 hs.getSystem("Future Pinball").loadJ2KConfig().presets.with {
     analogLeftTo(player1, F1, F4, F3, F2)  // vistas
@@ -121,15 +115,6 @@ hs.getSystem("Future Pinball").loadJ2KConfig().presets.with {
     ])
     save()
 }
-
-/*
-Pinball FX2. Ya funciona con Xbox 360 directamente
-*/
-
-/*
-Pinball Arcade. Ya funciona con Xbox directamente
-HKEY_CURRENT_USER\Software\PinballArcade\PinballArcade
- */
 
 /*
 Sony PlayStation 2
@@ -326,6 +311,76 @@ hs.getSystem("Zinc").loadJ2KConfig().presets.with {
 
     save()
 }
+
+ResetAllMappings.setDICEDefaults()
+println "JoyToKey DICE"
+hs.getSystem("DICE").loadJ2KConfig().presets.with {
+
+    analogToCursor(player1)
+    dPadToCursor(player1)
+
+    analogTo(player2, KEY_A, KEY_S, KEY_W, KEY_D)
+    dPadTo(player2, KEY_A, KEY_S, KEY_W, KEY_D)
+
+    buttonsTo(player1, [
+            (XBOX360_A)        : LCONTROL,
+            (XBOX360_B)        : LALT,
+            (XBOX360_X)        : SPACE,
+            (XBOX360_Y)        : SPACE,
+            (XBOX360_BACK)     : KEY_6,
+            (XBOX360_START)    : KEY_2
+    ])
+
+    buttonsTo(player2, [
+            (XBOX360_A)        : KEY_G,
+            (XBOX360_B)        : KEY_H,
+            (XBOX360_X)        : KEY_J,
+            (XBOX360_Y)        : KEY_J,
+            (XBOX360_BACK)     : KEY_6,
+            (XBOX360_START)    : KEY_2
+    ])
+}
+
+ResetAllMappings.setNeoRaineDefaults(hs)
+println "JoyToKey SNK Neo Geo CD"
+hs.getSystem("SNK Neo Geo CD").loadJ2KConfig().presets.with {
+
+    analogToCursor(player1)
+    dPadToCursor(player1)
+    buttonsTo(player1, [
+            (XBOX360_A)        : KEY_Z,
+            (XBOX360_B)        : KEY_X,
+            (XBOX360_X)        : KEY_C,
+            (XBOX360_Y)        : KEY_V,
+            (XBOX360_BACK)     : KEY_5,
+            (XBOX360_START)    : KEY_1,
+            (XBOX360_LB)       : KEY_B,
+            (XBOX360_LT_ANALOG): KEY_M,
+            (XBOX360_RB)       : KEY_N,
+            (XBOX360_RT_ANALOG): KEY_L,
+    ])
+
+    analogToNumpad(player2)
+    dPadToNumpad(player2)
+    buttonsTo(player2, [
+            (XBOX360_A)        : KEY_A,
+            (XBOX360_B)        : KEY_S,
+            (XBOX360_X)        : KEY_D,
+            (XBOX360_Y)        : KEY_F,
+            (XBOX360_BACK)     : KEY_6,
+            (XBOX360_START)    : KEY_2,
+            (XBOX360_LB)       : KEY_G,
+            (XBOX360_LT_ANALOG): KEY_J,
+            (XBOX360_RB)       : KEY_H,
+            (XBOX360_RT_ANALOG): KEY_K,
+    ])
+
+    save()
+}
+
+
+
+
 /*
 DONE:
 AAE: [AAE]
@@ -350,9 +405,10 @@ Dolphin Triforce: [Sega Triforce]
 SuperModel: [Sega Model 3]
 Daphne: [Daphne]
 FourDO: [Panasonic 3DO]
-
 DICE: [DICE]
 NeoRaine: [SNK Neo Geo CD]
+
+
 HBMAME: [HBMAME]
 
 PENDING:

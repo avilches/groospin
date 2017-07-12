@@ -5,7 +5,7 @@ import org.hs5tb.groospin.base.HyperSpin
 import org.hs5tb.groospin.base.J2K
 import org.hs5tb.groospin.base.MameIni
 
-HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
+HyperSpin hs = new HyperSpin("I:/Games/RocketLauncher")
 
 int joystickStartPosition = 1
 int player1 = joystickStartPosition
@@ -141,7 +141,6 @@ hs.retroArch.with {
     save()
 }
 
-
 println "JoyToKey RetroArch: joysticks and button -> RetroArch keys"
 hs.listSystemsRetroArch()*.loadJ2KConfig().each { J2K j2k ->
     j2k.presets.with {
@@ -268,7 +267,8 @@ println "JoyToKey MAME: joysticks and button -> keys"
 
     }
 }
-println "JoyToKey Future Pinball. (RUN THE REG FILE!!!!!!!!!!!)"
+ResetAllMappings.setPinballDefaults()
+println "JoyToKey Future Pinball"
 // Future Pinball. Funciona mejor con teclado. Cargar el registro de Windows para que se carguen estas teclas
 hs.getSystem("Future Pinball").loadJ2KConfig().presets.with {
     analogTo(player1, KEY_F, RETURN, SPACE, KEY_A)  // abajo sacar, resto golpear
@@ -750,7 +750,73 @@ hs.getSystem("Zinc").loadJ2KConfig().presets.with {
             (XBOX360_RB)       : KEY_H,
             (XBOX360_RT_ANALOG): KEY_H,
     ])
+    save()
+}
 
+ResetAllMappings.setDICEDefaults()
+
+ResetAllMappings.setDICEDefaults(hs)
+println "JoyToKey DICE"
+hs.getSystem("DICE").loadJ2KConfig().presets.with {
+
+    analogToCursor(player1)
+    dPadToCursor(player1)
+
+    analogTo(player2, KEY_A, KEY_S, KEY_W, KEY_D)
+    dPadTo(player2, KEY_A, KEY_S, KEY_W, KEY_D)
+
+    new ArcadeSet(preset: delegate, player1: player1).with {
+        coin(KEY_5)
+
+        p1Start(KEY_1)
+        p1Action1(LCONTROL)
+        p1Action2(LALT)
+        p1Action3(SPACE)
+        p1Action4(LCONTROL)
+        p1Action5(LALT)
+        p1Action6(SPACE)
+
+        p2Start(KEY_2)
+        p2Action1(KEY_G)
+        p2Action2(KEY_H)
+        p2Action3(KEY_J)
+        p2Action4(KEY_G)
+        p2Action5(KEY_H)
+        p2Action6(KEY_J)
+
+    }
+}
+
+ResetAllMappings.setNeoRaineDefaults()
+println "JoyToKey SNK Neo Geo CD"
+hs.getSystem("SNK Neo Geo CD").loadJ2KConfig().presets.with {
+
+    analogToCursor(player1)
+    dPadToCursor(player1)
+
+    analogToNumpad(player2)
+    dPadToNumpad(player2)
+    new ArcadeSet(preset: delegate, player1: player1).with {
+        coin(KEY_5)
+
+        p1Start(KEY_1)
+        p1Action1(KEY_Z)
+        p1Action2(KEY_X)
+        p1Action3(KEY_C)
+        p1Action4(KEY_V)
+        p1Action5(KEY_B)
+        p1Action6(KEY_N)
+
+        p2Start(KEY_2)
+        p2Action1(KEY_A)
+        p2Action2(KEY_S)
+        p2Action3(KEY_D)
+        p2Action4(KEY_F)
+        p2Action5(KEY_G)
+        p2Action6(KEY_H)
+    }
 
     save()
 }
+
+

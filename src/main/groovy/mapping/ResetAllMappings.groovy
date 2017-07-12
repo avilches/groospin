@@ -250,5 +250,29 @@ ${dolphinGamecube360("GCPad4", "3")}
     static void setZincDefaultKeys(HyperSpin hs) {
         ZincMapping.writeMapping(hs, ZincMapping.createDefaultMapping())
     }
+
+    static void setPinballDefaults() {
+
+        /*
+        Pinball FX2. Ya funciona con Xbox 360 directamente
+        */
+
+        /*
+        Pinball Arcade. Ya funciona con Xbox directamente
+        HKEY_CURRENT_USER\Software\PinballArcade\PinballArcade
+         */
+
+        println "****** Future Pinball: Run 'Future Pinball Keys.reg'"
+        println "****** Pinball Arcade. Go to menu -> options -> controls -> reset default. HKEY_CURRENT_USER\\Software\\PinballArcade\\PinballArcade"
+        println "****** Pinball FX2. Go to menu -> options -> controls -> reset default "
+    }
+
+    static void setDICEDefaults() {
+        println "****** DICE: Delete folder C:\\Users\\%USERNAME%\\AppData\\Roaming\\dice\\"
+    }
+
+    static void setNeoRaineDefaults(HyperSpin hs) {
+        NeoRaineMapping.writeMapping(hs, NeoRaineMapping.createDefaultMapping())
+    }
 }
 
