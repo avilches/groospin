@@ -7,7 +7,7 @@ import org.hs5tb.groospin.common.IniFile
  * Created by Alberto on 11-Jul-17.
  */
 class PPSSPPMapping {
-    static void setPPSSPP360AndKeys(HyperSpin hs) {
+    static void setDefault360AndKeys(HyperSpin hs) {
         File iniFile = new File(hs.getPPSSPPFolder(), "memstick\\PSP\\SYSTEM\\controls.ini")
 
         println "- PPSSPP: Reseting 360 + keys"

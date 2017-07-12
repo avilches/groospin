@@ -52,11 +52,11 @@ class ResetAllMappings {
     }
 
     static void setPS2DefaultKeys(HyperSpin hs) {
-        PCSX2Mapping.setPPSSPP360AndKeys(hs)
+        PCSX2Mapping.setDefault360AndKeys(hs)
     }
 
     static void setPPSSPP360AndKeys(HyperSpin hs) {
-        PPSSPPMapping.setPPSSPP360AndKeys(hs)
+        PPSSPPMapping.setDefault360AndKeys(hs)
     }
 
     private static String dolphinGamecube360(section, port) {

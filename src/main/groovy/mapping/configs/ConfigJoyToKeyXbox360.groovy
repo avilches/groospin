@@ -116,13 +116,6 @@ hs.getSystem("Future Pinball").loadJ2KConfig().presets.with {
     save()
 }
 
-/*
-Sony PlayStation 2
-Configuación en:
-d:\Games\Emulators\PCSX2\PCXS2.gigapig\inis\LilyPad.ini
-Se supone ya está configurado para 360
- */
-
 println "JoyTokey AAE"
 // AAE funciona mejor con teclado
 hs.getSystem("AAE").loadJ2KConfig().presets.with {
@@ -180,7 +173,6 @@ hs.listSystemsWinVICE()*.loadJ2KConfig().with { J2K j2k ->
 
 ResetAllMappings.setPS2DefaultKeys(hs)
 ResetAllMappings.setPPSSPP360AndKeys(hs)
-
 ResetAllMappings.setGamecubeDefault360(hs)
 ResetAllMappings.setWiiDefault360(hs)
 
