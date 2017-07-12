@@ -339,6 +339,10 @@ class HyperSpin {
         return getSystem("Panasonic 3DO").defaultEmulator.getEmuPath().parentFile
     }
 
+    File getPokeMiniFolder() {
+        return getSystem("Nintendo Pokemon Mini").defaultEmulator.getEmuPath().parentFile
+    }
+
     File getPPSSPPFolder() {
         return newRocketLauncherFile(getGlobalEmulatorsIni().get("PPSSPP", "Emu_Path")).parentFile
     }

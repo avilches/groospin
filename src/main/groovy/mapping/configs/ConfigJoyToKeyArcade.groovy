@@ -816,7 +816,69 @@ hs.getSystem("SNK Neo Geo CD").loadJ2KConfig().presets.with {
         p2Action6(KEY_H)
     }
 
+    analogToCursor(player3)
+    dPadToCursor(player3)
+    buttonsTo(player3, [
+            (XBOX360_A)        : KEY_Z,
+            (XBOX360_B)        : KEY_X,
+            (XBOX360_X)        : KEY_C,
+            (XBOX360_Y)        : KEY_V,
+            (XBOX360_BACK)     : KEY_5,
+            (XBOX360_START)    : KEY_1,
+            (XBOX360_LB)       : KEY_B,
+            (XBOX360_LT_ANALOG): KEY_M,
+            (XBOX360_RB)       : KEY_N,
+            (XBOX360_RT_ANALOG): KEY_L,
+    ])
+
+    analogToNumpad(player4)
+    dPadToNumpad(player4)
+    buttonsTo(player4, [
+            (XBOX360_A)        : KEY_A,
+            (XBOX360_B)        : KEY_S,
+            (XBOX360_X)        : KEY_D,
+            (XBOX360_Y)        : KEY_F,
+            (XBOX360_BACK)     : KEY_6,
+            (XBOX360_START)    : KEY_2,
+            (XBOX360_LB)       : KEY_G,
+            (XBOX360_LT_ANALOG): KEY_J,
+            (XBOX360_RB)       : KEY_H,
+            (XBOX360_RT_ANALOG): KEY_K,
+    ])
+
+
     save()
 }
 
 
+ResetAllMappings.setPokeMiniDefaults(hs)
+println "JoyToKey Nintendo Pokemon Mini"
+hs.getSystem("Nintendo Pokemon Mini").loadJ2KConfig().presets.with {
+
+    analogToCursor(player1)
+    dPadToCursor(player1)
+
+    new ArcadeSet(preset: delegate, player1: player1).with {
+        coin(TAB)
+
+        p1Start(KEY_E)
+        p1Action1(KEY_X)
+        p1Action2(KEY_Z)
+        p1Action3(KEY_S)
+        p1Action4(KEY_C)
+        p1Action6(KEY_A)
+    }
+
+    buttonsTo(player3, [
+        (XBOX360_A)        : KEY_X,
+        (XBOX360_B)        : KEY_Z,
+        (XBOX360_X)        : KEY_S,
+        (XBOX360_Y)        : KEY_C,
+        (XBOX360_BACK)     : KEY_A,
+        (XBOX360_START)    : KEY_E,
+        (XBOX360_LT_ANALOG): TAB,
+        (XBOX360_RT_ANALOG): TAB,
+    ])
+
+    save()
+}

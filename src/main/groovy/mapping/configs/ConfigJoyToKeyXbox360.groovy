@@ -370,6 +370,27 @@ hs.getSystem("SNK Neo Geo CD").loadJ2KConfig().presets.with {
     save()
 }
 
+ResetAllMappings.setPokeMiniDefaults(hs)
+println "JoyToKey Nintendo Pokemon Mini"
+hs.getSystem("Nintendo Pokemon Mini").loadJ2KConfig().presets.with {
+
+    analogToCursor(player1)
+    dPadToCursor(player1)
+    buttonsTo(player1, [
+            (XBOX360_A)        : KEY_X,
+            (XBOX360_B)        : KEY_Z,
+            (XBOX360_X)        : KEY_S,
+            (XBOX360_Y)        : KEY_C,
+            (XBOX360_BACK)     : KEY_A,
+            (XBOX360_START)    : KEY_E,
+            (XBOX360_LT_ANALOG): TAB,
+            (XBOX360_RT_ANALOG): TAB,
+    ])
+
+
+    save()
+}
+
 
 
 
@@ -399,6 +420,7 @@ Daphne: [Daphne]
 FourDO: [Panasonic 3DO]
 DICE: [DICE]
 NeoRaine: [SNK Neo Geo CD]
+PokeMini: [Nintendo Pokemon Mini]
 
 
 HBMAME: [HBMAME]
@@ -409,7 +431,6 @@ Sega Model 2 Emulator: [Sega Model 2]
 Demul70: [Cave 3rd, Gaelco, Sammy Atomiswave, Sega Hikaru, Sega Naomi]
 NullDC: [Sega Dreamcast]
 Project64 DD: [Nintendo 64DD]
-PokeMini: [Nintendo Pokemon Mini]
 Fusion: [Sega CD, Sega Mega-CD, Sega SC-3000]
 CPCE: [Amstrad CPC]
 Sinclair ZX Spectrum

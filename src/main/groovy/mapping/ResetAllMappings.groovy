@@ -271,6 +271,10 @@ ${dolphinGamecube360("GCPad4", "3")}
         println "****** DICE: Delete folder C:\\Users\\%USERNAME%\\AppData\\Roaming\\dice\\"
     }
 
+    static void setPokeMiniDefaults(HyperSpin hs) {
+        PokeMiniMapping.setDefaultKeys(hs)
+    }
+
     static void setNeoRaineDefaults(HyperSpin hs) {
         NeoRaineMapping.writeMapping(hs, NeoRaineMapping.createDefaultMapping())
     }
