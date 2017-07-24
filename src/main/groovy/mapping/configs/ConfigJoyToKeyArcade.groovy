@@ -753,8 +753,6 @@ hs.getSystem("Zinc").loadJ2KConfig().presets.with {
     save()
 }
 
-ResetAllMappings.setDICEDefaults()
-
 ResetAllMappings.setDICEDefaults(hs)
 println "JoyToKey DICE"
 hs.getSystem("DICE").loadJ2KConfig().presets.with {
@@ -787,7 +785,7 @@ hs.getSystem("DICE").loadJ2KConfig().presets.with {
     }
 }
 
-ResetAllMappings.setNeoRaineDefaults()
+ResetAllMappings.setNeoRaineDefaults(hs)
 println "JoyToKey SNK Neo Geo CD"
 hs.getSystem("SNK Neo Geo CD").loadJ2KConfig().presets.with {
 

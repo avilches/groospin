@@ -19,5 +19,7 @@ ResetAllMappings.setFourDODefaultKeys(hs)
 ResetAllMappings.setZincDefaultKeys(hs)
 ResetAllMappings.setNeoRaineDefaults(hs)
 ResetAllMappings.setPokeMiniDefaults(hs)
+ResetAllMappings.setDICEDefaults(hs)
+
 
 

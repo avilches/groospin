@@ -304,7 +304,7 @@ hs.getSystem("Zinc").loadJ2KConfig().presets.with {
     save()
 }
 
-ResetAllMappings.setDICEDefaults()
+ResetAllMappings.setDICEDefaults(hs)
 println "JoyToKey DICE"
 hs.getSystem("DICE").loadJ2KConfig().presets.with {
 
@@ -427,16 +427,18 @@ HBMAME: [HBMAME]
 
 PENDING:
 
-Sega Model 2 Emulator: [Sega Model 2]
 Demul70: [Cave 3rd, Gaelco, Sammy Atomiswave, Sega Hikaru, Sega Naomi]
 NullDC: [Sega Dreamcast]
+
 Project64 DD: [Nintendo 64DD]
 Fusion: [Sega CD, Sega Mega-CD, Sega SC-3000]
+Nestopia: [Technos]
+
+Sega Model 2 Emulator: [Sega Model 2]
 CPCE: [Amstrad CPC]
 Sinclair ZX Spectrum
 Project Tempest: [Atari Jaguar CD]
 PCLauncher: [American Laser Games, Big Fish Games, Doujin Soft, Flash Games, Lucasarts Adventure Games, Locomalito Games, Nintendo Game and Watch, Party Games, PC Games, Taito Type X, TouchGames, Touhou Project, Pack Remasterizados]
-Nestopia: [Technos]
 
 
 Spectaculator: [Sinclair ZX Spectrum]

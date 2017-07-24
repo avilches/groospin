@@ -267,7 +267,7 @@ ${dolphinGamecube360("GCPad4", "3")}
         println "****** Pinball FX2. Go to menu -> options -> controls -> reset default "
     }
 
-    static void setDICEDefaults() {
+    static void setDICEDefaults(HyperSpin hs) {
         println "****** DICE: Delete folder C:\\Users\\%USERNAME%\\AppData\\Roaming\\dice\\"
     }
 
