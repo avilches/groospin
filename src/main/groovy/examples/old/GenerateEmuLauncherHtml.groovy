@@ -1,11 +1,12 @@
 package examples.old
 
 import org.hs5tb.groospin.base.HyperSpin
+import org.hs5tb.groospin.base.RLEmulator
 import org.hs5tb.groospin.base.RLSystem
 
 HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
 
-File emus = new File("D:/Games/Sistemas y emuladores.html")
+File emus = new File("D:/Games/Emuladores.html")
 
 StringBuffer txt = new StringBuffer()
 txt << """<html><head>
@@ -16,33 +17,18 @@ h3 { margin:15pt 0 3pt; }
 </head><body><div id="data">
 """
 
-hs.listSystems().each { RLSystem system ->
-    txt << "<h3>${system.name}</h3>"
-    println system.name
-    if (system.romsIsExecutable()) {
-        txt << "${system.defaultEmulator.name} (Modulo: ${system.defaultEmulator.module})<br/><ul>"
-        system.listRomNames().each { String game ->
-            File romFound = system.findValidRom(game)
-            if (romFound) {
-                File exe = system.findExecutable(game, romFound)
-                if (exe) {
-                    txt << "<li><strong>${game}</strong><br/>${exe.parent} <a href='file:///${exe.parent}'>abrir carpeta</a></li>\n"
-                    txt << "${exe} ${exe.name.toLowerCase().endsWith(".bat")?"(debe abrir la carpeta y lanzarlo a mano)":"<a href='file:///${exe}'>ejecutar</a>"}"
-                } else {
-                    txt << "<li><strong>${game}</strong><br/>rom ok, pero falta ejecutable!</li>\n"
-                }
-            } else {
-                txt << "<li><strong>${game}</strong><br/>rom no encontrada </li>\n"
-            }
-        }
-        txt << "</ul>"
-    } else  {
-        txt << """${system.defaultEmulator.name} (Modulo: ${system.defaultEmulator.module})<ul>
-<li>${system.defaultEmulator.emuPath.parentFile} <a href='file:///${system.defaultEmulator.emuPath.parent}'>abrir carpeta</a></li>
-<li>${system.defaultEmulator.emuPath} <a href='file:///${system.defaultEmulator.emuPath}'>ejecutar</a></li>
+hs.listSystems().findAll { RLSystem system ->
+    !system.romsAreExecutable() && system.defaultEmulator?.emuPath
+}.groupBy() { RLSystem system ->
+    system.defaultEmulator
+}.each { RLEmulator emulator, List<RLSystem> systems ->
+    txt << "<h3>${emulator.name}</h3>"
+    println emulator.name
+    txt << """Modulo: ${emulator.module} - Sistemas: ${systems*.name.join(", ")} <ul>
+<li>${emulator.emuPath.parentFile} <a href='file:///${emulator.emuPath.parent}'>Abrir carpeta</a></li>
+<li>${emulator.emuPath.name} <a href='file:///${emulator.emuPath}'>Ejecutar emulador</a></li>
 </ul>
 """
-    }
 }
 txt << """
 </div>

@@ -5,7 +5,7 @@ import org.hs5tb.groospin.base.RLSystem
 
 HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
 
-File emus = new File("D:/Games/Juegos.html")
+File emus = new File("D:/Games/Sistemas y emuladores.html")
 
 StringBuffer txt = new StringBuffer()
 txt << """<html><head>
@@ -18,25 +18,35 @@ h3 { margin:15pt 0 3pt; }
 
 hs.listSystems().each { RLSystem system ->
     txt << "<h3>${system.name}</h3>"
-    system.listRomNames().each { String game ->
-        File romFound = system.findValidRom(game)
-        if (romFound) {
-            if (system.romIsExecutable(game)) {
+    println system.name
+    if (system.romsAreExecutable()) {
+        txt << "${system.defaultEmulator.name} (Modulo: ${system.defaultEmulator.module})<br/><ul>"
+        system.listRomNames().each { String game ->
+            File romFound = system.findValidRom(game)
+            if (romFound) {
                 File exe = system.findExecutable(game, romFound)
                 if (exe) {
                     txt << "<li><strong>${game}</strong><br/>${exe.parent} <a href='file:///${exe.parent}'>abrir carpeta</a></li>\n"
-                    txt << "${exe} ${exe.name.toLowerCase().endsWith(".bat") ? "(debe abrir la carpeta y lanzarlo a mano)" : "<a href='file:///${exe}'>ejecutar</a>"}"
+                    txt << "${exe} ${exe.name.toLowerCase().endsWith(".bat")?"(debe abrir la carpeta y lanzarlo a mano)":"<a href='file:///${exe}'>ejecutar</a>"}"
                 } else {
                     txt << "<li><strong>${game}</strong><br/>rom ok, pero falta ejecutable!</li>\n"
                 }
             } else {
-                txt << "<li><strong>${game}</strong><a href='file:///${hs.getRocketLauncherExe()} ${game}'>ejecutar</a><br/></li>\n"
+                txt << "<li><strong>${game}</strong><br/>rom no encontrada </li>\n"
             }
+        }
+        txt << "</ul>"
+    } else  {
+        if (system.defaultEmulator?.emuPath) {
+            txt << """${system.defaultEmulator.name} (Modulo: ${system.defaultEmulator.module})<ul>
+<li>${system.defaultEmulator.emuPath.parentFile} <a href='file:///${system.defaultEmulator.emuPath.parent}'>abrir carpeta</a></li>
+<li>${system.defaultEmulator.emuPath} <a href='file:///${system.defaultEmulator.emuPath}'>ejecutar</a></li>
+</ul>
+"""
         } else {
-            txt << "<li><strong>${game}</strong><br/>rom no encontrada </li>\n"
+            txt << "No emu"
         }
     }
-    txt << "</ul>"
 }
 txt << """
 </div>

@@ -45,9 +45,13 @@ class RLSystem {
         return null
     }
 
-    boolean romsIsExecutable(String romName) {
+    boolean romsAreExecutable() {
+        return defaultEmulator.romsAreExecutable()
+    }
+
+    boolean romIsExecutable(String romName) {
         RLEmulator emulator = findRomEmulator(romName)
-        return emulator.module in ["MUGEN.ahk", "OpenBOR.ahk", "Casual Games.ahk", "PCLauncher.ahk", "DFend.ahk"]
+        return emulator.romsAreExecutable()
     }
 
     File getDatabaseFile() {

@@ -11,4 +11,8 @@ class RLEmulator {
     String iniRomExtension
     List romExtensions
     String module
+
+    boolean romsAreExecutable() {
+        module in ["MUGEN.ahk", "OpenBOR.ahk", "Casual Games.ahk", "PCLauncher.ahk", "DFend.ahk", "DOSBox.ahk"]
+    }
 }

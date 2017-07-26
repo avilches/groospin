@@ -28,7 +28,7 @@ class RomChecker {
         File romFound = system.findValidRom(romName)
         if (romFound) {
             rom.romFileFound = romFound.canonicalFile
-            if (system.romsIsExecutable(romName)) {
+            if (system.romIsExecutable(romName)) {
                 File exe = system.findExecutable(romName, romFound)
                 if (exe && exe.exists()) {
                     rom.exeFileFound = exe.canonicalFile
