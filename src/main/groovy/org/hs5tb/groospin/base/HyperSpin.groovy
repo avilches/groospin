@@ -298,9 +298,12 @@ class HyperSpin {
         }
     }
 
+    File getHBMameFolder() {
+        return getSystem("HBMAME").defaultEmulator.getEmuPath().parentFile
+    }
+
     File getMameFolder() {
-        return newRocketLauncherFile(getGlobalEmulatorsIni().get("MAME", "Emu_Path")).parentFile
-//        return getSystem("MAME").defaultEmulator.getEmuPath().parentFile
+        return getSystem("MAME").defaultEmulator.getEmuPath().parentFile
     }
 
     File getWinViceFolder() {
@@ -309,6 +312,10 @@ class HyperSpin {
 
     File getDolphinGameCubeFolder() {
         return getSystem("Nintendo GameCube").defaultEmulator.getEmuPath().parentFile
+    }
+
+    File getNullDcFolder() {
+        return getSystem("Sega Dreamcast").defaultEmulator.getEmuPath().parentFile
     }
 
     File getSuperModelFolder() {
@@ -360,9 +367,18 @@ class HyperSpin {
         return new MameIni().parse(new File(mameFolder, resource))
     }
 
+    MameIni getHBMameIni(String resource) {
+        return new MameIni().parse(new File(HBMameFolder, resource))
+    }
+
     MameMapping getMameMapping() {
         return new MameMapping().folder(mameFolder.absolutePath)
     }
+
+    MameMapping getHBMameMapping() {
+        return new MameMapping().folder(HBMameFolder.absolutePath)
+    }
+
     RetroArch getRetroArch() {
         return new RetroArch().folder(retroArchFolder.absolutePath)
     }

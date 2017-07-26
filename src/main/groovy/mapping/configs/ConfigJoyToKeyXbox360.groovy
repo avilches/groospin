@@ -391,6 +391,7 @@ hs.getSystem("Nintendo Pokemon Mini").loadJ2KConfig().presets.with {
     save()
 }
 
+ResetAllMappings.setNullDc360(hs)
 
 
 

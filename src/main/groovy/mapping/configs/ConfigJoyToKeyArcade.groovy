@@ -1,5 +1,6 @@
 package mapping.configs
 
+import mapping.MameMapping
 import mapping.ResetAllMappings
 import org.hs5tb.groospin.base.HyperSpin
 import org.hs5tb.groospin.base.J2K
@@ -187,21 +188,20 @@ Se usa JoyToKey porque SI SE DESENCHUFA EL JOYSTICK CUALQUIER CONFIGURACIÓN QUE
 SE BORRA. Por lo tanto, cuando se usan mandos que se pueden enchufar y desenchufar, lo mejor es no editar el default.cfg
 y hacer el mapeo en el JoyToKey.
 */
-println "- MAME: Creating ctrlr 'arcadeAT'"
-println hs.mameMapping.getCtrlr().absolutePath
-hs.mameMapping.with {
-
-    setDefault4PlayersKeys()
-
-    saveCtrl("arcadeAT")
+println "- MAME/HBMAME: Creating 'arcadeAT' ctrlr"
+[hs.mameMapping, hs.HBMameMapping].each { MameMapping it ->
+    it.setDefault4PlayersKeys()
+    it.saveCtrl("arcadeAT")
+    println it.getCtrlr("arcadeAT").absolutePath
 }
 
-MameIni mameIni = hs.getMameIni("ini/presets/mame.ini")
-println "- MAME: setting ctrlr to 'arcadeAT':"
-println mameIni.file.absolutePath
-mameIni.set("keyboardprovider", "dinput")  // ensure MAME can read JoyToKey mappings
-mameIni.set("ctrlr", "arcadeAT")
-mameIni.save()
+println "- MAME/HBMAME: setting ctrlr to 'arcadeAT'"
+[hs.getMameIni("ini/presets/mame.ini"),
+ hs.getHBMameIni("ini/presets/hbmame.ini")].each { MameIni mameIni ->
+    println mameIni.file.absolutePath
+    mameIni.set("ctrlr", "arcadeAT")
+    mameIni.save()
+}
 
 // Mapeos en JoyToKey
 println "JoyToKey MAME: joysticks and button -> keys"
@@ -877,6 +877,29 @@ hs.getSystem("Nintendo Pokemon Mini").loadJ2KConfig().presets.with {
         (XBOX360_LT_ANALOG): TAB,
         (XBOX360_RT_ANALOG): TAB,
     ])
+
+    save()
+}
+
+
+ResetAllMappings.setNullDc360(hs)
+println "JoyToKey NullDC"
+
+hs.getSystem("Sega Dreamcast").loadJ2KConfig().presets.with {
+    analogToCursor(player1)
+    dPadToCursor(player1)
+
+    new ArcadeSet(preset: delegate, player1: player1).with {
+        coin(TAB)
+
+        p1Start(KEY_1)
+        p1Action1(KEY_X)
+        p1Action2(KEY_Z)
+        p1Action3(KEY_W)
+        p1Action4(KEY_A)
+        p1Action5(KEY_S)
+        p1Action6(KEY_Q)
+    }
 
     save()
 }

@@ -4,6 +4,11 @@ import mapping.ResetAllMappings
 import org.hs5tb.groospin.base.HyperSpin
 
 HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
+
+
+ResetAllMappings.setNullDcKeyboardControlled(hs)
+//ResetAllMappings.setNullDc360(hs)
+return
 ResetAllMappings.emptyAllJoyToKeyProfiles(hs)
 ResetAllMappings.setHyperSpinDefaultKeys(hs)
 ResetAllMappings.emptyRetroArch(hs.retroArch)
