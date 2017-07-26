@@ -422,15 +422,12 @@ FourDO: [Panasonic 3DO]
 DICE: [DICE]
 NeoRaine: [SNK Neo Geo CD]
 PokeMini: [Nintendo Pokemon Mini]
-
-
 HBMAME: [HBMAME]
+NullDC: [Sega Dreamcast]
 
 PENDING:
 
 Demul70: [Cave 3rd, Gaelco, Sammy Atomiswave, Sega Hikaru, Sega Naomi]
-NullDC: [Sega Dreamcast]
-
 Project64 DD: [Nintendo 64DD]
 Fusion: [Sega CD, Sega Mega-CD, Sega SC-3000]
 Nestopia: [Technos]
