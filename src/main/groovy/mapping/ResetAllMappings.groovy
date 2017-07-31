@@ -159,6 +159,10 @@ class ResetAllMappings {
         NullDcMapping.setKeyboard(hs.getNullDcFolder())
     }
 
+    static void setDemul360(HyperSpin hs) {
+        DemulMapping.set360(hs)
+    }
+
     static void setNullDc360(HyperSpin hs) {
         NullDcMapping.set360(hs.getNullDcFolder())
     }

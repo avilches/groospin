@@ -6,9 +6,6 @@ import org.hs5tb.groospin.base.HyperSpin
 HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
 
 
-ResetAllMappings.setNullDcKeyboardControlled(hs)
-//ResetAllMappings.setNullDc360(hs)
-return
 ResetAllMappings.emptyAllJoyToKeyProfiles(hs)
 ResetAllMappings.setHyperSpinDefaultKeys(hs)
 ResetAllMappings.emptyRetroArch(hs.retroArch)
@@ -25,6 +22,7 @@ ResetAllMappings.setZincDefaultKeys(hs)
 ResetAllMappings.setNeoRaineDefaults(hs)
 ResetAllMappings.setPokeMiniDefaults(hs)
 ResetAllMappings.setDICEDefaults(hs)
-
+ResetAllMappings.setNullDcKeyboardControlled(hs)
+ResetAllMappings.setDemul360(hs)
 
 

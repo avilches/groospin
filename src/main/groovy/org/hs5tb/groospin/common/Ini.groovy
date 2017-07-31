@@ -56,7 +56,6 @@ class Ini {
             String line = originalLine.trim()
             if (!line || line.startsWith("#") || line.startsWith(";")) {
                 lines << new Ini.Data(data:originalLine, type: Ini.Data.Type.raw)
-                return // Ignore comments
             } else if (line.startsWith("[")) {
                 int pos = line.indexOf("]")
                 if (pos > 1) {
@@ -68,6 +67,7 @@ class Ini {
                     } else {
                         if (ignoreDuplicatedSections) sectionsParsed << currentSection
                         ignoreDuplicatedSection = false
+                        createSection(currentSection)
                     }
                 } else {
                     lines << new Ini.Data(data:originalLine, type: Ini.Data.Type.raw)
@@ -102,7 +102,9 @@ class Ini {
             } else if (data.type == Ini.Data.Type.section) {
                 if (currentSection != null) storeSection(printer, currentSection) // Flush pending session (new values..)
                 currentSection = sectionsToStore.remove(data.data)?.clone()
-                writer.println("[${data.data}]")
+                if (currentSection != null) {
+                    writer.println("[${data.data}]")
+                }
             } else if (data.type == Ini.Data.Type.property) {
                 if (currentSection != null && currentSection.containsKey(data.data)) {
                     writer.println("${data.data}${equals}${currentSection.remove(data.data)?:""}")
@@ -148,6 +150,15 @@ class Ini {
         return put(defaultSection, key, value as String)
     }
 
+    void createSection(String section) {
+        section = section.trim()
+        Map sectionValues = sections[section]
+        if (!sectionValues) {
+            dirty = true
+            sections[section] = [:]
+        }
+    }
+
     String put(String section, String key, String value) {
         section = section.trim()
         key = key.trim()
@@ -172,6 +183,13 @@ class Ini {
 
     Map getDefaultSection() {
         return getSection(defaultSection)
+    }
+
+    Map removeSection(String section) {
+        section = section.trim()
+        Map map = getSection(section)
+        sections.remove(section)
+        return map
     }
 
     Map getSection(String section) {

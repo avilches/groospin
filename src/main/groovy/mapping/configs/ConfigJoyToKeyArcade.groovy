@@ -881,8 +881,8 @@ hs.getSystem("Nintendo Pokemon Mini").loadJ2KConfig().presets.with {
     save()
 }
 
-
-ResetAllMappings.setNullDc360(hs)
+/*
+ResetAllMappings.setNullDcKeyboardControlled(hs)
 println "JoyToKey NullDC"
 
 hs.getSystem("Sega Dreamcast").loadJ2KConfig().presets.with {
@@ -903,3 +903,8 @@ hs.getSystem("Sega Dreamcast").loadJ2KConfig().presets.with {
 
     save()
 }
+*/
+
+
+ResetAllMappings.setNullDc360(hs)
+ResetAllMappings.setDemul360(hs)

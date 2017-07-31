@@ -314,6 +314,10 @@ class HyperSpin {
         return getSystem("Nintendo GameCube").defaultEmulator.getEmuPath().parentFile
     }
 
+    File getDemulFolder() {
+        return getSystem("Sega Naomi").defaultEmulator.getEmuPath().parentFile
+    }
+
     File getNullDcFolder() {
         return getSystem("Sega Dreamcast").defaultEmulator.getEmuPath().parentFile
     }
