@@ -8,6 +8,8 @@ HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
 int joystickStartPosition = 1
 int player1 = joystickStartPosition
 int player2 = joystickStartPosition + 1
+int player3 = joystickStartPosition + 2
+int player4 = joystickStartPosition + 3
 
 ResetAllMappings.emptyAllJoyToKeyProfiles(hs)
 ResetAllMappings.setHyperSpinDefaultKeys(hs)
@@ -42,6 +44,8 @@ hs.listAllJoyToKeyProfiles().each { J2K j2k ->
     j2k.presets.with {
         xbox360Esc(player1)
         xbox360Esc(player2)
+        xbox360Esc(player3)
+        xbox360Esc(player4)
         save()
     }
 }

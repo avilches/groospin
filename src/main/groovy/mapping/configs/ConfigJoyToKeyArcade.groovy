@@ -6,7 +6,7 @@ import org.hs5tb.groospin.base.HyperSpin
 import org.hs5tb.groospin.base.J2K
 import org.hs5tb.groospin.base.MameIni
 
-HyperSpin hs = new HyperSpin("I:/Games/RocketLauncher")
+HyperSpin hs = new HyperSpin("A:/RocketLauncher")
 
 int joystickStartPosition = 1
 int player1 = joystickStartPosition
@@ -121,8 +121,14 @@ hs.listAllJoyToKeyProfiles().each { J2K j2k ->
         new ArcadeSet(preset: delegate, player1: player1).with {
             exit(ESC)
         }
+        xbox360Esc(player1)
+        xbox360Esc(player2)
+        xbox360Esc(player3)
+        xbox360Esc(player4)
         save()
     }
+
+
 }
 
 // Los sistemas RetroArch ya funcionan con los mandos de 360 con la configuración por defecto.
@@ -229,9 +235,6 @@ println "JoyToKey MAME: joysticks and button -> keys"
             p2Action6(KEY_E)
             p2Start(KEY_2)
         }
-
-        xbox360Esc(player3)
-        xbox360Esc(player4)
 
         analogTo(player3, KEY_J, KEY_K, KEY_I, KEY_L)
         dPadTo(player3, KEY_J, KEY_K, KEY_I, KEY_L)
@@ -558,8 +561,6 @@ hs.getSystem("Sega Model 3").loadJ2KConfig().presets.with {
         pinballRight(KEY_8) // test
     }
 
-    xbox360Esc(player3)
-    xbox360Esc(player4)
 
     analogToCursor(player3)
     dPadToCursor(player3)

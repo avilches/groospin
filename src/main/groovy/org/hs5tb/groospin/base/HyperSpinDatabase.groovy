@@ -162,7 +162,9 @@ class HyperSpinDatabase {
     }
 
     static void write(List<Rom> roms, File file, Map header = [:]) {
-        file.parentFile.mkdirs()
+        if (!file.parentFile.exists()) {
+            file.parentFile.mkdirs()
+        }
         write(roms, file.newWriter(), header)
     }
 

@@ -48,8 +48,13 @@ class Packer extends Operations {
         File f = File.createTempFile("groospin-packer-rar", "lst")
         try {
             f.text = txt
-            Process p = "${RAR_EXE} a -r0 -v500000 \"${new File(rar).absolutePath}\" @${f.absolutePath}".execute([], new File(root))
-            p.waitForProcessOutput(System.out, System.err)
+            String cmd = "${RAR_EXE} a -r0 -v500000 \"${new File(rar).absolutePath}\" @${f.absolutePath}"
+            println "cwd $root"
+            println cmd
+            if (!simulation) {
+                Process p = cmd.execute([], new File(root))
+                p.waitForProcessOutput(System.out, System.err)
+            }
         } finally {
             f.delete()
         }

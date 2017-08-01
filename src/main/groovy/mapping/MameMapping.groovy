@@ -77,6 +77,9 @@ class MameMapping {
     }
 
     MameMapping saveFile(String machine = this.machine, File file) {
+        if (!file.parentFile.exists()) {
+            file.parentFile.mkdirs()
+        }
         MarkupBuilder mb = new MarkupBuilder(new IndentPrinter(new PrintWriter(file.newWriter()), "    "))
         mb.mkp.xmlDeclaration(version: "1.0")
         mb.setOmitNullAttributes(true)
