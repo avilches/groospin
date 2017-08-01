@@ -22,8 +22,8 @@ class Packer extends Operations {
         root = hyperSpin.hsRoot.parentFile.canonicalPath + "\\"
     }
 
-    void copyTo(List systems, List resources = null, String dst) {
-        withResources(systems, resources) { File originFile ->
+    void copyTo(List resources, String dst) {
+        combineAndOptimizeResourceList(resources).each { File originFile ->
             File dstFile = new File(dst, relativeToRoot(originFile))
             log("(${simulation?"simulation":"real"}) Copy to ${dstFile}")
             if (!simulation) IOTools.copy(originFile, dstFile, false)
@@ -37,12 +37,12 @@ class Packer extends Operations {
         throw new RuntimeException("${originFile} is not relative to ${root}")
     }
 
-    void rarTo(List systems, List resources = null, String rar) {
+    void rarTo(List resources, String rar) {
         if (IOTools.getExtension(rar) != "rar") {
             rar = rar+".rar"
         }
         String txt = ""
-        withResources(systems, resources) { File originFile ->
+        combineAndOptimizeResourceList(resources).each { File originFile ->
             txt += "${relativeToRoot(originFile)}\n"
         }
         File f = File.createTempFile("groospin-packer-rar", "lst")
@@ -58,18 +58,18 @@ class Packer extends Operations {
         } finally {
             f.delete()
         }
-        listFiles(systems, resources, rar - ".rar")
+        listFiles(resources, rar - ".rar")
     }
 
-    void listFiles(List systems, List resources = null, String file) {
-        Set<File> files = explodeToSingleFileList(systems, resources)
+    void listFiles(List resources, String file) {
+        Set<File> files = explodeToSingleFileList(resources)
         new File(file+".txt").text = files.collect{ relativeToRoot(it) }.join("\n")
         new File(file+".csv").text = "size,content\n${files.collect{ "${it.file?it.size():0},${relativeToRoot(it)}" }.join("\n")}\n${files.sum { it.file?it.size():0}}"
     }
 
-    Set<File> explodeToSingleFileList(List systems, List resources = null) {
+    Set<File> explodeToSingleFileList(List resources) {
         Set<File> files = new HashSet()
-        withResources(systems, resources) { File originFile ->
+        combineAndOptimizeResourceList(resources).each { File originFile ->
             if (originFile.directory) {
                 originFile.eachFileRecurse { File contentFile ->
                     // Se incluyen también los directorios
@@ -82,16 +82,10 @@ class Packer extends Operations {
         return files.sort { it.absolutePath.toLowerCase()}
     }
 
-    void withResources(List systems, List resources = null, Closure<File> closure) {
-        combineAndOptimizeResourceList(systems, resources).each { File originFile ->
-            closure(originFile)
-        }
-    }
-
-    List<String> combineAndOptimizeResourceList(List systems, List resources = null) {
+    List<String> combineAndOptimizeResourceList(List resources) {
         List dirs = []
         List files = []
-        (systems.collect { listSystemResources(it) }.flatten() + resources).each { o ->
+        resources.each { o ->
             File originFile = o instanceof File ? o : new File(o.toString())
             if (originFile.directory) {
                 dirs << originFile
@@ -112,6 +106,10 @@ class Packer extends Operations {
             }
         }
         return bestDirs + filesNotIncludedInDirs
+    }
+
+    List listSystemResources(List systems) {
+        systems.collect { listSystemResources(it) }.flatten()
     }
 
     List listSystemResources(String systemName) {

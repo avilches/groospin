@@ -6,24 +6,27 @@ import org.hs5tb.groospin.base.RLSystem
 
 Packer packer = new Packer("D:/Games/RocketLauncher")
 packer.simulation = false
+File base = new File("d:\\parches")
+base.mkdirs()
 
 
-// collection1(packer)
+
+collection1(new Pack(packer: packer, base: base, name: "Hyperspin5tb.Collection.1.VERSION-17.01"))
 // nintendo3DS(packer)
 // pinballFX2(packer)
 // mediaCenters(packer)
 
-def collection1(Packer packer) {
-    String pck = "Hyperspin5tb.Collection.1.VERSION-17.01"
-    File base = createPack(pck)
+def collection1(Pack pack) {
     def systems = ["Castlevania Collection", "The King of Fighters Collection", "Sonic Mega Collection", "Street Fighter Collection", "Killer Instinct Collection",
                    "Bomberman Collection", "Donkey Kong Collection", "Ghost'n Goblins Collection", "Double Dragon Collection", "Fatal Fury Collection",
                    "Final Fantasy Collection", "Final Fight Collection", "Legend of Zelda Collection", "Mega Man Collection", "Metal Slug Collection",
                    "Mortal Kombat Kollection", "Resident Evil Collection", "Samurai Shodown Collection", "Tekken Collection", "Dragon Warrior Collection",
                    "Shining Force Collection", "Street Fighter Hack Collection", "Super Mario Collection", "World Heroes Collection", "Contra Collection"]
 
-    String dependencies = listDependencies(systems, packer.hyperSpin)
-    new File(base, "${pck}.readme.txt").text =
+    pack.addSystem(systems)
+
+    String dependencies = listDependencies(systems, pack.hyperSpin)
+    pack.createReadme(
             """Descomprimir todos los rars en tu unidad en la carpeta \\Games
 Editar el fichero \\Games\\HyperSpin-fe\\Databases\\Main Menu\\Main Menu.xml con un editor de texto (bloc de notas, Notepad++) y añadir las siguientes líneas para dar de alta los nuevos sistemas:
 
@@ -56,10 +59,9 @@ Editar el fichero \\Games\\HyperSpin-fe\\Databases\\Main Menu\\Main Menu.xml con
 Las colecciones no llevan roms, solo medias, por lo que necesitan tener instalados los siguientes sistemas (al lado, el número de roms que necesitan dicho sistema):
 
 ${dependencies}    
-"""
+""")
 
-    packer.rarTo(systems, [],
-            new File(base, "${pck}-systems").toString())
+    pack.rarTo(systems, "systems")
 
 }
 
@@ -122,12 +124,6 @@ Solo para usuarios que tengan la colección en una unidad que no sea D: deben ed
 """
 }
 
-File createPack(String s) {
-    File base = new File("d:\\parches", s)
-    base.mkdirs()
-    return base
-}
-
 String listDependencies(List<String> systems, HyperSpin hyperSpin) {
     String dependencies = ""
     systems.collect {
@@ -138,3 +134,50 @@ String listDependencies(List<String> systems, HyperSpin hyperSpin) {
     }
     return dependencies
 }
+
+
+class Pack {
+    Packer packer
+    String name
+    File base
+
+    HyperSpin getHyperSpin() {
+        return packer.hyperSpin
+    }
+
+    File createFile(String filename) {
+        new File(base, name).mkdirs()
+        new File(base, "${name}/${filename}")
+    }
+
+    void createReadme(String content) {
+        File readme = createFile("readme.txt")
+        println readme.absolutePath
+        println "-----------------------"
+        println content
+        if (!packer.simulation) {
+            readme.text = content
+        }
+    }
+
+    List resources = []
+
+    void addResource(List l) {
+
+    }
+    void addResource(String r) {
+        resources << r
+    }
+    void addSystem(String r) {
+        resources << packer.listSystemResources(r)
+    }
+    void addSystem(List r) {
+        resources << packer.listSystemResources(r)
+    }
+
+    void rarTo(String rar) {
+        packer.rarTo(resources, createFile(rar))
+    }
+
+}
+
