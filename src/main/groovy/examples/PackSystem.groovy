@@ -11,10 +11,36 @@ base.mkdirs()
 
 
 
-collection1(new Pack(packer: packer, base: base, name: "Hyperspin5tb.Collection.1.VERSION-17.01"))
+basic1(new Pack(packer: packer, base: base, name: "Basic-FreePack"))
 // nintendo3DS(packer)
 // pinballFX2(packer)
 // mediaCenters(packer)
+
+
+def basic1(Pack pack) {
+    def systems =
+    [
+            "Atari 2600",
+    "Nintendo Classic Mini",
+    "Nintendo Entertainment System",
+    "Sega Master System",
+    "Sega Genesis",
+    "Super Nintendo Entertainment System",
+    "Nintendo 64",
+    "Nintendo Game Boy",
+    "Nintendo Game Boy Color",
+    "Sega Game Gear",
+    "Rockola",
+    "Vintage Commercials",
+    "Future Pinball"]
+
+    pack.addSystem(systems)
+    pack.addResource(["D:\\Games\\Arcades\\Future Pinball",
+            "D:\\Games\\Extra\\Jukebox"])
+
+    pack.rarTo("13-systems")
+
+}
 
 def collection1(Pack pack) {
     def systems = ["Castlevania Collection", "The King of Fighters Collection", "Sonic Mega Collection", "Street Fighter Collection", "Killer Instinct Collection",
@@ -61,7 +87,7 @@ Las colecciones no llevan roms, solo medias, por lo que necesitan tener instalad
 ${dependencies}    
 """)
 
-    pack.rarTo(systems, "systems")
+    pack.rarTo("systems")
 
 }
 
@@ -163,20 +189,31 @@ class Pack {
     List resources = []
 
     void addResource(List l) {
-
+        resources.addAll(l)
+    }
+    void addResource(File r) {
+        resources << r
     }
     void addResource(String r) {
         resources << r
     }
-    void addSystem(String r) {
-        resources << packer.listSystemResources(r)
+    void addSystem(String systemName) {
+        RLSystem system = hyperSpin.getSystem(systemName)
+        if (system.executable) {
+            println "${system.executableExe.absolutePath} [${system.name}] "
+        } else {
+            println "${system.defaultEmulator?.emuPath} [${system.name}] "
+        }
+
+
+        resources.addAll(packer.listSystemResources(system))
     }
     void addSystem(List r) {
-        resources << packer.listSystemResources(r)
+        r.each { String it -> addSystem(it) }
     }
 
     void rarTo(String rar) {
-        packer.rarTo(resources, createFile(rar))
+        packer.rarTo(resources, createFile(rar).toString())
     }
 
 }
