@@ -18,6 +18,7 @@ class HyperSpin {
 
     Ini _cachedGlobalEmulatorIni
     Ini rocketLauncherIni
+    Ini globalRocketLauncherIni
 
     HyperSpin(String rlRoot) {
         this(new File(rlRoot))
@@ -26,6 +27,7 @@ class HyperSpin {
     HyperSpin(File rlRoot) {
         this.rlRoot = rlRoot.canonicalFile
         rocketLauncherIni = new IniFile().parse(newRocketLauncherFile("Settings/RocketLauncher.ini"))
+        globalRocketLauncherIni = new IniFile().parse(newRocketLauncherFile("Settings/Global RocketLauncher.ini"))
         if (!rocketLauncherIni.file.exists()) {
             throw new IllegalArgumentException("RocketLauncher not found")
         }
@@ -103,6 +105,7 @@ class HyperSpin {
         RLSystem system = new RLSystem(alternativeEmulators: alternativeEmulators, hyperSpin: this, name: systemName, iniRomPath: rom_Path, executable: false,
                 iniDefaultEmulator: default_emulator, defaultEmulator: findOrCreateEmulator(default_emulator, systemIni.getSection(default_emulator)), romPathsList: romPathList)
         system.loadMapping()
+        system.loadConfig()
         return system
     }
 

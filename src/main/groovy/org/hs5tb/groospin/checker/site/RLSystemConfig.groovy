@@ -22,6 +22,7 @@ class RLSystemConfig {
     boolean stable
     boolean perfect
     boolean arcade
+    String pack
 
     RLSystemConfig() {
     }
@@ -34,7 +35,8 @@ class RLSystemConfig {
         perfect = emulation == "P"
         arcade = map[5].trim() != "N"
         name = map[8].trim()
-        calculateSpace = !map[9] // Si no vacio, tiene padre, luego no se calcula espacio
+        pack = map[9].trim()
+        calculateSpace = !map[10] // Si no vacio, tiene padre, luego no se calcula espacio
     }
 
 

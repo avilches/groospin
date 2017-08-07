@@ -1,8 +1,13 @@
 package org.hs5tb.groospin.base
 
+import org.apache.commons.compress.archivers.sevenz.SevenZArchiveEntry
+import org.apache.commons.compress.archivers.sevenz.SevenZFile
 import org.hs5tb.groospin.common.IOTools
 import org.hs5tb.groospin.common.Ini
 import org.hs5tb.groospin.common.IniFile
+
+import java.util.zip.ZipEntry
+import java.util.zip.ZipFile
 
 /**
  * Created by Alberto on 12-Jun-16.
@@ -93,7 +98,17 @@ class RLSystem {
         return null
     }
 
+    boolean matchExtension
+    void loadConfig() {
+        IniFile settings = new IniFile().parse(hyperSpin.newRocketLauncherFile("Settings/${name}/RocketLauncher.ini"))
+        String ext = settings.get("Settings", "Rom_Match_Extension")
+        if (!ext || ext == "use_global") {
+            ext = hyperSpin.globalRocketLauncherIni.get("Settings", "Rom_Match_Extension")
+        }
+        matchExtension = ext == "true"
 
+
+    }
     void loadMapping() {
         if (!defaultEmulator) return
         if (defaultEmulator.module == "PCLauncher.ahk") {
@@ -225,6 +240,42 @@ class RLSystem {
 
     static private List explodeFilenameExtensions(List names, List extensions) {
         return names.collect { String name -> extensions.collect { String extension -> name+"."+extension } }.flatten()
+    }
+
+    String findDeepRom(String romName, File archive) {
+        RLEmulator emulator = findRomEmulator(romName)
+        Set names
+        try {
+            names = IOTools.listArchiveContent(archive)
+        } catch (e) {
+            println "WARNING: Error opening ${archive}: ${e.message}"
+            return null
+        }
+
+        String romExactMatch
+        String romExtensionMatch
+        String romNameLC = romName.toLowerCase()
+        names.each { String entry ->
+            String entryLC = entry.toLowerCase()
+            for (String ext in emulator.romExtensions) {
+                if (entryLC == "${romNameLC}.${ext}".toString()) {
+                    romExactMatch = entry
+                } else if (!romExtensionMatch && entryLC.endsWith(".$ext")) {
+                    romExtensionMatch = entry
+                }
+            }
+        }
+        if (romExactMatch) return romExactMatch
+        else if (romExtensionMatch) {
+            if (!matchExtension) println "WARNING!!!!!!!!!!!! You should set Rom_Match_Extension=true in ${name}. ${romExtensionMatch} mathed in ${romName}"
+            return romExtensionMatch
+        }
+        return null
+    }
+
+    boolean acceptZip(String romName) {
+        RLEmulator emulator = findRomEmulator(romName)
+        return emulator.acceptZip()
     }
 }
 

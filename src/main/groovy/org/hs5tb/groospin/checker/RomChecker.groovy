@@ -17,6 +17,8 @@ import org.hs5tb.groospin.common.IOTools;
 @CompileStatic
 class RomChecker {
 
+    boolean deep = true
+
     CheckRomResult check(RLSystem originalSystem, Rom rom) {
         RLSystem system = originalSystem
         if (rom.exe) {
@@ -38,8 +40,19 @@ class RomChecker {
                     checkResultRom.exes = 0
                 }
             } else {
-                rom.exeFileFound = romFound.canonicalFile
-                checkResultRom.roms = checkResultRom.exes = 1
+                if (deep && IOTools.getExtension(romFound) in ["7z", "zip"] && !system.acceptZip(romName)) {
+                    String pathInside = system.findDeepRom(romName, romFound)
+                    if (pathInside) {
+                        rom.exeFileFound = romFound.canonicalFile
+                        checkResultRom.roms = checkResultRom.exes = 1
+                    } else {
+                        checkResultRom.roms = 1
+                        checkResultRom.exes = 0
+                    }
+                } else {
+                    rom.exeFileFound = romFound.canonicalFile
+                    checkResultRom.roms = checkResultRom.exes = 1
+                }
             }
         } else {
             checkResultRom.roms = checkResultRom.exes = 0

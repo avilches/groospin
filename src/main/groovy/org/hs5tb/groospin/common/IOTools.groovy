@@ -8,6 +8,8 @@
 package org.hs5tb.groospin.common
 
 import groovy.io.FileType
+import org.apache.commons.compress.archivers.sevenz.SevenZArchiveEntry
+import org.apache.commons.compress.archivers.sevenz.SevenZFile
 
 import java.nio.file.FileSystemException
 import java.nio.file.Files
@@ -16,6 +18,8 @@ import java.nio.file.Paths
 import java.security.DigestInputStream
 import java.security.MessageDigest
 import java.util.zip.CRC32
+import java.util.zip.ZipEntry
+import java.util.zip.ZipFile
 
 class IOTools {
     static File tryRelativeFrom(File root, String path) {
@@ -200,4 +204,26 @@ class IOTools {
         return new BigInteger(1, md.digest()).toString(16).toLowerCase()
     }
 
+    static Set listArchiveContent(File archive) {
+        Set names = []
+        if (getExtension(archive)?.toLowerCase() == "zip") {
+            ZipFile zipFile = new ZipFile(archive)
+            zipFile.entries().each { ZipEntry entry ->
+                if (!entry.directory) {
+                    names << entry.name
+                }
+            }
+        } else if (getExtension(archive)?.toLowerCase() == "7z") {
+            SevenZFile sevenZFile = new SevenZFile(archive)
+            SevenZArchiveEntry entry = sevenZFile.nextEntry
+            while (entry != null) {
+                if (!entry.directory) {
+                    names << entry.name
+                }
+                entry = sevenZFile.nextEntry
+            }
+            sevenZFile.close();
+        }
+        names
+    }
 }

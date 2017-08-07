@@ -21,11 +21,12 @@ class Checker {
     Collection<CheckHandler> handlers = []
     Boolean calculateRomSize = null
     Boolean calculateMediaSize = null
-    RomChecker romChecker = new RomChecker()
+    RomChecker romChecker
     Closure romFilter
 
-    Checker(HyperSpin hyperSpin) {
+    Checker(HyperSpin hyperSpin, boolean deep = true) {
         this.hyperSpin = hyperSpin
+        romChecker = new RomChecker(deep: deep)
     }
 
     Checker(HyperSpin hyperSpin, CheckHandler handler) {
