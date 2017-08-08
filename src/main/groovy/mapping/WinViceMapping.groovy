@@ -47,7 +47,7 @@ class WinViceMapping {
         return [:] + allKeys
     }
 
-    static void writeMapping(HyperSpin hs, Map map) {
+    static List<File> writeMapping(HyperSpin hs, Map map) {
         Set missingKeys = map.entrySet().findAll { it.value == null }
         if (missingKeys) {
             throw new RuntimeException("WinVice mapping error. Keys with no mapping ${missingKeys.join(", ")}")
@@ -55,7 +55,6 @@ class WinViceMapping {
 
         File iniFile = new File(hs.winViceFolder, "vice.ini")
         println "- WinVICE reset: P1:AWSD + Q/ P2:IJKL + U):"
-        println iniFile.absolutePath
         IniFile cfg = new IniFile().parse(iniFile)
 
 // http://vice-emu.pokefinder.org/index.php/Hotkey_cleanup
@@ -78,10 +77,9 @@ class WinViceMapping {
                 cfg.put(machine, k, v)
             }
             cfg.store()
-
-
-            cfg.store()
         }
+
+        return [iniFile]
     }
 
 }

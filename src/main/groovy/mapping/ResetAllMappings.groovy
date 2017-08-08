@@ -7,40 +7,89 @@ import org.hs5tb.groospin.base.RetroArch
 
 class ResetAllMappings {
 
-    /*
-    Vacia todos los mapeos de JoyToKey
-     */
+    static File mirror
 
-    static void emptyAllJoyToKeyProfiles(HyperSpin hs) {
+    static List<File> emptyAllJoyToKeyProfiles(HyperSpin hs) {
         println "- JoyToKey: Empty all profiles:"
         println hs.newRocketLauncherFile("Profiles/JoyToKey").absolutePath + "\\**\\*"
-        (hs.listAllJoyToKeyProfiles() + new J2K(hs, "HyperSpin")).each { it.empty() }
+        List<File> files = []
+        (hs.listAllJoyToKeyProfiles() + new J2K(hs, "HyperSpin")).each {
+            it.empty()
+            files << it.cfg.file
+            if (mirror) {
+                hs.mirrorFile(mirror, it.cfg.file)
+            }
+        }
+        return files
     }
 
-    static void setHyperSpinDefaultKeys(HyperSpin hs) {
-        HyperSpinMapping.writeMapping(hs, HyperSpinMapping.createDefaultMapping())
+    static void mirrorAllJoyToKeyProfiles(HyperSpin hs) {
+        if (mirror) {
+            (hs.listAllJoyToKeyProfiles() + new J2K(hs, "HyperSpin")).each {
+                hs.mirrorFile(mirror, it.cfg.file)
+            }
+        }
+    }
+
+    static List<File> setHyperSpinDefaultKeys(HyperSpin hs) {
+        List<File> files = HyperSpinMapping.writeMapping(hs, HyperSpinMapping.createDefaultMapping())
+        if (mirror) {
+            files.each { hs.mirrorFile(mirror, it) }
+        }
+        return files
         /*
         Resetea los joystick 1 y 2 para que funcionen de fabrica y TODAS las teclas de sistema.
         */
     }
 
-    static void setNoMameCtrlAndDefaultCfg(HyperSpin hs) {
+    static List<File> setMameCtrlToKeyboard(HyperSpin hs) {
+        /*
+        Se usa JoyToKey porque SI SE DESENCHUFA EL JOYSTICK CUALQUIER CONFIGURACIÓN QUE SE TENGA ECHA EN EL default.cfg
+        SE BORRA. Por lo tanto, cuando se usan mandos que se pueden enchufar y desenchufar, lo mejor es no editar el default.cfg
+        y hacer el mapeo en el JoyToKey.
+        */
+        println "- MAME/HBMAME: Creating 'arcadeAT' ctrlr"
+        List<File> files = []
+
+        [hs.mameMapping, hs.HBMameMapping].each { MameMapping it ->
+            it.setDefault4PlayersKeys()
+            files << it.saveCtrl("arcadeAT")
+        }
+
+        println "- MAME/HBMAME: setting ctrlr to 'arcadeAT'"
+        [hs.getMameIni("ini/presets/mame.ini"),
+         hs.getHBMameIni("ini/presets/hbmame.ini")].each { MameIni mameIni ->
+            files <<  mameIni.file
+            mameIni.set("ctrlr", "arcadeAT")
+            mameIni.save()
+        }
+
+        if (mirror) {
+            files.each { hs.mirrorFile(mirror, it) }
+        }
+        return files
+
+    }
+    static List<File> setNoMameCtrlAndDefaultCfg(HyperSpin hs) {
         // MAME si hlsl
-        [hs.getMameIni("ini/presets/mame.ini")].each { MameIni mameIni ->
+        List<File> files = []
+        hs.getMameIni("ini/presets/mame.ini").with { MameIni mameIni ->
             mameIni.set("waitvsync", "1")   // deshabilitar para graficas integradas
             mameIni.set("hlsl_enable", "1")   // deshabilitar para graficas integradas
+            mameIni.save()
+
         }
 
         // HBMAME no Vsync
-        [hs.getHBMameIni("ini/presets/hbmame.ini")].each { MameIni mameIni ->
+        hs.getHBMameIni("ini/presets/hbmame.ini").with { MameIni mameIni ->
             mameIni.set("waitvsync", "1")   // deshabilitar para graficas integradas
             mameIni.set("hlsl_enable", "0")   // deshabilitar para graficas integradas
+            mameIni.save()
         }
 
         [hs.getMameIni("ini/presets/mame.ini"),
          hs.getHBMameIni("ini/presets/hbmame.ini")].each { MameIni mameIni ->
             println "- MAME: reset ctrlr to none:"
-            println mameIni.file.absolutePath
             mameIni.set("mouse", "1")
             mameIni.set("cheat", "1")
             mameIni.set("skip_gameinfo", "1")
@@ -57,13 +106,20 @@ class ResetAllMappings {
             mameIni.set("keyboardprovider", "dinput")  // ensure MAME can read JoyToKey mappings
             mameIni.set("ctrlr", "")
             mameIni.save()
+
+            files << mameIni.file
         }
 
-        hs.mameMapping.backupAndCleanDefaultCfg()
-        hs.HBMameMapping.backupAndCleanDefaultCfg()
+        files << hs.mameMapping.backupAndCleanDefaultCfg()
+        files << hs.HBMameMapping.backupAndCleanDefaultCfg()
+
+        if (mirror) {
+            files.each { hs.mirrorFile(mirror, it) }
+        }
+        return files
     }
 
-    static void emptyRetroArch(RetroArch retroArch) {
+    static List<File> emptyRetroArch(RetroArch retroArch) {
         println "- Retroarch reset: empty players button&joystick, force default keys for extra):"
         println retroArch.iniFile.file.absolutePath
 
@@ -76,55 +132,105 @@ class ResetAllMappings {
             emptyKeysForPlayer(2, 2)
             save()
         }
+
+        List<File> files = [retroArch.iniFile.file]
+        if (mirror) {
+            files.each { retroArch.hyperSpin.mirrorFile(mirror, it) }
+        }
+        return files
     }
 
-    static void setPS2DefaultKeys(HyperSpin hs) {
-        PCSX2Mapping.setDefault360AndKeys(hs)
+    static List<File> setPS2DefaultKeys(HyperSpin hs) {
+        List<File> files = PCSX2Mapping.setDefault360AndKeys(hs)
+        if (mirror) {
+            files.each { hs.mirrorFile(mirror, it) }
+        }
+        return files
     }
 
-    static void setPPSSPP360AndKeys(HyperSpin hs) {
-        PPSSPPMapping.setDefault360AndKeys(hs)
+    static List<File> setPPSSPP360AndKeys(HyperSpin hs) {
+        List<File> files = PPSSPPMapping.setDefault360AndKeys(hs)
+        if (mirror) {
+            files.each { hs.mirrorFile(mirror, it) }
+        }
+        return files
     }
 
 
-    static void setGamecubeDefaultKeyboard(HyperSpin hs) {
+    static List<File> setGamecubeDefaultKeyboard(HyperSpin hs) {
+        List<File> allFiles = []
         [hs.getDolphinGameCubeFolder(),
          hs.getDolphinTriforceFolder()
         ].each { File dolphin ->
-            DolphinGamecube.setDefaultKeyboard(dolphin)
+            List<File> files = DolphinGamecube.setDefaultKeyboard(dolphin)
+            if (mirror) {
+                files.each { hs.mirrorFile(mirror, it) }
+            }
+            allFiles.addAll(files)
         }
+        return allFiles
     }
 
-    static void setGamecubeDefault360(HyperSpin hs) {
+    static List<File> setGamecubeDefault360(HyperSpin hs) {
+        List<File> allFiles = []
         [hs.getDolphinGameCubeFolder(),
          hs.getDolphinTriforceFolder()
         ].each { File dolphin ->
-            DolphinGamecube.setDefault360(dolphin)
+            List<File> files = DolphinGamecube.setDefault360(dolphin)
+            if (mirror) {
+                files.each { hs.mirrorFile(mirror, it) }
+            }
+            allFiles.addAll(files)
         }
+        return allFiles
     }
 
-    static void setWiiDefault360(HyperSpin hs) {
-        DolphinWiiMapping.setDefault360(hs.getDolphinWiiFolder())
+    static List<File> setWiiDefault360(HyperSpin hs) {
+        List<File> files = DolphinWiiMapping.setDefault360(hs.getDolphinWiiFolder())
+        if (mirror) {
+            files.each { hs.mirrorFile(mirror, it) }
+        }
+        return files
     }
 
-    static void setSuperModel3DefaultKeysAndJoy(HyperSpin hs) {
-        SuperModelMapping.setDefaultKeysAndJoy(hs)
+    static List<File> setSuperModel3DefaultKeysAndJoy(HyperSpin hs) {
+        List<File> files = SuperModelMapping.setDefaultKeysAndJoy(hs)
+        if (mirror) {
+            files.each { hs.mirrorFile(mirror, it) }
+        }
+        return files
     }
 
-    static void setWinViceDefaultKeys(HyperSpin hs) {
-        WinViceMapping.writeMapping(hs, WinViceMapping.createDefaultMapping())
+    static List<File> setWinViceDefaultKeys(HyperSpin hs) {
+        List<File> files = WinViceMapping.writeMapping(hs, WinViceMapping.createDefaultMapping())
+        if (mirror) {
+            files.each { hs.mirrorFile(mirror, it) }
+        }
+        return files
     }
 
-    static setDaphneDefaultKeys(HyperSpin hs) {
-        DaphneMapping.writeMapping(hs, DaphneMapping.createDefaultMapping())
+    static List<File> setDaphneDefaultKeys(HyperSpin hs) {
+        List<File> files = DaphneMapping.writeMapping(hs, DaphneMapping.createDefaultMapping())
+        if (mirror) {
+            files.each { hs.mirrorFile(mirror, it) }
+        }
+        return files
     }
 
-    static setFourDODefaultKeys(HyperSpin hs) {
-        FourDOMapping.writeMapping(hs, FourDOMapping.createDefaultMapping())
+    static List<File> setFourDODefaultKeys(HyperSpin hs) {
+        List<File> files = FourDOMapping.writeMapping(hs, FourDOMapping.createDefaultMapping())
+        if (mirror) {
+            files.each { hs.mirrorFile(mirror, it) }
+        }
+        return files
     }
 
-    static void setZincDefaultKeys(HyperSpin hs) {
-        ZincMapping.writeMapping(hs, ZincMapping.createDefaultMapping())
+    static List<File> setZincDefaultKeys(HyperSpin hs) {
+        List<File> files = ZincMapping.writeMapping(hs, ZincMapping.createDefaultMapping())
+        if (mirror) {
+            files.each { hs.mirrorFile(mirror, it) }
+        }
+        return files
     }
 
     static void setPinballDefaults() {
@@ -147,24 +253,44 @@ class ResetAllMappings {
         println "****** DICE: Delete folder C:\\Users\\%USERNAME%\\AppData\\Roaming\\dice\\"
     }
 
-    static void setPokeMiniDefaults(HyperSpin hs) {
-        PokeMiniMapping.setDefaultKeys(hs)
+    static List<File> setPokeMiniDefaults(HyperSpin hs) {
+        List<File> files = PokeMiniMapping.setDefaultKeys(hs)
+        if (mirror) {
+            files.each { hs.mirrorFile(mirror, it) }
+        }
+        return files
     }
 
-    static void setNeoRaineDefaults(HyperSpin hs) {
-        NeoRaineMapping.writeMapping(hs, NeoRaineMapping.createDefaultMapping())
+    static List<File> setNeoRaineDefaults(HyperSpin hs) {
+        List<File> files = NeoRaineMapping.writeMapping(hs, NeoRaineMapping.createDefaultMapping())
+        if (mirror) {
+            files.each { hs.mirrorFile(mirror, it) }
+        }
+        return files
     }
 
-    static void setNullDcKeyboardControlled(HyperSpin hs) {
-        NullDcMapping.setKeyboard(hs.getNullDcFolder())
+    static List<File> setNullDcKeyboardControlled(HyperSpin hs) {
+        List<File> files = NullDcMapping.setKeyboard(hs.getNullDcFolder())
+        if (mirror) {
+            files.each { hs.mirrorFile(mirror, it) }
+        }
+        return files
     }
 
-    static void setDemul360(HyperSpin hs) {
-        DemulMapping.set360(hs)
+    static List<File> setDemul360(HyperSpin hs) {
+        List<File> files = DemulMapping.set360(hs)
+        if (mirror) {
+            files.each { hs.mirrorFile(mirror, it) }
+        }
+        return files
     }
 
-    static void setNullDc360(HyperSpin hs) {
-        NullDcMapping.set360(hs.getNullDcFolder())
+    static List<File> setNullDc360(HyperSpin hs) {
+        List<File> files = NullDcMapping.set360(hs.getNullDcFolder())
+        if (mirror) {
+            files.each { hs.mirrorFile(mirror, it) }
+        }
+        return files
     }
 }
 

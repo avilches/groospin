@@ -420,11 +420,10 @@ class DemulMapping {
         return "[\n${out.entrySet().collect { e -> "    \"${e.key}\" : ${e.value}" }.join(",\n")}\n]"
     }
 
-    static void set360(HyperSpin hs) {
+    static List<File> set360(HyperSpin hs) {
 
         println "- Demul"
         IniFile module = new IniFile().parse(hs.newRocketLauncherFile("Modules\\Demul\\Demul (v0.7).ini"))
-        println module.file.absolutePath
 //        reverseConfig(module)
 
         set360PerGameConfiguration(module)
@@ -437,7 +436,6 @@ class DemulMapping {
         module.store()
 
         IniFile demul = new IniFile(equals: " = ").parse(new File(hs.getDemulFolder(), "padDemul.ini"))
-        println demul.file.absolutePath
         // acciones de XBOX para el jugador 1 Y 2
         createDefaultXboxMappingJoystick1().each { action, key ->
             demul.put("JAMMA0_0", action, key)
@@ -465,6 +463,8 @@ class DemulMapping {
         demul.put("GLOBAL0", "DEADZONE", NONE)
 
         demul.store()
+
+        return [module.file, demul.file]
     }
 
     static void set360PerGameConfiguration(IniFile demul) {

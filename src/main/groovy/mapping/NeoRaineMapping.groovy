@@ -209,11 +209,11 @@ class NeoRaineMapping {
         return [:] + allKeys
     }
 
-    static void writeMapping(HyperSpin hs, Map map) {
+    static List<File> writeMapping(HyperSpin hs, Map map) {
         println "- NeoRaine: setting config"
         File f = new File(hs.neoRaineFolder, "config\\raine32_sdl.cfg")
-        println f.absolutePath
         writeMapping(f, map)
+        return [f]
     }
 
     static void writeMapping(File f, Map map) {

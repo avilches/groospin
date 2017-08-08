@@ -178,11 +178,11 @@ class FourDOMapping {
         return [:] + allKeys
     }
 
-    static void writeMapping(HyperSpin hs, Map map) {
+    static List<File> writeMapping(HyperSpin hs, Map map) {
         println "- FourDO: setting config"
         File f = new File(hs.fourDOFolder, "Settings\\JohnnyInputBindings.xml")
-        println f.absolutePath
         writeMapping(f, map)
+        return [f]
     }
 
     static void writeMapping(File settings, Map map) {
@@ -208,7 +208,6 @@ ${inputBindingDevices(map, 6)}
 
 
         println "- FourDO reset: keyboard:"
-        println settings.absolutePath
     }
 
     private static String inputBindingDevices(Map allConfig, Integer pos) {

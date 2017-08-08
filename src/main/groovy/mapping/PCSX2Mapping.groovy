@@ -7,7 +7,7 @@ import org.hs5tb.groospin.common.IniFile
  * Created by Alberto on 11-Jul-17.
  */
 class PCSX2Mapping {
-    static void setDefault360AndKeys(HyperSpin hs) {
+    static List<File> setDefault360AndKeys(HyperSpin hs) {
         println "- PCSX2 keys: setting LilyPad and set some default keys for P1 & P2: (YOU HAVE TO CONFIGURE 360 or other pads YOURSELF!)"
         IniFile psx2 = new IniFile().parse(new File(hs.getPCSX2Folder(), "inis\\PCSX2_ui.ini"))
         IniFile lilyPad = new IniFile().parse(new File(hs.getPCSX2Folder(), "inis\\LilyPad.ini"))
@@ -56,6 +56,8 @@ class PCSX2Mapping {
 
             lilyPad.store()
         }
+
+        return [lilyPad.file, psx2.file]
 
     }
 

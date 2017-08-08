@@ -6,7 +6,9 @@ import org.hs5tb.groospin.base.HyperSpin
 import org.hs5tb.groospin.base.J2K
 import org.hs5tb.groospin.base.MameIni
 
-HyperSpin hs = new HyperSpin("A:/RocketLauncher")
+HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
+
+ResetAllMappings.mirror = new File("D:\\parches\\mapping\\AT")
 
 int joystickStartPosition = 1
 int player1 = joystickStartPosition
@@ -188,26 +190,8 @@ hs.listSystemsRetroArch()*.loadJ2KConfig().each { J2K j2k ->
 // Reseteamos MAME y apuntamos a controller "arcadeAT"
 ResetAllMappings.setNoMameCtrlAndDefaultCfg(hs)
 
-/* Se mapea MAME con teclas y luego se usa JoyToKey
-
-Se usa JoyToKey porque SI SE DESENCHUFA EL JOYSTICK CUALQUIER CONFIGURACIÓN QUE SE TENGA ECHA EN EL default.cfg
-SE BORRA. Por lo tanto, cuando se usan mandos que se pueden enchufar y desenchufar, lo mejor es no editar el default.cfg
-y hacer el mapeo en el JoyToKey.
-*/
-println "- MAME/HBMAME: Creating 'arcadeAT' ctrlr"
-[hs.mameMapping, hs.HBMameMapping].each { MameMapping it ->
-    it.setDefault4PlayersKeys()
-    it.saveCtrl("arcadeAT")
-    println it.getCtrlr("arcadeAT").absolutePath
-}
-
-println "- MAME/HBMAME: setting ctrlr to 'arcadeAT'"
-[hs.getMameIni("ini/presets/mame.ini"),
- hs.getHBMameIni("ini/presets/hbmame.ini")].each { MameIni mameIni ->
-    println mameIni.file.absolutePath
-    mameIni.set("ctrlr", "arcadeAT")
-    mameIni.save()
-}
+/* Se mapea MAME con teclas y luego se usa JoyToKey*/
+ResetAllMappings.setMameCtrlToKeyboard(hs)
 
 // Mapeos en JoyToKey
 println "JoyToKey MAME: joysticks and button -> keys"
@@ -909,3 +893,5 @@ hs.getSystem("Sega Dreamcast").loadJ2KConfig().presets.with {
 
 ResetAllMappings.setNullDc360(hs)
 ResetAllMappings.setDemul360(hs)
+
+ResetAllMappings.mirrorAllJoyToKeyProfiles(hs)

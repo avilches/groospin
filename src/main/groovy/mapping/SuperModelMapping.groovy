@@ -7,10 +7,9 @@ import org.hs5tb.groospin.common.IniFile
  * Created by Alberto on 11-Jul-17.
  */
 class SuperModelMapping {
-    static void setDefaultKeysAndJoy(HyperSpin hs) {
+    static List<File> setDefaultKeysAndJoy(HyperSpin hs) {
         File iniFile = new File(hs.superModelFolder, "Config\\Supermodel.ini")
         println "- Super Model 0.3a: joystick and keys"
-        println iniFile.absolutePath
         IniFile cfg = new IniFile(equals: " = ").parse(iniFile)
         // common
         cfg.put("Global", "InputStart1", "\"KEY_1\"")
@@ -182,6 +181,8 @@ class SuperModelMapping {
         cfg.put("Global", "InputSkiSelect3", "\"KEY_E,JOY1_BUTTON5\"")
 
         cfg.store()
+
+        return [iniFile]
     }
 
 

@@ -66,7 +66,7 @@ D-Pad/Right = L
     }
 
 
-    static void setDefaults(File dolphin) {
+    static List<File> setDefaults(File dolphin) {
         new File(dolphin, "User\\Config\\Profiles\\GCPad").mkdirs()
         new File(dolphin, "User\\Config\\Profiles\\GCPad\\Xbox 360 port 1.ini").text = create360("Profile", "0")
         new File(dolphin, "User\\Config\\Profiles\\GCPad\\Xbox 360 port 2.ini").text = create360("Profile", "1")
@@ -76,27 +76,27 @@ D-Pad/Right = L
 
         File iniDolphinFile = new File(dolphin, "User\\Config\\Dolphin.ini")
         println " - Dolphin: set P1 + P2 + P3 + P4 to standard controller"
-        println iniDolphinFile.absolutePath
         IniFile cfgDolphin = new IniFile(equals: " = ").parse(iniDolphinFile)
         cfgDolphin.put("Core", "SIDevice0", "6") // Standard controller
         cfgDolphin.put("Core", "SIDevice1", "6") // Standard controller
         cfgDolphin.put("Core", "SIDevice2", "6") // Standard controller
         cfgDolphin.put("Core", "SIDevice3", "6") // Standard controller
         cfgDolphin.store()
+
+        return [iniDolphinFile]
     }
 
-    static void setDefaultKeyboard(File dolphin) {
-        setDefaults(dolphin)
+    static List<File> setDefaultKeyboard(File dolphin) {
+        List<File> files = setDefaults(dolphin)
         File iniPadFile = new File(dolphin, "User\\Config\\GCPadNew.ini")
         println " - Dolphin: set P1 + P2 + P3 + P4 to keyboard"
-        println iniPadFile.absolutePath
         iniPadFile.text = createKeyboard("GCPad1", "0")
+        files + [iniPadFile]
     }
 
-    static void setDefault360(File dolphin) {
+    static List<File> setDefault360(File dolphin) {
         File iniPadFile = new File(dolphin, "User\\Config\\GCPadNew.ini")
         println " - Dolphin: set P1 + P2 to 360"
-        println iniPadFile.absolutePath
         iniPadFile.text =
                 """${create360("GCPad1", "0")}
 ${create360("GCPad2", "1")}
@@ -104,7 +104,7 @@ ${create360("GCPad3", "2")}
 ${create360("GCPad4", "3")}
 """
 
-        setDefaults(dolphin)
+        return setDefaults(dolphin) + [iniPadFile]
 
     }
 

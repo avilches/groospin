@@ -8,10 +8,10 @@ import org.hs5tb.groospin.common.IniFile
  */
 class PokeMiniMapping {
 
-    static void setDefaultKeys(HyperSpin hs) {
+    static List<File> setDefaultKeys(HyperSpin hs) {
         println "- Nintendo Pokemon Mini keys"
-        IniFile cfg = new IniFile().parse(new File(hs.getPokeMiniFolder(), "pokemini.cfg"))
-        if (!cfg.file.exists()) return
+        File iniFile = new File(hs.getPokeMiniFolder(), "pokemini.cfg")
+        IniFile cfg = new IniFile().parse(iniFile)
 
         /*
  Pokémon-Mini     PC Keys
@@ -77,5 +77,6 @@ class PokeMiniMapping {
         cfg.put("keyb_alt_shock", "83")
         cfg.store()
 
+        return [iniFile]
     }
 }

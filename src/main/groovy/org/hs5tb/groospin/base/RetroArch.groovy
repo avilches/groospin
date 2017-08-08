@@ -9,6 +9,7 @@ class RetroArch {
     boolean override = false
     IniFile iniFile
     IniFile coreIniFile
+    HyperSpin hyperSpin
     static String DEVICE_PAD_WITH_ANALOG = "\"5\""
     static String DEVICE_PAD = "\"1\""
     static String DEVICE_NONE = "\"0\""

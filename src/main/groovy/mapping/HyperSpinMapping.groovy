@@ -127,11 +127,11 @@ class HyperSpinMapping {
         return [:] + allKeys
     }
 
-    static void writeMapping(HyperSpin hs, Map map) {
+    static List<File> writeMapping(HyperSpin hs, Map map) {
         println "HyperSpin: setting config"
         File f = new File(hs.hsRoot, "Settings\\Settings.ini")
-        println f.absolutePath
         writeMapping(f, map)
+        return [f]
     }
 
     static void writeMapping(File f, Map map) {

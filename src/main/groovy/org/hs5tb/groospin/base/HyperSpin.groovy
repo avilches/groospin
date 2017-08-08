@@ -379,15 +379,15 @@ class HyperSpin {
     }
 
     MameMapping getMameMapping() {
-        return new MameMapping().folder(mameFolder.absolutePath)
+        return new MameMapping(hyperSpin: this).folder(mameFolder.absolutePath)
     }
 
     MameMapping getHBMameMapping() {
-        return new MameMapping().folder(HBMameFolder.absolutePath)
+        return new MameMapping(hyperSpin: this).folder(HBMameFolder.absolutePath)
     }
 
     RetroArch getRetroArch() {
-        return new RetroArch().folder(retroArchFolder.absolutePath)
+        return new RetroArch(hyperSpin: this).folder(retroArchFolder.absolutePath)
     }
 
     List<J2K> listAllJoyToKeyProfiles() {
@@ -401,6 +401,14 @@ class HyperSpin {
     List<String> listGenres(String systemName) {
         File genres = newHyperSpinFile("Databases/${systemName}/genre.xml")
         HyperSpinDatabase.listRomNames(genres)
+    }
+
+    File mirrorFile(File dst, File file) {
+        String to = dst.absolutePath
+        String relativeRoot = file.absolutePath - hsRoot.parent
+        File dstFile = new File(to, relativeRoot)
+        IOTools.copy(file, dstFile)
+        dstFile
     }
 }
 

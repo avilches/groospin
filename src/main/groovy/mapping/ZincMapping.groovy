@@ -285,11 +285,11 @@ class ZincMapping {
         return [:] + allKeys
     }
 
-    static void writeMapping(HyperSpin hs, Map map) {
+    static List<File> writeMapping(HyperSpin hs, Map map) {
         println "- Zinc: setting config"
         File f = new File(hs.zincFolder, "controller.cfg")
-        println f.absolutePath
         writeMapping(f, map)
+        return [f]
     }
 
     static void writeMapping(File f, Map map) {

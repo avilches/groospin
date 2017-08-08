@@ -15,16 +15,17 @@ class NullDcMapping {
     static String DEVICE_KEYBOARD = "G15_drkMapleDevices_Win32.dll:2"
 
 
-    static void setKeyboard(File nullDc) {
+    static List<File> setKeyboard(File nullDc) {
         set360(nullDc)
 
         IniFile ini = new IniFile().parse(new File(nullDc, "nullDC.cfg"))
         println "- nullDC Configuring keyboard for player 1"
         ini.put("nullDC_plugins", "Current_maple0_5", KEYBOARD)
         ini.store()
+        return [ini.file]
     }
 
-    static void set360(File nullDc) {
+    static List<File> set360(File nullDc) {
         IniFile ini = new IniFile().parse(new File(nullDc, "nullDC.cfg"))
         println "- nullDC Configuring Xbox 360 for players 1,2,3 & 4"
         println ini.file.absolutePath
@@ -44,6 +45,7 @@ class NullDcMapping {
         ini.put("nullDC_plugins", "Current_maple0_1", DEVICE_KEYBOARD)
 
         ini.store()
+        return [ini.file]
     }
 
     static String UP = "38"

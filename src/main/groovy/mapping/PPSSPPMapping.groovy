@@ -7,11 +7,10 @@ import org.hs5tb.groospin.common.IniFile
  * Created by Alberto on 11-Jul-17.
  */
 class PPSSPPMapping {
-    static void setDefault360AndKeys(HyperSpin hs) {
+    static List<File> setDefault360AndKeys(HyperSpin hs) {
         File iniFile = new File(hs.getPPSSPPFolder(), "memstick\\PSP\\SYSTEM\\controls.ini")
 
         println "- PPSSPP: Reseting 360 + keys"
-        println iniFile.absolutePath
 
         IniFile cfg = new IniFile(equals: " = ").parse(iniFile)
         // Cursores, DPAD y XBOX
@@ -62,6 +61,8 @@ class PPSSPPMapping {
         // RSHIFT
         cfg.put("ControlMapping", "Analog limiter", "1-60")
         cfg.store()
+
+        return [iniFile]
     }
 
 }

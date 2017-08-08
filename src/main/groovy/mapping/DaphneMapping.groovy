@@ -199,11 +199,11 @@ class DaphneMapping {
         return [:] + allKeys
     }
 
-    static void writeMapping(HyperSpin hs, Map map) {
+    static List<File> writeMapping(HyperSpin hs, Map map) {
         println "- Daphne: setting keys"
         File f = new File(hs.daphneFolder, "dapinput.ini")
-        println f.absolutePath
         writeMapping(f, map)
+        return [f]
     }
 
     static void writeMapping(File f, Map map) {
@@ -221,7 +221,7 @@ ${map.entrySet().collect {
     return it.key+" = "+keys.join(" ")
 }.join("\n")}
 END
-"""                
+"""
     }
 
 }

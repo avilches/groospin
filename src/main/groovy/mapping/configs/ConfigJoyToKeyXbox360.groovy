@@ -5,6 +5,9 @@ import org.hs5tb.groospin.base.HyperSpin
 import org.hs5tb.groospin.base.J2K
 
 HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
+
+ResetAllMappings.mirror = new File("D:\\parches\\mapping\\360")
+
 int joystickStartPosition = 1
 int player1 = joystickStartPosition
 int player2 = joystickStartPosition + 1
@@ -398,12 +401,19 @@ hs.getSystem("Nintendo Pokemon Mini").loadJ2KConfig().presets.with {
 ResetAllMappings.setNullDc360(hs)
 ResetAllMappings.setDemul360(hs)
 
+ResetAllMappings.mirrorAllJoyToKeyProfiles(hs)
 
 /*
 DONE:
 AAE: [AAE]
 
-RetroArch: [Atari 2600, Atari 7800, Atari 2600 - Arcadia Supercharger, Atari Jaguar, Atari Lynx, Bandai WonderSwan, Bandai WonderSwan Color, NEC PC Engine, NEC PC Engine-CD, NEC PC-FX, NEC SuperGrafx, NEC TurboGrafx-16, NEC TurboGrafx-CD, Nintendo 64, Nintendo DS, Nintendo Entertainment System, Super Nintendo Entertainment System, Nintendo Famicom, Nintendo Famicom Disk System, Nintendo Game & Watch, Nintendo Game Boy, Nintendo Game Boy Advance, Nintendo Game Boy Color, Nintendo Satellaview, Nintendo Sufami Turbo, Nintendo Super Famicom, Nintendo Virtual Boy, Sega 32X, Sega Genesis, Sega Game Gear, Sega Mark III, Sega Master System, Sega Mega Drive, Sega Nomad, Sega Pico, Sega Saturn, Sega Saturn Japan, Sega SG-1000, SNK Neo Geo Pocket, SNK Neo Geo Pocket Color, Sony PlayStation]
+RetroArch: [Atari 2600, Atari 7800, Atari 2600 - Arcadia Supercharger, Atari Jaguar, Atari Lynx,
+Bandai WonderSwan, Bandai WonderSwan Color,
+NEC PC Engine, NEC PC Engine-CD, NEC PC-FX, NEC SuperGrafx, NEC TurboGrafx-16, NEC TurboGrafx-CD,
+Nintendo 64, Nintendo DS, Nintendo Entertainment System, Super Nintendo Entertainment System, Nintendo Famicom, Nintendo Famicom Disk System, Nintendo Game & Watch, Nintendo Game Boy, Nintendo Game Boy Advance, Nintendo Game Boy Color, Nintendo Satellaview, Nintendo Sufami Turbo, Nintendo Super Famicom, Nintendo Virtual Boy,
+Sega 32X, Sega Genesis, Sega Game Gear, Sega Mark III, Sega Master System, Sega Mega Drive, Sega Nomad, Sega Pico, Sega Saturn, Sega Saturn Japan, Sega SG-1000,
+SNK Neo Geo Pocket, SNK Neo Geo Pocket Color,
+Sony PlayStation]
 RetroArch Extended: [Nintendo 64 Japan, Nintendo 64 Europe, Nintendo Entertainment System Europe, Nintendo Entertainment System Asia, Super Nintendo Entertainment System Europe, Super Nintendo Entertainment System Japan, Sega Master System Japan, Sega Mega Drive Europe]
 
 MAME: [Atari Classics, Capcom Classics, Capcom Play System, Capcom Play System II, Capcom Play System III, Data East Classics, HyperNeoGeo64, Irem Classics, Kaneko, Konami Classics, Atlus, Banpresto, Cave, Gaelco MAME, Bally, Sammy, Nichibutsu, Seibu Kaihatsu, Jaleco, Mature MAME, Best of MAME, MAME, Tecmo, Toaplan, Mitchell Corporation, Visco, SNK Classics, MAME 4 Players, Midway Classics, Namco Classics, Namco System 22, Nintendo Classics, Psikyo, Sega Classics, Sega ST-V, Shotgun Games, SNK Neo Geo AES, Technos Classics, Taito Classics, Trackball Games, Williams Classics]
@@ -428,10 +438,10 @@ NeoRaine: [SNK Neo Geo CD]
 PokeMini: [Nintendo Pokemon Mini]
 HBMAME: [HBMAME]
 NullDC: [Sega Dreamcast]
+Demul70: [Cave 3rd, Gaelco, Sammy Atomiswave, Sega Hikaru, Sega Naomi]
 
 PENDING:
 
-Demul70: [Cave 3rd, Gaelco, Sammy Atomiswave, Sega Hikaru, Sega Naomi]
 Project64 DD: [Nintendo 64DD]
 Fusion: [Sega CD, Sega Mega-CD, Sega SC-3000]
 Nestopia: [Technos]
