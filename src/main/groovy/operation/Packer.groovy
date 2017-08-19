@@ -143,7 +143,7 @@ class Packer extends Operations {
          new File(mainMenu, "Video/${system.name}.flv"),
          hyperSpin.newHyperSpinFile("Settings/${system.name}.ini"),
          hyperSpin.newHyperSpinFile("Databases/${system.name}")
-        ] + system.romPathsList
+        ]
 
     }
 }
