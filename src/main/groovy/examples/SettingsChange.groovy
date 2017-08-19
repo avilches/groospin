@@ -96,10 +96,10 @@ hs.withHyperSpinSettings("Settings") { String filename, IniFile ini ->
     ini.put("Main", "Enable_Exit", "true")
     ini.put("Main", "Exit_Default", "yes")
     if (recreativa) {
-        ini.put("Main", "Exit_Action", "shutdown")
+        ini.put("Main", "Exit_Action", "shutdown")  // "shutdown" para recreativas
         ini.put("AttractMode", "Active", "true")
     } else {
-        ini.put("Main", "Exit_Action", "exit") // "shutdown" para recreativas
+        ini.put("Main", "Exit_Action", "exit")
         ini.put("AttractMode", "Active", "false")
     }
 
