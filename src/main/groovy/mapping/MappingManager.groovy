@@ -34,7 +34,7 @@ class MappingManager {
         }
     }
 
-    List<File> setHyperSpinDefaultKeys() {
+    List<File> configureHyperSpinKeys() {
         List<File> files = HyperSpinMapping.writeMapping(hs, HyperSpinMapping.createDefaultMapping())
         updatedFiles.addAll(files)
         return files
@@ -43,7 +43,7 @@ class MappingManager {
         */
     }
 
-    List<File> setMameCtrlToKeyboard() {
+    List<File> configMameCtrlrKeys() {
         /*
         Se usa JoyToKey porque SI SE DESENCHUFA EL JOYSTICK CUALQUIER CONFIGURACIÓN QUE SE TENGA ECHA EN EL default.cfg
         SE BORRA. Por lo tanto, cuando se usan mandos que se pueden enchufar y desenchufar, lo mejor es no editar el default.cfg
@@ -69,7 +69,7 @@ class MappingManager {
         return files
 
     }
-    List<File> setNoMameCtrlAndDefaultCfg() {
+    List<File> resetMameConfig() {
         // MAME si hlsl
         List<File> files = []
         hs.getMameIni("ini/presets/mame.ini").with { MameIni mameIni ->
@@ -116,7 +116,7 @@ class MappingManager {
         return files
     }
 
-    List<File> emptyRetroArch() {
+    List<File> resetRetroArch() {
         RetroArch retroArch = hs.retroArch
         println "- Retroarch reset: empty players button&joystick, force default keys for extra):"
 
@@ -132,20 +132,20 @@ class MappingManager {
         return files
     }
 
-    List<File> setPS2DefaultKeys() {
+    List<File> configPS2KeysAnd360() {
         List<File> files = PCSX2Mapping.setDefault360AndKeys(hs)
         updatedFiles.addAll(files)
         return files
     }
 
-    List<File> setPPSSPP360AndKeys() {
+    List<File> configPSPKeysAnd360() {
         List<File> files = PPSSPPMapping.setDefault360AndKeys(hs)
         updatedFiles.addAll(files)
         return files
     }
 
 
-    List<File> setGamecubeDefaultKeyboard() {
+    List<File> configGamecubeKeyboard() {
         List<File> allFiles = []
         [hs.getDolphinGameCubeFolder(),
          hs.getDolphinTriforceFolder()
@@ -157,7 +157,7 @@ class MappingManager {
         return allFiles
     }
 
-    List<File> setGamecubeDefault360() {
+    List<File> configGamecube360() {
         List<File> allFiles = []
         [hs.getDolphinGameCubeFolder(),
          hs.getDolphinTriforceFolder()
@@ -169,43 +169,43 @@ class MappingManager {
         return allFiles
     }
 
-    List<File> setWiiDefault360() {
+    List<File> configWii360() {
         List<File> files = DolphinWiiMapping.setDefault360(hs.getDolphinWiiFolder())
         updatedFiles.addAll(files)
         return files
     }
 
-    List<File> setSuperModel3DefaultKeysAndJoy() {
+    List<File> configSuperModel3KeysAndJoy() {
         List<File> files = SuperModelMapping.setDefaultKeysAndJoy(hs)
         updatedFiles.addAll(files)
         return files
     }
 
-    List<File> setWinViceDefaultKeys() {
+    List<File> configCommodoreWinViceKeys() {
         List<File> files = WinViceMapping.writeMapping(hs, WinViceMapping.createDefaultMapping())
         updatedFiles.addAll(files)
         return files
     }
 
-    List<File> setDaphneDefaultKeys() {
+    List<File> configDaphneKeys() {
         List<File> files = DaphneMapping.writeMapping(hs, DaphneMapping.createDefaultMapping())
         updatedFiles.addAll(files)
         return files
     }
 
-    List<File> setFourDODefaultKeys() {
+    List<File> configFourDOKeys() {
         List<File> files = FourDOMapping.writeMapping(hs, FourDOMapping.createDefaultMapping())
         updatedFiles.addAll(files)
         return files
     }
 
-    List<File> setZincDefaultKeys() {
+    List<File> configZincKeys() {
         List<File> files = ZincMapping.writeMapping(hs, ZincMapping.createDefaultMapping())
         updatedFiles.addAll(files)
         return files
     }
 
-    void setPinballDefaults() {
+    void configPinballs() {
 
         /*
         Pinball FX2. Ya funciona con Xbox 360 directamente
@@ -222,35 +222,35 @@ class MappingManager {
         println "****** Pinball FX2. Go to menu -> options -> controls -> reset default "
     }
 
-    void setDICEDefaults() {
+    void configDICE() {
         println "****** DICE: Delete folder C:\\Users\\%USERNAME%\\AppData\\Roaming\\dice\\"
     }
 
-    List<File> setPokeMiniDefaults() {
+    List<File> configPokeMiniKeys() {
         List<File> files = PokeMiniMapping.setDefaultKeys(hs)
         updatedFiles.addAll(files)
         return files
     }
 
-    List<File> setNeoRaineDefaults() {
+    List<File> configNeoRaineKeys() {
         List<File> files = NeoRaineMapping.writeMapping(hs, NeoRaineMapping.createDefaultMapping())
         updatedFiles.addAll(files)
         return files
     }
 
-    List<File> setNullDcKeyboardControlled() {
+    List<File> configNullDcKeys() {
         List<File> files = NullDcMapping.setKeyboard(hs.getNullDcFolder())
         updatedFiles.addAll(files)
         return files
     }
 
-    List<File> setDemul360() {
+    List<File> configDemul360() {
         List<File> files = DemulMapping.set360(hs)
         updatedFiles.addAll(files)
         return files
     }
 
-    List<File> setNullDc360() {
+    List<File> configNullDc360() {
         List<File> files = NullDcMapping.set360(hs.getNullDcFolder())
         updatedFiles.addAll(files)
         return files

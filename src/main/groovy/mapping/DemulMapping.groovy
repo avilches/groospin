@@ -320,7 +320,7 @@ class DemulMapping {
         // Dado un Demul.ini de RocketLauncher ya configurado, lo transforma en codigo
         // que, si se ejecutase, generaria la misma configuracion
         Map replaces = [
-                JOY0_STARTCOIN : [
+                JOY0_STARTCOIN: [
                         "START": JOY0_BACK,
                         "COIN" : JOY0_START],
 
@@ -328,43 +328,43 @@ class DemulMapping {
                         "START": JOY1_BACK,
                         "COIN" : JOY1_START],
 
-                JOY0_DRIVING   : [
+                JOY0_DRIVING  : [
                         "ANALOGUP"   : JOY0_RB,
                         "ANALOGDOWN" : JOY0_LB,
                         "ANALOGLEFT" : JOY0_ANALOG1_LEFT,
                         "ANALOGRIGHT": JOY0_ANALOG1_RIGHT],
 
-                JOY0_ANALOG    : [
+                JOY0_ANALOG   : [
                         "ANALOGUP"   : JOY0_ANALOG1_UP,
                         "ANALOGDOWN" : JOY0_ANALOG1_DOWN,
                         "ANALOGLEFT" : JOY0_ANALOG1_LEFT,
                         "ANALOGRIGHT": JOY0_ANALOG1_RIGHT],
 
-                JOY1_ANALOG    : [
+                JOY1_ANALOG   : [
                         "ANALOGUP"   : JOY1_ANALOG1_UP,
                         "ANALOGDOWN" : JOY1_ANALOG1_DOWN,
                         "ANALOGLEFT" : JOY1_ANALOG1_LEFT,
                         "ANALOGRIGHT": JOY1_ANALOG1_RIGHT],
 
-                JOY0_ANALOG2   : [
+                JOY0_ANALOG2  : [
                         "ANALOGUP2"   : JOY0_ANALOG2_UP,
                         "ANALOGDOWN2" : JOY0_ANALOG2_DOWN,
                         "ANALOGLEFT2" : JOY0_ANALOG2_LEFT,
                         "ANALOGRIGHT2": JOY0_ANALOG2_RIGHT],
 
-                JOY1_ANALOG2   : [
+                JOY1_ANALOG2  : [
                         "ANALOGUP2"   : JOY1_ANALOG2_UP,
                         "ANALOGDOWN2" : JOY1_ANALOG2_DOWN,
                         "ANALOGLEFT2" : JOY1_ANALOG2_LEFT,
                         "ANALOGRIGHT2": JOY1_ANALOG2_RIGHT],
 
-                JOY0_DPAD      : [
+                JOY0_DPAD     : [
                         "DIGITALUP"   : JOY0_UP,
                         "DIGITALDOWN" : JOY0_DOWN,
                         "DIGITALLEFT" : JOY0_LEFT,
                         "DIGITALRIGHT": JOY0_RIGHT],
 
-                JOY1_DPAD      : [
+                JOY1_DPAD     : [
                         "DIGITALUP"   : JOY1_UP,
                         "DIGITALDOWN" : JOY1_DOWN,
                         "DIGITALLEFT" : JOY1_LEFT,
@@ -468,688 +468,540 @@ class DemulMapping {
     }
 
     static void set360PerGameConfiguration(IniFile demul) {
-            Map JOY0_STARTCOIN = [
-                    "START": JOY0_BACK,
-                    "COIN" : JOY0_START
-            ]
-            Map JOY1_STARTCOIN = [
-                    "START": JOY1_BACK,
-                    "COIN" : JOY1_START
-            ]
-            Map JOY0_DRIVING = [
-                    "ANALOGUP"   : JOY0_RB,
-                    "ANALOGDOWN" : JOY0_LB,
-                    "ANALOGLEFT" : JOY0_ANALOG1_LEFT,
-                    "ANALOGRIGHT": JOY0_ANALOG1_RIGHT
-            ]
-            Map JOY0_ANALOG = [
-                    "ANALOGUP"   : JOY0_ANALOG1_UP,
-                    "ANALOGDOWN" : JOY0_ANALOG1_DOWN,
-                    "ANALOGLEFT" : JOY0_ANALOG1_LEFT,
-                    "ANALOGRIGHT": JOY0_ANALOG1_RIGHT
-            ]
-            Map JOY1_ANALOG = [
-                    "ANALOGUP"   : JOY1_ANALOG1_UP,
-                    "ANALOGDOWN" : JOY1_ANALOG1_DOWN,
-                    "ANALOGLEFT" : JOY1_ANALOG1_LEFT,
-                    "ANALOGRIGHT": JOY1_ANALOG1_RIGHT
-            ]
-            Map JOY0_ANALOG2 = [
-                    "ANALOGUP2"   : JOY0_ANALOG2_UP,
-                    "ANALOGDOWN2" : JOY0_ANALOG2_DOWN,
-                    "ANALOGLEFT2" : JOY0_ANALOG2_LEFT,
-                    "ANALOGRIGHT2": JOY0_ANALOG2_RIGHT
-            ]
-            Map JOY1_ANALOG2 = [
-                    "ANALOGUP2"   : JOY1_ANALOG2_UP,
-                    "ANALOGDOWN2" : JOY1_ANALOG2_DOWN,
-                    "ANALOGLEFT2" : JOY1_ANALOG2_LEFT,
-                    "ANALOGRIGHT2": JOY1_ANALOG2_RIGHT
-            ]
-            Map JOY0_DPAD = [
-                    "DIGITALUP"   : JOY0_UP,
-                    "DIGITALDOWN" : JOY0_DOWN,
-                    "DIGITALLEFT" : JOY0_LEFT,
-                    "DIGITALRIGHT": JOY0_RIGHT
-            ]
-            Map JOY1_DPAD = [
-                    "DIGITALUP"   : JOY1_UP,
-                    "DIGITALDOWN" : JOY1_DOWN,
-                    "DIGITALLEFT" : JOY1_LEFT,
-                    "DIGITALRIGHT": JOY1_RIGHT
-            ]
-            demul.putAll("standard_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("standard_JAMMA0_0", JOY0_ANALOG)
-            demul.putAll("standard_JAMMA0_0", JOY0_ANALOG2)
-            demul.putAll("standard_JAMMA0_0", JOY0_DPAD)
-            demul.putAll("standard_JAMMA0_0", [
-                    "PUSH1": JOY0_A,
-                    "PUSH2": JOY0_B,
-                    "PUSH3": JOY0_X,
-                    "PUSH4": JOY0_Y,
-                    "PUSH5": JOY0_LT,
-                    "PUSH6": JOY0_RT,
-                    "PUSH7": JOY0_LB,
-                    "PUSH8": JOY0_RB
-            ])
-            demul.putAll("standard_JAMMA0_1", JOY1_STARTCOIN)
-            demul.putAll("standard_JAMMA0_1", JOY1_ANALOG)
-            demul.putAll("standard_JAMMA0_1", JOY1_ANALOG2)
-            demul.putAll("standard_JAMMA0_1", JOY1_DPAD)
-            demul.putAll("standard_JAMMA0_1", [
-                    "PUSH1": JOY1_A,
-                    "PUSH2": JOY1_B,
-                    "PUSH3": JOY1_X,
-                    "PUSH4": JOY1_Y,
-                    "PUSH5": JOY1_LT,
-                    "PUSH6": JOY1_RT,
-                    "PUSH7": JOY1_LB,
-                    "PUSH8": JOY1_RB
-            ])
-            demul.putAll("kofxi_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("kofxi_JAMMA0_0", JOY0_DPAD)
-            demul.putAll("kofxi_JAMMA0_0", [
-                    "PUSH1": JOY0_X,
-                    "PUSH2": JOY0_Y,
-                    "PUSH3": JOY0_RT,
-                    "PUSH4": JOY0_A,
-                    "PUSH5": JOY0_B
-            ])
-            demul.putAll("kofxi_JAMMA0_1", JOY1_STARTCOIN)
-            demul.putAll("kofxi_JAMMA0_1", JOY1_DPAD)
-            demul.putAll("kofxi_JAMMA0_1", [
-                    "PUSH1": JOY1_X,
-                    "PUSH2": JOY1_Y,
-                    "PUSH3": JOY1_RT,
-                    "PUSH4": JOY1_A,
-                    "PUSH5": JOY1_B
-            ])
-            demul.putAll("mslug6_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("mslug6_JAMMA0_0", JOY0_DPAD)
-            demul.putAll("mslug6_JAMMA0_0", [
-                    "PUSH1": JOY0_A,
-                    "PUSH2": JOY0_B,
-                    "PUSH3": JOY0_X,
-                    "PUSH5": JOY0_Y
-            ])
-            demul.putAll("mslug6_JAMMA0_1", JOY1_STARTCOIN)
-            demul.putAll("mslug6_JAMMA0_1", JOY1_DPAD)
-            demul.putAll("mslug6_JAMMA0_1", [
-                    "PUSH1": JOY1_A,
-                    "PUSH2": JOY1_B,
-                    "PUSH3": JOY1_X,
-                    "PUSH5": JOY1_Y
-            ])
-            demul.putAll("samsptk_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("samsptk_JAMMA0_0", JOY0_DPAD)
-            demul.putAll("samsptk_JAMMA0_0", [
-                    "PUSH1": JOY0_X,
-                    "PUSH2": JOY0_Y,
-                    "PUSH3": JOY0_B,
-                    "PUSH4": JOY0_A,
-                    "PUSH5": JOY0_RT
-            ])
-            demul.putAll("samsptk_JAMMA0_1", JOY1_STARTCOIN)
-            demul.putAll("samsptk_JAMMA0_1", JOY1_DPAD)
-            demul.putAll("samsptk_JAMMA0_1", [
-                    "PUSH1": JOY1_X,
-                    "PUSH2": JOY1_Y,
-                    "PUSH3": JOY1_B,
-                    "PUSH4": JOY1_A,
-                    "PUSH5": JOY1_RT
-            ])
-            demul.putAll("ggx15_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("ggx15_JAMMA0_0", JOY0_DPAD)
-            demul.putAll("ggx15_JAMMA0_0", [
-                    "PUSH1": JOY0_A,
-                    "PUSH2": JOY0_Y,
-                    "PUSH3": JOY0_B,
-                    "PUSH4": JOY0_X,
-                    "PUSH5": JOY0_RT
-            ])
-            demul.putAll("ggx15_JAMMA0_1", JOY1_STARTCOIN)
-            demul.putAll("ggx15_JAMMA0_1", JOY1_DPAD)
-            demul.putAll("ggx15_JAMMA0_1", [
-                    "PUSH1": JOY1_A,
-                    "PUSH2": JOY1_Y,
-                    "PUSH3": JOY1_B,
-                    "PUSH4": JOY1_X,
-                    "PUSH5": JOY1_RT
-            ])
-            demul.putAll("demofist_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("demofist_JAMMA0_0", JOY0_DPAD)
-            demul.putAll("demofist_JAMMA0_0", [
-                    "PUSH1": JOY0_X,
-                    "PUSH2": JOY0_A,
-                    "PUSH3": JOY0_B
-            ])
-            demul.putAll("demofist_JAMMA0_1", JOY1_STARTCOIN)
-            demul.putAll("demofist_JAMMA0_1", JOY1_DPAD)
-            demul.putAll("demofist_JAMMA0_1", [
-                    "PUSH1": JOY1_X,
-                    "PUSH2": JOY1_A,
-                    "PUSH3": JOY1_B
-            ])
-            demul.putAll("ftspeed_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("ftspeed_JAMMA0_0", JOY0_DRIVING)
-            demul.putAll("ftspeed_JAMMA0_0", [
-                    "PUSH1": JOY0_Y,
-                    "PUSH2": JOY0_X,
-                    "PUSH3": JOY0_A
-            ])
-            demul.putAll("ftspeed_JAMMA0_1", JOY1_STARTCOIN)
-            demul.putAll("anmlbskt_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("anmlbskt_JAMMA0_0", [
-                    "PUSH1": JOY0_X,
-                    "PUSH2": JOY0_A,
-                    "PUSH3": JOY0_B
-            ])
-            demul.putAll("anmlbskt_JAMMA0_1", JOY1_STARTCOIN)
-            demul.putAll("anmlbskt_JAMMA0_1", [
-                    "PUSH1": JOY1_B,
-                    "PUSH2": JOY1_A,
-                    "PUSH3": JOY1_X
-            ])
-            demul.putAll("xtrmhunt_JAMMA0_0", [
-                    "START": KEY_1,
-                    "COIN" : KEY_5
-            ])
-            demul.putAll("xtrmhunt_JAMMA0_1", [
-                    "START": KEY_2,
-                    "COIN" : KEY_6
-            ])
-            demul.putAll("salmankt_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("salmankt_JAMMA0_0", JOY0_DPAD)
-            demul.putAll("salmankt_JAMMA0_0", [
-                    "PUSH1": JOY0_A
-            ])
-            demul.putAll("18wheelr_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("18wheelr_JAMMA0_0", JOY0_DRIVING)
-            demul.putAll("18wheelr_JAMMA0_0", [
-                    "PUSH1": JOY0_A,
-                    "PUSH2": JOY0_B,
-                    "PUSH3": JOY0_B,
-                    "PUSH4": JOY0_Y,
-                    "PUSH5": JOY0_X
-            ])
-            demul.putAll("crzytaxi_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("crzytaxi_JAMMA0_0", JOY0_DRIVING)
-            demul.putAll("crzytaxi_JAMMA0_0", [
-                    "PUSH1": JOY0_B,
-                    "PUSH2": JOY0_A
-            ])
-            demul.putAll("capsnk_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("capsnk_JAMMA0_0", JOY0_DPAD)
-            demul.putAll("capsnk_JAMMA0_0", [
-                    "PUSH1": JOY0_X,
-                    "PUSH2": JOY0_Y,
-                    "PUSH3": JOY0_RT,
-                    "PUSH4": JOY0_A,
-                    "PUSH5": JOY0_B,
-                    "PUSH6": JOY0_RB
-            ])
-            demul.putAll("capsnk_JAMMA0_1", JOY1_STARTCOIN)
-            demul.putAll("capsnk_JAMMA0_1", JOY1_DPAD)
-            demul.putAll("capsnk_JAMMA0_1", [
-                    "PUSH1": JOY1_X,
-                    "PUSH2": JOY1_Y,
-                    "PUSH3": JOY1_RT,
-                    "PUSH4": JOY1_A,
-                    "PUSH5": JOY1_B,
-                    "PUSH6": JOY1_RB
-            ])
-            demul.putAll("ggxx_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("ggxx_JAMMA0_0", JOY0_DPAD)
-            demul.putAll("ggxx_JAMMA0_0", [
-                    "PUSH1": JOY0_A,
-                    "PUSH2": JOY0_Y,
-                    "PUSH3": JOY0_B,
-                    "PUSH4": JOY0_X,
-                    "PUSH5": JOY0_RT
-            ])
-            demul.putAll("ggxx_JAMMA0_1", JOY1_STARTCOIN)
-            demul.putAll("ggxx_JAMMA0_1", JOY1_DPAD)
-            demul.putAll("ggxx_JAMMA0_1", [
-                    "PUSH1": JOY1_A,
-                    "PUSH2": JOY1_Y,
-                    "PUSH3": JOY1_B,
-                    "PUSH4": JOY1_X,
-                    "PUSH5": JOY1_RT
-            ])
-            demul.putAll("ggx_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("ggx_JAMMA0_0", JOY0_DPAD)
-            demul.putAll("ggx_JAMMA0_0", [
-                    "PUSH1": JOY0_X,
-                    "PUSH2": JOY0_A,
-                    "PUSH3": JOY0_Y,
-                    "PUSH4": JOY0_B
-            ])
-            demul.putAll("ggx_JAMMA0_1", JOY1_STARTCOIN)
-            demul.putAll("ggx_JAMMA0_1", JOY1_DPAD)
-            demul.putAll("ggx_JAMMA0_1", [
-                    "PUSH1": JOY1_X,
-                    "PUSH2": JOY1_A,
-                    "PUSH3": JOY1_Y,
-                    "PUSH4": JOY1_B
-            ])
-            demul.putAll("cspike_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("cspike_JAMMA0_0", JOY0_DPAD)
-            demul.putAll("cspike_JAMMA0_0", [
-                    "PUSH1": JOY0_A,
-                    "PUSH2": JOY0_B,
-                    "PUSH3": JOY0_RB
-            ])
-            demul.putAll("cspike_JAMMA0_1", JOY1_STARTCOIN)
-            demul.putAll("cspike_JAMMA0_1", JOY1_DPAD)
-            demul.putAll("cspike_JAMMA0_1", [
-                    "PUSH1": JOY1_A,
-                    "PUSH2": JOY1_B,
-                    "PUSH3": JOY1_RB
-            ])
-            demul.putAll("pstone_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("pstone_JAMMA0_0", JOY0_DPAD)
-            demul.putAll("pstone_JAMMA0_0", [
-                    "PUSH1": JOY0_X,
-                    "PUSH2": JOY0_Y,
-                    "PUSH3": JOY0_A
-            ])
-            demul.putAll("pstone_JAMMA0_1", JOY1_STARTCOIN)
-            demul.putAll("pstone_JAMMA0_1", JOY1_DPAD)
-            demul.putAll("pstone_JAMMA0_1", [
-                    "PUSH1": JOY1_X,
-                    "PUSH2": JOY1_Y,
-                    "PUSH3": JOY1_A
-            ])
-            demul.putAll("pstone2_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("pstone2_JAMMA0_0", JOY0_DPAD)
-            demul.putAll("pstone2_JAMMA0_0", [
-                    "PUSH1": JOY0_X,
-                    "PUSH2": JOY0_A,
-                    "PUSH3": JOY0_Y
-            ])
-            demul.putAll("pstone2_JAMMA0_1", JOY1_STARTCOIN)
-            demul.putAll("pstone2_JAMMA0_1", JOY1_DPAD)
-            demul.putAll("pstone2_JAMMA0_1", [
-                    "PUSH1": JOY1_X,
-                    "PUSH2": JOY1_A,
-                    "PUSH3": JOY1_Y
-            ])
-            demul.putAll("initd_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("initd_JAMMA0_0", JOY0_DRIVING)
-            demul.putAll("initd_JAMMA0_0", [
-                    "PUSH1": JOY0_B,
-                    "PUSH2": JOY0_A,
-                    "PUSH3": JOY0_Y
-            ])
-            demul.putAll("doa2_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("doa2_JAMMA0_0", JOY0_DPAD)
-            demul.putAll("doa2_JAMMA0_0", [
-                    "PUSH1": JOY0_A,
-                    "PUSH2": JOY0_X,
-                    "PUSH3": JOY0_Y
-            ])
-            demul.putAll("doa2_JAMMA0_1", JOY1_STARTCOIN)
-            demul.putAll("doa2_JAMMA0_1", JOY1_DPAD)
-            demul.putAll("doa2_JAMMA0_1", [
-                    "PUSH1": JOY1_A,
-                    "PUSH2": JOY1_X,
-                    "PUSH3": JOY1_Y
-            ])
-            demul.putAll("hotd2_JAMMA0_0", [
-                    "START": KEY_1,
-                    "COIN" : KEY_5
-            ])
-            demul.putAll("hotd2_JAMMA0_1", [
-                    "START": KEY_2,
-                    "COIN" : KEY_6
-            ])
-            demul.putAll("monkeyba_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("monkeyba_JAMMA0_0", JOY0_ANALOG)
-            demul.putAll("alienfnt_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("alienfnt_JAMMA0_0", JOY0_ANALOG)
-            demul.putAll("alienfnt_JAMMA0_0", [
-                    "PUSH1": JOY0_B,
-                    "PUSH2": JOY0_A,
-                    "PUSH3": JOY0_LB,
-                    "PUSH4": JOY0_RB
-            ])
-            demul.putAll("samba_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("samba_JAMMA0_0", JOY0_ANALOG)
-            demul.putAll("samba_JAMMA0_0", JOY0_ANALOG2)
-            demul.putAll("samba_JAMMA0_0", [
-                    "PUSH1": JOY0_LB,
-                    "PUSH2": JOY0_RB
-            ])
-            demul.putAll("samba_JAMMA0_1", JOY1_STARTCOIN)
-            demul.putAll("samba_JAMMA0_1", JOY1_ANALOG)
-            demul.putAll("samba_JAMMA0_1", JOY1_ANALOG2)
-            demul.putAll("samba_JAMMA0_1", [
-                    "PUSH1": JOY1_LB,
-                    "PUSH2": JOY1_RB
-            ])
-            demul.putAll("alpiltdx_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("alpiltdx_JAMMA0_0", JOY0_ANALOG)
-            demul.putAll("alpiltdx_JAMMA0_0", [
-                    "PUSH1"       : JOY0_A,
-                    "PUSH2"       : JOY0_B,
-                    "PUSH3"       : JOY0_Y,
-                    "ANALOGUP2"   : JOY0_ANALOG2_RIGHT,
-                    "ANALOGDOWN2" : JOY0_ANALOG2_LEFT,
-                    "ANALOGLEFT2" : JOY0_LB,
-                    "ANALOGRIGHT2": JOY0_RB
-            ])
-            demul.putAll("ausfache_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("ausfache_JAMMA0_0", JOY0_DPAD)
-            demul.putAll("ausfache_JAMMA0_0", [
-                    "PUSH1": JOY0_X,
-                    "PUSH2": JOY0_A,
-                    "PUSH3": JOY0_B,
-                    "PUSH4": JOY0_RT
-            ])
-            demul.putAll("ausfache_JAMMA0_1", JOY1_STARTCOIN)
-            demul.putAll("ausfache_JAMMA0_1", JOY1_DPAD)
-            demul.putAll("ausfache_JAMMA0_1", [
-                    "PUSH1": JOY1_X,
-                    "PUSH2": JOY1_A,
-                    "PUSH3": JOY1_B
-            ])
-            demul.putAll("gunsur2_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("gunsur2_JAMMA0_0", JOY0_ANALOG)
-            demul.putAll("gunsur2_JAMMA0_0", [
-                    "PUSH1"       : JOY0_A,
-                    "PUSH2"       : JOY0_RB,
-                    "DIGITALUP"   : JOY0_UP,
-                    "DIGITALDOWN" : JOY0_DOWN,
-                    "ANALOGLEFT2" : JOY0_ANALOG2_LEFT,
-                    "ANALOGRIGHT2": JOY0_ANALOG2_RIGHT
-            ])
-            demul.putAll("gwing2_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("gwing2_JAMMA0_0", JOY0_DPAD)
-            demul.putAll("gwing2_JAMMA0_0", [
-                    "PUSH1": JOY0_A,
-                    "PUSH2": JOY0_B,
-                    "PUSH3": JOY0_X
-            ])
-            demul.putAll("gwing2_JAMMA0_1", JOY1_STARTCOIN)
-            demul.putAll("gwing2_JAMMA0_1", JOY1_DPAD)
-            demul.putAll("gwing2_JAMMA0_1", [
-                    "PUSH1": JOY1_A,
-                    "PUSH2": JOY1_B,
-                    "PUSH3": JOY1_X
-            ])
-            demul.putAll("senkosp_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("senkosp_JAMMA0_0", JOY0_DPAD)
-            demul.putAll("senkosp_JAMMA0_0", [
-                    "PUSH1": JOY0_X,
-                    "PUSH2": JOY0_Y,
-                    "PUSH3": JOY0_B,
-                    "PUSH4": JOY0_A,
-                    "PUSH5": JOY0_LT
-            ])
-            demul.putAll("senkosp_JAMMA0_1", JOY1_STARTCOIN)
-            demul.putAll("senkosp_JAMMA0_1", JOY1_DPAD)
-            demul.putAll("senkosp_JAMMA0_1", [
-                    "PUSH1": JOY1_X,
-                    "PUSH2": JOY1_Y,
-                    "PUSH3": JOY1_B,
-                    "PUSH4": JOY1_A,
-                    "PUSH5": JOY1_LT
-            ])
-            demul.putAll("senko_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("senko_JAMMA0_0", JOY0_DPAD)
-            demul.putAll("senko_JAMMA0_0", [
-                    "PUSH1": JOY0_A,
-                    "PUSH2": JOY0_X,
-                    "PUSH3": JOY0_Y
-            ])
-            demul.putAll("senko_JAMMA0_1", JOY1_STARTCOIN)
-            demul.putAll("senko_JAMMA0_1", JOY1_DPAD)
-            demul.putAll("senko_JAMMA0_1", [
-                    "PUSH1": JOY1_A,
-                    "PUSH2": JOY1_X,
-                    "PUSH3": JOY1_Y
-            ])
-            demul.putAll("zombrvn_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("zombrvn_JAMMA0_0", JOY0_ANALOG)
-            demul.putAll("zombrvn_JAMMA0_0", [
-                    "PUSH1": JOY0_Y,
-                    "PUSH2": JOY0_B,
-                    "PUSH3": JOY0_X
-            ])
-            demul.putAll("zombrvn_JAMMA0_1", JOY1_STARTCOIN)
-            demul.putAll("zombrvn_JAMMA0_1", JOY1_ANALOG)
-            demul.putAll("zombrvn_JAMMA0_1", [
-                    "PUSH1": JOY1_Y,
-                    "PUSH2": JOY1_B,
-                    "PUSH3": JOY1_X
-            ])
-            demul.putAll("vtennis_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("vtennis_JAMMA0_0", JOY0_ANALOG)
-            demul.putAll("vtennis_JAMMA0_0", JOY0_DPAD)
-            demul.putAll("vtennis_JAMMA0_0", [
-                    "PUSH1"      : JOY0_A,
-                    "PUSH2"      : JOY0_B,
-                    "ANALOGUP2"  : JOY0_ANALOG2_UP,
-                    "ANALOGDOWN2": JOY0_ANALOG2_DOWN
-            ])
-            demul.putAll("vtennis_JAMMA0_1", JOY1_STARTCOIN)
-            demul.putAll("vtennis_JAMMA0_1", JOY1_ANALOG)
-            demul.putAll("vtennis_JAMMA0_1", JOY1_DPAD)
-            demul.putAll("vtennis_JAMMA0_1", [
-                    "PUSH1"      : JOY1_A,
-                    "PUSH2"      : JOY1_B,
-                    "ANALOGUP2"  : JOY1_ANALOG2_UP,
-                    "ANALOGDOWN2": JOY1_ANALOG2_DOWN
-            ])
-            demul.putAll("vstrik3_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("vstrik3_JAMMA0_0", JOY0_DPAD)
-            demul.putAll("vstrik3_JAMMA0_0", [
-                    "PUSH1": JOY0_X,
-                    "PUSH2": JOY0_B,
-                    "PUSH3": JOY0_A
-            ])
-            demul.putAll("vstrik3_JAMMA0_1", JOY1_STARTCOIN)
-            demul.putAll("vstrik3_JAMMA0_1", JOY1_DPAD)
-            demul.putAll("vstrik3_JAMMA0_1", [
-                    "PUSH1": JOY1_X,
-                    "PUSH2": JOY1_B,
-                    "PUSH3": JOY1_A
-            ])
-            demul.putAll("sstrkfgt_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("sstrkfgt_JAMMA0_0", JOY0_ANALOG)
-            demul.putAll("sstrkfgt_JAMMA0_0", [
-                    "PUSH1"    : JOY0_RB,
-                    "PUSH2"    : JOY0_RT,
-                    "PUSH3"    : JOY0_LT,
-                    "PUSH4"    : JOY0_Y,
-                    "ANALOGUP2": JOY0_LB
-            ])
-            demul.putAll("wldrider_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("wldrider_JAMMA0_0", JOY0_DRIVING)
-            demul.putAll("wldrider_JAMMA0_0", [
-                    "PUSH1"      : JOY0_ANALOG1_UP,
-                    "PUSH2"      : JOY0_ANALOG1_DOWN,
-                    "ANALOGDOWN2": JOY0_A
-            ])
-            demul.putAll("meltyb_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("meltyb_JAMMA0_0", JOY0_DPAD)
-            demul.putAll("meltyb_JAMMA0_0", [
-                    "PUSH1": JOY0_X,
-                    "PUSH2": JOY0_A,
-                    "PUSH3": JOY0_B,
-                    "PUSH4": JOY0_Y,
-                    "PUSH5": JOY0_RT
-            ])
-            demul.putAll("meltyb_JAMMA0_1", JOY1_STARTCOIN)
-            demul.putAll("meltyb_JAMMA0_1", JOY1_DPAD)
-            demul.putAll("meltyb_JAMMA0_1", [
-                    "PUSH1": JOY1_X,
-                    "PUSH2": JOY1_A,
-                    "PUSH3": JOY1_B,
-                    "PUSH4": JOY1_Y,
-                    "PUSH5": JOY1_RT
-            ])
-            demul.putAll("clubkrte_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("clubkrte_JAMMA0_0", JOY0_DRIVING)
-            demul.putAll("clubkrte_JAMMA0_0", [
-                    "PUSH1": JOY0_Y
-            ])
-            demul.putAll("otrigger_JAMMA0_0", [
-                    "START"       : KEY_1,
-                    "COIN"        : KEY_5,
-                    "DIGITALUP"   : KEY_W,
-                    "DIGITALDOWN" : KEY_S,
-                    "DIGITALLEFT" : KEY_A,
-                    "DIGITALRIGHT": KEY_D,
-                    "ANALOGLEFT"  : LEFT,
-                    "ANALOGRIGHT" : RIGHT
-            ])
-            demul.putAll("ss2005_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("ss2005_JAMMA0_0", JOY0_DPAD)
-            demul.putAll("ss2005_JAMMA0_0", [
-                    "PUSH1": JOY0_A,
-                    "PUSH2": JOY0_B,
-                    "PUSH3": JOY0_Y
-            ])
-            demul.putAll("ss2005_JAMMA0_1", JOY1_STARTCOIN)
-            demul.putAll("ss2005_JAMMA0_1", JOY1_DPAD)
-            demul.putAll("ss2005_JAMMA0_1", [
-                    "PUSH1": JOY1_A,
-                    "PUSH2": JOY1_B,
-                    "PUSH3": JOY1_Y
-            ])
-            demul.putAll("usagiym_JAMMA0_0", [
-                    "COIN": KEY_5
-            ])
-            demul.putAll("wrungp_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("wrungp_JAMMA0_0", [
-                    "PUSH1"       : JOY0_Y,
-                    "ANALOGUP"    : JOY0_A,
-                    "ANALOGLEFT"  : JOY0_ANALOG1_LEFT,
-                    "ANALOGRIGHT" : JOY0_ANALOG1_RIGHT,
-                    "ANALOGUP2"   : JOY0_ANALOG1_UP,
-                    "ANALOGDOWN2" : JOY0_ANALOG1_DOWN,
-                    "ANALOGLEFT2" : JOY0_LB,
-                    "ANALOGRIGHT2": JOY0_RB
-            ])
-            demul.putAll("vonot_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("vonot_JAMMA0_0", [
-                    "PUSH1"       : JOY0_LB,
-                    "PUSH2"       : JOY0_B,
-                    "PUSH3"       : JOY0_A,
-                    "DIGITALUP"   : JOY0_ANALOG1_UP,
-                    "DIGITALDOWN" : JOY0_ANALOG1_DOWN,
-                    "DIGITALLEFT" : JOY0_ANALOG1_LEFT,
-                    "DIGITALRIGHT": JOY0_ANALOG1_RIGHT
-            ])
-            demul.putAll("vonot_JAMMA0_1", [
-                    "PUSH1"       : JOY0_RB,
-                    "PUSH2"       : JOY0_B,
-                    "DIGITALUP"   : JOY0_ANALOG2_UP,
-                    "DIGITALDOWN" : JOY0_ANALOG2_DOWN,
-                    "DIGITALLEFT" : JOY0_ANALOG2_LEFT,
-                    "DIGITALRIGHT": JOY0_ANALOG2_RIGHT
-            ])
-            demul.putAll("gundmct_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("gundmct_JAMMA0_0", JOY0_DPAD)
-            demul.putAll("gundmct_JAMMA0_0", [
-                    "PUSH1": JOY0_X,
-                    "PUSH2": JOY0_Y,
-                    "PUSH3": JOY0_A,
-                    "PUSH4": JOY0_B
-            ])
-            demul.putAll("shaktamb_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("shaktamb_JAMMA0_0", JOY0_ANALOG)
-            demul.putAll("shaktamb_JAMMA0_0", [
-                    "PUSH1"      : JOY0_A,
-                    "PUSH2"      : JOY0_LB,
-                    "PUSH3"      : JOY0_RB,
-                    "DIGITALUP"  : JOY0_UP,
-                    "DIGITALDOWN": JOY0_DOWN
-            ])
-            demul.putAll("shaktamb_JAMMA0_1", JOY1_STARTCOIN)
-            demul.putAll("shaktamb_JAMMA0_1", JOY1_ANALOG)
-            demul.putAll("shaktamb_JAMMA0_1", [
-                    "PUSH1"      : JOY1_A,
-                    "PUSH2"      : JOY1_LB,
-                    "PUSH3"      : JOY1_RB,
-                    "DIGITALUP"  : JOY1_UP,
-                    "DIGITALDOWN": JOY1_DOWN
-            ])
-            demul.putAll("jambo_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("jambo_JAMMA0_0", JOY0_DRIVING)
-            demul.putAll("jambo_JAMMA0_0", [
-                    "PUSH1": JOY0_ANALOG2_DOWN,
-                    "PUSH2": JOY0_ANALOG2_UP
-            ])
-            demul.putAll("quizqgd_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("quizqgd_JAMMA0_0", JOY0_DPAD)
-            demul.putAll("quizqgd_JAMMA0_0", [
-                    "PUSH1": JOY0_X,
-                    "PUSH2": JOY0_A,
-                    "PUSH3": JOY0_B,
-                    "PUSH4": JOY0_Y
-            ])
-            demul.putAll("quizqgd_JAMMA0_1", JOY1_STARTCOIN)
-            demul.putAll("quizqgd_JAMMA0_1", JOY1_DPAD)
-            demul.putAll("quizqgd_JAMMA0_1", [
-                    "PUSH1": JOY1_X,
-                    "PUSH2": JOY1_A,
-                    "PUSH3": JOY1_B,
-                    "PUSH4": JOY1_Y
-            ])
-            demul.putAll("ringout_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("ringout_JAMMA0_0", [
-                    "PUSH1"      : JOY0_A,
-                    "PUSH2"      : JOY0_LB,
-                    "ANALOGUP"   : JOY0_RB,
-                    "ANALOGLEFT" : JOY0_ANALOG1_LEFT,
-                    "ANALOGRIGHT": JOY0_ANALOG1_RIGHT
-            ])
-            demul.putAll("ringout_JAMMA0_1", JOY1_STARTCOIN)
-            demul.putAll("ringout_JAMMA0_1", [
-                    "PUSH1"      : JOY1_A,
-                    "PUSH2"      : JOY1_LB,
-                    "ANALOGUP"   : JOY1_RB,
-                    "ANALOGLEFT" : JOY1_ANALOG1_LEFT,
-                    "ANALOGRIGHT": JOY1_ANALOG1_RIGHT
-            ])
-            demul.putAll("soulsurf_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("soulsurf_JAMMA0_0", [
-                    "DIGITALLEFT" : JOY0_LEFT,
-                    "DIGITALRIGHT": JOY0_RIGHT,
-                    "ANALOGDOWN"  : JOY0_A,
-                    "ANALOGLEFT"  : JOY0_ANALOG1_LEFT,
-                    "ANALOGRIGHT" : JOY0_ANALOG1_RIGHT,
-                    "ANALOGLEFT2" : JOY0_LB,
-                    "ANALOGRIGHT2": JOY0_RB
-            ])
-            demul.putAll("kingrt66_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("kingrt66_JAMMA0_0", JOY0_DRIVING)
-            demul.putAll("kingrt66_JAMMA0_0", [
-                    "PUSH1": JOY0_A,
-                    "PUSH2": JOY0_B,
-                    "PUSH3": JOY0_RT,
-                    "PUSH4": JOY0_Y,
-                    "PUSH5": JOY0_X,
-                    "PUSH6": JOY0_LT
-            ])
-            demul.putAll("smshdrv_JAMMA0_0", [
-                    "PUSH1"      : JOY0_RB,
-                    "PUSH2"      : JOY0_LB,
-                    "PUSH3"      : JOY0_A,
-                    "COIN"       : JOY0_START,
-                    "ANALOGLEFT" : JOY0_ANALOG1_LEFT,
-                    "ANALOGRIGHT": JOY0_ANALOG1_RIGHT
-            ])
-            demul.putAll("atvtrack_JAMMA0_0", JOY0_STARTCOIN)
-            demul.putAll("atvtrack_JAMMA0_0", [
-                    "DIGITALLEFT" : JOY0_LB,
-                    "DIGITALRIGHT": JOY0_RB,
-                    "ANALOGUP"    : JOY0_A,
-                    "ANALOGLEFT"  : JOY0_ANALOG1_LEFT,
-                    "ANALOGRIGHT" : JOY0_ANALOG1_RIGHT
-            ])
+        Map JOY0_STARTCOIN = [
+                "START": JOY0_BACK,
+                "COIN" : JOY0_START
+        ]
+        Map JOY1_STARTCOIN = [
+                "START": JOY1_BACK,
+                "COIN" : JOY1_START
+        ]
+        Map JOY0_DRIVING = [
+                "ANALOGUP"   : JOY0_RB,
+                "ANALOGDOWN" : JOY0_LB,
+                "ANALOGLEFT" : JOY0_ANALOG1_LEFT,
+                "ANALOGRIGHT": JOY0_ANALOG1_RIGHT
+        ]
+        Map JOY0_ANALOG = [
+                "ANALOGUP"   : JOY0_ANALOG1_UP,
+                "ANALOGDOWN" : JOY0_ANALOG1_DOWN,
+                "ANALOGLEFT" : JOY0_ANALOG1_LEFT,
+                "ANALOGRIGHT": JOY0_ANALOG1_RIGHT
+        ]
+        Map JOY1_ANALOG = [
+                "ANALOGUP"   : JOY1_ANALOG1_UP,
+                "ANALOGDOWN" : JOY1_ANALOG1_DOWN,
+                "ANALOGLEFT" : JOY1_ANALOG1_LEFT,
+                "ANALOGRIGHT": JOY1_ANALOG1_RIGHT
+        ]
+        Map JOY0_ANALOG2 = [
+                "ANALOGUP2"   : JOY0_ANALOG2_UP,
+                "ANALOGDOWN2" : JOY0_ANALOG2_DOWN,
+                "ANALOGLEFT2" : JOY0_ANALOG2_LEFT,
+                "ANALOGRIGHT2": JOY0_ANALOG2_RIGHT
+        ]
+        Map JOY1_ANALOG2 = [
+                "ANALOGUP2"   : JOY1_ANALOG2_UP,
+                "ANALOGDOWN2" : JOY1_ANALOG2_DOWN,
+                "ANALOGLEFT2" : JOY1_ANALOG2_LEFT,
+                "ANALOGRIGHT2": JOY1_ANALOG2_RIGHT
+        ]
+        Map JOY0_DPAD = [
+                "DIGITALUP"   : JOY0_UP,
+                "DIGITALDOWN" : JOY0_DOWN,
+                "DIGITALLEFT" : JOY0_LEFT,
+                "DIGITALRIGHT": JOY0_RIGHT
+        ]
+        Map JOY1_DPAD = [
+                "DIGITALUP"   : JOY1_UP,
+                "DIGITALDOWN" : JOY1_DOWN,
+                "DIGITALLEFT" : JOY1_LEFT,
+                "DIGITALRIGHT": JOY1_RIGHT
+        ]
+
+
+        demul.putAll("standard_JAMMA0_0",
+                JOY0_STARTCOIN +
+                        JOY0_ANALOG +
+                        JOY0_ANALOG2 +
+                        JOY0_DPAD + [
+                        "PUSH1": JOY0_A,
+                        "PUSH2": JOY0_B,
+                        "PUSH3": JOY0_X,
+                        "PUSH4": JOY0_Y,
+                        "PUSH5": JOY0_LT,
+                        "PUSH6": JOY0_RT,
+                        "PUSH7": JOY0_LB,
+                        "PUSH8": JOY0_RB
+                ])
+        demul.putAll("standard_JAMMA0_1", JOY1_STARTCOIN+JOY1_ANALOG+JOY1_ANALOG2+JOY1_DPAD+[
+                "PUSH1": JOY1_A,
+                "PUSH2": JOY1_B,
+                "PUSH3": JOY1_X,
+                "PUSH4": JOY1_Y,
+                "PUSH5": JOY1_LT,
+                "PUSH6": JOY1_RT,
+                "PUSH7": JOY1_LB,
+                "PUSH8": JOY1_RB
+        ])
+        demul.putAll("kofxi_JAMMA0_0", JOY0_STARTCOIN+JOY0_DPAD+[
+                "PUSH1": JOY0_X,
+                "PUSH2": JOY0_Y,
+                "PUSH3": JOY0_RT,
+                "PUSH4": JOY0_A,
+                "PUSH5": JOY0_B
+        ])
+        demul.putAll("kofxi_JAMMA0_1", JOY1_STARTCOIN+ JOY1_DPAD+ [
+                "PUSH1": JOY1_X,
+                "PUSH2": JOY1_Y,
+                "PUSH3": JOY1_RT,
+                "PUSH4": JOY1_A,
+                "PUSH5": JOY1_B
+        ])
+        demul.putAll("mslug6_JAMMA0_0", JOY0_STARTCOIN+JOY0_DPAD+[
+                "PUSH1": JOY0_A,
+                "PUSH2": JOY0_B,
+                "PUSH3": JOY0_X,
+                "PUSH5": JOY0_Y
+        ])
+        demul.putAll("mslug6_JAMMA0_1", JOY1_STARTCOIN+JOY1_DPAD+[
+                "PUSH1": JOY1_A,
+                "PUSH2": JOY1_B,
+                "PUSH3": JOY1_X,
+                "PUSH5": JOY1_Y
+        ])
+        demul.putAll("samsptk_JAMMA0_0", JOY0_STARTCOIN+JOY0_DPAD+[
+                "PUSH1": JOY0_X,
+                "PUSH2": JOY0_Y,
+                "PUSH3": JOY0_B,
+                "PUSH4": JOY0_A,
+                "PUSH5": JOY0_RT
+        ])
+        demul.putAll("samsptk_JAMMA0_1", JOY1_STARTCOIN+JOY1_DPAD+[
+                "PUSH1": JOY1_X,
+                "PUSH2": JOY1_Y,
+                "PUSH3": JOY1_B,
+                "PUSH4": JOY1_A,
+                "PUSH5": JOY1_RT
+        ])
+        demul.putAll("ggx15_JAMMA0_0", JOY0_STARTCOIN+JOY0_DPAD+[
+                "PUSH1": JOY0_A,
+                "PUSH2": JOY0_Y,
+                "PUSH3": JOY0_B,
+                "PUSH4": JOY0_X,
+                "PUSH5": JOY0_RT
+        ])
+        demul.putAll("ggx15_JAMMA0_1", JOY1_STARTCOIN+JOY1_DPAD+[
+                "PUSH1": JOY1_A,
+                "PUSH2": JOY1_Y,
+                "PUSH3": JOY1_B,
+                "PUSH4": JOY1_X,
+                "PUSH5": JOY1_RT
+        ])
+        demul.putAll("demofist_JAMMA0_0", JOY0_STARTCOIN+ JOY0_DPAD+[
+                "PUSH1": JOY0_X,
+                "PUSH2": JOY0_A,
+                "PUSH3": JOY0_B
+        ])
+        demul.putAll("demofist_JAMMA0_1", JOY1_STARTCOIN+JOY1_DPAD+[
+                "PUSH1": JOY1_X,
+                "PUSH2": JOY1_A,
+                "PUSH3": JOY1_B
+        ])
+        demul.putAll("ftspeed_JAMMA0_0", JOY0_STARTCOIN+JOY0_DRIVING+[
+                "PUSH1": JOY0_Y,
+                "PUSH2": JOY0_X,
+                "PUSH3": JOY0_A
+        ])
+        demul.putAll("ftspeed_JAMMA0_1", JOY1_STARTCOIN)
+        demul.putAll("anmlbskt_JAMMA0_0", JOY0_STARTCOIN+[
+                "PUSH1": JOY0_X,
+                "PUSH2": JOY0_A,
+                "PUSH3": JOY0_B
+        ])
+        demul.putAll("anmlbskt_JAMMA0_1", JOY1_STARTCOIN+[
+                "PUSH1": JOY1_B,
+                "PUSH2": JOY1_A,
+                "PUSH3": JOY1_X
+        ])
+        demul.putAll("xtrmhunt_JAMMA0_0", JOY0_STARTCOIN)
+        demul.putAll("xtrmhunt_JAMMA0_1", JOY1_STARTCOIN)
+        demul.putAll("salmankt_JAMMA0_0", JOY0_STARTCOIN+JOY0_DPAD+[
+                "PUSH1": JOY0_A
+        ])
+        demul.putAll("18wheelr_JAMMA0_0", JOY0_STARTCOIN+JOY0_DRIVING+[
+                "PUSH1": JOY0_A,
+                "PUSH2": JOY0_B,
+                "PUSH3": JOY0_B,
+                "PUSH4": JOY0_Y,
+                "PUSH5": JOY0_X
+        ])
+        demul.putAll("crzytaxi_JAMMA0_0", JOY0_STARTCOIN+JOY0_DRIVING+[
+                "PUSH1": JOY0_B,
+                "PUSH2": JOY0_A
+        ])
+        demul.putAll("capsnk_JAMMA0_0", JOY0_STARTCOIN+JOY0_DPAD+[
+                "PUSH1": JOY0_X,
+                "PUSH2": JOY0_Y,
+                "PUSH3": JOY0_RT,
+                "PUSH4": JOY0_A,
+                "PUSH5": JOY0_B,
+                "PUSH6": JOY0_RB
+        ])
+        demul.putAll("capsnk_JAMMA0_1", JOY1_STARTCOIN+JOY1_DPAD+[
+                "PUSH1": JOY1_X,
+                "PUSH2": JOY1_Y,
+                "PUSH3": JOY1_RT,
+                "PUSH4": JOY1_A,
+                "PUSH5": JOY1_B,
+                "PUSH6": JOY1_RB
+        ])
+        demul.putAll("ggxx_JAMMA0_0", JOY0_STARTCOIN+JOY0_DPAD+[
+                "PUSH1": JOY0_A,
+                "PUSH2": JOY0_Y,
+                "PUSH3": JOY0_B,
+                "PUSH4": JOY0_X,
+                "PUSH5": JOY0_RT
+        ])
+        demul.putAll("ggxx_JAMMA0_1", JOY1_STARTCOIN+JOY1_DPAD+[
+                "PUSH1": JOY1_A,
+                "PUSH2": JOY1_Y,
+                "PUSH3": JOY1_B,
+                "PUSH4": JOY1_X,
+                "PUSH5": JOY1_RT
+        ])
+        demul.putAll("ggx_JAMMA0_0", JOY0_STARTCOIN+JOY0_DPAD+[
+                "PUSH1": JOY0_X,
+                "PUSH2": JOY0_A,
+                "PUSH3": JOY0_Y,
+                "PUSH4": JOY0_B
+        ])
+        demul.putAll("ggx_JAMMA0_1", JOY1_STARTCOIN+JOY1_DPAD+[
+                "PUSH1": JOY1_X,
+                "PUSH2": JOY1_A,
+                "PUSH3": JOY1_Y,
+                "PUSH4": JOY1_B
+        ])
+        demul.putAll("cspike_JAMMA0_0", JOY0_STARTCOIN+JOY0_DPAD+[
+                "PUSH1": JOY0_A,
+                "PUSH2": JOY0_B,
+                "PUSH3": JOY0_RB
+        ])
+        demul.putAll("cspike_JAMMA0_1", JOY1_STARTCOIN+JOY1_DPAD+[
+                "PUSH1": JOY1_A,
+                "PUSH2": JOY1_B,
+                "PUSH3": JOY1_RB
+        ])
+        demul.putAll("pstone_JAMMA0_0", JOY0_STARTCOIN+JOY0_DPAD+[
+                "PUSH1": JOY0_X,
+                "PUSH2": JOY0_Y,
+                "PUSH3": JOY0_A
+        ])
+        demul.putAll("pstone_JAMMA0_1", JOY1_STARTCOIN+JOY1_DPAD+[
+                "PUSH1": JOY1_X,
+                "PUSH2": JOY1_Y,
+                "PUSH3": JOY1_A
+        ])
+        demul.putAll("pstone2_JAMMA0_0", JOY0_STARTCOIN+JOY0_DPAD+[
+                "PUSH1": JOY0_X,
+                "PUSH2": JOY0_A,
+                "PUSH3": JOY0_Y
+        ])
+        demul.putAll("pstone2_JAMMA0_1", JOY1_STARTCOIN+JOY1_DPAD+[
+                "PUSH1": JOY1_X,
+                "PUSH2": JOY1_A,
+                "PUSH3": JOY1_Y
+        ])
+        demul.putAll("initd_JAMMA0_0", JOY0_STARTCOIN+JOY0_DRIVING+[
+                "PUSH1": JOY0_B,
+                "PUSH2": JOY0_A,
+                "PUSH3": JOY0_Y
+        ])
+        demul.putAll("doa2_JAMMA0_0", JOY0_STARTCOIN+JOY0_DPAD+[
+                "PUSH1": JOY0_A,
+                "PUSH2": JOY0_X,
+                "PUSH3": JOY0_Y
+        ])
+        demul.putAll("doa2_JAMMA0_1", JOY1_STARTCOIN+JOY1_DPAD+[
+                "PUSH1": JOY1_A,
+                "PUSH2": JOY1_X,
+                "PUSH3": JOY1_Y
+        ])
+        demul.putAll("hotd2_JAMMA0_0", JOY0_STARTCOIN)
+        demul.putAll("hotd2_JAMMA0_1", JOY1_STARTCOIN)
+        demul.putAll("monkeyba_JAMMA0_0", JOY0_STARTCOIN+JOY0_ANALOG)
+        demul.putAll("alienfnt_JAMMA0_0", JOY0_STARTCOIN+JOY0_ANALOG+[
+                "PUSH1": JOY0_B,
+                "PUSH2": JOY0_A,
+                "PUSH3": JOY0_LB,
+                "PUSH4": JOY0_RB
+        ])
+        demul.putAll("samba_JAMMA0_0", JOY0_STARTCOIN+JOY0_ANALOG+JOY0_ANALOG2)
+        demul.putAll("samba_JAMMA0_0", [
+                "PUSH1": JOY0_LB,
+                "PUSH2": JOY0_RB
+        ])
+        demul.putAll("samba_JAMMA0_1", JOY1_STARTCOIN+JOY1_ANALOG+JOY1_ANALOG2)
+        demul.putAll("samba_JAMMA0_1", [
+                "PUSH1": JOY1_LB,
+                "PUSH2": JOY1_RB
+        ])
+        demul.putAll("alpiltdx_JAMMA0_0", JOY0_STARTCOIN+JOY0_ANALOG+[
+                "PUSH1"       : JOY0_A,
+                "PUSH2"       : JOY0_B,
+                "PUSH3"       : JOY0_Y,
+                "ANALOGUP2"   : JOY0_ANALOG2_RIGHT,
+                "ANALOGDOWN2" : JOY0_ANALOG2_LEFT,
+                "ANALOGLEFT2" : JOY0_LB,
+                "ANALOGRIGHT2": JOY0_RB
+        ])
+        demul.putAll("ausfache_JAMMA0_0", JOY0_STARTCOIN+JOY0_DPAD+[
+                "PUSH1": JOY0_X,
+                "PUSH2": JOY0_A,
+                "PUSH3": JOY0_B,
+                "PUSH4": JOY0_RT
+        ])
+        demul.putAll("ausfache_JAMMA0_1", JOY1_STARTCOIN+JOY1_DPAD+[
+                "PUSH1": JOY1_X,
+                "PUSH2": JOY1_A,
+                "PUSH3": JOY1_B
+        ])
+        demul.putAll("gunsur2_JAMMA0_0", JOY0_STARTCOIN+JOY0_ANALOG+[
+                "PUSH1"       : JOY0_A,
+                "PUSH2"       : JOY0_RB,
+                "DIGITALUP"   : JOY0_UP,
+                "DIGITALDOWN" : JOY0_DOWN,
+                "ANALOGLEFT2" : JOY0_ANALOG2_LEFT,
+                "ANALOGRIGHT2": JOY0_ANALOG2_RIGHT
+        ])
+        demul.putAll("gwing2_JAMMA0_0", JOY0_STARTCOIN+JOY0_DPAD+[
+                "PUSH1": JOY0_A,
+                "PUSH2": JOY0_B,
+                "PUSH3": JOY0_X
+        ])
+        demul.putAll("gwing2_JAMMA0_1", JOY1_STARTCOIN+JOY1_DPAD+[
+                "PUSH1": JOY1_A,
+                "PUSH2": JOY1_B,
+                "PUSH3": JOY1_X
+        ])
+        demul.putAll("senkosp_JAMMA0_0", JOY0_STARTCOIN+JOY0_DPAD+[
+                "PUSH1": JOY0_X,
+                "PUSH2": JOY0_Y,
+                "PUSH3": JOY0_B,
+                "PUSH4": JOY0_A,
+                "PUSH5": JOY0_LT
+        ])
+        demul.putAll("senkosp_JAMMA0_1", JOY1_STARTCOIN+JOY1_DPAD+[
+                "PUSH1": JOY1_X,
+                "PUSH2": JOY1_Y,
+                "PUSH3": JOY1_B,
+                "PUSH4": JOY1_A,
+                "PUSH5": JOY1_LT
+        ])
+        demul.putAll("senko_JAMMA0_0", JOY0_STARTCOIN+JOY0_DPAD+[
+                "PUSH1": JOY0_A,
+                "PUSH2": JOY0_X,
+                "PUSH3": JOY0_Y
+        ])
+        demul.putAll("senko_JAMMA0_1", JOY1_STARTCOIN+JOY1_DPAD+[
+                "PUSH1": JOY1_A,
+                "PUSH2": JOY1_X,
+                "PUSH3": JOY1_Y
+        ])
+        demul.putAll("zombrvn_JAMMA0_0", JOY0_STARTCOIN+JOY0_ANALOG+[
+                "PUSH1": JOY0_Y,
+                "PUSH2": JOY0_B,
+                "PUSH3": JOY0_X
+        ])
+        demul.putAll("zombrvn_JAMMA0_1", JOY1_STARTCOIN+JOY1_ANALOG+[
+                "PUSH1": JOY1_Y,
+                "PUSH2": JOY1_B,
+                "PUSH3": JOY1_X
+        ])
+        demul.putAll("vtennis_JAMMA0_0", JOY0_STARTCOIN+JOY0_ANALOG+JOY0_DPAD)
+        demul.putAll("vtennis_JAMMA0_0", [
+                "PUSH1"      : JOY0_A,
+                "PUSH2"      : JOY0_B,
+                "ANALOGUP2"  : JOY0_ANALOG2_UP,
+                "ANALOGDOWN2": JOY0_ANALOG2_DOWN
+        ])
+        demul.putAll("vtennis_JAMMA0_1", JOY1_STARTCOIN+JOY1_ANALOG+JOY1_DPAD+[
+                "PUSH1"      : JOY1_A,
+                "PUSH2"      : JOY1_B,
+                "ANALOGUP2"  : JOY1_ANALOG2_UP,
+                "ANALOGDOWN2": JOY1_ANALOG2_DOWN
+        ])
+        demul.putAll("vstrik3_JAMMA0_0", JOY0_STARTCOIN+JOY0_DPAD+[
+                "PUSH1": JOY0_X,
+                "PUSH2": JOY0_B,
+                "PUSH3": JOY0_A
+        ])
+        demul.putAll("vstrik3_JAMMA0_1", JOY1_STARTCOIN+JOY1_DPAD+[
+                "PUSH1": JOY1_X,
+                "PUSH2": JOY1_B,
+                "PUSH3": JOY1_A
+        ])
+        demul.putAll("sstrkfgt_JAMMA0_0", JOY0_STARTCOIN+JOY0_ANALOG+[
+                "PUSH1"    : JOY0_RB,
+                "PUSH2"    : JOY0_RT,
+                "PUSH3"    : JOY0_LT,
+                "PUSH4"    : JOY0_Y,
+                "ANALOGUP2": JOY0_LB
+        ])
+        demul.putAll("wldrider_JAMMA0_0", JOY0_STARTCOIN+JOY0_DRIVING+[
+                "PUSH1"      : JOY0_ANALOG1_UP,
+                "PUSH2"      : JOY0_ANALOG1_DOWN,
+                "ANALOGDOWN2": JOY0_A
+        ])
+        demul.putAll("meltyb_JAMMA0_0", JOY0_STARTCOIN+JOY0_DPAD+[
+                "PUSH1": JOY0_X,
+                "PUSH2": JOY0_A,
+                "PUSH3": JOY0_B,
+                "PUSH4": JOY0_Y,
+                "PUSH5": JOY0_RT
+        ])
+        demul.putAll("meltyb_JAMMA0_1", JOY1_STARTCOIN+JOY1_DPAD+[
+                "PUSH1": JOY1_X,
+                "PUSH2": JOY1_A,
+                "PUSH3": JOY1_B,
+                "PUSH4": JOY1_Y,
+                "PUSH5": JOY1_RT
+        ])
+        demul.putAll("clubkrte_JAMMA0_0", JOY0_STARTCOIN+JOY0_DRIVING+[
+                "PUSH1": JOY0_Y
+        ])
+        demul.putAll("otrigger_JAMMA0_0", JOY0_STARTCOIN+[
+                "DIGITALUP"   : KEY_W,
+                "DIGITALDOWN" : KEY_S,
+                "DIGITALLEFT" : KEY_A,
+                "DIGITALRIGHT": KEY_D,
+                "ANALOGLEFT"  : LEFT,
+                "ANALOGRIGHT" : RIGHT
+        ])
+        demul.putAll("ss2005_JAMMA0_0", JOY0_STARTCOIN+JOY0_DPAD)
+        demul.putAll("ss2005_JAMMA0_0", [
+                "PUSH1": JOY0_A,
+                "PUSH2": JOY0_B,
+                "PUSH3": JOY0_Y
+        ])
+        demul.putAll("ss2005_JAMMA0_1", JOY1_STARTCOIN+JOY1_DPAD+[
+                "PUSH1": JOY1_A,
+                "PUSH2": JOY1_B,
+                "PUSH3": JOY1_Y
+        ])
+        demul.putAll("usagiym_JAMMA0_0", [
+                "COIN": KEY_5
+        ])
+        demul.putAll("wrungp_JAMMA0_0", JOY0_STARTCOIN+[
+                "PUSH1"       : JOY0_Y,
+                "ANALOGUP"    : JOY0_A,
+                "ANALOGLEFT"  : JOY0_ANALOG1_LEFT,
+                "ANALOGRIGHT" : JOY0_ANALOG1_RIGHT,
+                "ANALOGUP2"   : JOY0_ANALOG1_UP,
+                "ANALOGDOWN2" : JOY0_ANALOG1_DOWN,
+                "ANALOGLEFT2" : JOY0_LB,
+                "ANALOGRIGHT2": JOY0_RB
+        ])
+        demul.putAll("vonot_JAMMA0_0", JOY0_STARTCOIN+[
+                "PUSH1"       : JOY0_LB,
+                "PUSH2"       : JOY0_B,
+                "PUSH3"       : JOY0_A,
+                "DIGITALUP"   : JOY0_ANALOG1_UP,
+                "DIGITALDOWN" : JOY0_ANALOG1_DOWN,
+                "DIGITALLEFT" : JOY0_ANALOG1_LEFT,
+                "DIGITALRIGHT": JOY0_ANALOG1_RIGHT
+        ])
+        demul.putAll("vonot_JAMMA0_1", [
+                "PUSH1"       : JOY0_RB,
+                "PUSH2"       : JOY0_B,
+                "DIGITALUP"   : JOY0_ANALOG2_UP,
+                "DIGITALDOWN" : JOY0_ANALOG2_DOWN,
+                "DIGITALLEFT" : JOY0_ANALOG2_LEFT,
+                "DIGITALRIGHT": JOY0_ANALOG2_RIGHT
+        ])
+        demul.putAll("gundmct_JAMMA0_0", JOY0_STARTCOIN+JOY0_DPAD)
+        demul.putAll("gundmct_JAMMA0_0", [
+                "PUSH1": JOY0_X,
+                "PUSH2": JOY0_Y,
+                "PUSH3": JOY0_A,
+                "PUSH4": JOY0_B
+        ])
+        demul.putAll("shaktamb_JAMMA0_0", JOY0_STARTCOIN+JOY0_ANALOG+[
+                "PUSH1"      : JOY0_A,
+                "PUSH2"      : JOY0_LB,
+                "PUSH3"      : JOY0_RB,
+                "DIGITALUP"  : JOY0_UP,
+                "DIGITALDOWN": JOY0_DOWN
+        ])
+        demul.putAll("shaktamb_JAMMA0_1", JOY1_STARTCOIN+JOY1_ANALOG+[
+                "PUSH1"      : JOY1_A,
+                "PUSH2"      : JOY1_LB,
+                "PUSH3"      : JOY1_RB,
+                "DIGITALUP"  : JOY1_UP,
+                "DIGITALDOWN": JOY1_DOWN
+        ])
+        demul.putAll("jambo_JAMMA0_0", JOY0_STARTCOIN+JOY0_DRIVING+[
+                "PUSH1": JOY0_ANALOG2_DOWN,
+                "PUSH2": JOY0_ANALOG2_UP
+        ])
+        demul.putAll("quizqgd_JAMMA0_0", JOY0_STARTCOIN+JOY0_DPAD+[
+                "PUSH1": JOY0_X,
+                "PUSH2": JOY0_A,
+                "PUSH3": JOY0_B,
+                "PUSH4": JOY0_Y
+        ])
+        demul.putAll("quizqgd_JAMMA0_1", JOY1_STARTCOIN+JOY1_DPAD+[
+                "PUSH1": JOY1_X,
+                "PUSH2": JOY1_A,
+                "PUSH3": JOY1_B,
+                "PUSH4": JOY1_Y
+        ])
+        demul.putAll("ringout_JAMMA0_0", JOY0_STARTCOIN+[
+                "PUSH1"      : JOY0_A,
+                "PUSH2"      : JOY0_LB,
+                "ANALOGUP"   : JOY0_RB,
+                "ANALOGLEFT" : JOY0_ANALOG1_LEFT,
+                "ANALOGRIGHT": JOY0_ANALOG1_RIGHT
+        ])
+        demul.putAll("ringout_JAMMA0_1", JOY1_STARTCOIN+[
+                "PUSH1"      : JOY1_A,
+                "PUSH2"      : JOY1_LB,
+                "ANALOGUP"   : JOY1_RB,
+                "ANALOGLEFT" : JOY1_ANALOG1_LEFT,
+                "ANALOGRIGHT": JOY1_ANALOG1_RIGHT
+        ])
+        demul.putAll("soulsurf_JAMMA0_0", JOY0_STARTCOIN+[
+                "DIGITALLEFT" : JOY0_LEFT,
+                "DIGITALRIGHT": JOY0_RIGHT,
+                "ANALOGDOWN"  : JOY0_A,
+                "ANALOGLEFT"  : JOY0_ANALOG1_LEFT,
+                "ANALOGRIGHT" : JOY0_ANALOG1_RIGHT,
+                "ANALOGLEFT2" : JOY0_LB,
+                "ANALOGRIGHT2": JOY0_RB
+        ])
+        demul.putAll("kingrt66_JAMMA0_0", JOY0_STARTCOIN+JOY0_DRIVING+[
+                "PUSH1": JOY0_A,
+                "PUSH2": JOY0_B,
+                "PUSH3": JOY0_RT,
+                "PUSH4": JOY0_Y,
+                "PUSH5": JOY0_X,
+                "PUSH6": JOY0_LT
+        ])
+        demul.putAll("smshdrv_JAMMA0_0", [
+                "PUSH1"      : JOY0_RB,
+                "PUSH2"      : JOY0_LB,
+                "PUSH3"      : JOY0_A,
+                "COIN"       : JOY0_START,
+                "ANALOGLEFT" : JOY0_ANALOG1_LEFT,
+                "ANALOGRIGHT": JOY0_ANALOG1_RIGHT
+        ])
+        demul.putAll("atvtrack_JAMMA0_0", JOY0_STARTCOIN+[
+                "DIGITALLEFT" : JOY0_LB,
+                "DIGITALRIGHT": JOY0_RB,
+                "ANALOGUP"    : JOY0_A,
+                "ANALOGLEFT"  : JOY0_ANALOG1_LEFT,
+                "ANALOGRIGHT" : JOY0_ANALOG1_RIGHT
+        ])
         demul.store()
     }
 }

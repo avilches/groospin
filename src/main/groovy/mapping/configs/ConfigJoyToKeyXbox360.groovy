@@ -23,6 +23,10 @@ class ConfigJoyToKeyXbox360 {
         mappingManager = new MappingManager(hs)
         mappingManager.emptyAllJoyToKeyProfiles()
 
+        mappingManager.configDemul360()
+        mappingManager.mirrorUpdatedFiles(mirrorPath)
+
+        return
         mapEscapeExit()
         hyperSpin()
         retroArch()
@@ -37,13 +41,13 @@ class ConfigJoyToKeyXbox360 {
         neoRaine()
         pokeMini()
 
-        mappingManager.setPS2DefaultKeys()
-        mappingManager.setPPSSPP360AndKeys()
-        mappingManager.setGamecubeDefault360()
-        mappingManager.setWiiDefault360()
+        mappingManager.configPS2KeysAnd360()
+        mappingManager.configPSPKeysAnd360()
+        mappingManager.configGamecube360()
+        mappingManager.configWii360()
 
-        mappingManager.setNullDc360()
-        mappingManager.setDemul360()
+        mappingManager.configNullDc360()
+        mappingManager.configDemul360()
 
         mappingManager.mirrorUpdatedFiles(mirrorPath)
 
@@ -137,7 +141,7 @@ video dummy: [Vintage Commercials]
     }
 
     void hyperSpin() {
-        mappingManager.setHyperSpinDefaultKeys()
+        mappingManager.configureHyperSpinKeys()
         println "JoyToKey HyperSpin: Configuring profile for 360"
         new J2K(hs, "HyperSpin").presets.with {
             dPadToCursor(player1)
@@ -185,7 +189,7 @@ video dummy: [Vintage Commercials]
 // ejecutar el script ConfigRetroarch que se encarga de borrar los comandos de JoyStick de los dos players y, además,
 // de configurar teclas (también borra todas las acciones de sistema que haya configurados para que funcione todo
 // por defecto)
-        mappingManager.emptyRetroArch()
+        mappingManager.resetRetroArch()
 
         println "JoyToKey RetroArch: Configuring 360 BACK+RB = F1"
 // Después, se mapea en JoyToKey la tecla F1 con BACK+RB
@@ -213,7 +217,7 @@ y hacer el mapeo en el JoyToKey.
  */
 
 // Se elimina el default.cfg para que se vuelva a generar vacio, haciendo antes una copia de seguridad
-        mappingManager.setNoMameCtrlAndDefaultCfg()
+        mappingManager.resetMameConfig()
 
         println "JoyToKey MAME: Configuring 360 additional buttons (coin, start, dpad): ${(hs.listSystemsMAME() + hs.getSystem("HBMAME"))*.name}"
 // Mapeos en JoyToKey
@@ -237,7 +241,7 @@ y hacer el mapeo en el JoyToKey.
     }
     void pinballs() {
 
-        mappingManager.setPinballDefaults()
+        mappingManager.configPinballs()
         println "JoyToKey Future Pinball"
 // Future Pinball. Funciona mejor con teclado. Cargar el registro de Windows para que se carguen estas teclas
         hs.getSystem("Future Pinball").loadJ2KConfig().presets.with {
@@ -283,7 +287,7 @@ y hacer el mapeo en el JoyToKey.
             ])
             save()
         }
-        mappingManager.setWinViceDefaultKeys()
+        mappingManager.configCommodoreWinViceKeys()
         println "JoyToKey WinVICE: configuring ${hs.listSystemsWinVICE()*.name}"
         hs.listSystemsWinVICE()*.loadJ2KConfig().with { J2K j2k ->
             j2k.presets.with {
@@ -317,7 +321,7 @@ y hacer el mapeo en el JoyToKey.
     void superModel3() {
 
 
-        mappingManager.setSuperModel3DefaultKeysAndJoy()
+        mappingManager.configSuperModel3KeysAndJoy()
         println "JoyToKey Super Model 3"
         hs.getSystem("Sega Model 3").loadJ2KConfig().presets.with {
             dPadToCursor(player1)
@@ -345,7 +349,7 @@ y hacer el mapeo en el JoyToKey.
 
     void daphne() {
 
-        mappingManager.setDaphneDefaultKeys()
+        mappingManager.configDaphneKeys()
         println "JoyToKey Daphne"
         hs.getSystem("Daphne").loadJ2KConfig().presets.with {
 
@@ -378,7 +382,7 @@ y hacer el mapeo en el JoyToKey.
     void fourDO() {
 
 
-        mappingManager.setFourDODefaultKeys()
+        mappingManager.configFourDOKeys()
         println "JoyToKey Panasonic 3DO"
         hs.getSystem("Panasonic 3DO").loadJ2KConfig().presets.with {
 
@@ -419,7 +423,7 @@ y hacer el mapeo en el JoyToKey.
 
     void zinc() {
 
-        mappingManager.setZincDefaultKeys()
+        mappingManager.configZincKeys()
         println "JoyToKey Zinc"
         hs.getSystem("Zinc").loadJ2KConfig().presets.with {
 
@@ -459,7 +463,7 @@ y hacer el mapeo en el JoyToKey.
 
     void dice() {
 
-        mappingManager.setDICEDefaults()
+        mappingManager.configDICE()
         println "JoyToKey DICE"
         hs.getSystem("DICE").loadJ2KConfig().presets.with {
 
@@ -491,7 +495,7 @@ y hacer el mapeo en el JoyToKey.
 
     void neoRaine() {
 
-        mappingManager.setNeoRaineDefaults()
+        mappingManager.configNeoRaineKeys()
         println "JoyToKey SNK Neo Geo CD"
         hs.getSystem("SNK Neo Geo CD").loadJ2KConfig().presets.with {
 
@@ -531,7 +535,7 @@ y hacer el mapeo en el JoyToKey.
 
     void pokeMini() {
 
-        mappingManager.setPokeMiniDefaults()
+        mappingManager.configPokeMiniKeys()
         println "JoyToKey Nintendo Pokemon Mini"
         hs.getSystem("Nintendo Pokemon Mini").loadJ2KConfig().presets.with {
 

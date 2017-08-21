@@ -19,8 +19,6 @@ class ConfigJoyToKeyArcade {
         this.hs = hs
     }
 
-
-
     void execute(File mirrorPath, ArcadeSet arcadeSet) {
         this.arcadeSet = arcadeSet
         mappingManager = new MappingManager(hs)
@@ -42,8 +40,8 @@ class ConfigJoyToKeyArcade {
         neoRaine()
         pokeMini()
 
-        mappingManager.setNullDc360()
-        mappingManager.setDemul360()
+        mappingManager.configNullDc360()
+        mappingManager.configDemul360()
 
         mappingManager.mirrorUpdatedFiles(mirrorPath)
     }
@@ -55,7 +53,7 @@ class ConfigJoyToKeyArcade {
 
     void hyperSpin() {
 // Configuramos el menu de HyperSpin con teclas
-        mappingManager.setHyperSpinDefaultKeys()
+        mappingManager.configureHyperSpinKeys()
 /*
 d:\Games\HyperSpin-fe\Scripts\HScript\HScript.ahk
 CONTROL ALT MAYUSCULAS + F = TEAM VIEWER
@@ -142,7 +140,7 @@ CONTROL ALT MAYUSCULAS + F = TEAM VIEWER
 // Para que funcione los mandos arcade, usamos las teclas y mapeamos con JoyToKey ya que RetroArch no te
 // permite usar botones de otros player para un player. Insertar moneda pertenece al player 2 por lo que
 // no podriamos usarla para SELECT del player 1
-        mappingManager.emptyRetroArch()
+        mappingManager.resetRetroArch()
 
         println "- RetroArch: configure keys "
         hs.retroArch.with {
@@ -196,10 +194,10 @@ CONTROL ALT MAYUSCULAS + F = TEAM VIEWER
     void mame() {
 
 // Reseteamos MAME y apuntamos a controller "arcadeAT"
-        mappingManager.setNoMameCtrlAndDefaultCfg()
+        mappingManager.resetMameConfig()
 
 /* Se mapea MAME con teclas y luego se usa JoyToKey*/
-        mappingManager.setMameCtrlToKeyboard()
+        mappingManager.configMameCtrlrKeys()
 
 // Mapeos en JoyToKey
         println "JoyToKey MAME: joysticks and button -> keys"
@@ -265,7 +263,7 @@ CONTROL ALT MAYUSCULAS + F = TEAM VIEWER
     }
 
     void pinballs() {
-        mappingManager.setPinballDefaults()
+        mappingManager.configPinballs()
         println "JoyToKey Future Pinball"
 // Future Pinball. Funciona mejor con teclado. Cargar el registro de Windows para que se carguen estas teclas
         hs.getSystem("Future Pinball").loadJ2KConfig().presets.with {
@@ -407,7 +405,7 @@ hud: H
             save()
         }
 
-        mappingManager.setWinViceDefaultKeys()
+        mappingManager.configCommodoreWinViceKeys()
         println "JoyToKey WinVICE: configuring ${hs.listSystemsWinVICE()*.name}"
         hs.listSystemsWinVICE()*.loadJ2KConfig().with { J2K j2k ->
             j2k.presets.with {
@@ -451,7 +449,7 @@ hud: H
         Configuación en:
         d:\Games\Emulators\PCSX2\PCXS2.gigapig\inis\LilyPad.ini
          */
-        mappingManager.setPS2DefaultKeys()
+        mappingManager.configPS2KeysAnd360()
 
         println "JoyToKey Sony PlayStation 2 + Sega Ages"
 // AAE funciona mejor con teclado
@@ -483,7 +481,7 @@ hud: H
     }
 
     void ppsspp() {
-        mappingManager.setPPSSPP360AndKeys()
+        mappingManager.configPSPKeysAnd360()
 
         println "JoyToKey Sony PSP + Sony PSP Minis"
 // AAE funciona mejor con teclado
@@ -506,8 +504,8 @@ hud: H
     }
 
     void dolphins() {
-        mappingManager.setWiiDefault360()
-        mappingManager.setGamecubeDefaultKeyboard()
+        mappingManager.configWii360()
+        mappingManager.configGamecubeKeyboard()
         println "JoyToKey Dolphin keys"
 // AAE funciona mejor con teclado
         [hs.getSystem("Sega Triforce"), hs.getSystem("Nintendo WiiWare"), hs.getSystem("Nintendo Wii"), hs.getSystem("Nintendo GameCube")]*.loadJ2KConfig().each { J2K j2k ->
@@ -538,7 +536,7 @@ hud: H
     }
 
     void superModel3() {
-        mappingManager.setSuperModel3DefaultKeysAndJoy()
+        mappingManager.configSuperModel3KeysAndJoy()
 
         println "JoyToKey Super Model 3"
         hs.getSystem("Sega Model 3").loadJ2KConfig().presets.with {
@@ -596,7 +594,7 @@ hud: H
     }
 
     void daphne() {
-        mappingManager.setDaphneDefaultKeys()
+        mappingManager.configDaphneKeys()
         println "JoyToKey Daphne"
         hs.getSystem("Daphne").loadJ2KConfig().presets.with {
 
@@ -632,7 +630,7 @@ hud: H
 
     void fourDO() {
 
-        mappingManager.setFourDODefaultKeys()
+        mappingManager.configFourDOKeys()
         println "JoyToKey Panasonic 3DO"
         hs.getSystem("Panasonic 3DO").loadJ2KConfig().presets.with {
 
@@ -695,7 +693,7 @@ hud: H
 
     void zinc() {
 
-        mappingManager.setZincDefaultKeys()
+        mappingManager.configZincKeys()
         println "JoyToKey Zinc"
         hs.getSystem("Zinc").loadJ2KConfig().presets.with {
 
@@ -760,7 +758,7 @@ hud: H
 
     void dice() {
 
-        mappingManager.setDICEDefaults()
+        mappingManager.configDICE()
         println "JoyToKey DICE"
         hs.getSystem("DICE").loadJ2KConfig().presets.with {
 
@@ -796,7 +794,7 @@ hud: H
 
     void neoRaine() {
 
-        mappingManager.setNeoRaineDefaults()
+        mappingManager.configNeoRaineKeys()
         println "JoyToKey SNK Neo Geo CD"
         hs.getSystem("SNK Neo Geo CD").loadJ2KConfig().presets.with {
 
@@ -863,7 +861,7 @@ hud: H
 
     void pokeMini() {
 
-        mappingManager.setPokeMiniDefaults()
+        mappingManager.configPokeMiniKeys()
         println "JoyToKey Nintendo Pokemon Mini"
         hs.getSystem("Nintendo Pokemon Mini").loadJ2KConfig().presets.with {
 
@@ -896,7 +894,7 @@ hud: H
         }
 
 /*
-mappingManager.setNullDcKeyboardControlled()
+mappingManager.configNullDcKeys()
 println "JoyToKey NullDC"
 
 hs.getSystem("Sega Dreamcast").loadJ2KConfig().presets.with {
