@@ -103,10 +103,13 @@ class RetroArch {
     RetroArch folder(String folder) {
         iniFile = new IniFile(equals: " = ").parse(new File(folder, "retroarch.cfg"))
         iniFile.put("system_directory", "\":\\system\"")
+        iniFile.put("video_shader_enable", "\"true\"")
+        iniFile.put("video_shader", "\":\\shaders\\shaders_glsl\\crt\\crt-caligari.glslp\"")
         iniFile.store()
 
         coreIniFile = new IniFile(equals: " = ").parse(new File(folder, "retroarch-core-options.cfg"))
         coreIniFile.put("beetle_psx_analog_toggle", "\"enabled\"")
+        iniFile.put("video_shader_enable", "\"false\"")
         coreIniFile.store()
 
         File bettle = new File(folder, "config\\Beetle PSX\\Beetle PSX.cfg")
@@ -285,17 +288,18 @@ class RetroArch {
     }
 
     RetroArch setDevicePadForPlayer(player) {
+        println "****** Remember configure the right Xbox 360 controller to player1 and player2"
         iniFile.put("input_libretro_device_p${player}", DEVICE_PAD)
         this
     }
 
     RetroArch setDevicePadWithAnalogForPlayer(player) {
+        println "****** Remember configure the right Xbox 360 controller to player1 and player2"
         iniFile.put("input_libretro_device_p${player}", DEVICE_PAD_WITH_ANALOG)
         this
     }
 
     RetroArch emptyKeysForPlayer(player = 1, joypos = 1) {
-
         iniFile.put("input_player${player}_b", EMPTY)
         iniFile.put("input_player${player}_a", EMPTY)
         iniFile.put("input_player${player}_y", EMPTY)
@@ -310,7 +314,7 @@ class RetroArch {
         iniFile.put("input_player${player}_start", EMPTY)
 
         iniFile.put("input_libretro_device_p${player}", DEVICE_PAD_WITH_ANALOG)
-        iniFile.put("input_player${player}_analog_dpad_mode", ANALOG_TO_DPAD_NONE)
+        iniFile.put("input_player${player}_analog_dpad_mode", ANALOG_TO_DPAD_LEFT)
         iniFile.put("input_player${player}_joypad_index", "\"${joypos -1}\"")
 
         iniFile.put("input_player${player}_a_axis", EMPTY)

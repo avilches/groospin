@@ -1,407 +1,51 @@
 package mapping.configs
 
-import mapping.ResetAllMappings
+import mapping.MappingManager
 import org.hs5tb.groospin.base.HyperSpin
 import org.hs5tb.groospin.base.J2K
 
-HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
+class ConfigJoyToKeyXbox360 {
+    MappingManager mappingManager
 
-ResetAllMappings.mirror = new File("D:\\parches\\mapping\\360")
+    int joystickStartPosition = 1
+    int player1 = joystickStartPosition
+    int player2 = joystickStartPosition + 1
+    int player3 = joystickStartPosition + 2
+    int player4 = joystickStartPosition + 3
+    HyperSpin hs
 
-int joystickStartPosition = 1
-int player1 = joystickStartPosition
-int player2 = joystickStartPosition + 1
-int player3 = joystickStartPosition + 2
-int player4 = joystickStartPosition + 3
-
-ResetAllMappings.emptyAllJoyToKeyProfiles(hs)
-ResetAllMappings.setHyperSpinDefaultKeys(hs)
-println "JoyToKey HyperSpin: Configuring profile for 360"
-new J2K(hs, "HyperSpin").presets.with {
-    dPadToCursor(player1)
-    dPadToCursor(player2)
-    analogToCursor(player1)
-    analogToCursor(player2)
-    xbox360Esc(player1)
-    xbox360Esc(player2)
-    Map mapping = [
-            (XBOX360_A)        : RETURN,
-            (XBOX360_B)        : ESC,
-            (XBOX360_X)        : KEY_F,
-            (XBOX360_Y)        : KEY_G,
-            (XBOX360_BACK)     : F5,  // GENERO
-            (XBOX360_START)    : KEY_H,
-            (XBOX360_LB)       : PAGEDOWN,
-            (XBOX360_LT_ANALOG): F3,   // SEARCH
-            (XBOX360_RB)       : PAGEUP,
-            (XBOX360_RT_ANALOG): F4 // FAVORITES
-    ]
-    buttonsTo(player1, mapping)
-    buttonsTo(player2, mapping)
-    save()
-}
-
-// Mapear en JoyToKey la tecla ESCAPE con BACK+START (Xbox 360) en TODOS los sistemas
-println "JoyToKey all: BACK+START -> ESC....."
-hs.listAllJoyToKeyProfiles().each { J2K j2k ->
-    j2k.presets.with {
-        xbox360Esc(player1)
-        xbox360Esc(player2)
-        xbox360Esc(player3)
-        xbox360Esc(player4)
-        save()
+    ConfigJoyToKeyXbox360(HyperSpin hs) {
+        this.hs = hs
     }
-}
 
-// Los sistemas RetroArch ya funcionan con los mandos de 360 con la configuración por defecto.
-// Para dejar la configuración por defecto: podemos borrar el retroarch.cfg o
-// ejecutar el script ConfigRetroarch que se encarga de borrar los comandos de JoyStick de los dos players y, además,
-// de configurar teclas (también borra todas las acciones de sistema que haya configurados para que funcione todo
-// por defecto)
-ResetAllMappings.emptyRetroArch(hs.retroArch)
+    void execute(File mirrorPath) {
+        this.hs = hs
+        mappingManager = new MappingManager(hs)
+        mappingManager.emptyAllJoyToKeyProfiles()
 
-println "JoyToKey RetroArch: Configuring 360 BACK+RB = F1"
-// Después, se mapea en JoyToKey la tecla F1 con BACK+RB
-hs.listSystemsRetroArch()*.loadJ2KConfig().each { J2K j2k ->
-    j2k.presets.with {
-        xbox360RetroArchF1(player1)
-        xbox360RetroArchF1(player2)
-        save()
-    }
-}
+        mapEscapeExit()
+        hyperSpin()
+        retroArch()
+        mame()
+        pinballs()
+        aae()
+        superModel3()
+        daphne()
+        fourDO()
+        zinc()
+        dice()
+        neoRaine()
+        pokeMini()
 
-/* Los sistemas MAME ya funcionan con los mandos de 360 si estan conectados como JOYSTICKS 1 Y 2
+        mappingManager.setPS2DefaultKeys()
+        mappingManager.setPPSSPP360AndKeys()
+        mappingManager.setGamecubeDefault360()
+        mappingManager.setWiiDefault360()
 
-¿Porque se usa entonces JoyToKey?
-- El dpad digital del mando de 360 no funciona, asi que se mapea a los cursores (solo funciona el analogico de la izquierda)
-- Se mapean BACK y START para echar moneda y start
-TODAS ESTAS CONFIGURACIONES SE PODRIAN HACER MODIFICANDO EL default.cfg pero hay un problema:
+        mappingManager.setNullDc360()
+        mappingManager.setDemul360()
 
-SI SE DESENCHUFA EL MANDO (O SI ES INALAMBRICO Y SE APAGA) CUALQUIER CONFIGURACIÓN QUE SE TENGA ECHA EN EL default.cfg
-SE BORRA. Por lo tanto, cuando se usan mandos que se pueden enchufar y desenchufar, lo mejor es no editar el default.cfg
-y hacer el mapeo en el JoyToKey.
- */
-
-// Se elimina el default.cfg para que se vuelva a generar vacio, haciendo antes una copia de seguridad
-ResetAllMappings.setNoMameCtrlAndDefaultCfg(hs)
-
-println "JoyToKey MAME: Configuring 360 additional buttons (coin, start, dpad): ${(hs.listSystemsMAME() + hs.getSystem("HBMAME"))*.name}"
-// Mapeos en JoyToKey
-(hs.listSystemsMAME() + hs.getSystem("HBMAME"))*.loadJ2KConfig().each { J2K j2k ->
-    j2k.presets.with {
-        xbox360MameTab(player1)
-        xbox360MameTab(player2)
-        dPadToCursor(player1)
-        dPadTo(player2, KEY_D, KEY_F, KEY_R, KEY_G)
-        buttonsTo(player1, [
-                (XBOX360_BACK) : KEY_5,
-                (XBOX360_START): KEY_1
-        ])
-        buttonsTo(player2, [
-                (XBOX360_BACK) : KEY_6,
-                (XBOX360_START): KEY_2
-        ])
-        save()
-    }
-}
-
-ResetAllMappings.setPinballDefaults()
-println "JoyToKey Future Pinball"
-// Future Pinball. Funciona mejor con teclado. Cargar el registro de Windows para que se carguen estas teclas
-hs.getSystem("Future Pinball").loadJ2KConfig().presets.with {
-    analogLeftTo(player1, F1, F4, F3, F2)  // vistas
-    analogRightTo(player1, F5, F8, F7, F6)  // vistas
-    dPadTo(player1, KEY_F, RETURN, SPACE, KEY_A)  // abajo sacar, resto golpear
-    buttonsTo(player1, [
-            (XBOX360_A)    : RETURN, // sacar
-            (XBOX360_Y)    : TAB, // mirar arriba
-            (XBOX360_BACK) : KEY_5, // start
-            (XBOX360_START): KEY_1, // moneda
-            (XBOX360_LB)   : [KEY_Z, KEY_X],  // pinballs izquierdo
-            (XBOX360_RB)   : [KEY_N, KEY_M],  // pinballs derecho
-    ])
-    save()
-}
-
-println "JoyTokey AAE"
-// AAE funciona mejor con teclado
-hs.getSystem("AAE").loadJ2KConfig().presets.with {
-    dPadToCursor(player1)
-    dPadToCursor(player2)
-    analogToCursor(player1)
-    analogToCursor(player2)
-    buttonsTo(player1, [
-            (XBOX360_A)    : ALT,
-            (XBOX360_B)    : CTRL,
-            (XBOX360_X)    : SHIFT,
-            (XBOX360_Y)    : SPACE,
-            (XBOX360_BACK) : KEY_5,
-            (XBOX360_START): KEY_1
-    ])
-    buttonsTo(player2, [
-            (XBOX360_A)    : ALT,
-            (XBOX360_B)    : CTRL,
-            (XBOX360_X)    : SHIFT,
-            (XBOX360_Y)    : SPACE,
-            (XBOX360_BACK) : KEY_5,
-            (XBOX360_START): KEY_2
-    ])
-    save()
-}
-ResetAllMappings.setWinViceDefaultKeys(hs)
-println "JoyToKey WinVICE: configuring ${hs.listSystemsWinVICE()*.name}"
-hs.listSystemsWinVICE()*.loadJ2KConfig().with { J2K j2k ->
-    j2k.presets.with {
-        Map mapping = [
-                (XBOX360_B)        : SPACE,
-                (XBOX360_X)        : ENTER,
-                (XBOX360_Y)        : TAB,
-                (XBOX360_BACK)     : F1,
-                (XBOX360_START)    : CAPSLOCK,  // RUN/STOP
-                (XBOX360_LB)       : KEY_N,
-                (XBOX360_LT_ANALOG): KEY_1,
-                (XBOX360_RB)       : KEY_Y,
-                (XBOX360_RT_ANALOG): KEY_2,
-        ]
-        buttonsTo(player1, mapping)
-        buttonToKey(player1, XBOX360_A, KEY_Q)
-
-        buttonsTo(player2, mapping)
-        buttonToKey(player2, XBOX360_A, KEY_U)
-
-        dPadTo(player1, KEY_A, KEY_S, KEY_W, KEY_D)
-        analogToCursor(player1)
-
-        dPadTo(player2, KEY_J, KEY_K, KEY_I, KEY_L)
-        analogToCursor(player2)
-        save()
-    }
-}
-
-ResetAllMappings.setPS2DefaultKeys(hs)
-ResetAllMappings.setPPSSPP360AndKeys(hs)
-ResetAllMappings.setGamecubeDefault360(hs)
-ResetAllMappings.setWiiDefault360(hs)
-
-ResetAllMappings.setSuperModel3DefaultKeysAndJoy(hs)
-println "JoyToKey Super Model 3"
-hs.getSystem("Sega Model 3").loadJ2KConfig().presets.with {
-    dPadToCursor(player1)
-    buttonsTo(player1, [(XBOX360_BACK)     : KEY_5,  // coin
-                        (XBOX360_START)    : KEY_1, // start
-                        (XBOX360_L3)       : KEY_7,  // service
-                        (XBOX360_R3)       : KEY_9,  // test
-                        (XBOX360_RB)       : KEY_W, // sube marcha
-                        (XBOX360_LB)       : KEY_Q, // baja marcha
-                        (XBOX360_RT_ANALOG): CURSOR_UP, // frena
-                        (XBOX360_LT_ANALOG): CURSOR_DOWN, // acelera
-    ])
-
-    dPadToNumpad(player1)
-    buttonsTo(player2, [(XBOX360_BACK) : KEY_6,  // coin
-                        (XBOX360_START): KEY_2,  // start
-                        (XBOX360_L3)   : KEY_8,  // service
-                        (XBOX360_R3)   : KEY_0,  // test
-    ])
-
-
-    save()
-}
-
-ResetAllMappings.setDaphneDefaultKeys(hs)
-println "JoyToKey Daphne"
-hs.getSystem("Daphne").loadJ2KConfig().presets.with {
-
-    analogToCursor(player1)
-    dPadToCursor(player1)
-
-    analogToCursor(player2)
-    dPadToCursor(player2)
-    Map mapping = [
-            (XBOX360_A)        : LCTRL,
-            (XBOX360_B)        : LALT,
-            (XBOX360_X)        : LSHIFT,
-            (XBOX360_Y)        : KEY_Z, // skill 1
-            (XBOX360_BACK)     : KEY_5, // coin
-            (XBOX360_START)    : KEY_1,  // start
-            (XBOX360_LB)       : KEY_X, // skill 2
-            (XBOX360_LT_ANALOG): KEY_T, // tilt
-            (XBOX360_RB)       : KEY_C, // skill 3
-            (XBOX360_RT_ANALOG): KEY_P, // pause
-    ]
-    buttonsTo(player1, mapping)
-    mapping[XBOX360_BACK] = KEY_6
-    mapping[XBOX360_START] = KEY_2
-    buttonsTo(player2, mapping)
-
-    save()
-}
-
-ResetAllMappings.setFourDODefaultKeys(hs)
-println "JoyToKey Panasonic 3DO"
-hs.getSystem("Panasonic 3DO").loadJ2KConfig().presets.with {
-
-    analogToCursor(player1)
-    dPadToCursor(player1)
-    buttonsTo(player1, [
-            (XBOX360_A)        : KEY_Z,
-            (XBOX360_B)        : KEY_X,
-            (XBOX360_X)        : KEY_A,
-//            (XBOX360_Y)        : KEY_Z, // skill 1
-            (XBOX360_BACK)     : KEY_5, // stop
-            (XBOX360_START)    : KEY_1,  // play/pause
-            (XBOX360_LB)       : KEY_Q, //
-            (XBOX360_LT_ANALOG): KEY_Q, //
-            (XBOX360_RB)       : KEY_W, //
-            (XBOX360_RT_ANALOG): KEY_W, //
-    ])
-
-    analogToNumpad(player2)
-    dPadToNumpad(player2)
-    buttonsTo(player2, [
-            (XBOX360_A)        : KEY_C,
-            (XBOX360_B)        : KEY_V,
-            (XBOX360_X)        : KEY_D,
-//            (XBOX360_Y)        : KEY_Z, // skill 1
-            (XBOX360_BACK)     : KEY_6, // stop
-            (XBOX360_START)    : KEY_2,  // play/pause
-            (XBOX360_LB)       : KEY_E, //
-            (XBOX360_LT_ANALOG): KEY_E, //
-            (XBOX360_RB)       : KEY_R, //
-            (XBOX360_RT_ANALOG): KEY_R, //
-    ])
-
-    save()
-}
-
-ResetAllMappings.setZincDefaultKeys(hs)
-println "JoyToKey Zinc"
-hs.getSystem("Zinc").loadJ2KConfig().presets.with {
-
-    analogToCursor(player1)
-    dPadToCursor(player1)
-    buttonsTo(player1, [
-            (XBOX360_A)        : KEY_Z,
-            (XBOX360_B)        : KEY_X,
-            (XBOX360_X)        : KEY_C,
-            (XBOX360_Y)        : KEY_V,
-            (XBOX360_BACK)     : KEY_5,
-            (XBOX360_START)    : KEY_1,
-            (XBOX360_LB)       : KEY_B,
-            (XBOX360_LT_ANALOG): KEY_B,
-            (XBOX360_RB)       : KEY_N,
-            (XBOX360_RT_ANALOG): KEY_N,
-    ])
-
-    analogToNumpad(player2)
-    dPadToNumpad(player2)
-    buttonsTo(player2, [
-            (XBOX360_A)        : KEY_A,
-            (XBOX360_B)        : KEY_S,
-            (XBOX360_X)        : KEY_D,
-            (XBOX360_Y)        : KEY_F,
-            (XBOX360_BACK)     : KEY_6,
-            (XBOX360_START)    : KEY_2,
-            (XBOX360_LB)       : KEY_G,
-            (XBOX360_LT_ANALOG): KEY_G,
-            (XBOX360_RB)       : KEY_H,
-            (XBOX360_RT_ANALOG): KEY_H,
-    ])
-
-    save()
-}
-
-ResetAllMappings.setDICEDefaults(hs)
-println "JoyToKey DICE"
-hs.getSystem("DICE").loadJ2KConfig().presets.with {
-
-    analogToCursor(player1)
-    dPadToCursor(player1)
-
-    analogTo(player2, KEY_A, KEY_S, KEY_W, KEY_D)
-    dPadTo(player2, KEY_A, KEY_S, KEY_W, KEY_D)
-
-    buttonsTo(player1, [
-            (XBOX360_A)        : LCONTROL,
-            (XBOX360_B)        : LALT,
-            (XBOX360_X)        : SPACE,
-            (XBOX360_Y)        : SPACE,
-            (XBOX360_BACK)     : KEY_6,
-            (XBOX360_START)    : KEY_2
-    ])
-
-    buttonsTo(player2, [
-            (XBOX360_A)        : KEY_G,
-            (XBOX360_B)        : KEY_H,
-            (XBOX360_X)        : KEY_J,
-            (XBOX360_Y)        : KEY_J,
-            (XBOX360_BACK)     : KEY_6,
-            (XBOX360_START)    : KEY_2
-    ])
-}
-
-ResetAllMappings.setNeoRaineDefaults(hs)
-println "JoyToKey SNK Neo Geo CD"
-hs.getSystem("SNK Neo Geo CD").loadJ2KConfig().presets.with {
-
-    analogToCursor(player1)
-    dPadToCursor(player1)
-    buttonsTo(player1, [
-            (XBOX360_A)        : KEY_Z,
-            (XBOX360_B)        : KEY_X,
-            (XBOX360_X)        : KEY_C,
-            (XBOX360_Y)        : KEY_V,
-            (XBOX360_BACK)     : KEY_5,
-            (XBOX360_START)    : KEY_1,
-            (XBOX360_LB)       : KEY_B,
-            (XBOX360_LT_ANALOG): KEY_M,
-            (XBOX360_RB)       : KEY_N,
-            (XBOX360_RT_ANALOG): KEY_L,
-    ])
-
-    analogToNumpad(player2)
-    dPadToNumpad(player2)
-    buttonsTo(player2, [
-            (XBOX360_A)        : KEY_A,
-            (XBOX360_B)        : KEY_S,
-            (XBOX360_X)        : KEY_D,
-            (XBOX360_Y)        : KEY_F,
-            (XBOX360_BACK)     : KEY_6,
-            (XBOX360_START)    : KEY_2,
-            (XBOX360_LB)       : KEY_G,
-            (XBOX360_LT_ANALOG): KEY_J,
-            (XBOX360_RB)       : KEY_H,
-            (XBOX360_RT_ANALOG): KEY_K,
-    ])
-
-    save()
-}
-
-ResetAllMappings.setPokeMiniDefaults(hs)
-println "JoyToKey Nintendo Pokemon Mini"
-hs.getSystem("Nintendo Pokemon Mini").loadJ2KConfig().presets.with {
-
-    analogToCursor(player1)
-    dPadToCursor(player1)
-    buttonsTo(player1, [
-            (XBOX360_A)        : KEY_X,
-            (XBOX360_B)        : KEY_Z,
-            (XBOX360_X)        : KEY_S,
-            (XBOX360_Y)        : KEY_C,
-            (XBOX360_BACK)     : KEY_A,
-            (XBOX360_START)    : KEY_E,
-            (XBOX360_LT_ANALOG): TAB,
-            (XBOX360_RT_ANALOG): TAB,
-    ])
-
-
-    save()
-}
-
-ResetAllMappings.setNullDc360(hs)
-ResetAllMappings.setDemul360(hs)
-
-ResetAllMappings.mirrorAllJoyToKeyProfiles(hs)
+        mappingManager.mirrorUpdatedFiles(mirrorPath)
 
 /*
 DONE:
@@ -489,3 +133,421 @@ DOSBox eXoDOS: [Microsoft MS-DOS eXoDOS]
 DOSBox Win3XO: [Microsoft Windows 3.x]
 video dummy: [Vintage Commercials]
  */
+
+    }
+
+    void hyperSpin() {
+        mappingManager.setHyperSpinDefaultKeys()
+        println "JoyToKey HyperSpin: Configuring profile for 360"
+        new J2K(hs, "HyperSpin").presets.with {
+            dPadToCursor(player1)
+            dPadToCursor(player2)
+            analogToCursor(player1)
+            analogToCursor(player2)
+            xbox360Esc(player1)
+            xbox360Esc(player2)
+            Map mapping = [
+                    (XBOX360_A)        : RETURN,
+                    (XBOX360_B)        : ESC,
+                    (XBOX360_X)        : KEY_F,
+                    (XBOX360_Y)        : KEY_G,
+                    (XBOX360_BACK)     : F5,  // GENERO
+                    (XBOX360_START)    : KEY_H,
+                    (XBOX360_LB)       : PAGEDOWN,
+                    (XBOX360_LT_ANALOG): F3,   // SEARCH
+                    (XBOX360_RB)       : PAGEUP,
+                    (XBOX360_RT_ANALOG): F4 // FAVORITES
+            ]
+            buttonsTo(player1, mapping)
+            buttonsTo(player2, mapping)
+            save()
+        }
+    }
+
+    void mapEscapeExit() {
+
+// Mapear en JoyToKey la tecla ESCAPE con BACK+START (Xbox 360) en TODOS los sistemas
+        println "JoyToKey all: BACK+START -> ESC....."
+        hs.listAllJoyToKeyProfiles().each { J2K j2k ->
+            j2k.presets.with {
+                xbox360Esc(player1)
+                xbox360Esc(player2)
+                xbox360Esc(player3)
+                xbox360Esc(player4)
+                save()
+            }
+        }
+    }
+    void retroArch() {
+
+// Los sistemas RetroArch ya funcionan con los mandos de 360 con la configuración por defecto.
+// Para dejar la configuración por defecto: podemos borrar el retroarch.cfg o
+// ejecutar el script ConfigRetroarch que se encarga de borrar los comandos de JoyStick de los dos players y, además,
+// de configurar teclas (también borra todas las acciones de sistema que haya configurados para que funcione todo
+// por defecto)
+        mappingManager.emptyRetroArch()
+
+        println "JoyToKey RetroArch: Configuring 360 BACK+RB = F1"
+// Después, se mapea en JoyToKey la tecla F1 con BACK+RB
+        hs.listSystemsRetroArch()*.loadJ2KConfig().each { J2K j2k ->
+            j2k.presets.with {
+                xbox360RetroArchF1(player1)
+                xbox360RetroArchF1(player2)
+                save()
+            }
+        }
+    }
+
+    void mame() {
+
+/* Los sistemas MAME ya funcionan con los mandos de 360 si estan conectados como JOYSTICKS 1 Y 2
+
+¿Porque se usa entonces JoyToKey?
+- El dpad digital del mando de 360 no funciona, asi que se mapea a los cursores (solo funciona el analogico de la izquierda)
+- Se mapean BACK y START para echar moneda y start
+TODAS ESTAS CONFIGURACIONES SE PODRIAN HACER MODIFICANDO EL default.cfg pero hay un problema:
+
+SI SE DESENCHUFA EL MANDO (O SI ES INALAMBRICO Y SE APAGA) CUALQUIER CONFIGURACIÓN QUE SE TENGA ECHA EN EL default.cfg
+SE BORRA. Por lo tanto, cuando se usan mandos que se pueden enchufar y desenchufar, lo mejor es no editar el default.cfg
+y hacer el mapeo en el JoyToKey.
+ */
+
+// Se elimina el default.cfg para que se vuelva a generar vacio, haciendo antes una copia de seguridad
+        mappingManager.setNoMameCtrlAndDefaultCfg()
+
+        println "JoyToKey MAME: Configuring 360 additional buttons (coin, start, dpad): ${(hs.listSystemsMAME() + hs.getSystem("HBMAME"))*.name}"
+// Mapeos en JoyToKey
+        (hs.listSystemsMAME() + hs.getSystem("HBMAME"))*.loadJ2KConfig().each { J2K j2k ->
+            j2k.presets.with {
+                xbox360MameTab(player1)
+                xbox360MameTab(player2)
+                dPadToCursor(player1)
+                dPadTo(player2, KEY_D, KEY_F, KEY_R, KEY_G)
+                buttonsTo(player1, [
+                        (XBOX360_BACK) : KEY_5,
+                        (XBOX360_START): KEY_1
+                ])
+                buttonsTo(player2, [
+                        (XBOX360_BACK) : KEY_6,
+                        (XBOX360_START): KEY_2
+                ])
+                save()
+            }
+        }
+    }
+    void pinballs() {
+
+        mappingManager.setPinballDefaults()
+        println "JoyToKey Future Pinball"
+// Future Pinball. Funciona mejor con teclado. Cargar el registro de Windows para que se carguen estas teclas
+        hs.getSystem("Future Pinball").loadJ2KConfig().presets.with {
+            analogLeftTo(player1, F1, F4, F3, F2)  // vistas
+            analogRightTo(player1, F5, F8, F7, F6)  // vistas
+            dPadTo(player1, KEY_F, RETURN, SPACE, KEY_A)  // abajo sacar, resto golpear
+            buttonsTo(player1, [
+                    (XBOX360_A)    : RETURN, // sacar
+                    (XBOX360_Y)    : TAB, // mirar arriba
+                    (XBOX360_BACK) : KEY_5, // start
+                    (XBOX360_START): KEY_1, // moneda
+                    (XBOX360_LB)   : [KEY_Z, KEY_X],  // pinballs izquierdo
+                    (XBOX360_RB)   : [KEY_N, KEY_M],  // pinballs derecho
+            ])
+            save()
+        }
+    }
+
+    void aae() {
+
+        println "JoyTokey AAE"
+// AAE funciona mejor con teclado
+        hs.getSystem("AAE").loadJ2KConfig().presets.with {
+            dPadToCursor(player1)
+            dPadToCursor(player2)
+            analogToCursor(player1)
+            analogToCursor(player2)
+            buttonsTo(player1, [
+                    (XBOX360_A)    : ALT,
+                    (XBOX360_B)    : CTRL,
+                    (XBOX360_X)    : SHIFT,
+                    (XBOX360_Y)    : SPACE,
+                    (XBOX360_BACK) : KEY_5,
+                    (XBOX360_START): KEY_1
+            ])
+            buttonsTo(player2, [
+                    (XBOX360_A)    : ALT,
+                    (XBOX360_B)    : CTRL,
+                    (XBOX360_X)    : SHIFT,
+                    (XBOX360_Y)    : SPACE,
+                    (XBOX360_BACK) : KEY_5,
+                    (XBOX360_START): KEY_2
+            ])
+            save()
+        }
+        mappingManager.setWinViceDefaultKeys()
+        println "JoyToKey WinVICE: configuring ${hs.listSystemsWinVICE()*.name}"
+        hs.listSystemsWinVICE()*.loadJ2KConfig().with { J2K j2k ->
+            j2k.presets.with {
+                Map mapping = [
+                        (XBOX360_B)        : SPACE,
+                        (XBOX360_X)        : ENTER,
+                        (XBOX360_Y)        : TAB,
+                        (XBOX360_BACK)     : F1,
+                        (XBOX360_START)    : CAPSLOCK,  // RUN/STOP
+                        (XBOX360_LB)       : KEY_N,
+                        (XBOX360_LT_ANALOG): KEY_1,
+                        (XBOX360_RB)       : KEY_Y,
+                        (XBOX360_RT_ANALOG): KEY_2,
+                ]
+                buttonsTo(player1, mapping)
+                buttonToKey(player1, XBOX360_A, KEY_Q)
+
+                buttonsTo(player2, mapping)
+                buttonToKey(player2, XBOX360_A, KEY_U)
+
+                dPadTo(player1, KEY_A, KEY_S, KEY_W, KEY_D)
+                analogToCursor(player1)
+
+                dPadTo(player2, KEY_J, KEY_K, KEY_I, KEY_L)
+                analogToCursor(player2)
+                save()
+            }
+        }
+    }
+
+    void superModel3() {
+
+
+        mappingManager.setSuperModel3DefaultKeysAndJoy()
+        println "JoyToKey Super Model 3"
+        hs.getSystem("Sega Model 3").loadJ2KConfig().presets.with {
+            dPadToCursor(player1)
+            buttonsTo(player1, [(XBOX360_BACK)     : KEY_5,  // coin
+                                (XBOX360_START)    : KEY_1, // start
+                                (XBOX360_L3)       : KEY_7,  // service
+                                (XBOX360_R3)       : KEY_9,  // test
+                                (XBOX360_RB)       : KEY_W, // sube marcha
+                                (XBOX360_LB)       : KEY_Q, // baja marcha
+                                (XBOX360_RT_ANALOG): CURSOR_UP, // frena
+                                (XBOX360_LT_ANALOG): CURSOR_DOWN, // acelera
+            ])
+
+            dPadToNumpad(player1)
+            buttonsTo(player2, [(XBOX360_BACK) : KEY_6,  // coin
+                                (XBOX360_START): KEY_2,  // start
+                                (XBOX360_L3)   : KEY_8,  // service
+                                (XBOX360_R3)   : KEY_0,  // test
+            ])
+
+
+            save()
+        }
+    }
+
+    void daphne() {
+
+        mappingManager.setDaphneDefaultKeys()
+        println "JoyToKey Daphne"
+        hs.getSystem("Daphne").loadJ2KConfig().presets.with {
+
+            analogToCursor(player1)
+            dPadToCursor(player1)
+
+            analogToCursor(player2)
+            dPadToCursor(player2)
+            Map mapping = [
+                    (XBOX360_A)        : LCTRL,
+                    (XBOX360_B)        : LALT,
+                    (XBOX360_X)        : LSHIFT,
+                    (XBOX360_Y)        : KEY_Z, // skill 1
+                    (XBOX360_BACK)     : KEY_5, // coin
+                    (XBOX360_START)    : KEY_1,  // start
+                    (XBOX360_LB)       : KEY_X, // skill 2
+                    (XBOX360_LT_ANALOG): KEY_T, // tilt
+                    (XBOX360_RB)       : KEY_C, // skill 3
+                    (XBOX360_RT_ANALOG): KEY_P, // pause
+            ]
+            buttonsTo(player1, mapping)
+            mapping[XBOX360_BACK] = KEY_6
+            mapping[XBOX360_START] = KEY_2
+            buttonsTo(player2, mapping)
+
+            save()
+        }
+    }
+
+    void fourDO() {
+
+
+        mappingManager.setFourDODefaultKeys()
+        println "JoyToKey Panasonic 3DO"
+        hs.getSystem("Panasonic 3DO").loadJ2KConfig().presets.with {
+
+            analogToCursor(player1)
+            dPadToCursor(player1)
+            buttonsTo(player1, [
+                    (XBOX360_A)        : KEY_Z,
+                    (XBOX360_B)        : KEY_X,
+                    (XBOX360_X)        : KEY_A,
+//            (XBOX360_Y)        : KEY_Z, // skill 1
+                    (XBOX360_BACK)     : KEY_5, // stop
+                    (XBOX360_START)    : KEY_1,  // play/pause
+                    (XBOX360_LB)       : KEY_Q, //
+                    (XBOX360_LT_ANALOG): KEY_Q, //
+                    (XBOX360_RB)       : KEY_W, //
+                    (XBOX360_RT_ANALOG): KEY_W, //
+            ])
+
+            analogToNumpad(player2)
+            dPadToNumpad(player2)
+            buttonsTo(player2, [
+                    (XBOX360_A)        : KEY_C,
+                    (XBOX360_B)        : KEY_V,
+                    (XBOX360_X)        : KEY_D,
+//            (XBOX360_Y)        : KEY_Z, // skill 1
+                    (XBOX360_BACK)     : KEY_6, // stop
+                    (XBOX360_START)    : KEY_2,  // play/pause
+                    (XBOX360_LB)       : KEY_E, //
+                    (XBOX360_LT_ANALOG): KEY_E, //
+                    (XBOX360_RB)       : KEY_R, //
+                    (XBOX360_RT_ANALOG): KEY_R, //
+            ])
+
+            save()
+        }
+
+    }
+
+    void zinc() {
+
+        mappingManager.setZincDefaultKeys()
+        println "JoyToKey Zinc"
+        hs.getSystem("Zinc").loadJ2KConfig().presets.with {
+
+            analogToCursor(player1)
+            dPadToCursor(player1)
+            buttonsTo(player1, [
+                    (XBOX360_A)        : KEY_Z,
+                    (XBOX360_B)        : KEY_X,
+                    (XBOX360_X)        : KEY_C,
+                    (XBOX360_Y)        : KEY_V,
+                    (XBOX360_BACK)     : KEY_5,
+                    (XBOX360_START)    : KEY_1,
+                    (XBOX360_LB)       : KEY_B,
+                    (XBOX360_LT_ANALOG): KEY_B,
+                    (XBOX360_RB)       : KEY_N,
+                    (XBOX360_RT_ANALOG): KEY_N,
+            ])
+
+            analogToNumpad(player2)
+            dPadToNumpad(player2)
+            buttonsTo(player2, [
+                    (XBOX360_A)        : KEY_A,
+                    (XBOX360_B)        : KEY_S,
+                    (XBOX360_X)        : KEY_D,
+                    (XBOX360_Y)        : KEY_F,
+                    (XBOX360_BACK)     : KEY_6,
+                    (XBOX360_START)    : KEY_2,
+                    (XBOX360_LB)       : KEY_G,
+                    (XBOX360_LT_ANALOG): KEY_G,
+                    (XBOX360_RB)       : KEY_H,
+                    (XBOX360_RT_ANALOG): KEY_H,
+            ])
+
+            save()
+        }
+    }
+
+    void dice() {
+
+        mappingManager.setDICEDefaults()
+        println "JoyToKey DICE"
+        hs.getSystem("DICE").loadJ2KConfig().presets.with {
+
+            analogToCursor(player1)
+            dPadToCursor(player1)
+
+            analogTo(player2, KEY_A, KEY_S, KEY_W, KEY_D)
+            dPadTo(player2, KEY_A, KEY_S, KEY_W, KEY_D)
+
+            buttonsTo(player1, [
+                    (XBOX360_A)    : LCONTROL,
+                    (XBOX360_B)    : LALT,
+                    (XBOX360_X)    : SPACE,
+                    (XBOX360_Y)    : SPACE,
+                    (XBOX360_BACK) : KEY_6,
+                    (XBOX360_START): KEY_2
+            ])
+
+            buttonsTo(player2, [
+                    (XBOX360_A)    : KEY_G,
+                    (XBOX360_B)    : KEY_H,
+                    (XBOX360_X)    : KEY_J,
+                    (XBOX360_Y)    : KEY_J,
+                    (XBOX360_BACK) : KEY_6,
+                    (XBOX360_START): KEY_2
+            ])
+        }
+    }
+
+    void neoRaine() {
+
+        mappingManager.setNeoRaineDefaults()
+        println "JoyToKey SNK Neo Geo CD"
+        hs.getSystem("SNK Neo Geo CD").loadJ2KConfig().presets.with {
+
+            analogToCursor(player1)
+            dPadToCursor(player1)
+            buttonsTo(player1, [
+                    (XBOX360_A)        : KEY_Z,
+                    (XBOX360_B)        : KEY_X,
+                    (XBOX360_X)        : KEY_C,
+                    (XBOX360_Y)        : KEY_V,
+                    (XBOX360_BACK)     : KEY_5,
+                    (XBOX360_START)    : KEY_1,
+                    (XBOX360_LB)       : KEY_B,
+                    (XBOX360_LT_ANALOG): KEY_M,
+                    (XBOX360_RB)       : KEY_N,
+                    (XBOX360_RT_ANALOG): KEY_L,
+            ])
+
+            analogToNumpad(player2)
+            dPadToNumpad(player2)
+            buttonsTo(player2, [
+                    (XBOX360_A)        : KEY_A,
+                    (XBOX360_B)        : KEY_S,
+                    (XBOX360_X)        : KEY_D,
+                    (XBOX360_Y)        : KEY_F,
+                    (XBOX360_BACK)     : KEY_6,
+                    (XBOX360_START)    : KEY_2,
+                    (XBOX360_LB)       : KEY_G,
+                    (XBOX360_LT_ANALOG): KEY_J,
+                    (XBOX360_RB)       : KEY_H,
+                    (XBOX360_RT_ANALOG): KEY_K,
+            ])
+
+            save()
+        }
+    }
+
+    void pokeMini() {
+
+        mappingManager.setPokeMiniDefaults()
+        println "JoyToKey Nintendo Pokemon Mini"
+        hs.getSystem("Nintendo Pokemon Mini").loadJ2KConfig().presets.with {
+
+            analogToCursor(player1)
+            dPadToCursor(player1)
+            buttonsTo(player1, [
+                    (XBOX360_A)        : KEY_X,
+                    (XBOX360_B)        : KEY_Z,
+                    (XBOX360_X)        : KEY_S,
+                    (XBOX360_Y)        : KEY_C,
+                    (XBOX360_BACK)     : KEY_A,
+                    (XBOX360_START)    : KEY_E,
+                    (XBOX360_LT_ANALOG): TAB,
+                    (XBOX360_RT_ANALOG): TAB,
+            ])
+            save()
+        }
+    }
+}

@@ -28,7 +28,6 @@ class NullDcMapping {
     static List<File> set360(File nullDc) {
         IniFile ini = new IniFile().parse(new File(nullDc, "nullDC.cfg"))
         println "- nullDC Configuring Xbox 360 for players 1,2,3 & 4"
-        println ini.file.absolutePath
         setDefaultPlayer1Keys(ini)
         ini.put("nullDC_plugins", "Current_maple0_5", XBOX_360)
         ini.put("nullDC_plugins", "Current_maple1_5", XBOX_360)

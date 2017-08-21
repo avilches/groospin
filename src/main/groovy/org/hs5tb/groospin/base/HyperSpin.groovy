@@ -408,7 +408,7 @@ class HyperSpin {
         String relativeRoot = file.absolutePath - hsRoot.parent
         File dstFile = new File(to, relativeRoot)
         IOTools.copy(file, dstFile)
-        dstFile
+        return dstFile
     }
 }
 

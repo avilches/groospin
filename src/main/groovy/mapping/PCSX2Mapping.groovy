@@ -12,9 +12,6 @@ class PCSX2Mapping {
         IniFile psx2 = new IniFile().parse(new File(hs.getPCSX2Folder(), "inis\\PCSX2_ui.ini"))
         IniFile lilyPad = new IniFile().parse(new File(hs.getPCSX2Folder(), "inis\\LilyPad.ini"))
 
-        println psx2.file.absolutePath
-        println lilyPad.file.absolutePath
-
         psx2.put("Filenames", "PAD", "LilyPad.dll")
         psx2.store()
         if (lilyPad.get("Device 1", "Display Name") != "WM Keyboard") {

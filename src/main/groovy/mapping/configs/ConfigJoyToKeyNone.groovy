@@ -1,32 +1,44 @@
 package mapping.configs
 
-import mapping.ResetAllMappings
+import mapping.MappingManager
 import org.hs5tb.groospin.base.HyperSpin
 
-HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
+class ConfigJoyToKeyNone {
 
-ResetAllMappings.mirror = new File("D:\\parches\\mapping\\reset")
+    MappingManager mappingManager
+    HyperSpin hs
 
-ResetAllMappings.emptyAllJoyToKeyProfiles(hs)
-
-ResetAllMappings.setHyperSpinDefaultKeys(hs)
-ResetAllMappings.emptyRetroArch(hs.retroArch)
-ResetAllMappings.setPinballDefaults()
-ResetAllMappings.setNoMameCtrlAndDefaultCfg(hs)
-ResetAllMappings.setWinViceDefaultKeys(hs)
-ResetAllMappings.setPS2DefaultKeys(hs)
-ResetAllMappings.setSuperModel3DefaultKeysAndJoy(hs)
-ResetAllMappings.setDaphneDefaultKeys(hs)
-ResetAllMappings.setGamecubeDefaultKeyboard(hs)
-ResetAllMappings.setFourDODefaultKeys(hs)
-ResetAllMappings.setZincDefaultKeys(hs)
-ResetAllMappings.setNeoRaineDefaults(hs)
-ResetAllMappings.setPokeMiniDefaults(hs)
-ResetAllMappings.setDICEDefaults(hs)
-ResetAllMappings.setNullDcKeyboardControlled(hs)
-
-ResetAllMappings.setWiiDefault360(hs)
-ResetAllMappings.setPPSSPP360AndKeys(hs)
-ResetAllMappings.setDemul360(hs)
+    ConfigJoyToKeyNone(HyperSpin hs) {
+        this.hs = hs
+    }
 
 
+    void execute(File mirrorPath) {
+        this.hs = hs
+        mappingManager = new MappingManager(hs)
+        mappingManager.emptyAllJoyToKeyProfiles()
+
+        mappingManager.setHyperSpinDefaultKeys()
+        mappingManager.emptyRetroArch()
+        mappingManager.setPinballDefaults()
+        mappingManager.setNoMameCtrlAndDefaultCfg()
+        mappingManager.setWinViceDefaultKeys()
+        mappingManager.setPS2DefaultKeys()
+        mappingManager.setSuperModel3DefaultKeysAndJoy()
+        mappingManager.setDaphneDefaultKeys()
+        mappingManager.setGamecubeDefaultKeyboard()
+        mappingManager.setFourDODefaultKeys()
+        mappingManager.setZincDefaultKeys()
+        mappingManager.setNeoRaineDefaults()
+        mappingManager.setPokeMiniDefaults()
+        mappingManager.setDICEDefaults()
+        mappingManager.setNullDcKeyboardControlled()
+
+        mappingManager.setWiiDefault360()
+        mappingManager.setPPSSPP360AndKeys()
+        mappingManager.setDemul360()
+
+        mappingManager.mirrorUpdatedFiles(mirrorPath)
+
+    }
+}
