@@ -9,7 +9,7 @@
 #include <File.au3>
 
 
-$maxRuns = 2
+$maxRuns = 20
 $iniFile = "HyperRunner.ini"
 $logFile = "HyperRunner.log.txt"
 
@@ -82,8 +82,33 @@ For $i = 1 To $maxRuns Step 1
 	EndIf
 Next
 
+For $i = 1 To $maxRuns Step 1
+	Local $path = IniRead($iniFile, "Delete", "Path" & $i, "")
+	Local $prefix = "[Delete] Path" & $i & ": " & $path & " "
+	If $path <> "" Then
+		If FileExists($path) Then
+			If IsFile($path) Then
+				FileDelete($path)
+				myLog($prefix & "(file deleted)")
+			Else
+				DirRemove($path, 1)
+				DirCreate($path)
+				myLog($prefix & "(folder deleted recursively)")
+			EndIf
+		Else
+			myLog($prefix & "(not found)")
+		EndIf
+
+	EndIf
+Next
+
 Func myLog($txt)
 	Local $hFileOpen = FileOpen($logFile, $FO_APPEND)
 	FileWriteLine($hFileOpen, $txt)
 	FileClose($hFileOpen)
 EndFunc
+
+Func IsFile($path)
+    Return StringInStr(FileGetAttrib($path), "D") = 0
+EndFunc
+
