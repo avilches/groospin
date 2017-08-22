@@ -18,15 +18,11 @@ class ConfigJoyToKeyXbox360 {
         this.hs = hs
     }
 
-    void execute(File mirrorPath) {
+    void execute(File mirrorPath = null) {
         this.hs = hs
         mappingManager = new MappingManager(hs)
         mappingManager.emptyAllJoyToKeyProfiles()
 
-        mappingManager.configDemul360()
-        mappingManager.mirrorUpdatedFiles(mirrorPath)
-
-        return
         mapEscapeExit()
         hyperSpin()
         retroArch()

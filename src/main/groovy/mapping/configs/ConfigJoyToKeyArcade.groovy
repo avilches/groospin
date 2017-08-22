@@ -19,7 +19,7 @@ class ConfigJoyToKeyArcade {
         this.hs = hs
     }
 
-    void execute(File mirrorPath, ArcadeSet arcadeSet) {
+    void execute(ArcadeSet arcadeSet, File mirrorPath = null) {
         this.arcadeSet = arcadeSet
         mappingManager = new MappingManager(hs)
         mappingManager.emptyAllJoyToKeyProfiles()
@@ -39,9 +39,8 @@ class ConfigJoyToKeyArcade {
         dice()
         neoRaine()
         pokeMini()
-
-        mappingManager.configNullDc360()
-        mappingManager.configDemul360()
+        demul()
+        nullDC()
 
         mappingManager.mirrorUpdatedFiles(mirrorPath)
     }
@@ -692,7 +691,6 @@ hud: H
     }
 
     void zinc() {
-
         mappingManager.configZincKeys()
         println "JoyToKey Zinc"
         hs.getSystem("Zinc").loadJ2KConfig().presets.with {
@@ -892,32 +890,63 @@ hud: H
 
             save()
         }
-
-/*
-mappingManager.configNullDcKeys()
-println "JoyToKey NullDC"
-
-hs.getSystem("Sega Dreamcast").loadJ2KConfig().presets.with {
-    analogToCursor(player1)
-    dPadToCursor(player1)
-
-    withArcadeSet(delegate) {
-        coin(TAB)
-
-        p1Start(KEY_1)
-        p1Action1(KEY_X)
-        p1Action2(KEY_Z)
-        p1Action3(KEY_W)
-        p1Action4(KEY_A)
-        p1Action5(KEY_S)
-        p1Action6(KEY_Q)
     }
 
-    save()
-}
-*/
+    void demul() {
+        mappingManager.configDemulKeysAndOnlyAnalogTo360()
+        println "JoyToKey Demul"
+        hs.listSystemsDemul()*.loadJ2KConfig().each { J2K j2k ->
+            j2k.presets.with {
+                analogToCursor(player1)
+                dPadToCursor(player1)
 
+                analogToNumpad(player2)
+                dPadToNumpad(player2)
 
+                withArcadeSet(delegate) {
+                    coin(KEY_5)
+
+                    p1Start(KEY_1)
+                    p1Action1(KEY_Z)
+                    p1Action2(KEY_X)
+                    p1Action3(KEY_C)
+                    p1Action4(KEY_V)
+                    p1Action5(KEY_A)
+                    p1Action6(KEY_S)
+
+                    p2Start(KEY_2)
+                    p2Action1(KEY_Q)
+                    p2Action2(KEY_W)
+                    p2Action3(KEY_E)
+                    p2Action4(KEY_R)
+                    p2Action5(KEY_3)
+                    p2Action6(KEY_4)
+                }
+
+                save()
+            }
+        }
+    }
+
+    void nullDC() {
+        mappingManager.configNullDcKeys()
+        println "JoyToKey NullDC"
+        hs.getSystem("Sega Dreamcast").loadJ2KConfig().presets.with {
+            analogToCursor(player1)
+            dPadToCursor(player1)
+
+            withArcadeSet(delegate) {
+                coin(TAB)
+                p1Start(KEY_1)
+                p1Action1(KEY_X)
+                p1Action2(KEY_Z)
+                p1Action3(KEY_W)
+                p1Action4(KEY_A)
+                p1Action5(KEY_S)
+                p1Action6(KEY_Q)
+            }
+            save()
+        }
 
     }
 }

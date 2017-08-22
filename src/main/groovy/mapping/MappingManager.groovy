@@ -245,7 +245,13 @@ class MappingManager {
     }
 
     List<File> configDemul360() {
-        List<File> files = DemulMapping.set360(hs)
+        List<File> files = DemulMapping.configure(hs, DemulMapping.Type.xbox360Controller)
+        updatedFiles.addAll(files)
+        return files
+    }
+
+    List<File> configDemulKeysAndOnlyAnalogTo360() {
+        List<File> files = DemulMapping.configure(hs, DemulMapping.Type.keysAndOnlyAnalogToXbox360)
         updatedFiles.addAll(files)
         return files
     }

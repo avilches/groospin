@@ -206,6 +206,12 @@ class HyperSpin {
         return listSystems().findAll { it.defaultEmulator?.name?.startsWith("MAME") }
 
     }
+
+    Collection<RLSystem> listSystemsDemul() {
+        return listSystems().findAll { it.defaultEmulator?.name?.startsWith("Demul") }
+
+    }
+
     Collection<RLSystem> listSystemsMESS() {
         return listSystems().findAll { it.defaultEmulator?.name?.startsWith("MESS") }
     }

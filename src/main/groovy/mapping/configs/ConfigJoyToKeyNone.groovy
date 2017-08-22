@@ -13,7 +13,7 @@ class ConfigJoyToKeyNone {
     }
 
 
-    void execute(File mirrorPath) {
+    void execute(File mirrorPath = null) {
         this.hs = hs
         mappingManager = new MappingManager(hs)
         mappingManager.emptyAllJoyToKeyProfiles()
