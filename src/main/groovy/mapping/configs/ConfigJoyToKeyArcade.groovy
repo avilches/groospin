@@ -935,15 +935,26 @@ hud: H
             analogToCursor(player1)
             dPadToCursor(player1)
 
+            analogToNumpad(player2)
+            dPadToNumpad(player2)
+
             withArcadeSet(delegate) {
                 coin(TAB)
                 p1Start(KEY_1)
                 p1Action1(KEY_X)
                 p1Action2(KEY_Z)
-                p1Action3(KEY_W)
-                p1Action4(KEY_A)
-                p1Action5(KEY_S)
-                p1Action6(KEY_Q)
+                p1Action3(KEY_C)
+                p1Action4(KEY_V)
+                p1Action5(KEY_B)
+                p1Action6(KEY_N)
+
+                p2Start(KEY_2)
+                p2Action1(KEY_A)
+                p2Action2(KEY_S)
+                p2Action3(KEY_D)
+                p2Action4(KEY_F)
+                p2Action5(KEY_Q)
+                p2Action6(KEY_W)
             }
             save()
         }
