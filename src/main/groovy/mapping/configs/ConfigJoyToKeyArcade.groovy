@@ -22,7 +22,7 @@ class ConfigJoyToKeyArcade {
     void execute(ArcadeSet arcadeSet, File mirrorPath = null) {
         this.arcadeSet = arcadeSet
         mappingManager = new MappingManager(hs)
-        mappingManager.emptyAllJoyToKeyProfiles()
+        mappingManager.setupAllJoyToKeyProfiles(true)
         hyperSpin()
         mapEscapeExit()
         retroArch()
@@ -951,8 +951,8 @@ hud: H
                 p2Start(KEY_2)
                 p2Action1(KEY_A)
                 p2Action2(KEY_S)
-                p2Action3(KEY_D)
-                p2Action4(KEY_F)
+                p2Action3(KEY_U)
+                p2Action4(KEY_Y)
                 p2Action5(KEY_Q)
                 p2Action6(KEY_W)
             }

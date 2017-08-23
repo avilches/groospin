@@ -14,11 +14,11 @@ class MappingManager {
         this.hs = hs
     }
 
-    List<File> emptyAllJoyToKeyProfiles() {
-        println "- JoyToKey: Empty all profiles:"
+    List<File> setupAllJoyToKeyProfiles(boolean clean) {
+        println "- JoyToKey: Setup all profiles. Cleaning: ${clean}"
         List<File> files = []
         (hs.listAllJoyToKeyProfiles() + new J2K(hs, "HyperSpin")).each {
-            it.empty()
+            it.setup(clean)
             files << it.cfg.file
         }
         updatedFiles.addAll(files)

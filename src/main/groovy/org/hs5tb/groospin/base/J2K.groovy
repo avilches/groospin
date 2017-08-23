@@ -24,10 +24,10 @@ class J2K {
         }
         if (!cfgFile.exists()) {
             cfg = new IniFile(file: cfgFile)
-            empty()
         } else {
             cfg = new IniFile().parse(cfgFile)
         }
+        setup(false)
     }
 
     class Preset {
@@ -361,8 +361,10 @@ class J2K {
         }
     }
 
-    J2K empty() {
-        cfg = new IniFile(file: cfg.file)
+    J2K setup(boolean clean = true) {
+        if (clean) {
+            cfg = new IniFile(file: cfg.file)
+        }
         cfg.put("General", "FileVersion", "57")
         cfg.put("General", "NumberOfJoysticks", "4")
         cfg.put("General", "DisplayMode", "2")

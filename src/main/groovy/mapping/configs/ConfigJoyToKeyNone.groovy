@@ -16,7 +16,7 @@ class ConfigJoyToKeyNone {
     void execute(File mirrorPath = null) {
         this.hs = hs
         mappingManager = new MappingManager(hs)
-        mappingManager.emptyAllJoyToKeyProfiles()
+        mappingManager.setupAllJoyToKeyProfiles(true)
 
         mappingManager.configureHyperSpinKeys()
         mappingManager.resetRetroArch()

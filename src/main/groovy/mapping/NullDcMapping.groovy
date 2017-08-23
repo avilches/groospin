@@ -189,8 +189,8 @@ class NullDcMapping {
 
         (ACTION_P2_X): KEY_A,
         (ACTION_P2_Y): KEY_S,
-        (ACTION_P2_A): KEY_D,
-        (ACTION_P2_B): KEY_F,
+        (ACTION_P2_A): KEY_U,
+        (ACTION_P2_B): KEY_Y,
         (ACTION_P2_LSLIDER): KEY_Q,
         (ACTION_P2_RSLIDER): KEY_W,
         (ACTION_P2_Z): KEY_E,
