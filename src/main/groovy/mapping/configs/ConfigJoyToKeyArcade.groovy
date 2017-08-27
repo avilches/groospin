@@ -29,6 +29,7 @@ class ConfigJoyToKeyArcade {
         mame()
         pinballs()
         aae()
+        winvice()
         ps2()
         ppsspp()
         dolphins()
@@ -403,6 +404,10 @@ hud: H
             }
             save()
         }
+
+    }
+
+    void winvice() {
 
         mappingManager.configCommodoreWinViceKeys()
         println "JoyToKey WinVICE: configuring ${hs.listSystemsWinVICE()*.name}"

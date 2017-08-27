@@ -29,6 +29,7 @@ class ConfigJoyToKeyXbox360 {
         mame()
         pinballs()
         aae()
+        winvice()
         superModel3()
         daphne()
         fourDO()
@@ -283,6 +284,9 @@ y hacer el mapeo en el JoyToKey.
             ])
             save()
         }
+    }
+
+    void winvice() {
         mappingManager.configCommodoreWinViceKeys()
         println "JoyToKey WinVICE: configuring ${hs.listSystemsWinVICE()*.name}"
         hs.listSystemsWinVICE()*.loadJ2KConfig().with { J2K j2k ->
