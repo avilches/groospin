@@ -67,7 +67,7 @@ hs.withRocketLauncherInis("Settings/Global RocketLauncher.ini"){ String filename
     if (ini.dirty) ini.store()
 }
 
-def mameSystemNames = hs.listSystems().findAll { it.defaultEmulator?.name?.startsWith("MAME") }*.name
+/*def mameSystemNames = hs.listSystems().findAll { it.defaultEmulator?.name?.startsWith("MAME") }*.name
 hs.withRocketLauncherInis(mameSystemNames.collect { "Settings/${it}/Emulators.ini"}) { String filename, IniFile ini ->
     ini.put("ROMS", "Rom_Path", "..\\Arcades\\MAME\\roms|..\\Arcades\\MAME\\chds|..\\Arcades\\MAME\\romsfake")
     if (ini.dirty) {
@@ -85,7 +85,7 @@ hs.withRocketLauncherInis(mameSystemNames.collect { "Settings/$it/RocketLauncher
         println "Updating Skipchecks=Rom Only: ${filename}"
     }
 }
-
+*/
 
 
 
