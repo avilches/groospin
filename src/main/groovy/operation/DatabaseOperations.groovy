@@ -22,8 +22,10 @@ class DatabaseOperations extends Operations {
         super(hs)
     }
 
+    boolean deep = false
+
     void extractFromDatabase(String newFileSuffix, List<Closure> conditions, List systems = null) {
-        new Checker(hyperSpin).
+        new Checker(hyperSpin, deep).
                 addHandler(new DatabaseTransformer() {
                     @Override
                     void startSystem(RLSystem system) {
