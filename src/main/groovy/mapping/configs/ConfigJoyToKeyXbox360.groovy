@@ -143,8 +143,6 @@ video dummy: [Vintage Commercials]
         new J2K(hs, "HyperSpin").presets.with {
             dPadToCursor(player1)
             dPadToCursor(player2)
-            analogToCursor(player1)
-            analogToCursor(player2)
             xbox360Esc(player1)
             xbox360Esc(player2)
             Map mapping = [

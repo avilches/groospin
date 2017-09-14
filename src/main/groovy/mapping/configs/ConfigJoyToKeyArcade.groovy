@@ -96,8 +96,6 @@ CONTROL ALT MAYUSCULAS + F = TEAM VIEWER
             xbox360Esc(player4)
             dPadToCursor(player3)
             dPadToCursor(player4)
-            analogToCursor(player3)
-            analogToCursor(player4)
             Map mapping = [
                     (XBOX360_A)        : RETURN,
                     (XBOX360_B)        : ESC,
