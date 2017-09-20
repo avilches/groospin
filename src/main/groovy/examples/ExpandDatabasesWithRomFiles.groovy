@@ -7,17 +7,18 @@ import org.hs5tb.groospin.base.Rom
 import org.hs5tb.groospin.common.IOTools
 
 
-HyperSpin hs = new HyperSpin("D:/Games/RocketLauncher")
+HyperSpin hs = new HyperSpin("I:/Games/RocketLauncher")
 boolean simulation = false
 //def systems = hs.listSystemNames()
-//def systems = ["Sony PlayStation", "Sony PlayStation 2", "Nintendo GameCube", "Nintendo Wii", "Sony PSP", "Sega DreamCast", "Sega Saturn" , "Sega Saturn Japan", "Nintendo DS", "Nintendo 3DS"]
-def systems = ["Sega Mega Drive"]
+def systems = ["Sony PlayStation", "Sony PlayStation 2", "Nintendo GameCube", "Nintendo Wii", "Sony PSP", "Sega DreamCast", "Sega Saturn" , "Sega Saturn Japan", "Nintendo DS", "Nintendo 3DS"]
+//def systems = ["Sega Mega Drive"]
 //def systems = ["Nintendo Wii U"]
 
 systems.each {
     RLSystem system = hs.getSystem(it)
     if (system.defaultEmulator?.module?.contains("MAME") || system.defaultEmulator?.module?.contains("MESS")) return
 
+    int romcount = 0
     HyperSpinDatabase database = system.loadHyperSpinDatabase()
     system.romPathsList.each {
         it.listFiles(new FilenameFilter() {
@@ -28,13 +29,16 @@ systems.each {
         }).each {
             String rom = IOTools.getFilenameWithoutExtension(it)
             if (!database.hasRom(rom)) {
-                println "[${system.name}] New rom found! ${it.absolutePath}"
+                romcount ++
+                //println "[${system.name}] New rom found! ${it.absolutePath}"
                 database.addOnlyIfNew(new Rom(name: rom, description: rom))
             }
         }
     }
-    if (!simulation) {
+    println "[${system.name}] ${romcount} New rom found!"
+    if (!simulation && romcount) {
         IOTools.move(database.db, new File(database.db.parentFile, database.db.name+".${new Date().format("yyyyMMdd-HHmmss")}.bck"));
+        println "NO SIMULATION. Rewriting database ${database.db}"
         HyperSpinDatabase.rewriteDatabase(database)
     }
 }
