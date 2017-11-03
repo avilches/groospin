@@ -30,7 +30,7 @@ class ChangeDrive {
         folders.collect {
             File resource = new File("${drive}:\\Games\\${it}")
             if (!resource.exists()) {
-                throw Exception("Folder ${resource} not found".toString())
+                throw new Exception("Folder ${resource} not found".toString())
             }
             return resource
         }.each {
