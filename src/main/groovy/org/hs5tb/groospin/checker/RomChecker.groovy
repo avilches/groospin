@@ -27,7 +27,12 @@ class RomChecker {
         String romName = rom.name
         CheckRomResult checkResultRom = new CheckRomResult(romName: romName, originalSystem: originalSystem, system: system, systemName: system.name)
 
-        File romFound = system.findValidRom(romName)
+        File romFound
+        if ((system.name in system.hyperSpin.systemNames)) {
+            // Puede que la rom existe, pero el sistema orignal del que tira deberia estar en el sistema
+            // si no lo esta, ni buscamos la rom
+            romFound = system.findValidRom(romName)
+        }
         if (romFound) {
             rom.romFileFound = romFound.canonicalFile
             if (system.romIsExecutable(romName)) {
