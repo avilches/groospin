@@ -19,10 +19,11 @@ class ConfigJoyToKeyArcade {
         this.hs = hs
     }
 
-    void execute(ArcadeSet arcadeSet, File mirrorPath = null) {
+    void execute(ArcadeSet arcadeSet, boolean analogXbox360Only = true, File mirrorPath = null) {
         this.arcadeSet = arcadeSet
         mappingManager = new MappingManager(hs)
         mappingManager.setupAllJoyToKeyProfiles(true)
+
         hyperSpin()
         mapEscapeExit()
         retroArch()
@@ -30,9 +31,6 @@ class ConfigJoyToKeyArcade {
         pinballs()
         aae()
         winvice()
-        ps2()
-        ppsspp()
-        dolphins()
         superModel3()
         daphne()
         fourDO()
@@ -40,8 +38,24 @@ class ConfigJoyToKeyArcade {
         dice()
         neoRaine()
         pokeMini()
-        demul()
-        nullDC()
+        ppsspp()  // keys + xbox 360 + joytokey
+        ps2()     // keys + xbox 360 + joytokey
+
+        if (analogXbox360Only) {
+            mappingManager.configGamecube360()
+            mappingManager.configWii360()
+
+            mappingManager.configNullDc360()
+            mappingManager.configDemul360()
+
+        } else {
+            demul()   // keys + joytokey + volante/pedal analogico
+            nullDC()  // keys + joytokey
+
+            // Wii: 360
+            // Gamecube: keyboard + joytokey
+            dolphins()
+        }
 
         mappingManager.mirrorUpdatedFiles(mirrorPath)
     }

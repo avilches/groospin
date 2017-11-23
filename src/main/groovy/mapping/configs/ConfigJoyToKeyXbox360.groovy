@@ -23,8 +23,8 @@ class ConfigJoyToKeyXbox360 {
         mappingManager = new MappingManager(hs)
         mappingManager.setupAllJoyToKeyProfiles(true)
 
-        mapEscapeExit()
         hyperSpin()
+        mapEscapeExit()
         retroArch()
         mame()
         pinballs()
