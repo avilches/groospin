@@ -19,7 +19,7 @@ class ConfigJoyToKeyArcade {
         this.hs = hs
     }
 
-    void execute(ArcadeSet arcadeSet, boolean analogXbox360Only = true, File mirrorPath = null) {
+    void execute(ArcadeSet arcadeSet, boolean analogXbox360Only, File mirrorPath = null) {
         this.arcadeSet = arcadeSet
         mappingManager = new MappingManager(hs)
         mappingManager.setupAllJoyToKeyProfiles(true)
