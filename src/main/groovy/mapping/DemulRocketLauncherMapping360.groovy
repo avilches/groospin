@@ -61,12 +61,12 @@ class DemulRocketLauncherMapping360 extends DemulMapping {
 
     static void configureGames(IniFile demul) {
         Map JOY1_STARTCOIN = [
-                "START": KEY_1,
-                "COIN" : KEY_5
+                "START": JOY1_START,
+                "COIN" : JOY1_BACK
         ]
         Map JOY2_STARTCOIN = [
-                "START": KEY_2,
-                "COIN" : KEY_6
+                "START": JOY2_START,
+                "COIN" : JOY2_BACK
         ]
         Map JOY1_DRIVING = [
                 "ANALOGUP"   : JOY1_RT_ANALOG,
