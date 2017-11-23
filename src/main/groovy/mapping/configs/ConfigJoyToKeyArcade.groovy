@@ -137,8 +137,6 @@ CONTROL ALT MAYUSCULAS + F = TEAM VIEWER
                 withArcadeSet(delegate) {
                     exit(ESC)
                 }
-                xbox360Esc(player1)
-                xbox360Esc(player2)
                 xbox360Esc(player3)
                 xbox360Esc(player4)
                 save()
