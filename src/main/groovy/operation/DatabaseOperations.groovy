@@ -46,6 +46,7 @@ class DatabaseOperations extends Operations {
 
                     @Override
                     void endDatabaseUpdate(CheckTotalResult checkResult) {
+                        dirty = fixDatabase(currentDatabase) || dirty
                         if (dirty) {
                             String newDatabase = "${checkResult.systemName}${newFileSuffix}.xml"
                             log("(${simulation ? "simulation" : "real"}) Saved new database ${newDatabase}")
@@ -76,6 +77,7 @@ class DatabaseOperations extends Operations {
 
                     @Override
                     void endDatabaseUpdate(CheckTotalResult checkResult) {
+                        dirty = fixDatabase(currentDatabase) || dirty
                         if (dirty) {
                             String newDatabase = "${checkResult.systemName}${backupSuffix}.xml"
                             log("(${simulation ? "simulation" : "real"}) Database saved. Backup: ${newDatabase}")
