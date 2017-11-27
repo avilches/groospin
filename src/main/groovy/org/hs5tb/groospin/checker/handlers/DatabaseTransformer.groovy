@@ -49,6 +49,7 @@ abstract class DatabaseTransformer extends BaseCheckHandler {
 
     void backupOriginalDatabaseAndSave(String backupFileName, boolean printDifferences = true) {
         backupOriginalDatabaseTo(backupFileName)
+        fixDatabase(currentDatabase)
         originalDatabaseFile.text = XmlUtil.serialize(currentDatabase)
 
         if (printDifferences) {
@@ -57,8 +58,20 @@ abstract class DatabaseTransformer extends BaseCheckHandler {
         }
     }
 
+    void fixDatabase(Node node) {
+        // Fix the database. Ensure all the nodes have the cloneof tag even if it's empty
+        // The filter "parent_only=true" in HyperSpin will show a black screen if some of the
+        // games have cloneof and others don't.
+        node.each { Node n ->
+            if (n.name() == "game" && n.cloneof.size() == 0) {
+                n.appendNode("cloneof")
+            }
+        }
+    }
+
     void saveDatabaseTo(String newFileName, boolean printDifferences = true) {
         File newFile = new File(originalDatabaseFile.parent, newFileName)
+        fixDatabase(currentDatabase)
         newFile.text = XmlUtil.serialize(currentDatabase)
 
         if (printDifferences) {
