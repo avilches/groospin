@@ -58,15 +58,18 @@ abstract class DatabaseTransformer extends BaseCheckHandler {
         }
     }
 
-    void fixDatabase(Node node) {
+    boolean fixDatabase(Node node) {
         // Fix the database. Ensure all the nodes have the cloneof tag even if it's empty
         // The filter "parent_only=true" in HyperSpin will show a black screen if some of the
         // games have cloneof and others don't.
+        boolean fixed = false
         node.each { Node n ->
             if (n.name() == "game" && n.cloneof.size() == 0) {
                 n.appendNode("cloneof")
+                fixed = true
             }
         }
+        return fixed
     }
 
     void saveDatabaseTo(String newFileName, boolean printDifferences = true) {
@@ -86,12 +89,10 @@ abstract class DatabaseTransformer extends BaseCheckHandler {
 
     abstract void endDatabaseUpdate(CheckTotalResult checkResult)
     final void endSystem(CheckTotalResult checkResult) {
-        if (dirty) {
-            try {
-                endDatabaseUpdate(checkResult)
-            } catch (e) {
-                e.printStackTrace()
-            }
+        try {
+            endDatabaseUpdate(checkResult)
+        } catch (e) {
+            e.printStackTrace()
         }
     }
 
