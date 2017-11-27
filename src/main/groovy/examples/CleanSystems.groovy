@@ -1,6 +1,8 @@
 package examples
 
 import groovy.xml.XmlUtil
+import operation.DatabaseOperations
+import operation.Operations
 import org.hs5tb.groospin.base.HyperSpin
 import org.hs5tb.groospin.base.RLSystem
 import org.hs5tb.groospin.base.Rom
@@ -10,6 +12,7 @@ import org.hs5tb.groospin.checker.handlers.HumanInfo
 import org.hs5tb.groospin.checker.handlers.PrintMissing
 import org.hs5tb.groospin.checker.result.CheckRomResult
 import org.hs5tb.groospin.checker.result.CheckTotalResult
+import org.hs5tb.groospin.common.IOTools
 
 /**
  * Created by Alberto on 23-Dec-16.
@@ -18,8 +21,14 @@ import org.hs5tb.groospin.checker.result.CheckTotalResult
  */
 
 
-HyperSpin hs = new HyperSpin("I:/Games/RocketLauncher")
+HyperSpin hs = new HyperSpin("J:/Games/RocketLauncher")
 boolean simulation = false
+
+
+DatabaseOperations operations = new DatabaseOperations(hs)
+operations.simulation = simulation
+operations.removeFromDatabase("-with-missing", [Operations.MISSING, Operations.IS_CLONE]) /// , systems)
+
 
 Set toDelete = []
 int systemsOk = 0
@@ -46,13 +55,14 @@ new Checker(hs).
 //}).checkSystems(["Apple II"])
 
 println "0 roms systems: ${toDelete.join(", ")}"
-println "${systemsOk} roms"
+println "${systemsOk} systems ok"
 
 if (!simulation) {
+    println "Media folders renamed. Delete these to free space:"
     toDelete.each {
         File mediaFolder = hs.getSystem(it).getMediaFolder()
         File newName = new File(mediaFolder.parentFile, mediaFolder.name + ".delete")
-        println "Renaming ${mediaFolder} -> ${newName}"
+        println "${newName}"
         mediaFolder.renameTo(newName)
     }
 
@@ -63,6 +73,10 @@ if (!simulation) {
         }
     }
 
-    new File(hs.getMainMenuFile().parentFile, "Main Menu.xml.clean").text = XmlUtil.serialize(mainMenu)
+    File backup = new File(hs.getMainMenuFile().parentFile, "Main Menu.backup-${new Date().format("yyyy-MM-dd HH-mm")}.xml")
+    IOTools.copy(hs.getMainMenuFile(), backup)
+    hs.getMainMenuFile().text = XmlUtil.serialize(mainMenu)
+    println "New main menu with created with ${systemsOk} systems only"
+    println "You have a backup in ${backup.absolutePath}"
 }
 
