@@ -17,7 +17,7 @@ h3 { margin:15pt 0 3pt; }
 
 hs.listSystems().each { RLSystem system ->
     txt << "<h3>${system.name}</h3>"
-    if (system.romsIsExecutable()) {
+    if (system.romIsExecutable()) {
         txt << "${system.defaultEmulator.name} (Modulo: ${system.defaultEmulator.module})<br/><ul>"
         system.listRomNames().each { String game ->
             File romFound = system.findValidRom(game)

@@ -7,7 +7,7 @@ import org.hs5tb.groospin.base.Rom
 import org.hs5tb.groospin.common.IOTools
 
 
-HyperSpin hs = new HyperSpin("I:/Games/RocketLauncher")
+HyperSpin hs = new HyperSpin("F:/Games/RocketLauncher")
 boolean simulation = false
 //def systems = hs.listSystemNames()
 def systems = ["Sony PlayStation", "Sony PlayStation 2", "Nintendo GameCube", "Nintendo Wii", "Sony PSP", "Sega DreamCast", "Sega Saturn" , "Sega Saturn Japan", "Nintendo DS", "Nintendo 3DS"]

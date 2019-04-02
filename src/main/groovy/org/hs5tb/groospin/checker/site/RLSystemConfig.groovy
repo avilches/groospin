@@ -24,19 +24,23 @@ class RLSystemConfig {
     boolean arcade
     String pack
 
+    boolean links = true
+
     RLSystemConfig() {
     }
     RLSystemConfig(PropertyMapper map) {
-        hidden = map[2].trim() == "OCULTO"
+        hidden = map[2].trim() == "OCULTO" || map[11] == "H"
         emulation = map[4].trim()
-        type = map[7].trim()
-
         stable = emulation != "I"
         perfect = emulation == "P"
+
         arcade = map[5].trim() != "N"
+        type = map[7].trim()
+
         name = map[8].trim()
         pack = map[9].trim()
         calculateSpace = !map[10] // Si no vacio, tiene padre, luego no se calcula espacio
+        links = map[11] == "NL"
     }
 
 

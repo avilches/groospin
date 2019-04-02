@@ -21,7 +21,7 @@ import org.hs5tb.groospin.common.IOTools
  */
 
 
-HyperSpin hs = new HyperSpin("J:/Games/RocketLauncher")
+HyperSpin hs = new HyperSpin("F:/Games/RocketLauncher")
 boolean simulation = false
 
 

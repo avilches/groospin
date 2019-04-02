@@ -26,35 +26,35 @@ class ConfigJoyToKeyArcade {
 
         hyperSpin()
         mapEscapeExit()
-        retroArch()
+//        retroArch()
         mame()
         pinballs()
-        aae()
-        winvice()
-        superModel3()
-        daphne()
-        fourDO()
-        zinc()
-        dice()
-        neoRaine()
-        pokeMini()
-        ppsspp()  // keys + xbox 360 + joytokey
-        ps2()     // keys + xbox 360 + joytokey
+//        aae()
+//        winvice()
+//        superModel3()
+//        daphne()
+//        fourDO()
+//        zinc()
+//        dice()
+//        neoRaine()
+//        pokeMini()
+//        ppsspp()  // keys + xbox 360 + joytokey
+//        ps2()     // keys + xbox 360 + joytokey
 
         if (analogXbox360Only) {
-            mappingManager.configGamecube360()
-            mappingManager.configWii360()
-
-            mappingManager.configNullDc360()
-            mappingManager.configDemul360()
-
+//            mappingManager.configGamecube360()
+//            mappingManager.configWii360()
+//
+//            mappingManager.configNullDc360()
+//            mappingManager.configDemul360()
+//
         } else {
-            demul()   // keys + joytokey + volante/pedal analogico
-            nullDC()  // keys + joytokey
+//            demul()   // keys + joytokey + volante/pedal analogico
+//            nullDC()  // keys + joytokey
 
             // Wii: 360
             // Gamecube: keyboard + joytokey
-            dolphins()
+//            dolphins()
         }
 
         mappingManager.mirrorUpdatedFiles(mirrorPath)
@@ -306,7 +306,8 @@ CONTROL ALT MAYUSCULAS + F = TEAM VIEWER
         }
 
 /*
-Pinball FX2.
+Pinball FX2
+Pinball FX3
 Reset to defaults
 pinballs: lshift / rshift
 sacar: enter
@@ -316,6 +317,36 @@ nudge: lctrl, space, rctrl
 
         println "JoyToKey Pinball FX2"
         hs.getSystem("Pinball FX2").loadJ2KConfig().presets.with {
+            analogTo(player1, LCTRL, RETURN, SPACE, RCTRL)  // abajo sacar, resto golpear
+            analogTo(player2, LCTRL, RETURN, SPACE, RCTRL)  // abajo sacar, resto golpear
+
+            withArcadeSet(delegate) {
+                p1Action1(RETURN)
+                p1Action2(RETURN)
+                p1Action3(RETURN)
+                p1Action4(KEY_C)
+                p1Action5(KEY_C)
+                p1Action6(KEY_C)
+
+                p1Start(RETURN)
+                coin(RETURN)
+
+                pinballLeft(LSHIFT)
+                pinballRight(RSHIFT)
+
+                p2Action1(RETURN)
+                p2Action2(RETURN)
+                p2Action3(RETURN)
+                p2Action4(KEY_C)
+                p2Action5(KEY_C)
+                p2Action6(KEY_C)
+            }
+
+            save()
+        }
+
+        println "JoyToKey Pinball FX3"
+        hs.getSystem("Pinball FX3").loadJ2KConfig().presets.with {
             analogTo(player1, LCTRL, RETURN, SPACE, RCTRL)  // abajo sacar, resto golpear
             analogTo(player2, LCTRL, RETURN, SPACE, RCTRL)  // abajo sacar, resto golpear
 

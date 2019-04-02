@@ -220,6 +220,7 @@ class MappingManager {
         println "****** Pinball Arcade. Run app at least one time"
         println "****** Pinball Arcade. Go to menu -> options -> controls -> reset default. HKEY_CURRENT_USER\\Software\\PinballArcade\\PinballArcade"
         println "****** Pinball FX2. Go to menu -> options -> controls -> reset default "
+        println "****** Pinball FX3. Go to menu -> options -> controls -> reset default "
     }
 
     void configDICE() {

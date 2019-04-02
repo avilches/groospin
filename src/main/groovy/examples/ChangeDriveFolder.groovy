@@ -5,7 +5,7 @@ import org.hs5tb.groospin.common.IOTools
 
 
 class ChangeDrive {
-    static String find = "(?i)D:\\\\Games"
+    static String find = "(?i)[a-zA-Z]:\\\\Games"
     boolean simulation = true
     static folders = [
             "HyperSpin-fe\\Settings",
@@ -20,7 +20,7 @@ class ChangeDrive {
                       "RocketLauncher\\Modules",
                       "RocketLauncher\\Settings",
                       "RocketLauncher\\Profiles"]
-    static extensions = ["ini","conf","xml","ahk","cfg","bat","cmd","txt","properties", "groovy", "java","config"] as Set
+    static extensions = ["ini","conf","xml","ahk","cfg","bat","cmd","prof","txt","properties", "groovy", "java","config"] as Set
     String drive
     String desired
 
@@ -38,15 +38,27 @@ class ChangeDrive {
         }
     }
 
+    boolean reverse = false
+
     void changeResource(File resource) {
+        println "CHANGE RESOURCE ${resource.directory?"dir":"file"} ${resource} "
         if (resource.directory) {
             resource.eachFileRecurse(FileType.FILES) { File file ->
-                if (IOTools.getExtension(file.name.toLowerCase()) in extensions) {
-                    replaceFile(file)
+                if (reverse) {
+                    if (IOTools.getExtension(file.name) == "D_DRIVE_ORIGINAL") {
+                        String originalName = file.absolutePath - "D_DRIVE_ORIGINAL"
+                        new File(originalName).delete()
+                        file.renameTo(new File(originalName))
+                        println "Reversing ${file.absolutePath}"
+                    }
+                } else {
+                    if (IOTools.getExtension(file.name.toLowerCase()) in extensions) {
+                        replaceFile(file)
+                    }
                 }
             }
         } else {
-            replaceFile(resource)
+            if (!reverse) replaceFile(resource)
         }
     }
 
@@ -54,15 +66,13 @@ class ChangeDrive {
         String replace = "${desired}:\\\\Games"
         String oldText = file.text
         String newText = oldText.replaceAll(find, replace)
-        print "${file.absolutePath}..."
         if (oldText != newText) {
-            println " REPLACED!!"
+            println "${file.absolutePath}..."
             if (!simulation) {
                 IOTools.copy(file, new File(file.parentFile, "${file.name}.D_DRIVE_ORIGINAL"))
                 file.text = newText
             }
         } else {
-            println ""
         }
     }
 

@@ -68,6 +68,30 @@ debugRoms.removeAll { it.catVerCat?.contains("Tabletop") || it.genre?.contains("
                 !rom.disks
     }
 
+    // SOLO PARA FONTA EL PINBALL
+
+    generateAll(roms, header, "${commonDst}/${version}/sin joystick con trackball solo", databasesToCompare) { MameMachine rom ->
+        !rom.cloneof &&
+                !rom.hasJoystick() && rom.hasBall() && !rom.hasKeyboard() &&
+                !rom.hanafuda && !rom.gambling && !rom.mahjong &&
+                !rom.disks
+    }
+
+    generateAll(roms, header, "${commonDst}/${version}/sin joystick con trackball solo y verticales", databasesToCompare) { MameMachine rom ->
+        !rom.cloneof &&
+                !rom.hasJoystick() && rom.hasBall() && !rom.hasKeyboard() && rom.vertical &&
+                !rom.hanafuda && !rom.gambling && !rom.mahjong &&
+                !rom.disks
+    }
+
+    generateAll(roms, header, "${commonDst}/${version}/joystick o trackball y verticales", databasesToCompare) { MameMachine rom ->
+        !rom.cloneof &&
+                (rom.hasJoystick() || rom.hasBall()) && !rom.hasKeyboard() && rom.r &&
+                !rom.hanafuda && !rom.gambling && !rom.mahjong &&
+                !rom.disks
+    }
+
+
 }
 void generateAll(List roms, Map header, String dst, String databasesToCompare, Closure filter) {
 
